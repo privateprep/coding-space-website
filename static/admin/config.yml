@@ -83,6 +83,25 @@ collections:
               },
             ],
         }
+      - {
+          label: Reviews,
+          name: reviews,
+          widget: object,
+          fields:
+            [
+              { label: Heading, name: heading, widget: string },
+              {
+                label: "Reviews List",
+                name: reviewList,
+                widget: list,
+                fields:
+                  [
+                    { label: review, name: review, widget: string },
+                    { label: name, name: name, widget: string },
+                  ],
+              },
+            ],
+        }
 
   - name: "pages"
     label: "Pages"

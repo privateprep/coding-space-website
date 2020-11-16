@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Points from "../components/Points";
 import Competencies from "../components/Competencies";
+import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
 
 export const ClassCatTemplate = ({
@@ -12,6 +13,7 @@ export const ClassCatTemplate = ({
   content,
   contentComponent,
   description,
+  reviews,
   title,
   points,
   helmet,
@@ -34,6 +36,7 @@ export const ClassCatTemplate = ({
           <PostContent content={content} />
           <Competencies data={competencies} />
           <Points data={points} />
+          <Reviews data={reviews} />
         </div>
       </div>
     </section>
@@ -69,6 +72,7 @@ const ClassCat = ({ data }) => {
         title={post.frontmatter.title}
         points={post.frontmatter.points}
         competencies={post.frontmatter.competencies}
+        reviews={post.frontmatter.reviews}
       />
     </Layout>
   );
@@ -103,6 +107,13 @@ export const pageQuery = graphql`
         points {
           description
           figure
+        }
+        reviews {
+          heading
+          reviewList {
+            name
+            review
+          }
         }
       }
     }
