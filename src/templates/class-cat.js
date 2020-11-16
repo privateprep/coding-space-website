@@ -3,13 +3,17 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Points from "../components/Points";
+import Competencies from "../components/Competencies";
 import Content, { HTMLContent } from "../components/Content";
 
 export const ClassCatTemplate = ({
+  competencies,
   content,
   contentComponent,
   description,
   title,
+  points,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
@@ -23,9 +27,13 @@ export const ClassCatTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
           </div>
+        </div>
+        <div>
+          <p>{description}</p>
+          <PostContent content={content} />
+          <Competencies data={competencies} />
+          <Points data={points} />
         </div>
       </div>
     </section>
@@ -59,6 +67,8 @@ const ClassCat = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        points={post.frontmatter.points}
+        competencies={post.frontmatter.competencies}
       />
     </Layout>
   );
@@ -82,6 +92,18 @@ export const pageQuery = graphql`
         title
         description
         tags
+        competencies {
+          heading
+          subheading
+          skills {
+            description
+            skill
+          }
+        }
+        points {
+          description
+          figure
+        }
       }
     }
   }

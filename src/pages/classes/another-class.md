@@ -5,6 +5,23 @@ date: 2020-11-16T16:52:31.006Z
 description: This is a test class
 featuredclass: true
 featuredimage: /img/ndegiwp.png
+competencies:
+  heading: Nevertheless, She Coded
+  subheading: ""
+  skills:
+    - skill: Confidence
+      description: Coding is a great medium for self-expression, creativity, and fostering intellectual confidence.
+    - skill: Community
+      description: Our all girls classes provide a great learning environment for GirlCoders to learn to code, create, and problem solve.
+    - skill: Computational Thinking
+      description: Through coding we foster ​growth mindset, grit, and computational thinking. Campers develop a newfound problem solving stamina they've never seen before. ​
+points:
+  - description: GirlCoders Taught
+    figure: '874'
+  - description: Scholarship Students
+    figure: '25%'
+  - description: Locations
+    figure: '4'
 ---
 
 

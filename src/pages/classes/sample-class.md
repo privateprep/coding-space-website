@@ -5,7 +5,13 @@ date: 2016-12-17T15:04:10.000Z
 featuredclass: false
 featuredimage: /img/flavor_wheel.jpg
 description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
-
+points:
+  - description: GirlCoders Taught
+    figure: '874'
+  - description: Scholarship Students
+    figure: '25%'
+  - description: Locations
+    figure: '4'
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 
