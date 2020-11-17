@@ -24,9 +24,16 @@ points:
   - description: GirlCoders Taught
     figure: "874"
   - description: Scholarship Students
-    figure: 25%
+    figure: 26%
   - description: Locations
     figure: "4"
+checkmarks:
+  - title: "Project-Based Coding"
+    content: "All students learn to code using the Socratic Method, allowing them to develop a newfound problem-solving stamina.​​ Beginners code in Scratch, a block based programming language created by MIT. Advanced students code in JavaScript or other text-based programming languages. Students receive personalized attention and curriculum customization through experienced teachers and a 4:1 camper-to-counselor ratio. Learn more about our educational philosophy."
+  - title: "Hands-On Activities"
+    content: "Students take a break from their screens and discover the opportunities to create and explore that exist all around them, even in their own living rooms. Centered in the world of STEAM, activities will be derived from the fields of engineering, language arts, design, and more."
+  - title: "Weekly Challenges & Reflection"
+    content: "Students will be challenged each week to learn new programming techniques and stretch their minds in new ways. Each class ends with a reflection on the day's work, lessons learned, and future goals."
 competencies:
   heading: Nevertheless, She Coded
   subheading: .

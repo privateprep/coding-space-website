@@ -8,9 +8,11 @@ import Competencies from "../components/Competencies";
 import BoxWithLogo from "../components/BoxWithLogo";
 import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
+import StyledChecks from "../components/StyledChecks";
 
 export const ClassCatTemplate = ({
   boxWithLogo,
+  checkmarks,
   competencies,
   content,
   contentComponent,
@@ -40,6 +42,7 @@ export const ClassCatTemplate = ({
           <Points data={points} />
           <Reviews data={reviews} />
           <BoxWithLogo data={boxWithLogo} />
+          <StyledChecks items={checkmarks} />
         </div>
       </div>
     </section>
@@ -74,6 +77,7 @@ const ClassCat = ({ data }) => {
         }
         title={post.frontmatter.title}
         points={post.frontmatter.points}
+        checkmarks={post.frontmatter.checkmarks}
         competencies={post.frontmatter.competencies}
         reviews={post.frontmatter.reviews}
         boxWithLogo={post.frontmatter.boxWithLogo}
@@ -100,6 +104,10 @@ export const pageQuery = graphql`
         title
         description
         tags
+        checkmarks {
+          content
+          title
+        }
         competencies {
           heading
           subheading

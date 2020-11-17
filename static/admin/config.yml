@@ -70,6 +70,16 @@ collections:
             ],
         }
       - {
+        label: "Styled Checkmarks",
+        name: checkmarks,
+        widget: list,
+        fields:
+          [
+            { label: Title, name: title, widget: string },
+            { label: Content, name: content, widget: string },
+          ],
+        }
+      - {
           label: Competencies,
           name: competencies,
           widget: object,
