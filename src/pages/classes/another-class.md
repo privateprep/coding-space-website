@@ -5,44 +5,52 @@ date: 2020-11-16T16:52:31.006Z
 description: This is a test class
 featuredclass: true
 featuredimage: /img/ndegiwp.png
-competencies:
-  heading: Nevertheless, She Coded
-  subheading: ""
-  skills:
-    - skill: Confidence
-      description:
-        Coding is a great medium for self-expression, creativity, and fostering
-        intellectual confidence.
-    - skill: Community
-      description:
-        Our all girls classes provide a great learning environment for
-        GirlCoders to learn to code, create, and problem solve.
-    - skill: Computational Thinking
-      description:
-        Through coding we foster ​growth mindset, grit, and computational
-        thinking. Campers develop a newfound problem solving stamina they've
-        never seen before. ​
+boxWithLogo:
+  title: Your child will...
+  content: >-
+    * Build **grit**, a **growth mindset**, and **computational thinking**
+    through coding.
+
+    * **Learn to code** in Scratch or JavaScript.
+
+    * Balance screen time with **hands-on activities** and opportunities to create and explore, even in their own living rooms.
+
+    * Discover and define their **personal passions** through STEM challenges and more.
+
+    * Make **new friends** near and far.
+
+    * **Be challenged** at their individual level.
 points:
   - description: GirlCoders Taught
     figure: "874"
   - description: Scholarship Students
-    figure: "25%"
+    figure: 25%
   - description: Locations
     figure: "4"
+competencies:
+  heading: Nevertheless, She Coded
+  subheading: .
+  skills:
+    - skill: Confidence
+      description: Coding is a great medium for self-expression, creativity, and
+        fostering intellectual confidence.
+    - skill: Community
+      description: Our all girls classes provide a great learning environment for
+        GirlCoders to learn to code, create, and problem solve.
+    - skill: Computational Thinking
+      description: Through coding we foster ​growth mindset, grit, and computational
+        thinking. Campers develop a newfound problem solving stamina they've
+        never seen before. ​
 reviews:
   heading: Happy Students, Happy Parents
   reviewList:
-    - review:
-        All my other coding classes are with boys. At GirlCode the community is
+    - review: All my other coding classes are with boys. At GirlCode the community is
         way more supportive
       name: RIYA, AGE 10
     - review: I want to be a programmer when I grow up!
       name: LILY, AGE 12
     - review: The atmosphere at GirlCode is so judge-free and friendly!
       name: YUSRA, AGE 9
-boxWithLogo:
-  title: "test"
-  content: "## Test"
 ---
 
 ## In-Person Coding Instruction is Back!
