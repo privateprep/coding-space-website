@@ -1,8 +1,16 @@
 import React from "react";
-import smallLogo from "../img/logo-small.svg"
+import remark from "remark";
+import remarkHTML from "remark-html";
+import smallLogo from "../img/logo-small.svg";
 
+const toHTML = value => remark().use(remarkHTML).processSync(value).toString();
+function createMarkup(value) {
+  return { __html: toHTML(value) };
+}
 const BoxWithLogo = ({ data }) => {
   const { title, content } = data;
+
+
   return (
     <div
       className="BoxWithLogo"
@@ -59,9 +67,8 @@ const BoxWithLogo = ({ data }) => {
             margin: "0px",
             padding: "0 0 20px",
           }}
-        >
-          {content}
-        </div>
+          dangerouslySetInnerHTML={createMarkup(content)}
+        ></div>
       </div>
     </div>
   );

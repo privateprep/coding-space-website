@@ -18,7 +18,6 @@ const ClassCatPreview = ({ entry, widgetFor }) => {
 
   const skills = entrySkills ? entrySkills.toJS() : [];
 
-
   return (
     <ClassCatTemplate
       content={widgetFor("body")}
