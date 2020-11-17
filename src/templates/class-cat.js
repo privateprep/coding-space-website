@@ -5,10 +5,12 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Points from "../components/Points";
 import Competencies from "../components/Competencies";
+import BoxWithLogo from "../components/BoxWithLogo";
 import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
 
 export const ClassCatTemplate = ({
+  boxWithLogo,
   competencies,
   content,
   contentComponent,
@@ -37,6 +39,7 @@ export const ClassCatTemplate = ({
           <Competencies data={competencies} />
           <Points data={points} />
           <Reviews data={reviews} />
+          <BoxWithLogo data={boxWithLogo} />
         </div>
       </div>
     </section>
@@ -73,6 +76,7 @@ const ClassCat = ({ data }) => {
         points={post.frontmatter.points}
         competencies={post.frontmatter.competencies}
         reviews={post.frontmatter.reviews}
+        boxWithLogo={post.frontmatter.boxWithLogo}
       />
     </Layout>
   );
@@ -114,6 +118,10 @@ export const pageQuery = graphql`
             name
           }
           heading
+        }
+        boxWithLogo {
+          content
+          title
         }
       }
     }

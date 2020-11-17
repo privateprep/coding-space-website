@@ -50,6 +50,16 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
+          label: "Box with Logo",
+          name: "boxWithLogo",
+          widget: "object",
+          fields:
+            [
+              { label: Title, name: title, widget: string },
+              { label: content, name: content, widget: markdown },
+            ],
+        }
+      - {
           label: Points,
           name: points,
           widget: list,

@@ -40,6 +40,9 @@ reviews:
       name: LILY, AGE 12
     - review: The atmosphere at GirlCode is so judge-free and friendly!
       name: YUSRA, AGE 9
+boxWithLogo:
+  title: "test"
+  content: "## Test"
 ---
 
 ## In-Person Coding Instruction is Back!
