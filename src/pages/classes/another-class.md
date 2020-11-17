@@ -5,6 +5,23 @@ date: 2020-11-16T16:52:31.006Z
 description: This is a test class
 featuredclass: true
 featuredimage: /img/ndegiwp.png
+textImageBlock:
+  content: >-
+    * Build **grit**, a **growth mindset**, and **computational thinking**
+    through coding.
+
+    * **Learn to code** in Scratch or JavaScript.
+
+    * Balance screen time with **hands-on activities** and opportunities to create and explore, even in their own living rooms.
+
+    * Discover and define their **personal passions** through STEM challenges and more.
+
+    * Make **new friends** near and far.
+
+    * **Be challenged** at their individual level.
+  image:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/products-grid3.jpg
 boxWithLogo:
   title: Your child will...
   content: >-

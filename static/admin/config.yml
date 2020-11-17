@@ -50,6 +50,25 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
+          label: "Text with Image Block",
+          name: "textImageBlock",
+          widget: "object",
+          fields:
+            [
+              { label: content, name: content, widget: markdown },
+              {
+                label: Image,
+                name: image,
+                widget: object,
+                fields:
+                  [
+                    { label: Image, name: image, widget: image },
+                    { label: Alt, name: alt, widget: string },
+                  ],
+              },
+            ],
+        }
+      - {
           label: "Box with Logo",
           name: "boxWithLogo",
           widget: "object",
@@ -70,14 +89,14 @@ collections:
             ],
         }
       - {
-        label: "Styled Checkmarks",
-        name: checkmarks,
-        widget: list,
-        fields:
-          [
-            { label: Title, name: title, widget: string },
-            { label: Content, name: content, widget: string },
-          ],
+          label: "Styled Checkmarks",
+          name: checkmarks,
+          widget: list,
+          fields:
+            [
+              { label: Title, name: title, widget: string },
+              { label: Content, name: content, widget: string },
+            ],
         }
       - {
           label: Competencies,

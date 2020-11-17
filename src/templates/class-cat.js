@@ -9,6 +9,7 @@ import BoxWithLogo from "../components/BoxWithLogo";
 import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
 import StyledChecks from "../components/StyledChecks";
+import TextImageBlock from "../components/TextImageBlock";
 
 export const ClassCatTemplate = ({
   boxWithLogo,
@@ -19,6 +20,7 @@ export const ClassCatTemplate = ({
   description,
   reviews,
   title,
+  textImageBlock,
   points,
   helmet,
 }) => {
@@ -37,6 +39,7 @@ export const ClassCatTemplate = ({
         </div>
         <div>
           <Competencies data={competencies} />
+          <TextImageBlock data={textImageBlock} />
           <PostContent content={content} />
           <Points data={points} />
           <BoxWithLogo data={boxWithLogo} />
@@ -80,6 +83,7 @@ const ClassCat = ({ data }) => {
         competencies={post.frontmatter.competencies}
         reviews={post.frontmatter.reviews}
         boxWithLogo={post.frontmatter.boxWithLogo}
+        textImageBlock={post.frontmatter.textImageBlock}
       />
     </Layout>
   );
@@ -129,6 +133,19 @@ export const pageQuery = graphql`
         boxWithLogo {
           content
           title
+        }
+        textImageBlock {
+          content
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
       }
     }
