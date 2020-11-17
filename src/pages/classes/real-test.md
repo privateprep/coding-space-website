@@ -6,10 +6,10 @@ description: Sadly I have to develop a template for you to view this live as you
 featuredclass: true
 featuredimage: /img/ndegiwp.png
 points:
-    figure: 3:1
-    description: Student to Instructor
+  - description: Student to Instructor
+    figure: "3:1"
+  - description: No germs via the internet
     figure: COVID-free
-    description: No germs via the internet
 competencies:
   heading: Now Launching After-School Coding Classes for Kids
   skills:
@@ -24,7 +24,7 @@ competencies:
         personalized attention when they need it. We’re on a mission to help
         kids develop creative thinking skills, confidence, and self-expression
         through learning to code.
-  subheading: '""'
+  subheading: ""
 reviews:
   heading: Happy Students, Happy Parents
   reviewList:
