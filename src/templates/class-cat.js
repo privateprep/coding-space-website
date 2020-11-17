@@ -36,13 +36,12 @@ export const ClassCatTemplate = ({
           </div>
         </div>
         <div>
-          <p>{description}</p>
-          <PostContent content={content} />
           <Competencies data={competencies} />
+          <PostContent content={content} />
           <Points data={points} />
-          <Reviews data={reviews} />
           <BoxWithLogo data={boxWithLogo} />
           <StyledChecks items={checkmarks} />
+          <Reviews data={reviews} />
         </div>
       </div>
     </section>

@@ -22,7 +22,7 @@ boxWithLogo:
     * **Be challenged** at their individual level.
 points:
   - description: Student to Instructor
-    figure: 3:1
+    figure: "3:1"
   - description: No germs via the internet
     figure: COVID-free
 checkmarks:
