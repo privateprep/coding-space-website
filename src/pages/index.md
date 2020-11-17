@@ -1,49 +1,36 @@
 ---
 templateKey: index-page
-title: Kids Coding Through COVID
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+title: Fall Online Classes ​September 14 - January 30
+image: /img/tcs-header.png
+heading: The Best Way to Learn to Code
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Now Kids Can Explore the Unknown, Even From Home
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+    Blast off this fall with The Coding Space Virtual Classes. Working
+    one-on-one or in small groups, your child’s coding journey can now continue
+    anywhere. Our unique fall 2020 group classes program balances screen time
+    with hands-on activities and opportunities to create and explore, even in
+    your own house. Our program provides social interaction so that students can
+    make new friends near and far, all while experiencing our signature 4:1
+    student to teacher ratio ensuring personalized attention when they need it.
+    We’re on a mission to help kids develop creative thinking skills,
+    confidence, and self-expression through learning to code.
+description: "Our dedicated teachers are able to instruct students with a range
+  of abilities: from complete beginners to students already building
+  applications in JavaScript and Python. We have also launched half semester
+  plans to fit your flexible schedule this Fall."
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        We guarantee individual attention and a custom learning experience for
+        each student with a 4:1 student-to-teacher ratio.
     - image: /img/coffee-gear.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        We’re not your typical coding class. Our classes are designed to foster
+        intellectual confidence, growth mindset and computational thinking
+        skills.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
