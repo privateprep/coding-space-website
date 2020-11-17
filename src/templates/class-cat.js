@@ -109,11 +109,11 @@ export const pageQuery = graphql`
           figure
         }
         reviews {
-          heading
           reviewList {
-            name
             review
+            name
           }
+          heading
         }
       }
     }

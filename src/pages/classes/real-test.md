@@ -6,9 +6,9 @@ description: Sadly I have to develop a template for you to view this live as you
 featuredclass: true
 featuredimage: /img/ndegiwp.png
 points:
-  - figure: 3:1
+    figure: 3:1
     description: Student to Instructor
-  - figure: COVID-free
+    figure: COVID-free
     description: No germs via the internet
 competencies:
   heading: Now Launching After-School Coding Classes for Kids
@@ -25,6 +25,17 @@ competencies:
         kids develop creative thinking skills, confidence, and self-expression
         through learning to code.
   subheading: '""'
+reviews:
+  heading: Happy Students, Happy Parents
+  reviewList:
+    - review:
+        All my other coding classes are with boys. At GirlCode the community is
+        way more supportive
+      name: RIYA, AGE 10
+    - review: I want to be a programmer when I grow up!
+      name: LILY, AGE 12
+    - review: The atmosphere at GirlCode is so judge-free and friendly!
+      name: YUSRA, AGE 9
 ---
 
 
