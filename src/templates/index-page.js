@@ -23,28 +23,25 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
       }}
     >
       <div
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          display: "flex",
+          height: "150px",
+          lineHeight: "1",
+          justifyContent: "space-around",
+          alignItems: "left",
+          flexDirection: "column",
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              '#EDC034 0.5rem 0px 0px, #EDC034 -0.5rem 0px 0px',
-            backgroundColor: '#EDC034',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            backgroundColor: "transparent",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
           }}
         >
           {title}
@@ -52,12 +49,10 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              '#EDC034 0.5rem 0px 0px, #EDC034 -0.5rem 0px 0px',
-            backgroundColor: '#EDC034',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            backgroundColor: "transparent",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
           }}
         >
           {subheading}
@@ -112,7 +107,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
