@@ -16,6 +16,7 @@ const TextImageBlock = ({ data }) => {
       style={{
         display: "flex",
         flexXrap: "wrap",
+        padding: "4rem",
       }}
     >
       <div
@@ -25,7 +26,7 @@ const TextImageBlock = ({ data }) => {
           color: "black",
           fontSize: "18px",
           margin: "0px",
-          padding: "0 0 20px",
+          paddingRight: "4rem",
         }}
         dangerouslySetInnerHTML={createMarkup(content)}
       ></div>

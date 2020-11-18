@@ -230,6 +230,57 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/birthday/index.md"
+        label: "Birthday"
+        name: "birthday"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "birthday-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Text with Image Block",
+              name: "textImageBlock",
+              widget: "object",
+              fields:
+                [
+                  { label: content, name: content, widget: markdown },
+                  {
+                    label: Image,
+                    name: image,
+                    widget: object,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Alt, name: alt, widget: string },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Box with Logo",
+              name: "boxWithLogo",
+              widget: "object",
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: content, name: content, widget: markdown },
+                ],
+            }
+          - {
+              label: Pricing,
+              name: points,
+              widget: list,
+              fields:
+                [
+                  { label: Figure, name: figure, widget: string },
+                  { label: Description, name: description, widget: string },
+                ],
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
