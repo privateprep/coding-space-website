@@ -22,11 +22,11 @@ description: "Our dedicated teachers are able to instruct students with a range
   plans to fit your flexible schedule this Fall."
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/clipartkey_2215277.png
       text: >
         We guarantee individual attention and a custom learning experience for
         each student with a 4:1 student-to-teacher ratio.
-    - image: /img/coffee-gear.png
+    - image: /img/clipartkey_419266.png
       text: >
         We’re not your typical coding class. Our classes are designed to foster
         intellectual confidence, growth mindset and computational thinking
