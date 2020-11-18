@@ -1,34 +1,34 @@
 ---
 templateKey: 'blog-post'
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
-date: 2017-01-04T15:04:10.000Z
+title: 'TCS Teacher Spotlight: Meet Brenda Castro'
+date: 2020-11-04T15:04:10.000Z
+featuredimage: /img/climbing-2-1.jpg
 featuredpost: true
 description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+  We at The Coding Space are continually inspired by the dedicated and caring teachers on our team, especially those who contribute to the wellbeing of the communities they serve.
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - spotlight
+  - people
+  - community
 ---
+![climbing](/img/climbing-2-1.jpg)
 
-We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
+We at The Coding Space are continually inspired by the dedicated and caring teachers on our team, especially those who contribute to the wellbeing of the communities they serve. Brenda Castro, a Long Island-based TCS teacher and tutor with Private Prep, is a great example of our culture of caring in action. In addition to helping students learn to think critically, be creative, and code, she volunteers her time as a listener for 7 Cups, an online community for anonymous emotional peer-support. We spoke to her about her experiences doing this unique and important work.
 
-Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.
+##Thanks so much for being willing to chat with us, Brenda! How did you get involved with 7 Cups?
+Thanks for having me! I technically started volunteering with 7 Cups in July of 2015, but I really gave more time starting in March 2020—about 146 hours! I started as a listener and gradually gained more roles. I became an intern and eventually a mentor to other listeners. I now lead discussions and moderate group chats, too.
 
-## A little history
+##Why is volunteering important to you?
+I feel fulfilled when I’m interacting with other people and I care deeply about their wellbeing. I’ve been lucky to have the support of so many friends and family, and volunteering allows me to pay some of that kindness forward. Volunteering also lets me focus on doing something that I enjoy and helps others without the added stress of money or performance reviews. I find that getting to be myself sometimes lets me do my best work.
 
-The Blue Mountains are considered by many to be a hiker's and camper's paradise. The traditional Blue Mountain trek is a 7-mile hike to the peak and consists of a 3,000-foot increase in elevation. Jamaicans prefer to reach the peak at sunrise, thus the 3–4 hour hike is usually undertaken in darkness. Since the sky is usually very clear in the mornings, Cuba can be seen in the distance.
+##What have you learned about yourself in doing this work?
+Regarding 7 Cups specifically, I have gained further confidence in myself and my decision to become a therapist. I was initially nonplussed by their rule to not give advice. If a member reached out to me with an issue, I instinctively wanted to help them solve it. Instead, by listening, empathizing, and reflecting, I am learning how to support someone without taking any power away from them.
 
->Some of the plants found on the Blue Mountain cannot be found anywhere else in the world and they are often of a dwarfed sort.
+##As a teacher, how do you think students and young people could benefit from volunteering?
+Volunteering can help you build a skill, allow you to contribute to a community you care about, give you an opportunity to meet new friends, and feel fulfilled. It can even boost your own mental health because giving can make us happier than receiving. I hope young people definitely consider volunteering!
 
-This is mainly due to the cold climate which inhibits growth. The small coffee farming communities of Claverty Cottage and Hagley Gap are located near the peak.
+##How can others become involved with 7 Cups?
+Joining the community of 7 Cups is the easiest! You can even give back as a member. Becoming a listener requires a little more training, but it's still easy to sign up. You can do so here.
 
-## What you need to know before trying
-
-Jamaican Blue Mountain Coffee or Jamaica Blue Mountain Coffee is a classification of coffee grown in the Blue Mountains of Jamaica. The best lots of Blue Mountain coffee are noted for their mild flavor and lack of bitterness. Over the past few decades, this coffee has developed a reputation that has made it one of the most expensive and sought-after coffees in the world. Over 80% of all Jamaican Blue Mountain Coffee is exported to Japan. In addition to its use for brewed coffee, the beans are the flavor base of Tia Maria coffee liqueur.
-
-Jamaican Blue Mountain Coffee is a globally protected certification mark, meaning only coffee certified by the Coffee Industry Board of Jamaica can be labeled as such. It comes from a recognized growing region in the Blue Mountain region of Jamaica, and its cultivation is monitored by the Coffee Industry Board of Jamaica.
-
-The Blue Mountains are generally located between Kingston to the south and Port Antonio to the north. Rising 7,402 ft, they are some of the highest mountains in the Caribbean. The climate of the region is cool and misty with high rainfall. The soil is rich, with excellent drainage. This combination of climate and soil is considered ideal for coffee.
+##Anything else you'd like to add?
+Yes, I’d just like to share this quote: "Volunteers don't get paid, not because they're worthless, but because they're priceless." —Sherry Anderson

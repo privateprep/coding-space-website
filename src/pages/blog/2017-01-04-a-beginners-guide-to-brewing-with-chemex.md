@@ -1,29 +1,32 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: "Don’t Know Much About: The Coding Space Scholarship Program"
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/digital-heart.jpg
+description: From schools moving to remote or hybrid learning environments to families losing jobs and income as a result of the COVID-19 pandemic, 2020 has been a year full of challenges. Here at The Coding Space, we’re committed to offering support to families and students in need through our scholarship program. With the season of giving just around the corner, we wanted to take a moment and highlight how the scholarship program has contributed to continuing the coding education of students during an especially trying year, as well as to provide information about the program and invite qualifying students to apply. We spoke with Ofelia Canals, Head of Admissions and Client Relations, about this important initiative.
 tags:
-  - brewing
-  - chemex
+  - scholarship
+  - anti-racism
 ---
-![chemex](/img/chemex.jpg)
+![heart](/img/digital-heart.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+From schools moving to remote or hybrid learning environments to families losing jobs and income as a result of the COVID-19 pandemic, 2020 has been a year full of challenges. Here at The Coding Space, we’re committed to offering support to families and students in need through our scholarship program. With the season of giving just around the corner, we wanted to take a moment and highlight how the scholarship program has contributed to continuing the coding education of students during an especially trying year, as well as to provide information about the program and invite qualifying students to apply. We spoke with Ofelia Canals, Head of Admissions and Client Relations, about this important initiative.
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+## Thanks for speaking with us, Ofelia. Can you give us a little background on the program?
+While we received our first application in June 2016, the scholarship program has been a central piece of our mission since the beginning. Over the last year and a half, we’ve focused on formalizing and expanding the initiative. As of 2020, we have awarded over 300 need-based scholarships to our after-school classes and summer camps.
 
-## The little secrets of Chemex brewing
+## It sounds like this is a central piece of the TCS ethos. Can you expand on that?
+Absolutely. We view our scholarship program as an essential part of our mission to create a more equitable and inclusive computer science industry. We are passionate about providing the opportunity for all students to become digitally literate and to foster critical thinking skills. To that end, we aim for 25 percent of our student population to receive a full or partial scholarship.
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
+We know this year especially has brought increased hardship to many of our families and we are committed to continuing to provide a space for current and new students to learn and grow.
 
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
+## What makes the TCS scholarship program unique from other programs like it?
+Our process is very simple and straightforward. We don’t require long application answers or multiple forms and simply aim to provide access to as many students as we can. Parents simply submit answers to a short questionnaire which our team then reviews. If your application is approved and a scholarship spot opens up, we will reach out directly.
 
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
+## Looking ahead, what’s next for the scholarship program?
+As we grow and our students enter high school, we hope to be able to continue to support them in their journeys as coders. We also aim to create opportunities for our scholarship students to join our staff as teachers and help inspire future generations of coders.
 
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+Finally, because our aim is to support students from a wide variety of backgrounds and experiences, we acknowledge that this program will require continued assessment, especially through the lens of racial equity. We are currently in this process and look forward to the continued work of incorporating racial equity into our approach.
+
+Full details as well as application information can be found here. For questions about the scholarship program, please contact Ofelia directly at ofelia@thecodingspace.com.
