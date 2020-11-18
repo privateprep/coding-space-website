@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { ClassCatTemplate } from "../../templates/class-cat";
 
-const ClassCatPreview = ({ entry, widgetFor }) => {
+const ClassCatPreview = ({ entry, widgetFor, getAsset }) => {
   const tags = entry.getIn(["data", "tags"]);
 
   const entryPoints = entry.getIn(["data", "points"]);
@@ -39,6 +39,15 @@ const ClassCatPreview = ({ entry, widgetFor }) => {
         heading: entry.getIn(["data", "reviews", "heading"]),
         reviewList: reviewList,
       }}
+      textImageBlock={{
+        content: entry.getIn(["data", "textImageBlock", "content"]),
+        image: {
+          image: getAsset(
+            entry.getIn(["data", "textImageBlock", "image", "image"])
+          ),
+          alt: entry.getIn(["data", "textImageBlock", "image", "alt"]),
+        },
+      }}
     />
   );
 };
@@ -48,6 +57,7 @@ ClassCatPreview.propTypes = {
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
+  getAsset: PropTypes.func,
 };
 
 export default ClassCatPreview;

@@ -30,18 +30,32 @@ export const ClassCatTemplate = ({
     <section className="section">
       {helmet || ""}
       <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
+        <div
+          className="full-width-image margin-top-0"
+          style={{
+            backgroundImage:
+              "url('/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png')",
+            backgroundPosition: "left",
+            width: "100%",
+          }}
+        >
+          <div className="columns">
+            <div className="column">
+              <h1
+                className="title has-text-weight-bold is-bold-light"
+                style={{ color: "white", fontSize: "5em" }}
+              >
+                {title}
+              </h1>
+            </div>
           </div>
         </div>
+
         <div>
           <Competencies data={competencies} />
           <TextImageBlock data={textImageBlock} />
-          <PostContent content={content} />
           <Points data={points} />
+          <PostContent content={content} />
           <BoxWithLogo data={boxWithLogo} />
           <StyledChecks items={checkmarks} />
           <Reviews data={reviews} />
