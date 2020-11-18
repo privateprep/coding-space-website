@@ -1,6 +1,6 @@
 ---
 templateKey: class-cat
-title: Another Class
+title: Fall Online Classes ​September 14 - January 30
 date: 2020-11-16T16:52:31.006Z
 description: This is a test class
 featuredclass: true
@@ -23,20 +23,15 @@ textImageBlock:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
 boxWithLogo:
-  title: Your child will...
-  content: >-
-    * Build **grit**, a **growth mindset**, and **computational thinking**
-    through coding.
+  title: Class Schedule
+  content: |-
+    **First:** Class Kick-Off
 
-    * **Learn to code** in Scratch or JavaScript.
+    **Next:** Project-Based Coding
 
-    * Balance screen time with **hands-on activities** and opportunities to create and explore, even in their own living rooms.
+    **Then:** Hands-On Activity
 
-    * Discover and define their **personal passions** through STEM challenges and more.
-
-    * Make **new friends** near and far.
-
-    * **Be challenged** at their individual level.
+    **Last:** Challenge & Reflection
 points:
   - description: GirlCoders Taught
     figure: "874"
@@ -45,12 +40,23 @@ points:
   - description: Locations
     figure: "4"
 checkmarks:
-  - title: "Project-Based Coding"
-    content: "All students learn to code using the Socratic Method, allowing them to develop a newfound problem-solving stamina.​​ Beginners code in Scratch, a block based programming language created by MIT. Advanced students code in JavaScript or other text-based programming languages. Students receive personalized attention and curriculum customization through experienced teachers and a 4:1 camper-to-counselor ratio. Learn more about our educational philosophy."
-  - title: "Hands-On Activities"
-    content: "Students take a break from their screens and discover the opportunities to create and explore that exist all around them, even in their own living rooms. Centered in the world of STEAM, activities will be derived from the fields of engineering, language arts, design, and more."
-  - title: "Weekly Challenges & Reflection"
-    content: "Students will be challenged each week to learn new programming techniques and stretch their minds in new ways. Each class ends with a reflection on the day's work, lessons learned, and future goals."
+  - title: Project-Based Coding
+    content: All students learn to code using the Socratic Method, allowing them to
+      develop a newfound problem-solving stamina.​​ Beginners code in Scratch, a
+      block based programming language created by MIT. Advanced students code in
+      JavaScript or other text-based programming languages. Students receive
+      personalized attention and curriculum customization through experienced
+      teachers and a 4:1 camper-to-counselor ratio. Learn more about our
+      educational philosophy.
+  - title: Hands-On Activities
+    content: Students take a break from their screens and discover the opportunities
+      to create and explore that exist all around them, even in their own living
+      rooms. Centered in the world of STEAM, activities will be derived from the
+      fields of engineering, language arts, design, and more.
+  - title: Weekly Challenges & Reflection
+    content: Students will be challenged each week to learn new programming
+      techniques and stretch their minds in new ways. Each class ends with a
+      reflection on the day's work, lessons learned, and future goals.
 competencies:
   heading: Nevertheless, She Coded
   subheading: .
