@@ -1,6 +1,6 @@
 # Coding Space Website
 
-This is a WIP static site that has ambitions of becoming www.codingspace.com
+This is a WIP static site that has ambitions of becoming www.thecodingspace.com
 
 ## Clone of Gatsby + Netlify CMS Starter
 
