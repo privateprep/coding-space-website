@@ -1,0 +1,24 @@
+.Hero {
+  text-align: center;
+  color: #fff;
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+  &__heading {
+    font-size: 3rem;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  &__subheading {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: auto;
+  }
+}
