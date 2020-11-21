@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { BirthdayTemplate } from "../../templates/birthday-page";
 
 const BirthdayPreview = ({ entry, widgetFor, getAsset }) => {
-
   const entryPoints = entry.getIn(["data", "points"]);
   const points = entryPoints ? entryPoints.toJS() : [];
 

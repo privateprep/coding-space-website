@@ -10,7 +10,10 @@ const Review = ({ name, review }) => (
       style={{ width: "3em", height: "2em" }}
     />
     <p style={{ padding: "2rem" }}>{review}</p>
-    <p className="has-text-weight-semibold" style={{ paddingLeft: "2rem", position: "absolute", bottom: "1rem" }}>
+    <p
+      className="has-text-weight-semibold"
+      style={{ paddingLeft: "2rem", position: "absolute", bottom: "1rem" }}
+    >
       {name}
     </p>
   </section>

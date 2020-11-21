@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
 export const HTMLContent = ({ content, className }) => (
   <div
@@ -29,8 +29,8 @@ const Content = ({ content, className }) => (
 Content.propTypes = {
   content: PropTypes.node,
   className: PropTypes.string,
-}
+};
 
-HTMLContent.propTypes = Content.propTypes
+HTMLContent.propTypes = Content.propTypes;
 
-export default Content
+export default Content;
