@@ -3,13 +3,13 @@ import remark from "remark";
 import remarkHTML from "remark-html";
 import smallLogo from "../img/logo-small.svg";
 
-const toHTML = value => remark().use(remarkHTML).processSync(value).toString();
+const toHTML = (value) =>
+  remark().use(remarkHTML).processSync(value).toString();
 function createMarkup(value) {
   return { __html: toHTML(value) };
 }
 const BoxWithLogo = ({ data }) => {
   const { title, content } = data;
-
 
   return (
     <div

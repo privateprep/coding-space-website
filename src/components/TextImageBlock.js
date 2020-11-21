@@ -3,7 +3,8 @@ import remark from "remark";
 import remarkHTML from "remark-html";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
-const toHTML = value => remark().use(remarkHTML).processSync(value).toString();
+const toHTML = (value) =>
+  remark().use(remarkHTML).processSync(value).toString();
 function createMarkup(value) {
   return { __html: toHTML(value) };
 }
@@ -31,9 +32,7 @@ const TextImageBlock = ({ data }) => {
         dangerouslySetInnerHTML={createMarkup(content)}
       ></div>
       <div className="item__image column">
-        <PreviewCompatibleImage
-          imageInfo={image}
-        />
+        <PreviewCompatibleImage imageInfo={image} />
       </div>
     </div>
   );
