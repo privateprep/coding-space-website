@@ -5,106 +5,86 @@ import logo from "../img/logo.svg";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
 
-const Footer = class extends React.Component {
-  render() {
-    return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
+import "./Footer.scss"
+
+const Footer = () => (
+  <footer className="Footer">
+    <img
+      src={logo}
+      alt="The Coding Space"
+      className="Footer__logo"
+    />
+    <div className="Footer__content">
+      <div className="Footer__content__left">
+        <ul className="Footer__list">
+          <li>
+            <Link to="/" className="Footer__list__link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="Footer__list__link" to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link className="Footer__list__link" to="/contact/examples">
+              Form Examples
+            </Link>
+          </li>
+          <li>
+            <a
+              className="Footer__list__link"
+              href="/admin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Admin
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="Footer__content__center">
+        <ul className="Footer__list">
+          <li>
+            <Link className="Footer__list__link" to="/blog">
+              Latest Stories
+            </Link>
+          </li>
+          <li>
+            <Link className="Footer__list__link" to="/contact">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="Footer__content__right social-links">
+        <a title="facebook" href="https://facebook.com/thecodingspace">
           <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
+            src={facebook}
+            alt="Facebook"
+            style={{ width: "1em", height: "1em" }}
           />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    );
-  }
-};
+        </a>
+        <a title="twitter" href="https://twitter.com/thecodingspace">
+          <img
+            className="fas fa-lg"
+            src={twitter}
+            alt="Twitter"
+            style={{ width: "1em", height: "1em" }}
+          />
+        </a>
+        <a title="instagram" href="https://instagram.com/thecodingspace">
+          <img
+            src={instagram}
+            alt="Instagram"
+            style={{ width: "1em", height: "1em" }}
+          />
+        </a>
+      </div>
+    </div>
+  </footer>
+);
 
 export default Footer;
