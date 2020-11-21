@@ -6,21 +6,19 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
+import "./styles/IndexPage.scss"
+
 export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
+  hero,
   mainpitch,
-  description,
   intro,
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="Hero full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          !!hero.image.childImageSharp ? hero.image.childImageSharp.fluid.src : hero.image
         })`,
         backgroundPosition: `top left`,
       }}
@@ -35,27 +33,11 @@ export const IndexPageTemplate = ({
           flexDirection: "column",
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            backgroundColor: "transparent",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
-          }}
-        >
-          {title}
+        <h1 className="Hero__heading">
+          {hero.heading}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            backgroundColor: "transparent",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
-          }}
-        >
-          {subheading}
+        <h3 className="Hero__subheading">
+          {hero.subheading}
         </h3>
       </div>
     </div>
@@ -71,14 +53,6 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
@@ -103,12 +77,12 @@ export const IndexPageTemplate = ({
 );
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
+  hero: PropTypes.shape({
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    heading: PropTypes.string,
+    subheading: PropTypes.string,
+  }),
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -120,12 +94,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        hero={frontmatter.hero}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
       />
     </Layout>
@@ -146,21 +116,21 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
-        title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        hero {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
+          heading
+          subheading
         }
-        heading
-        subheading
         mainpitch {
           title
           description
         }
-        description
         intro {
           blurbs {
             image {
