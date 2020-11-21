@@ -61,11 +61,10 @@ const BoxWithLogo = ({ data }) => {
         <div
           className="item__content"
           style={{
-            padding: "1rem",
+            padding: "0 0 20px",
             color: "white",
             fontSize: "18px",
             margin: "0px",
-            padding: "0 0 20px",
           }}
           dangerouslySetInnerHTML={createMarkup(content)}
         ></div>
