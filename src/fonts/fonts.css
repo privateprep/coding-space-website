@@ -1,0 +1,54 @@
+/* Proxima Nova - Light */
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  src: url(./files/proxima-nova-reg.woff2) format("woff2"),
+    url(./files/proxima-nova-reg.woff) format("woff"),
+    url(./files/proxima-nova-reg.otf) format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+/* Proxima Nova - Regular */
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  src: url(./files/proxima-nova-reg.woff2) format("woff2"),
+    url(./files/proxima-nova-reg.woff) format("woff"),
+    url(./files/proxima-nova-reg.otf) format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Proxima Nova - Bold */
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  src: url(./files/proxima-nova-bold.woff2) format("woff2"),
+    url(./files/proxima-nova-bold.woff) format("woff"),
+    url(./files/proxima-nova-bold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Futura - Book */
+@font-face {
+  font-display: swap;
+  font-family: "Futura";
+  src: url(./files/futura-book.woff2) format("woff2"),
+    url(./files/futura-book.woff) format("woff"),
+    url(./files/futura-book.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Futura - Bold */
+@font-face {
+  font-display: swap;
+  font-family: "Futura";
+  src: url(./files/futura-bold.woff2) format("woff2"),
+    url(./files/futura-bold.woff) format("woff"),
+    url(./files/futura-bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
