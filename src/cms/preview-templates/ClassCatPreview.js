@@ -14,9 +14,9 @@ const ClassCatPreview = ({ entry, widgetFor, getAsset }) => {
   const entryReviews = entry.getIn(["data", "reviews", "reviewList"]);
   const reviewList = entryReviews ? entryReviews.toJS() : [];
 
-  const entrySkills = entry.getIn(["data", "competencies", "skills"]);
+  const entrySections = entry.getIn(["data", "headerBulletSections", "sections"]);
 
-  const skills = entrySkills ? entrySkills.toJS() : [];
+  const sections = entrySections ? entrySections.toJS() : [];
 
   return (
     <ClassCatTemplate
@@ -25,10 +25,10 @@ const ClassCatPreview = ({ entry, widgetFor, getAsset }) => {
       tags={tags && tags.toJS()}
       title={entry.getIn(["data", "title"])}
       checkmarks={checkmarks}
-      competencies={{
-        heading: entry.getIn(["data", "competencies", "heading"]),
-        subheading: entry.getIn(["data", "competencies", "subheading"]),
-        skills: skills,
+      headerBulletSections={{
+        heading: entry.getIn(["data", "headerBulletSections", "heading"]),
+        subheading: entry.getIn(["data", "headerBulletSections", "subheading"]),
+        sections: sections,
       }}
       boxWithLogo={{
         title: entry.getIn(["data", "boxWithLogo", "title"]),

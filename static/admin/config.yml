@@ -49,8 +49,8 @@ collections:
       - { label: "Featured Class", name: "featuredclass", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - {
-          label: Competencies,
-          name: competencies,
+          label: "Left Header, Right Bullet Sections",
+          name: headerBulletSections,
           widget: object,
           fields:
             [
@@ -61,13 +61,13 @@ collections:
                 widget: string,
               },
               {
-                label: Skills,
-                name: skills,
+                label: Sections,
+                name: sections,
                 widget: list,
                 fields:
                   [
-                    { label: skill, name: skill, widget: string },
-                    { label: description, name: description, widget: string },
+                    { label: "Section Header", name: header, widget: string },
+                    { label: "Section Paragraph", name: paragraph, widget: string },
                   ],
               },
             ],

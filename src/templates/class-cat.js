@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Points from "../components/Points";
-import Competencies from "../components/Competencies";
+import HeaderBulletSections from "../components/HeaderBulletSections";
 import BoxWithLogo from "../components/BoxWithLogo";
 import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
@@ -14,7 +14,7 @@ import TextImageBlock from "../components/TextImageBlock";
 export const ClassCatTemplate = ({
   boxWithLogo,
   checkmarks,
-  competencies,
+  headerBulletSections,
   content,
   contentComponent,
   description,
@@ -52,7 +52,7 @@ export const ClassCatTemplate = ({
         </div>
 
         <div>
-          <Competencies data={competencies} />
+          <HeaderBulletSections data={headerBulletSections} />
           <TextImageBlock data={textImageBlock} />
           <Points data={points} />
           <PostContent content={content} />
@@ -94,7 +94,7 @@ const ClassCat = ({ data }) => {
         title={post.frontmatter.title}
         points={post.frontmatter.points}
         checkmarks={post.frontmatter.checkmarks}
-        competencies={post.frontmatter.competencies}
+        headerBulletSections={post.frontmatter.headerBulletSections}
         reviews={post.frontmatter.reviews}
         boxWithLogo={post.frontmatter.boxWithLogo}
         textImageBlock={post.frontmatter.textImageBlock}
@@ -125,12 +125,12 @@ export const pageQuery = graphql`
           content
           title
         }
-        competencies {
+        headerBulletSections {
           heading
           subheading
-          skills {
-            description
-            skill
+          sections {
+            header
+            paragraph
           }
         }
         points {

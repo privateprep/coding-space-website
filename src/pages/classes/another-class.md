@@ -57,18 +57,18 @@ checkmarks:
     content: Students will be challenged each week to learn new programming
       techniques and stretch their minds in new ways. Each class ends with a
       reflection on the day's work, lessons learned, and future goals.
-competencies:
+headerBulletSections:
   heading: Nevertheless, She Coded
   subheading: .
-  skills:
-    - skill: Confidence
-      description: Coding is a great medium for self-expression, creativity, and
+  sections:
+    - header: Confidence
+      paragraph: Coding is a great medium for self-expression, creativity, and
         fostering intellectual confidence.
-    - skill: Community
-      description: Our all girls classes provide a great learning environment for
+    - header: Community
+      paragraph: Our all girls classes provide a great learning environment for
         GirlCoders to learn to code, create, and problem solve.
-    - skill: Computational Thinking
-      description: Through coding we foster ​growth mindset, grit, and computational
+    - header: Computational Thinking
+      paragraph: Through coding we foster ​growth mindset, grit, and computational
         thinking. Campers develop a newfound problem solving stamina they've
         never seen before. ​
 reviews:

@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Competencies = ({ data }) => (
-  <div className="columns competencies">
+const HeaderBulletSections = ({ data }) => (
+  <div className="columns headerBulletSections">
     <div className="column">
       <h1>{data.heading}</h1>
       {!!data.subheading && <h2>{data.subheading}</h2>}
     </div>
     <div className="column">
-      {data.skills.map((skill, i) => (
-        <div key={`skill-${i}`}>
+      {data.sections.map((section, i) => (
+        <div key={`section-${i}`}>
           <section className="section">
-            <h4 className="has-text-weight-semibold">{skill.skill}</h4>
-            <p>{skill.description}</p>
+            <h4 className="has-text-weight-semibold">{section.header}</h4>
+            <p>{section.paragraph}</p>
           </section>
         </div>
       ))}
@@ -20,17 +20,17 @@ const Competencies = ({ data }) => (
   </div>
 );
 
-Competencies.propTypes = {
+HeaderBulletSections.propTypes = {
   data: PropTypes.shape({
     heading: PropTypes.string,
     subheading: PropTypes.string,
-    skills: PropTypes.arrayOf(
+    sections: PropTypes.arrayOf(
       PropTypes.shape({
-        skill: PropTypes.string,
-        description: PropTypes.string,
+        header: PropTypes.string,
+        paragraph: PropTypes.string,
       })
     ),
   }),
 };
 
-export default Competencies;
+export default HeaderBulletSections;

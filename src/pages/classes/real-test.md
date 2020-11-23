@@ -67,11 +67,11 @@ checkmarks:
       Students will be challenged each week to learn new programming techniques
       and stretch their minds in new ways. Each class ends with a reflection on
       the day's work, lessons learned, and future goals.
-competencies:
+headerBulletSections:
   heading: Now Launching After-School Coding Classes for Kids
-  skills:
-    - skill: Now Kids Can Explore the Unknown, Even From Home
-      description:
+  sections:
+    - header: Now Kids Can Explore the Unknown, Even From Home
+      paragraph:
         Blast off this fall with The Coding Space Virtual Classes. Working
         one-on-one or in small groups, your child’s coding journey can now
         continue anywhere. Our unique fall 2020 group classes program balances

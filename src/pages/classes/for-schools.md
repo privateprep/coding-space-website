@@ -5,16 +5,16 @@ date: 2020-11-18T17:19:12.599Z
 description: TCS for schools
 featuredclass: true
 featuredimage: /img/clipartkey_419266.png
-competencies:
+headerBulletSections:
   heading: We Work with You
   subheading: Join us virtually
-  skills:
-    - skill: Flexibility
-      description: You've got a class, we've got trained instructors waiting!
-    - skill: Look
-      description: This works
-    - skill: "Start typing "
-      description: test
+  sections:
+    - header: Flexibility
+      paragraph: You've got a class, we've got trained instructors waiting!
+    - header: Look
+      paragraph: This works
+    - header: "Start typing "
+     paragraph: test
 textImageBlock:
   content: "**Any age group, it doesn't matter.**"
   image:
