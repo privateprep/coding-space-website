@@ -14,7 +14,7 @@ headerBulletSections:
     - header: Look
       paragraph: This works
     - header: "Start typing "
-     paragraph: test
+      paragraph: test
 textImageBlock:
   content: "**Any age group, it doesn't matter.**"
   image:
@@ -42,4 +42,5 @@ reviews:
     - review: Look at my review
       name: Becky!
 ---
-***So. much. [wow](www.google.com)***
+
+**_So. much. [wow](www.google.com)_**
