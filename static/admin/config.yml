@@ -67,7 +67,11 @@ collections:
                 fields:
                   [
                     { label: "Section Header", name: header, widget: string },
-                    { label: "Section Paragraph", name: paragraph, widget: string },
+                    {
+                      label: "Section Paragraph",
+                      name: paragraph,
+                      widget: string,
+                    },
                   ],
               },
             ],
@@ -122,7 +126,6 @@ collections:
               { label: Content, name: content, widget: string },
             ],
         }
-
       - {
           label: Reviews,
           name: reviews,
@@ -138,6 +141,62 @@ collections:
                   [
                     { label: review, name: review, widget: string },
                     { label: name, name: name, widget: string },
+                  ],
+              },
+            ],
+        }
+      - {
+          label: "Page Builder",
+          name: "Page Builder",
+          widget: list,
+          types:
+            [
+              {
+                label: Reviews,
+                name: reviews,
+                widget: object,
+                fields:
+                  [
+                    { label: Heading, name: heading, widget: string },
+                    {
+                      label: "Reviews List",
+                      name: reviewList,
+                      widget: list,
+                      fields:
+                        [
+                          { label: Review, name: title, widget: string },
+                          { label: Name, name: content, widget: string },
+                        ],
+                    },
+                  ],
+              },
+              {
+                label: "Box with Logo",
+                name: "boxWithLogo",
+                widget: "object",
+                fields:
+                  [
+                    { label: Heading, name: heading, widget: string },
+                    { label: content, name: content, widget: markdown },
+                  ],
+              },
+              {
+                label: Points,
+                name: points,
+                widget: object,
+                fields:
+                  [
+                    { label: Heading, name: headeing, widget: string },
+                    {
+                      label: "Points List",
+                      name: pointsList,
+                      widget: list,
+                      fields:
+                        [
+                          { label: Figure, name: title, widget: string },
+                          { label: Description, name: content, widget: string },
+                        ],
+                    },
                   ],
               },
             ],
