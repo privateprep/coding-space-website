@@ -14,9 +14,15 @@ const ClassCatPreview = ({ entry, widgetFor, getAsset }) => {
   const entryReviews = entry.getIn(["data", "reviews", "reviewList"]);
   const reviewList = entryReviews ? entryReviews.toJS() : [];
 
-  const entrySections = entry.getIn(["data", "headerBulletSections", "sections"]);
-
+  const entrySections = entry.getIn([
+    "data",
+    "headerBulletSections",
+    "sections",
+  ]);
   const sections = entrySections ? entrySections.toJS() : [];
+
+  const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
+  const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
 
   return (
     <ClassCatTemplate
@@ -48,6 +54,7 @@ const ClassCatPreview = ({ entry, widgetFor, getAsset }) => {
           alt: entry.getIn(["data", "textImageBlock", "image", "alt"]),
         },
       }}
+      pageBuilder={pageBuilder}
     />
   );
 };

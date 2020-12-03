@@ -10,6 +10,7 @@ import Reviews from "../components/Reviews";
 import Content, { HTMLContent } from "../components/Content";
 import StyledChecks from "../components/StyledChecks";
 import TextImageBlock from "../components/TextImageBlock";
+import PageBuilder from "../components/PageBuilder";
 
 export const ClassCatTemplate = ({
   boxWithLogo,
@@ -21,6 +22,7 @@ export const ClassCatTemplate = ({
   reviews,
   title,
   textImageBlock,
+  pageBuilder,
   points,
   helmet,
 }) => {
@@ -59,6 +61,7 @@ export const ClassCatTemplate = ({
           <BoxWithLogo data={boxWithLogo} />
           <StyledChecks items={checkmarks} />
           <Reviews data={reviews} />
+          <PageBuilder data={pageBuilder} />
         </div>
       </div>
     </section>
@@ -98,6 +101,7 @@ const ClassCat = ({ data }) => {
         reviews={post.frontmatter.reviews}
         boxWithLogo={post.frontmatter.boxWithLogo}
         textImageBlock={post.frontmatter.textImageBlock}
+        pageBuilder={post.frontmatter.pageBuilder}
       />
     </Layout>
   );
@@ -160,6 +164,15 @@ export const pageQuery = graphql`
               }
             }
           }
+        }
+        pageBuilder {
+          content
+          heading
+          list {
+            content
+            title
+          }
+          type
         }
       }
     }
