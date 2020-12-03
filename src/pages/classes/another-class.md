@@ -5,6 +5,20 @@ date: 2020-11-16T16:52:31.006Z
 description: This is a test class
 featuredclass: true
 featuredimage: /img/ndegiwp.png
+headerBulletSections:
+  heading: Nevertheless, She Coded
+  subheading: .
+  sections:
+    - header: Confidence
+      paragraph: Coding is a great medium for self-expression, creativity, and
+        fostering intellectual confidence.
+    - header: Community
+      paragraph: Our all girls classes provide a great learning environment for
+        GirlCoders to learn to code, create, and problem solve.
+    - header: Computational Thinking
+      paragraph: Through coding we foster ​growth mindset, grit, and computational
+        thinking. Campers develop a newfound problem solving stamina they've
+        never seen before. ​
 textImageBlock:
   content: >-
     * Build **grit**, a **growth mindset**, and **computational thinking**
@@ -22,6 +36,13 @@ textImageBlock:
   image:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
+points:
+  - description: GirlCoders Taught
+    figure: "874"
+  - description: Scholarship Students
+    figure: 26%
+  - description: Locations
+    figure: "4"
 boxWithLogo:
   title: Class Schedule
   content: |-
@@ -32,13 +53,6 @@ boxWithLogo:
     **Then:** Hands-On Activity
 
     **Last:** Challenge & Reflection
-points:
-  - description: GirlCoders Taught
-    figure: "874"
-  - description: Scholarship Students
-    figure: 26%
-  - description: Locations
-    figure: "4"
 checkmarks:
   - title: Project-Based Coding
     content: All students learn to code using the Socratic Method, allowing them to
@@ -57,20 +71,6 @@ checkmarks:
     content: Students will be challenged each week to learn new programming
       techniques and stretch their minds in new ways. Each class ends with a
       reflection on the day's work, lessons learned, and future goals.
-headerBulletSections:
-  heading: Nevertheless, She Coded
-  subheading: .
-  sections:
-    - header: Confidence
-      paragraph: Coding is a great medium for self-expression, creativity, and
-        fostering intellectual confidence.
-    - header: Community
-      paragraph: Our all girls classes provide a great learning environment for
-        GirlCoders to learn to code, create, and problem solve.
-    - header: Computational Thinking
-      paragraph: Through coding we foster ​growth mindset, grit, and computational
-        thinking. Campers develop a newfound problem solving stamina they've
-        never seen before. ​
 reviews:
   heading: Happy Students, Happy Parents
   reviewList:
@@ -81,6 +81,24 @@ reviews:
       name: LILY, AGE 12
     - review: The atmosphere at GirlCode is so judge-free and friendly!
       name: YUSRA, AGE 9
+Page Builder:
+  - type: reviews
+    heading: Review Test
+    reviewList:
+      - title: This is great!
+        content: Alejandro
+      - title: So cool!
+        content: Taylor
+  - type: boxWithLogo
+    heading: Here's a box!
+    content: |-
+      * This is rich text to increase the challenge
+      * We need to process this
+  - type: points
+    headeing: Points!
+    pointsList:
+      - title: "23"
+        content: dogs barking outside
 ---
 
 ## In-Person Coding Instruction is Back!
