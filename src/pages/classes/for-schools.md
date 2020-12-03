@@ -41,7 +41,7 @@ reviews:
   reviewList:
     - review: Look at my review
       name: Becky!
-Page Builder:
+pageBuilder:
   - type: reviews
     heading: Another Test for REviewss
     list:

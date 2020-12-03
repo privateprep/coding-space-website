@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: page-builder
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -147,7 +147,7 @@ collections:
         }
       - {
           label: "Page Builder",
-          name: "Page Builder",
+          name: "pageBuilder",
           widget: list,
           types:
             [
@@ -160,7 +160,7 @@ collections:
                     { label: Heading, name: heading, widget: string },
                     {
                       label: "Reviews List",
-                      name: reviewList,
+                      name: list,
                       widget: list,
                       fields:
                         [
@@ -186,10 +186,10 @@ collections:
                 widget: object,
                 fields:
                   [
-                    { label: Heading, name: headeing, widget: string },
+                    { label: Heading, name: heading, widget: string },
                     {
                       label: "Points List",
-                      name: pointsList,
+                      name: list,
                       widget: list,
                       fields:
                         [

@@ -81,7 +81,7 @@ reviews:
       name: LILY, AGE 12
     - review: The atmosphere at GirlCode is so judge-free and friendly!
       name: YUSRA, AGE 9
-Page Builder:
+pageBuilder:
   - type: reviews
     heading: Review Test
     reviewList:
