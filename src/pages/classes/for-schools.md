@@ -41,6 +41,19 @@ reviews:
   reviewList:
     - review: Look at my review
       name: Becky!
+Page Builder:
+  - type: reviews
+    heading: Another Test for REviewss
+    list:
+      - title: This is great!
+        content: Alejandro
+      - title: This is complex!
+        content: Taylor
+  - type: points
+    heading: Points Test
+    list:
+      - title: "23"
+        content: "19"
 ---
 
 **_So. much. [wow](www.google.com)_**
