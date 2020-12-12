@@ -166,7 +166,7 @@ export const pageQuery = graphql`
           }
         }
         pageBuilder {
-          content
+          mdContent
           heading
           list {
             content

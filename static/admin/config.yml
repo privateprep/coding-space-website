@@ -159,13 +159,14 @@ collections:
                   [
                     { label: Heading, name: heading, widget: string },
                     {
-                      label: "Reviews List",
+                      label: "Reviews",
                       name: list,
                       widget: list,
+                      summary: '{{fields.content}} - {{fields.title}}',
                       fields:
                         [
-                          { label: Review, name: title, widget: string },
-                          { label: Name, name: content, widget: string },
+                          { label: Review, name: title, widget: string, default: "This is great!" },
+                          { label: Name, name: content, widget: string, default: "Alejandro" },
                         ],
                     },
                   ],
@@ -177,7 +178,7 @@ collections:
                 fields:
                   [
                     { label: Heading, name: heading, widget: string },
-                    { label: content, name: content, widget: markdown },
+                    { label: Content, name: mdContent, widget: markdown },
                   ],
               },
               {
@@ -188,13 +189,14 @@ collections:
                   [
                     { label: Heading, name: heading, widget: string },
                     {
-                      label: "Points List",
+                      label: "Points",
                       name: list,
                       widget: list,
+                      summary: '{{fields.title}} - {{fields.content}}',
                       fields:
                         [
-                          { label: Figure, name: title, widget: string },
-                          { label: Description, name: content, widget: string },
+                          { label: Figure, name: title, widget: string, default: "100+" },
+                          { label: Description, name: content, widget: string, default: "Students" },
                         ],
                     },
                   ],

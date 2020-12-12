@@ -100,7 +100,7 @@ pageBuilder:
         content: Taylor
   - type: boxWithLogo
     heading: Here's a box!
-    content: |-
+    mdContent: |-
       * This is rich text to increase the challenge
       * We need to process this
   - type: points

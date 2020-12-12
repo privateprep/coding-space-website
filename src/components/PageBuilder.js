@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Reviews, Points } from "./BuilderComponents";
+import { BoxWithLogo, Reviews, Points } from "./BuilderComponents";
 
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
+    case "boxWithLogo":
+      return <BoxWithLogo data={data} />;
     case "reviews":
       return <Reviews data={data} />;
     case "points":
