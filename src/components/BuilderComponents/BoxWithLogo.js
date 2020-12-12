@@ -1,16 +1,10 @@
 import React from "react";
-import remark from "remark";
-import remarkHTML from "remark-html";
+import createHtml from "../MdToHtml";
 import smallLogo from "../../img/logo-small.svg";
 
-const toHTML = (value) =>
-  remark().use(remarkHTML).processSync(value).toString();
-function createMarkup(value) {
-  return { __html: toHTML(value) };
-}
-
 const BoxWithLogo = ({ data }) => {
-  const { title, mdContent } = data;
+  const { heading, mdContent } = data;
+  const htmlContent = createHtml(mdContent);
 
   return (
     <div
@@ -57,7 +51,7 @@ const BoxWithLogo = ({ data }) => {
             color: "white",
           }}
         >
-          {title}
+          {heading}
         </h3>
         <div
           className="item__content"
@@ -67,7 +61,7 @@ const BoxWithLogo = ({ data }) => {
             fontSize: "18px",
             margin: "0px",
           }}
-          dangerouslySetInnerHTML={createMarkup(mdContent)}
+          dangerouslySetInnerHTML={htmlContent}
         ></div>
       </div>
     </div>
