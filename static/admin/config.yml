@@ -192,6 +192,16 @@ collections:
                   ],
               },
               {
+                label: "Left Header Right Free Response",
+                name: "leftHeaderRightFree",
+                widget: "object",
+                fields:
+                  [
+                    { label: Heading, name: heading, widget: string },
+                    { label: Content, name: mdContent, widget: markdown },
+                  ],
+              },
+              {
                 label: Points,
                 name: points,
                 widget: object,
@@ -233,8 +243,18 @@ collections:
                       widget: list,
                       fields:
                         [
-                          { label: Heading, name: title, widget: string, default: "Heading" },
-                          { label: Content, name: content, widget: text, default: "Content..." },
+                          {
+                            label: Heading,
+                            name: title,
+                            widget: string,
+                            default: "Heading",
+                          },
+                          {
+                            label: Content,
+                            name: content,
+                            widget: text,
+                            default: "Content...",
+                          },
                         ],
                     },
                   ],
