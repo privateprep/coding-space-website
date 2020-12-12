@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BoxWithLogo, Reviews, Points } from "./BuilderComponents";
+import { BoxWithLogo, Reviews, Points, StyledChecks } from "./BuilderComponents";
 
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
@@ -10,6 +10,8 @@ const ComponentSelector = ({ data }) => {
       return <Reviews data={data} />;
     case "points":
       return <Points data={data} />;
+    case "styledChecks":
+      return <StyledChecks data={data} />
     default:
       return <p>Unknown Type</p>;
   }

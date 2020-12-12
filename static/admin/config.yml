@@ -162,11 +162,21 @@ collections:
                       label: "Reviews",
                       name: list,
                       widget: list,
-                      summary: '{{fields.content}} - {{fields.title}}',
+                      summary: "{{fields.content}} - {{fields.title}}",
                       fields:
                         [
-                          { label: Review, name: title, widget: string, default: "This is great!" },
-                          { label: Name, name: content, widget: string, default: "Alejandro" },
+                          {
+                            label: Review,
+                            name: title,
+                            widget: string,
+                            default: "This is great!",
+                          },
+                          {
+                            label: Name,
+                            name: content,
+                            widget: string,
+                            default: "Alejandro",
+                          },
                         ],
                     },
                   ],
@@ -192,11 +202,39 @@ collections:
                       label: "Points",
                       name: list,
                       widget: list,
-                      summary: '{{fields.title}} - {{fields.content}}',
+                      summary: "{{fields.title}} - {{fields.content}}",
                       fields:
                         [
-                          { label: Figure, name: title, widget: string, default: "100+" },
-                          { label: Description, name: content, widget: string, default: "Students" },
+                          {
+                            label: Figure,
+                            name: title,
+                            widget: string,
+                            default: "100+",
+                          },
+                          {
+                            label: Description,
+                            name: content,
+                            widget: string,
+                            default: "Students",
+                          },
+                        ],
+                    },
+                  ],
+              },
+              {
+                label: "Styled Checks",
+                name: "styledChecks",
+                widget: object,
+                fields:
+                  [
+                    {
+                      label: "Checks",
+                      name: list,
+                      widget: list,
+                      fields:
+                        [
+                          { label: Heading, name: title, widget: string, default: "Heading" },
+                          { label: Content, name: content, widget: text, default: "Content..." },
                         ],
                     },
                   ],
