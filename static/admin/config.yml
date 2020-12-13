@@ -189,6 +189,63 @@ collections:
                   [
                     { label: Heading, name: heading, widget: string },
                     { label: Content, name: mdContent, widget: markdown },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                    {
+                      label: "Box Color",
+                      name: fgColor,
+                      widget: color,
+                      picker: twitter,
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                    {
+                      label: "Text Color",
+                      name: textColor,
+                      widget: color,
+                      picker: twitter,
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
                   ],
               },
               {
