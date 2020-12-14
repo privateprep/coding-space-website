@@ -1,14 +1,15 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const StyledChecks = ({ data }) => {
-  const { list } = data;
+  const { bgColor, list } = data;
   return (
-    <div className="styledChecks" style={{ padding: "4rem" }}>
+    <div className="styledChecks" style={{ backgroundColor: bgColor, padding: "4rem" }}>
       <ul
         className="styledChecks__list"
         style={{ maxWidth: "1000px", margin: "auto" }}
       >
-        {!!data.list && list.map((item, index) => {
+        {!!list && list.map((item, index) => {
           const { title, content } = item;
           return (
             <li key={index} className="item" style={{ listStyle: "none" }}>
@@ -53,6 +54,18 @@ const StyledChecks = ({ data }) => {
       </ul>
     </div>
   );
+};
+
+StyledChecks.propTypes = {
+  data: PropTypes.shape({
+    bgColor: PropTypes.string,
+    list: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string,
+        content: PropTypes.string,
+      })
+    ),
+  }),
 };
 
 export default StyledChecks;

@@ -15,14 +15,15 @@ const Point = ({ key, description, figure }) => (
 );
 
 const Points = ({ data }) => {
+  const { bgColor, heading, list } = data;
   return (
-    <div className="points">
+    <div className="points" style={{ backgroundColor: bgColor }}>
       <div className="has-text-centered">
-        <h1>{data.heading}</h1>
+        <h1>{heading}</h1>
       </div>
       <div className="points__list columns point-row">
-        {!!data.list &&
-          data.list.map((item, i) => (
+        {!!list &&
+          list.map((item, i) => (
             <Point
               key={`point-${i}`}
               description={item.content}
@@ -36,6 +37,7 @@ const Points = ({ data }) => {
 
 Points.propTypes = {
   data: PropTypes.shape({
+    bgColor: PropTypes.string,
     heading: PropTypes.string,
     list: PropTypes.arrayOf(
       PropTypes.shape({

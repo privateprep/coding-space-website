@@ -179,6 +179,26 @@ collections:
                           },
                         ],
                     },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
                   ],
               },
               {
@@ -194,6 +214,7 @@ collections:
                       name: bgColor,
                       widget: color,
                       picker: twitter,
+                      default: "#faf7f2",
                       presetColors:
                         [
                           "#274548",
@@ -213,6 +234,7 @@ collections:
                       name: fgColor,
                       widget: color,
                       picker: twitter,
+                      default: "#274548",
                       presetColors:
                         [
                           "#274548",
@@ -232,6 +254,7 @@ collections:
                       name: textColor,
                       widget: color,
                       picker: twitter,
+                      default: "#fff",
                       presetColors:
                         [
                           "#274548",
@@ -256,6 +279,26 @@ collections:
                   [
                     { label: Heading, name: heading, widget: string },
                     { label: Content, name: mdContent, widget: markdown },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
                   ],
               },
               {
@@ -286,6 +329,26 @@ collections:
                           },
                         ],
                     },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
                   ],
               },
               {
@@ -312,6 +375,26 @@ collections:
                             widget: text,
                             default: "Content...",
                           },
+                        ],
+                    },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
                         ],
                     },
                   ],

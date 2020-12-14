@@ -166,13 +166,16 @@ export const pageQuery = graphql`
           }
         }
         pageBuilder {
-          mdContent
           heading
+          mdContent
+          type
           list {
             content
             title
           }
-          type
+          textColor
+          fgColor
+          bgColor
         }
       }
     }

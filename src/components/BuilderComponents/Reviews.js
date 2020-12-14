@@ -20,14 +20,16 @@ const Review = ({ name, review }) => (
 );
 
 const Reviews = ({ data }) => {
+  const { bgColor, heading, list } = data;
+
   return (
-    <div className="reviews">
+    <div className="reviews" style={{ backgroundColor: bgColor }}>
       <div className="has-text-centered">
-        <h1>{data.heading}</h1>
+        <h1>{heading}</h1>
       </div>
       <div className="reviews__list">
-        {!!data.list &&
-          data.list.map((item, i) => (
+        {!!list &&
+          list.map((item, i) => (
             <Review
               key={`review-${i}`}
               name={item.content}
@@ -41,6 +43,7 @@ const Reviews = ({ data }) => {
 
 Reviews.propTypes = {
   data: PropTypes.shape({
+    bgColor: PropTypes.string,
     heading: PropTypes.string,
     list: PropTypes.arrayOf(
       PropTypes.shape({

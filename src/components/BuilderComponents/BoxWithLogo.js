@@ -3,7 +3,13 @@ import createHtml from "../MdToHtml";
 import smallLogo from "../../img/logo-small.svg";
 
 const BoxWithLogo = ({ data }) => {
-  const { heading, mdContent } = data;
+  const {
+    bgColor = "#faf7f2",
+    fgColor = "#274548",
+    textColor = "#fff",
+    heading,
+    mdContent,
+  } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -14,7 +20,7 @@ const BoxWithLogo = ({ data }) => {
         paddingTop: "80px",
         textAlign: "center",
         position: "relative",
-        backgroundColor: "#FBF6EE",
+        backgroundColor: bgColor,
       }}
     >
       <img
@@ -33,7 +39,7 @@ const BoxWithLogo = ({ data }) => {
       <div
         className="BoxWithLogo__content"
         style={{
-          backgroundColor: "#274548",
+          backgroundColor: fgColor ,
           padding: "2rem",
           textAlign: "left",
           borderRadius: "8px",
@@ -48,7 +54,7 @@ const BoxWithLogo = ({ data }) => {
             margin: "0",
             marginBottom: "1rem",
             lineHeight: "2.2rem",
-            color: "white",
+            color: textColor,
           }}
         >
           {heading}
@@ -57,7 +63,7 @@ const BoxWithLogo = ({ data }) => {
           className="item__content"
           style={{
             padding: "0 0 20px",
-            color: "white",
+            color: textColor,
             fontSize: "18px",
             margin: "0px",
           }}
