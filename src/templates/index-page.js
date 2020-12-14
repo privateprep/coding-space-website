@@ -6,40 +6,29 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
-import "./styles/IndexPage.scss"
+import "./styles/IndexPage.scss";
 
-export const IndexPageTemplate = ({
-  hero,
-  mainpitch,
-  intro,
-}) => (
+export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
   <div>
-    <div
-      className="Hero full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!hero.image.childImageSharp ? hero.image.childImageSharp.fluid.src : hero.image
-        })`,
-        backgroundPosition: `top left`,
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column",
-        }}
-      >
-        <h1 className="Hero__heading">
-          {hero.heading}
-        </h1>
-        <h3 className="Hero__subheading">
-          {hero.subheading}
-        </h3>
+    <div className="index-container">
+      <div className="banner">
+        <h1 className="">{hero.heading}</h1>
+        <p className="">{hero.subheading}</p>
+        <div className="banner__buttons">
+          <a class="classes" href="https://classes.thecodingspace.com">
+            Join a Class
+          </a>
+          <a class="classes" href="#">
+            Winter Break Mini Camps
+          </a>
+        </div>
       </div>
+      <video autoPlay muted loop id="indexVideo" className="bg-video">
+        <source
+          src="https://thecodingspace.com/uploads/6/0/5/0/60503695/custom_themes/180663772352064920/files/Backgroundvideo2.mp4"
+          type="video/mp4"
+        />
+      </video>
     </div>
     <section className="section section--gradient">
       <div className="container">
