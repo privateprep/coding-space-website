@@ -302,6 +302,65 @@ collections:
                   ],
               },
               {
+                label: "Left Text Right Image",
+                name: "leftTextRightImage",
+                widget: "object",
+                fields:
+                  [
+                    { label: Content, name: mdContent, widget: markdown },
+                    {
+                      label: Image,
+                      name: image,
+                      widget: object,
+                      fields:
+                        [
+                          { label: Image, name: image, widget: image },
+                          { label: Alt, name: alt, default: "Accessibility name", widget: string },
+                        ],
+                    },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                    {
+                      label: "Image Shadow",
+                      name: fgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#9de2dd",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                  ],
+              },
+              {
                 label: Points,
                 name: points,
                 widget: object,

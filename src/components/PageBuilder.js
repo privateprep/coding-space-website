@@ -1,19 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BoxWithLogo, Reviews, Points, StyledChecks, LeftHeaderRightFree } from "./BuilderComponents";
+import { BoxWithLogo, Reviews, Points, StyledChecks, LeftHeaderRightFree, LeftTextRightImage } from "./BuilderComponents";
 
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
     case "boxWithLogo":
       return <BoxWithLogo data={data} />;
     case "leftHeaderRightFree":
-      return <LeftHeaderRightFree data={data} />
+      return <LeftHeaderRightFree data={data} />;
+    case "leftTextRightImage":
+      return <LeftTextRightImage data={data} />;
     case "reviews":
       return <Reviews data={data} />;
     case "points":
       return <Points data={data} />;
     case "styledChecks":
-      return <StyledChecks data={data} />
+      return <StyledChecks data={data} />;
     default:
       return <p>Unknown Type</p>;
   }
