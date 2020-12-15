@@ -7,6 +7,7 @@ import AboutPagePreview from "./preview-templates/AboutPagePreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
 import BirthdayPagePreview from "./preview-templates/BirthdayPagePreview";
 import ClassCatPreview from "./preview-templates/ClassCatPreview";
+import CustomPagePreview from "./preview-templates/CustomPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 
 CMS.registerMediaLibrary(uploadcare);
@@ -17,6 +18,7 @@ CMS.registerPreviewTemplate("about", AboutPagePreview);
 CMS.registerPreviewTemplate("birthday", BirthdayPagePreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("classes", ClassCatPreview);
+CMS.registerPreviewTemplate("custom", CustomPagePreview);
 
 
 // Widgets
