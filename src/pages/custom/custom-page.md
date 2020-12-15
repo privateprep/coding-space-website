@@ -1,5 +1,5 @@
 ---
-templateKey: custom
+templateKey: custom-page
 title: Custom Page
 description: This is for SEO
 pageBuilder:

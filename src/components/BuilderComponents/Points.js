@@ -21,7 +21,10 @@ const Points = ({ data }) => {
       <div className="has-text-centered">
         <h1>{heading}</h1>
       </div>
-      <div className="points__list columns point-row">
+      <div
+        className="points__list columns point-row"
+        style={{ backgroundColor: bgColor }}
+      >
         {!!list &&
           list.map((item, i) => (
             <Point

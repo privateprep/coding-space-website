@@ -48,23 +48,22 @@ CustomPageTemplate.propTypes = {
 };
 
 const CustomPage = ({ data }) => {
-  const { markdownRemark: post } = data;
-
+  const { markdownRemark: page } = data;
   return (
     <Layout>
       <CustomPageTemplate
-        description={post.frontmatter.description}
+        description={page.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
+            <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${page.frontmatter.description}`}
             />
           </Helmet>
         }
-        title={post.frontmatter.title}
-        pageBuilder={post.frontmatter.pageBuilder}
+        title={page.frontmatter.title}
+        pageBuilder={page.frontmatter.pageBuilder}
       />
     </Layout>
   );
@@ -87,6 +86,16 @@ export const pageQuery = graphql`
         title
         pageBuilder {
           heading
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
           mdContent
           type
           list {
