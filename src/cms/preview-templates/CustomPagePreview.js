@@ -9,7 +9,6 @@ const CustomPagePreview = ({ entry, widgetFor, getAsset }) => {
 
   return (
     <CustomPageTemplate
-      content={widgetFor("body")}
       description={entry.getIn(["data", "description"])}
       title={entry.getIn(["data", "title"])}
       pageBuilder={pageBuilder}

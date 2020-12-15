@@ -53,7 +53,6 @@ const CustomPage = ({ data }) => {
   return (
     <Layout>
       <CustomPageTemplate
-        content={post.html}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
