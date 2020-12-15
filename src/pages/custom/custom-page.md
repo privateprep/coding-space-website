@@ -17,10 +17,19 @@ pageBuilder:
       ## This Can be anything!
 
       This is super annoying though... It should just work!
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#274548"
+    textColor: "#fff"
+    list:
+      - title: Click me!
+        content: "#"
+      - title: Click me!
+        content: "#"
   - type: leftTextRightImage
     image:
       alt: Accessibility name
-      image: /img/img_3542.jpg
+      image: /img/birthday.png
     bgColor: "#faf7f2"
     fgColor: "#9de2dd"
     mdContent: "# And here we demo what images could look like!"
