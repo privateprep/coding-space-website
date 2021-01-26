@@ -606,6 +606,95 @@ collections:
                   ],
               },
               {
+                label: "Buttons",
+                name: "buttons",
+                widget: "object",
+                fields:
+                  [
+                    {
+                      label: "Buttons",
+                      name: list,
+                      widget: list,
+                      summary: "{{fields.title}} - {{fields.content}}",
+                      fields:
+                        [
+                          {
+                            label: "Button Text",
+                            name: title,
+                            widget: string,
+                            default: "Click me!",
+                          },
+                          {
+                            label: "Link",
+                            name: content,
+                            widget: string,
+                            default: "#",
+                          },
+                        ],
+                    },
+                    {
+                      label: "Background Color",
+                      name: bgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#faf7f2",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                    {
+                      label: "Button Color",
+                      name: fgColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#274548",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                    {
+                      label: "Text Color",
+                      name: textColor,
+                      widget: color,
+                      picker: twitter,
+                      default: "#fff",
+                      presetColors:
+                        [
+                          "#274548",
+                          "#3a686c",
+                          "#9de2dd",
+                          "#7fece4",
+                          "#faf7f2",
+                          "#fcfaf7",
+                          "#eec11a",
+                          "#f6c924",
+                          "#fff",
+                          "#000",
+                        ],
+                    },
+                  ],
+              },
+              {
                 label: "Left Header Right Free Response",
                 name: "leftHeaderRightFree",
                 widget: "object",
