@@ -5,7 +5,16 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PageBuilder from "../components/PageBuilder";
 
-export const CustomPageTemplate = ({ title, pageBuilder, helmet }) => {
+export const CustomPageTemplate = ({
+  title,
+  headingImage,
+  pageBuilder,
+  helmet,
+}) => {
+  const backgroundImage = !!headingImage
+    ? headingImage
+    : "/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png";
+
   return (
     <section className="section">
       {helmet || ""}
@@ -13,8 +22,7 @@ export const CustomPageTemplate = ({ title, pageBuilder, helmet }) => {
         <div
           className="full-width-image margin-top-0"
           style={{
-            backgroundImage:
-              "url('/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png')",
+            backgroundImage: `url(${backgroundImage})`,
             backgroundPosition: "left",
             width: "100%",
           }}
@@ -63,6 +71,7 @@ const CustomPage = ({ data }) => {
           </Helmet>
         }
         title={page.frontmatter.title}
+        headingImage={page.frontmatter.headingImage}
         pageBuilder={page.frontmatter.pageBuilder}
       />
     </Layout>
@@ -84,8 +93,12 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        headingImage {
+          publicURL
+        }
         pageBuilder {
           heading
+
           image {
             alt
             image {

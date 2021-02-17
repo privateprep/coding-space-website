@@ -6,11 +6,13 @@ const CustomPagePreview = ({ entry, widgetFor, getAsset }) => {
 
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
   const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
+  const headingImage = entry.getIn(["data", "headingImage"]);
 
   return (
     <CustomPageTemplate
       description={entry.getIn(["data", "description"])}
       title={entry.getIn(["data", "title"])}
+      headingImage={headingImage}
       pageBuilder={pageBuilder}
     />
   );
