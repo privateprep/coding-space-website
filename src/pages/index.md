@@ -1,9 +1,12 @@
 ---
 templateKey: index-page
-hero:
-  image: /img/tcs-header.png
-  heading: The Coding Space
-  subheading: ​​An after-school and summer coding program where kids and students of all ages learn to code while developing critical thinking skills.
+title: Coding Space Landing Page
+image: /img/sisters-doing-their-homework-orig.jpg
+heading: Now Kids Can Explore the Unknown, Even From Home
+subheading: Test
+nav-bar__school-programs:
+  - another-class
+  - real-test
 mainpitch:
   title: Now Kids Can Explore the Unknown, Even From Home
   description: >
@@ -16,6 +19,7 @@ mainpitch:
     student to teacher ratio ensuring personalized attention when they need it.
     We’re on a mission to help kids develop creative thinking skills,
     confidence, and self-expression through learning to code.
+description: test
 intro:
   blurbs:
     - image: /img/clipartkey_2215277.png
@@ -33,4 +37,21 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+main:
+  heading: Main Heading
+  description: description
+  image1:
+    image: /img/climbing-2-1.jpg
+    alt: test
+  image2:
+    image: /img/clipartkey_2215277.png
+    alt: test
+  image3:
+    alt: test
+    image: /img/clipartkey_419266.png
+hero:
+  image: /img/tcs-header.png
+  heading: The Coding Space
+  subheading: ​​An after-school and summer coding program where kids and students
+    of all ages learn to code while developing critical thinking skills.
 ---
