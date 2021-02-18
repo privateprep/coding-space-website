@@ -89,4 +89,14 @@ pageBuilder:
 
 
       Our teachers create a welcoming and engaging learning environment for students. Our teachers never lecture. We believe in asking specific questions to help students solve problems.
+  - type: textOnly
+    textAlign: right
+    bgColor: "#faf7f2"
+    textColor: "#274548"
+    mdContent: |-
+      # This is a test
+
+
+
+      Of free response text with alignment.
 ---
