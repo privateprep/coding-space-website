@@ -228,12 +228,19 @@ page_builder:
             ],
         },
         {
-          label: "Centered Free Response Text",
-          name: "centeredText",
+          label: "Free Response Text Only",
+          name: "textOnly",
           widget: "object",
           fields:
             [
               { label: Content, name: mdContent, widget: markdown },
+              {
+                label: "Text Alignment",
+                name: textAlign,
+                widget: select,
+                default: "center",
+                options: ["left", "center", "right"],
+              },
               {
                 label: "Background Color",
                 name: bgColor,
@@ -259,7 +266,7 @@ page_builder:
                 name: textColor,
                 widget: color,
                 picker: twitter,
-                default: "#fff",
+                default: "#274548",
                 presetColors:
                   [
                     "#274548",

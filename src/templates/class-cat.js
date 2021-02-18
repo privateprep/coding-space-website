@@ -173,6 +173,7 @@ export const pageQuery = graphql`
             content
             title
           }
+          textAlign
           textColor
           fgColor
           bgColor
