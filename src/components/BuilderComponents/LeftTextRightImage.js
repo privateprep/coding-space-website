@@ -32,17 +32,6 @@ const LeftTextRightImage = ({ data }) => {
         className="LeftTextRightImage__image column"
         style={{ position: "relative" }}
       >
-        <div
-          className="bg-box"
-          style={{
-            backgroundColor: fgColor,
-            height: "95%",
-            width: "95%",
-            position: "absolute",
-            right: 0,
-            top: 0,
-          }}
-        />
         <PreviewCompatibleImage imageInfo={image} />
       </div>
     </div>
