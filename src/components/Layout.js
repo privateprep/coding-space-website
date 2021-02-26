@@ -7,6 +7,71 @@ import "../fonts/fonts.css";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
+const menuItems = [
+  {
+    title: "Get Started",
+    subMenu: [
+      { title: "Help me decide?", path: "/whats-new" },
+      { title: "What's New", path: "/whats-new" },
+      { title: "Semester Classes", path: "/semester-classes" },
+      { title: "Girlcode", path: "signup/girlcode" },
+      { title: "Camps", path: "/camps" },
+    ],
+  },
+  {
+    title: "Personalized Learning",
+    path: "",
+    subMenu: [
+      { title: "Note: Design My Class", path: "/design-my-class" },
+      { title: "1:1 & Private Group Lessons", path: "/private-group-lessons" },
+      { title: "Girl Scouts", path: "/girl-scouts" },
+      { title: "Birthday Parties", path: "/birthday-parties" },
+    ],
+  },
+  {
+    title: "School Programs",
+    path: "",
+    subMenu: [
+      {
+        title: "In-Person Classes",
+        path: "/school-programs/in-person-classes",
+      },
+      { title: "Virtual Classes", path: "/school-programs/virtual-classes" },
+      {
+        title: "How we work with schools",
+        path: "/school-programs//how-we-work-with-schools",
+      },
+      {
+        title: "How to get started",
+        path: "/school-programs//how-to-get-started",
+      },
+    ],
+  },
+  {
+    title: "About",
+    path: "",
+    subMenu: [
+      { title: "What Makes Us Different", path: "/what-makes-us-different" },
+      { title: "Team", path: "/team" },
+      { title: "Mission", path: "/mission" },
+      { title: "Values", path: "/values" },
+      { title: "Teaching philosophy", path: "/philosophy" },
+      { title: "Scholarship", path: "/scholarship" },
+      { title: "Common questions (FAQ)", path: "/faq" },
+    ],
+  },
+  {
+    title: "Blogs",
+    path: "/blogs",
+    subMenu: [],
+  },
+  {
+    title: "Contact Us",
+    path: "/contact",
+    subMenu: [],
+  },
+];
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
@@ -50,7 +115,7 @@ const TemplateWrapper = ({ children }) => {
         />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
-      <Navbar />
+      <Navbar menuItems={menuItems} />
       <div>{children}</div>
       <Footer />
     </div>
