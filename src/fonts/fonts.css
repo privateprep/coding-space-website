@@ -1,10 +1,10 @@
 /* Proxima Nova - Light */
 @font-face {
   font-display: swap;
-  font-family: "Proxima Nova";
-  src: url(./files/proxima-nova-reg.woff2) format("woff2"),
-    url(./files/proxima-nova-reg.woff) format("woff"),
-    url(./files/proxima-nova-reg.otf) format("opentype");
+  font-family: "Proxima Nova Light";
+  src: url(./files/proxima-nova-light.woff2) format("woff2"),
+    url(./files/proxima-nova-light.woff) format("woff"),
+    url(./files/proxima-nova-light.otf) format("opentype");
   font-style: normal;
   font-weight: 200;
 }
@@ -23,7 +23,7 @@
 /* Proxima Nova - Bold */
 @font-face {
   font-display: swap;
-  font-family: "Proxima Nova";
+  font-family: "Proxima Nova Bold";
   src: url(./files/proxima-nova-bold.woff2) format("woff2"),
     url(./files/proxima-nova-bold.woff) format("woff"),
     url(./files/proxima-nova-bold.otf) format("opentype");
