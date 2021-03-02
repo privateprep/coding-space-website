@@ -103,8 +103,6 @@ $menu-item-active-background-color: $tcs-primary-invert;
 $menu-list-border-left: 1px solid $tcs-primary-invert;
 $menu-label-color: $white;
 
-
-
 .menu-label {
   font-size: 1em !important;
   text-align: left;
@@ -132,12 +130,10 @@ $menu-label-color: $white;
 }
 .blog-list-item header {
   display: flex;
-
   margin-bottom: 1em;
 }
 .blog-list-item .featured-thumbnail {
   flex-basis: 35%;
-
   margin: 0 1.5em 0 0;
 }
 
@@ -145,14 +141,9 @@ $menu-label-color: $white;
 
 .column {
   display: block;
-
   flex-basis: 0;
-
   flex-grow: 1;
-
   flex-shrink: 1;
-
-  padding: 0.75rem;
 }
 
 .point-row {
@@ -169,11 +160,8 @@ $menu-label-color: $white;
 
 .headerBulletSections h1 {
   font-size: 4em;
-
   padding-bottom: 40px;
-
   padding-left: 15px;
-
   color: #274548;
 }
 
@@ -183,7 +171,6 @@ $menu-label-color: $white;
 
 .reviews {
   background-color: #FBF6EE;
-
   padding: 3rem;
 }
 
@@ -193,32 +180,22 @@ $menu-label-color: $white;
 
 .reviews__list {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
   grid-gap: 1rem;
-
   justify-items: center;
 }
 
 .review {
   background-color: #fff;
-
   padding: 1rem;
-
   position: relative;
 }
 
-.columns {
-  margin: 0;
-}
 .columns:not(:last-child) {
   margin-bottom: 0;
 }
 
-.column {
-  padding: 0;
-}
-.section {
-  padding: 0;
+.component {
+  max-width: 1360px;
+  margin: auto;
 }

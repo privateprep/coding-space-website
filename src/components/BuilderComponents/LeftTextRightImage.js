@@ -9,7 +9,7 @@ const LeftTextRightImage = ({ data }) => {
 
   return (
     <div
-      className="LeftTextRightImage columns"
+      className="LeftTextRightImage component columns"
       style={{
         display: "flex",
         flexXrap: "wrap",

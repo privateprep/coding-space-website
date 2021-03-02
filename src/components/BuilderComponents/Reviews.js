@@ -23,7 +23,7 @@ const Reviews = ({ data }) => {
   const { bgColor, heading, list } = data;
 
   return (
-    <div className="reviews" style={{ backgroundColor: bgColor }}>
+    <div className="reviews component" style={{ backgroundColor: bgColor }}>
       <div className="has-text-centered">
         <h1>{heading}</h1>
       </div>

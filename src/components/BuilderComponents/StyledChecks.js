@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const StyledChecks = ({ data }) => {
   const { bgColor, list } = data;
   return (
-    <div className="styledChecks" style={{ backgroundColor: bgColor, padding: "4rem" }}>
+    <div className="styledChecks component" style={{ backgroundColor: bgColor, padding: "4rem" }}>
       <ul
         className="styledChecks__list"
         style={{ maxWidth: "1000px", margin: "auto" }}

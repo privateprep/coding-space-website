@@ -30,7 +30,7 @@ const Buttons = ({ data }) => {
   const { bgColor, fgColor, textColor, heading = null, list } = data;
   return (
     <div
-      className="Buttons"
+      className="Buttons component"
       style={{
         backgroundColor: bgColor,
         padding: "0 4rem 4rem 4rem",

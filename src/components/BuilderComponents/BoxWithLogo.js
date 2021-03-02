@@ -14,7 +14,7 @@ const BoxWithLogo = ({ data }) => {
 
   return (
     <div
-      className="BoxWithLogo"
+      className="BoxWithLogo component"
       style={{
         padding: "4rem",
         paddingTop: "80px",

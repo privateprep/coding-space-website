@@ -8,7 +8,7 @@ const LeftHeaderRightFree = ({ data }) => {
 
   return (
     <div
-      className="columns headerBulletSections"
+      className="columns component headerBulletSections"
       style={{ backgroundColor: bgColor }}
     >
       <div className="column">

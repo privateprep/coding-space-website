@@ -39,15 +39,22 @@ ComponentSelector.propTypes = {
     type: PropTypes.string.isRequired,
     header: PropTypes.string,
     list: PropTypes.array,
-  })
-}
+  }),
+};
 
 const PageBuilder = ({ data = [] }) => {
   return (
     <div className="page-builder">
-      {data.map(component => (
-        <ComponentSelector data={component} />
-      ))}
+      {data.map(component => {
+        return (
+          <div
+            className="container"
+            style={{ backgroundColor: component.bgColor }}
+          >
+            <ComponentSelector data={component} />
+          </div>
+        );
+      })}
     </div>
   );
 };
