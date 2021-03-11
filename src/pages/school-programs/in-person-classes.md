@@ -2,7 +2,7 @@
 templateKey: school-programs
 title: In-Person Classes
 description: Our in-person class offerings.
-headingImage: /img/tcs-header.png
+headingImage: /img/digital-heart.jpg
 pageBuilder:
   - type: leftTextRightImage
     image:
@@ -11,7 +11,7 @@ pageBuilder:
     bgColor: "#ffffff"
     fgColor: "#9de2dd"
     mdContent: >-
-
+      
 
       ## In-Person Coding Instruction is Back!
 
@@ -35,17 +35,16 @@ pageBuilder:
       - title: Sign Up Now
         content: /contact
   - type: textOnly
-    textAlign: "left"
+    textAlign: left
     bgColor: "#ffffff"
     textColor: "#fff"
     mdContent: >-
-
+      
 
       ## In-Person Coding Instruction is Back!
 
 
       The Coding Space is now safely offering private classes from the comfort of your home. Working in small groups, our coding classes balance screen time with hands-on activities and opportunities to create and explore. Our program is aimed at helping children develop critical thinking skills, confidence, and self-expression through learning to code. Our private classes also provide our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
-
   - type: leftTextRightImage
     image:
       alt: Accessibility name
@@ -53,7 +52,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-
+      
 
       ### Your child will...
 
