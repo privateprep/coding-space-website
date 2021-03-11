@@ -4,33 +4,36 @@ import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const LeftTextRightImage = ({ data }) => {
-  const { bgColor, fgColor, image, mdContent } = data;
+  const { bgColor, fgColor, image, mdContent, mediaPosition } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
     <div
-      className="LeftTextRightImage component columns"
+      className="LeftTextRightImage component"
       style={{
         display: "flex",
-        flexXrap: "wrap",
+        // flexWrap: "wrap",
         padding: "4rem",
         backgroundColor: bgColor,
+        flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
+        justifyContent: "space-between",
       }}
     >
       <div
-        className="LeftTextRightImage__content column"
+        className="LeftTextRightImage__content"
         style={{
           padding: "1rem",
           color: "black",
           fontSize: "18px",
           margin: "0px",
           paddingRight: "4rem",
+          flex: "1 1 50%",
         }}
         dangerouslySetInnerHTML={htmlContent}
       ></div>
       <div
-        className="LeftTextRightImage__image column"
-        style={{ position: "relative" }}
+        className="LeftTextRightImage__image"
+        style={{ position: "relative", flex: "1 1 50%" }}
       >
         <PreviewCompatibleImage imageInfo={image} />
       </div>

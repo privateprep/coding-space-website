@@ -10,6 +10,7 @@ pageBuilder:
       image: /img/sisters-doing-their-homework-orig.jpg
     bgColor: "#ffffff"
     fgColor: "#9de2dd"
+    mediaPosition: "right"
     mdContent: >-
 
       ## In-Person Coding Instruction is Back!

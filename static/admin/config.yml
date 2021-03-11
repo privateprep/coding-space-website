@@ -336,6 +336,13 @@ page_builder:
                   ],
               },
               {
+                label: "Image Position",
+                name: mediaPosition,
+                widget: select,
+                default: "right",
+                options: ["left", "right"]
+              },
+              {
                 label: "Background Color",
                 name: bgColor,
                 widget: color,

@@ -50,7 +50,6 @@ const Navigation = ({ location, menuItems }) => {
   );
 
   const SubGroup = ({ subMenu, title }) => {
-    console.log(`Active sub Nav: ${activeSubNav}, title: ${title}`);
     return (
       <div className={`Nav--Group ${activeSubNav === title ? "active" : ""}`}>
         <span
