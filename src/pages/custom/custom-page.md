@@ -39,4 +39,9 @@ pageBuilder:
     list:
       - title: 100+
         content: Students
+  - type: textOnly
+    textAlign: left
+    bgColor: "#ffffff"
+    textColor: "#fff"
+    mdContent: >-
 ---

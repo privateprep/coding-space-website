@@ -100,6 +100,10 @@ pageBuilder:
     bgColor: "#faf7f2"
     fgColor: "#9de2dd"
     textColor: "#274548"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#ffffff"
+    textColor: "#fff"
 ---
 
 ## In-Person Coding Instruction is Back!

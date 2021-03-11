@@ -93,9 +93,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        headingImage {
-          publicURL
-        }
+        headingImage
         pageBuilder {
           heading
 
