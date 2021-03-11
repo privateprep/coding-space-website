@@ -11,7 +11,6 @@ pageBuilder:
     bgColor: "#ffffff"
     fgColor: "#9de2dd"
     mdContent: >-
-      
 
       ## In-Person Coding Instruction is Back!
 
@@ -45,14 +44,10 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#fff"
     mdContent: >-
-      
+
 
       ## In-Person Coding Instruction is Back!
 
-
-<<<<<<< Updated upstream
-      The Coding Space is now safely offering private classes from the comfort of your home. Working in small groups, our coding classes balance screen time with hands-on activities and opportunities to create and explore. Our program is aimed at helping children develop critical thinking skills, confidence, and self-expression through learning to code. Our private classes also provide our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
-=======
       The Coding Space is now safely offering private classes from the comfort
       of your home. Working in small groups, our coding classes balance screen
       time with hands-on activities and opportunities to create and explore. Our
@@ -61,7 +56,6 @@ pageBuilder:
       classes also provide our signature 4:1 student to teacher ratio ensuring
       personalized attention when they need it.
 
->>>>>>> Stashed changes
   - type: leftTextRightImage
     image:
       alt: Accessibility name
@@ -69,7 +63,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-      
+
 
       ### Your child will...
 
