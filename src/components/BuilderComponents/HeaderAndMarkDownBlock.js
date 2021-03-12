@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 
 const HeaderAndMarkDownBlock = ({ data }) => {
-  const { bgColor, fgColor, heading, mdContent, mediaPosition } = data;
+  const { bgColor, heading, mdContent, mediaPosition, textColor } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -13,7 +13,7 @@ const HeaderAndMarkDownBlock = ({ data }) => {
         display: "flex",
         flexWrap: "wrap",
         backgroundColor: bgColor,
-        color: fgColor,
+        color: textColor,
         flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
         justifyContent: "space-between",
       }}
@@ -24,21 +24,21 @@ const HeaderAndMarkDownBlock = ({ data }) => {
           padding: "1rem",
           margin: "0px",
           flex: "1 1 500px",
+          textAlign: textAlign,
         }}
       >
         <h1>{heading}</h1>
       </div>
-      <div className="HeaderAndMarkDownBlock__content">
-        <div
-          className="section"
-          style={{
-            padding: "1rem",
-            fontSize: "18px",
-            margin: "0px",
-            flex: "1 1 500px",
-          }}
-          dangerouslySetInnerHTML={htmlContent}
-        />
+      <div
+        className="HeaderAndMarkDownBlock__content"
+        style={{
+          padding: "1rem",
+          fontSize: "18px",
+          margin: "0px",
+          flex: "1 1 500px",
+        }}
+      >
+        <div dangerouslySetInnerHTML={htmlContent} />
       </div>
     </div>
   );
