@@ -12,7 +12,7 @@ export const CustomPageTemplate = ({
   helmet,
 }) => {
   const backgroundImage = !!headingImage
-    ? headingImage
+    ? headingImage.publicURL
     : "/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png";
 
   return (
@@ -93,10 +93,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        headingImage
+        headingImage {
+          publicURL
+        }
         pageBuilder {
           heading
-
           image {
             alt
             image {
@@ -108,6 +109,7 @@ export const pageQuery = graphql`
             }
           }
           mdContent
+          mediaPosition
           type
           list {
             content
