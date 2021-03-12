@@ -8,9 +8,10 @@ import PageBuilder from "../components/PageBuilder";
 export const SignupProgramsTemplate = ({
   title,
   headingImage,
-  pageBuilder = [],
+  pageBuilder,
   helmet,
 }) => {
+  const data = pageBuilder ?? [];
   const backgroundImage = !!headingImage
     ? headingImage.publicURL
     : "/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png";
@@ -40,7 +41,7 @@ export const SignupProgramsTemplate = ({
         </div>
 
         <div>
-          <PageBuilder data={pageBuilder} />
+          <PageBuilder data={data} />
         </div>
       </div>
     </section>

@@ -8,12 +8,13 @@ import PageBuilder from "../components/PageBuilder";
 export const SchoolProgramsTemplate = ({
   title,
   headingImage,
-  pageBuilder = [],
+  pageBuilder,
   helmet,
 }) => {
   const backgroundImage = !!headingImage
     ? headingImage.publicURL
     : "/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png";
+  const data = pageBuilder ?? [];
 
   return (
     <section className="section">
@@ -40,7 +41,7 @@ export const SchoolProgramsTemplate = ({
         </div>
 
         <div>
-          <PageBuilder data={pageBuilder} />
+          <PageBuilder data={data} />
         </div>
       </div>
     </section>
