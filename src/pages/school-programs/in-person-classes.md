@@ -12,7 +12,7 @@ pageBuilder:
     fgColor: "#9de2dd"
     mediaPosition: right
     mdContent: >-
-      
+
       ## In-Person Coding Instruction is Back!
 
 
@@ -37,9 +37,9 @@ pageBuilder:
   - type: textOnly
     textAlign: left
     bgColor: "#ffffff"
-    textColor: "#fff"
+    textColor: "#274548"
     mdContent: >-
-      
+
 
       ## In-Person Coding Instruction is Back!
 
@@ -51,7 +51,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-      
+
 
       ### Your child will...
 

@@ -32,7 +32,7 @@ const LeftTextRightImage = ({ data }) => {
       ></div>
       <div
         className="LeftTextRightImage__image"
-        style={{ position: "relative", flex: "1 1 500px" }}
+        style={{ alignSelf: "center", padding: "2rem", position: "relative", flex: "1 1 500px" }}
       >
         <PreviewCompatibleImage imageInfo={image} />
       </div>
