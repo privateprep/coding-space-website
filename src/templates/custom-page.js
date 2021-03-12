@@ -8,7 +8,7 @@ import PageBuilder from "../components/PageBuilder";
 export const CustomPageTemplate = ({
   title,
   headingImage,
-  pageBuilder,
+  pageBuilder = [],
   helmet,
 }) => {
   const backgroundImage = !!headingImage

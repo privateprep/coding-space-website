@@ -8,7 +8,7 @@ import PageBuilder from "../components/PageBuilder";
 export const SchoolProgramsTemplate = ({
   title,
   headingImage,
-  pageBuilder,
+  pageBuilder = [],
   helmet,
 }) => {
   const backgroundImage = !!headingImage
@@ -57,7 +57,7 @@ SchoolProgramsTemplate.propTypes = {
 
 const SchoolPrograms = ({ data }) => {
   const { markdownRemark: page } = data;
-  console.log(page.frontmatter.pageBuilder);
+
   return (
     <Layout>
       <SchoolProgramsTemplate
