@@ -12,7 +12,7 @@ const LeftTextRightImage = ({ data }) => {
       className="LeftTextRightImage component"
       style={{
         display: "flex",
-        // flexWrap: "wrap",
+        flexWrap: "wrap",
         padding: "4rem",
         backgroundColor: bgColor,
         flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
@@ -26,14 +26,13 @@ const LeftTextRightImage = ({ data }) => {
           color: "black",
           fontSize: "18px",
           margin: "0px",
-          paddingRight: "4rem",
-          flex: "1 1 50%",
+          flex: "1 1 500px",
         }}
         dangerouslySetInnerHTML={htmlContent}
       ></div>
       <div
         className="LeftTextRightImage__image"
-        style={{ position: "relative", flex: "1 1 50%" }}
+        style={{ position: "relative", flex: "1 1 500px" }}
       >
         <PreviewCompatibleImage imageInfo={image} />
       </div>
