@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
-const LeftTextRightImage = ({ data }) => {
+const TextAndImageBlock = ({ data }) => {
   const { bgColor, fgColor, image, mdContent, mediaPosition } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
     <div
-      className="LeftTextRightImage component"
+      className="TextAndImageBlock component"
       style={{
         display: "flex",
         flexWrap: "wrap",
@@ -20,7 +20,7 @@ const LeftTextRightImage = ({ data }) => {
       }}
     >
       <div
-        className="LeftTextRightImage__content"
+        className="TextAndImageBlock__content"
         style={{
           padding: "1rem",
           color: "black",
@@ -31,7 +31,7 @@ const LeftTextRightImage = ({ data }) => {
         dangerouslySetInnerHTML={htmlContent}
       ></div>
       <div
-        className="LeftTextRightImage__image"
+        className="TextAndImageBlock__image"
         style={{ alignSelf: "center", padding: "2rem", position: "relative", flex: "1 1 500px" }}
       >
         <PreviewCompatibleImage imageInfo={image} />
@@ -40,7 +40,7 @@ const LeftTextRightImage = ({ data }) => {
   );
 };
 
-LeftTextRightImage.propTypes = {
+TextAndImageBlock.propTypes = {
   data: PropTypes.shape({
     bgColor: PropTypes.string,
     fgColor: PropTypes.string,
@@ -49,4 +49,4 @@ LeftTextRightImage.propTypes = {
   }),
 };
 
-export default LeftTextRightImage;
+export default TextAndImageBlock;

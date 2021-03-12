@@ -26,7 +26,7 @@ pageBuilder:
         content: "#"
       - title: Click me!
         content: "#"
-  - type: leftTextRightImage
+  - type: textAndImageBlock
     image:
       alt: Accessibility name
       image: /img/birthday.png

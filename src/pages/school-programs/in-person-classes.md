@@ -4,7 +4,7 @@ title: In-Person Classes
 description: Our in-person class offerings.
 headingImage: /img/digital-heart.jpg
 pageBuilder:
-  - type: leftTextRightImage
+  - type: textAndImageBlock
     image:
       alt: Chicken Coop!
       image: /img/img_1110.jpg
@@ -44,7 +44,7 @@ pageBuilder:
       ## In-Person Coding Instruction is Back!
 
       The Coding Space is now safely offering private classes from the comfort of your home. Working in small groups, our coding classes balance screen time with hands-on activities and opportunities to create and explore. Our program is aimed at helping children develop critical thinking skills, confidence, and self-expression through learning to code. Our private classes also provide our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
-  - type: leftTextRightImage
+  - type: textAndImageBlock
     image:
       alt: Accessibility name
       image: /img/ndegiwp.png

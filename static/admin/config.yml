@@ -314,8 +314,8 @@ page_builder:
             ],
         },
         {
-          label: "Left Text Right Image",
-          name: "leftTextRightImage",
+          label: "Text and Image Section",
+          name: "textAndImageBlock",
           widget: "object",
           fields:
             [
@@ -339,7 +339,7 @@ page_builder:
                 label: "Image Position",
                 name: mediaPosition,
                 widget: select,
-                default: "right",
+                default: ["right"],
                 options: ["left", "right"]
               },
               {
@@ -791,8 +791,8 @@ collections:
                   ],
               },
               {
-                label: "Left Text Right Image",
-                name: "leftTextRightImage",
+                label: "Text And Image Block",
+                name: "textAndImageBlock",
                 widget: "object",
                 fields:
                   [

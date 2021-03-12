@@ -8,7 +8,7 @@ import {
   Points,
   StyledChecks,
   LeftHeaderRightFree,
-  LeftTextRightImage,
+  TextAndImageBlock,
 } from "./BuilderComponents";
 
 const ComponentSelector = ({ data }) => {
@@ -21,8 +21,8 @@ const ComponentSelector = ({ data }) => {
       return <TextOnly data={data} />;
     case "leftHeaderRightFree":
       return <LeftHeaderRightFree data={data} />;
-    case "leftTextRightImage":
-      return <LeftTextRightImage data={data} />;
+    case "textAndImageBlock":
+      return <TextAndImageBlock data={data} />;
     case "reviews":
       return <Reviews data={data} />;
     case "points":
