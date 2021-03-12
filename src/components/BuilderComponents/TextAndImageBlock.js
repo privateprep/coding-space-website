@@ -13,7 +13,6 @@ const TextAndImageBlock = ({ data }) => {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        padding: "4rem",
         backgroundColor: bgColor,
         flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
         justifyContent: "space-between",

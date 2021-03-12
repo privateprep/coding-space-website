@@ -68,8 +68,10 @@ pageBuilder:
 
       * Be challenged at their individual level.
     mediaPosition: left
-  - type: leftHeaderRightFree
+  - type: headerAndMarkDownBlock
     bgColor: "#faf7f2"
+    textColor: "#274548"
+    mediaPosition: right
     heading: The Best Way To Code
     mdContent: >-
       ### A Space for Growth

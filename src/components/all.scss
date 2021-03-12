@@ -175,19 +175,6 @@ $menu-label-color: $white;
   margin: 0;
 }
 
-.headerBulletSections {
-  padding: 4rem;
-}
-
-.headerBulletSections h1 {
-  font-size: 4em;
-  color: #274548;
-}
-
-.headerBulletSections section {
-  padding: 1rem;
-}
-
 .reviews {
   background-color: #fbf6ee;
   padding: 3rem;
@@ -217,4 +204,5 @@ $menu-label-color: $white;
 .component {
   max-width: 1360px;
   margin: auto;
+  padding: 2rem;
 }

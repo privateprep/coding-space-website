@@ -284,13 +284,47 @@ page_builder:
             ],
         },
         {
-          label: "Left Header Right Free Response",
-          name: "leftHeaderRightFree",
+          label: "Header And Free Response",
+          name: "headerAndMarkDownBlock",
           widget: "object",
           fields:
             [
               { label: Heading, name: heading, widget: string },
               { label: Content, name: mdContent, widget: markdown },
+              {
+                label: "Heading Position",
+                name: mediaPosition,
+                widget: select,
+                default: ["right"],
+                options: ["left", "right"],
+              },
+              {
+                label: "Text Color",
+                name: textColor,
+                widget: color,
+                picker: twitter,
+                default: "#274548",
+                presetColors:
+                  [
+                    "#274548",
+                    "#3a686c",
+                    "#9de2dd",
+                    "#7fece4",
+                    "#faf7f2",
+                    "#fcfaf7",
+                    "#eec11a",
+                    "#f6c924",
+                    "#fff",
+                    "#000",
+                  ],
+              },
+              {
+                label: "Text Alignment",
+                name: textAlign,
+                widget: select,
+                default: "center",
+                options: ["left", "center", "right"],
+              },
               {
                 label: "Background Color",
                 name: bgColor,
