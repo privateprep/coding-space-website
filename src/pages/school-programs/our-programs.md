@@ -35,4 +35,33 @@ pageBuilder:
         content: "#"
       - title: Spring 2022
         content: "#"
+  - type: textAndImageBlock
+    image:
+      alt: Accessibility name
+      image: /img/climbing-2-1.jpg
+    mediaPosition:
+      - right
+    bgColor: "#faf7f2"
+    fgColor: "#9de2dd"
+    mdContent: >-
+      # **Explore Our Classes and Camps**
+
+
+      <!--StartFragment-->
+
+
+      **Click below to explore our full range of available classes and camps. Search by type, experience level, or location.**
+
+
+      <!--EndFragment-->
+  - type: reviews
+    bgColor: "#274548"
+    heading: What Parents and Kids Say About Working With Us
+    list:
+      - title: This is great!
+        content: Alejandro
+      - title: This is great!
+        content: Alejandro
+      - title: This is great!
+        content: Alejandro
 ---
