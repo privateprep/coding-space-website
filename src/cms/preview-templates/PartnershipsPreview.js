@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { CustomPageTemplate } from "../../templates/custom-page";
 
-const SignupProgramsPreview = ({ entry, widgetFor, getAsset }) => {
+const PartnershipsPreview = ({ entry, widgetFor, getAsset }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
   const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
 
@@ -16,7 +16,7 @@ const SignupProgramsPreview = ({ entry, widgetFor, getAsset }) => {
   );
 };
 
-SignupProgramsPreview.propTypes = {
+PartnershipsPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
@@ -24,4 +24,4 @@ SignupProgramsPreview.propTypes = {
   getAsset: PropTypes.func,
 };
 
-export default SignupProgramsPreview;
+export default PartnershipsPreview;

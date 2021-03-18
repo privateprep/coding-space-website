@@ -691,7 +691,7 @@ collections:
         }
       - *page_builder
   - name: "school-programs"
-    label: "School Programs"
+    label: "Programs"
     folder: "src/pages/school-programs"
     create: true
     slug: "{{slug}}"
@@ -711,9 +711,9 @@ collections:
           widget: image,
         }
       - *page_builder
-  - name: "signup-programs"
-    label: "Signup Programs"
-    folder: "src/pages/signup-programs"
+  - name: "partnerships"
+    label: "Partnerships"
+    folder: "src/pages/partnerships"
     create: true
     slug: "{{slug}}"
     fields:
@@ -721,7 +721,7 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "signup-programs",
+          default: "partnerships",
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }

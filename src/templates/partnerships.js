@@ -5,7 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PageBuilder from "../components/PageBuilder";
 
-export const SignupProgramsTemplate = ({
+export const PartnershipsTemplate = ({
   title,
   headingImage,
   pageBuilder,
@@ -48,7 +48,7 @@ export const SignupProgramsTemplate = ({
   );
 };
 
-SignupProgramsTemplate.propTypes = {
+PartnershipsTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -56,11 +56,11 @@ SignupProgramsTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const SignupPrograms = ({ data }) => {
+const Partnerships = ({ data }) => {
   const { markdownRemark: page } = data;
   return (
     <Layout>
-      <SignupProgramsTemplate
+      <PartnershipsTemplate
         description={page.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -79,16 +79,16 @@ const SignupPrograms = ({ data }) => {
   );
 };
 
-SignupPrograms.propTypes = {
+Partnerships.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default SignupPrograms;
+export default Partnerships;
 
 export const pageQuery = graphql`
-  query SignupProgramsById($id: String!) {
+  query PartnershipsById($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
