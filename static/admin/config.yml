@@ -557,7 +557,7 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "static/img/tcs-header.png",
+          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder
@@ -597,7 +597,7 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "static/img/tcs-header.png",
+          default: "img/tcs-header.png",
           widget: "image",
         }
       - *page_builder
@@ -618,7 +618,7 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "static/img/tcs-header.png",
+          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder
@@ -639,7 +639,7 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "static/img/tcs-header.png",
+          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder

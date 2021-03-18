@@ -2,7 +2,7 @@
 templateKey: about-us
 title: How TCS is different
 description: Because we're special!
-headingImage: static/img/tcs-header.png
+headingImage: img/tcs-header.png
 pageBuilder:
   - type: textAndImageBlock
     image:
