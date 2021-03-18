@@ -15,9 +15,12 @@ const Point = ({ key, description, figure }) => (
 );
 
 const Points = ({ data }) => {
-  const { bgColor, heading, list } = data;
+  const { bgColor, heading, list, textColor } = data;
   return (
-    <div className="points component" style={{ backgroundColor: bgColor }}>
+    <div
+      className="points component"
+      style={{ backgroundColor: bgColor, color: textColor }}
+    >
       <div className="has-text-centered">
         <h1>{heading}</h1>
       </div>

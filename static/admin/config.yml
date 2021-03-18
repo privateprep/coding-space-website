@@ -466,6 +466,26 @@ page_builder:
                     "#000",
                   ],
               },
+              {
+                label: "Text Color",
+                name: textColor,
+                widget: color,
+                picker: twitter,
+                default: "#274548",
+                presetColors:
+                  [
+                    "#274548",
+                    "#3a686c",
+                    "#9de2dd",
+                    "#7fece4",
+                    "#faf7f2",
+                    "#fcfaf7",
+                    "#eec11a",
+                    "#f6c924",
+                    "#fff",
+                    "#000",
+                  ],
+              },
             ],
         },
         {
