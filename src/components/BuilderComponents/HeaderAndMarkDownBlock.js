@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 
 const HeaderAndMarkDownBlock = ({ data }) => {
-  const { bgColor, heading, mdContent, mediaPosition, textColor } = data;
+  const { bgColor, heading, mdContent, mediaPosition, textAlign, textColor } = data;
   const htmlContent = createHtml(mdContent);
 
   return (

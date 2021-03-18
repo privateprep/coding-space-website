@@ -683,7 +683,12 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: "image" }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          default: "static/img/tcs-header.png",
+          widget: "image",
+        }
       - *page_builder
   - name: "school-programs"
     label: "School Programs"
@@ -699,7 +704,12 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          default: "static/img/tcs-header.png",
+          widget: image,
+        }
       - *page_builder
   - name: "signup-programs"
     label: "Signup Programs"
@@ -715,7 +725,12 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          default: "static/img/tcs-header.png",
+          widget: image,
+        }
       - *page_builder
   - name: "pages"
     label: "Pages"
