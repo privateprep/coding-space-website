@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import ClassRoll from "../../components/ClassRoll";
+
 
 export default class CustomIndexPage extends React.Component {
   render() {
@@ -27,7 +27,7 @@ export default class CustomIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <ClassRoll />
+              <p>Placeholder</p>
             </div>
           </div>
         </section>
