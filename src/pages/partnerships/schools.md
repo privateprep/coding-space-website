@@ -20,4 +20,12 @@ pageBuilder:
     list:
       - title: 100+
         content: Students
+  - type: textAndImageBlock
+    image:
+      alt: Inside of a chicken coop!
+      image: /img/img_1156.jpg
+    mediaPosition: right
+    bgColor: "#faf7f2"
+    fgColor: "#9de2dd"
+    mdContent: This is text
 ---
