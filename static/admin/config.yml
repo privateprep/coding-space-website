@@ -557,7 +557,6 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder
@@ -597,7 +596,6 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "img/tcs-header.png",
           widget: "image",
         }
       - *page_builder
@@ -618,7 +616,6 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder
@@ -639,7 +636,6 @@ collections:
       - {
           label: "Heading Image",
           name: "headingImage",
-          default: "img/tcs-header.png",
           widget: image,
         }
       - *page_builder
