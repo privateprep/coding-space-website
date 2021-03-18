@@ -520,9 +520,9 @@ page_builder:
   }
 
 collections:
-  - name: "about"
-    label: "About Pages"
-    folder: "src/pages/about"
+  - name: "about-us"
+    label: "About Us"
+    folder: "src/pages/about-us"
     create: true
     slug: "{{slug}}"
     fields:
@@ -530,10 +530,16 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "custom-page",
+          default: "about-us",
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          default: "static/img/tcs-header.png",
+          widget: image,
+        }
       - *page_builder
   - name: "blog"
     label: "Blog"
