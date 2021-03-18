@@ -15,10 +15,19 @@ pageBuilder:
 
 
       **Welcome to The Coding Space! We are a coding education company dedicated to helping kids learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence. Our in-person and virtual classes and camps provide a caring, inclusive, and challenging experience for all students through exceptional curriculum and customized teaching methods delivered by our expert teachers. Learn more about what makes our approach unique here.**
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#274548"
+    mdContent: >-
+      ### Seasonal Programs
+
+
+      Our spring, summer, and fall classes bring students together each week to make progress on individual projects, dive into hands-on activities, and explore opportunities for self-expression. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. And with our 4:1 student-to-teacher ratio, students get the guidance they need to keep moving forward. Learn more about each semester by clicking below.
   - type: buttons
-    bgColor: "#faf7f2"
+    bgColor: "#9de2dd"
     fgColor: "#274548"
-    textColor: "#fff"
+    textColor: "#faf7f2"
     list:
       - title: Summer 2021
         content: "#"
