@@ -9,7 +9,7 @@ import { withPrefix } from "gatsby";
 
 const menuItems = [
   {
-    title: "Get Started",
+    title: "Get Started - WIP",
     subMenu: [
       { title: "Help me decide?", path: "/whats-new" },
       { title: "What's New", path: "/whats-new" },
@@ -19,45 +19,53 @@ const menuItems = [
     ],
   },
   {
-    title: "Personalized Learning",
+    title: "Programs",
     path: "",
     subMenu: [
-      { title: "Note: Design My Class", path: "/design-my-class" },
-      { title: "1:1 & Private Group Lessons", path: "/private-group-lessons" },
-      { title: "Girl Scouts", path: "/girl-scouts" },
-      { title: "Birthday Parties", path: "/birthday-parties" },
-    ],
-  },
-  {
-    title: "School Programs",
-    path: "",
-    subMenu: [
+      { title: "Experience Levels", path: "/programs/experience-levels" },
       {
-        title: "In-Person Classes",
-        path: "/school-programs/in-person-classes",
-      },
-      { title: "Virtual Classes", path: "/school-programs/virtual-classes" },
-      {
-        title: "How we work with schools",
-        path: "/school-programs//how-we-work-with-schools",
+        title: "Seasonal Programs",
+        path: "/programs/seasonal-programs",
       },
       {
-        title: "How to get started",
-        path: "/school-programs//how-to-get-started",
+        title: "Experiential Programs",
+        path: "/programs/experiential-programs",
+      },
+      {
+        title: "Camps",
+        path: "/programs/camps",
+      },
+      {
+        title: "Build Your Own",
+        path: "/programs/build-your-own",
+      },
+      {
+        title: "Special Events",
+        path: "/programs/special-events",
       },
     ],
   },
   {
-    title: "About",
+    title: "Partnerships",
     path: "",
     subMenu: [
-      { title: "What Makes Us Different", path: "/what-makes-us-different" },
-      { title: "Team", path: "/team" },
-      { title: "Mission", path: "/mission" },
-      { title: "Values", path: "/values" },
-      { title: "Teaching philosophy", path: "/philosophy" },
-      { title: "Scholarship", path: "/scholarship" },
-      { title: "Common questions (FAQ)", path: "/faq" },
+      { title: "Schools", path: "partnerships/schools" },
+      { title: "Community", path: "partnerships/community" },
+      { title: "Corporate", path: "partnerships/corporate" },
+      { title: "Camps", path: "partnerships/camps" },
+    ],
+  },
+  {
+    title: "About Us",
+    path: "",
+    subMenu: [
+      { title: "How TCS is different", path: "about-us/how-tcs-is-different" },
+      { title: "Social Impact", path: "about-us/social-impact" },
+      { title: "Common Questions", path: "about-us/common-questions" },
+      { title: "School Programs", path: "about-us/school-programs" },
+      { title: "Rewards Program", path: "about-us/rewards-program" },
+      { title: "Our Philosophy", path: "about-us/out-philosophy" },
+      { title: "LMS", path: "/lms" },
     ],
   },
   {
