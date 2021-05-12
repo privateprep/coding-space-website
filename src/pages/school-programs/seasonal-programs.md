@@ -7,8 +7,7 @@ description: "Our spring, summer, and fall classes bring students together each
 headingImage: /img/tcs-header.png
 pageBuilder:
   - type: headerAndMarkDownBlock
-    mediaPosition:
-      - right
+    mediaPosition: right
     textColor: "#264548"
     textAlign: center
     bgColor: "#faf7f2"
@@ -38,8 +37,7 @@ pageBuilder:
       - title: Spring 2022
         content: "Join the Waitlist "
   - type: headerAndMarkDownBlock
-    mediaPosition:
-      - right
+    mediaPosition: right
     textColor: "#264548"
     textAlign: center
     bgColor: "#9de2dd"
@@ -68,8 +66,7 @@ pageBuilder:
       * Discover and define their personal passions.
       * Make new friends near and far.
   - type: headerAndMarkDownBlock
-    mediaPosition:
-      - right
+    mediaPosition: right
     textColor: "#274548"
     textAlign: center
     bgColor: "#faf7f2"

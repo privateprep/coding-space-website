@@ -39,8 +39,7 @@ pageBuilder:
     image:
       alt: Accessibility name
       image: /img/climbing-2-1.jpg
-    mediaPosition:
-      - right
+    mediaPosition: right
     bgColor: "#faf7f2"
     fgColor: "#9de2dd"
     mdContent: >-

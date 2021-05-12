@@ -295,7 +295,7 @@ page_builder:
                 label: "Heading Position",
                 name: mediaPosition,
                 widget: select,
-                default: ["right"],
+                default: "right",
                 options: ["left", "right"],
               },
               {
