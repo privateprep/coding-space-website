@@ -23,4 +23,14 @@ pageBuilder:
     bgColor: "#faf7f2"
     fgColor: "#9de2dd"
     mdContent: This is another test
+  - type: headerAndMarkDownBlock
+    mediaPosition: right
+    textColor: "#274548"
+    textAlign: left
+    bgColor: "#faf7f2"
+    heading: testing the position of header
+    mdContent: |-
+      This is a test
+
+      ![Testing added image as well](/img/birthday.png "Birthday image")
 ---
