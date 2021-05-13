@@ -180,6 +180,30 @@ $menu-label-color: $white;
   margin: 0;
 }
 
+.custom-link-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    .custom-link-box {
+      width: 300px;
+      padding: 1rem;
+      margin: 1rem;
+    }
+  }
+}
+
 .reviews {
   background-color: #fbf6ee;
   padding: 3rem;

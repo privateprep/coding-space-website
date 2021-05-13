@@ -116,6 +116,11 @@ export const pageQuery = graphql`
           list {
             content
             title
+            mdContent
+            fgColor
+            bgColor
+            textColor
+            textAlign
           }
           textAlign
           textColor
