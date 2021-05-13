@@ -27,7 +27,7 @@ const Button = ({ fgColor, textColor, key, link, text }) => (
 );
 
 const Buttons = ({ data }) => {
-  const { bgColor, fgColor, textColor, heading = null, list } = data;
+  const { bgColor, fgColor, textColor, list } = data;
   return (
     <div
       className="Buttons component"
@@ -39,9 +39,6 @@ const Buttons = ({ data }) => {
         justifyContent: "center",
       }}
     >
-      {/* <div className="has-text-centered">
-        <h1>{heading}</h1>
-      </div> */}
       <div
         className="Buttons__list"
         style={{
@@ -70,7 +67,6 @@ Buttons.propTypes = {
     bgColor: PropTypes.string,
     fgColor: PropTypes.string,
     textColor: PropTypes.string,
-    heading: PropTypes.string,
     list: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string,

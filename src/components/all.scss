@@ -2,7 +2,7 @@
 
 // Config vars
 $tcs-blue: #9fe2dd;
-$tcs-primary: #274548;
+$tcs-primary: #264548;
 $tcs-primary-invert: #fff;
 $background-color: #fbf6ee;
 $white: #fff;
@@ -32,7 +32,7 @@ h5 {
 
 h1 {
   font-size: 3rem;
-  line-height:4rem;
+  line-height: 4rem;
 }
 
 h2 {
@@ -178,6 +178,39 @@ $menu-label-color: $white;
 
 .point-row columns {
   margin: 0;
+}
+
+.custom-link-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+
+    a {
+      text-decoration: none;
+    }
+
+    .custom-link-box {
+      width: 300px;
+      padding: 1rem;
+      margin: 1rem;
+
+      &__link {
+        text-decoration: none;
+      }
+      &__content {
+        img {
+          max-width: 250px;
+        }
+      }
+    }
+  }
 }
 
 .reviews {

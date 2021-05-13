@@ -4,7 +4,7 @@ import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const TextAndImageBlock = ({ data }) => {
-  const { bgColor, fgColor, image, mdContent, mediaPosition } = data;
+  const { bgColor, image, mdContent, mediaPosition } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -14,7 +14,7 @@ const TextAndImageBlock = ({ data }) => {
         display: "flex",
         flexWrap: "wrap",
         backgroundColor: bgColor,
-        flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
+        flexDirection: mediaPosition === "left" ? "row-reverse" : "row",
         justifyContent: "space-between",
       }}
     >
@@ -42,7 +42,6 @@ const TextAndImageBlock = ({ data }) => {
 TextAndImageBlock.propTypes = {
   data: PropTypes.shape({
     bgColor: PropTypes.string,
-    fgColor: PropTypes.string,
     image: PropTypes.any,
     mdContent: PropTypes.string,
   }),

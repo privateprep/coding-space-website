@@ -9,6 +9,7 @@ import {
   StyledChecks,
   HeaderAndMarkDownBlock,
   TextAndImageBlock,
+  CustomLinkBoxes,
 } from "./BuilderComponents";
 
 const ComponentSelector = ({ data }) => {
@@ -17,6 +18,8 @@ const ComponentSelector = ({ data }) => {
       return <BoxWithLogo data={data} />;
     case "buttons":
       return <Buttons data={data} />;
+    case "customLinkBoxes":
+      return <CustomLinkBoxes data={data} />;
     case "textOnly":
       return <TextOnly data={data} />;
     case "headerAndMarkDownBlock":

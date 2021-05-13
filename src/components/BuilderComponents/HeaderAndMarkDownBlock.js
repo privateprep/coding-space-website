@@ -14,7 +14,7 @@ const HeaderAndMarkDownBlock = ({ data }) => {
         flexWrap: "wrap",
         backgroundColor: bgColor,
         color: textColor,
-        flexDirection: mediaPosition == "left" ? "row-reverse" : "row",
+        flexDirection: mediaPosition === "left" ? "row-reverse" : "row",
         justifyContent: "space-between",
       }}
     >

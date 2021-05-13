@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
           <a class="classes" href="https://classes.thecodingspace.com">
             Join a Class
           </a>
-          <a class="classes" href="#">
+          <a class="classes" href="https://classes.thecodingspace.com">
             Winter Break Mini Camps
           </a>
         </div>

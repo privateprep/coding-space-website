@@ -14,7 +14,7 @@ pageBuilder:
       alt: test
       image: /img/img_4956.jpg
     mediaPosition: left
-    bgColor: "#faf7f2"
+    bgColor: "#faf6ee"
     fgColor: "#9de2dd"
     mdContent: This is content
 ---
