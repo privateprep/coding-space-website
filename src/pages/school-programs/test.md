@@ -37,7 +37,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     list:
       - fgColor: "#9de2dd"
-        content: https://www.thecodingspace.com
+        content: /summer_classes
         textAlign: center
         textColor: "#264548"
         mdContent: >-
