@@ -3,8 +3,7 @@ import remark from "remark";
 import remarkHTML from "remark-html";
 import smallLogo from "../img/logo-small.svg";
 
-const toHTML = (value) =>
-  remark().use(remarkHTML).processSync(value).toString();
+const toHTML = value => remark().use(remarkHTML).processSync(value).toString();
 function createMarkup(value) {
   return { __html: toHTML(value) };
 }
@@ -38,7 +37,7 @@ const BoxWithLogo = ({ data }) => {
       <div
         className="BoxWithLogo__content"
         style={{
-          backgroundColor: "#274548",
+          backgroundColor: "#264548",
           padding: "2rem",
           textAlign: "left",
           borderRadius: "8px",

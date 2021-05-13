@@ -6,16 +6,16 @@ headingImage: /img/tcs-header.png
 pageBuilder:
   - type: headerAndMarkDownBlock
     mediaPosition: right
-    textColor: "#274548"
+    textColor: "#264548"
     textAlign: left
-    bgColor: "#faf7f2"
+    bgColor: "#faf6ee"
     heading: The header above was working...
     mdContent: |-
-      #### **But now I can't seem to make it work!** 
+      #### **But now I can't seem to make it work!**
 
       The font looks way too small...
   - type: points
-    bgColor: "#faf7f2"
+    bgColor: "#faf6ee"
     heading: I'm Making a Statement
     list:
       - title: 100+
@@ -25,7 +25,7 @@ pageBuilder:
       alt: Inside of a chicken coop!
       image: /img/img_1156.jpg
     mediaPosition: right
-    bgColor: "#faf7f2"
+    bgColor: "#faf6ee"
     fgColor: "#9de2dd"
     mdContent: This is text
 ---

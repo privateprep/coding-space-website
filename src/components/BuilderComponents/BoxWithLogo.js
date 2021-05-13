@@ -4,8 +4,8 @@ import smallLogo from "../../img/logo-small.svg";
 
 const BoxWithLogo = ({ data }) => {
   const {
-    bgColor = "#faf7f2",
-    fgColor = "#274548",
+    bgColor = "#faf6ee",
+    fgColor = "#264548",
     textColor = "#fff",
     heading,
     mdContent,
@@ -39,7 +39,7 @@ const BoxWithLogo = ({ data }) => {
       <div
         className="BoxWithLogo__content"
         style={{
-          backgroundColor: fgColor ,
+          backgroundColor: fgColor,
           padding: "2rem",
           textAlign: "left",
           borderRadius: "8px",

@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: custom-link-boxes
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -10,6 +10,18 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+
+presetColors:
+  &presetColors [
+    "#faf6ee",
+    "#9de2dd",
+    "#264548",
+    "#2a2a2a",
+    "#ffffff",
+    "#000000",
+    "#eec11a",
+    "#f6c924",
+  ]
 
 page_builder:
   &page_builder {
@@ -51,20 +63,8 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
             ],
         },
@@ -81,40 +81,16 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
               {
                 label: "Box Color",
                 name: fgColor,
                 widget: color,
                 picker: twitter,
-                default: "#274548",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#264548",
+                presetColors: *presetColors,
               },
               {
                 label: "Text Color",
@@ -122,19 +98,7 @@ page_builder:
                 widget: color,
                 picker: twitter,
                 default: "#fff",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                presetColors: *presetColors,
               },
             ],
         },
@@ -170,40 +134,16 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
               {
                 label: "Button Color",
                 name: fgColor,
                 widget: color,
                 picker: twitter,
-                default: "#274548",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#264548",
+                presetColors: *presetColors,
               },
               {
                 label: "Text Color",
@@ -211,19 +151,7 @@ page_builder:
                 widget: color,
                 picker: twitter,
                 default: "#fff",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                presetColors: *presetColors,
               },
             ],
         },
@@ -246,40 +174,16 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
               {
                 label: "Text Color",
                 name: textColor,
                 widget: color,
                 picker: twitter,
-                default: "#274548",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#264548",
+                presetColors: *presetColors,
               },
             ],
         },
@@ -303,20 +207,8 @@ page_builder:
                 name: textColor,
                 widget: color,
                 picker: twitter,
-                default: "#274548",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#264548",
+                presetColors: *presetColors,
               },
               {
                 label: "Text Alignment",
@@ -330,20 +222,8 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
             ],
         },
@@ -381,20 +261,8 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
               {
                 label: "Image Shadow",
@@ -402,19 +270,7 @@ page_builder:
                 widget: color,
                 picker: twitter,
                 default: "#9de2dd",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                presetColors: *presetColors,
               },
             ],
         },
@@ -451,40 +307,16 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
               {
                 label: "Text Color",
                 name: textColor,
                 widget: color,
                 picker: twitter,
-                default: "#274548",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#264548",
+                presetColors: *presetColors,
               },
             ],
         },
@@ -519,20 +351,8 @@ page_builder:
                 name: bgColor,
                 widget: color,
                 picker: twitter,
-                default: "#faf7f2",
-                presetColors:
-                  [
-                    "#274548",
-                    "#3a686c",
-                    "#9de2dd",
-                    "#7fece4",
-                    "#faf7f2",
-                    "#fcfaf7",
-                    "#eec11a",
-                    "#f6c924",
-                    "#fff",
-                    "#000",
-                  ],
+                default: "#faf6ee",
+                presetColors: *presetColors,
               },
             ],
         },
@@ -554,11 +374,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Heading Image",
-          name: "headingImage",
-          widget: image,
-        }
+      - { label: "Heading Image", name: "headingImage", widget: image }
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -593,11 +409,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Heading Image",
-          name: "headingImage",
-          widget: "image",
-        }
+      - { label: "Heading Image", name: "headingImage", widget: "image" }
       - *page_builder
   - name: "school-programs"
     label: "Programs"
@@ -613,11 +425,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Heading Image",
-          name: "headingImage",
-          widget: image,
-        }
+      - { label: "Heading Image", name: "headingImage", widget: image }
       - *page_builder
   - name: "partnerships"
     label: "Partnerships"
@@ -633,11 +441,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Heading Image",
-          name: "headingImage",
-          widget: image,
-        }
+      - { label: "Heading Image", name: "headingImage", widget: image }
       - *page_builder
   - name: "pages"
     label: "Pages"

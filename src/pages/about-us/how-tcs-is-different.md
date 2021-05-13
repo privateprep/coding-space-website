@@ -9,7 +9,7 @@ pageBuilder:
       alt: The sweetest picture we'll ever get
       image: /img/img_3542.jpg
     mediaPosition: left
-    bgColor: "#faf7f2"
+    bgColor: "#faf6ee"
     fgColor: "#9de2dd"
     mdContent: This is a test
 ---
