@@ -2,6 +2,7 @@
 templateKey: custom-page
 title: Custom Page
 description: This is for SEO
+headingImage: /img/tcs-header.png
 pageBuilder:
   - type: styledChecks
     bgColor: "#9de2dd"
@@ -26,17 +27,18 @@ pageBuilder:
         content: "#"
       - title: Click me!
         content: "#"
-  - type: textAndImageBlock
-    image:
-      alt: Accessibility name
-      image: /img/birthday.png
+  - type: customLinkBoxes
     bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    mdContent: "# And here we demo what images could look like!"
-  - type: points
-    bgColor: "#9de2dd"
-    heading: Look here are some points
     list:
-      - title: 100+
-        content: Students
+      - fgColor: "#264548"
+        bgColor: "#faf6ee"
+        content: www.google.com
+        textAlign: left
+        textColor: "#9de2dd"
+        mdContent: |-
+          # Well... color picker seems to be broken.
+
+
+
+          ###### And seemingling everything else...
 ---
