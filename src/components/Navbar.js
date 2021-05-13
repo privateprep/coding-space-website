@@ -12,7 +12,7 @@ const Navigation = ({ location, menuItems }) => {
 
   useEffect(() => {
     setCurrentPath(location.pathname);
-  }, [location.pathName]);
+  }, [currentPath, location.pathname]);
 
   const handleMenuToggle = () => setActive(!active);
 
