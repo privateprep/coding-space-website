@@ -48,7 +48,7 @@ page_builder:
                 label: "Custom Link Boxes",
                 name: list,
                 widget: list,
-                summary: "{{fields.content}} - {{fields.title}}",
+                summary: "{{fields.content}}",
                 fields:
                   [
                     {
@@ -62,6 +62,10 @@ page_builder:
                     {
                       label: "Link",
                       name: content,
+                      hint:
+                        "Must start with https:// if it's external link. If it's
+                        on this website, just enter what comes after '.com' (ex.
+                        /summer_classes)",
                       widget: string,
                       default: "#",
                     },

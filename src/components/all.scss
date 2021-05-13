@@ -200,6 +200,15 @@ $menu-label-color: $white;
       width: 300px;
       padding: 1rem;
       margin: 1rem;
+
+      &__link {
+        text-decoration: none;
+      }
+      &__content {
+        img {
+          max-width: 250px;
+        }
+      }
     }
   }
 }
