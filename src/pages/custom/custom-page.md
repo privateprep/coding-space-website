@@ -5,6 +5,9 @@ description: This is for SEO
 pageBuilder:
   - type: styledChecks
     bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#000000"
+    mediaPosition: column
     list:
       - title: Heading
         content: Content...

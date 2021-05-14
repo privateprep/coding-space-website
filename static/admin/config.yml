@@ -386,6 +386,37 @@ page_builder:
           fields:
             [
               {
+                label: "Background Color",
+                name: bgColor,
+                widget: color,
+                picker: twitter,
+                default: "#faf6ee",
+                presetColors: *presetColors,
+              },
+              {
+                label: "Check Color",
+                name: fgColor,
+                widget: color,
+                picker: twitter,
+                default: "#9de2dd",
+                presetColors: *presetColors,
+              },
+              {
+                label: "Text Color",
+                name: textColor,
+                widget: color,
+                picker: twitter,
+                default: "#264548",
+                presetColors: *presetColors,
+              },
+              {
+                label: "Check Direction",
+                name: mediaPosition,
+                widget: select,
+                default: "column",
+                options: ["column", "row"],
+              },
+              {
                 label: "Checks",
                 name: list,
                 widget: list,
@@ -404,14 +435,6 @@ page_builder:
                       default: "Content...",
                     },
                   ],
-              },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
               },
             ],
         },
