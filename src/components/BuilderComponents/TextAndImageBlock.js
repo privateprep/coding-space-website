@@ -4,7 +4,7 @@ import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const TextAndImageBlock = ({ data }) => {
-  const { bgColor, image, mdContent, mediaPosition } = data;
+  const { bgColor, fgColor, image, mdContent, mediaPosition } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -31,7 +31,14 @@ const TextAndImageBlock = ({ data }) => {
       ></div>
       <div
         className="TextAndImageBlock__image"
-        style={{ alignSelf: "center", padding: "2rem", position: "relative", flex: "1 1 500px" }}
+        style={{
+          alignSelf: "center",
+          boxShadow: `20px 20px ${fgColor}`,
+          margin: "2rem",
+          position: "relative",
+          flex: "1 1 500px",
+          lineHeight: ".5",
+        }}
       >
         <PreviewCompatibleImage imageInfo={image} />
       </div>
@@ -42,6 +49,7 @@ const TextAndImageBlock = ({ data }) => {
 TextAndImageBlock.propTypes = {
   data: PropTypes.shape({
     bgColor: PropTypes.string,
+    fgColor: PropTypes.string,
     image: PropTypes.any,
     mdContent: PropTypes.string,
   }),

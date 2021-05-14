@@ -23,6 +23,35 @@ presetColors:
     "#f6c924",
   ]
 
+backgroundColor:
+  &backgroundColor {
+    label: "Background Color",
+    name: bgColor,
+    widget: color,
+    picker: twitter,
+    default: "#faf6ee",
+    presetColors: *presetColors,
+  }
+
+textColor:
+  &textColor {
+    label: "Text Color",
+    name: textColor,
+    widget: color,
+    picker: twitter,
+    default: "#fff",
+    presetColors: *presetColors,
+  }
+
+textAlign:
+  &textAlign {
+    label: "Text Alignment",
+    name: textAlign,
+    widget: select,
+    default: "center",
+    options: ["left", "center", "right"],
+  }
+
 page_builder:
   &page_builder {
     label: "Page Builder",
@@ -36,14 +65,7 @@ page_builder:
           widget: object,
           fields:
             [
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
               {
                 label: "Custom Link Boxes",
                 name: list,
@@ -51,6 +73,7 @@ page_builder:
                 summary: "{{fields.content}}",
                 fields:
                   [
+                    *backgroundColor,
                     {
                       label: "Box Color",
                       name: fgColor,
@@ -69,21 +92,8 @@ page_builder:
                       widget: string,
                       default: "#",
                     },
-                    {
-                      label: "Text Alignment",
-                      name: textAlign,
-                      widget: select,
-                      default: "center",
-                      options: ["left", "center", "right"],
-                    },
-                    {
-                      label: "Text Color",
-                      name: textColor,
-                      widget: color,
-                      picker: twitter,
-                      default: "#fff",
-                      presetColors: *presetColors,
-                    },
+                    *textAlign,
+                    *textColor,
                     { label: Content, name: mdContent, widget: markdown },
                   ],
               },
@@ -117,14 +127,7 @@ page_builder:
                     },
                   ],
               },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
             ],
         },
         {
@@ -135,14 +138,7 @@ page_builder:
             [
               { label: Heading, name: heading, widget: string },
               { label: Content, name: mdContent, widget: markdown },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
               {
                 label: "Box Color",
                 name: fgColor,
@@ -151,14 +147,7 @@ page_builder:
                 default: "#264548",
                 presetColors: *presetColors,
               },
-              {
-                label: "Text Color",
-                name: textColor,
-                widget: color,
-                picker: twitter,
-                default: "#fff",
-                presetColors: *presetColors,
-              },
+              *textColor,
             ],
         },
         {
@@ -188,14 +177,7 @@ page_builder:
                     },
                   ],
               },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
               {
                 label: "Button Color",
                 name: fgColor,
@@ -204,14 +186,7 @@ page_builder:
                 default: "#264548",
                 presetColors: *presetColors,
               },
-              {
-                label: "Text Color",
-                name: textColor,
-                widget: color,
-                picker: twitter,
-                default: "#fff",
-                presetColors: *presetColors,
-              },
+              *textColor,
             ],
         },
         {
@@ -221,29 +196,9 @@ page_builder:
           fields:
             [
               { label: Content, name: mdContent, widget: markdown },
-              {
-                label: "Text Alignment",
-                name: textAlign,
-                widget: select,
-                default: "center",
-                options: ["left", "center", "right"],
-              },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
-              {
-                label: "Text Color",
-                name: textColor,
-                widget: color,
-                picker: twitter,
-                default: "#264548",
-                presetColors: *presetColors,
-              },
+              *textAlign,
+              *backgroundColor,
+              *textColor,
             ],
         },
         {
@@ -261,29 +216,9 @@ page_builder:
                 default: "right",
                 options: ["left", "right"],
               },
-              {
-                label: "Text Color",
-                name: textColor,
-                widget: color,
-                picker: twitter,
-                default: "#264548",
-                presetColors: *presetColors,
-              },
-              {
-                label: "Text Alignment",
-                name: textAlign,
-                widget: select,
-                default: "center",
-                options: ["left", "center", "right"],
-              },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *textColor,
+              *textAlign,
+              *backgroundColor,
             ],
         },
         {
@@ -315,14 +250,7 @@ page_builder:
                 default: ["right"],
                 options: ["left", "right"],
               },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
               {
                 label: "Image Shadow",
                 name: fgColor,
@@ -361,22 +289,8 @@ page_builder:
                     },
                   ],
               },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
-              },
-              {
-                label: "Text Color",
-                name: textColor,
-                widget: color,
-                picker: twitter,
-                default: "#264548",
-                presetColors: *presetColors,
-              },
+              *backgroundColor,
+              *textColor,
             ],
         },
         {
@@ -385,6 +299,23 @@ page_builder:
           widget: object,
           fields:
             [
+              *backgroundColor,
+              {
+                label: "Check Color",
+                name: fgColor,
+                widget: color,
+                picker: twitter,
+                default: "#9de2dd",
+                presetColors: *presetColors,
+              },
+              *textColor,
+              {
+                label: "Check Direction",
+                name: mediaPosition,
+                widget: select,
+                default: "column",
+                options: ["column", "row"],
+              },
               {
                 label: "Checks",
                 name: list,
@@ -404,14 +335,6 @@ page_builder:
                       default: "Content...",
                     },
                   ],
-              },
-              {
-                label: "Background Color",
-                name: bgColor,
-                widget: color,
-                picker: twitter,
-                default: "#faf6ee",
-                presetColors: *presetColors,
               },
             ],
         },

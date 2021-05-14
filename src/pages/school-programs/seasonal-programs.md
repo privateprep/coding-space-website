@@ -30,7 +30,10 @@ pageBuilder:
       - title: Click me!
         content: www.thecodingspace.com
   - type: styledChecks
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#000000"
+    mediaPosition: column
     list:
       - title: "Summer 2021\t"
         content: Register Now
@@ -85,6 +88,9 @@ pageBuilder:
       classes:**
   - type: styledChecks
     bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#000000"
+    mediaPosition: column
     list:
       - title: Project-Based Coding
         content:
