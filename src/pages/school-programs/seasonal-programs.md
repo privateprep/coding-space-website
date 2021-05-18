@@ -39,6 +39,31 @@ pageBuilder:
         content: Join the Waitlist
       - title: Spring 2022
         content: "Join the Waitlist "
+  - type: customLinkBoxes
+    bgColor: "#faf6ee"
+    list:
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: /spring_classes
+        textAlign: center
+        textColor: "#fff"
+        mdContent: |-
+          ![Girl code image](/img/girl-code.svg "Girl code image")
+
+          ## Summer 2021
+
+          Register Now!
+      - bgColor: "#faf6ee"
+        fgColor: "#faf6ee"
+        content: /summer_classes
+        textAlign: center
+        textColor: "#264548"
+        mdContent: |-
+          ![rocket](/img/rocket-money.svg "rocket")
+
+          ## Summer Classes
+
+          Register Now!
   - type: headerAndMarkDownBlock
     mediaPosition: right
     textColor: "#264548"
