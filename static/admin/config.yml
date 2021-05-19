@@ -357,6 +357,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "test relation",
+          name: "experienceLevels",
+          widget: "relation",
+          collection: "experience-levels",
+          valueField: "title",
+          searchFields: ["title"],
+        }
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -399,6 +407,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "experience-levels",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "SEO Description", name: "seo_description", widget: "text" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
