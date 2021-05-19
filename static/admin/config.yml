@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: porting-over-class-signup-page
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -393,6 +393,49 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Heading Image", name: "headingImage", widget: "image" }
       - *page_builder
+  - name: "experience-levels"
+    label: "Experience Levels (class categories)"
+    folder: "src/pages/experience-levels"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Details",
+          name: "details",
+          widget: "object",
+          fields:
+            [
+              { label: "Age", name: "age", widget: "string" },
+              { label: "Gender", name: "gender", widget: "string" },
+              { label: "Byline", name: "byline", widget: "string" },
+              {
+                label: "Experience Level",
+                name: "experience",
+                widget: "string",
+              },
+              {
+                label: "Skills",
+                name: "skills",
+                hint: "This is a list, separate items with commas",
+                widget: "list",
+              },
+              {
+                label: "Selling Points",
+                name: "sellingPoints",
+                hint: "This is a list, separate items with commas",
+                widget: "list",
+              },
+            ],
+        }
+      - { label: "Content", name: "body", widget: "markdown" }
+      - {
+          label: "Course Offering Endpoint",
+          name: "courseOfferingEndpoint",
+          widget: "string",
+        }
   - name: "school-programs"
     label: "Programs"
     folder: "src/pages/school-programs"
