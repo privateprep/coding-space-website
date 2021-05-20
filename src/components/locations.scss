@@ -1,0 +1,28 @@
+.locations {
+  display: flex;
+  padding: 2rem;
+
+  &__buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 1rem;
+  }
+
+  &__map {
+    // height: 200px;
+    // width: 40vw;
+    flex-grow: 2;
+    margin-right: 1rem;
+    .leaflet-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &__details {
+    flex-grow: 1;
+    text-align: center;
+  }
+}
