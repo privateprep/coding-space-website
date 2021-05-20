@@ -3,35 +3,26 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import PageBuilder from "../components/PageBuilder";
 
-export const ExperienceLevelTemplate = ({ title, helmet }) => {
+import "./styles/experience-levels.scss";
+
+export const ExperienceLevelsTemplate = ({ title, helmet }) => {
   return (
     <section className="section">
       {helmet || ""}
-      <div className="container content">
-        <div className="full-width-image margin-top-0">
-          <div className="columns">
-            <div className="column">
-              <h1
-                className="title has-text-weight-bold is-bold-light"
-                style={{ color: "white", fontSize: "5em" }}
-              >
-                {title}
-              </h1>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <p>Placeholder</p>
+      <div className="container course-hero">
+        <div className="course-hero__text">
+          <h1>
+            <span className="course-hero__text__byline">"Byline"</span>
+            {title}
+          </h1>
         </div>
       </div>
     </section>
   );
 };
 
-ExperienceLevelTemplate.propTypes = {
+ExperienceLevelsTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -39,12 +30,11 @@ ExperienceLevelTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ExperienceLevel = ({ data }) => {
+const ExperienceLevels = ({ data }) => {
   const { markdownRemark: page } = data;
-
   return (
     <Layout>
-      <ExperienceLevelTemplate
+      <ExperienceLevelsTemplate
         description={page.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
@@ -61,13 +51,13 @@ const ExperienceLevel = ({ data }) => {
   );
 };
 
-ExperienceLevel.propTypes = {
+ExperienceLevels.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 };
 
-export default ExperienceLevel;
+export default ExperienceLevels;
 
 export const pageQuery = graphql`
   query ExperienceLevelById($id: String!) {
