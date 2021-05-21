@@ -6,17 +6,45 @@ import Layout from "../components/Layout";
 
 import "./styles/experience-levels.scss";
 
-export const ExperienceLevelsTemplate = ({ title, helmet }) => {
+export const ExperienceLevelsTemplate = ({ details, title, helmet }) => {
+  const [age, gender, byline, experience, skills, sellingPoints] = details;
   return (
-    <section className="section">
+    <section className="course-hero">
       {helmet || ""}
-      <div className="container course-hero">
-        <div className="course-hero__text">
-          <h1>
-            <span className="course-hero__text__byline">"Byline"</span>
-            {title}
-          </h1>
-        </div>
+      <div className="course-hero__text">
+        <h1>
+          <span className="course-hero__text__byline">{byline}</span>
+          {title}
+        </h1>
+      </div>
+      <div className="course-hero__card">
+        <React.Fragment>
+          <header className="course-hero__card__header">
+            <span>{gender}</span>
+            <span>{age}</span>
+          </header>
+          <p className="course-hero__card__detail-title">Includes</p>
+          <p className="course-hero__card__detail-content">
+            {skills.map((skill, skillIndex) => (
+              <React.Fragment key={skillIndex}>
+                <em className="highlight">{skill}</em>
+                {skillIndex < skills.length - 1 && (
+                  <span style={{ marginRight: `.25rem` }}>{`,`}</span>
+                )}
+              </React.Fragment>
+            ))}
+          </p>
+          <p className="course-hero__card__detail-title">Experience</p>
+          <p className="course-hero__card__detail-content">{experience}</p>
+          <p className="course-hero__card__detail-title">
+            Ideal for those looking for
+          </p>
+          <ul className="course-hero__card__detail-content">
+            {sellingPoints.map(point => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </React.Fragment>
       </div>
     </section>
   );
@@ -35,17 +63,18 @@ const ExperienceLevels = ({ data }) => {
   return (
     <Layout>
       <ExperienceLevelsTemplate
-        description={page.frontmatter.description}
+        description={page.frontmatter.seo_description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Experience Level">
             <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${page.frontmatter.description}`}
+              content={`${page.frontmatter.seo_description}`}
             />
           </Helmet>
         }
         title={page.frontmatter.title}
+        details={page.frontmatter.details}
       />
     </Layout>
   );
@@ -60,44 +89,27 @@ ExperienceLevels.propTypes = {
 export default ExperienceLevels;
 
 export const pageQuery = graphql`
-  query ExperienceLevelById($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
+  {
+    markdownRemark(id: { eq: "$id" }) {
       frontmatter {
-        title
-        headingImage {
-          publicURL
+        courseOfferingEndpoint
+        details {
+          age
+          byline
+          experience
+          gender
+          sellingPoints
+          skills
         }
-        pageBuilder {
-          heading
-          image {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+        thumbnail {
+          childImageSharp {
+            fluid(maxWidth: 2080, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
-          mdContent
-          mediaPosition
-          type
-          list {
-            content
-            title
-            mdContent
-            fgColor
-            bgColor
-            textColor
-            textAlign
-          }
-          textAlign
-          textColor
-          fgColor
-          bgColor
         }
+        seo_description
+        title
       }
     }
   }
