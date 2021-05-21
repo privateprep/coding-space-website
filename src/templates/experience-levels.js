@@ -6,47 +6,55 @@ import Layout from "../components/Layout";
 
 import "./styles/experience-levels.scss";
 
-export const ExperienceLevelsTemplate = ({ details, title, helmet }) => {
-  const [age, gender, byline, experience, skills, sellingPoints] = details;
+export const ExperienceLevelsTemplate = ({
+  details,
+  title,
+  helmet,
+  location = "",
+}) => {
+  const { age, gender, byline, experience, skills, sellingPoints } = details;
   return (
-    <section className="course-hero">
-      {helmet || ""}
-      <div className="course-hero__text">
-        <h1>
-          <span className="course-hero__text__byline">{byline}</span>
-          {title}
-        </h1>
-      </div>
-      <div className="course-hero__card">
-        <React.Fragment>
-          <header className="course-hero__card__header">
-            <span>{gender}</span>
-            <span>{age}</span>
-          </header>
-          <p className="course-hero__card__detail-title">Includes</p>
-          <p className="course-hero__card__detail-content">
-            {skills.map((skill, skillIndex) => (
-              <React.Fragment key={skillIndex}>
-                <em className="highlight">{skill}</em>
-                {skillIndex < skills.length - 1 && (
-                  <span style={{ marginRight: `.25rem` }}>{`,`}</span>
-                )}
-              </React.Fragment>
-            ))}
-          </p>
-          <p className="course-hero__card__detail-title">Experience</p>
-          <p className="course-hero__card__detail-content">{experience}</p>
-          <p className="course-hero__card__detail-title">
-            Ideal for those looking for
-          </p>
-          <ul className="course-hero__card__detail-content">
-            {sellingPoints.map(point => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
-        </React.Fragment>
-      </div>
-    </section>
+    <div className="experience-level-page">
+      <section className="course-hero">
+        {helmet || ""}
+        <div className="course-hero__text">
+          <h1>
+            <span className="course-hero__text__byline">{byline}</span>
+            {title}
+          </h1>
+        </div>
+        <div className="course-hero__card">
+          <React.Fragment>
+            <header className="course-hero__card__header">
+              <span>{gender}</span>
+              <span>{age}</span>
+            </header>
+            <p className="course-hero__card__detail-title">Includes</p>
+            <p className="course-hero__card__detail-content">
+              {skills.map((skill, skillIndex) => (
+                <React.Fragment key={skillIndex}>
+                  <em className="highlight">{skill}</em>
+                  {skillIndex < skills.length - 1 && (
+                    <span style={{ marginRight: `.25rem` }}>{`,`}</span>
+                  )}
+                </React.Fragment>
+              ))}
+            </p>
+            <p className="course-hero__card__detail-title">Experience</p>
+            <p className="course-hero__card__detail-content">{experience}</p>
+            <p className="course-hero__card__detail-title">
+              Ideal for those looking for
+            </p>
+            <ul className="course-hero__card__detail-content">
+              {sellingPoints.map(point => (
+                <li key={point}>{point}</li>
+              ))}
+            </ul>
+          </React.Fragment>
+        </div>
+      </section>
+      <section>{!!location && <h1>Offerings at {location}</h1>}</section>
+    </div>
   );
 };
 
@@ -58,8 +66,9 @@ ExperienceLevelsTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ExperienceLevels = ({ data }) => {
+const ExperienceLevels = ({ location, data }) => {
   const { markdownRemark: page } = data;
+
   return (
     <Layout>
       <ExperienceLevelsTemplate
@@ -75,6 +84,7 @@ const ExperienceLevels = ({ data }) => {
         }
         title={page.frontmatter.title}
         details={page.frontmatter.details}
+        location={location.state.location}
       />
     </Layout>
   );
@@ -89,8 +99,8 @@ ExperienceLevels.propTypes = {
 export default ExperienceLevels;
 
 export const pageQuery = graphql`
-  {
-    markdownRemark(id: { eq: "$id" }) {
+  query ExperienceLevelsById($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       frontmatter {
         courseOfferingEndpoint
         details {

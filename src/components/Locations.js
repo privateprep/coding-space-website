@@ -4,7 +4,7 @@ import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 import "leaflet/dist/leaflet.css";
 import "./locations.scss";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 
 const locations = [
   {
@@ -48,33 +48,45 @@ const locations = [
   },
 ];
 
-const ExperienceLevelCards = ({ levels = [] }) => {
+const ExperienceLevelCards = ({ levels = [], location }) => {
   return (
     <ul className="experience-level-cards">
       {levels.map(
-        ({ title, thumbnail, seo_description, details: { skills } }, i) => {
+        (
+          { title, thumbnail, seo_description, slug, details: { skills } },
+          i
+        ) => {
           console.log(thumbnail);
           return (
-            <li className="experience-level-card" key={`${title}-${i}`}>
-              <div className="experience-level-card__img">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: thumbnail,
-                    alt: `image thumbnail for post ${title}`,
-                  }}
-                />
-              </div>
-              <div className="experience-level-card__content">
-                <h2>{title}</h2>
-                <p>{seo_description}</p>
-                <ul className="pills">
-                  {skills.map((skill, i) => (
-                    <li className="pill" key={i}>
-                      +{skill}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <li
+              className="experience-level-card__wrapper"
+              key={`${title}-${i}`}
+            >
+              <Link
+                className="experience-level-card"
+                to={slug}
+                state={{ location: location }}
+              >
+                <div className="experience-level-card__img">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: thumbnail,
+                      alt: `image thumbnail for post ${title}`,
+                    }}
+                  />
+                </div>
+                <div className="experience-level-card__content">
+                  <h2>{title}</h2>
+                  <p>{seo_description}</p>
+                  <ul className="pills">
+                    {skills.map((skill, i) => (
+                      <li className="pill" key={i}>
+                        +{skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Link>
             </li>
           );
         }
@@ -117,6 +129,9 @@ const Locations = () => {
               title
               seo_description
             }
+            fields {
+              slug
+            }
           }
         }
       }
@@ -134,6 +149,7 @@ const Locations = () => {
       details: details,
       seo_description: seo_description,
       courseOfferingEndpoint: courseOfferingEndpoint,
+      slug: edge.node.fields.slug,
     });
   });
 
@@ -165,7 +181,7 @@ const Locations = () => {
         </div>
       </div>
       <section className="offerings">
-        <ExperienceLevelCards levels={data} />
+        <ExperienceLevelCards levels={data} location={location.name} />
       </section>
     </React.Fragment>
   );
