@@ -84,7 +84,7 @@ const ExperienceLevels = ({ location, data }) => {
         }
         title={page.frontmatter.title}
         details={page.frontmatter.details}
-        location={location.state.location}
+        location={location?.state?.location}
       />
     </Layout>
   );

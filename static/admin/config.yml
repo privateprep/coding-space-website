@@ -422,23 +422,41 @@ collections:
           widget: "object",
           fields:
             [
-              { label: "Age", name: "age", widget: "string" },
-              { label: "Gender", name: "gender", widget: "string" },
-              { label: "Byline", name: "byline", widget: "string" },
+              {
+                label: "Age",
+                name: "age",
+                default: "Ages 8+",
+                widget: "string",
+              },
+              {
+                label: "Gender",
+                name: "gender",
+                default: "GirlCode",
+                widget: "string",
+              },
+              {
+                label: "Byline",
+                name: "byline",
+                default: " No boys allowed.",
+                widget: "string",
+              },
               {
                 label: "Experience Level",
                 name: "experience",
+                default: "First-time through Advanced",
                 widget: "string",
               },
               {
                 label: "Skills",
                 name: "skills",
+                default: ["Critical Thinking", "Comprehensive Curriculum"],
                 hint: "This is a list, separate items with commas",
                 widget: "list",
               },
               {
                 label: "Selling Points",
                 name: "sellingPoints",
+                default: ["Inclusive Environment", "Intellectual Confidence"],
                 hint: "This is a list, separate items with commas",
                 widget: "list",
               },
