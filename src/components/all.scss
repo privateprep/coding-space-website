@@ -12,6 +12,13 @@ $primary-invert: $tcs-primary-invert;
 $body-color: #333;
 $black: #2b2523;
 
+:root {
+  --background-color: #fbf6ee;
+  --text-color: #2b2523;
+  --accent-color: #9fe2dd;
+  --primary-color: #264548;
+}
+
 body {
   margin: 0;
   font-family: Proxima Nova, sans-serif;

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import MapDisplay from "./MapDisplay";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
+
 import "leaflet/dist/leaflet.css";
 import "./locations.scss";
+import { useStaticQuery, graphql } from "gatsby";
 
 const locations = [
   {
@@ -45,49 +48,156 @@ const locations = [
   },
 ];
 
+const ExperienceLevelCards = ({ levels = [] }) => {
+  return (
+    <ul className="experience-level-cards">
+      {levels.map(
+        ({ title, thumbnail, seo_description, details: { skills } }, i) => {
+          console.log(thumbnail);
+          return (
+            <li className="experience-level-card" key={`${title}-${i}`}>
+              <div className="experience-level-card__img">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: thumbnail,
+                    alt: `image thumbnail for post ${title}`,
+                  }}
+                />
+              </div>
+              <div className="experience-level-card__content">
+                <h2>{title}</h2>
+                <p>{seo_description}</p>
+                <ul className="pills">
+                  {skills.map((skill, i) => (
+                    <li className="pill" key={i}>
+                      +{skill}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          );
+        }
+      )}
+    </ul>
+  );
+};
+
 const Locations = () => {
   const defaultLocation = locations[0];
   const [location, setLocation] = useState(defaultLocation);
 
+  const query = useStaticQuery(graphql`
+    query experienceData {
+      allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              courseOfferingEndpoint
+              description
+              details {
+                age
+                byline
+                experience
+                gender
+                sellingPoints
+                skills
+              }
+              thumbnail {
+                childImageSharp {
+                  fluid(maxWidth: 2080, quality: 100) {
+                    base64
+                  }
+                }
+              }
+              experienceLevels
+              heading
+              title
+              seo_description
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  // const data = useExperienceLevelQuery();
+  let data = [];
+  // const query = useExperienceLevelQuery();
+  query.allMarkdownRemark.edges.forEach(edge => {
+    let item = edge.node.frontmatter;
+    let { title, details, seo_description, courseOfferingEndpoint } = item;
+    data.push({
+      title: title,
+      details: details,
+      seo_description: seo_description,
+      courseOfferingEndpoint: courseOfferingEndpoint,
+    });
+  });
+
   return (
-    <div className="locations">
-      <div className="locations__buttons">
-        {!!locations &&
-          locations.map((l, i) => (
-            <button
-              className="custom-button"
-              key={`location-${i}`}
-              onClick={() => setLocation(l)}
-            >
-              {l.name}
-            </button>
-          ))}
-      </div>
-      <div className="locations__map">
-        <MapDisplay addressCoords={location.coords} />
-      </div>
-      <div className="locations__details">
-        <h2>{location.name}</h2>
-        <div className="locations__details__address">
-          <h3>{location.address1}</h3>
-          {!!location.address2 && <h3>{location.address2}</h3>}
-          <h3>{`${location.city}, ${location.state} ${location.zipCode}`}</h3>
+    <React.Fragment>
+      <div className="locations">
+        <div className="locations__buttons">
+          {!!locations &&
+            locations.map((l, i) => (
+              <button
+                className="custom-button"
+                key={`location-${i}`}
+                onClick={() => setLocation(l)}
+              >
+                {l.name}
+              </button>
+            ))}
+        </div>
+        <div className="locations__map">
+          <MapDisplay addressCoords={location.coords} />
+        </div>
+        <div className="locations__details">
+          <h2>{location.name}</h2>
+          <div className="locations__details__address">
+            <h3>{location.address1}</h3>
+            {!!location.address2 && <h3>{location.address2}</h3>}
+            <h3>{`${location.city}, ${location.state} ${location.zipCode}`}</h3>
+          </div>
         </div>
       </div>
-    </div>
+      <section className="offerings">
+        <ExperienceLevelCards levels={data} />
+      </section>
+    </React.Fragment>
   );
 };
 
-// Reviews.propTypes = {
-//   data: PropTypes.shape({
-//     heading: PropTypes.string,
-//     reviews: PropTypes.arrayOf(
-//       PropTypes.shape({
-//         reviewList: PropTypes.string,
-//         name: PropTypes.string,
-//       })
-//     ),
-//   }),
-// };
+// export const query = graphql`
+//   {
+//     allMarkdownRemark(
+//       filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             courseOfferingEndpoint
+//             description
+//             details {
+//               age
+//               byline
+//               experience
+//               gender
+//               sellingPoints
+//               skills
+//             }
+//             experienceLevels
+//             heading
+//             title
+//             seo_description
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
 
 export default Locations;
