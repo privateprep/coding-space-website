@@ -123,6 +123,7 @@ const Locations = () => {
                     base64
                   }
                 }
+                publicURL
               }
               experienceLevels
               heading
@@ -138,17 +139,17 @@ const Locations = () => {
     }
   `);
 
-  // const data = useExperienceLevelQuery();
+
   let data = [];
-  // const query = useExperienceLevelQuery();
   query.allMarkdownRemark.edges.forEach(edge => {
     let item = edge.node.frontmatter;
-    let { title, details, seo_description, courseOfferingEndpoint } = item;
+    let { title, details, thumbnail,  seo_description, courseOfferingEndpoint } = item;
     data.push({
       title: title,
       details: details,
       seo_description: seo_description,
       courseOfferingEndpoint: courseOfferingEndpoint,
+      thumbnail: thumbnail,
       slug: edge.node.fields.slug,
     });
   });
@@ -160,7 +161,9 @@ const Locations = () => {
           {!!locations &&
             locations.map((l, i) => (
               <button
-                className="custom-button"
+                className={`custom-button ${
+                  l.name === location.name ? "active" : ""
+                }`}
                 key={`location-${i}`}
                 onClick={() => setLocation(l)}
               >
