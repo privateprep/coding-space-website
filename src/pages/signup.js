@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import MapDisplay from "./MapDisplay";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import MapDisplay from "../components/MapDisplay";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Layout from "../components/Layout";
 
 import "leaflet/dist/leaflet.css";
-import "./locations.scss";
+import "../templates/styles/signup.scss";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
 const locations = [
@@ -102,7 +103,7 @@ const Locations = () => {
   const [location, setLocation] = useState(defaultLocation);
 
   const query = useStaticQuery(graphql`
-    query experienceData {
+    query experienceDatas {
       allMarkdownRemark(
         filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
       ) {
@@ -163,7 +164,7 @@ const Locations = () => {
   });
 
   return (
-    <React.Fragment>
+    <Layout>
       <div className="locations">
         <div className="locations__buttons">
           {!!locations &&
@@ -194,7 +195,7 @@ const Locations = () => {
       <section className="offerings">
         <ExperienceLevelCards levels={data} location={location.name} />
       </section>
-    </React.Fragment>
+    </Layout>
   );
 };
 

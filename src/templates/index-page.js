@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-// import Features from "../components/Features";
-// import BlogRoll from "../components/BlogRoll";
-import Locations from "../components/Locations";
+import Features from "../components/Features";
+import BlogRoll from "../components/BlogRoll";
+
 
 import "./styles/IndexPage.scss";
 
@@ -32,9 +32,8 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
       </video>
     </div>
     <section>
-      <Locations />
     </section>
-    {/* <section className="section section--gradient">
+    <section className="section section--gradient">
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -65,7 +64,7 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
           </div>
         </div>
       </div>
-    </section> */}
+    </section>
   </div>
 );
 
