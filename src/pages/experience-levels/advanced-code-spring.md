@@ -6,7 +6,7 @@ seo_description: Advanced students (ages 8-14, co-ed) will transition from
   they’ll use HTML, CSS, and JavaScript to build web-based games and
   applications and launch their own independent projects.
 courseOfferingEndpoint: www.google.com
-thumbnail: /img/climbing-2-1.jpg
+thumbnail: /img/white-board.jpg
 details:
   age: Ages 8-14.
   gender: Co-ed.
