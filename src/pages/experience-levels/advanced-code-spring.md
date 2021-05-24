@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: Advanced Code Spring
+title: Advanced Code
 seo_description: Advanced students (ages 8-14, co-ed) will transition from
   Scratch to JavaScript with the WoofJS JavaScript framework. From there,
   they’ll use HTML, CSS, and JavaScript to build web-based games and
