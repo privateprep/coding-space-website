@@ -40,29 +40,48 @@
 
   .experience-level-card__wrapper {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    margin: 2rem;
-    max-width: 600px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 30rem;
     display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    position: relative;
+    transition: box-shadow 0.5s;
+
+    &:hover {
+      box-shadow: 0 14px 28px rgba(var(--accent-rgb), 0.25),
+        0 10px 10px rgba(var(--accent-rgb), 0.22);
+    }
 
     .experience-level-card {
       text-decoration: none;
       color: var(--primary-color);
+      display: flex;
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: space-around;
+      position: relative;
+
       &__img {
-        height: 200px;
-        img {
-          height: 200px;
+        max-width: 100%;
+        img,
+        .gatsby-image-wrapper {
+          height: 20vh;
           width: 100%;
+          object-fit: cover;
         }
       }
 
       &__content {
         padding: 0 2rem 2rem 2rem;
+      }
+
+      &__tags {
+        padding: 0 2rem;
+        margin-top: auto;
 
         .pills {
           text-decoration: none;
+          margin: 1rem 0;
+          padding: 0;
           .pill {
             background-color: var(--primary-color);
             border: var(--accent-color);

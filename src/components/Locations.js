@@ -78,6 +78,8 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
                 <div className="experience-level-card__content">
                   <h2>{title}</h2>
                   <p>{seo_description}</p>
+                </div>
+                <div className="experience-level-card__tags">
                   <ul className="pills">
                     {skills.map((skill, i) => (
                       <li className="pill" key={i}>

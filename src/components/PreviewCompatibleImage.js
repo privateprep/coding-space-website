@@ -4,23 +4,25 @@ import Img from "gatsby-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: "5px", width: "100%" };
-  const { alt = "", childImageSharp, image } = imageInfo;
+  const { alt = "", image } = imageInfo;
 
-  if (!!image?.childImageSharp) {
+  // if (!!childImageSharp) {
+  //   return (
+  //     <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
+  //   );
+  // }
+
+  if (!!image?.childImageSharp?.fluid) {
     return (
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
     );
   }
 
-  if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />;
-  }
-
   if (!!image && typeof image === "string")
     return <img style={imageStyle} src={image} alt={alt} />;
 
-  if (!!image?.image?.publicUrl)
-    return <img style={imageStyle} src={image.publicUrl} alt={alt} />;
+  if (!!image?.publicURL)
+    return <img style={imageStyle} src={image.publicURL} alt={alt} />;
 
   return null;
 };
