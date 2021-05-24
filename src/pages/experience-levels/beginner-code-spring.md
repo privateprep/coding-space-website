@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: Beginner Code Spring
+title: Beginner Code
 seo_description: Beginner students (ages 8-14, co-ed) will have learned the
   building blocks of programming and will begin to discover how they can use
   their newfound computational and critical thinking skills to tackle more
