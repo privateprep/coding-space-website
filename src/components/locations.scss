@@ -62,12 +62,8 @@
 
       &__img {
         max-width: 100%;
-        img,
-        .gatsby-image-wrapper {
-          height: 20vh;
-          width: 100%;
-          object-fit: cover;
-        }
+        display: flex;
+        justify-content: space-around;
       }
 
       &__content {

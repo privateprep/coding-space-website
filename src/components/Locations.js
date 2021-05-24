@@ -56,7 +56,6 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
           { title, thumbnail, seo_description, slug, details: { skills } },
           i
         ) => {
-          console.log(thumbnail);
           return (
             <li
               className="experience-level-card__wrapper"
@@ -72,6 +71,7 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
                     imageInfo={{
                       image: thumbnail,
                       alt: `image thumbnail for post ${title}`,
+                      imageStyle: { height: "240px" },
                     }}
                   />
                 </div>
@@ -121,10 +121,11 @@ const Locations = () => {
               }
               thumbnail {
                 childImageSharp {
-                  fluid(maxWidth: 2080, quality: 100) {
-                    base64
+                  fixed(width: 480) {
+                    ...GatsbyImageSharpFixed
                   }
                 }
+                extension
                 publicURL
               }
               experienceLevels
@@ -196,34 +197,5 @@ const Locations = () => {
     </React.Fragment>
   );
 };
-
-// export const query = graphql`
-//   {
-//     allMarkdownRemark(
-//       filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
-//     ) {
-//       edges {
-//         node {
-//           frontmatter {
-//             courseOfferingEndpoint
-//             description
-//             details {
-//               age
-//               byline
-//               experience
-//               gender
-//               sellingPoints
-//               skills
-//             }
-//             experienceLevels
-//             heading
-//             title
-//             seo_description
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
 
 export default Locations;
