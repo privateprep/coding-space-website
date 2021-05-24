@@ -64,7 +64,7 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
             >
               <Link
                 className="experience-level-card"
-                to={slug}
+                to={`${slug}?location=${location}`}
                 state={{ location: location }}
               >
                 <div className="experience-level-card__img">
@@ -139,11 +139,16 @@ const Locations = () => {
     }
   `);
 
-
   let data = [];
   query.allMarkdownRemark.edges.forEach(edge => {
     let item = edge.node.frontmatter;
-    let { title, details, thumbnail,  seo_description, courseOfferingEndpoint } = item;
+    let {
+      title,
+      details,
+      thumbnail,
+      seo_description,
+      courseOfferingEndpoint,
+    } = item;
     data.push({
       title: title,
       details: details,

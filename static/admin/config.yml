@@ -413,8 +413,14 @@ collections:
           widget: "hidden",
           default: "experience-levels",
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", default: "Title", widget: "string" }
       - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - {
+          label: "Course Offering Endpoint",
+          name: "courseOfferingEndpoint",
+          hint: "Ask Dashboard for This",
+          widget: "string",
+        }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - {
           label: "Details",
@@ -460,13 +466,8 @@ collections:
                 hint: "This is a list, separate items with commas",
                 widget: "list",
               },
+              { label: "Content", name: "mdContent", widget: "markdown" }
             ],
-        }
-      - { label: "Content", name: "body", widget: "markdown" }
-      - {
-          label: "Course Offering Endpoint",
-          name: "courseOfferingEndpoint",
-          widget: "string",
         }
   - name: "school-programs"
     label: "Programs"

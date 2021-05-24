@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import createHtml from "../components/MdToHtml";
+import { useQueryParam } from "gatsby-query-params";
 
 import "./styles/experience-levels.scss";
 
@@ -12,7 +14,10 @@ export const ExperienceLevelsTemplate = ({
   helmet,
   location = "",
 }) => {
-  const { age, gender, byline, experience, skills, sellingPoints } = details;
+  const parsedLocation = useQueryParam("location", location);
+
+  const { age, gender, byline, mdContent, experience, skills, sellingPoints } = details;
+  const htmlContent = createHtml(mdContent);
   return (
     <div className="experience-level-page">
       <section className="course-hero">
@@ -22,6 +27,7 @@ export const ExperienceLevelsTemplate = ({
             <span className="course-hero__text__byline">{byline}</span>
             {title}
           </h1>
+          <p dangerouslySetInnerHTML={htmlContent} />
         </div>
         <div className="course-hero__card">
           <React.Fragment>
@@ -53,7 +59,11 @@ export const ExperienceLevelsTemplate = ({
           </React.Fragment>
         </div>
       </section>
-      <section>{!!location && <h1>Offerings at {location}</h1>}</section>
+      <section>
+        {!!parsedLocation && <h1>Offerings at {parsedLocation}</h1>}
+      </section>
+      <section className="course-offerings"><h2>Classes will load here...</h2></section>
+
     </div>
   );
 };
