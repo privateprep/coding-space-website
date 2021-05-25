@@ -183,7 +183,11 @@ export const SignupPageTemplate = ({
           {!!location.coords.length ? (
             <MapDisplay addressCoords={location.coords} />
           ) : (
-            <img src={online} alt="Online classes" />
+            <img
+              src={online}
+              style={{ maxHeight: "300px" }}
+              alt="Online classes"
+            />
           )}
         </div>
         <div className="locations__details">
