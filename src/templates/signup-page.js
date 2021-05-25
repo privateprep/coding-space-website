@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import MapDisplay from "../components/MapDisplay";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import PropTypes from "prop-types";
 import Layout from "../components/Layout";
+import { Helmet } from "react-helmet";
+import PageBuilder from "../components/PageBuilder";
 
 import "leaflet/dist/leaflet.css";
-import "../templates/styles/signup.scss";
+import "./styles/signup.scss";
 import online from "../img/online.svg";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 // this info should be fetched at build time
 // https://www.gatsbyjs.com/docs/conceptual/data-fetching/#:~:text=full%20example%20here.-,Fetching%20data%20at%20build%20time,that%20becomes%20queryable%20in%20pages.
@@ -128,49 +131,17 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
   );
 };
 
-const Locations = () => {
+export const SignupPageTemplate = ({
+  experienceData = [],
+  helmet,
+  title,
+  pageBuilder,
+}) => {
   const defaultLocation = locations[0];
   const [location, setLocation] = useState(defaultLocation);
 
-  // locations query
-
-  const experienceLevelsQuery = useStaticQuery(graphql`
-    query experienceData {
-      allMarkdownRemark(
-        filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              courseOfferingEndpoint
-              description
-              details {
-                skills
-              }
-              thumbnail {
-                childImageSharp {
-                  fixed(width: 480) {
-                    ...GatsbyImageSharpFixed
-                  }
-                }
-                extension
-                publicURL
-              }
-              heading
-              title
-              seo_description
-            }
-            fields {
-              slug
-            }
-          }
-        }
-      }
-    }
-  `);
-
   let levels = [];
-  experienceLevelsQuery.allMarkdownRemark.edges.forEach(edge => {
+  experienceData.forEach(edge => {
     let item = edge.node.frontmatter;
     let {
       title,
@@ -190,7 +161,9 @@ const Locations = () => {
   });
 
   return (
-    <Layout>
+    <div className="signup-page">
+      {helmet || ""}
+      {!!title && <h2>{title}</h2>}
       <div className="locations">
         <div className="locations__buttons">
           {!!locations &&
@@ -225,8 +198,110 @@ const Locations = () => {
       <section className="offerings">
         <ExperienceLevelCards levels={levels} location={location} />
       </section>
+      <div>
+        <PageBuilder data={pageBuilder ?? []} />
+      </div>
+    </div>
+  );
+};
+
+const SignupPage = ({ data }) => {
+  const {
+    frontmatter: { title, seoDescription, pageBuilder },
+  } = data.markdownRemark;
+  const { edges } = data.allMarkdownRemark;
+
+  return (
+    <Layout>
+      <SignupPageTemplate
+        helmet={
+          <Helmet titleTemplate="The Coding Space Signup">
+            <title>{`${title}`}</title>
+            <meta name="description" content={`${seoDescription}`} />
+          </Helmet>
+        }
+        experienceData={edges}
+        title={title}
+        pageBuilder={pageBuilder}
+      />
     </Layout>
   );
 };
 
-export default Locations;
+SignupPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
+};
+
+export default SignupPage;
+
+export const pageQuery = graphql`
+  query signupPageTemplateAndExperienceData {
+    markdownRemark(frontmatter: { templateKey: { eq: "signup-page" } }) {
+      frontmatter {
+        title
+        pageBuilder {
+          heading
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          mdContent
+          type
+          list {
+            content
+            title
+            mdContent
+            fgColor
+            bgColor
+            textColor
+            textAlign
+          }
+          textAlign
+          textColor
+          fgColor
+          bgColor
+        }
+      }
+    }
+    allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            courseOfferingEndpoint
+            description
+            details {
+              skills
+            }
+            thumbnail {
+              childImageSharp {
+                fixed(width: 480) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+              extension
+              publicURL
+            }
+            heading
+            title
+            seo_description
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`;

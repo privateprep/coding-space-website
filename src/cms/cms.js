@@ -8,6 +8,7 @@ import BlogPostPreview from "./preview-templates/BlogPostPreview";
 import CustomPagePreview from "./preview-templates/CustomPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import SchoolProgramPreview from "./preview-templates/SchoolProgramsPreview";
+import SignupPagePreview from "./preview-templates/SignupPagePreview";
 import PartnershipsPreview from "./preview-templates/PartnershipsPreview";
 import ExperienceLevelsPreview from "./preview-templates/ExperienceLevelsPreview";
 
@@ -20,6 +21,7 @@ CMS.registerPreviewTemplate("blog", BlogPostPreview);
 CMS.registerPreviewTemplate("custom", CustomPagePreview);
 CMS.registerPreviewTemplate("experience-levels", ExperienceLevelsPreview);
 CMS.registerPreviewTemplate("school-programs", SchoolProgramPreview);
+CMS.registerPreviewTemplate("signup", SignupPagePreview);
 CMS.registerPreviewTemplate("partnerships", PartnershipsPreview);
 
 // Widgets
