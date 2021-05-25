@@ -5,30 +5,37 @@ import Layout from "../components/Layout";
 
 import "leaflet/dist/leaflet.css";
 import "../templates/styles/signup.scss";
+import online from "../img/online.svg";
 import { useStaticQuery, graphql, Link } from "gatsby";
 
+// this info should be fetched at build time
+// https://www.gatsbyjs.com/docs/conceptual/data-fetching/#:~:text=full%20example%20here.-,Fetching%20data%20at%20build%20time,that%20becomes%20queryable%20in%20pages.
 const locations = [
   {
     name: "Park Slope",
+    id: 3,
     address1: "461 6th St",
     address2: "",
     city: "Brooklyn",
     state: "NY",
     zipCode: "11215",
     coords: ["40.66903", "-73.982345"],
+    availableExperienceLevels: ["GirlCode", "Beginner Code", "Advanced Code"],
   },
   {
     name: "Upper East Side",
+    id: 1,
     address1: "165 E 88th St",
     address2: "Second Floor",
     city: "New York",
     state: "NY",
     zipCode: "10128",
     coords: ["40.780559", "-73.95569"],
-    availableExperienceLevels: ["Advanced Code", "Beginner Code"],
+    availableExperienceLevels: ["Beginner Code"],
   },
   {
     name: "Long Island",
+    id: 12,
     address1: "3525 Sunrise Hwy",
     address2: "",
     city: "Oakdale",
@@ -38,21 +45,44 @@ const locations = [
     availableExperienceLevels: ["Advanced Code", "Beginner Code"],
   },
   {
+    name: "Westchester",
+    id: 6,
+    address1: "150 Grand Street",
+    address2: "3rd Floor",
+    city: "White Plains",
+    state: "NY",
+    zipCode: "10601",
+    coords: ["41.028949", "-73.767677"],
+    availableExperienceLevels: ["GirlCode", "Beginner Code", "Advanced Code"],
+  },
+  {
     name: "Online",
+    id: 10,
     address1: "Your home",
     address2: "",
     city: "Anywhere",
     state: "",
     zipCode: "",
     coords: [],
-    availableExperienceLevels: ["Advanced Code", "Beginner Code"],
+    availableExperienceLevels: [
+      "Advanced Code",
+      "Beginner Code",
+      "GirlCode",
+      "Young Beginner Code",
+    ],
   },
 ];
 
 const ExperienceLevelCards = ({ levels = [], location }) => {
+  const { name, availableExperienceLevels, id } = location;
+
+  const activeLevels = levels.filter(l =>
+    availableExperienceLevels.includes(l.title)
+  );
+
   return (
     <ul className="experience-level-cards">
-      {levels.map(
+      {activeLevels.map(
         (
           { title, thumbnail, seo_description, slug, details: { skills } },
           i
@@ -64,8 +94,8 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
             >
               <Link
                 className="experience-level-card"
-                to={`${slug}?location=${location}`}
-                state={{ location: location }}
+                to={`${slug}?location=${name}&location-id=${id}`}
+                state={{ location: name, id: id }}
               >
                 <div className="experience-level-card__img">
                   <PreviewCompatibleImage
@@ -102,8 +132,10 @@ const Locations = () => {
   const defaultLocation = locations[0];
   const [location, setLocation] = useState(defaultLocation);
 
-  const query = useStaticQuery(graphql`
-    query experienceDatas {
+  // locations query
+
+  const experienceLevelsQuery = useStaticQuery(graphql`
+    query experienceData {
       allMarkdownRemark(
         filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
       ) {
@@ -113,11 +145,6 @@ const Locations = () => {
               courseOfferingEndpoint
               description
               details {
-                age
-                byline
-                experience
-                gender
-                sellingPoints
                 skills
               }
               thumbnail {
@@ -129,7 +156,6 @@ const Locations = () => {
                 extension
                 publicURL
               }
-              experienceLevels
               heading
               title
               seo_description
@@ -143,8 +169,8 @@ const Locations = () => {
     }
   `);
 
-  let data = [];
-  query.allMarkdownRemark.edges.forEach(edge => {
+  let levels = [];
+  experienceLevelsQuery.allMarkdownRemark.edges.forEach(edge => {
     let item = edge.node.frontmatter;
     let {
       title,
@@ -153,7 +179,7 @@ const Locations = () => {
       seo_description,
       courseOfferingEndpoint,
     } = item;
-    data.push({
+    levels.push({
       title: title,
       details: details,
       seo_description: seo_description,
@@ -181,7 +207,11 @@ const Locations = () => {
             ))}
         </div>
         <div className="locations__map">
-          <MapDisplay addressCoords={location.coords} />
+          {!!location.coords.length ? (
+            <MapDisplay addressCoords={location.coords} />
+          ) : (
+            <img src={online} alt="Online classes" />
+          )}
         </div>
         <div className="locations__details">
           <h2>{location.name}</h2>
@@ -193,7 +223,7 @@ const Locations = () => {
         </div>
       </div>
       <section className="offerings">
-        <ExperienceLevelCards levels={data} location={location.name} />
+        <ExperienceLevelCards levels={levels} location={location} />
       </section>
     </Layout>
   );
