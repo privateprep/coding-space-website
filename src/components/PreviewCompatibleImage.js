@@ -3,21 +3,46 @@ import PropTypes from "prop-types";
 import Img from "gatsby-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const imageStyle = { borderRadius: "5px", width: "100%" };
-  const { alt = "", childImageSharp, image } = imageInfo;
+  const { alt = "", image, imageStyle } = imageInfo;
 
-  if (!!image && !!image.childImageSharp) {
+  if (!!image?.childImageSharp?.fixed && image.extension === "png") {
     return (
-      <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
+      <Img
+        style={imageStyle}
+        imgStyle={{ width: "100%", objectFit: "contain" }}
+        fixed={image.childImageSharp.fixed}
+        alt={alt}
+      />
     );
   }
 
-  if (!!childImageSharp) {
-    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />;
+  if (!!image?.childImageSharp?.fixed) {
+    return (
+      <Img
+        style={imageStyle}
+        imgStyle={{ width: "100%" }}
+        fixed={image.childImageSharp.fixed}
+        alt={alt}
+      />
+    );
+  }
+
+  if (!!image?.childImageSharp?.fluid) {
+    return (
+      <Img
+        style={imageStyle}
+        imgStyle={{ width: "100%" }}
+        fluid={image.childImageSharp.fluid}
+        alt={alt}
+      />
+    );
   }
 
   if (!!image && typeof image === "string")
     return <img style={imageStyle} src={image} alt={alt} />;
+
+  if (image.extension === "svg" && !!image.publicURL)
+    return <img style={imageStyle} src={image.publicURL} alt={alt} />;
 
   return null;
 };

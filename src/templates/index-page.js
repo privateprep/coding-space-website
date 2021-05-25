@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
+
 import "./styles/IndexPage.scss";
 
 export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
@@ -30,6 +31,8 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
         />
       </video>
     </div>
+    <section>
+    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

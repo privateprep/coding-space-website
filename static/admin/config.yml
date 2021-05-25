@@ -357,6 +357,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "test relation",
+          name: "experienceLevels",
+          widget: "relation",
+          collection: "experience-levels",
+          valueField: "title",
+          searchFields: ["title"],
+        }
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -393,6 +401,74 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Heading Image", name: "headingImage", widget: "image" }
       - *page_builder
+  - name: "experience-levels"
+    label: "Experience Levels (class categories)"
+    folder: "src/pages/experience-levels"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "experience-levels",
+        }
+      - { label: "Title", name: "title", default: "Title", widget: "string" }
+      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - {
+          label: "Course Offering Endpoint",
+          name: "courseOfferingEndpoint",
+          hint: "Ask Dashboard for This",
+          widget: "string",
+        }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - {
+          label: "Details",
+          name: "details",
+          widget: "object",
+          fields:
+            [
+              {
+                label: "Age",
+                name: "age",
+                default: "Ages 8+",
+                widget: "string",
+              },
+              {
+                label: "Gender",
+                name: "gender",
+                default: "GirlCode",
+                widget: "string",
+              },
+              {
+                label: "Byline",
+                name: "byline",
+                default: " No boys allowed.",
+                widget: "string",
+              },
+              {
+                label: "Experience Level",
+                name: "experience",
+                default: "First-time through Advanced",
+                widget: "string",
+              },
+              {
+                label: "Skills",
+                name: "skills",
+                default: ["Critical Thinking", "Comprehensive Curriculum"],
+                hint: "This is a list, separate items with commas",
+                widget: "list",
+              },
+              {
+                label: "Selling Points",
+                name: "sellingPoints",
+                default: ["Inclusive Environment", "Intellectual Confidence"],
+                hint: "This is a list, separate items with commas",
+                widget: "list",
+              },
+              { label: "Content", name: "mdContent", widget: "markdown" }
+            ],
+        }
   - name: "school-programs"
     label: "Programs"
     folder: "src/pages/school-programs"
@@ -513,114 +589,16 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+      - file: "src/pages/signup.md"
+        label: "Class Signup Page"
+        name: "signup"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "product-page",
+              default: "signup-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Blurbs,
-                    name: blurbs,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Main,
-              name: main,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Image1,
-                    name: image1,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image2,
-                    name: image2,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image3,
-                    name: image3,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
-          - { label: Full_image, name: full_image, widget: image }
-          - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: string,
-                        },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
-            }
+          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *page_builder
