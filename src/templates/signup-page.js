@@ -163,7 +163,7 @@ export const SignupPageTemplate = ({
   return (
     <div className="signup-page">
       {helmet || ""}
-      {!!title && <h2>{title}</h2>}
+      {!!title && <h1 className="signup-page__title">{title}</h1>}
       <div className="locations">
         <div className="locations__buttons">
           {!!locations &&
