@@ -1,0 +1,16 @@
+body {
+  --bg: #fbf6ee;
+  --bg-alt: #fff;
+  --dark: #274548;
+  --accent: #9fe2dd; /* LIGHT blue */
+  --primary: #edc034; /* hello yello? */
+  --disabled: #dfd1a7; /* yellow-ish */
+  --header: var(--dark);
+  --textNormal: var(--dark);
+  --textTitle: var(--dark);
+  --textLight: #607d8b; /* used for placeholders + hints */
+  --textLink: var(--accent); /* this is very difficult to see */
+  --hr: rgba(0, 0, 0, 0.2);
+  --danger: #ff2c2c; /* perhaps not on brand */
+  --error: var(--danger);
+}

@@ -1,0 +1,11 @@
+.checkbox-group .checkbox-group__options {
+  margin-bottom: calc(1.75rem / 2); /* matches li */
+}
+
+.checkbox-group .checkbox-group__options .option-wrapper {
+  display: grid;
+  grid-template-columns: 21px 1fr;
+  align-items: center;
+  line-height: 1.25;
+  margin: 0.5rem;
+}

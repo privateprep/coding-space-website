@@ -7,7 +7,6 @@ const ExperienceLevelsPreview = ({ entry, widgetFor, getAsset }) => {
   // const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
   const entryDetails = entry.getIn(["data", "details"]);
   const details = entryDetails.toJS();
-  const content = entry.getIn(["data", "content"]);
 
   return (
     <ExperienceLevelsTemplate
