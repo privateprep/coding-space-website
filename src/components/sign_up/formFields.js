@@ -1,13 +1,14 @@
 import * as Yup from "yup";
-import * as Moment from "moment";
+import { DateTime } from "luxon";
 
-Yup.addMethod(Yup.date, "format", function(format) {
-  return this.transform(function(value, originalValue) {
+Yup.addMethod(Yup.date, "format", function (format) {
+  return this.transform(function (value, originalValue) {
     if (this.isType(value)) return value;
 
-    value = Moment(originalValue, format, true);
+    //TODO: check validations
+    value = DateTime.fromFormat(originalValue, format);
 
-    return value.isValid() ? value.toDate() : new Date("");
+    return value.isValid() ? value.toJSDate() : new Date("");
   });
 });
 
@@ -100,12 +101,12 @@ export const studentFields = [
     initialValue: "",
     placeholder: "mm-dd-yyyy",
     validator: Yup.date()
-      .format("MM-DD-YYYY")
+      .format("MM'-'dd'-'yyyy")
       .typeError("Please provide date in MM-DD-YYYY format")
-      .test("test age minimum", "", function(value) {
-        const today = Moment();
-        const parsedBirthdate = Moment(value);
-        const age = today.diff(parsedBirthdate, "years", true);
+      .test("test age minimum", "", function (value) {
+        const today = DateTime.now();
+        const parsedBirthdate = DateTime.fromFormat(value, "MM'-'dd'-'yyyy");
+        const age = today.diff(parsedBirthdate).as("years");
 
         if (age < 5) {
           return this.createError({
@@ -215,10 +216,10 @@ export const covidStudentFields = [
     validator: Yup.date()
       .format("MM-DD-YYYY")
       .typeError("Please provide date in MM-DD-YYYY format")
-      .test("test age minimum", "", function(value) {
-        const today = Moment();
-        const parsedBirthdate = Moment(value);
-        const age = today.diff(parsedBirthdate, "years", true);
+      .test("test age minimum", "", function (value) {
+        const today = DateTime.now();
+        const parsedBirthdate = DateTime.fromFormat(value, "MM'-'dd'-'yyyy");
+        const age = today.diff(parsedBirthdate).as("years");
 
         if (age < 5) {
           return this.createError({

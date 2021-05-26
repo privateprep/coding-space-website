@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby";
-import moment from "moment-timezone";
+import { DateTime } from "luxon";
 
 import Wizard from "./Wizard";
 import FormPage from "./FormPage";
@@ -85,26 +85,26 @@ const SignUp = ({ classTypeId, location: { search } }) => {
           } catch (e) {
             userTimeZone = "America/New_York";
           }
-          const firstDate = moment(deets.startsAt)
-            .tz(userTimeZone)
-            .format("MMM D");
-          const lastDate = moment(deets.lastSessionAt)
-            .tz(userTimeZone)
-            .format("MMM D");
+          const firstDate = DateTime.fromISO(deets.startsAt, {
+            zone: userTimeZone,
+          }).toFormat("MMM d");
+          const lastDate = DateTime(deets.lastSessionAt, {
+            zone: userTimeZone,
+          }).toFormat("MMM d");
 
           const dateRange = `${firstDate} - ${lastDate}`;
-          const classStarts = moment(deets.startsAt)
-            .tz(userTimeZone)
-            .format("h:mm");
-          const classEnds = moment(deets.endsAt)
-            .tz(userTimeZone)
-            .format("LT");
+          const classStarts = DateTime(deets.startsAt, {
+            zone: userTimeZone,
+          }).toFormat("h:mm");
+          const classEnds = DateTime(deets.endsAt, {
+            zone: userTimeZone,
+          }).toFormat("t");
 
           const sessions = deets.sessions.map(session => ({
             ...session,
-            optionLabel: moment(session.scheduledAt)
-              .tz(userTimeZone)
-              .format("llll"),
+            optionLabel: DateTime(session.scheduledAt, {
+              zone: userTimeZone,
+            }).toFormat("FF"),
           }));
 
           const scheduledTimeRange = `${classStarts} to ${classEnds}`;

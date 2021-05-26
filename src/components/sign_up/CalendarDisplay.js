@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import moment from "moment-timezone";
+import { DateTime } from "luxon";
 import range from "lodash/range";
 import "./styles/CalendarDisplay.css";
 
@@ -7,14 +7,14 @@ import "./styles/CalendarDisplay.css";
 
 const CalendarDisplay = ({ events }) => {
   const eventStrings = events
-    .map(event => moment(event.scheduledAt).format("YYYY-MM-DD"))
+    .map(event => DateTime.fromISO(event.scheduledAt).toFormat("y'-'MM'-'dd"))
     .sort();
   const firstEvent = eventStrings[0];
-  const [momentMonth, setMomentMonth] = useState(
-    !!firstEvent ? moment(firstEvent) : moment() //  first event or today
+  const [month, setMonth] = useState(
+    !!firstEvent ? DateTime.fromISO(firstEvent) : DateTime.now() //  first event or today
   );
-  const monthString = momentMonth.format("YYYY-MM");
-  const numDays = moment(momentMonth, "YYYY-MM").daysInMonth();
+  const monthString = month.toFormat("y-MM"); // 2021-06
+  const numDays = month.daysInMonth;
   const dateStrings = range(1, numDays + 1).map(day =>
     day < 10 ? `${monthString}-0${day}` : `${monthString}-${day}`
   );
@@ -24,11 +24,9 @@ const CalendarDisplay = ({ events }) => {
     [eventStrings]
   );
 
-  const onLastMonthClick = () =>
-    setMomentMonth(moment(monthString).subtract(1, "M"));
+  const onLastMonthClick = () => setMonth(month.minus({ months: 1 }));
 
-  const onNextMonthClick = () =>
-    setMomentMonth(moment(monthString).add(1, "M"));
+  const onNextMonthClick = () => setMonth(month.plus({ months: 1 }));
 
   return (
     <div className="calendar">
@@ -36,7 +34,8 @@ const CalendarDisplay = ({ events }) => {
         <button type="button" onClick={onLastMonthClick}>
           {`<`}
         </button>
-        <time dateTime={monthString}>{momentMonth.format("MMMM YYYY")}</time>
+        <time dateTime={monthString}>{month.toFormat("MMMM yyyy")}</time> //
+        June 2021
         <button type="button" onClick={onNextMonthClick}>
           {`>`}
         </button>
@@ -52,7 +51,8 @@ const CalendarDisplay = ({ events }) => {
       </div>
       <div className="date-grid">
         {dateStrings.map((dateString, dayIndex) => {
-          let dateMoment = moment(dateString);
+          // "2021-06-01"
+          let date = DateTime.fromISO(dateString); // DateTime object
           return (
             <button
               key={dateString}
@@ -60,11 +60,11 @@ const CalendarDisplay = ({ events }) => {
               className={hasEvent(dateString) ? "has-event" : ""}
               style={
                 dayIndex === 0
-                  ? { gridColumn: dateMoment.format("ddd") } // first day of month starts grid layout
+                  ? { gridColumn: date.toFormat("EEE") } // first day of month starts grid layout -- Mon
                   : {}
               }
             >
-              <time dateTime={dateString}>{dateMoment.format("D")}</time>
+              <time dateTime={dateString}>{date.toFormat("d")}</time> // 14
             </button>
           );
         })}
