@@ -57,7 +57,6 @@ const BoxWithLogo = ({ content }) => {
                 key={index}
                 className="item__content"
                 style={{
-                  padding: "1rem",
                   color: "white",
                   fontSize: "18px",
                   margin: "0px",

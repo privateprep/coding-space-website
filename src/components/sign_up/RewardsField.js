@@ -131,7 +131,7 @@ const RewardsField = ({
 
   let remainingRewards;
 
-  if (isDefined(appliedRewardsAmount) && appliedRewardsAmount != "0") {
+  if (isDefined(appliedRewardsAmount) && appliedRewardsAmount !== "0") {
     remainingRewards = (
       Number(availableRewardsBalance) - Number(appliedRewardsAmount)
     ).toFixed(2);
@@ -210,7 +210,7 @@ const RewardsField = ({
           className={`rewards-message rewards-message--${rewardsMessage.type}`}
         >
           {rewardsMessage.message}
-          {rewardsMessage.message == defaultRewardsMsg.message && (
+          {rewardsMessage.message === defaultRewardsMsg.message && (
             <>
               {" "}
               If you do not know your code, get it{" "}

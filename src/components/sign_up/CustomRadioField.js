@@ -24,7 +24,7 @@ const SelfIdentification = ({
     if (anotherOptionSelected && isSelected) {
       setIsSelected(false);
     }
-  }, [isSelected, setIsSelected, value]);
+  }, [isSelected, setIsSelected, value, radioOptionValues]);
 
   const onSelect = () => {
     setFieldValue(name, ""); // clears other options

@@ -78,10 +78,8 @@ const OverviewPage = ({
     [setFieldValue]
   );
 
-  const applyBalance = useCallback(amount => {
+  const applyBalance = amount =>
     setFieldValue("applied_rewards_amount", amount);
-  });
-
   // set hidden fields ~onLoad
   useEffect(() => {
     if (!values.price_shown_to_customer) {
@@ -134,10 +132,10 @@ const OverviewPage = ({
   // - ensure collection threshold met
   useEffect(() => {
     const priceShown = Number(values.price_shown_to_customer);
-    if (Number.isNaN(priceShown) || priceShown >= 1 || priceShown == 0) return;
+    if (Number.isNaN(priceShown) || priceShown >= 1 || priceShown === 0) return;
 
     const appliedRewards = Number(values.applied_rewards_amount);
-    if (Number.isNaN(appliedRewards) || appliedRewards == 0) return;
+    if (Number.isNaN(appliedRewards) || appliedRewards === 0) return;
 
     if (priceShown < 0) {
       setFieldValue(
@@ -190,7 +188,7 @@ const OverviewPage = ({
 
     newPrice = newPrice.toFixed(2); // becomes string
 
-    if (newPrice != values.price_shown_to_customer) {
+    if (newPrice !== values.price_shown_to_customer) {
       setFieldValue("price_shown_to_customer", newPrice);
     }
   }, [
@@ -202,7 +200,7 @@ const OverviewPage = ({
   ]);
 
   const priceShown = values.price_shown_to_customer;
-  const hasPriceUpdated = !!priceShown && basePrice != priceShown;
+  const hasPriceUpdated = !!priceShown && basePrice !== priceShown;
 
   const nonRewardsPrice = values.promo_amount_off
     ? (basePrice - values.promo_amount_off).toFixed(2)
@@ -359,6 +357,7 @@ const OverviewPage = ({
                           src={
                             "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='10' viewBox='0 0 16 10'%3E%3Cscript xmlns=''/%3E%3Ctitle%3EArrow Right%3C/title%3E%3Cdefs%3E%3Cpolygon id='arrow-right-a' points='10 0 10 4 0 4 0 6 10 6 10 10 16 4.94'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='arrow-right-b' fill='%23fff'%3E%3Cuse xlink:href='%23arrow-right-a'/%3E%3C/mask%3E%3Cuse fill='%23212B36' fill-rule='nonzero' xlink:href='%23arrow-right-a'/%3E%3Cg fill='%23274548' mask='url(%23arrow-right-b)'%3E%3Crect width='18' height='18' rx='4' transform='translate(-1 -4)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
                           }
+                          alt="Next page"
                         />
                       </a>
                       <hr />

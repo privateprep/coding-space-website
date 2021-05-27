@@ -123,7 +123,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
         })
         .catch(setFetchError);
     }
-  }, [overview, classTypeId, isTrialClass]);
+  }, [overview, classTypeId, isTrialClass, enrollmentType]);
 
   const signupSubmit = async (values, bag) => {
     setSubmitError(undefined); // clear old error
