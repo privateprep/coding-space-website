@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { DateTime } from "luxon";
 import range from "lodash/range";
-import "./styles/CalendarDisplay.css";
+import "./styles/CalendarDisplay.scss";
 
 // based on https://codepen.io/zellwk/details/xNpKwp
 
@@ -34,8 +34,7 @@ const CalendarDisplay = ({ events }) => {
         <button type="button" onClick={onLastMonthClick}>
           {`<`}
         </button>
-        <time dateTime={monthString}>{month.toFormat("MMMM yyyy")}</time> //
-        June 2021
+        <time dateTime={monthString}>{month.toFormat("MMMM yyyy")}</time>
         <button type="button" onClick={onNextMonthClick}>
           {`>`}
         </button>
@@ -64,7 +63,7 @@ const CalendarDisplay = ({ events }) => {
                   : {}
               }
             >
-              <time dateTime={dateString}>{date.toFormat("d")}</time> // 14
+              <time dateTime={dateString}>{date.toFormat("d")}</time>
             </button>
           );
         })}

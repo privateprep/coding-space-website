@@ -124,7 +124,7 @@ const TemplateWrapper = ({ children }) => {
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <Navbar menuItems={menuItems} />
-      <div>{children}</div>
+      <div className="page-container">{children}</div>
       <Footer />
     </div>
   );

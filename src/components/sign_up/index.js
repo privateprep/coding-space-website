@@ -20,7 +20,7 @@ import {
   termFields,
 } from "./formFields";
 
-import "./styles/sign-up.css";
+import "./styles/sign-up.scss";
 
 const filterFields = (fields, filterValues) => {
   let filteredFields = fields;

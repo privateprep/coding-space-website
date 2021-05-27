@@ -3,8 +3,8 @@
   min-width: 250px; /* breaks if smaller */
   margin: auto;
   padding: 1.5em;
-  background-color: var(--bg-alt);
-  border: 2px solid var(--textNormal);
+  background-color: var(--white);
+  border: 2px solid var(--primary);
   font-size: 10px;
 }
 
@@ -21,14 +21,17 @@
 
 /* For the month */
 .month-indicator {
-  color: var(--textNormal);
+  color: var(--text-primary);
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+
+  time {
+    font-size: 1.25rem;
+  }
 }
 
 .month-indicator button {
@@ -36,8 +39,7 @@
   border-radius: 50%;
   width: 4.5ch;
   height: 4.5ch;
-  /* border: 0.1rem solid var(--accent); */
-  color: var(--dark);
+  border: 0.1rem solid var(--accent);
   background-color: transparent;
 }
 
@@ -55,8 +57,8 @@
 }
 
 .day-of-week > * {
-  font-size: 0.7em;
-  color: var(--textNormal);
+  font-size: 0.9em;
+  color: var(--text-primary);
   font-weight: 500;
   letter-spacing: 0.1em;
   font-variant: small-caps;
@@ -86,5 +88,4 @@
 
 .date-grid button.has-event {
   background-color: var(--accent);
-  color: var(--textNormal);
 }
