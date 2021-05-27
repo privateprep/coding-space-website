@@ -1,5 +1,5 @@
 import React from "react";
-import SmallLogo from "../../img/logo-small.svg";
+import logoSmall from "../../img/logo-small.svg";
 
 const BoxWithLogo = ({ content }) => {
   const { title, lines } = content;
@@ -14,7 +14,9 @@ const BoxWithLogo = ({ content }) => {
         backgroundColor: "#FBF6EE",
       }}
     >
-      <SmallLogo
+      <img
+        src={logoSmall}
+        alt="The Coding Space Logo"
         style={{
           width: "85px",
           height: "85px",

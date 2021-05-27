@@ -85,24 +85,25 @@ const SignUp = ({ classTypeId, location: { search } }) => {
           } catch (e) {
             userTimeZone = "America/New_York";
           }
+
           const firstDate = DateTime.fromISO(deets.startsAt, {
             zone: userTimeZone,
           }).toFormat("MMM d");
-          const lastDate = DateTime(deets.lastSessionAt, {
+          const lastDate = DateTime.fromISO(deets.lastSessionAt, {
             zone: userTimeZone,
           }).toFormat("MMM d");
 
           const dateRange = `${firstDate} - ${lastDate}`;
-          const classStarts = DateTime(deets.startsAt, {
+          const classStarts = DateTime.fromISO(deets.startsAt, {
             zone: userTimeZone,
           }).toFormat("h:mm");
-          const classEnds = DateTime(deets.endsAt, {
+          const classEnds = DateTime.fromISO(deets.endsAt, {
             zone: userTimeZone,
           }).toFormat("t");
 
           const sessions = deets.sessions.map(session => ({
             ...session,
-            optionLabel: DateTime(session.scheduledAt, {
+            optionLabel: DateTime.fromISO(session.scheduledAt, {
               zone: userTimeZone,
             }).toFormat("FF"),
           }));
