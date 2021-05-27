@@ -1,10 +1,23 @@
 .SignUp {
   min-height: 30rem;
-  margin-bottom: 4rem;
   display: grid;
   grid-template-areas:
     "title"
     "Signup__container";
+
+  margin: 0px auto;
+  padding: 0px 1.0875rem 1.45rem;
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1040px;
+  }
+
+  @media (min-width: 1900px) {
+    max-width: 1440px;
+  }
 
   /* white box */
   &__container {
@@ -234,7 +247,6 @@
 .overview-page__row > * {
   min-width: 0;
 }
-
 
 .overview-page__row .details,
 .overview-page__row .calendar-wrapper {
