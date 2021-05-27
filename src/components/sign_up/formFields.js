@@ -5,7 +5,6 @@ Yup.addMethod(Yup.date, "format", function (format) {
   return this.transform(function (value, originalValue) {
     if (this.isType(value)) return value;
 
-    //TODO: check validations
     value = DateTime.fromFormat(originalValue, format);
 
     return value.isValid() ? value.toJSDate() : new Date("");
@@ -218,7 +217,7 @@ export const covidStudentFields = [
       .typeError("Please provide date in MM-DD-YYYY format")
       .test("test age minimum", "", function (value) {
         const today = DateTime.now();
-        const parsedBirthdate = DateTime.fromFormat(value, "MM'-'dd'-'yyyy");
+        const parsedBirthdate = DateTime.fromJSDate(value);
         const age = today.diff(parsedBirthdate).as("years");
 
         if (age < 5) {

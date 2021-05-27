@@ -44,7 +44,7 @@
         padding: 0;
         position: relative;
         margin-bottom: 1rem;
-        border: 0 solid var(--dark);
+        border: 0 solid var(--text-primary);
         box-sizing: border-box;
 
         &__context {
@@ -140,60 +140,8 @@
   width: 100%;
   margin-bottom: 0.5rem;
   margin-left: 0.5rem;
-  color: var(--textLight);
+  color: var(--text-accent);
 }
-
-// .SignUp__container__form aside {
-//   box-sizing: border-box;
-//   color: var(--dark);
-//   font-size: 1rem;
-//   font-weight: 600;
-// }
-
-// .SignUp__container__form input[type="text"],
-// .SignUp__container__form input[type="number"],
-// .SignUp__container__form input[type="date"],
-// .SignUp__container__form textarea {
-//   background: 0 0;
-//   border: 1px solid var(--hr);
-//   border-radius: 3px;
-//   box-sizing: border-box;
-//   color: var(--dark);
-//   font-size: 1rem;
-//   padding: 0 10px;
-// }
-
-// .SignUp__container__form .form-field--full-width {
-//   display: grid;
-// }
-
-// .SignUp__container__form .form-field--full-width label {
-//   font-weight: 600;
-//   margin-bottom: 0.5rem;
-//   line-height: 1.5;
-// }
-
-// .SignUp__container__form input:focus,
-// .SignUp__container__form textarea:focus {
-//   border: 1px solid var(--dark);
-// }
-
-// .SignUp__container__form .error {
-//   color: var(--error);
-//   margin-bottom: 0.5rem;
-// }
-
-// .SignUp__container__form__actions {
-//   display: flex;
-//   flex-flow: row wrap;
-//   justify-content: center;
-// }
-
-// .SignUp__container__form__actions button {
-//   max-width: 280px;
-//   width: 100%;
-//   margin: 0.5rem;
-// }
 
 .SignUp__container__form__actions button:first-of-type {
   order: 2;
@@ -214,7 +162,7 @@
   }
 }
 
-@media (min-width: 835px) {
+@media (min-width: 768px) {
   .StepMenu {
     display: block;
   }
@@ -271,7 +219,7 @@
   }
 }
 
-@media (min-width: 806px) {
+@media (min-width: 1200px) {
   .overview-page__row {
     grid-template-columns: 1fr 1fr;
     grid-gap: 0;
