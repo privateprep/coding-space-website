@@ -9,7 +9,7 @@ const TextOnly = ({ data }) => {
   return (
     <div
       className="columns component"
-      style={{ backgroundColor: bgColor, padding: "4rem" }}
+      style={{ backgroundColor: bgColor }}
     >
       <div className="column">
         <div
