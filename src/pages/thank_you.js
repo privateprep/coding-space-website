@@ -25,12 +25,10 @@ const ThankYou = _ => {
     <Layout>
       <GTag />
       <SEO title="Thank You" />
-      <BoxWithLogo
-        content={{
-          title: "See you in class!",
-          lines: ["A confirmation email will be sent shortly."],
-        }}
-      />
+      <BoxWithLogo>
+        <h2>See you in class!</h2>
+        <p>A confirmation email will be sent shortly.</p>
+      </BoxWithLogo>
     </Layout>
   );
 };
