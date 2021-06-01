@@ -2,13 +2,13 @@
   &__title {
     text-align: center;
     margin: 1rem;
-    color: var(--primary-color);
+    color: var(--text-primary);
   }
 
   .locations {
     display: flex;
     padding: 2rem;
-    color: var(--primary-color);
+    color: var(--text-primary);
 
     &__buttons {
       align-items: center;
@@ -18,9 +18,9 @@
       margin-right: 1rem;
 
       .active {
-        background-color: var(--accent-color);
-        color: var(--primary-color);
-        border-color: var(--primary-color);
+        background-color: var(--accent);
+        color: var(--text-primary);
+        border-color: var(--accent);
       }
     }
 
@@ -62,7 +62,7 @@
 
       .experience-level-card {
         text-decoration: none;
-        color: var(--primary-color);
+        color: var(--text-primary);
         display: flex;
         overflow: hidden;
         flex-direction: column;
@@ -88,9 +88,9 @@
             margin: 1rem 0;
             padding: 0;
             .pill {
-              background-color: var(--primary-color);
-              border: var(--accent-color);
-              color: var(--accent-color);
+              background-color: var(--text-primary);
+              border: var(--accent);
+              color: var(--accent);
               padding: 10px 20px;
               text-align: center;
               text-decoration: none;

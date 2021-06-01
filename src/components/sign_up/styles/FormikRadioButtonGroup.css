@@ -1,0 +1,41 @@
+.radio-button-group {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.radio-button-group label {
+  flex: 1 0 120px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.radio-button-group .formik-error {
+  margin-left: 150px;
+}
+
+.radio-button-group__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button-group__options.radio-button-group__options--row {
+  flex-flow: row wrap;
+}
+
+.radio-button-group__options .option-wrapper {
+  display: flex;
+  align-items: baseline;
+  margin-right: 1rem;
+  /* padding: 0.5rem; */
+}
+
+.radio-button-group__options .option-wrapper .radio-button-label {
+  text-align: left;
+  padding: 0 0.5rem;
+  font-weight: normal;
+}
+
+.radio-button-group .radio-button-group__options input[type="text"] {
+  flex: 1 0 32px;
+}

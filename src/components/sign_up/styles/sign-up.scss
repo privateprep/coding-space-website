@@ -1,0 +1,422 @@
+.SignUp {
+  min-height: 30rem;
+  display: grid;
+  grid-template-areas:
+    "title"
+    "Signup__container";
+
+  margin: 0px auto;
+  padding: 0px 1.0875rem 1.45rem;
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1040px;
+  }
+
+  @media (min-width: 1900px) {
+    max-width: 1440px;
+  }
+
+  /* white box */
+  &__container {
+    background-color: var(--white);
+    grid-area: Signup__container;
+    display: grid;
+    grid-template-areas: "step_menu" "container_form";
+    border: 0.1rem solid var(--hr);
+
+    &__form {
+      grid-area: container_form;
+      grid-template-areas:
+        "title"
+        "inputs";
+      margin: 1rem;
+      min-height: 26rem;
+
+      .title {
+        grid-area: title;
+      }
+
+      .overview-page {
+        margin: 0 auto;
+        grid-area: inputs;
+      }
+
+      aside {
+        box-sizing: border-box;
+        color: var(--dark);
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .form-field {
+        grid-area: inputs;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        margin-bottom: 1rem;
+        border: 0 solid var(--text-primary);
+        box-sizing: border-box;
+
+        &__context {
+          margin-bottom: 0.5rem;
+          line-height: 1.5;
+        }
+
+        &--full-width {
+          display: grid;
+
+          label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="date"],
+      textarea {
+        background: 0 0;
+        border: 1px solid var(--hr);
+        border-radius: 3px;
+        box-sizing: border-box;
+        color: var(--dark);
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+
+      input:focus,
+      textarea:focus {
+        border: 1px solid var(--dark);
+      }
+
+      .error {
+        color: var(--error);
+        margin-bottom: 0.5rem;
+      }
+
+      &__actions {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        button {
+          max-width: 280px;
+          width: 100%;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.SignUp .overview-page__title {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.SignUp .overview-page__title__name {
+  margin: 0 0 0.5rem;
+}
+
+.SignUp .title .overview-page__title__description {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* left hand menu */
+.StepMenu {
+  list-style: none;
+  grid-area: step_menu;
+  display: none;
+  border-right: 0.1rem solid var(--hr);
+  margin: 0;
+}
+
+.StepMenu__item {
+  background-color: transparent;
+  border-left: 0.5rem solid transparent;
+  margin: 0;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.StepMenu__item--active {
+  border-left-color: var(--dark);
+  font-weight: 600;
+}
+
+.hint {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  color: var(--black);
+  font-style: italic;
+}
+
+.SignUp__container__form__actions button:first-of-type {
+  order: 2;
+}
+.SignUp__container__form__actions button:last-of-type {
+  order: 1;
+}
+
+@media (min-width: 460px) {
+  .SignUp__container__form__actions button {
+    width: 45%;
+  }
+  .SignUp__container__form__actions button:first-of-type {
+    order: 1;
+  }
+  .SignUp__container__form__actions button:last-of-type {
+    order: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .StepMenu {
+    display: block;
+  }
+  .SignUp__container {
+    grid-template-areas: "step_menu container_form";
+    grid-template-columns: 1fr 2fr;
+  }
+  .SignUp__container__form .form-field {
+    display: flex;
+    flex-flow: row wrap;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .SignUp__container__form aside {
+    line-height: 18px;
+    margin-top: 6px;
+    flex: 0 0 194px;
+    padding-right: 32px;
+    text-align: right;
+    padding-left: 32px;
+  }
+  .SignUp__container__form .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .SignUp__container__form .input-container,
+  .SignUp__container__form .radio-button-group {
+    flex: 0 1 300px;
+  }
+  .SignUp__container__form input[type="text"],
+  .SignUp__container__form input[type="number"] {
+    height: 32px;
+  }
+  .SignUp__container__form .form-field--full-width .input-container,
+  .SignUp__container__form .form-field--full-width .radio-button-group {
+    flex-basis: 100%;
+  }
+}
+
+.overview-page__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+
+  .details {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+
+    li {
+      line-height: 2rem;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .overview-page__row {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    align-items: center;
+  }
+}
+
+.overview-page__row:first-of-type {
+  align-items: baseline;
+}
+
+.overview-page__row > * {
+  min-width: 0;
+}
+
+.overview-page__row .details,
+.overview-page__row .calendar-wrapper {
+  align-self: center;
+}
+
+.overview-page__row .details li:last-of-type {
+  margin-bottom: 0;
+}
+
+.overview-page__row .details p {
+  margin: 0;
+}
+
+.overview-page__row .details hr {
+  margin: 0.5rem 0;
+  width: 3rem;
+  height: 0.25rem;
+  background-color: var(--primary);
+}
+
+.promo-rewards-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.promo-rewards-wrapper .small-button {
+  max-width: 8rem;
+  margin-bottom: 0.25rem;
+}
+
+.promo-rewards-wrapper .small-button:first-of-type {
+  margin-right: 0.25rem;
+}
+
+.promo-lookup {
+  margin-top: calc(1.75rem / 2); /* mimics li's margin-bottom */
+}
+
+.promo-lookup .input-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.promo-lookup .input-wrapper input[type="text"] {
+  margin-right: 0.25rem;
+}
+
+.promo-lookup .promo-message,
+.rewards-field .rewards-message {
+  white-space: pre-line;
+}
+
+.promo-lookup .promo-message--error,
+.rewards-field .rewards-message--error {
+  margin-top: 1rem;
+  color: var(--error);
+}
+@media (max-width: 460px) {
+  .promo-lookup .small-button {
+    margin-top: 0.5rem;
+  }
+}
+
+.overview-page__row.overview-page__row--addons,
+.overview-page__row.overview-page__row--full-width {
+  grid-template-columns: 1fr;
+}
+
+.overview-page__row.overview-page__row--addons .addons-container {
+  padding: 0 1rem;
+}
+
+.overview-page .details .trial-class-wrapper aside,
+.overview-page .details .parent-email-wrapper aside {
+  display: block;
+  flex: auto;
+  padding: 0 0 0.5rem;
+  text-align: left;
+}
+
+.overview-page .details .parent-email-wrapper {
+  margin-top: 1rem;
+}
+
+.overview-page__row .calendar-wrapper .calendar {
+  font-size: 12px;
+}
+
+.overview-page__row .address-link {
+  color: var(--dark);
+  box-shadow: none;
+}
+
+.overview-page__row .leaflet-container {
+  margin: 1rem;
+  min-height: 15rem;
+}
+
+.overview-page__row .leaflet-container .leaflet-map-marker {
+  background: transparent;
+  border: none;
+}
+
+.confirmation-page__details {
+  list-style: none;
+}
+
+.checkout-page .card-checkout {
+  max-width: 420px;
+  width: 100%;
+  margin: 3rem auto 0;
+}
+
+.card-checkout label {
+  font-weight: bold;
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1.15rem;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement input::placeholder {
+  color: #aab7c4;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.card-error {
+  margin-bottom: 1.75rem;
+}
+
+.card-error__message {
+  color: var(--error);
+}
+
+.card-error p {
+  margin-bottom: 0.5rem;
+}
+
+/* for FormikAccept */
+.accept-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accept-input-container label.accept-label-with-link {
+  font-weight: normal;
+}
+
+.accept-input-container input[type="checkbox"] {
+  margin-right: 0.5rem;
+}

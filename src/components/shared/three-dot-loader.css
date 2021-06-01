@@ -1,0 +1,52 @@
+.three-dot-loader {
+  color: var(--dark);
+  align-self: center;
+  font-size: 6px; /* <-- adjust size here! */
+  line-height: 1;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 8px;
+  transition: color 150ms ease 0s;
+}
+
+.three-dot-loader .dot-1,
+.three-dot-loader .dot-2,
+.three-dot-loader .dot-3 {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: react-select-loading-indicator;
+  animation-timing-function: ease-in-out;
+  background-color: var(--dark);
+  display: inline-block;
+  margin-left: 1em;
+  height: 1em;
+  vertical-align: top;
+  width: 1em;
+  border-radius: 1em;
+}
+
+.three-dot-loader .dot-1 {
+  animation-delay: 0ms;
+}
+
+.three-dot-loader .dot-2 {
+  animation-delay: 160ms;
+}
+
+.three-dot-loader .dot-3 {
+  animation-delay: 320ms;
+}
+
+@keyframes react-select-loading-indicator {
+  0%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+}
