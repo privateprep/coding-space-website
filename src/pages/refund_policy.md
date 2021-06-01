@@ -8,22 +8,23 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      Existing clients ("Referrer") who refer friends and family as new clients
-      (“New Client") to The Coding Space, may be eligible to receive referral
-      credits (“Credit(s)”).
+      ## Academic Year
 
 
-      Referrers become eligible for The Coding Space Referral and Rewards Program after their student has registered for a recurring class or camp. Referrer will receive $100 in Credit when New Client purchases their first recurring class or camp registration using the Referrer’s unique code (“Code”). Referrer will not receive Credit for any subsequent purchase(s) made by New Client. Credit amounts will be added to the Referrer's The Coding Space account. Referrer will have the opportunity to apply Credits at checkout up to the purchase amount.
+      We are able to provide a full refund for cancelled registrations up to one week before the start of the term.
 
 
-      New Client is defined as a customer that has not previously registered for a recurring class or camp. New Client will receive a 10% off discount (“Discount”) when they purchase a new recurring class or camp registration. Discount is applicable only on recurring classes or camps, defined as those that are not trial or single-session. Discount is non-transferrable and cannot be combined with any other discount or promotion.
+      After this point, we are no longer able to provide refunds. However, we can accommodate rescheduling. Class cancellations must be made 24 hrs in advance of the scheduled class to be eligible for rescheduling. We want to make sure our teachers have time to prepare, and know what to expect class to class, week to week. It makes for a better learning experience for our awesome students!
 
 
-      New Client will be disqualified and will not receive Discount if The Coding Space determines that New Client has previously registered under a different email address with The Coding Space that is associated with a recurring class or camp purchase. The Coding Space reserves the right to withhold or invalidate any Discount obtained through the The Coding Space Referral and Rewards Program if The Coding Space determines or believes that Discount was received through error, fraudulent, illegal, or in violation of these terms and conditions or any other applicable agreement between you and The Coding Space.
+      Make-ups are subject to availability and require 3 days notice (i.e. for a Monday make-up, the request must be made by 4 pm on Friday). In addition, make-ups that are scheduled aren’t eligible for rescheduling a second time. Make-ups can't be rolled over to a future term.
 
 
-      Referrer Credits cannot be redeemed for cash or cash equivalent. Credits are not transferable and may not be auctioned, traded, bartered, or sold. Credits may not be retroactively applied to the Referrer’s account. Credits may be used in conjunction with up to one other discount or promotional code. The Coding Space reserves the right to withhold or invalidate Credit obtained through the The Coding Space Referral and Rewards Program if The Coding Space determines or believes that the Credit was received through error, fraudulent, illegal, or in violation of these terms and conditions or any other applicable agreement between you and The Coding Space.
+      ## Mini Camps & Summer Camps
 
 
-      Discounts and Credits are subject to change by The Coding Space at any time. Void where restricted or prohibited by law.
+      We know sometimes plans change and things are more uncertain than usual right now. Cancellations made up to two weeks before the start date of your session are eligible for a full refund. Cancellations that are requested up to one week in advance are eligible for a 100% credit that can be used for a future camp or after-school session. We will not issue refunds or credits for cancellations requested less than a week in advance of the scheduled camp session date.
+
+
+      Changes to dates can be made free of cost up to one week before the start date of your original camp session. No changes will be possible less than a week in advance of your original session’s start date.
 ---
