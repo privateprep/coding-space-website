@@ -3,6 +3,61 @@ const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 
+// load ENV vars to process
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+// API helpers
+const fetch = require("node-fetch");
+const GET = url => fetch(url, {
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+  }).then((res) => {
+    if (res.ok) {
+      return res;
+    } else {
+      return Promise.reject(new Error(res.statusText));
+    }
+  }).then(res => res.json());
+
+// load data from PP Dashboard into gatsby's GraphQL schema
+exports.sourceNodes = async ({
+  actions: { createNode },
+  createContentDigest,
+}) => {
+  // get data from PP locations at build time
+  const classLocationsEndpoint = `${process.env.DASHBOARD_BASE_URL}/feeds/coding_space/classes/locations`
+  const { locations } = await GET(classLocationsEndpoint)
+
+  for (const location of locations) {
+    const { classTypes } = await GET(location.courseOfferingsEndpoint)
+    const categoryNames = [...new Set(classTypes.map(ct => ct.categoryName))];
+
+    const uniqId = `pp_class_location_id_${location.classLocationId}`
+
+    const formattedLocation = {
+      ...location,
+      categoryNames,
+    }
+
+    createNode({
+      // add arbitrary fields from the data
+      ...formattedLocation,
+      // required fields
+      id: uniqId,
+      parent: null,
+      children: [],
+      internal: {
+        type: "ClassLocation",
+        contentDigest: createContentDigest(formattedLocation),
+      },
+    })
+  }
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
