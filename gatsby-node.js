@@ -163,4 +163,10 @@ exports.onCreatePage = ({ page, actions }) => {
     page.matchPath = "/sign_up/*";
     actions.createPage(page);
   }
+
+  // cart recovery
+  if (page.path.match(/^\/checkout/)) {
+    page.matchPath = "/checkout/*";
+    actions.createPage(page);
+  }
 };
