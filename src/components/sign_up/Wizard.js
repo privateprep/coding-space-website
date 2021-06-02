@@ -136,6 +136,7 @@ class Wizard extends React.Component {
                   <div className="SignUp__container__form__actions">
                     {page > 0 && (
                       <button
+                        className="button"
                         type="button"
                         onClick={this.previous}
                         disabled={props.isSubmitting}
@@ -144,6 +145,7 @@ class Wizard extends React.Component {
                       </button>
                     )}
                     <button
+                      className="button"
                       type="submit"
                       disabled={props.isSubmitting || manualSubmitting}
                     >
