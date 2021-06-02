@@ -20,7 +20,7 @@ const GET = (url) => {
     "Content-Type": "application/json",
   };
 
-  console.log("- url", url)
+  console.log("- GET-ing url", url)
 
   return fetch(url, { headers })
     .then((res) => {
