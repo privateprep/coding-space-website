@@ -15,6 +15,10 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
     categoryNames.includes(l.title)
   );
 
+  if (!activeLevels.length) {
+    return <><p>No matching courses available.</p><p>Check back soon or contact our team for more information!</p></>
+  }
+
   return (
     <ul className="experience-level-cards">
       {activeLevels.map(
@@ -62,6 +66,15 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
 
 const LocationsPanel = ({ locations, experienceLevels }) => {
   const inPersonLocations = locations.filter((l) => !l.isOnline) || [];
+  const onlineLocation = locations
+    .filter((l) => l.isOnline)
+    .reduce(
+      (shared, l) => ({
+        ...shared,
+        categoryNames: Array.from(new Set(...shared.categoryNames, ...l.categoryNames)),
+      }),
+      { id: 'online', name: "Online", isOnline: true, categoryNames: [] }
+    );
   const [activeLocation, setActiveLocation] = useState(inPersonLocations[0]);
 
   return (
@@ -69,11 +82,11 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__header">
         <h2 className="LocationsPanel__header__title">Explore Locations</h2>
         <ul className="locations-list">
-          {inPersonLocations.map((location) => (
+          {[...inPersonLocations, onlineLocation].map((location) => (
             <li
               key={location.id}
               className={`locations-list__item${
-                location === activeLocation
+                location.id === activeLocation?.id
                   ? " locations-list__item--active"
                   : ""
               }`}
@@ -111,7 +124,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
           )}
         </div>
         <div className="LocationsPanel__main__offerings">
-          <h4>Upcoming Classes</h4>
+          <h4>Offerings</h4>
           <ExperienceLevelCards
             experienceLevels={experienceLevels}
             location={activeLocation}
