@@ -10,9 +10,7 @@ require("dotenv").config({
 
 // API helpers
 const fetch = require("cross-fetch");
-const dashboardBaseUrl = !!process.env.DASHBOARD_BASE_URL
-  ? process.env.DASHBOARD_BASE_URL
-  : "https://dashboard.privateprep.com";
+const dashboardBaseUrl = process.env.DASHBOARD_BASE_URL;
 
 const GET = (url) => {
   const headers = {
