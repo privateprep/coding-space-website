@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import MapDisplay from "../components/MapDisplay";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import PropTypes from "prop-types";
-import Layout from "../components/Layout";
 import { Helmet } from "react-helmet";
-import PageBuilder from "../components/PageBuilder";
-
-import "leaflet/dist/leaflet.css";
-import "./styles/locations.scss";
-
-import online from "../img/online.svg";
 import { graphql, Link } from "gatsby";
+
+import Layout from "../components/Layout";
+import MapDisplay from "../components/MapDisplay";
+import PageBuilder from "../components/PageBuilder";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+
+import "./styles/locations.scss";
 
 const ExperienceLevelCards = ({ experienceLevels, location }) => {
   const { classLocationId, name, isOnline, categoryNames } = location;
@@ -22,7 +19,7 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
     <ul className="experience-level-cards">
       {activeLevels.map(
         (
-          { title, thumbnail, seo_description, slug, details: { skills } },
+          { title, thumbnail, slug, details: { age, byline, skills } },
           levelIndex
         ) => {
           const filteredLink = isOnline
@@ -30,30 +27,30 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
             : `${slug}?class_location_ids[]=${classLocationId}`;
 
           return (
-            <li className="experience-level-card__wrapper" key={levelIndex}>
+            <li className="experience-level-cards__item" key={levelIndex}>
               <Link className="experience-level-card" to={filteredLink}>
+                <p className="experience-level-card__age">{age}</p>
+                <h4 className="experience-level-card__title">{title}</h4>
+                <p className="experience-level-card__byline">{byline}</p>
                 <div className="experience-level-card__img">
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: thumbnail,
-                      alt: `Preview for Post ${title}`,
-                      imageStyle: { height: "240px" },
+                      alt: title,
+                      imageStyle: { width: "100%", height: "auto" },
                     }}
                   />
                 </div>
-                <div className="experience-level-card__content">
-                  <h2>{title}</h2>
-                  <p>{seo_description}</p>
-                </div>
-                <div className="experience-level-card__tags">
-                  <ul className="pills">
-                    {skills.map((skill, i) => (
-                      <li className="pill" key={i}>
-                        +{skill}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                <p className="experience-level-card__skills">
+                  {skills.map((skill, skillIndex) => (
+                    <React.Fragment key={skillIndex}>
+                      <em className="highlight">{skill}</em>
+                      {skillIndex < skills.length - 1 && (
+                        <span style={{ marginRight: `.25rem` }}>{`,`}</span>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </p>
               </Link>
             </li>
           );
@@ -63,79 +60,90 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
   );
 };
 
-export const LocationsPageTemplate = ({
-  helmet,
-  title,
-  pageBuilder,
-  locations,
-  experienceLevels,
-}) => {
-  const [location, setLocation] = useState();
-  const inPersonLocations = locations.filter((l) => !l.isOnline);
+const LocationsPanel = ({ locations, experienceLevels }) => {
+  const inPersonLocations = locations.filter((l) => !l.isOnline) || [];
+  const [activeLocation, setActiveLocation] = useState(inPersonLocations[0]);
 
   return (
-    <div className="locations">
-      {helmet || ""}
-      {!!title && <h1 className="locations__title">{title}</h1>}
-      <div className="locations">
-        <div className="locations__buttons">
-          {!!inPersonLocations &&
-            inPersonLocations.map((l, i) => (
+    <div className="LocationsPanel">
+      <div className="LocationsPanel__header">
+        <h2 className="LocationsPanel__header__title">Explore Locations</h2>
+        <ul className="locations-list">
+          {inPersonLocations.map((location) => (
+            <li
+              key={location.id}
+              className={`locations-list__item${
+                location === activeLocation
+                  ? " locations-list__item--active"
+                  : ""
+              }`}
+            >
               <button
-                className={`custom-button ${
-                  l.name === location?.name ? "active" : ""
-                }`}
-                key={`location-${i}`}
-                onClick={() => setLocation(l)}
+                className="locations-list__item__button"
+                onClick={() => setActiveLocation(location)}
               >
-                {l.name}
+                {location.name}
               </button>
-            ))}
-        </div>
-        {!!location && (
-          <>
-            <div className="locations__map">
-              {location.isOnline ? (
-                <img
-                  src={online}
-                  style={{ maxHeight: "300px" }}
-                  alt="Online classes"
-                />
-              ) : (
-                <MapDisplay
-                  addressCoords={[location.latitude, location.longitude]}
-                />
-              )}
-            </div>
-            <div className="locations__details">
-              <h2>{location.name}</h2>
-              <div className="locations__details__address">
-                <h3>{location.addressString}</h3>
-              </div>
-            </div>
-          </>
-        )}
+            </li>
+          ))}
+        </ul>
       </div>
-      {location && (
-        <section className="offerings">
+      <div className="LocationsPanel__main">
+        <div className="LocationsPanel__main__details">
+          <h3>{activeLocation.name}</h3>
+          {activeLocation.isOnline ? (
+            <>
+              <p>
+                Connect to curriculum from anywhere with our suite of virtual
+                courses!
+              </p>
+            </>
+          ) : (
+            <>
+              <p>{activeLocation.addressString}</p>
+              <MapDisplay
+                addressCoords={[
+                  activeLocation.latitude,
+                  activeLocation.longitude,
+                ]}
+              />
+            </>
+          )}
+        </div>
+        <div className="LocationsPanel__main__offerings">
+          <h4>Upcoming Classes</h4>
           <ExperienceLevelCards
             experienceLevels={experienceLevels}
-            location={location}
+            location={activeLocation}
           />
-        </section>
-      )}
-      <div>
-        <PageBuilder data={pageBuilder ?? []} />
+        </div>
       </div>
     </div>
   );
 };
 
-const LocationsPage = ({ data }) => {
-  // return <pre>{JSON.stringify(data, null, 2)}</pre>;
+export const LocationsPageTemplate = ({
+  helmet,
+  title,
+  subtitle,
+  pageBuilder,
+  locations,
+  experienceLevels,
+}) => (
+  <div className="locations">
+    {helmet}
+    <div className="locations__hero">
+      <h1 className="locations__hero__title">{title}</h1>
+      <h2 className="locations__hero__subtitle">{subtitle}</h2>
+    </div>
+    <LocationsPanel locations={locations} experienceLevels={experienceLevels} />
+    <PageBuilder data={pageBuilder ?? []} />
+  </div>
+);
 
+const LocationsPage = ({ data }) => {
   const {
-    frontmatter: { title, seoDescription, pageBuilder },
+    frontmatter: { title, subtitle, seoDescription, pageBuilder },
   } = data.markdownRemark;
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
     (levelNode) => {
@@ -158,18 +166,11 @@ const LocationsPage = ({ data }) => {
         experienceLevels={experienceLevels || []}
         locations={data.allClassLocation.locations}
         title={title}
+        subtitle={subtitle}
         pageBuilder={pageBuilder}
       />
     </Layout>
   );
-};
-
-LocationsPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
 };
 
 export default LocationsPage;
@@ -179,6 +180,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "locations" } }) {
       frontmatter {
         title
+        subtitle
         pageBuilder {
           heading
           image {
@@ -216,16 +218,15 @@ export const pageQuery = graphql`
         frontmatter {
           heading
           title
-          seo_description
-          courseOfferingEndpoint
-          description
           details {
+            age
+            byline
             skills
           }
           thumbnail {
             childImageSharp {
-              fixed(width: 480) {
-                ...GatsbyImageSharpFixed
+              fluid(maxWidth: 480, quality: 80) {
+                ...GatsbyImageSharpFluid
               }
             }
             extension

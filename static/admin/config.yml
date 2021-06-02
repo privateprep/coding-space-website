@@ -593,12 +593,8 @@ collections:
         label: "Locations"
         name: "locations"
         fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "locations",
-            }
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "locations" }
           - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
           - { label: "SEO Description", name: "seoDescription", widget: "text" }
           - *page_builder
