@@ -2,22 +2,24 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+
 import Layout from "../components/Layout";
 import createHtml from "../components/MdToHtml";
-import { useQueryParam } from "gatsby-query-params";
+import CampDetails from "../components/CampDetails";
+import CourseOfferings from "../components/CourseOfferings";
 
 import "./styles/experience-levels.scss";
 
 export const ExperienceLevelsTemplate = ({
+  courseOfferingEndpoint,
   details,
   title,
   helmet,
-  location = "",
 }) => {
-  const parsedLocation = useQueryParam("location", location);
-
+  const isCamp = title.toLowerCase().includes("camp");
   const { age, gender, byline, mdContent, experience, skills, sellingPoints } = details;
   const htmlContent = createHtml(mdContent);
+
   return (
     <div className="experience-level-page">
       <section className="course-hero">
@@ -30,40 +32,47 @@ export const ExperienceLevelsTemplate = ({
           <p dangerouslySetInnerHTML={htmlContent} />
         </div>
         <div className="course-hero__card">
-          <React.Fragment>
-            <header className="course-hero__card__header">
-              <span>{gender}</span>
-              <span>{age}</span>
-            </header>
-            <p className="course-hero__card__detail-title">Includes</p>
-            <p className="course-hero__card__detail-content">
-              {skills.map((skill, skillIndex) => (
-                <React.Fragment key={skillIndex}>
-                  <em className="highlight">{skill}</em>
-                  {skillIndex < skills.length - 1 && (
-                    <span style={{ marginRight: `.25rem` }}>{`,`}</span>
-                  )}
-                </React.Fragment>
-              ))}
-            </p>
-            <p className="course-hero__card__detail-title">Experience</p>
-            <p className="course-hero__card__detail-content">{experience}</p>
-            <p className="course-hero__card__detail-title">
-              Ideal for those looking for
-            </p>
-            <ul className="course-hero__card__detail-content">
-              {sellingPoints.map(point => (
-                <li key={point}>{point}</li>
-              ))}
-            </ul>
-          </React.Fragment>
+          <header className="course-hero__card__header">
+            <span>{gender}</span>
+            <span>{age}</span>
+          </header>
+          <p className="course-hero__card__detail-title">Includes</p>
+          <p className="course-hero__card__detail-content">
+            {skills.map((skill, skillIndex) => (
+              <React.Fragment key={skillIndex}>
+                <em className="highlight">{skill}</em>
+                {skillIndex < skills.length - 1 && (
+                  <span style={{ marginRight: `.25rem` }}>{`,`}</span>
+                )}
+              </React.Fragment>
+            ))}
+          </p>
+          <p className="course-hero__card__detail-title">Experience</p>
+          <p className="course-hero__card__detail-content">{experience}</p>
+          <p className="course-hero__card__detail-title">
+            Ideal for those looking for
+          </p>
+          <ul className="course-hero__card__detail-content">
+            {sellingPoints.map(point => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
         </div>
       </section>
-      <section>
-        {!!parsedLocation && <h1>Offerings at {parsedLocation}</h1>}
+      <CourseOfferings
+        courseOfferingEndpoint={courseOfferingEndpoint}
+        isCamp={isCamp}
+      />
+      {!!isCamp && <CampDetails />}
+      <section className="cta-contact">
+        <h4 className="cta-contact__title">Have questions?</h4>
+        <p className="cta-contact__secondary">
+          Get in touch with our team to get your questions answered.
+        </p>
+        <a href="https://thecodingspace.com/contact" className="link-button">
+          Get In Touch
+        </a>
       </section>
-      <section className="course-offerings"><h2>Classes will load here...</h2></section>
-
     </div>
   );
 };
@@ -76,7 +85,7 @@ ExperienceLevelsTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const ExperienceLevels = ({ location, data }) => {
+const ExperienceLevels = ({ data }) => {
   const { markdownRemark: page } = data;
 
   return (
@@ -92,9 +101,7 @@ const ExperienceLevels = ({ location, data }) => {
             />
           </Helmet>
         }
-        title={page.frontmatter.title}
-        details={page.frontmatter.details}
-        location={location?.state?.location}
+        {...page.frontmatter}
       />
     </Layout>
   );

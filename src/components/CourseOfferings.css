@@ -1,0 +1,157 @@
+.courseOfferings {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.courseOfferings .class-filters {
+  display: flex;
+  flex-flow: row-wrap;
+  align-items: baseline;
+}
+
+.courseOfferings .class-filters h3 {
+  margin-top: 1rem;
+}
+
+.courseOfferings .class-filters select {
+  padding: 0.25rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.class-category-offering__title {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.class-category-offering__title h2 {
+  margin-right: 1.5rem;
+}
+
+.offering-list, .class-category-offering__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.class-category-offering__list__item {
+  display: grid;
+  grid-template-columns: 14rem 14rem 2fr 1fr;
+  grid-template-areas: "icon overview details actions";
+  grid-gap: 0.5rem;
+  height: 13rem;
+  align-items: flex-start;
+  margin-bottom: 0rem; /* clears li */
+  padding: 1rem;
+  border-top: 0.1rem solid var(--hr);
+  box-sizing: border-box;
+}
+
+/* clear margin */
+.class-category-offering__list__item h3,
+.class-category-offering__list__item h4,
+.class-category-offering__list__item li,
+.class-category-offering__list__item strong,
+.class-category-offering__list__item p {
+  margin: 0;
+}
+
+.class-category-offering__list__item .icon,
+.course-hero__card .icon {
+  font-family: var(--fontStack--heading);
+  font-size: 10rem;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  padding-right: 2rem;
+  grid-area: icon;
+}
+
+.class-category-offering__list__item .overview {
+  position: relative;
+  margin-top: 30px;
+  grid-area: overview;
+}
+
+.class-category-offering__list__item .overview:before {
+  content: "";
+  display: block;
+  background: var(--primary-btn);
+  height: 125%;
+  width: 0.5rem;
+  transform: translateX(-50%);
+  position: absolute;
+  left: -0.75rem;
+  top: -0.25rem;
+}
+
+.class-category-offering__list__item .overview__time {
+  margin-top: 0.5rem;
+}
+
+.class-category-offering__list__item .overview__weekdays {
+  margin-top: 0.5rem;
+}
+
+.class-category-offering__list__item .details {
+  grid-area: details;
+  list-style: none;
+  margin: 1rem auto;
+}
+
+.class-category-offering__list__item .details .near-capacity {
+  color: var(--dark);
+  text-decoration: solid underline var(--accent);
+}
+
+.class-category-offering__list__item .actions {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  grid-area: actions;
+  margin: auto;
+  width: 100%;
+}
+
+.class-category-offering__list__item .actions .sign-up {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 64rem) {
+  .class-category-offering__list__item {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "icon overview details"
+      "actions actions actions";
+    height: auto;
+    align-items: center;
+    grid-gap: 1rem 0;
+  }
+  .class-category-offering__list__item .overview {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 46rem) {
+  .class-category-offering__list__item {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "icon overview"
+      "details details"
+      "actions actions";
+    height: auto;
+    grid-gap: 1rem 0;
+  }
+  .class-category-offering__list__item .icon {
+    font-size: 8rem;
+    text-align: right;
+  }
+}
