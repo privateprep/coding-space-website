@@ -2,7 +2,7 @@
 
 .cta-contact {
   background-color: var(--primary);
-  min-height: 80vh;
+  min-height: 60vh;
 
   align-items: center;
   display: flex;
@@ -16,6 +16,7 @@
 
 .cta-contact__title {
   font-size: 3rem;
+  margin: 1rem auto;
   line-height: 3.5rem;
   color: var(--backgroundAlt);
   letter-spacing: inherit;
