@@ -52,14 +52,16 @@
 
   &__list {
     list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
 
     &__link {
-      line-height: 1.5;
+      line-height: 1.15;
       padding: 0.5rem 0.75rem;
       color: inherit;
+      transition: scale 222ms ease;
 
       &:hover {
-        transition: scale 222ms ease-out;
         transform: scale(1.03);
       }
     }

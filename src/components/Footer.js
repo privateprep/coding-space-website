@@ -17,48 +17,24 @@ const Footer = () => (
     />
     <div className="Footer__content">
       <div className="Footer__content__left">
+        <h4 style={{ margin: "0 0 1.75rem" }}>SITE LINKS</h4>
         <ul className="Footer__list">
-          <li>
-            <Link to="/" className="Footer__list__link">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="Footer__list__link" to="/about">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="Footer__list__link" to="/contact/examples">
-              Form Examples
-            </Link>
-          </li>
-          <li>
-            <a
-              className="Footer__list__link"
-              href="/admin/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Admin
-            </a>
-          </li>
+          {[
+            ["/locations", "Locations"],
+            ["/referral_program", "Referral and Rewards Program"],
+          ].map(([route, label], linkIndex) => (
+            <li key={linkIndex} className="Footer__list__link">
+              <Link
+                to={route}
+                style={{ color: `var(--dark)`, marginLeft: `1rem` }}
+              >
+                {label}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
-      <div className="Footer__content__center">
-        <ul className="Footer__list">
-          <li>
-            <Link className="Footer__list__link" to="/blog">
-              Latest Stories
-            </Link>
-          </li>
-          <li>
-            <Link className="Footer__list__link" to="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <div className="Footer__content__center" />
       <div className="Footer__content__right social-links">
         <a title="facebook" href="https://facebook.com/thecodingspace">
           <img
@@ -83,6 +59,9 @@ const Footer = () => (
           />
         </a>
       </div>
+    </div>
+    <div className="Footer__content" style={{ padding: 0 }}>
+      <p>© {new Date().getFullYear()}, The Coding Space</p>
     </div>
   </footer>
 );
