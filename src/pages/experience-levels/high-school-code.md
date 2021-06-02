@@ -10,7 +10,7 @@ categoryIds:
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49
 thumbnail: /img/girls-code-camp.jpg
 details:
-  age: 14-17
+  age: Ages 14-17
   gender: Co ed.
   byline: " No boys allowed."
   experience: First-time through Advanced

@@ -12,8 +12,8 @@ thumbnail: /img/clipartkey_2215277.png
 details:
   age: Ages 6-8
   gender: Co-ed.
-  experience: Young & First-time Coders
   byline: Intro to coding.
+  experience: Young & First-time Coders
   skills:
     - Thinking Patterns
     - Reading Comprehension

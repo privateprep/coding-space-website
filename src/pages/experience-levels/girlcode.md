@@ -9,9 +9,9 @@ categoryIds:
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48&class_category_ids[]=47
 thumbnail: /img/girl-code-group.jpg
 details:
-  byline: No boys allowed.
-  gender: GirlCode
   age: Ages 8+
+  gender: GirlCode
+  byline: No boys allowed.
   experience: First-time through Advanced
   skills:
     - Critical Thinking
