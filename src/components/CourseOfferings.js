@@ -36,7 +36,7 @@ const CourseOffering = ({
     .tz(userTimeZone)
     .format("MMM D");
 
-  const dateRange = `${firstDate} - ${lastDate}`;
+  const dateRange = firstDate !== lastDate ? `${firstDate} - ${lastDate}` : firstDate;
   const classStarts = moment(startsAt)
     .tz(userTimeZone)
     .format("h:mm");
@@ -64,7 +64,7 @@ const CourseOffering = ({
         </li>
         <li>
           <strong>Dates</strong>
-          {` ${sessionCount} Sessions | ${dateRange}`}
+          {` ${sessionCount === 1 ? `1 Session` : `${sessionCount} Sessions`} | ${dateRange}`}
         </li>
         <li>
           <strong>{inSession ? "Next Session" : "First Session"}</strong>{" "}
