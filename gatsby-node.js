@@ -49,28 +49,32 @@ exports.sourceNodes = async ({
   console.log(`- adding ${locations.length} ClassLocation nodes to GraphQL schema`);
 
   for (const location of locations) {
-    const { classTypes } = await GET(location.courseOfferingsEndpoint);
-    const categoryNames = [...new Set(classTypes.map((ct) => ct.categoryName))];
+    if (location.courseOfferingsEndpoint) {
+      const { classTypes } = await GET(location.courseOfferingsEndpoint);
+      const categoryNames = [...new Set(classTypes.map((ct) => ct.categoryName))];
 
-    const uniqId = `pp_class_location_id_${location.classLocationId}`;
+      const uniqId = `pp_class_location_id_${location.classLocationId}`;
 
-    const formattedLocation = {
-      ...location,
-      categoryNames,
-    };
+      const formattedLocation = {
+        ...location,
+        categoryNames,
+      };
 
-    createNode({
-      // add arbitrary fields from the data
-      ...formattedLocation,
-      // required fields
-      id: uniqId,
-      parent: null,
-      children: [],
-      internal: {
-        type: "ClassLocation",
-        contentDigest: createContentDigest(formattedLocation),
-      },
-    });
+      createNode({
+        // add arbitrary fields from the data
+        ...formattedLocation,
+        // required fields
+        id: uniqId,
+        parent: null,
+        children: [],
+        internal: {
+          type: "ClassLocation",
+          contentDigest: createContentDigest(formattedLocation),
+        },
+      });
+    } else {
+      throw new Error(`Missing 'courseOfferingsEndpoint' for location: ${JSON.stringify(location)}`)
+    }
   }
 };
 
