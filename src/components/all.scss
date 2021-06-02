@@ -235,22 +235,14 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.small-button {
-  width: inherit;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 0;
-}
-
 .link-button:visited {
   color: var(--text-primary);
 }
 
 .btn,
 .button,
-.link-button {
+.link-button,
+.small-button {
   background-color: var(--accent);
   border-color: var(--accent);
   color: var(--text-primary);
@@ -350,6 +342,15 @@ button--disabled .button--isSubmitting,
 .link-button--disabled .button--isSubmitting {
   animation: none;
   background-color: var(--disabled);
+}
+
+.small-button {
+  width: inherit;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0;
 }
 
 @keyframes shimmer {
