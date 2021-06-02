@@ -6,59 +6,9 @@ import Layout from "../components/Layout";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import CtaContact from "../components/CtaContact";
+import ClassCards from "../components/ClassCards";
 
 import "./classes.scss";
-
-const ClassCards = ({ activeClasses }) => {
-  if (!activeClasses.length) {
-    return (
-      <>
-        <p>No matching courses available.</p>
-        <p>Check back soon or contact our team for more information!</p>
-      </>
-    );
-  }
-
-  return (
-    <ul className="experience-level-cards">
-      {activeClasses.map(
-        (
-          { title, thumbnail, slug, details: { age, byline, skills } },
-          levelIndex
-        ) => {
-          return (
-            <li className="experience-level-cards__item" key={levelIndex}>
-              <Link className="experience-level-card" to={slug}>
-                <p className="experience-level-card__age">{age}</p>
-                <h4 className="experience-level-card__title">{title}</h4>
-                <p className="experience-level-card__byline">{byline}</p>
-                <div className="experience-level-card__img">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: thumbnail,
-                      alt: title,
-                      imageStyle: { width: "100%", height: "auto" },
-                    }}
-                  />
-                </div>
-                <p className="experience-level-card__skills">
-                  {skills.map((skill, skillIndex) => (
-                    <React.Fragment key={skillIndex}>
-                      <em className="highlight">{skill}</em>
-                      {skillIndex < skills.length - 1 && (
-                        <span style={{ marginRight: `.25rem` }}>{`,`}</span>
-                      )}
-                    </React.Fragment>
-                  ))}
-                </p>
-              </Link>
-            </li>
-          );
-        }
-      )}
-    </ul>
-  );
-};
 
 const collectDetail = (experienceLevels, detailKey) => {
   let items = [];
@@ -148,7 +98,7 @@ const ClassPanel = ({ experienceLevels }) => {
     },
   ];
   const [activeFilter, setActiveFilter] = useState({ experiences: [], skills: [], sellingPoints: [] });
-  const activeClasses = filterClasses(experienceLevels, activeFilter);
+  const activeLevels = filterClasses(experienceLevels, activeFilter);
 
   // NOTE: currently only checkbox supported
   const updateActiveFilter = (filter, event) => {
@@ -196,7 +146,7 @@ const ClassPanel = ({ experienceLevels }) => {
           </div>
         ))}
       </form>
-      <ClassCards activeClasses={activeClasses} />
+      <ClassCards activeLevels={activeLevels} />
     </div>
   );
 };
@@ -246,6 +196,7 @@ export const pageQuery = graphql`
           title
           details {
             age
+            gender
             byline
             skills
             experience
