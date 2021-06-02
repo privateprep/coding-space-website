@@ -42,8 +42,6 @@ exports.sourceNodes = async ({
   console.log("Loading class locations from PP Dashboard")
 
   const classLocationsEndpoint = new URL('/feeds/coding_space/classes/locations', dashboardBaseUrl);
-  console.log("- classLocationsEndpoint", classLocationsEndpoint);
-
   const { locations } = await GET(classLocationsEndpoint);
 
   console.log(`- adding ${locations.length} ClassLocation nodes to GraphQL schema`);
