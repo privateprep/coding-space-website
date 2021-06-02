@@ -37,9 +37,7 @@ exports.sourceNodes = async ({
   createContentDigest,
 }) => {
   // get data from PP locations at build time
-  const classLocationsEndpoint = `${dashboardBaseUrl}/feeds/coding_space/classes/locations`;
-
-  console.log("classLocationsEndpoint", classLocationsEndpoint);
+  const classLocationsEndpoint = new URL('/feeds/coding_space/classes/locations', dashboardBaseUrl);
 
   const { locations } = await GET(classLocationsEndpoint);
 
