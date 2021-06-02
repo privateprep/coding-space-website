@@ -1,6 +1,8 @@
 # Coding Space Website
 
-This is a static site used for marketing. As of June 2021, it is being primarily used for the signup flow. Pages will iterratively come here from Weebly until it can fulfill its ambitions of becoming the 'true' www.thecodingspace.com.
+This is a static site used for marketing. As of June 2021, it is being primarily used for the signup flow.
+
+Pages will iterratively come here from Weebly until it can fulfill its ambitions of becoming the 'true' www.thecodingspace.com.
 
 ## Hosting
 
