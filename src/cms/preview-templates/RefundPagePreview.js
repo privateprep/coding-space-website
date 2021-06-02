@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { RefundPageTemplate } from "../../templates/Refund-page";
+import { RefundPageTemplate } from "../../templates/refund-page";
 
 const RefundPagePreview = ({ entry }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
