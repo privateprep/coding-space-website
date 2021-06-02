@@ -44,13 +44,20 @@ const BasicHeader = () => {
             }}
           />
         </a>
-        <div>
+        <div style={{ display: "flex", flexFlow: "row wrap" }}>
+          <Link
+            to={"/classes"}
+            style={{ color: `var(--dark)`, marginLeft: `1rem` }}
+          >
+            Classes
+          </Link>
           <Link
             to={"/locations"}
             style={{ color: `var(--dark)`, marginLeft: `1rem` }}
           >
             Locations
           </Link>
+          <a style={{ color: `var(--dark)`, marginLeft: `1rem` }} href="https://www.thecodingspace.com/contact.html">Contact</a>
         </div>
       </div>
     </header>
