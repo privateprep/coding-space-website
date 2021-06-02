@@ -1,6 +1,10 @@
 # Coding Space Website
 
-This is a WIP static site that has ambitions of becoming www.thecodingspace.com
+This is a static site used for marketing. As of June 2021, it is being primarily used for the signup flow. Pages will iterratively come here from Weebly until it can fulfill its ambitions of becoming the 'true' www.thecodingspace.com.
+
+## Hosting
+
+It is hosted with Netlify. As each Netlify membership costs ~$10 to $15 a head each month, our team's access comes via an account through `support@privateprep.com`. If you need the password, ask! Or just reset it and let those who need it know.
 
 ## Clone of Gatsby + Netlify CMS Starter
 
