@@ -42,14 +42,6 @@ const buildStringOption = (name, string) => {
 const filterClasses = (allLevels, activeFilter) => {
   let filteredClasses = allLevels;
 
-  if (activeFilter.skills.length) {
-    // filter for any class skill overlap
-    const filteredSkills = activeFilter.skills;
-    filteredClasses = filteredClasses.filter((level) =>
-      filteredSkills.some((skill) => level.details.skills.includes(skill))
-    )
-  }
-
   if (activeFilter.experiences.length) {
     // filter for matching experience
     const filteredExps = activeFilter.experiences;
@@ -57,6 +49,23 @@ const filterClasses = (allLevels, activeFilter) => {
       const levelExp = level.details.experience;
       return filteredExps.some((exp) => levelExp === exp)
     });
+  }
+
+  if (activeFilter.genders.length) {
+    // filter for matching gender
+    const filteredGenders = activeFilter.genders;
+    filteredClasses = filteredClasses.filter((level) => {
+      const levelGender = level.details.gender;
+      return filteredGenders.some((gender) => levelGender === gender)
+    });
+  }
+
+  if (activeFilter.skills.length) {
+    // filter for any class skill overlap
+    const filteredSkills = activeFilter.skills;
+    filteredClasses = filteredClasses.filter((level) =>
+      filteredSkills.some((skill) => level.details.skills.includes(skill))
+    )
   }
 
   if (activeFilter.sellingPoints.length) {
@@ -81,6 +90,14 @@ const ClassPanel = ({ experienceLevels }) => {
       ),
     },
     {
+      label: "GENDER",
+      filterKey: "genders",
+      type: "checkbox",
+      options: collectDetail(experienceLevels, "gender").map((gender) =>
+        buildStringOption("genders", gender)
+      ),
+    },
+    {
       label: "SKILLS",
       filterKey: "skills",
       type: "checkbox",
@@ -97,7 +114,7 @@ const ClassPanel = ({ experienceLevels }) => {
       ),
     },
   ];
-  const [activeFilter, setActiveFilter] = useState({ experiences: [], skills: [], sellingPoints: [] });
+  const [activeFilter, setActiveFilter] = useState({ experiences: [], genders: [], skills: [], sellingPoints: [] });
   const activeLevels = filterClasses(experienceLevels, activeFilter);
 
   // NOTE: currently only checkbox supported
