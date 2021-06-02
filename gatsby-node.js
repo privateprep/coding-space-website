@@ -12,7 +12,9 @@ require("dotenv").config({
 const dashboardBaseUrl = !!process.env.DASHBOARD_BASE_URL ? process.env.DASHBOARD_BASE_URL : 'https://dashboard.privateprep.com';
 
 const fetch = require("node-fetch");
-const GET = url => fetch(url, {
+
+function GET(url) {
+  return fetch(url, {
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
@@ -24,6 +26,7 @@ const GET = url => fetch(url, {
       return Promise.reject(new Error(res.statusText));
     }
   }).then(res => res.json());
+}
 
 // load data from PP Dashboard into gatsby's GraphQL schema
 exports.sourceNodes = async ({
