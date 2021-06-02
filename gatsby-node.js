@@ -9,6 +9,7 @@ require("dotenv").config({
 })
 
 // API helpers
+const dashboardBaseUrl = process.env.DASHBOARD_BASE_URL || 'https://staging.privateprep.com';
 const fetch = require("node-fetch");
 const GET = url => fetch(url, {
     headers: {
@@ -29,7 +30,7 @@ exports.sourceNodes = async ({
   createContentDigest,
 }) => {
   // get data from PP locations at build time
-  const classLocationsEndpoint = `${process.env.DASHBOARD_BASE_URL}/feeds/coding_space/classes/locations`
+  const classLocationsEndpoint = `${dashboardBaseUrl}/feeds/coding_space/classes/locations`
   const { locations } = await GET(classLocationsEndpoint)
 
   for (const location of locations) {
