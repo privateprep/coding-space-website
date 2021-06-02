@@ -6,11 +6,11 @@ import SEO from "../components/seo";
 
 import { graphql } from "gatsby";
 
-export const RefundPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
+export const LiabilityPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
   return (
-    <div className="refund-page">
+    <div className="liability-page">
       <section
-        className="refund-page__title"
+        className="liability-page__title"
         style={{ padding: "4rem" }}
       >
         <h1>{title}</h1>
@@ -23,7 +23,7 @@ export const RefundPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
   );
 };
 
-const RefundPage = ({
+const LiabilityPage = ({
   data: {
     file: { childMarkdownRemark, modifiedTime },
   },
@@ -35,7 +35,7 @@ const RefundPage = ({
   return (
     <Layout>
       <SEO title={title} description={seoDescription} />
-      <RefundPageTemplate
+      <LiabilityPageTemplate
         title={title}
         lastUpdated={modifiedTime}
         pageBuilder={pageBuilder}
@@ -44,7 +44,7 @@ const RefundPage = ({
   );
 };
 
-RefundPage.propTypes = {
+LiabilityPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -52,13 +52,13 @@ RefundPage.propTypes = {
   }),
 };
 
-export default RefundPage;
+export default LiabilityPage;
 
 export const pageQuery = graphql`
-  query RefundPageTemplate {
+  query LiabilityPageTemplate {
     file(
       childMarkdownRemark: {
-        frontmatter: { templateKey: { eq: "refund-page" } }
+        frontmatter: { templateKey: { eq: "Liability-page" } }
       }
     ) {
       childMarkdownRemark {

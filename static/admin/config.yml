@@ -589,6 +589,19 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/liability_release.md"
+        label: "Liability Release"
+        name: "liability-release"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "liability-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *page_builder
       - file: "src/pages/referral_program.md"
         label: "Referral and Rewards Program"
         name: "referral-program"
