@@ -20,6 +20,8 @@ const GET = (url) => {
     "Content-Type": "application/json",
   };
 
+  console.log("- url", url)
+
   return fetch(url, { headers })
     .then((res) => {
       if (res.ok) {
@@ -37,9 +39,14 @@ exports.sourceNodes = async ({
   createContentDigest,
 }) => {
   // get data from PP locations at build time
+  console.log("Loading class locations from PP Dashboard")
+
   const classLocationsEndpoint = new URL('/feeds/coding_space/classes/locations', dashboardBaseUrl);
+  console.log("- classLocationsEndpoint", classLocationsEndpoint);
 
   const { locations } = await GET(classLocationsEndpoint);
+
+  console.log(`- adding ${locations.length} ClassLocation nodes to GraphQL schema`);
 
   for (const location of locations) {
     const { classTypes } = await GET(location.courseOfferingsEndpoint);
