@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import createHtml from "../components/MdToHtml";
 import CampDetails from "../components/CampDetails";
+import CtaContact from "../components/CtaContact";
 import CourseOfferings from "../components/CourseOfferings";
 
 import "./styles/experience-levels.scss";
@@ -64,15 +65,7 @@ export const ExperienceLevelsTemplate = ({
         isCamp={isCamp}
       />
       {!!isCamp && <CampDetails />}
-      <section className="cta-contact">
-        <h4 className="cta-contact__title">Have questions?</h4>
-        <p className="cta-contact__secondary">
-          Get in touch with our team to get your questions answered.
-        </p>
-        <a href="https://thecodingspace.com/contact" className="link-button">
-          Get In Touch
-        </a>
-      </section>
+      <CtaContact />
     </div>
   );
 };
