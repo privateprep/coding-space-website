@@ -58,7 +58,7 @@ export const pageQuery = graphql`
   query LiabilityPageTemplate {
     file(
       childMarkdownRemark: {
-        frontmatter: { templateKey: { eq: "Liability-page" } }
+        frontmatter: { templateKey: { eq: "liability-page" } }
       }
     ) {
       childMarkdownRemark {
