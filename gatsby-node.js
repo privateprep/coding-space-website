@@ -9,7 +9,8 @@ require("dotenv").config({
 })
 
 // API helpers
-const dashboardBaseUrl = process.env.DASHBOARD_BASE_URL || 'https://staging.privateprep.com';
+const dashboardBaseUrl = process.env.DASHBOARD_BASE_URL ?? 'https://dashboard.privateprep.com';
+
 const fetch = require("node-fetch");
 const GET = url => fetch(url, {
     headers: {
