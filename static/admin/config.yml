@@ -589,15 +589,15 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/signup.md"
-        label: "Class Signup Page"
-        name: "signup"
+      - file: "src/pages/locations.md"
+        label: "Locations"
+        name: "locations"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "signup-page",
+              default: "locations",
             }
           - { label: Title, name: title, widget: string }
           - { label: "SEO Description", name: "seoDescription", widget: "text" }
