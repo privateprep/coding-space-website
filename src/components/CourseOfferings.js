@@ -164,7 +164,7 @@ const CourseOfferings = ({
     if (!isLoading && !lastFetchedAt && !error) {
       setIsLoading(true);
 
-      GET(courseOfferingEndpoint)
+      GET(`${process.env.DASHBOARD_BASE_URL}${courseOfferingEndpoint}`)
         .then(({ classTypes }) => {
           const classes = classTypes; // filter me?
           setCompleteOfferings(classes.sort(sortClasses));

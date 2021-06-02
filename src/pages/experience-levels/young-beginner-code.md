@@ -5,7 +5,9 @@ seo_description: Young Beginner students (ages 6-8, co-ed) will develop typing
   and motor skills, expand their reading comprehension abilities, and start
   forming crucial computational thinking patterns as they piece together their
   first lines of code through Code.org before advancing into Scratch.
-courseOfferingEndpoint: https://dashboard.privateprep.com/feeds/coding_space/classes?class_category_ids[]=50
+classCategoryIds:
+  - 50
+courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=50
 thumbnail: /img/clipartkey_2215277.png
 details:
   age: Ages 6-8
