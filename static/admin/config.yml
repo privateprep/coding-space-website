@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -466,7 +466,7 @@ collections:
                 hint: "This is a list, separate items with commas",
                 widget: "list",
               },
-              { label: "Content", name: "mdContent", widget: "markdown" }
+              { label: "Content", name: "mdContent", widget: "markdown" },
             ],
         }
   - name: "school-programs"
@@ -589,11 +589,55 @@ collections:
                   },
                 ],
             }
-      - file: "src/pages/locations.md"
-        label: "Locations"
-        name: "locations"
+      - file: "src/pages/liability_release.md"
+        label: "Liability Release"
+        name: "liability-release"
         fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "locations" }
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "liability-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *page_builder
+      - file: "src/pages/referral_program.md"
+        label: "Referral and Rewards Program"
+        name: "referral-program"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "referral-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *page_builder
+      - file: "src/pages/refund_policy.md"
+        label: "Refund Policy"
+        name: "refund-policy"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "refund-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *page_builder
+      - file: "src/pages/signup.md"
+        label: "Class Signup Page"
+        name: "signup"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "locations",
+            }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
           - { label: "SEO Description", name: "seoDescription", widget: "text" }

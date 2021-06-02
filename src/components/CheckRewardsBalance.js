@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { Formik, Field } from "formik";
 import FormikError from "./sign_up/FormikError";
 import { buildQueryString, GET } from "../utils/service";
-import ThreeDotLoader from "./three-dot-loader";
+import ThreeDotLoader from "./shared/three-dot-loader";
 
 const api = {
   checkBalance: params =>
