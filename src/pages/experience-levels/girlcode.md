@@ -4,7 +4,7 @@ title: GirlCode
 seo_description: Our GirlCode program is designed to create a welcoming and
   inclusive environment for girls who want to learn how to code. Beginner and
   Advanced classes offered.
-classCategoryIds:
+categoryIds:
   - 47
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48&class_category_ids[]=47
 thumbnail: /img/girl-code-group.jpg

@@ -5,7 +5,7 @@ seo_description: Advanced students (ages 8-14, co-ed) will transition from
   Scratch to JavaScript with the WoofJS JavaScript framework. From there,
   they’ll use HTML, CSS, and JavaScript to build web-based games and
   applications and launch their own independent projects.
-classCategoryIds:
+categoryIds:
   - 45
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=45
 thumbnail: /img/white-board.jpg

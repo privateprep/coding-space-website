@@ -10,10 +10,11 @@ import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import "./styles/locations.scss";
 
 const ExperienceLevelCards = ({ experienceLevels, location }) => {
-  const { classLocationId, name, isOnline, categoryNames } = location;
-  const activeLevels = experienceLevels.filter((l) =>
-    categoryNames.includes(l.title)
-  );
+  const { classLocationId, name, isOnline, categoryIds } = location;
+  const activeLevels = experienceLevels.filter((l) => {
+    const levelCategoryIds = l.categoryIds.map(str => Number(str)); // Netlify CMS saves strings
+    return categoryIds.some(catId => levelCategoryIds.includes(catId))
+  });
 
   if (!activeLevels.length) {
     return <><p>No matching courses available.</p><p>Check back soon or contact our team for more information!</p></>
@@ -231,6 +232,7 @@ export const pageQuery = graphql`
         frontmatter {
           heading
           title
+          categoryIds
           details {
             age
             byline
@@ -256,10 +258,10 @@ export const pageQuery = graphql`
         classLocationId
         name
         isOnline
-        categoryNames
         latitude
         longitude
         addressString
+        categoryIds
       }
     }
   }
