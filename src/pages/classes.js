@@ -58,18 +58,27 @@ const ClassCards = ({ activeClasses }) => {
   );
 };
 
-const collectSkills = (experienceLevels) => {
-  let skills = [];
+const collectDetail = (experienceLevels, detailKey) => {
+  let items = [];
 
   for (let level of experienceLevels) {
-    for (let skill of level.details.skills) {
-      if (!skills.includes(skill)) {
-        skills.push(skill);
+    const value = level.details[detailKey];
+
+    if (Array.isArray(value)) {
+      for (let item of value) {
+        if (!!item && !items.includes(item)) {
+          items.push(item);
+        }
+      }
+    } else {
+      // likely 'just' string
+      if (!!value && !items.includes(value)) {
+        items.push(value);
       }
     }
   }
 
-  return skills.sort((a, b) => a.localeCompare(b)); // ABC order
+  return items.sort((a, b) => a.localeCompare(b)); // ABC order
 };
 
 const buildStringOption = (name, string) => {
@@ -84,11 +93,26 @@ const filterClasses = (allLevels, activeFilter) => {
   if (activeFilter.skills.length) {
     // filter for any class skill overlap
     const filteredSkills = activeFilter.skills;
+    filteredClasses = filteredClasses.filter((level) =>
+      filteredSkills.some((skill) => level.details.skills.includes(skill))
+    )
+  }
+
+  if (activeFilter.experiences.length) {
+    // filter for matching experience
+    const filteredExps = activeFilter.experiences;
     filteredClasses = filteredClasses.filter((level) => {
-      const levelSkills = level.details.skills;
-      return !!filteredSkills.filter((skill) => levelSkills.includes(skill))
-        .length;
+      const levelExp = level.details.experience;
+      return filteredExps.some((exp) => levelExp === exp)
     });
+  }
+
+  if (activeFilter.sellingPoints.length) {
+    // filter for any sellingPoint overlap
+    const filteredPoints = activeFilter.sellingPoints;
+    filteredClasses = filteredClasses.filter((level) =>
+      filteredPoints.some((point) => level.details.sellingPoints.includes(point))
+    );
   }
 
   return filteredClasses;
@@ -97,15 +121,31 @@ const filterClasses = (allLevels, activeFilter) => {
 const ClassPanel = ({ experienceLevels }) => {
   const filters = [
     {
-      label: "Skills",
+      label: "EXPERIENCE",
+      filterKey: "experiences",
+      type: "checkbox",
+      options: collectDetail(experienceLevels, "experience").map((exp) =>
+        buildStringOption("experiences", exp)
+      ),
+    },
+    {
+      label: "SKILLS",
       filterKey: "skills",
       type: "checkbox",
-      options: collectSkills(experienceLevels).map((skill) =>
+      options: collectDetail(experienceLevels, "skills").map((skill) =>
         buildStringOption("skills", skill)
       ),
     },
+    {
+      label: "LOOKING FOR",
+      filterKey: "sellingPoints",
+      type: "checkbox",
+      options: collectDetail(experienceLevels, "sellingPoints").map((point) =>
+        buildStringOption("sellingPoint", point)
+      ),
+    },
   ];
-  const [activeFilter, setActiveFilter] = useState({ skills: [] });
+  const [activeFilter, setActiveFilter] = useState({ experiences: [], skills: [], sellingPoints: [] });
   const activeClasses = filterClasses(experienceLevels, activeFilter);
 
   // NOTE: currently only checkbox supported
@@ -205,6 +245,8 @@ export const pageQuery = graphql`
             age
             byline
             skills
+            experience
+            sellingPoints
           }
           thumbnail {
             childImageSharp {
