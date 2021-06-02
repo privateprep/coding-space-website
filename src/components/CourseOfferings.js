@@ -138,6 +138,12 @@ const sortClasses = (a, b) => {
   if (day1 > day2) return 1;
   if (day1 < day2) return -1;
 
+  // prioritize non-pieces
+  if (day1 === day2) {
+    if (a.classTypeName.includes("Half")) return 1;
+    if (b.classTypeName.includes("Half")) return -1;
+  }
+
   // Sort by startsAt
   if (a.startsAt > b.startsAt) return 1;
   if (a.startsAt < b.startsAt) return -1;
