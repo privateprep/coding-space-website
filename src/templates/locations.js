@@ -1,69 +1,13 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 
+import ClassCards from "../components/ClassCards";
 import Layout from "../components/Layout";
 import MapDisplay from "../components/MapDisplay";
 import PageBuilder from "../components/PageBuilder";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import "./styles/locations.scss";
-
-const ExperienceLevelCards = ({ experienceLevels, location }) => {
-  const { classLocationId, name, isOnline, categoryIds } = location;
-  const activeLevels = experienceLevels.filter((l) => {
-    const levelCategoryIds = l.categoryIds.map(str => Number(str)); // Netlify CMS saves strings
-    return categoryIds.some(catId => levelCategoryIds.includes(catId))
-  });
-
-  if (!activeLevels.length) {
-    return <><p>No matching courses available.</p><p>Check back soon or contact our team for more information!</p></>
-  }
-
-  return (
-    <ul className="experience-level-cards">
-      {activeLevels.map(
-        (
-          { title, thumbnail, slug, details: { age, byline, skills } },
-          levelIndex
-        ) => {
-          const filteredLink = isOnline
-            ? `${slug}?class_location_names[]=${name}`
-            : `${slug}?class_location_ids[]=${classLocationId}`;
-
-          return (
-            <li className="experience-level-cards__item" key={levelIndex}>
-              <Link className="experience-level-card" to={filteredLink}>
-                <p className="experience-level-card__age">{age}</p>
-                <h4 className="experience-level-card__title">{title}</h4>
-                <p className="experience-level-card__byline">{byline}</p>
-                <div className="experience-level-card__img">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: thumbnail,
-                      alt: title,
-                      imageStyle: { width: "100%", height: "auto" },
-                    }}
-                  />
-                </div>
-                <p className="experience-level-card__skills">
-                  {skills.map((skill, skillIndex) => (
-                    <React.Fragment key={skillIndex}>
-                      <em className="highlight">{skill}</em>
-                      {skillIndex < skills.length - 1 && (
-                        <span style={{ marginRight: `.25rem` }}>{`,`}</span>
-                      )}
-                    </React.Fragment>
-                  ))}
-                </p>
-              </Link>
-            </li>
-          );
-        }
-      )}
-    </ul>
-  );
-};
 
 const LocationsPanel = ({ locations, experienceLevels }) => {
   const inPersonLocations = locations.filter((l) => !l.isOnline) || [];
@@ -72,11 +16,27 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
     .reduce(
       (shared, l) => ({
         ...shared,
-        categoryIds: Array.from(new Set(...shared.categoryIds, ...l.categoryIds)),
+        categoryIds: Array.from(
+          new Set(...shared.categoryIds, ...l.categoryIds)
+        ),
       }),
-      { classLocationId: 'online', name: "Online", isOnline: true, categoryIds: [] }
+      {
+        classLocationId: "online",
+        name: "Online",
+        isOnline: true,
+        categoryIds: [],
+      }
     );
   const [activeLocation, setActiveLocation] = useState(inPersonLocations[0]);
+  const activeLevels = experienceLevels.filter((l) => {
+    const levelCategoryIds = l.categoryIds.map((str) => Number(str)); // Netlify CMS saves strings
+    return activeLocation.categoryIds.some((catId) =>
+      levelCategoryIds.includes(catId)
+    );
+  });
+  const locationQueryString = activeLocation.isOnline
+    ? `?class_location_names[]=${activeLocation.name}`
+    : `?class_location_ids[]=${activeLocation.classLocationId}`;
 
   return (
     <div className="LocationsPanel">
@@ -126,9 +86,9 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
         </div>
         <div className="LocationsPanel__main__offerings">
           <h4>Offerings</h4>
-          <ExperienceLevelCards
-            experienceLevels={experienceLevels}
-            location={activeLocation}
+          <ClassCards
+            activeLevels={activeLevels}
+            slugExtension={locationQueryString}
           />
         </div>
       </div>
