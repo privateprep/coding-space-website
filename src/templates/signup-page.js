@@ -11,76 +11,10 @@ import "./styles/signup.scss";
 import online from "../img/online.svg";
 import { graphql, Link } from "gatsby";
 
-// this info should be fetched at build time
-// https://www.gatsbyjs.com/docs/conceptual/data-fetching/#:~:text=full%20example%20here.-,Fetching%20data%20at%20build%20time,that%20becomes%20queryable%20in%20pages.
-const locations = [
-  {
-    name: "Park Slope",
-    id: 3,
-    address1: "461 6th St",
-    address2: "",
-    city: "Brooklyn",
-    state: "NY",
-    zipCode: "11215",
-    coords: ["40.66903", "-73.982345"],
-    availableExperienceLevels: ["GirlCode", "Beginner Code", "Advanced Code"],
-  },
-  {
-    name: "Upper East Side",
-    id: 1,
-    address1: "165 E 88th St",
-    address2: "Second Floor",
-    city: "New York",
-    state: "NY",
-    zipCode: "10128",
-    coords: ["40.780559", "-73.95569"],
-    availableExperienceLevels: ["Beginner Code"],
-  },
-  {
-    name: "Long Island",
-    id: 12,
-    address1: "3525 Sunrise Hwy",
-    address2: "",
-    city: "Oakdale",
-    state: "NY",
-    zipCode: "11769",
-    coords: ["40.767263", "-73.153151"],
-    availableExperienceLevels: ["Advanced Code", "Beginner Code"],
-  },
-  {
-    name: "Westchester",
-    id: 6,
-    address1: "150 Grand Street",
-    address2: "3rd Floor",
-    city: "White Plains",
-    state: "NY",
-    zipCode: "10601",
-    coords: ["41.028949", "-73.767677"],
-    availableExperienceLevels: ["GirlCode", "Beginner Code", "Advanced Code"],
-  },
-  {
-    name: "Online",
-    id: 10,
-    address1: "Your home",
-    address2: "",
-    city: "Anywhere",
-    state: "",
-    zipCode: "",
-    coords: [],
-    availableExperienceLevels: [
-      "Advanced Code",
-      "Beginner Code",
-      "GirlCode",
-      "Young Beginner Code",
-    ],
-  },
-];
-
-const ExperienceLevelCards = ({ levels = [], location }) => {
-  const { name, availableExperienceLevels, id } = location;
-
-  const activeLevels = levels.filter(l =>
-    availableExperienceLevels.includes(l.title)
+const ExperienceLevelCards = ({ experienceLevels, location }) => {
+  const { classLocationId, name, isOnline, categoryNames } = location;
+  const activeLevels = experienceLevels.filter((l) =>
+    categoryNames.includes(l.title)
   );
 
   return (
@@ -88,23 +22,20 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
       {activeLevels.map(
         (
           { title, thumbnail, seo_description, slug, details: { skills } },
-          i
+          levelIndex
         ) => {
+          const filteredLink = isOnline
+            ? `${slug}?class_location_names[]=${name}`
+            : `${slug}?class_location_ids[]=${classLocationId}`;
+
           return (
-            <li
-              className="experience-level-card__wrapper"
-              key={`${title}-${i}`}
-            >
-              <Link
-                className="experience-level-card"
-                to={`${slug}?location=${name}&location-id=${id}`}
-                state={{ location: name, id: id }}
-              >
+            <li className="experience-level-card__wrapper" key={levelIndex}>
+              <Link className="experience-level-card" to={filteredLink}>
                 <div className="experience-level-card__img">
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: thumbnail,
-                      alt: `image thumbnail for post ${title}`,
+                      alt: `Preview for Post ${title}`,
                       imageStyle: { height: "240px" },
                     }}
                   />
@@ -132,33 +63,14 @@ const ExperienceLevelCards = ({ levels = [], location }) => {
 };
 
 export const SignupPageTemplate = ({
-  experienceData = [],
   helmet,
   title,
   pageBuilder,
+  locations,
+  experienceLevels,
 }) => {
-  const defaultLocation = locations[0];
-  const [location, setLocation] = useState(defaultLocation);
-
-  let levels = [];
-  experienceData.forEach(edge => {
-    let item = edge.node.frontmatter;
-    let {
-      title,
-      details,
-      thumbnail,
-      seo_description,
-      courseOfferingEndpoint,
-    } = item;
-    levels.push({
-      title: title,
-      details: details,
-      seo_description: seo_description,
-      courseOfferingEndpoint: courseOfferingEndpoint,
-      thumbnail: thumbnail,
-      slug: edge.node.fields.slug,
-    });
-  });
+  const [location, setLocation] = useState();
+  const inPersonLocations = locations.filter((l) => !l.isOnline);
 
   return (
     <div className="signup-page">
@@ -166,11 +78,11 @@ export const SignupPageTemplate = ({
       {!!title && <h1 className="signup-page__title">{title}</h1>}
       <div className="locations">
         <div className="locations__buttons">
-          {!!locations &&
-            locations.map((l, i) => (
+          {!!inPersonLocations &&
+            inPersonLocations.map((l, i) => (
               <button
                 className={`custom-button ${
-                  l.name === location.name ? "active" : ""
+                  l.name === location?.name ? "active" : ""
                 }`}
                 key={`location-${i}`}
                 onClick={() => setLocation(l)}
@@ -179,29 +91,38 @@ export const SignupPageTemplate = ({
               </button>
             ))}
         </div>
-        <div className="locations__map">
-          {!!location.coords.length ? (
-            <MapDisplay addressCoords={location.coords} />
-          ) : (
-            <img
-              src={online}
-              style={{ maxHeight: "300px" }}
-              alt="Online classes"
-            />
-          )}
-        </div>
-        <div className="locations__details">
-          <h2>{location.name}</h2>
-          <div className="locations__details__address">
-            <h3>{location.address1}</h3>
-            {!!location.address2 && <h3>{location.address2}</h3>}
-            <h3>{`${location.city}, ${location.state} ${location.zipCode}`}</h3>
-          </div>
-        </div>
+        {!!location && (
+          <>
+            <div className="locations__map">
+              {location.isOnline ? (
+                <img
+                  src={online}
+                  style={{ maxHeight: "300px" }}
+                  alt="Online classes"
+                />
+              ) : (
+                <MapDisplay
+                  addressCoords={[location.latitude, location.longitude]}
+                />
+              )}
+            </div>
+            <div className="locations__details">
+              <h2>{location.name}</h2>
+              <div className="locations__details__address">
+                <h3>{location.addressString}</h3>
+              </div>
+            </div>
+          </>
+        )}
       </div>
-      <section className="offerings">
-        <ExperienceLevelCards levels={levels} location={location} />
-      </section>
+      {location && (
+        <section className="offerings">
+          <ExperienceLevelCards
+            experienceLevels={experienceLevels}
+            location={location}
+          />
+        </section>
+      )}
       <div>
         <PageBuilder data={pageBuilder ?? []} />
       </div>
@@ -210,10 +131,19 @@ export const SignupPageTemplate = ({
 };
 
 const SignupPage = ({ data }) => {
+  // return <pre>{JSON.stringify(data, null, 2)}</pre>;
+
   const {
     frontmatter: { title, seoDescription, pageBuilder },
   } = data.markdownRemark;
-  const { edges } = data.allMarkdownRemark;
+  const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
+    (levelNode) => {
+      return {
+        ...levelNode.frontmatter,
+        slug: levelNode.fields.slug,
+      };
+    }
+  );
 
   return (
     <Layout>
@@ -224,7 +154,8 @@ const SignupPage = ({ data }) => {
             <meta name="description" content={`${seoDescription}`} />
           </Helmet>
         }
-        experienceData={edges}
+        experienceLevels={experienceLevels || []}
+        locations={data.allClassLocation.locations}
         title={title}
         pageBuilder={pageBuilder}
       />
@@ -277,34 +208,43 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(
+    experienceLevelQuery: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
     ) {
-      edges {
-        node {
-          frontmatter {
-            courseOfferingEndpoint
-            description
-            details {
-              skills
-            }
-            thumbnail {
-              childImageSharp {
-                fixed(width: 480) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-              extension
-              publicURL
-            }
-            heading
-            title
-            seo_description
+      experienceLevels: nodes {
+        frontmatter {
+          heading
+          title
+          seo_description
+          courseOfferingEndpoint
+          description
+          details {
+            skills
           }
-          fields {
-            slug
+          thumbnail {
+            childImageSharp {
+              fixed(width: 480) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+            extension
+            publicURL
           }
         }
+        fields {
+          slug
+        }
+      }
+    }
+    allClassLocation {
+      locations: nodes {
+        classLocationId
+        name
+        isOnline
+        categoryNames
+        latitude
+        longitude
+        addressString
       }
     }
   }
