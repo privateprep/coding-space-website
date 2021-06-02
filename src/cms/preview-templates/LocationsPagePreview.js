@@ -1,24 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { SignupPageTemplate } from "../../templates/signup-page";
+import { LocationsPageTemplate } from "../../templates/locations";
 
-const SignupPagePreview = ({ entry }) => {
+const LocationsPagePreview = ({ entry }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
   const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
 
   return (
-    <SignupPageTemplate
+    <LocationsPageTemplate
       title={entry.getIn(["data", "title"])}
       pageBuilder={pageBuilder}
     />
   );
 };
 
-SignupPagePreview.propTypes = {
+LocationsPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 };
 
-export default SignupPagePreview;
+export default LocationsPagePreview;

@@ -1,5 +1,5 @@
 ---
-templateKey: signup-page
+templateKey: locations
 title: Signup for classes!
 seoDescription: Course offering list for girl code and kids of all ages, brought
   to you by The Coding Space!
@@ -26,7 +26,7 @@ pageBuilder:
 
 
 ---
-templateKey: signup-page
+templateKey: locations
 title: Signup
 pageBuilder:
   - type: textAndImageBlock

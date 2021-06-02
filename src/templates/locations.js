@@ -7,7 +7,8 @@ import { Helmet } from "react-helmet";
 import PageBuilder from "../components/PageBuilder";
 
 import "leaflet/dist/leaflet.css";
-import "./styles/signup.scss";
+import "./styles/locations.scss";
+
 import online from "../img/online.svg";
 import { graphql, Link } from "gatsby";
 
@@ -62,7 +63,7 @@ const ExperienceLevelCards = ({ experienceLevels, location }) => {
   );
 };
 
-export const SignupPageTemplate = ({
+export const LocationsPageTemplate = ({
   helmet,
   title,
   pageBuilder,
@@ -73,9 +74,9 @@ export const SignupPageTemplate = ({
   const inPersonLocations = locations.filter((l) => !l.isOnline);
 
   return (
-    <div className="signup-page">
+    <div className="locations">
       {helmet || ""}
-      {!!title && <h1 className="signup-page__title">{title}</h1>}
+      {!!title && <h1 className="locations__title">{title}</h1>}
       <div className="locations">
         <div className="locations__buttons">
           {!!inPersonLocations &&
@@ -130,7 +131,7 @@ export const SignupPageTemplate = ({
   );
 };
 
-const SignupPage = ({ data }) => {
+const LocationsPage = ({ data }) => {
   // return <pre>{JSON.stringify(data, null, 2)}</pre>;
 
   const {
@@ -147,7 +148,7 @@ const SignupPage = ({ data }) => {
 
   return (
     <Layout>
-      <SignupPageTemplate
+      <LocationsPageTemplate
         helmet={
           <Helmet titleTemplate="The Coding Space Signup">
             <title>{`${title}`}</title>
@@ -163,7 +164,7 @@ const SignupPage = ({ data }) => {
   );
 };
 
-SignupPage.propTypes = {
+LocationsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -171,11 +172,11 @@ SignupPage.propTypes = {
   }),
 };
 
-export default SignupPage;
+export default LocationsPage;
 
 export const pageQuery = graphql`
-  query signupPageTemplateAndExperienceData {
-    markdownRemark(frontmatter: { templateKey: { eq: "signup-page" } }) {
+  query LocationsPageTemplateAndExperienceData {
+    markdownRemark(frontmatter: { templateKey: { eq: "locations" } }) {
       frontmatter {
         title
         pageBuilder {
