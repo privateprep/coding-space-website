@@ -416,9 +416,16 @@ collections:
       - { label: "Title", name: "title", default: "Title", widget: "string" }
       - { label: "SEO Description", name: "seo_description", widget: "text" }
       - {
+          label: "PP Dashboard Class Category Ids",
+          name: "classCategoryIds",
+          default: [],
+          hint: "This is a list, separate items with commas. Used to ensure location pages show offerings",
+          widget: "list",
+        }
+      - {
           label: "Course Offering Endpoint",
           name: "courseOfferingEndpoint",
-          hint: "Ask Dashboard for This",
+          hint: "Ask someone on the PP Dashboard team for this!",
           widget: "string",
         }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }

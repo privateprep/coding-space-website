@@ -4,7 +4,9 @@ title: Half-Day Camp
 seo_description: In addition to project-based coding, warm-up activities and
   challenges, our 3-hour half-day camp includes STEM elective exploration and
   off-screen hands-on activities. Recommended for ages 8+.
-courseOfferingEndpoint: https://dashboard.privateprep.com/feeds/coding_space/classes?class_category_ids[]=95
+classCategoryIds:
+  - 95
+courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=95
 thumbnail: /img/girl-code.svg
 details:
   age: Ages 8+
