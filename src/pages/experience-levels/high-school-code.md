@@ -5,7 +5,7 @@ seo_description: In the high school program (ages 14-17, co-ed), students will
   combine all the skills they’ve learned, launch solo projects, and learn to
   collaborate with other coders to pair-program on software projects of their
   creation.
-classCategoryIds:
+categoryIds:
   - 49
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49
 thumbnail: /img/girls-code-camp.jpg

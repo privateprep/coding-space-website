@@ -417,7 +417,7 @@ collections:
       - { label: "SEO Description", name: "seo_description", widget: "text" }
       - {
           label: "PP Dashboard Class Category Ids",
-          name: "classCategoryIds",
+          name: "categoryIds",
           default: [],
           hint: "This is a list, separate items with commas. Used to ensure location pages show offerings",
           widget: "list",

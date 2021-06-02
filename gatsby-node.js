@@ -47,13 +47,13 @@ exports.sourceNodes = async ({
   for (const location of locations) {
     if (location.courseOfferingsEndpoint) {
       const { classTypes } = await GET(location.courseOfferingsEndpoint);
-      const categoryNames = [...new Set(classTypes.map((ct) => ct.categoryName))];
+      const categoryIds = [...new Set(classTypes.map((ct) => ct.categoryId))];
 
       const uniqId = `pp_class_location_id_${location.classLocationId}`;
 
       const formattedLocation = {
         ...location,
-        categoryNames,
+        categoryIds,
       };
 
       createNode({
