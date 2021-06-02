@@ -1,8 +1,12 @@
 .BoxWithLogo {
-  padding: 4rem;
+  padding: .5rem;
   padding-top: 80px;
   text-align: center;
   position: relative;
+
+  @media(min-width: 640px) {
+    padding: 4rem;
+  }
 
   img {
     width: 85px;

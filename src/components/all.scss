@@ -20,8 +20,11 @@
   --desktop-width: 1200px;
   --tablet-width: 768px;
 
-  --fontStack: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  --fontStack--heading: 'Futura', 'Futura Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --fontStack: "Proxima Nova", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --fontStack--heading: "Futura", "Futura Std", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -33,7 +36,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6, label, th, strong, button, .link-button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+th,
+strong,
+button,
+.link-button {
   font-family: var(--fontStack--heading);
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -106,7 +119,7 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-    margin-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -114,6 +127,12 @@ h1 {
   color: inherit;
   font-size: 2.5rem;
   line-height: 1.1;
+}
+details summary::marker {
+  color: currentColor;
+}
+details summary::-webkit-details-marker {
+  color: currentColor;
 }
 mark {
   background-color: #ff0;

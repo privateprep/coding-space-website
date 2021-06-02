@@ -3,7 +3,6 @@ import { Router } from "@reach/router";
 import { navigate } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
-import BoxWithLogo from "../components/shared/BoxWithLogo";
 import CollectRetrievedPayment from "../components/CollectRetrievedPayment";
 
 const BounceToHome = () => {
