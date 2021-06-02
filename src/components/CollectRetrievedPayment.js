@@ -9,10 +9,11 @@ import {
 } from "@stripe/react-stripe-js";
 import ErrorEmailRedirection from "./ErrorEmailRedirection";
 import ThreeDotLoader from "./shared/three-dot-loader";
+import BoxWithLogo from "./shared/BoxWithLogo";
 
 import { loadStripe } from "@stripe/stripe-js";
 
-import "./CollectRetrievedPayment.css";
+
 
 // NOTE: 'just' for cart recovery
 // This is separate from the typical sign_up flow
@@ -128,16 +129,18 @@ class CollectRetrievedPayment extends Component {
     }
 
     return (
-      <div className="collect-payment-page">
-        <h2 className="title">Checkout</h2>
-        <p>{this.state.paymentContext.paymentDetails.memo}</p>
-        <Elements stripe={this.state.stripePromise}>
-          <CheckoutForm
-            {...this.state.paymentContext}
-            onSuccessRedirect={this.onSuccessRedirect}
-          />
-        </Elements>
-      </div>
+      <BoxWithLogo>
+        <div className="collect-payment-page">
+          <h1 className="title">Checkout</h1>
+          <p>{this.state.paymentContext.paymentDetails.memo}</p>
+          <Elements stripe={this.state.stripePromise}>
+            <CheckoutForm
+              {...this.state.paymentContext}
+              onSuccessRedirect={this.onSuccessRedirect}
+            />
+          </Elements>
+        </div>
+      </BoxWithLogo>
     );
   }
 }
