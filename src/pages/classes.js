@@ -5,6 +5,8 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
+import CtaContact from "../components/CtaContact";
+
 import "./classes.scss";
 
 const ClassCards = ({ activeClasses }) => {
@@ -226,6 +228,7 @@ const ClassesPage = ({ data }) => {
         </div>
         <ClassPanel experienceLevels={experienceLevels || []} />
       </div>
+      <CtaContact />
     </Layout>
   );
 };
