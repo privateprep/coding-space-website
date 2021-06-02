@@ -72,9 +72,9 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
     .reduce(
       (shared, l) => ({
         ...shared,
-        categoryNames: Array.from(new Set(...shared.categoryNames, ...l.categoryNames)),
+        categoryIds: Array.from(new Set(...shared.categoryIds, ...l.categoryIds)),
       }),
-      { id: 'online', name: "Online", isOnline: true, categoryNames: [] }
+      { classLocationId: 'online', name: "Online", isOnline: true, categoryIds: [] }
     );
   const [activeLocation, setActiveLocation] = useState(inPersonLocations[0]);
 
@@ -87,7 +87,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
             <li
               key={location.id}
               className={`locations-list__item${
-                location.id === activeLocation?.id
+                location.classLocationId === activeLocation?.classLocationId
                   ? " locations-list__item--active"
                   : ""
               }`}
