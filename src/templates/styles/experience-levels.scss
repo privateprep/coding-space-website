@@ -93,39 +93,3 @@ ul.course-hero__card__detail-content {
   max-width: 620px;
   z-index: 2;
 }
-
-/* cta-contact */
-
-.cta-contact {
-  background-color: var(--primary);
-  min-height: 80vh;
-
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  max-width: 100rem;
-
-  margin: auto;
-  padding: 4rem;
-  position: relative;
-}
-
-.cta-contact__title {
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: var(--backgroundAlt);
-  letter-spacing: inherit;
-  text-transform: none;
-}
-
-@media screen and (min-width: 960px) {
-  .cta-contact__title {
-    font-size: 70px;
-    line-height: 76px;
-  }
-}
-
-.cta-contact__secondary {
-  font-size: 1.25rem;
-  color: var(--backgroundAlt);
-}
