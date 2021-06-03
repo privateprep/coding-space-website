@@ -6,7 +6,7 @@ seo_description: Our 1.5-hour mini camp combines project-based coding with
 categoryIds:
   - 96
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=96
-thumbnail: /img/coding-camp.jpg
+thumbnail: /img/coder.jpg
 details:
   age: Ages 6+
   gender: Co-ed.
