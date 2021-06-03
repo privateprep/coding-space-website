@@ -5,7 +5,6 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import createHtml from "../components/MdToHtml";
-import CampDetails from "../components/CampDetails";
 import CtaContact from "../components/CtaContact";
 import CourseOfferings from "../components/CourseOfferings";
 
@@ -17,8 +16,15 @@ export const ExperienceLevelsTemplate = ({
   title,
   helmet,
 }) => {
-  const isCamp = title.toLowerCase().includes("camp");
-  const { age, gender, byline, mdContent, experience, skills, sellingPoints } = details;
+  const {
+    age,
+    gender,
+    byline,
+    mdContent,
+    experience,
+    skills,
+    sellingPoints,
+  } = details;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -60,11 +66,7 @@ export const ExperienceLevelsTemplate = ({
           </ul>
         </div>
       </section>
-      <CourseOfferings
-        courseOfferingEndpoint={courseOfferingEndpoint}
-        isCamp={isCamp}
-      />
-      {!!isCamp && <CampDetails />}
+      <CourseOfferings courseOfferingEndpoint={courseOfferingEndpoint} />
       <CtaContact />
     </div>
   );
@@ -118,6 +120,7 @@ export const pageQuery = graphql`
           byline
           experience
           gender
+          mdContent
           sellingPoints
           skills
         }

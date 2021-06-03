@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
+import { Redirect } from "@reach/router";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
-
 
 import "./styles/IndexPage.scss";
 
@@ -31,8 +31,6 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
         />
       </video>
     </div>
-    <section>
-    </section>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -85,11 +83,15 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <IndexPageTemplate
-        hero={frontmatter.hero}
-        mainpitch={frontmatter.mainpitch}
-        intro={frontmatter.intro}
-      />
+      {process.env.NODE_ENV === "production" ? (
+        <Redirect noThrow to="/locations" />
+      ) : (
+        <IndexPageTemplate
+          hero={frontmatter.hero}
+          mainpitch={frontmatter.mainpitch}
+          intro={frontmatter.intro}
+        />
+      )}
     </Layout>
   );
 };
