@@ -17,7 +17,7 @@ details:
   skills:
     - HTML
     - CSS
-    - Javascript
+    - JavaScript
   sellingPoints:
     - Independent Projects
     - Building Web-based Games
