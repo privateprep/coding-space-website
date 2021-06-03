@@ -7,7 +7,7 @@ seo_description: In addition to project-based coding, warm-up activities and
 categoryIds:
   - 95
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=95
-thumbnail: /img/girl-code.svg
+thumbnail: /img/kids-around-a-computer.jpg
 details:
   age: Ages 8+
   gender: Co-ed.
