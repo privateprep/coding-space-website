@@ -50,7 +50,7 @@ pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Accessibility name
-      image: /img/climbing-2-1.jpg
+      image: /img/coding-camp.jpg
     mediaPosition: right
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"

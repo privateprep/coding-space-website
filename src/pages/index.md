@@ -22,11 +22,11 @@ mainpitch:
 description: test
 intro:
   blurbs:
-    - image: /img/clipartkey_2215277.png
+    - image: /img/coding-camp.jpg
       text: >
         We guarantee individual attention and a custom learning experience for
         each student with a 4:1 student-to-teacher ratio.
-    - image: /img/clipartkey_419266.png
+    - image: /img/coding-camp.jpg
       text: >
         We’re not your typical coding class. Our classes are designed to foster
         intellectual confidence, growth mindset and computational thinking
@@ -41,14 +41,14 @@ main:
   heading: Main Heading
   description: description
   image1:
-    image: /img/climbing-2-1.jpg
+    image: /img/coding-camp.jpg
     alt: test
   image2:
-    image: /img/clipartkey_2215277.png
+    image: /img/coding-camp.jpg
     alt: test
   image3:
     alt: test
-    image: /img/clipartkey_419266.png
+    image: /img/coding-camp.jpg
 hero:
   image: /img/tcs-header.png
   heading: The Coding Space

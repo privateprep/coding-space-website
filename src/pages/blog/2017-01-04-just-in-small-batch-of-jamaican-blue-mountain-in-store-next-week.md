@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: 'TCS Teacher Spotlight: Meet Brenda Castro'
 date: 2020-11-04T15:04:10.000Z
-featuredimage: /img/climbing-2-1.jpg
+featuredimage: /img/coding-camp.jpg
 featuredpost: true
 description: >-
   We at The Coding Space are continually inspired by the dedicated and caring teachers on our team, especially those who contribute to the wellbeing of the communities they serve.
@@ -11,7 +11,7 @@ tags:
   - people
   - community
 ---
-![climbing](/img/climbing-2-1.jpg)
+![placeholder](/img/coding-camp.jpg)
 
 We at The Coding Space are continually inspired by the dedicated and caring teachers on our team, especially those who contribute to the wellbeing of the communities they serve. Brenda Castro, a Long Island-based TCS teacher and tutor with Private Prep, is a great example of our culture of caring in action. In addition to helping students learn to think critically, be creative, and code, she volunteers her time as a listener for 7 Cups, an online community for anonymous emotional peer-support. We spoke to her about her experiences doing this unique and important work.
 

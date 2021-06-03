@@ -12,7 +12,7 @@ pageBuilder:
   - type: textAndImageBlock
     image:
       alt: test
-      image: /img/img_4956.jpg
+      image: /img/coding-camp.jpg
     mediaPosition: left
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"

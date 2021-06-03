@@ -2,12 +2,12 @@
 templateKey: school-programs
 title: Test
 description: Test
-headingImage: /img/img_0441.jpg
+headingImage: /img/coding-camp.jpg
 pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Dan's Backyard
-      image: /img/screen-shot-2021-03-09-at-10.08.35-am.png
+      image: /img/coding-camp.jpg
     mediaPosition: left
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"
@@ -42,7 +42,7 @@ pageBuilder:
         textColor: "#264548"
         mdContent: >-
           ![Animated computer with
-          code](/img/screen-shot-2021-05-13-at-14.38.38-pm.png "Why?")
+          code](/img/coding-camp.jpg "Why?")
 
 
           ### Co-ed Camps
@@ -66,7 +66,7 @@ pageBuilder:
         textAlign: center
         textColor: "#264548"
         mdContent: |-
-          ![Cat dog](/img/img_3542.jpg "cat dog")
+          ![Cat dog](/img/coding-camp.jpg "cat dog")
 
           ### Then add header
 
