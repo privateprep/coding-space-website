@@ -8,7 +8,7 @@ seo_description: Beginner students (ages 8-14, co-ed) will have learned the
 categoryIds:
   - 46
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=46
-thumbnail: /img/coding-camp.jpg
+thumbnail: /img/sisters-doing-their-homework-orig.jpg
 details:
   age: Ages 8-14.
   gender: Co-ed.
