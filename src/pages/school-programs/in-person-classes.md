@@ -2,12 +2,12 @@
 templateKey: school-programs
 title: In-Person Classes
 description: Our in-person class offerings.
-headingImage: /img/digital-heart.jpg
+headingImage: /img/coding-camp.jpg
 pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Chicken Coop!
-      image: /img/img_1110.jpg
+      image: /img/coding-camp.jpg
     bgColor: "#ffffff"
     fgColor: "#9de2dd"
     mediaPosition: right
@@ -59,7 +59,7 @@ pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Accessibility name
-      image: /img/ndegiwp.png
+      image: /img/white-board.jpg
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-

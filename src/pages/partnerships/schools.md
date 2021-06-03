@@ -23,7 +23,7 @@ pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Inside of a chicken coop!
-      image: /img/img_1156.jpg
+      image: /img/coding-camp.jpg
     mediaPosition: right
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"
