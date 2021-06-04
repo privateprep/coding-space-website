@@ -8,10 +8,10 @@ import "./ClassCards.scss"
 const ClassCards = ({ activeLevels, slugExtension = "" }) => {
   if (!activeLevels.length) {
     return (
-      <>
+      <div>
         <p>No matching courses available.</p>
         <p>Check back soon or contact our team for more information!</p>
-      </>
+      </div>
     );
   }
 
