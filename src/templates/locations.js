@@ -190,6 +190,7 @@ export const pageQuery = graphql`
           categoryIds
           details {
             age
+            gender
             byline
             skills
           }
