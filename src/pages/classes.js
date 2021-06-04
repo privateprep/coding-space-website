@@ -15,11 +15,11 @@ import "./classes.scss";
 const dig = (target, ...keys) => {
   let digged = target;
   for (const key of keys) {
-    if (typeof digged === 'undefined' || digged === null) {
+    if (typeof digged === "undefined" || digged === null) {
       return undefined;
     }
     digged = digged[key];
-  };
+  }
   return digged;
 };
 
@@ -30,7 +30,7 @@ const buildOption = (name, value, label) => {
 };
 
 const buildOptions = (collection, filter) => {
-  let options = []
+  let options = [];
 
   for (let item of collection) {
     const label = dig(item, filter.optionLabelKeys);
@@ -39,22 +39,33 @@ const buildOptions = (collection, filter) => {
     if (Array.isArray(rawValue)) {
       // associated with many
       for (let value of rawValue) {
-        if (!!value && !options.some(opt => opt.value === value)) {
-          const option = buildOption(filter.filterKey, value, label)
+        if (!!value && !options.some((opt) => opt.value === value)) {
+          const option = buildOption(filter.filterKey, value, label);
           options.push(option);
         }
       }
     } else {
       // just a string or id number
-      if (!!rawValue && !options.some(opt => opt.value === rawValue)) {
-        const option = buildOption(filter.filterKey, rawValue, label)
+      if (!!rawValue && !options.some((opt) => opt.value === rawValue)) {
+        const option = buildOption(filter.filterKey, rawValue, label);
         options.push(option);
       }
     }
   }
 
-  return options
-}
+  return options;
+};
+
+// looks like `{ filterKey1: initialValue1, filterKey2, initialValue2 }`
+const buildInitialFilter = (filters) =>
+  filters.reduce(
+    (initialFilter,
+    (filter) => {
+      initialFilter[filter.filterKey] = filter.initialValue;
+      return initialFilter;
+    }),
+    {}
+  );
 
 // check check filter, try to knock out
 const filterLevel = (activeFilter, level) => {
@@ -103,6 +114,7 @@ const ClassPanel = ({ experienceLevels }) => {
       label: "EXPERIENCE",
       filterKey: "experiences",
       type: "checkbox",
+      initialValue: [],
       optionValueKeys: ["details", "experience"],
       optionLabelKeys: ["details", "experience"],
     },
@@ -110,6 +122,7 @@ const ClassPanel = ({ experienceLevels }) => {
       label: "GENDER",
       filterKey: "genders",
       type: "checkbox",
+      initialValue: [],
       optionValueKeys: ["details", "gender"],
       optionLabelKeys: ["details", "gender"],
     },
@@ -117,6 +130,7 @@ const ClassPanel = ({ experienceLevels }) => {
       label: "SKILLS",
       filterKey: "skills",
       type: "checkbox",
+      initialValue: [],
       optionValueKeys: ["details", "skills"],
       optionLabelKeys: ["details", "skills"],
     },
@@ -124,12 +138,18 @@ const ClassPanel = ({ experienceLevels }) => {
       label: "LOOKING FOR",
       filterKey: "sellingPoints",
       type: "checkbox",
+      initialValue: [],
       optionLabelKeys: ["details", "sellingPoints"],
       optionValueKeys: ["details", "sellingPoints"],
     },
-  ].map(filter => ({...filter, options: buildOptions(experienceLevels, filter)}));
-  const [activeFilter, setActiveFilter] = useState({ experiences: [], genders: [], skills: [], sellingPoints: [] });
-  const activeLevels = experienceLevels.filter(level => filterLevel(activeFilter, level));
+  ].map((filter) => ({
+    ...filter,
+    options: buildOptions(experienceLevels, filter),
+  }));
+  const [activeFilter, setActiveFilter] = useState(buildInitialFilter(filters));
+  const activeLevels = experienceLevels.filter((level) =>
+    filterLevel(activeFilter, level)
+  );
 
   // NOTE: currently only checkbox supported
   const updateActiveFilter = (filter, event) => {
