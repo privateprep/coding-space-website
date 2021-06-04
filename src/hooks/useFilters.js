@@ -1,8 +1,7 @@
 import * as React from "react";
 
-// option builders!
-
-// 'dig' adapted from https://github.com/joe-re/object-dig/blob/master/src/index.js
+// ruby's 'dig' for JS
+// adapted from https://github.com/joe-re/object-dig/blob/master/src/index.js
 const dig = (target, keys = []) => {
   let digged = target;
   for (const key of keys) {
@@ -14,6 +13,7 @@ const dig = (target, keys = []) => {
   return digged;
 };
 
+// option builders
 const buildOption = (name, value, label) => {
   const id = `${name}_${String(value).toLowerCase().split(" ").join("_")}`;
 
@@ -47,6 +47,7 @@ const buildOptions = (collection, filter) => {
   return options;
 };
 
+// builds initial filter state
 // looks like `{ filterKey1: initialValue1, filterKey2, initialValue2 }`
 const buildInitialFilter = (filters) =>
   filters.reduce((initialFilter, filter) => {
@@ -86,16 +87,18 @@ const filterItem = (item, activeFilter, filters) => {
 // NOTE: currently only checkbox filters are supported
 
 const useFilters = (filterTemplate, collection) => {
-  const filters = filterTemplate.map((filter) => ({
+  const filters = React.useMemo(
+    () =>
+      filterTemplate.map((filter) => ({
         ...filter,
         options: buildOptions(collection, filter),
-      }));
-
+      })),
+    [filterTemplate, collection]
+  );
   const [activeFilter, setActiveFilter] = React.useState(
     buildInitialFilter(filters)
   );
 
-  // NOTE: currently only checkbox supported
   const updateActiveFilter = React.useCallback((filter, event) => {
     const value = event.target.value;
 
