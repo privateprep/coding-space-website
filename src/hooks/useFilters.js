@@ -101,6 +101,12 @@ const useFilters = (filterTemplate, collection) => {
     buildInitialFilter(filters)
   );
 
+  // if filters change (like from a fetch request),
+  // be sure initial filter state watches!
+  React.useEffect(() => {
+    setActiveFilter(() => buildInitialFilter(filters))
+  }, [filters])
+
   const updateActiveFilter = React.useCallback((filter, event) => {
     const value = event.target.value;
 
