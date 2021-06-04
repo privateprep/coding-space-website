@@ -6,7 +6,7 @@ import moment from "moment-timezone";
 import { GET } from "../utils/service";
 import { groupBy } from "../utils/helpers";
 
-import { useFilters } from "../hooks";
+import { useFilters, useSearchParams } from "../hooks";
 
 import "./CourseOfferings.css";
 
@@ -144,34 +144,6 @@ const sortClasses = (a, b) => {
   if (a.startsAt < b.startsAt) return -1;
 };
 
-const filterTemplate = [
-  {
-    label: "SEMESTER",
-    filterKey: "semesters",
-    type: "checkbox",
-    initialValue: [],
-    optionValueKeys: ["semester"],
-  },
-  {
-    label: "LOCATION",
-    filterKey: "class_location_ids",
-    type: "checkbox",
-    initialValue: [], // TODO: parse me from window.location.search!
-    optionKeys: [], // value + label off top-level object directly
-    valueKeys: ["locationId"],
-    labelKeys: ["locationName"],
-  },
-  {
-    label: "SIGNUP TYPE",
-    filterKey: "enrollmentTypes",
-    type: "checkbox",
-    initialValue: [],
-    optionKeys: ["enrollmentTypes"],
-    valueKeys: ["value"],
-    labelKeys: ["filterLabel"],
-  },
-];
-
 // enhance class type server response
 const formatResponse = (classType) => {
   const enrollmentTypes = classType.enrollmentTypes.map((dashboard_type) => {
@@ -199,9 +171,39 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [classes, setClasses] = React.useState([]);
   const [error, setError] = React.useState();
 
+  // setup filters
+  const searchParams = useSearchParams();
+  const filterTemplate = React.useMemo(() => [
+    {
+      label: "SEMESTER",
+      filterKey: "semesters",
+      type: "checkbox",
+      initialValue: [],
+      optionValueKeys: ["semester"],
+    },
+    {
+      label: "LOCATION",
+      filterKey: "class_location_ids",
+      type: "checkbox",
+      initialValue: searchParams.class_location_ids || [],
+      optionKeys: [], // value + label off top-level object directly
+      valueKeys: ["locationId"],
+      labelKeys: ["locationName"],
+    },
+    {
+      label: "SIGNUP TYPE",
+      filterKey: "enrollmentTypes",
+      type: "checkbox",
+      initialValue: [],
+      optionKeys: ["enrollmentTypes"],
+      valueKeys: ["value"],
+      labelKeys: ["filterLabel"],
+    },
+  ], [searchParams]);
   const [filters, activeFilter, updateActiveFilter, filteredClasses] =
     useFilters(filterTemplate, classes);
 
+  // fetch inventory from PP Dashboard
   React.useEffect(() => {
     if (!isLoading && !lastFetchedAt && !error) {
       setIsLoading(true);
