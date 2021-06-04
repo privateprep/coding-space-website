@@ -24,13 +24,13 @@ const buildOptions = (collection, filter) => {
   let options = [];
 
   for (let item of collection) {
-    const label = dig(item, filter.optionLabelKeys);
     const rawValue = dig(item, filter.optionValueKeys);
 
     if (Array.isArray(rawValue)) {
       // associated with many
       for (let value of rawValue) {
         if (!!value && !options.some((opt) => opt.value === value)) {
+          const label = value; // TODO: update me
           const option = buildOption(filter.filterKey, value, label);
           options.push(option);
         }
@@ -38,6 +38,7 @@ const buildOptions = (collection, filter) => {
     } else {
       // just a string or id number
       if (!!rawValue && !options.some((opt) => opt.value === rawValue)) {
+        const label = rawValue; // TODO: update me
         const option = buildOption(filter.filterKey, rawValue, label);
         options.push(option);
       }
