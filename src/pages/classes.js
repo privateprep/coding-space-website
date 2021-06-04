@@ -44,11 +44,7 @@ const filterLevel = (activeFilter, level) => {
     // filter for any sellingPoint overlap
     const filteredPoints = activeFilter.sellingPoints;
     const levelPoints = level.details.sellingPoints;
-    if (
-      !filteredPoints.some((point) =>
-        level.details.sellingPoints.includes(point)
-      )
-    ) {
+    if (!filteredPoints.some((point) => levelPoints.includes(point))) {
       return false;
     }
   }
