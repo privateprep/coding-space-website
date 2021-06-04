@@ -218,6 +218,7 @@ export const pageQuery = graphql`
         longitude
         addressString
         categoryIds
+        courseOfferingsEndpoint
       }
     }
   }
