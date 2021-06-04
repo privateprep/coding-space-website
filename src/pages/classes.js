@@ -38,45 +38,46 @@ const buildStringOption = (name, string) => {
   return { id, name, value: string };
 };
 
-const filterClasses = (allLevels, activeFilter) => {
-  let filteredClasses = allLevels;
-
+// check check filter, try to knock out
+const filterLevel = (activeFilter, level) => {
   if (activeFilter.experiences.length) {
     // filter for matching experience
     const filteredExps = activeFilter.experiences;
-    filteredClasses = filteredClasses.filter((level) => {
-      const levelExp = level.details.experience;
-      return filteredExps.some((exp) => levelExp === exp)
-    });
+    const levelExp = level.details.experience;
+    if (!filteredExps.some((exp) => levelExp === exp)) {
+      return false
+    }
   }
 
   if (activeFilter.genders.length) {
     // filter for matching gender
     const filteredGenders = activeFilter.genders;
-    filteredClasses = filteredClasses.filter((level) => {
-      const levelGender = level.details.gender;
-      return filteredGenders.some((gender) => levelGender === gender)
-    });
+    const levelGender = level.details.gender;
+    if (!filteredGenders.some((gender) => levelGender === gender)) {
+      return false
+    }
   }
 
   if (activeFilter.skills.length) {
     // filter for any class skill overlap
     const filteredSkills = activeFilter.skills;
-    filteredClasses = filteredClasses.filter((level) =>
-      filteredSkills.some((skill) => level.details.skills.includes(skill))
-    )
+    const levelSkills = level.details.skills;
+    if (!filteredSkills.some((skill) => levelSkills.includes(skill))) {
+      return false
+    }
   }
 
   if (activeFilter.sellingPoints.length) {
     // filter for any sellingPoint overlap
     const filteredPoints = activeFilter.sellingPoints;
-    filteredClasses = filteredClasses.filter((level) =>
-      filteredPoints.some((point) => level.details.sellingPoints.includes(point))
-    );
+    const levelPoints = level.details.sellingPoints;
+    if (!filteredPoints.some((point) => level.details.sellingPoints.includes(point))) {
+      return false
+    }
   }
 
-  return filteredClasses;
-};
+  return true; // nothing said no!
+}
 
 const ClassPanel = ({ experienceLevels }) => {
   const filters = [
@@ -114,7 +115,7 @@ const ClassPanel = ({ experienceLevels }) => {
     },
   ];
   const [activeFilter, setActiveFilter] = useState({ experiences: [], genders: [], skills: [], sellingPoints: [] });
-  const activeLevels = filterClasses(experienceLevels, activeFilter);
+  const activeLevels = experienceLevels.filter(level => filterLevel(activeFilter, level));
 
   // NOTE: currently only checkbox supported
   const updateActiveFilter = (filter, event) => {
