@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import CtaContact from "../components/CtaContact";
 import ClassCards from "../components/ClassCards";
