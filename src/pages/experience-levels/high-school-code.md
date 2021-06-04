@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: "High School Code"
+title: High School Code
 seo_description: In the high school program (ages 14-17, co-ed), students will
   combine all the skills they’ve learned, launch solo projects, and learn to
   collaborate with other coders to pair-program on software projects of their
@@ -8,11 +8,11 @@ seo_description: In the high school program (ages 14-17, co-ed), students will
 categoryIds:
   - 49
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49
-thumbnail: /img/girls-code-camp.jpg
+thumbnail: /img/teenage-boy-on-computer-1.jpg
 details:
   age: Ages 14-17
   gender: Co-ed.
-  byline: "Prepare to blast off."
+  byline: Prepare to blast off.
   experience: First-time through Advanced
   skills:
     - HTML
