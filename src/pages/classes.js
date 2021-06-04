@@ -9,34 +9,52 @@ import ClassCards from "../components/ClassCards";
 
 import "./classes.scss";
 
-const collectDetail = (experienceLevels, detailKey) => {
-  let items = [];
+// option builders!
 
-  for (let level of experienceLevels) {
-    const value = level.details[detailKey];
+// from https://github.com/joe-re/object-dig/blob/master/src/index.js
+const dig = (target, ...keys) => {
+  let digged = target;
+  for (const key of keys) {
+    if (typeof digged === 'undefined' || digged === null) {
+      return undefined;
+    }
+    digged = digged[key];
+  };
+  return digged;
+};
 
-    if (Array.isArray(value)) {
-      for (let item of value) {
-        if (!!item && !items.includes(item)) {
-          items.push(item);
+const buildOption = (name, value, label) => {
+  const id = `${name}_${String(val).toLowerCase().split(" ").join("_")}`;
+
+  return { id, name, value, label };
+};
+
+const buildOptions = (collection, filter) => {
+  let options = []
+
+  for (let item of collection) {
+    const label = dig(item, filter.optionLabelKeys);
+    const rawValue = dig(item, filter.optionValueKeys);
+
+    if (Array.isArray(rawValue)) {
+      // associated with many
+      for (let value of rawValue) {
+        if (!!value && !options.some(opt => opt.value === value)) {
+          const option = buildOption(filter.filterKey, value, label)
+          options.push(option);
         }
       }
     } else {
-      // likely 'just' string
-      if (!!value && !items.includes(value)) {
-        items.push(value);
+      // just a string or id number
+      if (!!rawValue && !options.some(opt => opt.value === rawValue)) {
+        const option = buildOption(filter.filterKey, rawValue, label)
+        options.push(option);
       }
     }
   }
 
-  return items.sort((a, b) => a.localeCompare(b)); // ABC order
-};
-
-const buildStringOption = (name, string) => {
-  const id = `${name}_${string.toLowerCase().split(" ").join("_")}`;
-
-  return { id, name, value: string };
-};
+  return options
+}
 
 // check check filter, try to knock out
 const filterLevel = (activeFilter, level) => {
@@ -85,35 +103,31 @@ const ClassPanel = ({ experienceLevels }) => {
       label: "EXPERIENCE",
       filterKey: "experiences",
       type: "checkbox",
-      options: collectDetail(experienceLevels, "experience").map((exp) =>
-        buildStringOption("experiences", exp)
-      ),
+      optionValueKeys: ["details", "experience"],
+      optionLabelKeys: ["details", "experience"],
     },
     {
       label: "GENDER",
       filterKey: "genders",
       type: "checkbox",
-      options: collectDetail(experienceLevels, "gender").map((gender) =>
-        buildStringOption("genders", gender)
-      ),
+      optionValueKeys: ["details", "gender"],
+      optionLabelKeys: ["details", "gender"],
     },
     {
       label: "SKILLS",
       filterKey: "skills",
       type: "checkbox",
-      options: collectDetail(experienceLevels, "skills").map((skill) =>
-        buildStringOption("skills", skill)
-      ),
+      optionValueKeys: ["details", "skills"],
+      optionLabelKeys: ["details", "skills"],
     },
     {
       label: "LOOKING FOR",
       filterKey: "sellingPoints",
       type: "checkbox",
-      options: collectDetail(experienceLevels, "sellingPoints").map((point) =>
-        buildStringOption("sellingPoint", point)
-      ),
+      optionLabelKeys: ["details", "sellingPoints"],
+      optionValueKeys: ["details", "sellingPoints"],
     },
-  ];
+  ].map(filter => ({...filter, options: buildOptions(experienceLevels, filter)}));
   const [activeFilter, setActiveFilter] = useState({ experiences: [], genders: [], skills: [], sellingPoints: [] });
   const activeLevels = experienceLevels.filter(level => filterLevel(activeFilter, level));
 
