@@ -8,7 +8,7 @@ import { groupBy } from "../utils/helpers";
 
 import { useFilters, useSearchParams } from "../hooks";
 
-import "./CourseOfferings.css";
+import "./CourseOfferings.scss";
 
 const CourseOffering = ({
   isCamp,
@@ -224,11 +224,14 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   if (!!error) {
     return (
       <div className="courseOfferings" style={{ minHeight: `12rem` }}>
-        <h2>Now Enrolling</h2>
-        <hr />
-        <p style={{ color: `var(--error)`, minHeight: `20rem` }}>
-          Oh no! {error.message}
-        </p>
+        <div />
+        <div className="courseOfferings__content">
+          <h2>Now Enrolling</h2>
+          <hr />
+          <p style={{ color: `var(--error)`, minHeight: `20rem` }}>
+            Oh no! {error.message}
+          </p>
+        </div>
       </div>
     );
   }
@@ -236,9 +239,12 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   if (!!isLoading) {
     return (
       <div className="courseOfferings" style={{ minHeight: `20rem` }}>
-        <h2>Now Enrolling</h2>
-        <hr />
-        <p>Loading classes...</p>
+        <div />
+        <div className="courseOfferings__content">
+          <h2>Now Enrolling</h2>
+          <hr />
+          <p>Loading classes...</p>
+        </div>
       </div>
     );
   }
@@ -249,8 +255,6 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
 
     return (
       <div className="courseOfferings">
-        <h2>Now Enrolling</h2>
-
         <form
           className="courseOfferings__filter-form"
           onSubmit={(e) => {
@@ -282,6 +286,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
         </form>
 
         <div className="courseOfferings__content">
+          <h2 class="title">Now Enrolling</h2>
           {numCategories > 1 ? (
             // probably GirlCode
             Object.keys(classesByCategory)

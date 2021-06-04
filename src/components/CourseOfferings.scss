@@ -1,23 +1,45 @@
 .courseOfferings {
-  max-width: 64rem;
-  margin: 0 auto;
+  max-width: 1170px;
+  margin: auto auto 4rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  padding: 0 .5rem;
+
+  @media (min-width: 520px) {
+    grid-template-columns: auto 1fr;
+  }
+
+  &__filter-form {
+    margin-top: 4rem;
+
+    .filter-group {
+      margin: 0 0 1rem;
+
+      &__label {
+        text-transform: capitalize;
+      }
+
+      &__options {
+        padding: 0;
+        list-style-type: none;
+
+        &__item {
+          input[type="checkbox"] {
+            margin-right: .25rem;
+          }
+          label {
+            font-weight: normal;
+            font-family: var(--fontStack);
+          }
+        }
+      }
+    }
+  }
 }
 
-.courseOfferings .class-filters {
-  display: flex;
-  flex-flow: row-wrap;
-  align-items: baseline;
-}
 
-.courseOfferings .class-filters h3 {
-  margin-top: 1rem;
-}
-
-.courseOfferings .class-filters select {
-  padding: 0.25rem;
-  margin-left: 2rem;
-  font-size: 1rem;
-}
 
 .class-category-offering__title {
   display: flex;
@@ -99,7 +121,8 @@
 .class-category-offering__list__item .details {
   grid-area: details;
   list-style: none;
-  margin: 1rem auto;
+  margin: 2rem auto;
+  padding: 0;
 }
 
 .class-category-offering__list__item .details .near-capacity {
@@ -139,7 +162,7 @@
   }
 }
 
-@media (max-width: 46rem) {
+@media (max-width: 50rem) {
   .class-category-offering__list__item {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
