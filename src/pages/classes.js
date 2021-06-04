@@ -18,7 +18,6 @@ const filterTemplate = [
     type: "checkbox",
     initialValue: [],
     optionValueKeys: ["details", "experience"],
-    optionLabelKeys: ["details", "experience"],
   },
   {
     label: "GENDER",
@@ -26,7 +25,6 @@ const filterTemplate = [
     type: "checkbox",
     initialValue: [],
     optionValueKeys: ["details", "gender"],
-    optionLabelKeys: ["details", "gender"],
   },
   {
     label: "SKILLS",
@@ -34,14 +32,12 @@ const filterTemplate = [
     type: "checkbox",
     initialValue: [],
     optionValueKeys: ["details", "skills"],
-    optionLabelKeys: ["details", "skills"],
   },
   {
     label: "LOOKING FOR",
     filterKey: "sellingPoints",
     type: "checkbox",
     initialValue: [],
-    optionLabelKeys: ["details", "sellingPoints"],
     optionValueKeys: ["details", "sellingPoints"],
   },
 ];
@@ -74,7 +70,7 @@ const ClassPanel = ({ experienceLevels }) => {
                     onChange={(event) => updateActiveFilter(filter, event)}
                     checked={activeFilter[filter.filterKey].includes(opt.value)}
                   />
-                  <label htmlFor={opt.id}>{opt.value}</label>
+                  <label htmlFor={opt.id}>{opt.label}</label>
                 </li>
               ))}
             </ul>
