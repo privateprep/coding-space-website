@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import * as React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+
+import { useFilters } from "../hooks";
 
 import Layout from "../components/Layout";
 
@@ -8,64 +10,6 @@ import CtaContact from "../components/CtaContact";
 import ClassCards from "../components/ClassCards";
 
 import "./classes.scss";
-
-// option builders!
-
-// from https://github.com/joe-re/object-dig/blob/master/src/index.js
-const dig = (target, ...keys) => {
-  let digged = target;
-  for (const key of keys) {
-    if (typeof digged === "undefined" || digged === null) {
-      return undefined;
-    }
-    digged = digged[key];
-  }
-  return digged;
-};
-
-const buildOption = (name, value, label) => {
-  const id = `${name}_${String(val).toLowerCase().split(" ").join("_")}`;
-
-  return { id, name, value, label };
-};
-
-const buildOptions = (collection, filter) => {
-  let options = [];
-
-  for (let item of collection) {
-    const label = dig(item, filter.optionLabelKeys);
-    const rawValue = dig(item, filter.optionValueKeys);
-
-    if (Array.isArray(rawValue)) {
-      // associated with many
-      for (let value of rawValue) {
-        if (!!value && !options.some((opt) => opt.value === value)) {
-          const option = buildOption(filter.filterKey, value, label);
-          options.push(option);
-        }
-      }
-    } else {
-      // just a string or id number
-      if (!!rawValue && !options.some((opt) => opt.value === rawValue)) {
-        const option = buildOption(filter.filterKey, rawValue, label);
-        options.push(option);
-      }
-    }
-  }
-
-  return options;
-};
-
-// looks like `{ filterKey1: initialValue1, filterKey2, initialValue2 }`
-const buildInitialFilter = (filters) =>
-  filters.reduce(
-    (initialFilter,
-    (filter) => {
-      initialFilter[filter.filterKey] = filter.initialValue;
-      return initialFilter;
-    }),
-    {}
-  );
 
 // check check filter, try to knock out
 const filterLevel = (activeFilter, level) => {
@@ -148,37 +92,13 @@ const filterTemplate = [
 ];
 
 const ClassPanel = ({ experienceLevels }) => {
-  const filters = React.useMemo(
-    () =>
-      filterTemplate.map((filter) => ({
-        ...filter,
-        options: buildOptions(experienceLevels, filter),
-      })),
-    [experienceLevels]
+  const [filters, activeFilter, updateActiveFilter] = useFilters(
+    filterTemplate,
+    experienceLevels
   );
-  const [activeFilter, setActiveFilter] = useState(buildInitialFilter(filters));
   const activeLevels = experienceLevels.filter((level) =>
     filterLevel(activeFilter, level)
   );
-
-  // NOTE: currently only checkbox supported
-  const updateActiveFilter = (filter, event) => {
-    const value = event.target.value;
-
-    if (event.target.checked) {
-      setActiveFilter((current) => ({
-        ...current,
-        [filter.filterKey]: [...current[filter.filterKey], value], // add item
-      }));
-    } else {
-      setActiveFilter((current) => ({
-        ...current,
-        [filter.filterKey]: current[filter.filterKey].filter(
-          (val) => val !== value
-        ), // filter item
-      }));
-    }
-  };
 
   return (
     <div className="ClassPanel">
