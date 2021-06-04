@@ -112,44 +112,50 @@ const filterLevel = (activeFilter, level) => {
   return true; // nothing said no!
 };
 
+const filterTemplate = [
+  {
+    label: "EXPERIENCE",
+    filterKey: "experiences",
+    type: "checkbox",
+    initialValue: [],
+    optionValueKeys: ["details", "experience"],
+    optionLabelKeys: ["details", "experience"],
+  },
+  {
+    label: "GENDER",
+    filterKey: "genders",
+    type: "checkbox",
+    initialValue: [],
+    optionValueKeys: ["details", "gender"],
+    optionLabelKeys: ["details", "gender"],
+  },
+  {
+    label: "SKILLS",
+    filterKey: "skills",
+    type: "checkbox",
+    initialValue: [],
+    optionValueKeys: ["details", "skills"],
+    optionLabelKeys: ["details", "skills"],
+  },
+  {
+    label: "LOOKING FOR",
+    filterKey: "sellingPoints",
+    type: "checkbox",
+    initialValue: [],
+    optionLabelKeys: ["details", "sellingPoints"],
+    optionValueKeys: ["details", "sellingPoints"],
+  },
+];
+
 const ClassPanel = ({ experienceLevels }) => {
-  const filters = [
-    {
-      label: "EXPERIENCE",
-      filterKey: "experiences",
-      type: "checkbox",
-      initialValue: [],
-      optionValueKeys: ["details", "experience"],
-      optionLabelKeys: ["details", "experience"],
-    },
-    {
-      label: "GENDER",
-      filterKey: "genders",
-      type: "checkbox",
-      initialValue: [],
-      optionValueKeys: ["details", "gender"],
-      optionLabelKeys: ["details", "gender"],
-    },
-    {
-      label: "SKILLS",
-      filterKey: "skills",
-      type: "checkbox",
-      initialValue: [],
-      optionValueKeys: ["details", "skills"],
-      optionLabelKeys: ["details", "skills"],
-    },
-    {
-      label: "LOOKING FOR",
-      filterKey: "sellingPoints",
-      type: "checkbox",
-      initialValue: [],
-      optionLabelKeys: ["details", "sellingPoints"],
-      optionValueKeys: ["details", "sellingPoints"],
-    },
-  ].map((filter) => ({
-    ...filter,
-    options: buildOptions(experienceLevels, filter),
-  }));
+  const filters = React.useMemo(
+    () =>
+      filterTemplate.map((filter) => ({
+        ...filter,
+        options: buildOptions(experienceLevels, filter),
+      })),
+    [experienceLevels]
+  );
   const [activeFilter, setActiveFilter] = useState(buildInitialFilter(filters));
   const activeLevels = experienceLevels.filter((level) =>
     filterLevel(activeFilter, level)
