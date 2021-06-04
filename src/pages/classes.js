@@ -11,47 +11,6 @@ import ClassCards from "../components/ClassCards";
 
 import "./classes.scss";
 
-// check check filter, try to knock out
-const filterLevel = (activeFilter, level) => {
-  if (activeFilter.experiences.length) {
-    // filter for matching experience
-    const filteredExps = activeFilter.experiences;
-    const levelExp = level.details.experience;
-    if (!filteredExps.some((exp) => levelExp === exp)) {
-      return false;
-    }
-  }
-
-  if (activeFilter.genders.length) {
-    // filter for matching gender
-    const filteredGenders = activeFilter.genders;
-    const levelGender = level.details.gender;
-    if (!filteredGenders.some((gender) => levelGender === gender)) {
-      return false;
-    }
-  }
-
-  if (activeFilter.skills.length) {
-    // filter for any class skill overlap
-    const filteredSkills = activeFilter.skills;
-    const levelSkills = level.details.skills;
-    if (!filteredSkills.some((skill) => levelSkills.includes(skill))) {
-      return false;
-    }
-  }
-
-  if (activeFilter.sellingPoints.length) {
-    // filter for any sellingPoint overlap
-    const filteredPoints = activeFilter.sellingPoints;
-    const levelPoints = level.details.sellingPoints;
-    if (!filteredPoints.some((point) => levelPoints.includes(point))) {
-      return false;
-    }
-  }
-
-  return true; // nothing said no!
-};
-
 const filterTemplate = [
   {
     label: "EXPERIENCE",
@@ -88,12 +47,9 @@ const filterTemplate = [
 ];
 
 const ClassPanel = ({ experienceLevels }) => {
-  const [filters, activeFilter, updateActiveFilter] = useFilters(
+  const [filters, activeFilter, updateActiveFilter, activeLevels] = useFilters(
     filterTemplate,
     experienceLevels
-  );
-  const activeLevels = experienceLevels.filter((level) =>
-    filterLevel(activeFilter, level)
   );
 
   return (
