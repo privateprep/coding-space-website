@@ -74,7 +74,7 @@ const filterLevel = (activeFilter, level) => {
     const filteredExps = activeFilter.experiences;
     const levelExp = level.details.experience;
     if (!filteredExps.some((exp) => levelExp === exp)) {
-      return false
+      return false;
     }
   }
 
@@ -83,7 +83,7 @@ const filterLevel = (activeFilter, level) => {
     const filteredGenders = activeFilter.genders;
     const levelGender = level.details.gender;
     if (!filteredGenders.some((gender) => levelGender === gender)) {
-      return false
+      return false;
     }
   }
 
@@ -92,7 +92,7 @@ const filterLevel = (activeFilter, level) => {
     const filteredSkills = activeFilter.skills;
     const levelSkills = level.details.skills;
     if (!filteredSkills.some((skill) => levelSkills.includes(skill))) {
-      return false
+      return false;
     }
   }
 
@@ -100,13 +100,17 @@ const filterLevel = (activeFilter, level) => {
     // filter for any sellingPoint overlap
     const filteredPoints = activeFilter.sellingPoints;
     const levelPoints = level.details.sellingPoints;
-    if (!filteredPoints.some((point) => level.details.sellingPoints.includes(point))) {
-      return false
+    if (
+      !filteredPoints.some((point) =>
+        level.details.sellingPoints.includes(point)
+      )
+    ) {
+      return false;
     }
   }
 
   return true; // nothing said no!
-}
+};
 
 const ClassPanel = ({ experienceLevels }) => {
   const filters = [
@@ -156,26 +160,28 @@ const ClassPanel = ({ experienceLevels }) => {
     const value = event.target.value;
 
     if (event.target.checked) {
-      setActiveFilter(current => ({
+      setActiveFilter((current) => ({
         ...current,
-        [filter.filterKey]: [...current[filter.filterKey], value] // add item
-      }))
+        [filter.filterKey]: [...current[filter.filterKey], value], // add item
+      }));
     } else {
-      setActiveFilter(current => ({
+      setActiveFilter((current) => ({
         ...current,
-        [filter.filterKey]: current[filter.filterKey].filter(val => val !== value) // filter item
-      }))
+        [filter.filterKey]: current[filter.filterKey].filter(
+          (val) => val !== value
+        ), // filter item
+      }));
     }
-  }
+  };
 
   return (
     <div className="ClassPanel">
       <form
         className="ClassPanel__filter-form"
-          onSubmit={(e) => {
-            e.preventDefault();
-          }}
-        >
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+      >
         {filters.map((filter, filterIndex) => (
           <div className="filter-group" key={filterIndex}>
             <h4 className="filter-group__label">{filter.label}</h4>
