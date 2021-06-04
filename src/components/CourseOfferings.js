@@ -151,6 +151,17 @@ const sortClasses = (a, b) => {
   if (a.startsAt < b.startsAt) return -1;
 };
 
+const filterTemplate = [
+  {
+    label: "SEMESTER",
+    filterKey: "semesters",
+    type: "checkbox",
+    initialValue: [],
+    optionValueKeys: ["semester"],
+    optionLabelKeys: ["semester"],
+  },
+]
+
 const CourseOfferings = ({
   courseOfferingEndpoint,
   isCamp,
@@ -159,6 +170,11 @@ const CourseOfferings = ({
   const [lastFetchedAt, setLastFetchedAt] = React.useState();
   const [classes, setClasses] = React.useState([]);
   const [error, setError] = React.useState();
+
+  const [filters, activeFilter, updateActiveFilter] = useFilters(
+    filterTemplate,
+    classes
+  );
 
   React.useEffect(() => {
     if (!isLoading && !lastFetchedAt && !error) {
@@ -207,40 +223,70 @@ const CourseOfferings = ({
       <div className="courseOfferings">
         <h2>Now Enrolling</h2>
 
-        {numCategories > 1 ? (
-          // probably GirlCode
-          Object.keys(classesByCategory)
-            .sort((a, b) => {
-              // beg comes first
-              return a.localeCompare(b)
-            })
-            .map((categoryName, catIndex) => (
-              <React.Fragment key={catIndex}>
-                <h3>{categoryName}</h3>
-                <ul className="offering-list">
-                  {classesByCategory[categoryName].map(offering => (
-                    <CourseOffering
-                      key={offering.classTypeId}
-                      isCamp={isCamp}
-                      {...offering}
+        <form
+          className="courseOfferings__filter-form"
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+        >
+          {filters.map((filter, filterIndex) => (
+            <div className="filter-group" key={filterIndex}>
+              <h4 className="filter-group__label">{filter.label}</h4>
+              <ul className="filter-group__options">
+                {filter.options.map((opt) => (
+                  <li className="filter-group__options__item" key={opt.id}>
+                    <input
+                      type={filter.type}
+                      id={opt.id}
+                      name={opt.name}
+                      value={opt.value}
+                      onChange={(event) => updateActiveFilter(filter, event)}
+                      checked={opt.checked}
                     />
-                  ))}
-                </ul>
-                <hr />
-              </React.Fragment>
-            ))
-        ) : (
-          // normal case
-          <ul className="offering-list">
-            {classes.map(offering => (
-              <CourseOffering
-                key={offering.classTypeId}
-                isCamp={isCamp}
-                {...offering}
-              />
-            ))}
-          </ul>
-        )}
+                    <label htmlFor={opt.id}>{opt.value}</label>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </form>
+
+        <div className="courseOfferings__content">
+          {numCategories > 1 ? (
+            // probably GirlCode
+            Object.keys(classesByCategory)
+              .sort((a, b) => {
+                // beg comes first
+                return a.localeCompare(b)
+              })
+              .map((categoryName, catIndex) => (
+                <React.Fragment key={catIndex}>
+                  <h3>{categoryName}</h3>
+                  <ul className="offering-list">
+                    {classesByCategory[categoryName].map(offering => (
+                      <CourseOffering
+                        key={offering.classTypeId}
+                        isCamp={isCamp}
+                        {...offering}
+                      />
+                    ))}
+                  </ul>
+                  <hr />
+                </React.Fragment>
+              ))
+          ) : (
+            // normal case
+            <ul className="offering-list">
+              {classes.map(offering => (
+                <CourseOffering
+                  key={offering.classTypeId}
+                  isCamp={isCamp}
+                  {...offering}
+                />
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
     );
   }
