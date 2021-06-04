@@ -40,7 +40,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
         <ul className="locations-list">
           {locations.sort(sortLocations).map((location) => (
             <li
-              key={location.id}
+              key={location.classLocationId}
               className={`locations-list__item${
                 location.classLocationId === activeLocation.classLocationId
                   ? " locations-list__item--active"
