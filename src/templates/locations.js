@@ -28,9 +28,10 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       levelCategoryIds.includes(catId)
     );
   });
-  const locationQueryString = activeLocation.isOnline
-    ? `?class_location_names[]=${activeLocation.name}`
-    : `?class_location_ids[]=${activeLocation.classLocationId}`;
+
+  const locationQueryString = !!activeLocation.courseOfferingsEndpoint
+    ? new URL(activeLocation.courseOfferingsEndpoint).search
+    : "";
 
   return (
     <div className="LocationsPanel">
@@ -41,7 +42,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
             <li
               key={location.id}
               className={`locations-list__item${
-                location.classLocationId === activeLocation?.classLocationId
+                location.classLocationId === activeLocation.classLocationId
                   ? " locations-list__item--active"
                   : ""
               }`}
