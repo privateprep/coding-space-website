@@ -11,8 +11,12 @@
   max-width: 100rem;
 
   margin: auto;
-  padding: 4rem;
+  padding: 1rem;
   position: relative;
+
+  @media (min-width: 576px) {
+    padding: 4rem;
+  }
 }
 
 .cta-contact__title {
