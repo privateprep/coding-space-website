@@ -152,12 +152,10 @@ const sortClasses = (a, b) => {
 const CourseOfferings = ({
   courseOfferingEndpoint,
   isCamp,
-  filters = [], // TODO: build me from res
 }) => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [lastFetchedAt, setLastFetchedAt] = React.useState();
-  const [completeOfferings, setCompleteOfferings] = React.useState([]);
-  const [filteredOfferings, setFilteredOfferings] = React.useState([]);
+  const [classes, setClasses] = React.useState([]);
   const [error, setError] = React.useState();
 
   React.useEffect(() => {
@@ -166,8 +164,7 @@ const CourseOfferings = ({
 
       GET(`${process.env.DASHBOARD_BASE_URL}${courseOfferingEndpoint}`)
         .then(({ classTypes }) => {
-          const classes = classTypes; // filter me?
-          setCompleteOfferings(classes.sort(sortClasses));
+          setClasses(classTypes.sort(sortClasses));
           setLastFetchedAt(Date.now());
           setIsLoading(false);
         })
@@ -177,18 +174,6 @@ const CourseOfferings = ({
         });
     }
   }, [isLoading, lastFetchedAt, error, courseOfferingEndpoint]);
-
-  const filterClasses = e => {
-    const filter = e.target.value;
-    if (filter === "none") {
-      setFilteredOfferings([]);
-    } else {
-      const filteredOfferings = completeOfferings.filter(classOffering =>
-        classOffering.classTypeName.includes(filter)
-      );
-      setFilteredOfferings(filteredOfferings);
-    }
-  };
 
   if (!!error) {
     return (
@@ -212,29 +197,13 @@ const CourseOfferings = ({
     );
   }
 
-  let classOfferings = !!filteredOfferings.length
-    ? filteredOfferings
-    : completeOfferings;
-  if (!!lastFetchedAt && !!classOfferings.length) {
-    const classesByCategory = groupBy(classOfferings, "categoryName");
+  if (!!lastFetchedAt && !!classes.length) {
+    const classesByCategory = groupBy(classes, "categoryName");
     const numCategories = Object.keys(classesByCategory).length;
 
     return (
       <div className="courseOfferings">
         <h2>Now Enrolling</h2>
-        {!!filters.length && (
-          <div className="class-filters">
-            <h3>Filters</h3>
-            {/* eslint-disable-next-line */}
-            <select onChange={filterClasses}>
-              {filters.map(filter => (
-                <option key={filter} value={filter}>
-                  {filter}
-                </option>
-              ))}
-            </select>
-          </div>
-        )}
 
         {numCategories > 1 ? (
           // probably GirlCode
@@ -261,7 +230,7 @@ const CourseOfferings = ({
         ) : (
           // normal case
           <ul className="offering-list">
-            {classOfferings.map(offering => (
+            {classes.map(offering => (
               <CourseOffering
                 key={offering.classTypeId}
                 isCamp={isCamp}
