@@ -9,25 +9,19 @@ import PageBuilder from "../components/PageBuilder";
 
 import "./styles/locations.scss";
 
+const sortLocations = (a, b) => {
+  /* online, last */
+  if (a.isOnline !== b.isOnline) {
+    if (a.isOnline) return 1;
+    if (b.isOnline) return -1;
+  }
+
+  /* ABC'd by names */
+  return a.name.localeCompare(b.name);
+};
+
 const LocationsPanel = ({ locations, experienceLevels }) => {
-  const inPersonLocations = locations.filter((l) => !l.isOnline) || [];
-  const onlineLocation = locations
-    .filter((l) => l.isOnline)
-    .reduce(
-      (shared, l) => ({
-        ...shared,
-        categoryIds: Array.from(
-          new Set(...shared.categoryIds, ...l.categoryIds)
-        ),
-      }),
-      {
-        classLocationId: "online",
-        name: "Online",
-        isOnline: true,
-        categoryIds: [],
-      }
-    );
-  const [activeLocation, setActiveLocation] = useState(inPersonLocations[0]);
+  const [activeLocation, setActiveLocation] = useState(locations[0]);
   const activeLevels = experienceLevels.filter((l) => {
     const levelCategoryIds = l.categoryIds.map((str) => Number(str)); // Netlify CMS saves strings
     return activeLocation.categoryIds.some((catId) =>
@@ -43,7 +37,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__header">
         <h2 className="LocationsPanel__header__title">Explore Locations</h2>
         <ul className="locations-list">
-          {[...inPersonLocations, onlineLocation].map((location) => (
+          {locations.sort(sortLocations).map((location) => (
             <li
               key={location.id}
               className={`locations-list__item${
