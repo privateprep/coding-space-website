@@ -24,23 +24,50 @@ const buildOptions = (collection, filter) => {
   let options = [];
 
   for (let item of collection) {
-    const rawValue = dig(item, filter.optionValueKeys);
+    if (filter.optionValueKeys) {
+      // value and label will be matching strings
+      const rawValue = dig(item, filter.optionValueKeys);
 
-    if (Array.isArray(rawValue)) {
-      // associated with many
-      for (let value of rawValue) {
-        if (!!value && !options.some((opt) => opt.value === value)) {
-          const label = value; // TODO: update me
-          const option = buildOption(filter.filterKey, value, label);
+      if (Array.isArray(rawValue)) {
+        // associated with many
+        for (let value of rawValue) {
+          if (!!value && !options.some((opt) => opt.value === value)) {
+            const label = value;
+            const option = buildOption(filter.filterKey, value, label);
+            options.push(option);
+          }
+        }
+      } else {
+        // is as is
+        if (!!rawValue && !options.some((opt) => opt.value === rawValue)) {
+          const label = rawValue;
+          const option = buildOption(filter.filterKey, rawValue, label);
           options.push(option);
         }
       }
     } else {
-      // just a string or id number
-      if (!!rawValue && !options.some((opt) => opt.value === rawValue)) {
-        const label = rawValue; // TODO: update me
-        const option = buildOption(filter.filterKey, rawValue, label);
-        options.push(option);
+      // label != value but come from same object
+      const rawNestedItem = dig(item, filter.optionKeys);
+
+      if (Array.isArray(rawNestedItem)) {
+        for (let nestedItem of rawNestedItem) {
+          const value = dig(nestedItem, filter.valueKeys);
+          console.log(value);
+
+          if (!!value && !options.some((opt) => opt.value === value)) {
+            const label = dig(nestedItem, filter.labelKeys);
+            const option = buildOption(filter.filterKey, value, label);
+            options.push(option);
+          }
+        }
+      } else {
+        const value = dig(rawNestedItem, filter.valueKeys);
+
+        if (!!value && !options.some((opt) => opt.value === value)) {
+          const label = dig(rawNestedItem, filter.labelKeys);
+          const option = buildOption(filter.filterKey, value, label);
+          options.push(option);
+        }
       }
     }
   }
@@ -64,17 +91,37 @@ const filterItem = (item, activeFilter, filters) => {
     const activeValue = activeFilter[filter.filterKey];
 
     if (activeValue?.length) {
-      const rawValue = dig(item, filter.optionValueKeys);
+      if (filter.optionValueKeys) {
+        // value and label are matching strings
+        const rawValue = dig(item, filter.optionValueKeys);
 
-      if (Array.isArray(rawValue)) {
-        // filter for any overlap
-        if (!activeValue.some((val) => rawValue.includes(val))) {
-          return false;
+        if (Array.isArray(rawValue)) {
+          // filter for any overlap
+          if (!activeValue.some((val) => rawValue.includes(val))) {
+            return false;
+          }
+        } else {
+          // filter for exact matching
+          if (!activeValue.includes(rawValue)) {
+            return false;
+          }
         }
       } else {
-        // filter for exact matching
-        if (!activeValue.includes(rawValue)) {
-          return false;
+        // label != value but come from same object
+        const rawNestedItem = dig(item, filter.optionKeys);
+
+        if (Array.isArray(rawNestedItem)) {
+          // filter for any overlap
+          const itemValues = rawNestedItem.map(nested => dig(nested, filter.valueKeys));
+          if (!activeValue.some((val) => itemValues.includes(val))) {
+            return false;
+          }
+        } else {
+          // filter for exact matching
+          const itemValue = dig(rawNestedItem, filter.valueKeys)
+          if (!activeValue.includes(itemValue)) {
+            return false
+          }
         }
       }
     }
