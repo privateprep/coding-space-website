@@ -171,7 +171,7 @@ const CourseOfferings = ({
   const [classes, setClasses] = React.useState([]);
   const [error, setError] = React.useState();
 
-  const [filters, activeFilter, updateActiveFilter] = useFilters(
+  const [filters, activeFilter, updateActiveFilter, filteredClasses] = useFilters(
     filterTemplate,
     classes
   );
@@ -216,7 +216,7 @@ const CourseOfferings = ({
   }
 
   if (!!lastFetchedAt && !!classes.length) {
-    const classesByCategory = groupBy(classes, "categoryName");
+    const classesByCategory = groupBy(filteredClasses, "categoryName");
     const numCategories = Object.keys(classesByCategory).length;
 
     return (
@@ -241,7 +241,7 @@ const CourseOfferings = ({
                       name={opt.name}
                       value={opt.value}
                       onChange={(event) => updateActiveFilter(filter, event)}
-                      checked={opt.checked}
+                      checked={activeFilter[filter.filterKey].includes(opt.value)}
                     />
                     <label htmlFor={opt.id}>{opt.value}</label>
                   </li>
@@ -277,7 +277,7 @@ const CourseOfferings = ({
           ) : (
             // normal case
             <ul className="offering-list">
-              {classes.map(offering => (
+              {filteredClasses.map(offering => (
                 <CourseOffering
                   key={offering.classTypeId}
                   isCamp={isCamp}
@@ -294,6 +294,7 @@ const CourseOfferings = ({
   return (
     <div className="courseOfferings">
       <h2>No upcoming offerings</h2>
+      <p>Contact our team to discuss other options!</p>
     </div>
   );
 };
