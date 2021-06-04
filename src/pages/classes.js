@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import { isMobile } from "../utils/helpers";
 
 import { useFilters } from "../hooks";
 
@@ -42,14 +43,8 @@ const filterTemplate = [
   },
 ];
 
-const ClassPanel = ({ experienceLevels }) => {
-  const [filters, activeFilter, updateActiveFilter, activeLevels] = useFilters(
-    filterTemplate,
-    experienceLevels
-  );
-
+const FilterForm = ({ filters, updateActiveFilter, activeFilter }) => {
   return (
-    <div className="ClassPanel">
       <form
         className="ClassPanel__filter-form"
         onSubmit={(e) => {
@@ -77,6 +72,33 @@ const ClassPanel = ({ experienceLevels }) => {
           </div>
         ))}
       </form>
+  );
+};
+
+const ClassPanel = ({ experienceLevels }) => {
+  const [filters, activeFilter, updateActiveFilter, activeLevels] = useFilters(
+    filterTemplate,
+    experienceLevels
+  );
+
+  return (
+    <div className="ClassPanel">
+      {!!isMobile() ? (
+        <details className="custom-details">
+          <summary>Filter By</summary>
+          <FilterForm
+            activeFilter={activeFilter}
+            filters={filters}
+            updateActiveFilter={updateActiveFilter}
+          />
+        </details>
+      ) : (
+        <FilterForm
+          activeFilter={activeFilter}
+          filters={filters}
+          updateActiveFilter={updateActiveFilter}
+        />
+      )}
       <ClassCards activeLevels={activeLevels} />
     </div>
   );
@@ -84,7 +106,7 @@ const ClassPanel = ({ experienceLevels }) => {
 
 const ClassesPage = ({ data }) => {
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
-    (levelNode) => {
+    levelNode => {
       return {
         ...levelNode.frontmatter,
         slug: levelNode.fields.slug,
