@@ -21,7 +21,12 @@ export const groupBy = (arr, key) => {
   );
 };
 
-export const isMobile = _ =>
-  /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  );
+export const isMobile = _ => {
+  if (typeof navigator !== "undefined") {
+    return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator?.userAgent
+    );
+  } else {
+    return false;
+  }
+};
