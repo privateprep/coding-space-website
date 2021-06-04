@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
@@ -16,15 +15,8 @@ export const ExperienceLevelsTemplate = ({
   title,
   helmet,
 }) => {
-  const {
-    age,
-    gender,
-    byline,
-    mdContent,
-    experience,
-    skills,
-    sellingPoints,
-  } = details;
+  const { age, gender, byline, mdContent, experience, skills, sellingPoints } =
+    details;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -60,7 +52,7 @@ export const ExperienceLevelsTemplate = ({
             Ideal for those looking for
           </p>
           <ul className="course-hero__card__detail-content">
-            {sellingPoints.map(point => (
+            {sellingPoints.map((point) => (
               <li key={point}>{point}</li>
             ))}
           </ul>
@@ -72,40 +64,24 @@ export const ExperienceLevelsTemplate = ({
   );
 };
 
-ExperienceLevelsTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object,
-};
-
 const ExperienceLevels = ({ data }) => {
   const { markdownRemark: page } = data;
 
   return (
     <Layout>
+      <Helmet titleTemplate="%s | Experience Level">
+        <title>{`${page.frontmatter.title}`}</title>
+        <meta
+          name="description"
+          content={`${page.frontmatter.seo_description}`}
+        />
+      </Helmet>
       <ExperienceLevelsTemplate
         description={page.frontmatter.seo_description}
-        helmet={
-          <Helmet titleTemplate="%s | Experience Level">
-            <title>{`${page.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${page.frontmatter.seo_description}`}
-            />
-          </Helmet>
-        }
         {...page.frontmatter}
       />
     </Layout>
   );
-};
-
-ExperienceLevels.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
 };
 
 export default ExperienceLevels;
