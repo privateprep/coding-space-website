@@ -89,10 +89,12 @@ const filterItem = (item, activeFilter, filters) => {
 const useFilters = (filterTemplate, collection) => {
   const filters = React.useMemo(
     () =>
-      filterTemplate.map((filter) => ({
-        ...filter,
-        options: buildOptions(collection, filter),
-      })),
+      filterTemplate
+        .map((filter) => ({
+          ...filter,
+          options: buildOptions(collection, filter),
+        }))
+        .filter((filter) => filter.options.length > 1),
     [filterTemplate, collection]
   );
   const [activeFilter, setActiveFilter] = React.useState(
