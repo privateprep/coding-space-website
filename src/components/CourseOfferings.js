@@ -31,23 +31,14 @@ const CourseOffering = ({
     userTimeZone = "America/New_York";
   }
 
-  const firstDate = moment(startsAt)
-    .tz(userTimeZone)
-    .format("MMM D");
-  const lastDate = moment(lastSessionAt)
-    .tz(userTimeZone)
-    .format("MMM D");
+  const firstDate = moment(startsAt).tz(userTimeZone).format("MMM D");
+  const lastDate = moment(lastSessionAt).tz(userTimeZone).format("MMM D");
 
-  const dateRange = firstDate !== lastDate ? `${firstDate} - ${lastDate}` : firstDate;
-  const classStarts = moment(startsAt)
-    .tz(userTimeZone)
-    .format("h:mm");
-  const classEnds = moment(endsAt)
-    .tz(userTimeZone)
-    .format("LT");
-  const timeZone = moment(startsAt)
-    .tz(userTimeZone)
-    .format("z");
+  const dateRange =
+    firstDate !== lastDate ? `${firstDate} - ${lastDate}` : firstDate;
+  const classStarts = moment(startsAt).tz(userTimeZone).format("h:mm");
+  const classEnds = moment(endsAt).tz(userTimeZone).format("LT");
+  const timeZone = moment(startsAt).tz(userTimeZone).format("z");
   const scheduledTimeRange = `${classStarts} - ${classEnds} ${timeZone}`;
 
   return (
@@ -66,7 +57,9 @@ const CourseOffering = ({
         </li>
         <li>
           <strong>Dates</strong>
-          {` ${sessionCount === 1 ? `1 Session` : `${sessionCount} Sessions`} | ${dateRange}`}
+          {` ${
+            sessionCount === 1 ? `1 Session` : `${sessionCount} Sessions`
+          } | ${dateRange}`}
         </li>
         <li>
           <strong>{inSession ? "Next Session" : "First Session"}</strong>{" "}
@@ -85,21 +78,21 @@ const CourseOffering = ({
         )}
       </ul>
       <div className="actions">
-        {enrollmentTypes.map(type => {
-          if (type === "all") {
+        {enrollmentTypes.map(({ buttonLabel, value }) => {
+          if (value === "all") {
             return (
               <Link
-                key={type}
+                key={value}
                 to={`/sign_up/classes/${classTypeId}`}
                 className="link-button sign-up"
               >
                 SIGN UP
               </Link>
             );
-          } else if (type === "trial_class") {
+          } else if (value === "trial_class") {
             return (
               <Link
-                key={type}
+                key={value}
                 to={`/sign_up/classes/${classTypeId}?trial_class=true`}
                 className="link-button sign-up"
               >
@@ -108,8 +101,8 @@ const CourseOffering = ({
             );
           } else {
             return (
-              <p key={type} style={{ color: "red" }}>
-                Unknown enrollmentType: {type}
+              <p key={value} style={{ color: "red" }}>
+                Unknown enrollmentType: {value}
               </p>
             );
           }
@@ -158,23 +151,56 @@ const filterTemplate = [
     type: "checkbox",
     initialValue: [],
     optionValueKeys: ["semester"],
-    optionLabelKeys: ["semester"],
   },
-]
+  {
+    label: "LOCATION",
+    filterKey: "class_location_ids",
+    type: "checkbox",
+    initialValue: [], // TODO: parse me from window.location.search!
+    optionKeys: [], // value + label off top-level object directly
+    valueKeys: ["locationId"],
+    labelKeys: ["locationName"],
+  },
+  {
+    label: "SIGNUP TYPE",
+    filterKey: "enrollmentTypes",
+    type: "checkbox",
+    initialValue: [],
+    optionKeys: ["enrollmentTypes"],
+    valueKeys: ["value"],
+    labelKeys: ["filterLabel"],
+  },
+];
 
-const CourseOfferings = ({
-  courseOfferingEndpoint,
-  isCamp,
-}) => {
+// enhance class type server response
+const formatResponse = (classType) => {
+  const enrollmentTypes = classType.enrollmentTypes.map((dashboard_type) => {
+    const filterLabel = dashboard_type === "all" ? "Complete" : "Trial";
+    const linkLabel =
+      dashboard_type === "all"
+        ? "SIGN UP"
+        : classType.isCamp
+        ? "TRY A DAY"
+        : "TRY A CLASS";
+
+    return { filterLabel, linkLabel, value: dashboard_type };
+  });
+
+  return {
+    ...classType,
+    enrollmentTypes,
+    locationId: String(classType.locationId),
+  };
+};
+
+const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [lastFetchedAt, setLastFetchedAt] = React.useState();
   const [classes, setClasses] = React.useState([]);
   const [error, setError] = React.useState();
 
-  const [filters, activeFilter, updateActiveFilter, filteredClasses] = useFilters(
-    filterTemplate,
-    classes
-  );
+  const [filters, activeFilter, updateActiveFilter, filteredClasses] =
+    useFilters(filterTemplate, classes);
 
   React.useEffect(() => {
     if (!isLoading && !lastFetchedAt && !error) {
@@ -182,11 +208,11 @@ const CourseOfferings = ({
 
       GET(`${process.env.DASHBOARD_BASE_URL}${courseOfferingEndpoint}`)
         .then(({ classTypes }) => {
-          setClasses(classTypes.sort(sortClasses));
+          setClasses(classTypes.map(formatResponse).sort(sortClasses));
           setLastFetchedAt(Date.now());
           setIsLoading(false);
         })
-        .catch(err => {
+        .catch((err) => {
           setError(err);
           setLastFetchedAt(Date.now());
         });
@@ -241,9 +267,11 @@ const CourseOfferings = ({
                       name={opt.name}
                       value={opt.value}
                       onChange={(event) => updateActiveFilter(filter, event)}
-                      checked={activeFilter[filter.filterKey].includes(opt.value)}
+                      checked={activeFilter[filter.filterKey].includes(
+                        opt.value
+                      )}
                     />
-                    <label htmlFor={opt.id}>{opt.value}</label>
+                    <label htmlFor={opt.id}>{opt.label}</label>
                   </li>
                 ))}
               </ul>
@@ -257,13 +285,13 @@ const CourseOfferings = ({
             Object.keys(classesByCategory)
               .sort((a, b) => {
                 // beg comes first
-                return a.localeCompare(b)
+                return a.localeCompare(b);
               })
               .map((categoryName, catIndex) => (
                 <React.Fragment key={catIndex}>
                   <h3>{categoryName}</h3>
                   <ul className="offering-list">
-                    {classesByCategory[categoryName].map(offering => (
+                    {classesByCategory[categoryName].map((offering) => (
                       <CourseOffering
                         key={offering.classTypeId}
                         isCamp={isCamp}
@@ -277,7 +305,7 @@ const CourseOfferings = ({
           ) : (
             // normal case
             <ul className="offering-list">
-              {filteredClasses.map(offering => (
+              {filteredClasses.map((offering) => (
                 <CourseOffering
                   key={offering.classTypeId}
                   isCamp={isCamp}
@@ -298,6 +326,5 @@ const CourseOfferings = ({
     </div>
   );
 };
-
 
 export default CourseOfferings;
