@@ -6,6 +6,8 @@ import moment from "moment-timezone";
 import { GET } from "../utils/service";
 import { groupBy } from "../utils/helpers";
 
+import { useFilters } from "../hooks";
+
 import "./CourseOfferings.css";
 
 const CourseOffering = ({
