@@ -54,7 +54,36 @@ const buildInitialFilter = (filters) =>
     return initialFilter;
   }, {});
 
-// actual hook
+// callback to filter active items in collection
+const filterItem = (item, activeFilter, filters) => {
+  // check check filter key, try to knock out
+  // only supports value collections (checkbox)
+  for (const filter of filters) {
+    const activeValue = activeFilter[filter.filterKey];
+
+    if (activeValue?.length) {
+      const rawValue = dig(item, filter.optionValueKeys);
+
+      if (Array.isArray(rawValue)) {
+        // filter for any overlap
+        if (!activeValue.some((val) => rawValue.includes(val))) {
+          return false;
+        }
+      } else {
+        // filter for exact matching
+        if (!activeValue.includes(rawValue)) {
+          return false;
+        }
+      }
+    }
+  }
+
+  return true; // nothing said no!
+};
+
+// Finally...
+// the actual hook
+// NOTE: currently only checkbox filters are supported
 
 const useFilters = (filterTemplate, collection) => {
   const filters = filterTemplate.map((filter) => ({
@@ -87,7 +116,12 @@ const useFilters = (filterTemplate, collection) => {
     }
   }, []);
 
-  return [filters, activeFilter, updateActiveFilter];
+  const activeCollection = React.useMemo(
+    () => collection.filter((item) => filterItem(item, activeFilter, filters)),
+    [collection, filters, activeFilter]
+  );
+
+  return [filters, activeFilter, updateActiveFilter, activeCollection];
 };
 
 export default useFilters;
