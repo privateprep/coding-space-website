@@ -1,4 +1,5 @@
 import * as React from "react";
+import useSearchParams from "./useSearchParams";
 
 // ruby's 'dig' for JS
 // adapted from https://github.com/joe-re/object-dig/blob/master/src/index.js
@@ -91,9 +92,9 @@ const buildOptions = (collection, filter) => {
 
 // builds initial filter state
 // looks like `{ filterKey1: initialValue1, filterKey2, initialValue2 }`
-const buildInitialFilter = (filters) =>
+const buildInitialFilter = (filters, searchParams) =>
   filters.reduce((initialFilter, filter) => {
-    initialFilter[filter.filterKey] = filter.initialValue;
+    initialFilter[filter.filterKey] = dig(searchParams, [filter.filterKey]) ?? []; // checkbox assumed!
     return initialFilter;
   }, {});
 
@@ -149,6 +150,8 @@ const filterItem = (item, activeFilter, filters) => {
 // NOTE: currently only checkbox filters are supported
 
 const useFilters = (filterTemplate, collection) => {
+  const searchParams = useSearchParams();
+
   const filters = React.useMemo(
     () =>
       filterTemplate
@@ -166,8 +169,8 @@ const useFilters = (filterTemplate, collection) => {
   // if filters change (like from a fetch request),
   // be sure initial filter state watches!
   React.useEffect(() => {
-    setActiveFilter(() => buildInitialFilter(filters))
-  }, [filters])
+    setActiveFilter(() => buildInitialFilter(filters, searchParams))
+  }, [filters, searchParams])
 
   const updateActiveFilter = React.useCallback((filter, event) => {
     const value = event.target.value;
