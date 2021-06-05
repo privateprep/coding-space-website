@@ -178,7 +178,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
       label: "SEMESTER",
       filterKey: "semesters",
       type: "checkbox",
-      initialValue: [],
+      initialValue: searchParams.semesters || [],
       optionValueKeys: ["semester"],
     },
     {
@@ -194,7 +194,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
       label: "SIGNUP TYPE",
       filterKey: "enrollmentTypes",
       type: "checkbox",
-      initialValue: [],
+      initialValue: searchParams.enrollmentTypes || [],
       optionKeys: ["enrollmentTypes"],
       valueKeys: ["value"],
       labelKeys: ["filterLabel"],
