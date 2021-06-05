@@ -6,7 +6,7 @@ import moment from "moment-timezone";
 import { GET } from "../utils/service";
 import { groupBy } from "../utils/helpers";
 
-import { useFilters, useSearchParams } from "../hooks";
+import { useFilters } from "../hooks";
 
 import "./CourseOfferings.scss";
 
@@ -165,6 +165,31 @@ const formatResponse = (classType) => {
   };
 };
 
+const filterTemplate = [
+  {
+    label: "SEMESTER",
+    filterKey: "semesters",
+    type: "checkbox",
+    optionValueKeys: ["semester"],
+  },
+  {
+    label: "LOCATION",
+    filterKey: "class_location_ids",
+    type: "checkbox",
+    optionKeys: [], // value + label off top-level object directly
+    valueKeys: ["locationId"],
+    labelKeys: ["locationName"],
+  },
+  {
+    label: "SIGNUP TYPE",
+    filterKey: "enrollmentTypes",
+    type: "checkbox",
+    optionKeys: ["enrollmentTypes"],
+    valueKeys: ["value"],
+    labelKeys: ["filterLabel"],
+  },
+];
+
 const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [lastFetchedAt, setLastFetchedAt] = React.useState();
@@ -172,34 +197,6 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [error, setError] = React.useState();
 
   // setup filters
-  const searchParams = useSearchParams();
-  const filterTemplate = React.useMemo(() => [
-    {
-      label: "SEMESTER",
-      filterKey: "semesters",
-      type: "checkbox",
-      initialValue: searchParams.semesters || [],
-      optionValueKeys: ["semester"],
-    },
-    {
-      label: "LOCATION",
-      filterKey: "class_location_ids",
-      type: "checkbox",
-      initialValue: searchParams.class_location_ids || [],
-      optionKeys: [], // value + label off top-level object directly
-      valueKeys: ["locationId"],
-      labelKeys: ["locationName"],
-    },
-    {
-      label: "SIGNUP TYPE",
-      filterKey: "enrollmentTypes",
-      type: "checkbox",
-      initialValue: searchParams.enrollmentTypes || [],
-      optionKeys: ["enrollmentTypes"],
-      valueKeys: ["value"],
-      labelKeys: ["filterLabel"],
-    },
-  ], [searchParams]);
   const [filters, activeFilter, updateActiveFilter, filteredClasses] =
     useFilters(filterTemplate, classes);
 
