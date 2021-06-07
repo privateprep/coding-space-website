@@ -143,7 +143,7 @@ exports.createPages = ({ actions, graphql }) => {
   });
 };
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = async ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
   fmImagesToRelative(node); // convert image paths for gatsby images
 
@@ -154,6 +154,22 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     });
+
+    if (!!node.frontmatter && node.frontmatter.templateKey === `experience-levels`) {
+      if (node.frontmatter.courseOfferingEndpoint) {
+        console.log(`Loading extras for`, node.frontmatter.title);
+        const classTypesEndpoint = new URL(node.frontmatter.courseOfferingEndpoint, dashboardBaseUrl);
+        const { classTypes } = await GET(classTypesEndpoint);
+        const semesters = [...new Set(classTypes.map((ct) => ct.semester))];
+        createNodeField({
+          node,
+          name: `extras`,
+          value: { semesters }
+        })
+      } else {
+        throw new Error(`Missing 'courseOfferingEndpoint' for 'experience-level' node: ${JSON.stringify(node)}`)
+      }
+    }
   }
 };
 
