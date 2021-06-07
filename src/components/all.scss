@@ -154,9 +154,6 @@ sub {
 sup {
   top: -0.5em;
 }
-img {
-  border-style: none;
-}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -444,7 +441,8 @@ button--disabled .button--isSubmitting,
 }
 img {
   border-radius: 0;
-  width: 100%;
+  border-style: none;
+  max-width: 100%;
 }
 
 .btn {
