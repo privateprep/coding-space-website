@@ -84,8 +84,8 @@ const ClassPanel = ({ experienceLevels }) => {
   return (
     <div className="ClassPanel">
       {!!isMobile() ? (
-        <details className="custom-details">
-          <summary>Filter By</summary>
+        <details className="custom-details-tag">
+          <summary>Filter By </summary>
           <FilterForm
             activeFilter={activeFilter}
             filters={filters}

@@ -6,11 +6,6 @@
     width: 100%;
     color: var(--text-primary);
 
-    &__title {
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-
     &__subtitle {
       font-family: inherit;
       font-weight: 400;
@@ -22,13 +17,9 @@
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
     &__hero {
-      &__title {
-        margin: 1.75rem;
-      }
       &__subtitle {
         font-size: 1.5rem;
         line-height: 3rem;
-        margin: 1.75rem;
       }
       padding: 2rem 1rem;
     }
