@@ -37,17 +37,17 @@ const sortSemester = (a, b) => {
 
 const filterTemplate = [
   {
+    label: "EXPERIENCE",
+    filterKey: "experiences",
+    type: "checkbox",
+    optionValueKeys: ["details", "experience"],
+  },
+  {
     label: "SEMESTER",
     filterKey: "semesters",
     type: "checkbox",
     optionValueKeys: ["extras", "semesters"],
     sort: sortSemester
-},
-  {
-    label: "EXPERIENCE",
-    filterKey: "experiences",
-    type: "checkbox",
-    optionValueKeys: ["details", "experience"],
   },
   {
     label: "GENDER",
