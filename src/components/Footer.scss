@@ -54,6 +54,7 @@
     list-style: none;
     margin: 0 0 1rem;
     padding: 0;
+    text-indent: -1em; // align wrapped links
 
     &__link {
       line-height: 1.15;

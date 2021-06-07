@@ -1,20 +1,27 @@
 .classes {
+  padding: 1rem;
   &__hero {
-    padding: 2rem 1rem;
     max-width: 1170px;
     margin: auto;
     width: 100%;
     color: var(--text-primary);
 
-    &__title {
-      font-weight: bold;
-    }
-
     &__subtitle {
       font-family: inherit;
       font-weight: 400;
-      font-size: 1.5rem;
-      line-height: 3rem;
+      font-size: 1.17rem;
+      margin: 0;
+    }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    &__hero {
+      &__subtitle {
+        font-size: 1.5rem;
+        line-height: 3rem;
+      }
+      padding: 2rem 1rem;
     }
   }
 }
@@ -24,8 +31,7 @@
   margin: auto auto 4rem;
   width: 100%;
   display: grid;
-  grid-template-columns: 320px 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: 1fr;
 
   &__filter-form {
     .filter-group {
@@ -41,7 +47,7 @@
 
         &__item {
           input[type="checkbox"] {
-            margin-right: .25rem;
+            margin-right: 0.25rem;
           }
           label {
             font-weight: normal;
@@ -50,5 +56,17 @@
         }
       }
     }
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    grid-template-columns: 240px 1fr;
+    grid-gap: 1rem;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    grid-template-columns: 320px 1fr;
+    grid-gap: 2rem;
   }
 }
