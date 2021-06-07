@@ -175,13 +175,13 @@ const sortClassLocations = (a, b) => {
   }
 
   return a.value.localeCompare(b.value);
-}
+};
 
 const seasonScore = {
   Spring: 1,
   Summer: 2,
-  Fall: 3
-}
+  Fall: 3,
+};
 
 const sortSemester = (a, b) => {
   const [aSeason, aYear] = a.value.split(" ");
@@ -196,8 +196,8 @@ const sortSemester = (a, b) => {
   if (aSeasonScore > bSeasonScore) return 1;
   if (aSeasonScore < bSeasonScore) return -1;
 
-  return 0
-}
+  return 0;
+};
 
 const filterTemplate = [
   {
@@ -225,6 +225,38 @@ const filterTemplate = [
     labelKeys: ["filterLabel"],
   },
 ];
+
+const FilterForm = ({ filters, activeFilter, updateActiveFilter }) => {
+  return (
+    <form
+      className="courseOfferings__filter-form"
+      onSubmit={(e) => {
+        e.preventDefault();
+      }}
+    >
+      {filters.map((filter, filterIndex) => (
+        <div className="filter-group" key={filterIndex}>
+          <h4 className="filter-group__label">{filter.label}</h4>
+          <ul className="filter-group__options">
+            {filter.options.map((opt) => (
+              <li className="filter-group__options__item" key={opt.id}>
+                <input
+                  type={filter.type}
+                  id={opt.id}
+                  name={opt.name}
+                  value={opt.value}
+                  onChange={(event) => updateActiveFilter(filter, event)}
+                  checked={activeFilter[filter.filterKey].includes(opt.value)}
+                />
+                <label htmlFor={opt.id}>{opt.label}</label>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </form>
+  );
+};
 
 const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [isLoading, setIsLoading] = React.useState(false);
@@ -282,41 +314,17 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
     );
   }
 
-  if (!!lastFetchedAt && !!classes.length) {
+  if (!!lastFetchedAt && !!filteredClasses.length) {
     const classesByCategory = groupBy(filteredClasses, "categoryName");
     const numCategories = Object.keys(classesByCategory).length;
 
     return (
       <div className="courseOfferings">
-        <form
-          className="courseOfferings__filter-form"
-          onSubmit={(e) => {
-            e.preventDefault();
-          }}
-        >
-          {filters.map((filter, filterIndex) => (
-            <div className="filter-group" key={filterIndex}>
-              <h4 className="filter-group__label">{filter.label}</h4>
-              <ul className="filter-group__options">
-                {filter.options.map((opt) => (
-                  <li className="filter-group__options__item" key={opt.id}>
-                    <input
-                      type={filter.type}
-                      id={opt.id}
-                      name={opt.name}
-                      value={opt.value}
-                      onChange={(event) => updateActiveFilter(filter, event)}
-                      checked={activeFilter[filter.filterKey].includes(
-                        opt.value
-                      )}
-                    />
-                    <label htmlFor={opt.id}>{opt.label}</label>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </form>
+        <FilterForm
+          filters={filters}
+          activeFilter={activeFilter}
+          updateActiveFilter={updateActiveFilter}
+        />
 
         <div className="courseOfferings__content">
           <h2 class="title">Now Enrolling</h2>
@@ -359,10 +367,25 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
     );
   }
 
+  const areFiltersActive = Object.keys(activeFilter).some(
+    (filterKey) => !!activeFilter[filterKey].length
+  );
+
   return (
-    <div className="courseOfferings">
-      <h2>No upcoming offerings</h2>
-      <p>Contact our team to discuss other options!</p>
+    <div className="courseOfferings" style={{ minHeight: `20rem` }}>
+      <FilterForm
+        filters={filters}
+        activeFilter={activeFilter}
+        updateActiveFilter={updateActiveFilter}
+      />
+      <div className="courseOfferings__content">
+        <h2>Now Enrolling</h2>
+        <hr />
+        <p>
+          {areFiltersActive ? "No matching courses" : "No upcoming offerings"}
+        </p>
+        <p>Contact our team to discuss other options!</p>
+      </div>
     </div>
   );
 };
