@@ -183,8 +183,8 @@ export const pageQuery = graphql`
           }
           thumbnail {
             childImageSharp {
-              fluid(maxWidth: 480, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fixed(height: 200, quality: 80) {
+                ...GatsbyImageSharpFixed
               }
             }
             extension

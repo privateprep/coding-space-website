@@ -9,6 +9,7 @@
   --primary-rgb: 39, 69, 72;
   --text-primary: var(--primary);
   --text-accent: var(--accent);
+  --text-alt: var(--white);
   --primary-btn: #edc034;
   --disabled: #dfd1a7;
   --hr: rgba(0, 0, 0, 0.2);
@@ -153,9 +154,6 @@ sub {
 }
 sup {
   top: -0.5em;
-}
-img {
-  border-style: none;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -444,7 +442,8 @@ button--disabled .button--isSubmitting,
 }
 img {
   border-radius: 0;
-  width: 100%;
+  border-style: none;
+  max-width: 100%;
 }
 
 .btn {

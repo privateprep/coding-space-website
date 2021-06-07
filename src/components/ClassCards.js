@@ -39,7 +39,7 @@ const ClassCards = ({ activeLevels, slugExtension = "" }) => {
                     imageInfo={{
                       image: thumbnail,
                       alt: title,
-                      imageStyle: { width: "100%", height: "auto" },
+                      imageStyle: { width: "100%", height: "200px" },
                     }}
                   />
                 </div>

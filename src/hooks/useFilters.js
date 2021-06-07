@@ -53,7 +53,6 @@ const buildOptions = (collection, filter) => {
       if (Array.isArray(rawNestedItem)) {
         for (let nestedItem of rawNestedItem) {
           const value = dig(nestedItem, filter.valueKeys);
-          console.log(value);
 
           if (!!value && !options.some((opt) => opt.value === value)) {
             const label = dig(nestedItem, filter.labelKeys);

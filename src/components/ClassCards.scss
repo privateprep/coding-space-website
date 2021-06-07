@@ -1,4 +1,5 @@
 .class-card-list {
+  color: var(--primary);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: min-content;
@@ -15,7 +16,7 @@
     .class-card {
       padding: 1rem;
       display: grid;
-      min-height: 24.5rem;
+      min-height: 25rem;
       position: relative;
       grid-template-rows: repeat(3, max-content) 1fr max-content;
       border: 1px solid currentColor;
@@ -65,11 +66,12 @@
       &__byline {
         font-size: 0.875rem;
         margin: 0 0 0.5rem;
+        min-height:  30px;
       }
 
       &__img {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         padding-bottom: 0.875rem;
       }
@@ -92,8 +94,8 @@
       grid-column-end: span 6;
     }
 
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) {
+    // Medium devices (large tablets, computers and up)
+    @media (min-width: 992px) {
       grid-column-end: span 4;
     }
   }
