@@ -43,10 +43,12 @@
   padding: 1.5rem;
   display: grid;
   grid-template-columns: 1fr;
+  background-color: var(--primary);
+  color: var(--text-alt);
 
   &__header {
     text-align: center;
-    border-bottom: 1px solid var(--hr);
+    border-bottom: 4px solid var(--accent);
 
     &__title {
       margin: 0.5rem;
@@ -68,6 +70,7 @@
           padding: 0.25rem 0.85rem;
           margin: 4px;
           border-bottom: 4px solid currentColor;
+          color: var(--text-alt);
         }
 
         &--active {
