@@ -496,6 +496,10 @@ img {
   white-space: nowrap;
   padding: 0.5rem 0.75rem;
   margin: 1rem 0;
+
+  &[open] {
+    height: 95%; // space from next child
+  }
 }
 
 .margin-top-0 {
