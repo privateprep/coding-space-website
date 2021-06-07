@@ -12,7 +12,37 @@ import ClassCards from "../components/ClassCards";
 
 import "./classes.scss";
 
+const seasonScore = {
+  Spring: 1,
+  Summer: 2,
+  Fall: 3
+}
+
+const sortSemester = (a, b) => {
+  const [aSeason, aYear] = a.value.split(" ");
+  const [bSeason, bYear] = b.value.split(" ");
+
+  if (aYear > bYear) return 1;
+  if (aYear < bYear) return -1;
+
+  const aSeasonScore = seasonScore[aSeason] || 4;
+  const bSeasonScore = seasonScore[bSeason] || 4;
+
+  if (aSeasonScore > bSeasonScore) return 1;
+  if (aSeasonScore < bSeasonScore) return -1;
+
+  return 0
+
+}
+
 const filterTemplate = [
+  {
+    label: "SEMESTER",
+    filterKey: "semesters",
+    type: "checkbox",
+    optionValueKeys: ["extras", "semesters"],
+    sort: sortSemester
+},
   {
     label: "EXPERIENCE",
     filterKey: "experiences",
@@ -104,8 +134,8 @@ const ClassesPage = ({ data }) => {
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
     levelNode => {
       return {
-        ...levelNode.frontmatter,
-        slug: levelNode.fields.slug,
+        ...levelNode.frontmatter, // most MD file things
+        ...levelNode.fields // slug, extras
       };
     }
   );
@@ -163,6 +193,9 @@ export const pageQuery = graphql`
         }
         fields {
           slug
+          extras {
+            semesters
+          }
         }
       }
     }
