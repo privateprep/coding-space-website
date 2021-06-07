@@ -73,18 +73,8 @@ const buildOptions = (collection, filter) => {
     }
   }
 
-  if (filter.filterKey === "class_location_ids") {
-    return options.sort((a, b) => {
-      /* online goes last */
-      const aIsOnline = a.label.toLowerCase().includes("online");
-      const bIsOnline = b.label.toLowerCase().includes("online");
-      if (aIsOnline !== bIsOnline) {
-        if (aIsOnline) return 1;
-        if (bIsOnline) return -1;
-      }
-
-      return a.value.localeCompare(b.value);
-    })
+  if (!!filter.sort) {
+    return options.sort(filter.sort)
   } else {
     return options.sort((a, b) => a.value.localeCompare(b.value));
   }
