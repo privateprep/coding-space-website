@@ -177,12 +177,35 @@ const sortClassLocations = (a, b) => {
   return a.value.localeCompare(b.value);
 }
 
+const seasonScore = {
+  Spring: 1,
+  Summer: 2,
+  Fall: 3
+}
+
+const sortSemester = (a, b) => {
+  const [aSeason, aYear] = a.value.split(" ");
+  const [bSeason, bYear] = b.value.split(" ");
+
+  if (aYear > bYear) return 1;
+  if (aYear < bYear) return -1;
+
+  const aSeasonScore = seasonScore[aSeason] || 4;
+  const bSeasonScore = seasonScore[bSeason] || 4;
+
+  if (aSeasonScore > bSeasonScore) return 1;
+  if (aSeasonScore < bSeasonScore) return -1;
+
+  return 0
+}
+
 const filterTemplate = [
   {
     label: "SEMESTER",
     filterKey: "semesters",
     type: "checkbox",
     optionValueKeys: ["semester"],
+    sort: sortSemester,
   },
   {
     label: "LOCATION",
@@ -191,7 +214,7 @@ const filterTemplate = [
     optionKeys: [], // value + label off top-level object directly
     valueKeys: ["locationId"],
     labelKeys: ["locationName"],
-    sort: sortClassLocations
+    sort: sortClassLocations,
   },
   {
     label: "SIGNUP TYPE",
