@@ -17,28 +17,24 @@ const filterTemplate = [
     label: "EXPERIENCE",
     filterKey: "experiences",
     type: "checkbox",
-    initialValue: [],
     optionValueKeys: ["details", "experience"],
   },
   {
     label: "GENDER",
     filterKey: "genders",
     type: "checkbox",
-    initialValue: [],
     optionValueKeys: ["details", "gender"],
   },
   {
     label: "SKILLS",
     filterKey: "skills",
     type: "checkbox",
-    initialValue: [],
     optionValueKeys: ["details", "skills"],
   },
   {
     label: "LOOKING FOR",
     filterKey: "sellingPoints",
     type: "checkbox",
-    initialValue: [],
     optionValueKeys: ["details", "sellingPoints"],
   },
 ];
