@@ -342,6 +342,10 @@
 .overview-page__row .address-link {
   color: var(--dark);
   box-shadow: none;
+
+  img {
+    max-width: 1rem;
+  }
 }
 
 .overview-page__row .leaflet-container {
