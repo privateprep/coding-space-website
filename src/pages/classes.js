@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import { isMobile } from "../utils/helpers";
 
 import { useFilters } from "../hooks";
+import FilterForm from "../components/FilterForm";
 
 import Layout from "../components/Layout";
 
@@ -69,40 +70,8 @@ const filterTemplate = [
   },
 ];
 
-const FilterForm = ({ filters, updateActiveFilter, activeFilter }) => {
-  return (
-      <form
-        className="ClassPanel__filter-form"
-        onSubmit={(e) => {
-          e.preventDefault();
-        }}
-      >
-        {filters.map((filter, filterIndex) => (
-          <div className="filter-group" key={filterIndex}>
-            <h4 className="filter-group__label">{filter.label}</h4>
-            <ul className="filter-group__options">
-              {filter.options.map((opt) => (
-                <li className="filter-group__options__item" key={opt.id}>
-                  <input
-                    type={filter.type}
-                    id={opt.id}
-                    name={opt.name}
-                    value={opt.value}
-                    onChange={(event) => updateActiveFilter(filter, event)}
-                    checked={activeFilter[filter.filterKey].includes(opt.value)}
-                  />
-                  <label htmlFor={opt.id}>{opt.label}</label>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </form>
-  );
-};
-
 const ClassPanel = ({ experienceLevels }) => {
-  const [filters, activeFilter, updateActiveFilter, activeLevels] = useFilters(
+  const [filters, activeFilter, activeLevels] = useFilters(
     filterTemplate,
     experienceLevels
   );
@@ -115,14 +84,12 @@ const ClassPanel = ({ experienceLevels }) => {
           <FilterForm
             activeFilter={activeFilter}
             filters={filters}
-            updateActiveFilter={updateActiveFilter}
           />
         </details>
       ) : (
         <FilterForm
           activeFilter={activeFilter}
           filters={filters}
-          updateActiveFilter={updateActiveFilter}
         />
       )}
       <ClassCards activeLevels={activeLevels} />
