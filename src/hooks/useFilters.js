@@ -155,38 +155,18 @@ const useFilters = (filterTemplate, collection) => {
     buildInitialFilter(filters)
   );
 
-  // if filters change (like from a fetch request),
+  // if filters change (like from a fetch request or navigation),
   // be sure initial filter state watches!
   React.useEffect(() => {
     setActiveFilter(() => buildInitialFilter(filters, searchParams))
   }, [filters, searchParams])
-
-  const updateActiveFilter = React.useCallback((filter, event) => {
-    const value = event.target.value;
-
-    if (event.target.checked) {
-      // add value
-      setActiveFilter((current) => ({
-        ...current,
-        [filter.filterKey]: [...current[filter.filterKey], value],
-      }));
-    } else {
-      // filter out value
-      setActiveFilter((current) => ({
-        ...current,
-        [filter.filterKey]: current[filter.filterKey].filter(
-          (val) => val !== value
-        ),
-      }));
-    }
-  }, []);
 
   const activeCollection = React.useMemo(
     () => collection.filter((item) => filterItem(item, activeFilter, filters)),
     [collection, filters, activeFilter]
   );
 
-  return [filters, activeFilter, updateActiveFilter, activeCollection];
+  return [filters, activeFilter, activeCollection];
 };
 
 export default useFilters;

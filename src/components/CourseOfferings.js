@@ -1,13 +1,13 @@
 import * as React from "react";
 
-import { Link, navigate } from "gatsby";
+import { Link } from "gatsby";
 import moment from "moment-timezone";
 
-import { GET, buildQueryString } from "../utils/service";
+import { GET } from "../utils/service";
 import { groupBy } from "../utils/helpers";
 
 import { useFilters } from "../hooks";
-import { useFormik } from "formik";
+import FilterForm from "../components/FilterForm";
 
 import "./CourseOfferings.scss";
 
@@ -227,52 +227,6 @@ const filterTemplate = [
   },
 ];
 
-const FilterForm = ({ filters, activeFilter, updateActiveFilter }) => {
-  const { handleSubmit } = useFormik({
-    initialValues: activeFilter,
-    onSubmit: async(values, _actions) => {
-      const nextSearch = buildQueryString(values);
-      const nextPath = nextSearch ? `${window.location.pathname}?${nextSearch}` : window.location.pathname
-      navigate(
-        nextPath,
-        {
-          replace: true,
-          state: { disableScrollUpdate: true },
-        }
-      )
-    },
-    enableReinitialize: true, // allows initialValues to update
-  });
-
-  return (
-    <form
-      className="courseOfferings__filter-form"
-      onSubmit={handleSubmit}
-    >
-      {filters.map((filter, filterIndex) => (
-        <div className="filter-group" key={filterIndex}>
-          <h4 className="filter-group__label">{filter.label}</h4>
-          <ul className="filter-group__options">
-            {filter.options.map((opt) => (
-              <li className="filter-group__options__item" key={opt.id}>
-                <input
-                  type={filter.type}
-                  id={opt.id}
-                  name={opt.name}
-                  value={opt.value}
-                  onChange={async(event) => { await updateActiveFilter(filter, event); handleSubmit(); }}
-                  checked={activeFilter[filter.filterKey].includes(opt.value)}
-                />
-                <label htmlFor={opt.id}>{opt.label}</label>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </form>
-  );
-};
-
 const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [lastFetchedAt, setLastFetchedAt] = React.useState();
@@ -280,7 +234,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [error, setError] = React.useState();
 
   // setup filters
-  const [filters, activeFilter, updateActiveFilter, filteredClasses] =
+  const [filters, activeFilter, filteredClasses] =
     useFilters(filterTemplate, classes);
 
   // fetch inventory from PP Dashboard
@@ -338,11 +292,10 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
         <FilterForm
           filters={filters}
           activeFilter={activeFilter}
-          updateActiveFilter={updateActiveFilter}
         />
 
         <div className="courseOfferings__content">
-          <h2 class="title">Now Enrolling</h2>
+          <h2 className="title">Now Enrolling</h2>
           {numCategories > 1 ? (
             // probably GirlCode
             Object.keys(classesByCategory)
@@ -391,7 +344,6 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
       <FilterForm
         filters={filters}
         activeFilter={activeFilter}
-        updateActiveFilter={updateActiveFilter}
       />
       <div className="courseOfferings__content">
         <h2>Now Enrolling</h2>

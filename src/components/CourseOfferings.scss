@@ -10,34 +10,6 @@
   @media (min-width: 520px) {
     grid-template-columns: auto 1fr;
   }
-
-  &__filter-form {
-    margin-top: 4rem;
-
-    .filter-group {
-      margin: 0 0 1rem;
-
-      &__label {
-        text-transform: capitalize;
-      }
-
-      &__options {
-        padding: 0;
-        list-style-type: none;
-
-        &__item {
-          input[type="checkbox"] {
-            margin-right: .25rem;
-          }
-          label {
-            font-weight: normal;
-            font-family: var(--fontStack);
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
 }
 
 
