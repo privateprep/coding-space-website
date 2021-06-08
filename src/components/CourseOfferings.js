@@ -1,12 +1,13 @@
 import * as React from "react";
 
-import { Link } from "gatsby";
+import { Link, navigate } from "gatsby";
 import moment from "moment-timezone";
 
-import { GET } from "../utils/service";
+import { GET, buildQueryString } from "../utils/service";
 import { groupBy } from "../utils/helpers";
 
 import { useFilters } from "../hooks";
+import { useFormik } from "formik";
 
 import "./CourseOfferings.scss";
 
@@ -227,12 +228,26 @@ const filterTemplate = [
 ];
 
 const FilterForm = ({ filters, activeFilter, updateActiveFilter }) => {
+  const { handleSubmit } = useFormik({
+    initialValues: activeFilter,
+    onSubmit: async(values, _actions) => {
+      const nextSearch = buildQueryString(values);
+      const nextPath = nextSearch ? `${window.location.pathname}?${nextSearch}` : window.location.pathname
+      navigate(
+        nextPath,
+        {
+          replace: true,
+          state: { disableScrollUpdate: true },
+        }
+      )
+    },
+    enableReinitialize: true, // allows initialValues to update
+  });
+
   return (
     <form
       className="courseOfferings__filter-form"
-      onSubmit={(e) => {
-        e.preventDefault();
-      }}
+      onSubmit={handleSubmit}
     >
       {filters.map((filter, filterIndex) => (
         <div className="filter-group" key={filterIndex}>
@@ -245,7 +260,7 @@ const FilterForm = ({ filters, activeFilter, updateActiveFilter }) => {
                   id={opt.id}
                   name={opt.name}
                   value={opt.value}
-                  onChange={(event) => updateActiveFilter(filter, event)}
+                  onChange={async(event) => { await updateActiveFilter(filter, event); handleSubmit(); }}
                   checked={activeFilter[filter.filterKey].includes(opt.value)}
                 />
                 <label htmlFor={opt.id}>{opt.label}</label>
