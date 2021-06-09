@@ -170,8 +170,11 @@ figure {
 }
 hr {
   box-sizing: content-box;
-  height: 0.0625rem;
+  height: 2px;
   background: var(--hr);
+  margin: 0 0 calc(1.75rem - 2px);
+  padding: 0;
+  border: none;
 }
 button,
 input,
