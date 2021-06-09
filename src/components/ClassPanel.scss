@@ -9,6 +9,10 @@
   @media (min-width: 768px) {
     grid-template-columns: 240px 1fr;
     grid-gap: 1rem;
+
+    &__title {
+      grid-column-end: span 2;
+    }
   }
 
   // Large devices (desktops, 992px and up)
