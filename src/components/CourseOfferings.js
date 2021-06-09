@@ -113,16 +113,6 @@ const CourseOffering = ({
   );
 };
 
-const daySorter = {
-  monday: 1,
-  tuesday: 2,
-  wednesday: 3,
-  thursday: 4,
-  friday: 5,
-  saturday: 6,
-  sunday: 7,
-};
-
 const sortClasses = (a, b) => {
   // Sort by class cat
   if (a.categoryName > b.categoryName) return 1;
@@ -144,12 +134,6 @@ const sortClasses = (a, b) => {
 
   if (aSeasonScore > bSeasonScore) return 1;
   if (aSeasonScore < bSeasonScore) return -1;
-
-  // sort day of week
-  let day1 = daySorter[a.classTypeName.split(" ")[0].toLowerCase()] || 10;
-  let day2 = daySorter[b.classTypeName.split(" ")[0].toLowerCase()] || 10;
-  if (day1 > day2) return 1;
-  if (day1 < day2) return -1;
 
   // Sort by startsAt
   if (a.startsAt > b.startsAt) return 1;
