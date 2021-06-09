@@ -128,8 +128,8 @@ const LocationsPage = ({ data }) => {
     <Layout>
       <LocationsPageTemplate
         helmet={
-          <Helmet titleTemplate="The Coding Space Signup">
-            <title>{`${title}`}</title>
+          <Helmet>
+            <title>{title}</title>
             <meta name="description" content={`${seoDescription}`} />
           </Helmet>
         }
