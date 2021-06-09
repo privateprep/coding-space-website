@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 import ClassCards from "../components/ClassCards";
 import Layout from "../components/Layout";
@@ -60,6 +60,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__main">
         <div className="LocationsPanel__main__details">
           <h3>{activeLocation.name}</h3>
+          <Link to={`/locations/${activeLocation.code}`}>View Full Details</Link>
           {activeLocation.isOnline ? (
             <>
               <p>
@@ -212,6 +213,7 @@ export const pageQuery = graphql`
     allClassLocation {
       locations: nodes {
         classLocationId
+        code
         name
         isOnline
         latitude
