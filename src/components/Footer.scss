@@ -1,6 +1,8 @@
 .Footer {
   padding: 3rem 0;
-  background-color: #fbf6ee;
+  margin-top: 3rem;
+  background-color: var(--background);
+  border-top: .5rem solid var(--backgroundAlt);
 
   &__logo {
     display: block;
