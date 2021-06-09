@@ -44,7 +44,7 @@ const LocationPage = ({ data }) => {
         <meta name="description" content={description} />
       </Helmet>
       <div className="Location">
-        <div className="Location__hero">
+        <div className={`Location__hero${activeLocation.isOnline ? " Location__hero--online": ""}`}>
           {!activeLocation.isOnline && (
             <MapDisplay
               addressCoords={[
