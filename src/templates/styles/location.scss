@@ -23,6 +23,11 @@
       grid-gap: 2rem;
       align-items: center;
 
+      &--online {
+        padding: 2rem 1rem;
+        grid-template-columns: 1fr;
+      }
+
       .leaflet-container {
         box-sizing: border-box;
         min-height: 260px;
