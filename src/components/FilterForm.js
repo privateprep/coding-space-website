@@ -36,11 +36,17 @@ const FilterCheckboxGroup = ({ filter }) => {
 };
 
 // based off of formik's AutoSave example
+const DELAY = 200;
 const SubmitOnChange = () => {
   const { submitForm, values } = useFormikContext();
+  const firstMountedAt = React.useRef(false); // skips save on initial load
 
   React.useEffect(() => {
-    submitForm();
+    if (firstMountedAt.current && firstMountedAt.current < Date.now() - DELAY) {
+      submitForm();
+    } else if (!firstMountedAt.current) {
+      firstMountedAt.current = Date.now();
+    }
   }, [submitForm, values]);
 
   return null;
