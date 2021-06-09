@@ -1,9 +1,10 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 
-import ClassCards from "../components/ClassCards";
 import Layout from "../components/Layout";
+
+import ClassPanel from "../components/ClassPanel";
 import MapDisplay from "../components/MapDisplay";
 
 const LocationPage = ({ data }) => {
@@ -64,18 +65,7 @@ const LocationPage = ({ data }) => {
             </>
           )}
         </div>
-        <section>
-          <h2>Current Offerings</h2>
-            <ClassCards
-              activeLevels={activeLevels}
-              slugExtension={locationQueryString}
-            />
-        </section>
-        <hr />
-        <details>
-          <summary>Show Data Props</summary>
-          <pre>{JSON.stringify(data, null, 2)}</pre>
-        </details>
+        <ClassPanel experienceLevels={activeLevels} slugExtension={locationQueryString} />
       </div>
     </Layout>
   );

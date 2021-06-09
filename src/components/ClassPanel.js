@@ -65,7 +65,7 @@ const filterTemplate = [
   },
 ];
 
-const ClassPanel = ({ experienceLevels }) => {
+const ClassPanel = ({ experienceLevels, slugExtension }) => {
   const [filters, activeFilter, activeLevels] = useFilters(
     filterTemplate,
     experienceLevels
@@ -87,7 +87,7 @@ const ClassPanel = ({ experienceLevels }) => {
           filters={filters}
         />
       )}
-      <ClassCards activeLevels={activeLevels} />
+      <ClassCards activeLevels={activeLevels} slugExtension={slugExtension} />
     </div>
   );
 };
