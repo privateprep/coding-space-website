@@ -48,11 +48,12 @@ ComponentSelector.propTypes = {
 const PageBuilder = ({ data = [] }) => {
   return (
     <div className="page-builder">
-      {data.map(component => {
+      {data.map((component, componentIndex) => {
         return (
           <div
             className="container"
             style={{ backgroundColor: component.bgColor }}
+            key={componentIndex}
           >
             <ComponentSelector data={component} />
           </div>
