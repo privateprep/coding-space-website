@@ -12,18 +12,19 @@ import FilterForm from "../components/FilterForm";
 import "./CourseOfferings.scss";
 
 const CourseOffering = ({
-  isCamp,
   classTypeId,
   classTypeName,
-  sessionCount,
-  inSession,
-  remainingCapacity,
-  price,
-  startsAt,
   endsAt,
+  enrollmentTypes,
+  isCamp,
+  inSession,
   lastSessionAt,
   locationName,
-  enrollmentTypes,
+  price,
+  remainingCapacity,
+  semester,
+  sessionCount,
+  startsAt,
 }) => {
   let userTimeZone;
   try {
@@ -51,20 +52,20 @@ const CourseOffering = ({
         <h3 className="overview__name">{classTypeName}</h3>
         {!!isCamp && <h4 className="overview__weekdays">Monday - Friday</h4>}
         <h4 className="overview__time">{scheduledTimeRange}</h4>
+        <h4 className="overview__dates">{dateRange}</h4>
       </div>
       <ul className="details">
+        <li>
+          <strong>Semester</strong> {semester}
+        </li>
         <li>
           <strong>Location</strong> {locationName}
         </li>
         <li>
-          <strong>Dates</strong>
-          {` ${
-            sessionCount === 1 ? `1 Session` : `${sessionCount} Sessions`
-          } | ${dateRange}`}
-        </li>
-        <li>
           <strong>{inSession ? "Next Session" : "First Session"}</strong>{" "}
-          {firstDate}
+          {`${firstDate}  (${
+            sessionCount === 1 ? "1 Session" : `${sessionCount} Sessions`
+          })`}
         </li>
         <li>
           <strong>Price</strong> <sup>$</sup>
