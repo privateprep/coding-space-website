@@ -74,10 +74,11 @@ exports.sourceNodes = async ({
   }
 };
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  return graphql(`
+  // add pages for all MD files
+  await graphql(`
     {
       allMarkdownRemark(limit: 1000) {
         edges {
@@ -137,6 +138,38 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(`src/templates/tags.js`),
         context: {
           tag,
+        },
+      });
+    });
+  });
+
+  // add pages for all classLocations
+  await graphql(`
+    {
+      allClassLocation {
+        nodes {
+          classLocationId
+          code
+        }
+      }
+    }
+  `).then((result) => {
+    if (result.errors) {
+      result.errors.forEach((e) => console.error(e.toString()));
+      return Promise.reject(result.errors);
+    }
+
+    const locations = result.data.allClassLocation.nodes;
+
+    locations.forEach((node) => {
+      const { classLocationId, code } = node;
+      createPage({
+        path: `/locations/${code}`,
+        component: path.resolve(`src/templates/location.js`),
+        // additional data can be passed via context
+        context: {
+          classLocationId,
+          code
         },
       });
     });

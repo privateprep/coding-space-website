@@ -91,6 +91,9 @@
       h3 {
         font-size: 1.5rem;
       }
+      a, a:visited {
+        color: inherit;
+      }
       .leaflet-container {
         height: 100px;
         width: 100%;
