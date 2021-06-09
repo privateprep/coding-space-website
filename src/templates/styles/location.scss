@@ -1,0 +1,33 @@
+.Location {
+  padding: 1rem;
+
+  &__hero {
+    max-width: 1170px;
+    margin: auto auto 1rem;
+    width: 100%;
+    color: var(--text-primary);
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .leaflet-container {
+      box-sizing: border-box;
+      min-height: 260px;
+      width: 100%;
+    }
+  }
+
+  // Medium + large devices (660px and up)
+  @media (min-width: 660px) {
+    &__hero {
+      grid-template-columns: 320px 1fr;
+      grid-gap: 2rem;
+      align-items: center;
+
+      .leaflet-container {
+        box-sizing: border-box;
+        min-height: 260px;
+        width: 100%;
+      }
+    }
+  }
+}

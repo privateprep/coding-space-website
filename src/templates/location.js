@@ -6,6 +6,9 @@ import Layout from "../components/Layout";
 
 import ClassPanel from "../components/ClassPanel";
 import MapDisplay from "../components/MapDisplay";
+import CtaContact from "../components/CtaContact";
+
+import "./styles/location.scss";
 
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
@@ -38,35 +41,56 @@ const LocationPage = ({ data }) => {
     <Layout>
       <Helmet titleTemplate="%s | Locations">
         <title>{activeLocation.name}</title>
-        <meta
-          name="description"
-          content={`${description}.`}
-        />
+        <meta name="description" content={description} />
       </Helmet>
       <div className="Location">
         <div className="Location__hero">
-          <h1>{activeLocation.name}</h1>
-          {activeLocation.isOnline ? (
-            <>
+          {!activeLocation.isOnline && (
+            <MapDisplay
+              addressCoords={[
+                activeLocation.latitude,
+                activeLocation.longitude,
+              ]}
+            />
+          )}
+          <div className="Location__hero__text">
+            <h1 className="title">{activeLocation.name}</h1>
+            {activeLocation.isOnline ? (
               <p>
                 Connect to curriculum from anywhere with our suite of virtual
                 courses!
               </p>
-            </>
-          ) : (
-            <>
-              <p>{activeLocation.addressString}</p>
-              <MapDisplay
-                addressCoords={[
-                  activeLocation.latitude,
-                  activeLocation.longitude,
-                ]}
-              />
-            </>
-          )}
+            ) : (
+              <>
+                <p>
+                  <strong>Address:</strong>{" "}
+                  <a
+                    href={activeLocation.addressLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: "currentColor"}}
+                  >
+                    {activeLocation.addressString}
+                  </a>
+                </p>
+                {!!activeLocation.addressNotes && (
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: activeLocation.addressNotes,
+                    }}
+                  />
+                )}
+              </>
+            )}
+          </div>
         </div>
-        <ClassPanel experienceLevels={activeLevels} slugExtension={locationQueryString} />
+        <ClassPanel
+          title={`${activeLocation.name} Catalog`}
+          experienceLevels={activeLevels}
+          slugExtension={locationQueryString}
+        />
       </div>
+      <CtaContact />
     </Layout>
   );
 };
@@ -83,6 +107,8 @@ export const pageQuery = graphql`
       latitude
       longitude
       addressString
+      addressNotes
+      addressLink
       categoryIds
       courseOfferingsEndpoint
     }
