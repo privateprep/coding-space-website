@@ -19,10 +19,10 @@ const LocationPage = ({ data }) => {
 
   // mimic transformation in LocationsPanel
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
-    (levelNode) => {
+    levelNode => {
       return {
-        ...levelNode.frontmatter,
-        slug: levelNode.fields.slug,
+        ...levelNode.frontmatter, // most MD file things
+        ...levelNode.fields // slug, extras
       };
     }
   );
@@ -138,6 +138,9 @@ export const pageQuery = graphql`
         }
         fields {
           slug
+          extras {
+            semesters
+          }
         }
       }
     }
