@@ -37,11 +37,11 @@ const FilterCheckboxGroup = ({ filter }) => {
 
 // based off of formik's AutoSave example
 const SubmitOnChange = () => {
-  const formik = useFormikContext();
+  const { submitForm, values } = useFormikContext();
 
   React.useEffect(() => {
-    formik.submitForm();
-  }, [formik.submitForm, formik.values]);
+    submitForm();
+  }, [submitForm, values]);
 
   return null;
 };
