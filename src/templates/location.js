@@ -125,6 +125,8 @@ export const pageQuery = graphql`
             gender
             byline
             skills
+            experience
+            sellingPoints
           }
           thumbnail {
             childImageSharp {
