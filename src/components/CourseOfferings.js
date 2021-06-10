@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import moment from "moment-timezone";
 
 import { GET } from "../utils/service";
-import { groupBy } from "../utils/helpers";
+import { groupBy, sortSemester } from "../utils/helpers";
 
 import { useFilters } from "../hooks";
 import FilterForm from "../components/FilterForm";
@@ -158,36 +158,6 @@ const sortClassLocations = (a, b) => {
   }
 
   return a.value.localeCompare(b.value);
-};
-
-const seasonScore = {
-  Spring: 1,
-  Summer: 2,
-  Fall: 3,
-};
-
-const sortSemester = (a, b) => {
-  // from filter, class type, or semester string
-  const aString = a?.value || a?.semester || a;
-  const bString = b?.value || b?.semester || b;
-
-  const aValues = aString.split(" ");
-  const bValues = bString.split(" ");
-
-  // handles multi-word semesters like Summer Camps 2021 and Fall 2021
-  const { 0: aSeason, [aValues.length - 1]: aYear } = aValues;
-  const { 0: bSeason, [bValues.length - 1]: bYear } = bValues;
-
-  if (aYear > bYear) return 1;
-  if (aYear < bYear) return -1;
-
-  const aSeasonScore = seasonScore[aSeason] || 4;
-  const bSeasonScore = seasonScore[bSeason] || 4;
-
-  if (aSeasonScore > bSeasonScore) return 1;
-  if (aSeasonScore < bSeasonScore) return -1;
-
-  return 0;
 };
 
 const filterTemplate = [

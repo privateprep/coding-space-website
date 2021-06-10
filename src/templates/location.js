@@ -10,6 +10,34 @@ import CtaContact from "../components/CtaContact";
 
 import "./styles/location.scss";
 
+// omit semesters that don't accurately represent what's in locations
+const locationFilterTemplate = [
+  {
+    label: "EXPERIENCE",
+    filterKey: "experiences",
+    type: "checkbox",
+    optionValueKeys: ["details", "experience"],
+  },
+  {
+    label: "GENDER",
+    filterKey: "genders",
+    type: "checkbox",
+    optionValueKeys: ["details", "gender"],
+  },
+  {
+    label: "SKILLS",
+    filterKey: "skills",
+    type: "checkbox",
+    optionValueKeys: ["details", "skills"],
+  },
+  {
+    label: "LOOKING FOR",
+    filterKey: "sellingPoints",
+    type: "checkbox",
+    optionValueKeys: ["details", "sellingPoints"],
+  },
+];
+
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
 
@@ -22,13 +50,13 @@ const LocationPage = ({ data }) => {
     levelNode => {
       return {
         ...levelNode.frontmatter, // most MD file things
-        ...levelNode.fields // slug, extras
+        ...levelNode.fields, // slug, extras
       };
     }
   );
-  const activeLevels = experienceLevels.filter((l) => {
-    const levelCategoryIds = l.categoryIds.map((str) => Number(str)); // Netlify CMS saves strings
-    return activeLocation.categoryIds.some((catId) =>
+  const activeLevels = experienceLevels.filter(l => {
+    const levelCategoryIds = l.categoryIds.map(str => Number(str)); // Netlify CMS saves strings
+    return activeLocation.categoryIds.some(catId =>
       levelCategoryIds.includes(catId)
     );
   });
@@ -44,7 +72,11 @@ const LocationPage = ({ data }) => {
         <meta name="description" content={description} />
       </Helmet>
       <div className="Location">
-        <div className={`Location__hero${activeLocation.isOnline ? " Location__hero--online": ""}`}>
+        <div
+          className={`Location__hero${
+            activeLocation.isOnline ? " Location__hero--online" : ""
+          }`}
+        >
           {!activeLocation.isOnline && (
             <MapDisplay
               addressCoords={[
@@ -68,7 +100,7 @@ const LocationPage = ({ data }) => {
                     href={activeLocation.addressLink}
                     target="_blank"
                     rel="noreferrer"
-                    style={{ color: "currentColor"}}
+                    style={{ color: "currentColor" }}
                   >
                     {activeLocation.addressString}
                   </a>
@@ -88,6 +120,7 @@ const LocationPage = ({ data }) => {
           title={`${activeLocation.name} Catalog`}
           experienceLevels={activeLevels}
           slugExtension={locationQueryString}
+          filterTemplate={locationFilterTemplate}
         />
       </div>
       <CtaContact />
