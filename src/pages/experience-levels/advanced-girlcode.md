@@ -10,7 +10,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48
 thumbnail: /img/coder.jpg
 details:
   age: Ages 8+
-  gender: Female-identifying
+  gender: GirlCode
   byline: Scratch through JavaScript
   experience: Some Experience Required
   skills:
