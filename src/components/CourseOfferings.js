@@ -120,21 +120,7 @@ const sortClasses = (a, b) => {
   if (a.categoryName < b.categoryName) return -1;
 
   // sort by semester
-  const aSemValues = a.semester.split(" ");
-  const bSemValues = b.semester.split(" ");
-
-  // handles multi-word semesters like Summer Camps 2021 and Fall 2021
-  const { 0: aSeason, [aSemValues.length - 1]: aYear } = aSemValues;
-  const { 0: bSeason, [bSemValues.length - 1]: bYear } = bSemValues;
-
-  if (aYear > bYear) return 1;
-  if (aYear < bYear) return -1;
-
-  const aSeasonScore = seasonScore[aSeason] || 4;
-  const bSeasonScore = seasonScore[bSeason] || 4;
-
-  if (aSeasonScore > bSeasonScore) return 1;
-  if (aSeasonScore < bSeasonScore) return -1;
+  sortSemester(a, b);
 
   // Sort by startsAt
   if (a.startsAt > b.startsAt) return 1;
@@ -181,8 +167,12 @@ const seasonScore = {
 };
 
 const sortSemester = (a, b) => {
-  const aValues = a.value.split(" ");
-  const bValues = b.value.split(" ");
+  // from filter, class type, or semester string
+  const aString = a?.value || a?.semester || a;
+  const bString = b?.value || b?.semester || b;
+
+  const aValues = aString.split(" ");
+  const bValues = bString.split(" ");
 
   // handles multi-word semesters like Summer Camps 2021 and Fall 2021
   const { 0: aSeason, [aValues.length - 1]: aYear } = aValues;
@@ -286,8 +276,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   }
 
   if (!!lastFetchedAt && !!filteredClasses.length) {
-    const classesByCategory = groupBy(filteredClasses, "categoryName");
-    const numCategories = Object.keys(classesByCategory).length;
+    const classesBySemester = groupBy(filteredClasses, "semester");
 
     return (
       <div className="courseOfferings">
@@ -295,40 +284,25 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
 
         <div className="courseOfferings__content">
           <h2 className="title">Now Enrolling</h2>
-          {numCategories > 1 ? (
-            // probably GirlCode
-            Object.keys(classesByCategory)
-              .sort((a, b) => {
-                // beg comes first
-                return a.localeCompare(b);
-              })
-              .map((categoryName, catIndex) => (
-                <React.Fragment key={catIndex}>
-                  <h3>{categoryName}</h3>
-                  <ul className="offering-list">
-                    {classesByCategory[categoryName].map(offering => (
-                      <CourseOffering
-                        key={offering.classTypeId}
-                        isCamp={isCamp}
-                        {...offering}
-                      />
-                    ))}
-                  </ul>
-                  <hr />
-                </React.Fragment>
-              ))
-          ) : (
-            // normal case
-            <ul className="offering-list">
-              {filteredClasses.map(offering => (
-                <CourseOffering
-                  key={offering.classTypeId}
-                  isCamp={isCamp}
-                  {...offering}
-                />
-              ))}
-            </ul>
-          )}
+          {Object.keys(classesBySemester)
+            .sort((a, b) => {
+              return sortSemester(a, b);
+            })
+            .map((semester, semIndex) => (
+              <React.Fragment key={semIndex}>
+                <h3>{semester}</h3>
+                <ul className="offering-list">
+                  {classesBySemester[semester].map(offering => (
+                    <CourseOffering
+                      key={offering.classTypeId}
+                      isCamp={isCamp}
+                      {...offering}
+                    />
+                  ))}
+                </ul>
+                <hr />
+              </React.Fragment>
+            ))}
         </div>
       </div>
     );

@@ -10,24 +10,18 @@ categoryIds:
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=46
 thumbnail: /img/sisters-doing-their-homework-orig.jpg
 details:
-  age: Ages 8-14.
+  age: Ages 8+
   gender: Co-ed.
-  byline: Intro to Scratch.
-  experience: First-time Coders
+  byline: Intro to Scratch
+  experience: First Time or Beginner Coders
   skills:
     - Scratch
-    - Computer Science Concepts
-    - Logical Sequence
+    - Events & Loops
+    - Variables & Conditional Logic
   sellingPoints:
-    - Great Launch Pad
-    - Computational Thinking
+    - Computer Science Fundamentals
+    - Game Design
+    - Creative Exploration
   mdContent: >-
-    In our Beginner course, we use Scratch challenge projects as our core
-    curriculum.
-
-
-    By starting in Scratch, a block-based coding language, we skip over the small syntactic details of text-based languages and cut directly to the difficult part of coding: formulating one’s ideas into a logical sequence of steps. Students can jump into this class with no prior programming knowledge and in just a few hours build an incredible understanding of core computer science concepts through building games and animations. As they progress through this course, they’ll continue to learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material.
-
-
-    We balance project-based coding with hands-on activities and weekly challenges that help students learn on and off-screen. During each class, students get a break from their screens and discover opportunities to create and explore all around them with activities such as: engineering challenges, science experiments, short story writing, and more.
+    In our Beginner course, we use Scratch challenge projects as our core curriculum. By starting in Scratch, a block-based coding language, we skip over the small syntactic details of text-based languages and cut directly to the difficult part of coding: formulating one’s ideas into a logical sequence of steps. Students can jump into this class with no prior programming knowledge and in just a few hours build an incredible understanding of core computer science concepts through building games and animations. As they progress through this course, they’ll continue to learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material. When they’re ready, students will transition into text-based programming through WoofJS, our JavaScript learning platform.
 ---
