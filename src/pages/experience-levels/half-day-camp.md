@@ -12,17 +12,15 @@ details:
   age: Ages 8+
   gender: Co-ed.
   byline: 3 Hours, 1 & 2 Week Options Available
-  experience: All Levels
+  experience: First-Time Through Advanced
   skills:
-    - Warm-Up Activity
-    - Project-Based Coding
+    - Daily Coding Practice
+    - Daily Challenges
     - STEM Electives
-    - Challenges
   sellingPoints:
-    - Coding Fun with Friends
+    - Camp Games & Activities
     - STEM Exploration
-  mdContent: Our wildly popular virtual summer camp is back and better than ever!
-    Held Monday through Friday from June 14th through August 13th, these live
-    Zoom classes combine project-based coding, group activities, epic team
-    challenges, theme days, and more.
+    - Immersive Experience
+  mdContent: >-
+    Our wildly popular virtual summer camp is back and better than ever! Held Monday through Friday from June 14th through August 13th, these live Zoom classes combine project-based coding, group activities, epic team challenges, theme days, and more.
 ---
