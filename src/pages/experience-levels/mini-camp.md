@@ -6,7 +6,7 @@ seo_description: Our 1.5-hour mini camp combines project-based coding with
 categoryIds:
   - 96
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=96
-thumbnail: /img/coder.jpg
+thumbnail: /img/accomplished.jpg
 details:
   age: Ages 6+
   gender: Co-ed.
@@ -15,10 +15,11 @@ details:
   skills:
     - Daily Coding Practice
     - Daily Challenges
-
   sellingPoints:
     - Camp Games & Activities
     - Immersive Experience
-  mdContent: >-
-    Our wildly popular virtual summer camp is back and better than ever! Held Monday through Friday from June 14th through August 13th, these live Zoom classes combine project-based coding, group activities, epic team challenges, theme days, and more.
+  mdContent: Our wildly popular virtual summer camp is back and better than ever!
+    Held Monday through Friday from June 14th through August 13th, these live
+    Zoom classes combine project-based coding, group activities, epic team
+    challenges, theme days, and more.
 ---
