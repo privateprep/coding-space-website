@@ -13,23 +13,18 @@ details:
   age: Ages 8+
   gender: Female-identifying
   byline: Scratch through JavaScript
-  experience: First-Time Through Advanced
+  experience: First-Time or Beginner Coders
   skills:
     - Scratch
-    - JavaScript
-    - HTML/CSS
     - Events & Loops
     - Variables & Conditional Logic
-    - Arrays & Functions
   sellingPoints:
     - Inclusive Environment
     - Peer Support
     - Mentorship
     - Intellectual Confidence
   mdContent: >-
-    Our welcoming and inclusive GirlCode program utilizes the same curriculum as
-    our co-ed Beginner and Advanced classes while fostering a safe and
-    supportive female-identifying space for our GirlCoders to develop their
-    computational and critical thinking skills, intellectual confidence, and
-    passion for STEM.
+    Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed Beginner class while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
+
+    Students can jump into this class with little or no prior programming knowledge. As they progress through this course, they’ll learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material. When they’re ready, students will transition into text-based programming through WoofJS, our JavaScript learning platform.
 ---
