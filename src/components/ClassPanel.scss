@@ -1,9 +1,9 @@
 .ClassPanel {
   max-width: 1170px;
   margin: auto auto 4rem;
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
+  padding: 1rem;
 
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
