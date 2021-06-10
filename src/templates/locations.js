@@ -60,7 +60,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__main">
         <div className="LocationsPanel__main__details">
           <h3>{activeLocation.name}</h3>
-          <Link to={`/locations/${activeLocation.code}`}>View Full Details</Link>
+          <Link className="button" to={`/locations/${activeLocation.code}`}>View Full Details</Link>
           {activeLocation.isOnline ? (
             <>
               <p>

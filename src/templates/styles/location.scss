@@ -1,11 +1,9 @@
 .Location {
-  padding: 1rem;
-
   &__hero {
-    max-width: 1170px;
-    margin: auto auto 1rem;
-    width: 100%;
-    color: var(--text-primary);
+    margin: 0 0 2rem 0;
+    padding: 1rem;
+    color: var(--text-alt);
+    background-color: var(--primary);
     display: grid;
     grid-template-columns: 1fr;
 
@@ -19,9 +17,10 @@
   // Medium + large devices (660px and up)
   @media (min-width: 660px) {
     &__hero {
-      grid-template-columns: 320px 1fr;
-      grid-gap: 2rem;
+      grid-template-columns: 320px 850px;
+      grid-gap: 4rem;
       align-items: center;
+      padding: 2rem;
 
       &--online {
         padding: 2rem 1rem;

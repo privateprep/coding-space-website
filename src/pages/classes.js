@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import { sortSemester } from "../utils/helpers";
 
 import Layout from "../components/Layout";
 
@@ -8,6 +9,40 @@ import ClassPanel from "../components/ClassPanel";
 import CtaContact from "../components/CtaContact";
 
 import "./classes.scss";
+
+const classesFilterTemplate = [
+  {
+    label: "SEMESTER",
+    filterKey: "semesters",
+    type: "checkbox",
+    optionValueKeys: ["extras", "semesters"],
+    sort: sortSemester,
+  },
+  {
+    label: "EXPERIENCE",
+    filterKey: "experiences",
+    type: "checkbox",
+    optionValueKeys: ["details", "experience"],
+  },
+  {
+    label: "GENDER",
+    filterKey: "genders",
+    type: "checkbox",
+    optionValueKeys: ["details", "gender"],
+  },
+  {
+    label: "SKILLS",
+    filterKey: "skills",
+    type: "checkbox",
+    optionValueKeys: ["details", "skills"],
+  },
+  {
+    label: "LOOKING FOR",
+    filterKey: "sellingPoints",
+    type: "checkbox",
+    optionValueKeys: ["details", "sellingPoints"],
+  },
+];
 
 const ClassesPage = ({ data }) => {
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
@@ -34,7 +69,7 @@ const ClassesPage = ({ data }) => {
           <h1 className="classes__hero__title">{title}</h1>
           <h2 className="classes__hero__subtitle">{description}</h2>
         </div>
-        <ClassPanel experienceLevels={experienceLevels || []} />
+        <ClassPanel experienceLevels={experienceLevels || []} filterTemplate={classesFilterTemplate}/>
       </div>
       <CtaContact />
     </Layout>
