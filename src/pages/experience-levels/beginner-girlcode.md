@@ -11,7 +11,7 @@ thumbnail: /img/girl-code-group.jpg
 details:
   age: Ages 8+
   gender: GirlCode
-  byline: Scratch through JavaScript
+  byline: Intro to Scratch
   experience: First-Time or Beginner Coders
   skills:
     - Scratch
