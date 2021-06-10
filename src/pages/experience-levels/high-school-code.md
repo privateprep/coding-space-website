@@ -17,7 +17,6 @@ details:
   skills:
     - JavaScript
     - HTML/CSS
-    - Events & Loops
     - Variables & Conditional Logic
     - Arrays & Functions
   sellingPoints:
