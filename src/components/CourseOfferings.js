@@ -12,18 +12,19 @@ import FilterForm from "../components/FilterForm";
 import "./CourseOfferings.scss";
 
 const CourseOffering = ({
-  isCamp,
   classTypeId,
   classTypeName,
-  sessionCount,
-  inSession,
-  remainingCapacity,
-  price,
-  startsAt,
   endsAt,
+  enrollmentTypes,
+  isCamp,
+  inSession,
   lastSessionAt,
   locationName,
-  enrollmentTypes,
+  price,
+  remainingCapacity,
+  semester,
+  sessionCount,
+  startsAt,
 }) => {
   let userTimeZone;
   try {
@@ -51,20 +52,20 @@ const CourseOffering = ({
         <h3 className="overview__name">{classTypeName}</h3>
         {!!isCamp && <h4 className="overview__weekdays">Monday - Friday</h4>}
         <h4 className="overview__time">{scheduledTimeRange}</h4>
+        <h4 className="overview__dates">{dateRange}</h4>
       </div>
       <ul className="details">
+        <li>
+          <strong>Semester</strong> {semester}
+        </li>
         <li>
           <strong>Location</strong> {locationName}
         </li>
         <li>
-          <strong>Dates</strong>
-          {` ${
-            sessionCount === 1 ? `1 Session` : `${sessionCount} Sessions`
-          } | ${dateRange}`}
-        </li>
-        <li>
           <strong>{inSession ? "Next Session" : "First Session"}</strong>{" "}
-          {firstDate}
+          {`${firstDate}  (${
+            sessionCount === 1 ? "1 Session" : `${sessionCount} Sessions`
+          })`}
         </li>
         <li>
           <strong>Price</strong> <sup>$</sup>
@@ -113,32 +114,27 @@ const CourseOffering = ({
   );
 };
 
-const daySorter = {
-  monday: 1,
-  tuesday: 2,
-  wednesday: 3,
-  thursday: 4,
-  friday: 5,
-  saturday: 6,
-  sunday: 7,
-};
-
 const sortClasses = (a, b) => {
   // Sort by class cat
   if (a.categoryName > b.categoryName) return 1;
   if (a.categoryName < b.categoryName) return -1;
 
-  // sort day of week
-  let day1 = daySorter[a.classTypeName.split(" ")[0].toLowerCase()] || 10;
-  let day2 = daySorter[b.classTypeName.split(" ")[0].toLowerCase()] || 10;
-  if (day1 > day2) return 1;
-  if (day1 < day2) return -1;
+  // sort by semester
+  const aSemValues = a.semester.split(" ");
+  const bSemValues = b.semester.split(" ");
 
-  // prioritize non-pieces
-  if (day1 === day2) {
-    if (a.classTypeName.includes("Half")) return 1;
-    if (b.classTypeName.includes("Half")) return -1;
-  }
+  // handles multi-word semesters like Summer Camps 2021 and Fall 2021
+  const { 0: aSeason, [aSemValues.length - 1]: aYear } = aSemValues;
+  const { 0: bSeason, [bSemValues.length - 1]: bYear } = bSemValues;
+
+  if (aYear > bYear) return 1;
+  if (aYear < bYear) return -1;
+
+  const aSeasonScore = seasonScore[aSeason] || 4;
+  const bSeasonScore = seasonScore[bSeason] || 4;
+
+  if (aSeasonScore > bSeasonScore) return 1;
+  if (aSeasonScore < bSeasonScore) return -1;
 
   // Sort by startsAt
   if (a.startsAt > b.startsAt) return 1;
@@ -146,8 +142,8 @@ const sortClasses = (a, b) => {
 };
 
 // enhance class type server response
-const formatResponse = (classType) => {
-  const enrollmentTypes = classType.enrollmentTypes.map((dashboard_type) => {
+const formatResponse = classType => {
+  const enrollmentTypes = classType.enrollmentTypes.map(dashboard_type => {
     const filterLabel = dashboard_type === "all" ? "Complete" : "Trial";
     const linkLabel =
       dashboard_type === "all"
@@ -185,8 +181,12 @@ const seasonScore = {
 };
 
 const sortSemester = (a, b) => {
-  const [aSeason, aYear] = a.value.split(" ");
-  const [bSeason, bYear] = b.value.split(" ");
+  const aValues = a.value.split(" ");
+  const bValues = b.value.split(" ");
+
+  // handles multi-word semesters like Summer Camps 2021 and Fall 2021
+  const { 0: aSeason, [aValues.length - 1]: aYear } = aValues;
+  const { 0: bSeason, [bValues.length - 1]: bYear } = bValues;
 
   if (aYear > bYear) return 1;
   if (aYear < bYear) return -1;
@@ -234,8 +234,10 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   const [error, setError] = React.useState();
 
   // setup filters
-  const [filters, activeFilter, filteredClasses] =
-    useFilters(filterTemplate, classes);
+  const [filters, activeFilter, filteredClasses] = useFilters(
+    filterTemplate,
+    classes
+  );
 
   // fetch inventory from PP Dashboard
   React.useEffect(() => {
@@ -248,7 +250,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
           setLastFetchedAt(Date.now());
           setIsLoading(false);
         })
-        .catch((err) => {
+        .catch(err => {
           setError(err);
           setLastFetchedAt(Date.now());
         });
@@ -289,10 +291,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
 
     return (
       <div className="courseOfferings">
-        <FilterForm
-          filters={filters}
-          activeFilter={activeFilter}
-        />
+        <FilterForm filters={filters} activeFilter={activeFilter} />
 
         <div className="courseOfferings__content">
           <h2 className="title">Now Enrolling</h2>
@@ -307,7 +306,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
                 <React.Fragment key={catIndex}>
                   <h3>{categoryName}</h3>
                   <ul className="offering-list">
-                    {classesByCategory[categoryName].map((offering) => (
+                    {classesByCategory[categoryName].map(offering => (
                       <CourseOffering
                         key={offering.classTypeId}
                         isCamp={isCamp}
@@ -321,7 +320,7 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
           ) : (
             // normal case
             <ul className="offering-list">
-              {filteredClasses.map((offering) => (
+              {filteredClasses.map(offering => (
                 <CourseOffering
                   key={offering.classTypeId}
                   isCamp={isCamp}
@@ -336,15 +335,12 @@ const CourseOfferings = ({ courseOfferingEndpoint, isCamp = false }) => {
   }
 
   const areFiltersActive = Object.keys(activeFilter).some(
-    (filterKey) => !!activeFilter[filterKey].length
+    filterKey => !!activeFilter[filterKey].length
   );
 
   return (
     <div className="courseOfferings" style={{ minHeight: `20rem` }}>
-      <FilterForm
-        filters={filters}
-        activeFilter={activeFilter}
-      />
+      <FilterForm filters={filters} activeFilter={activeFilter} />
       <div className="courseOfferings__content">
         <h2>Now Enrolling</h2>
         <hr />
