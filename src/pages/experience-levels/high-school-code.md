@@ -17,7 +17,6 @@ details:
   skills:
     - JavaScript
     - HTML/CSS
-    - Pair Programming
     - Events & Loops
     - Variables & Conditional Logic
     - Arrays & Functions
@@ -25,6 +24,13 @@ details:
     - Collaboration
     - Open-Ended Projects
     - Software Engineering
-  mdContent: >-
-    High School students will take a deep dive into programming in our High School accelerator program. They’ll start off with instructional support on a sequence of challenge projects. Midway through the course, students will choose open-ended projects that combine the skills they’ve learned to work on for the duration of the semester. They’ll be encouraged to pair up with other students, providing an authentic team setting for students to collaborate and pair-program on software projects of their creation.
+    - Pair Programming
+  mdContent: High School students will take a deep dive into programming in our
+    High School accelerator program. They’ll start off with instructional
+    support on a sequence of challenge projects. Midway through the course,
+    students will choose open-ended projects that combine the skills they’ve
+    learned to work on for the duration of the semester. They’ll be encouraged
+    to pair up with other students, providing an authentic team setting for
+    students to collaborate and pair-program on software projects of their
+    creation.
 ---
