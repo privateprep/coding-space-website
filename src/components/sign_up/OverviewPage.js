@@ -234,7 +234,7 @@ const OverviewPage = ({
               <ul className="details">
                 <li>
                   <strong>{overview.classTypeName}</strong>{" "}
-                  {overview.semester.split(" ").join(" Semester ")}
+                  {overview.semester}
                 </li>
                 {isTrialClass && (
                   <li className="trial-class-wrapper">
