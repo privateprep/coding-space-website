@@ -6,6 +6,12 @@ module.exports = {
       "We offer kids online coding classes in a 4:1 teacher setting where students learn to tackle challenges independently through learning to code",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_KEY,
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
