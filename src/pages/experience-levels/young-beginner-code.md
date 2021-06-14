@@ -8,7 +8,7 @@ seo_description: Young Beginner students (ages 6-8, co-ed) will develop typing
 categoryIds:
   - 50
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=50
-thumbnail: /img/white-board.jpg
+thumbnail: /img/two-girls-coding-scratch.png
 details:
   age: Ages 6-8
   gender: Co-ed.
