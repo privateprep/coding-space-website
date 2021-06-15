@@ -6,7 +6,7 @@ Pages will iterratively come here from Weebly until it can fulfill its ambitions
 
 ## Previous Development
 
-Before this repo, we have class signup via a now-archived repo: https://github.com/privateprep/tcs-class-signup.
+Before this repo, we were supporting class signup via a now-archived repo: https://github.com/privateprep/tcs-class-signup.
 
 If you are looking for a history of commits for the signup flow, that's likely a better place to look.
 
