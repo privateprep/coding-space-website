@@ -4,6 +4,12 @@ This is a static site used for marketing. As of June 2021, it is being primarily
 
 Pages will iterratively come here from Weebly until it can fulfill its ambitions of becoming the 'true' www.thecodingspace.com.
 
+## Previous Development
+
+Before this repo, we have class signup via a now-archived repo: https://github.com/privateprep/tcs-class-signup.
+
+If you are looking for a history of commits for the signup flow, that's likely a better place to look.
+
 ## Hosting
 
 It is hosted with Netlify. As each Netlify membership costs ~$10 to $15 a head each month, our team's access comes via an account through `support@privateprep.com`. If you need the password, ask! Or just reset it and let those who need it know.
