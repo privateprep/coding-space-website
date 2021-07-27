@@ -1,9 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
+import Buttons from "./Buttons";
 
 const HeaderAndMarkDownBlock = ({ data }) => {
-  const { bgColor, heading, mdContent, mediaPosition, textAlign, textColor } = data;
+  const {
+    bgColor,
+    buttons,
+    heading,
+    mdContent,
+    mediaPosition,
+    textAlign,
+    textColor,
+  } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -28,6 +37,14 @@ const HeaderAndMarkDownBlock = ({ data }) => {
         }}
       >
         <h1>{heading}</h1>
+        {!!buttons && (
+          <div
+            className="HeaderAndMarkDownBlock__heading_buttons"
+            style={{ paddingTop: "1rem" }}
+          >
+            <Buttons data={buttons} />
+          </div>
+        )}
       </div>
       <div
         className="HeaderAndMarkDownBlock__content"

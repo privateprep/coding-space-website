@@ -30,6 +30,7 @@ backgroundColor:
     widget: color,
     picker: twitter,
     default: "#faf6ee",
+    required: false,
     presetColors: *presetColors,
   }
 
@@ -39,7 +40,8 @@ textColor:
     name: textColor,
     widget: color,
     picker: twitter,
-    default: "#fff",
+    default: "#264548",
+    required: false,
     presetColors: *presetColors,
   }
 
@@ -50,6 +52,51 @@ textAlign:
     widget: select,
     default: "center",
     options: ["left", "center", "right"],
+  }
+
+buttons:
+  &buttons{
+    label: "Buttons",
+    name: "buttons",
+    widget: "object",
+    required: false,
+    collapsed: true,
+    fields:
+      [
+        {
+          label: "Buttons",
+          name: list,
+          widget: list,
+          summary: "{{fields.title}} - {{fields.content}}",
+          fields:
+            [
+              {
+                label: "Button Text",
+                name: title,
+                widget: string,
+                default: "Click me!",
+              },
+              {
+                label: "Link",
+                name: content,
+                widget: string,
+                hint: "Outside links must start with 'https://'",
+                default: "#",
+              },
+            ],
+        },
+        *backgroundColor,
+        {
+          label: "Button Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          required: false,
+          presetColors: *presetColors,
+        },
+        *textColor,
+      ],
   }
 
 page_builder:
@@ -209,6 +256,7 @@ page_builder:
             [
               { label: Heading, name: heading, widget: string },
               { label: Content, name: mdContent, widget: markdown },
+              *buttons,
               {
                 label: "Heading Position",
                 name: mediaPosition,
@@ -228,6 +276,7 @@ page_builder:
           fields:
             [
               { label: Content, name: mdContent, widget: markdown },
+              *buttons,
               {
                 label: Image,
                 name: image,
@@ -419,7 +468,9 @@ collections:
           label: "PP Dashboard Class Category Ids",
           name: "categoryIds",
           default: [],
-          hint: "This is a list, separate items with commas. Used to ensure location pages show offerings",
+          hint:
+            "This is a list, separate items with commas. Used to ensure location
+            pages show offerings",
           widget: "list",
         }
       - {
