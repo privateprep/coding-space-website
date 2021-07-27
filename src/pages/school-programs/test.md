@@ -18,11 +18,15 @@ pageBuilder:
   - type: textAndImageBlock
     image:
       alt: Kids learning!
-      image: /img/birthday.png
+      image: /img/boys-laughing-at-computer.jpg
     mediaPosition: right
     bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
+    fgColor: "#264548"
     mdContent: This is another test
+    buttons:
+      list:
+        - title: Click me!
+          content: "#"
   - type: headerAndMarkDownBlock
     mediaPosition: right
     textColor: "#264548"
@@ -40,13 +44,10 @@ pageBuilder:
         content: /summer_classes
         textAlign: center
         textColor: "#264548"
-        mdContent: >-
-          ![Animated computer with
-          code](/img/coding-camp.jpg "Why?")
-
+        mdContent: |-
+          ![Animated computer with code](/img/coding-camp.jpg "Why?")
 
           ### Co-ed Camps
-
 
           boom! Yay it finally works!
       - fgColor: "#9de2dd"
