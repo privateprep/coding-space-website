@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: builder-improvements
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -55,7 +55,7 @@ textAlign:
   }
 
 buttons:
-  &buttons{
+  &buttons {
     label: "Buttons",
     name: "buttons",
     widget: "object",
