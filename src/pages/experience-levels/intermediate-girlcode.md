@@ -5,7 +5,7 @@ seo_description: "Students will create advanced projects in Scratch, a
   block-based coding language, and move onto text-based programming in WoofJS,
   our JavaScript learning platform. "
 categoryIds:
-  - "105"
+  - 105
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=105
 thumbnail: /img/girlcode-three-around-computer.jpg
 details:
