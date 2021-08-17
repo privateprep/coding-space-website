@@ -28,12 +28,17 @@ const Button = ({ fgColor, textColor, key, link, text }) => (
 
 const Buttons = ({ data }) => {
   const { bgColor, fgColor, textColor, list } = data;
+
+  if (list === undefined) {
+    return null;
+  }
+
   return (
     <div
       className="Buttons component"
       style={{
         backgroundColor: bgColor,
-        padding: "0 4rem 4rem 4rem",
+        // padding: "0 4rem 4rem 4rem",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
