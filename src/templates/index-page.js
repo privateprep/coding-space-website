@@ -16,10 +16,10 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
         <h1 className="">{hero.heading}</h1>
         <p className="">{hero.subheading}</p>
         <div className="banner__buttons">
-          <a class="classes" href="https://classes.thecodingspace.com">
+          <a className="classes" href="https://classes.thecodingspace.com">
             Join a Class
           </a>
-          <a class="classes" href="https://classes.thecodingspace.com">
+          <a className="classes" href="https://classes.thecodingspace.com">
             Winter Break Mini Camps
           </a>
         </div>
