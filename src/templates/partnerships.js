@@ -7,6 +7,7 @@ import PageBuilder from "../components/PageBuilder";
 
 export const PartnershipsTemplate = ({
   title,
+  titleColor,
   headingImage,
   pageBuilder,
   helmet,
@@ -30,10 +31,7 @@ export const PartnershipsTemplate = ({
         >
           <div className="columns">
             <div className="column">
-              <h1
-                className="title has-text-weight-bold is-bold-light"
-                style={{ color: "white", fontSize: "5em" }}
-              >
+              <h1 className="title" style={{ color: titleColor, fontSize: "5em" }}>
                 {title}
               </h1>
             </div>
@@ -72,6 +70,7 @@ const Partnerships = ({ data }) => {
           </Helmet>
         }
         title={page.frontmatter.title}
+        titleColor={page.frontmatter.titleColor}
         headingImage={page.frontmatter.headingImage}
         pageBuilder={page.frontmatter.pageBuilder}
       />
@@ -94,6 +93,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        titleColor
         headingImage {
           publicURL
         }

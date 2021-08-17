@@ -10,6 +10,7 @@ const AboutUsPreview = ({ entry, widgetFor, getAsset }) => {
     <CustomPageTemplate
       description={entry.getIn(["data", "description"])}
       title={entry.getIn(["data", "title"])}
+      titleColor={entry.getIn(["data", "titleColor"])}
       headingImage={entry.getIn(["data", "headingImage"])}
       pageBuilder={pageBuilder}
     />

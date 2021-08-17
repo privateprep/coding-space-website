@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
 
-
 export default class CustomIndexPage extends React.Component {
   render() {
     return (
@@ -13,7 +12,6 @@ export default class CustomIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
             style={{
               boxShadow: "0.5rem 0 0 #9fe2dd, -0.5rem 0 0 #9fe2dd",
               backgroundColor: "#9fe2dd",

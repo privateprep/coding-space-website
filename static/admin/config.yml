@@ -34,6 +34,17 @@ backgroundColor:
     presetColors: *presetColors,
   }
 
+titleColor:
+  &titleColor {
+    label: "Title Color",
+    name: titleColor,
+    widget: color,
+    picker: twitter,
+    default: "#ffffff",
+    required: false,
+    presetColors: *presetColors,
+  }
+
 textColor:
   &textColor {
     label: "Text Color",
@@ -404,8 +415,14 @@ collections:
           default: "about-us",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - {
           label: "test relation",
           name: "experienceLevels",
@@ -428,6 +445,7 @@ collections:
           default: "blog-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
@@ -447,8 +465,14 @@ collections:
           default: "custom-page",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: "image" }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: "image",
+        }
       - *page_builder
   - name: "experience-levels"
     label: "Experience Levels (class categories)"
@@ -463,6 +487,7 @@ collections:
           default: "experience-levels",
         }
       - { label: "Title", name: "title", default: "Title", widget: "string" }
+      - *titleColor
       - { label: "SEO Description", name: "seo_description", widget: "text" }
       - {
           label: "PP Dashboard Class Category Ids",
@@ -540,8 +565,14 @@ collections:
           default: "school-programs",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - *page_builder
   - name: "partnerships"
     label: "Partnerships"
@@ -556,8 +587,14 @@ collections:
           default: "partnerships",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - *page_builder
   - name: "pages"
     label: "Pages"
