@@ -423,14 +423,6 @@ collections:
           required: false,
           widget: image,
         }
-      - {
-          label: "test relation",
-          name: "experienceLevels",
-          widget: "relation",
-          collection: "experience-levels",
-          valueField: "title",
-          searchFields: ["title"],
-        }
       - *page_builder
   - name: "blog"
     label: "Blog"
