@@ -22,9 +22,9 @@ const sortLocations = (a, b) => {
 
 const LocationsPanel = ({ locations, experienceLevels }) => {
   const [activeLocation, setActiveLocation] = useState(locations[0]);
-  const activeLevels = experienceLevels.filter((l) => {
-    const levelCategoryIds = l.categoryIds.map((str) => Number(str)); // Netlify CMS saves strings
-    return activeLocation.categoryIds.some((catId) =>
+  const activeLevels = experienceLevels.filter(l => {
+    const levelCategoryIds = l.categoryIds.map(str => Number(str)); // Netlify CMS saves strings
+    return activeLocation.categoryIds.some(catId =>
       levelCategoryIds.includes(catId)
     );
   });
@@ -38,7 +38,7 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__header">
         <h2 className="LocationsPanel__header__title">Explore Locations</h2>
         <ul className="locations-list">
-          {locations.sort(sortLocations).map((location) => (
+          {locations.sort(sortLocations).map(location => (
             <li
               key={location.classLocationId}
               className={`locations-list__item${
@@ -60,7 +60,9 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
       <div className="LocationsPanel__main">
         <div className="LocationsPanel__main__details">
           <h3>{activeLocation.name}</h3>
-          <Link className="button" to={`/locations/${activeLocation.code}`}>View Full Details</Link>
+          <Link className="button" to={`/locations/${activeLocation.code}`}>
+            View Full Details
+          </Link>
           {activeLocation.isOnline ? (
             <>
               <p>
@@ -116,7 +118,7 @@ const LocationsPage = ({ data }) => {
     frontmatter: { title, subtitle, seoDescription, pageBuilder },
   } = data.markdownRemark;
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
-    (levelNode) => {
+    levelNode => {
       return {
         ...levelNode.frontmatter,
         slug: levelNode.fields.slug,

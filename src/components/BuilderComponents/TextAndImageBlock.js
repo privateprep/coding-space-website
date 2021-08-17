@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
+import Buttons from "./Buttons";
 
 const TextAndImageBlock = ({ data }) => {
-  const { bgColor, fgColor, image, mdContent, mediaPosition } = data;
+  const { bgColor, buttons, fgColor, image, mdContent, mediaPosition } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -27,8 +28,22 @@ const TextAndImageBlock = ({ data }) => {
           margin: "0px",
           flex: "1 1 500px",
         }}
-        dangerouslySetInnerHTML={htmlContent}
-      ></div>
+      >
+        <div
+          className="TextAndImageBlock__content__md"
+          dangerouslySetInnerHTML={htmlContent}
+        />
+        <div className="TextAndImageBlock__content_buttons">
+          {!!buttons && (
+            <div
+              className="HeaderAndMarkDownBlock__heading_buttons"
+              style={{ paddingTop: "1rem" }}
+            >
+              <Buttons data={buttons} />
+            </div>
+          )}
+        </div>
+      </div>
       <div
         className="TextAndImageBlock__image"
         style={{

@@ -30,6 +30,18 @@ backgroundColor:
     widget: color,
     picker: twitter,
     default: "#faf6ee",
+    required: false,
+    presetColors: *presetColors,
+  }
+
+titleColor:
+  &titleColor {
+    label: "Title Color",
+    name: titleColor,
+    widget: color,
+    picker: twitter,
+    default: "#ffffff",
+    required: false,
     presetColors: *presetColors,
   }
 
@@ -39,7 +51,8 @@ textColor:
     name: textColor,
     widget: color,
     picker: twitter,
-    default: "#fff",
+    default: "#264548",
+    required: false,
     presetColors: *presetColors,
   }
 
@@ -50,6 +63,51 @@ textAlign:
     widget: select,
     default: "center",
     options: ["left", "center", "right"],
+  }
+
+buttons:
+  &buttons {
+    label: "Buttons",
+    name: "buttons",
+    widget: "object",
+    required: false,
+    collapsed: true,
+    fields:
+      [
+        {
+          label: "Buttons",
+          name: list,
+          widget: list,
+          summary: "{{fields.title}} - {{fields.content}}",
+          fields:
+            [
+              {
+                label: "Button Text",
+                name: title,
+                widget: string,
+                default: "Click me!",
+              },
+              {
+                label: "Link",
+                name: content,
+                widget: string,
+                hint: "Outside links must start with 'https://'",
+                default: "#",
+              },
+            ],
+        },
+        *backgroundColor,
+        {
+          label: "Button Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          required: false,
+          presetColors: *presetColors,
+        },
+        *textColor,
+      ],
   }
 
 page_builder:
@@ -209,6 +267,7 @@ page_builder:
             [
               { label: Heading, name: heading, widget: string },
               { label: Content, name: mdContent, widget: markdown },
+              *buttons,
               {
                 label: "Heading Position",
                 name: mediaPosition,
@@ -228,6 +287,7 @@ page_builder:
           fields:
             [
               { label: Content, name: mdContent, widget: markdown },
+              *buttons,
               {
                 label: Image,
                 name: image,
@@ -355,8 +415,14 @@ collections:
           default: "about-us",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - {
           label: "test relation",
           name: "experienceLevels",
@@ -379,6 +445,7 @@ collections:
           default: "blog-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
@@ -398,8 +465,14 @@ collections:
           default: "custom-page",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: "image" }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: "image",
+        }
       - *page_builder
   - name: "experience-levels"
     label: "Experience Levels (class categories)"
@@ -414,12 +487,15 @@ collections:
           default: "experience-levels",
         }
       - { label: "Title", name: "title", default: "Title", widget: "string" }
+      - *titleColor
       - { label: "SEO Description", name: "seo_description", widget: "text" }
       - {
           label: "PP Dashboard Class Category Ids",
           name: "categoryIds",
           default: [],
-          hint: "This is a list, separate items with commas. Used to ensure location pages show offerings",
+          hint:
+            "This is a list, separate items with commas. Used to ensure location
+            pages show offerings",
           widget: "list",
         }
       - {
@@ -489,8 +565,14 @@ collections:
           default: "school-programs",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - *page_builder
   - name: "partnerships"
     label: "Partnerships"
@@ -505,8 +587,14 @@ collections:
           default: "partnerships",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Heading Image", name: "headingImage", widget: image }
+      - {
+          label: "Heading Image",
+          name: "headingImage",
+          required: false,
+          widget: image,
+        }
       - *page_builder
   - name: "pages"
     label: "Pages"

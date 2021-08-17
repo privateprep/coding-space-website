@@ -14,6 +14,7 @@ const ExperienceLevelsPreview = ({ entry, widgetFor, getAsset }) => {
     <Router>
       <ExperienceLevelsTemplate
         title={entry.getIn(["data", "title"])}
+        titleColor={entry.getIn(["data", "titleColor"])}
         details={details}
         location=""
         default
