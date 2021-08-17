@@ -9,7 +9,6 @@ description: "The Coding Space—an afterschool program where students would lea
   self-expression, and computational thinking skills. Within the first two
   years, The Coding Space doubled in size, adding classes in multiple locations
   and schools around New York City as well as several full-time staff members. "
-experienceLevels: Advanced Code
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:
