@@ -34,9 +34,7 @@ pageBuilder:
       staff members.
 
 
-
-
-      In 2019, Private Prep, a leading test prep and tutoring company, acquired The Coding Space adding infrastructure support through human resources, technology, financial services, and more. As a part of the Private Prep family of brands, The Coding Space continues to focus on what it does best: creating a student-centered environment where children are architects of their own learning and coding helps make that possible.
+      In 2019, [Private Prep](https://privateprep.com/), a leading test prep and tutoring company, acquired The Coding Space adding infrastructure support through human resources, technology, financial services, and more. As a part of the Private Prep family of brands, The Coding Space continues to focus on what it does best: creating a student-centered environment where children are architects of their own learning, and coding helps make that possible.
   - type: styledChecks
     bgColor: "#9de2dd"
     fgColor: "#264548"
