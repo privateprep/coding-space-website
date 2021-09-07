@@ -24,9 +24,11 @@ const Reviews = ({ data }) => {
 
   return (
     <div className="reviews component" style={{ backgroundColor: bgColor }}>
-      <div className="has-text-centered">
-        <h1>{heading}</h1>
-      </div>
+      {!!heading && (
+        <div className="has-text-centered">
+          <h1>{heading}</h1>
+        </div>
+      )}
       <div className="reviews__list">
         {!!list &&
           list.map((item, i) => (

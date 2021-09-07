@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const StyledChecks = ({ data }) => {
   const { bgColor, fgColor, mediaPosition = "column", textColor, list } = data;
-  console.log(mediaPosition);
+
   return (
     <div
       className="styledChecks component"
@@ -38,11 +38,12 @@ const StyledChecks = ({ data }) => {
                       backgroundColor: fgColor,
                       width: "25px",
                       height: "25px",
+                      lineHeight: "10px",
                       fontWeight: "bold",
-                      borderRadius: "25px",
+                      borderRadius: "305px",
                       textAlign: "center",
                       padding: "15px",
-                      fontSize: "2rem",
+                      fontSize: "4rem",
                       marginRight: "15px",
                       display: "flex",
                       alignContent: "center",
@@ -52,16 +53,11 @@ const StyledChecks = ({ data }) => {
                   >
                     ✓
                   </div>
-                  <h3
+                  <h2
                     className="item__head__title"
-                    style={{
-                      fontSize: "1.8rem",
-                      margin: "0",
-                      lineHeight: "2.2rem",
-                    }}
                   >
                     {title}
-                  </h3>
+                  </h2>
                 </div>
                 <p className="item__content" style={{ padding: "1rem" }}>
                   {content}
