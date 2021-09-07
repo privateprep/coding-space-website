@@ -86,6 +86,7 @@ template {
   display: none;
 }
 a {
+  color: var(--primary);
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
