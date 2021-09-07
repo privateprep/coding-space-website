@@ -132,7 +132,7 @@ pageBuilder:
       Growth is always possible.
   - type: reviews
     bgColor: "#9de2dd"
-    heading: " I don't want a heading here "
+    heading: ""
     list:
       - title: I have not failed. I’ve just found 10,000 ways that won’t work.”
         content: Thomas Edison
@@ -165,4 +165,55 @@ pageBuilder:
 
 
       We promote the growth of every teacher, staff member, and student that enters our space in ways they most value. For our students, that means building a sense of community through collaboration and interaction that promotes their social and emotional development, fostering positive student-teacher relationships that meet the needs of each student at an individual level, and communicating progress, setbacks, and learning needs to best support them. For our teachers and staff, we advocate for their growth through providing professional development and training, including how to become better teachers and coders, and offering ongoing support and mentorship to help them along their individual journeys.
+  - type: customLinkBoxes
+    bgColor: "#faf6ee"
+    list:
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**How TCS is Different**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Our Philosophy**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Locations**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Social Impact**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Scholarship**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Common Questions**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**Rewards Program**"
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: "**LMS**"
 ---
