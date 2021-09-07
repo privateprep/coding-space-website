@@ -163,7 +163,12 @@ page_builder:
           widget: object,
           fields:
             [
-              { label: Heading, name: heading, widget: string },
+              {
+                label: Heading,
+                name: heading,
+                required: false,
+                widget: string,
+              },
               {
                 label: "Reviews",
                 name: list,
