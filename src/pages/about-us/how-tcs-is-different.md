@@ -4,7 +4,7 @@ title: How TCS is Different
 description: "The Coding Space is about more than just first-class coding
   education, it’s about helping kids build the skills that will serve them
   throughout life. "
-headingImage: ""
+headingImage: /img/tcs-header.png
 pageBuilder:
   - type: textOnly
     textAlign: center
