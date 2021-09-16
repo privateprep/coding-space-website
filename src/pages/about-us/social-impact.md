@@ -47,4 +47,13 @@ pageBuilder:
          * Develop teacher-in-training programming that provides job opportunities to people of color with non-traditional work and educational backgrounds. 
 
            * Widen access to our program through our scholarship program, which aims to award need-based scholarships to 25% of our student body.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Empowering Women+
+
+
+      Founded to address the glaring gender gaps in STEM fields and the tech industry and to advocate for and champion female voices in all arenas, our GirlCode program is woven into the fabric of our company. We are committed to providing mentorship, opportunities for growth, and equitable access to girls, women, transgender people, gender non-conforming people, non-binary people, and people who want to be in a female-identified environment. To this end, we strive to achieve the following goals:
 ---
