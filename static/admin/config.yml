@@ -118,14 +118,14 @@ page_builder:
     types:
       [
         {
-          label: "Custom Link Boxes",
+          label: "Linked Grid",
           name: customLinkBoxes,
           widget: object,
           fields:
             [
               *backgroundColor,
               {
-                label: "Custom Link Boxes",
+                label: "Linked Grid",
                 name: list,
                 widget: list,
                 summary: "{{fields.content}}",
@@ -253,7 +253,7 @@ page_builder:
             ],
         },
         {
-          label: "Free Response Text Only",
+          label: "Text",
           name: "textOnly",
           widget: "object",
           fields:
@@ -265,7 +265,7 @@ page_builder:
             ],
         },
         {
-          label: "Header And Free Response",
+          label: "Side By Side (header)",
           name: "headerAndMarkDownBlock",
           widget: "object",
           fields:
@@ -286,7 +286,7 @@ page_builder:
             ],
         },
         {
-          label: "Text and Image Section",
+          label: "Side By Side (image)",
           name: "textAndImageBlock",
           widget: "object",
           fields:
@@ -423,7 +423,7 @@ collections:
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
       - {
-          label: "Heading Image",
+          label: "Hero",
           name: "headingImage",
           required: false,
           widget: image,
@@ -465,7 +465,7 @@ collections:
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
       - {
-          label: "Heading Image",
+          label: "Hero",
           name: "headingImage",
           required: false,
           widget: "image",
@@ -565,7 +565,7 @@ collections:
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
       - {
-          label: "Heading Image",
+          label: "Hero",
           name: "headingImage",
           required: false,
           widget: image,
@@ -587,7 +587,7 @@ collections:
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
       - {
-          label: "Heading Image",
+          label: "Hero",
           name: "headingImage",
           required: false,
           widget: image,
