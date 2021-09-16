@@ -170,7 +170,7 @@ pageBuilder:
     list:
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "#"
+        content: /about-us/how-tcs-is-different/
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**How TCS is Different**"
