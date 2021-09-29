@@ -1,31 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Layout from "../components/Layout";
-import PageBuilder from "../components/PageBuilder";
-import SEO from "../components/seo";
-import CheckRewardsBalance from "../components/CheckRewardsBalance";
+import Seo from "../components/seo";
+import { ReferralPageTemplate } from "./template_exports/referral-page-template";
 
 import { graphql } from "gatsby";
-
-export const ReferralPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
-  return (
-    <div className="referral-page">
-      <section
-        className="referral-page__check-balance"
-        style={{ padding: "4rem" }}
-      >
-        <h1>{title}</h1>
-        <h2>Check Balance and Get Rewards Code</h2>
-        <CheckRewardsBalance />
-      </section>
-      <hr />
-      <PageBuilder data={pageBuilder ?? []} />
-      {!!lastUpdated && (
-        <small style={{ padding: "4rem" }}>Last Updated: {lastUpdated}</small>
-      )}
-    </div>
-  );
-};
 
 const ReferralPage = ({
   data: {
@@ -38,7 +17,7 @@ const ReferralPage = ({
 
   return (
     <Layout>
-      <SEO title={title} description={seoDescription} />
+      <Seo title={title} description={seoDescription} />
       <ReferralPageTemplate
         title={title}
         lastUpdated={modifiedTime}
