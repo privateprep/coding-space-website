@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-import { LiabilityPageTemplate } from "./template_exports/liability-template";
+import { LiabilityPageTemplate } from "./template_exports/liability-page-template";
 import { graphql } from "gatsby";
 
 const LiabilityPage = ({

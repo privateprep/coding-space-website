@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { LiabilityPageTemplate } from "../../templates/liability-page";
+import { LiabilityPageTemplate } from "../../templates/template_exports/liability-page-template";
 
 const LiabilityPagePreview = ({ entry }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);

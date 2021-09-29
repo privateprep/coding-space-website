@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ReferralPageTemplate } from "../../templates/referral-page";
+import { ReferralPageTemplate } from "../../templates/template_exports/referral-page-template";
 
 const ReferralPagePreview = ({ entry }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
