@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Router } from "@reach/router";
 import { navigate } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import SignUpWizard from "../components/sign_up";
 
 const BounceToHome = () => {
@@ -15,7 +15,7 @@ const BounceToHome = () => {
 
 export default () => (
   <Layout>
-    <SEO title="Sign Up" />
+    <Seo title="Sign Up" />
     <Router>
       <SignUpWizard path="sign_up/classes/:classTypeId" />
       <BounceToHome default />

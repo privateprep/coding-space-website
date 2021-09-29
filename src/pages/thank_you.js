@@ -5,7 +5,7 @@ import { withPrefix } from "gatsby";
 
 import Layout from "../components/Layout";
 import BoxWithLogo from "../components/shared/BoxWithLogo";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 // scripts provided by Google Ad Words Team
 const GTag = () =>
@@ -24,7 +24,7 @@ const ThankYou = _ => {
   return (
     <Layout>
       <GTag />
-      <SEO title="Thank You" />
+      <Seo title="Thank You" />
       <BoxWithLogo>
         <h2>See you in class!</h2>
         <p>A confirmation email will be sent shortly.</p>
