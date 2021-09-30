@@ -13,7 +13,7 @@ const BounceToHome = () => {
   return null;
 };
 
-export default () => (
+const Checkout = () => (
   <Layout>
     <Seo title="Checkout" />
     <Router>
@@ -22,3 +22,5 @@ export default () => (
     </Router>
   </Layout>
 );
+
+export default Checkout;

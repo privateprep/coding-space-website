@@ -13,7 +13,7 @@ const BounceToHome = () => {
   return null;
 };
 
-export default () => (
+const ClassSignUp = () => (
   <Layout>
     <Seo title="Sign Up" />
     <Router>
@@ -22,3 +22,5 @@ export default () => (
     </Router>
   </Layout>
 );
+
+export default ClassSignUp;
