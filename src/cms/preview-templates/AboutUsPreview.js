@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { CustomPageTemplate } from "../../templates/custom-page";
+import { CustomPageTemplate } from "../../templates/template_exports/custom-page-template";
 
 const AboutUsPreview = ({ entry, widgetFor, getAsset }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);

@@ -1,27 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Layout from "../components/Layout";
-import PageBuilder from "../components/PageBuilder";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
+
+import { RefundPageTemplate } from "./template_exports/refund-page-template";
 
 import { graphql } from "gatsby";
-
-export const RefundPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
-  return (
-    <div className="refund-page">
-      <section
-        className="refund-page__title"
-        style={{ padding: "4rem" }}
-      >
-        <h1>{title}</h1>
-      </section>
-      <PageBuilder data={pageBuilder ?? []} />
-      {!!lastUpdated && (
-        <small style={{ padding: "4rem" }}>Last Updated: {lastUpdated}</small>
-      )}
-    </div>
-  );
-};
 
 const RefundPage = ({
   data: {
@@ -34,7 +18,7 @@ const RefundPage = ({
 
   return (
     <Layout>
-      <SEO title={title} description={seoDescription} />
+      <Seo title={title} description={seoDescription} />
       <RefundPageTemplate
         title={title}
         lastUpdated={modifiedTime}

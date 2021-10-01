@@ -1,27 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Layout from "../components/Layout";
-import PageBuilder from "../components/PageBuilder";
-import SEO from "../components/seo";
-
+import Seo from "../components/seo";
+import { LiabilityPageTemplate } from "./template_exports/liability-page-template";
 import { graphql } from "gatsby";
-
-export const LiabilityPageTemplate = ({ title, pageBuilder, lastUpdated }) => {
-  return (
-    <div className="liability-page">
-      <section
-        className="liability-page__title"
-        style={{ padding: "4rem" }}
-      >
-        <h1>{title}</h1>
-      </section>
-      <PageBuilder data={pageBuilder ?? []} />
-      {!!lastUpdated && (
-        <small style={{ padding: "4rem" }}>Last Updated: {lastUpdated}</small>
-      )}
-    </div>
-  );
-};
 
 const LiabilityPage = ({
   data: {
@@ -34,7 +16,7 @@ const LiabilityPage = ({
 
   return (
     <Layout>
-      <SEO title={title} description={seoDescription} />
+      <Seo title={title} description={seoDescription} />
       <LiabilityPageTemplate
         title={title}
         lastUpdated={modifiedTime}

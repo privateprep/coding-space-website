@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Router } from "@reach/router";
 import { navigate } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import CollectRetrievedPayment from "../components/CollectRetrievedPayment";
 
 const BounceToHome = () => {
@@ -13,12 +13,14 @@ const BounceToHome = () => {
   return null;
 };
 
-export default () => (
+const Checkout = () => (
   <Layout>
-    <SEO title="Checkout" />
+    <Seo title="Checkout" />
     <Router>
       <CollectRetrievedPayment path="checkout/:paymentId" />
       <BounceToHome default />
     </Router>
   </Layout>
 );
+
+export default Checkout;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import PropTypes from "prop-types";
 import { Field } from "formik";
 import FormikError from "./FormikError";
@@ -15,7 +15,10 @@ const SelfIdentification = ({
   const [isSelected, setIsSelected] = useState(false);
 
   const radioOptions = options.map(o => o.id);
-  const radioOptionValues = [`Prefer not to answer - ${name}`, ...radioOptions];
+  const radioOptionValues = useMemo(
+    () => [`Prefer not to answer - ${name}`, ...radioOptions],
+    [radioOptions, name]
+  );
 
   // is another option is selected, clear this field
   useEffect(() => {

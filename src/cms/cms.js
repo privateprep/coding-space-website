@@ -3,6 +3,9 @@ import uploadcare from "netlify-cms-media-library-uploadcare";
 import cloudinary from "netlify-cms-media-library-cloudinary";
 import { ColorControl, ColorPreview } from "netlify-cms-widget-colorpicker";
 
+// import relevant styles here for previews
+import "../components/all.scss";
+
 import AboutUsPreview from "./preview-templates/AboutUsPreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
 import CustomPagePreview from "./preview-templates/CustomPagePreview";

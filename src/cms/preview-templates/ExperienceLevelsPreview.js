@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ExperienceLevelsTemplate } from "../../templates/experience-levels";
+import { ExperienceLevelsTemplate } from "../../templates/template_exports/experience-levels-template";
 import { Router } from "@reach/router";
 
 const ExperienceLevelsPreview = ({ entry, widgetFor, getAsset }) => {

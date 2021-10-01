@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { LocationsPageTemplate } from "../../templates/locations";
+import { LocationsPageTemplate } from "../../templates/template_exports/locations-template";
 
 const LocationsPagePreview = ({ entry }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
