@@ -2,6 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import ButtonLink from "../Atoms/ButtonLink";
 
+/**
+ * Provide quick access to other pages in the app via these button styled links
+ */
 const Buttons = ({ bgColor, fgColor, textColor, list }) => {
   if (list === undefined) {
     return null;

@@ -1,10 +1,12 @@
 import React from "react";
 
 import Buttons from "./Buttons";
+import ButtonLink from "../Atoms/ButtonLink";
 
 export default {
   title: "BuilderComponents/Buttons",
   component: Buttons,
+  subcomponents: { ButtonLink },
   argTypes: {
     fgColor: { control: "color" },
     bgColor: { control: "color" },
