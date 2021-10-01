@@ -17,7 +17,7 @@ const ComponentSelector = ({ data }) => {
     case "boxWithLogo":
       return <BoxWithLogo data={data} />;
     case "buttons":
-      return <Buttons data={data} />;
+      return <Buttons {...data} />;
     case "customLinkBoxes":
       return <CustomLinkBoxes data={data} />;
     case "textOnly":
