@@ -15,7 +15,7 @@ import {
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
     case "boxWithLogo":
-      return <BoxWithLogo data={data} />;
+      return <BoxWithLogo {...data} />;
     case "buttons":
       return <Buttons {...data} />;
     case "customLinkBoxes":
