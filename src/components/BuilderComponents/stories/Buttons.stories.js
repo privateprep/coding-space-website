@@ -1,7 +1,7 @@
 import React from "react";
 
-import Buttons from "./Buttons";
-import ButtonLink from "../Atoms/ButtonLink";
+import Buttons from "../Buttons";
+import ButtonLink from "../../Atoms/ButtonLink";
 
 export default {
   title: "BuilderComponents/Buttons",

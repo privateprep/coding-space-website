@@ -1,6 +1,6 @@
 import React from "react";
 
-import BoxWithLogo from "./BoxWithLogo";
+import BoxWithLogo from "../BoxWithLogo";
 
 export default {
   title: "BuilderComponents/BoxWithLogo",
