@@ -31,7 +31,7 @@ const ComponentSelector = ({ data }) => {
     case "points":
       return <Points data={data} />;
     case "styledChecks":
-      return <StyledChecks data={data} />;
+      return <StyledChecks {...data} />;
     default:
       return <p>Unknown Type</p>;
   }

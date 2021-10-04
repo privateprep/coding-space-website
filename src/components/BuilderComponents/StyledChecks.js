@@ -1,67 +1,49 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const StyledChecks = ({ data }) => {
-  const { bgColor, fgColor, mediaPosition = "column", textColor, list } = data;
+import "./styles/StyledChecks.scss";
 
+/**
+ * Nicely formatted check list items. Useful for displaying a list of information.
+ */
+const StyledChecks = ({
+  bgColor,
+  fgColor,
+  mediaPosition = "column",
+  textColor,
+  list,
+}) => {
   return (
     <div
-      className="styledChecks component"
-      style={{ backgroundColor: bgColor, padding: "4rem" }}
+      className="styled-checks component"
+      style={{ backgroundColor: bgColor }}
     >
       <ul
-        className="styledChecks__list"
+        className="styled-checks__list"
         style={{
-          maxWidth: "1000px",
-          margin: "auto",
-          display: "flex",
           flexDirection: mediaPosition,
-          justifyContent: "space-between",
         }}
       >
         {!!list &&
           list.map((item, index) => {
             const { title, content } = item;
             return (
-              <li
-                key={index}
-                className="item"
-                style={{ listStyle: "none", marginLeft: "2rem" }}
-              >
+              <li key={index} className="styled-checks__list__item">
                 <div
-                  className="item__head"
+                  className="styled-checks__list__item__head"
                   style={{ display: "flex", color: textColor }}
                 >
                   <div
-                    className="item__head__check"
+                    className="styled-check-mark"
                     style={{
                       backgroundColor: fgColor,
-                      width: "25px",
-                      height: "25px",
-                      lineHeight: "10px",
-                      fontWeight: "bold",
-                      borderRadius: "305px",
-                      textAlign: "center",
-                      padding: "15px",
-                      fontSize: "4rem",
-                      marginRight: "15px",
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "center",
-                      flexDirection: "column",
                     }}
                   >
                     ✓
                   </div>
-                  <h2
-                    className="item__head__title"
-                  >
-                    {title}
-                  </h2>
+                  <h2>{title}</h2>
                 </div>
-                <p className="item__content" style={{ padding: "1rem" }}>
-                  {content}
-                </p>
+                <p className="styled-checks__list__item__content">{content}</p>
               </li>
             );
           })}
@@ -71,15 +53,32 @@ const StyledChecks = ({ data }) => {
 };
 
 StyledChecks.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        content: PropTypes.string,
-      })
-    ),
-  }),
+  /**
+   Color for the background of the component
+  */
+  bgColor: PropTypes.string,
+  /**
+   Color of the circle behind the check
+  */
+  fgColor: PropTypes.string,
+  /**
+   Color of the check mark and header
+  */
+  textColor: PropTypes.string,
+  /**
+   Display checks in a row or column.
+  */
+  mediaPosition: PropTypes.oneOf(["column", "row"]),
+  /**
+   List of checks to display. Expects a header that appears next to the check mark
+   and content that contains more details. Can be any number of checks.
+  */
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      content: PropTypes.string,
+    })
+  ),
 };
 
 export default StyledChecks;
