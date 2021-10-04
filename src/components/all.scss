@@ -586,41 +586,6 @@ $menu-label-color: var(--white);
   margin: 0;
 }
 
-.custom-link-boxes {
-  display: grid;
-  justify-items: center;
-
-  &__list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-items: center;
-    a {
-      text-decoration: none;
-    }
-
-    .custom-link-box {
-      width: 300px;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      align-items: stretch;
-      flex-direction: column;
-      &__link {
-        text-decoration: none;
-      }
-      &__content {
-        img {
-          max-width: 250px;
-        }
-      }
-    }
-  }
-}
-
 .reviews {
   background-color: var(--background);
   padding: 3rem;

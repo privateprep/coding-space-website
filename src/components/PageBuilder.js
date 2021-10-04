@@ -19,7 +19,7 @@ const ComponentSelector = ({ data }) => {
     case "buttons":
       return <Buttons {...data} />;
     case "customLinkBoxes":
-      return <CustomLinkBoxes data={data} />;
+      return <CustomLinkBoxes {...data} />;
     case "textOnly":
       return <TextOnly data={data} />;
     case "headerAndMarkDownBlock":

@@ -1,39 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import createHtml from "../MdToHtml";
+import CustomLinkBox from "../Atoms/CustomLinkBox";
 
-const CustomLinkBox = ({
-  boxColor,
-  mdContent,
-  link,
-  textAlign,
-  textColor,
-}) => {
-  const htmlContent = createHtml(mdContent);
+import "./styles/CustomLinkBoxes.scss";
 
-  return (
-    <li
-      className="custom-link-box"
-      style={{
-        backgroundColor: boxColor,
-        color: textColor,
-        border: `solid 2px ${textColor}`,
-        borderRadius: "5px",
-      }}
-    >
-      <a className="custom-link-box__link" href={link}>
-        <div
-          className="custom-link-box__content"
-          dangerouslySetInnerHTML={htmlContent}
-          style={{ color: textColor, textAlign: textAlign }}
-        />
-      </a>
-    </li>
-  );
-};
-
-const CustomLinkBoxes = ({ data }) => {
-  const { bgColor, list } = data;
+/**
+ * A clickable box that links to another page or external site. Customizable content using a
+ * rich text editor.
+ */
+const CustomLinkBoxes = ({ bgColor, list }) => {
   return (
     <div
       className="custom-link-boxes component"
@@ -42,14 +17,16 @@ const CustomLinkBoxes = ({ data }) => {
       <ul className="custom-link-boxes__list">
         {!!list &&
           list.map((item, i) => (
-            <CustomLinkBox
-              key={`custom-link-box-${i}`}
-              link={item.content}
-              mdContent={item.mdContent}
-              boxColor={item.fgColor}
-              textAlign={item.textAlign}
-              textColor={item.textColor}
-            />
+            <li>
+              <CustomLinkBox
+                key={`custom-link-box-${i}`}
+                link={item.content}
+                mdContent={item.mdContent}
+                boxColor={item.fgColor}
+                textAlign={item.textAlign}
+                textColor={item.textColor}
+              />
+            </li>
           ))}
       </ul>
     </div>
@@ -57,18 +34,23 @@ const CustomLinkBoxes = ({ data }) => {
 };
 
 CustomLinkBoxes.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        content: PropTypes.string.isRequired,
-        fgColor: PropTypes.string,
-        mdContent: PropTypes.string,
-        textColor: PropTypes.string,
-        textAlign: PropTypes.string,
-      })
-    ),
-  }),
+  /**
+   * The background color of the entire component
+   */
+  bgColor: PropTypes.string,
+  /**
+   * These items allow rich text editing, background color selection, alignment,
+   * and the link to follow
+   */
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      content: PropTypes.string.isRequired,
+      fgColor: PropTypes.string,
+      mdContent: PropTypes.string,
+      textColor: PropTypes.string,
+      textAlign: PropTypes.string,
+    })
+  ),
 };
 
 export default CustomLinkBoxes;
