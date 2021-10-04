@@ -1,0 +1,19 @@
+    .custom-link-box {
+      border-radius: 5px;
+      width: 300px;
+      padding: 1rem;
+      margin: 1rem;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: stretch;
+      flex-direction: column;
+      &__link {
+        text-decoration: none;
+      }
+      &__content {
+        img {
+          max-width: 250px;
+        }
+      }
+    }
