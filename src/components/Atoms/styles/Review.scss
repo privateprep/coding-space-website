@@ -1,0 +1,15 @@
+.review {
+  width: 300px;
+  padding: 1rem;
+  position: relative;
+  #quote-icon {
+    width: 3rem;
+    height: 2rem;
+  }
+
+  &__name {
+    margin-left: 2rem;
+    position: absolute;
+    right: 4rem;
+  }
+}
