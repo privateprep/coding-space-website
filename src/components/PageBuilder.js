@@ -23,7 +23,7 @@ const ComponentSelector = ({ data }) => {
     case "textOnly":
       return <TextOnly data={data} />;
     case "headerAndMarkDownBlock":
-      return <HeaderAndMarkDownBlock data={data} />;
+      return <HeaderAndMarkDownBlock {...data} />;
     case "textAndImageBlock":
       return <TextAndImageBlock data={data} />;
     case "reviews":

@@ -1,0 +1,21 @@
+.header-and-markdown-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__heading {
+    padding: 1rem;
+    margin: 0px;
+    flex: 1 1 300px;
+
+    &__buttons {
+      padding-top: 1rem;
+    }
+  }
+
+  &__content {
+    padding: 1rem;
+    margin: 0px;
+    flex: 1 1 300px;
+  }
+}

@@ -3,58 +3,42 @@ import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 import Buttons from "./Buttons";
 
-const HeaderAndMarkDownBlock = ({ data }) => {
-  const {
-    bgColor,
-    buttons,
-    heading,
-    mdContent,
-    mediaPosition,
-    textAlign,
-    textColor,
-  } = data;
+import "./styles/HeaderAndMarkDownBlock.scss";
+
+const HeaderAndMarkDownBlock = ({
+  bgColor,
+  buttons,
+  heading,
+  mdContent,
+  mediaPosition = "right",
+  textAlign,
+  textColor,
+}) => {
   const htmlContent = createHtml(mdContent);
 
   return (
     <div
-      className="component HeaderAndMarkDownBlock"
+      className="header-and-markdown-block component"
       style={{
-        display: "flex",
-        flexWrap: "wrap",
         backgroundColor: bgColor,
         color: textColor,
         flexDirection: mediaPosition === "left" ? "row-reverse" : "row",
-        justifyContent: "space-between",
       }}
     >
       <div
-        className="HeaderAndMarkDownBlock__heading"
+        className="header-and-markdown-block__heading"
         style={{
-          padding: "1rem",
-          margin: "0px",
-          flex: "1 1 500px",
           textAlign: textAlign,
         }}
       >
         <h1>{heading}</h1>
         {!!buttons && (
-          <div
-            className="HeaderAndMarkDownBlock__heading_buttons"
-            style={{ paddingTop: "1rem" }}
-          >
-            <Buttons data={buttons} />
+          <div className="header-and-markdown-block__heading__buttons">
+            <Buttons {...buttons} />
           </div>
         )}
       </div>
-      <div
-        className="HeaderAndMarkDownBlock__content"
-        style={{
-          padding: "1rem",
-          fontSize: "18px",
-          margin: "0px",
-          flex: "1 1 500px",
-        }}
-      >
+      <div className="header-and-markdown-block__content">
         <div dangerouslySetInnerHTML={htmlContent} />
       </div>
     </div>
@@ -62,11 +46,30 @@ const HeaderAndMarkDownBlock = ({ data }) => {
 };
 
 HeaderAndMarkDownBlock.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    heading: PropTypes.string,
-    mdContent: PropTypes.string,
-  }),
+  /**
+   Color for the background of the component
+  */
+  bgColor: PropTypes.string,
+  /**
+   Color of the check mark and header
+  */
+  textColor: PropTypes.string,
+  /**
+   Determines if the header is placed on the left or right hand column
+  */
+  mediaPosition: PropTypes.oneOf(["left", "right"]),
+  /**
+   Content of the header
+  */
+  heading: PropTypes.string,
+  /**
+   Rich text displayed on the other side of the header
+  */
+  mdContent: PropTypes.string,
+  /**
+   [optional] call to action
+  */
+  buttons: PropTypes.object,
 };
 
 export default HeaderAndMarkDownBlock;
