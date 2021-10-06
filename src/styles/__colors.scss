@@ -1,0 +1,18 @@
+:root {
+  --background: #fbf6ee;
+  --backgroundAlt: var(--white);
+  --accent: #9fe2dd;
+  --accent-rgb: 159, 226, 221;
+  --primary: #264548;
+  --primary-rgb: 39, 69, 72;
+  --text-primary: var(--primary);
+  --text-accent: var(--accent);
+  --text-alt: var(--white);
+  --primary-btn: #edc034;
+  --disabled: #dfd1a7;
+  --hr: rgba(0, 0, 0, 0.2);
+  --danger: #ff2c2c; /* perhaps not on brand */
+  --error: var(--danger);
+  --white: #ffffff;
+  --black: #2b2523;
+}
