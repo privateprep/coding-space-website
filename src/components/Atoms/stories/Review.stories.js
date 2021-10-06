@@ -7,8 +7,10 @@ export default {
   component: Review,
   argTypes: {
     quoteColor: { control: "color" },
+    reviewColor: { control: "color" },
   },
   args: {
+    reviewColor: "#faf6ee",
     review: "This is the coolest!",
     name: "Alejandro",
   },

@@ -4,8 +4,13 @@ import QuoteIcon from "../../img/QuoteIcon.js";
 
 import "./styles/Review.scss";
 
-export const Review = ({ name, review, quoteColor = "#EDC034" }) => (
-  <div className="review">
+export const Review = ({
+  name,
+  review,
+  quoteColor = "#EDC034",
+  reviewColor = "#ffffff",
+}) => (
+  <div className="review" style={{ backgroundColor: reviewColor }}>
     <QuoteIcon className="review__quote" quoteColor={quoteColor} />
     <p className="review__content">{review}</p>
     <p className="review__name">{name}</p>
@@ -25,6 +30,10 @@ Review.propTypes = {
    Color of the quote icon
   */
   quoteColor: PropTypes.string,
+  /**
+   Background color of the review/quote
+  */
+  reviewColor: PropTypes.string,
 };
 
 export default Review;

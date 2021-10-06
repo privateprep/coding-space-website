@@ -4,7 +4,10 @@ import Review from "../Atoms/Review";
 
 import "./styles/Reviews.scss";
 
-const Reviews = ({ bgColor, heading, list }) => {
+/**
+ This component provides formatted quotes or reviews that display a person's name and their statement.
+*/
+const Reviews = ({ bgColor, fgColor, heading, list, textColor }) => {
   return (
     <div className="reviews component" style={{ backgroundColor: bgColor }}>
       {!!heading && (
@@ -18,6 +21,8 @@ const Reviews = ({ bgColor, heading, list }) => {
             <Review
               key={`review-${i}`}
               name={item.content}
+              quoteColor={textColor}
+              reviewColor={fgColor}
               review={item.title}
             />
           ))}
@@ -27,16 +32,31 @@ const Reviews = ({ bgColor, heading, list }) => {
 };
 
 Reviews.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    heading: PropTypes.string,
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        content: PropTypes.string,
-      })
-    ),
-  }),
+  /**
+   Color for the background of the component
+  */
+  bgColor: PropTypes.string,
+  /**
+   Color of the review background
+  */
+  fgColor: PropTypes.string,
+  /**
+   Color of the quote
+  */
+  textColor: PropTypes.string,
+  /**
+   An optional header above all the reviews/quotes
+  */
+  heading: PropTypes.string,
+  /**
+   List of reviews themselves containing the name and statement.
+  */
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      content: PropTypes.string,
+    })
+  ),
 };
 
 export default Reviews;
