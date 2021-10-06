@@ -1,0 +1,10 @@
+.reviews {
+  padding: 3rem; //TODO: Standardize with other components
+}
+
+.reviews__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+}

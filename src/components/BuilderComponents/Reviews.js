@@ -1,31 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import quote from "../../img/quote.svg";
+import Review from "../Atoms/Review";
 
-const Review = ({ name, review }) => (
-  <section className="review">
-    <img
-      src={quote}
-      alt="gold quote mark"
-      style={{ width: "3em", height: "2em" }}
-    />
-    <p style={{ padding: "2rem" }}>{review}</p>
-    <p
-      className="has-text-weight-semibold"
-      style={{ paddingLeft: "2rem", position: "absolute", bottom: "1rem" }}
-    >
-      {name}
-    </p>
-  </section>
-);
+import "./styles/Reviews.scss";
 
-const Reviews = ({ data }) => {
-  const { bgColor, heading, list } = data;
-
+const Reviews = ({ bgColor, heading, list }) => {
   return (
     <div className="reviews component" style={{ backgroundColor: bgColor }}>
       {!!heading && (
-        <div className="has-text-centered">
+        <div className="reviews__header">
           <h1>{heading}</h1>
         </div>
       )}

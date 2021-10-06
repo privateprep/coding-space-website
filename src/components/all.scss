@@ -571,28 +571,6 @@ $menu-label-color: var(--white);
   margin: 0;
 }
 
-.reviews {
-  background-color: var(--background);
-  padding: 3rem;
-}
-
-.reviews h1 {
-  font-size: 3em;
-}
-
-.reviews__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
-  justify-items: center;
-}
-
-.review {
-  background-color: var(--white);
-  padding: 1rem;
-  position: relative;
-}
-
 .columns:not(:last-child) {
   margin-bottom: 0;
 }

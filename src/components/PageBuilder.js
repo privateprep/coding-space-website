@@ -27,7 +27,7 @@ const ComponentSelector = ({ data }) => {
     case "textAndImageBlock":
       return <TextAndImageBlock data={data} />;
     case "reviews":
-      return <Reviews data={data} />;
+      return <Reviews {...data} />;
     case "points":
       return <Points data={data} />;
     case "styledChecks":
