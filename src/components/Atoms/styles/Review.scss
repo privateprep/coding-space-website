@@ -1,15 +1,25 @@
+
 .review {
-  width: 300px;
+  min-width: 300px;
+  max-width: 500px;
   padding: 1rem;
+  padding-bottom: 2rem;
   position: relative;
+  background-color: var(--white);
+
   #quote-icon {
     width: 3rem;
     height: 2rem;
   }
 
+  &__content {
+    padding: 0 2rem;
+  }
+
   &__name {
-    margin-left: 2rem;
+    margin-top: 1rem;
     position: absolute;
     right: 4rem;
+    bottom: 0;
   }
 }
