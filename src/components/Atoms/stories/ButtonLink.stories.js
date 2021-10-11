@@ -12,8 +12,8 @@ export default {
   args: {
     fgColor: "#9de2dd",
     textColor: "#264548",
-    text: "Click Me!",
-    link: "#",
+    title: "Click Me!",
+    content: "#",
     key: "1",
   },
 };
@@ -24,5 +24,3 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: "ButtonLink",
 };
-
-

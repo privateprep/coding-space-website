@@ -35,8 +35,8 @@ const Buttons = ({ bgColor, fgColor, textColor, list }) => {
               key={`button-link-${i}`}
               fgColor={fgColor}
               textColor={textColor}
-              link={item.content}
-              text={item.title}
+              content={item.content}
+              title={item.title}
             />
           ))}
       </div>

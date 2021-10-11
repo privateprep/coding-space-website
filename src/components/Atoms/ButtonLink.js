@@ -2,10 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./styles/ButtonLink.scss";
 
-export const ButtonLink = ({ fgColor, textColor, key, link, text }) => (
+/**
+ This is a button in appearance only and is actually a link to another page, either internal or external.
+*/
+export const ButtonLink = ({ fgColor, textColor, key, content, title }) => (
   <a
     class="button-link"
-    href={link}
+    href={content}
     key={key}
     style={{
       color: textColor,
@@ -13,7 +16,7 @@ export const ButtonLink = ({ fgColor, textColor, key, link, text }) => (
       borderColor: textColor,
     }}
   >
-    {text}
+    {title}
   </a>
 );
 
@@ -31,13 +34,13 @@ ButtonLink.propTypes = {
   */
   key: PropTypes.string,
   /**
-   The URL to link to another page or external source, this is a button in appearance only
+   The URL to link to another page or external source
   */
-  link: PropTypes.string,
+  content: PropTypes.string,
   /**
    Button text
   */
-  text: PropTypes.string,
+  title: PropTypes.string,
 };
 
 export default ButtonLink;
