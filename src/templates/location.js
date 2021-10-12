@@ -87,6 +87,19 @@ const LocationPage = ({ data }) => {
           )}
           <div className="Location__hero__text">
             <h1 className="title">{activeLocation.name}</h1>
+            {!!activeLocation.phoneNumber && (
+              <p>
+                <strong>Phone Number:</strong>{" "}
+                <a
+                  href={`tel:${activeLocation.phoneNumber}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "currentColor" }}
+                >
+                  {activeLocation.phoneNumber}
+                </a>
+              </p>
+            )}
             {activeLocation.isOnline ? (
               <p>
                 Connect to curriculum from anywhere with our suite of virtual
@@ -144,6 +157,7 @@ export const pageQuery = graphql`
       addressLink
       categoryIds
       courseOfferingsEndpoint
+      phoneNumber
     }
     experienceLevelQuery: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
