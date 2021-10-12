@@ -1,22 +1,7 @@
 @import "../fonts/fonts.css";
+@import "../styles/_colors";
 
 :root {
-  --background: #fbf6ee;
-  --backgroundAlt: var(--white);
-  --accent: #9fe2dd;
-  --accent-rgb: 159, 226, 221;
-  --primary: #264548;
-  --primary-rgb: 39, 69, 72;
-  --text-primary: var(--primary);
-  --text-accent: var(--accent);
-  --text-alt: var(--white);
-  --primary-btn: #edc034;
-  --disabled: #dfd1a7;
-  --hr: rgba(0, 0, 0, 0.2);
-  --danger: #ff2c2c; /* perhaps not on brand */
-  --error: var(--danger);
-  --white: #ffffff;
-  --black: #2b2523;
   --large-width: 1900px;
   --desktop-width: 1200px;
   --tablet-width: 768px;
@@ -584,63 +569,6 @@ $menu-label-color: var(--white);
 
 .point-row columns {
   margin: 0;
-}
-
-.custom-link-boxes {
-  display: grid;
-  justify-items: center;
-
-  &__list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-items: center;
-    a {
-      text-decoration: none;
-    }
-
-    .custom-link-box {
-      width: 300px;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      align-items: stretch;
-      flex-direction: column;
-      &__link {
-        text-decoration: none;
-      }
-      &__content {
-        img {
-          max-width: 250px;
-        }
-      }
-    }
-  }
-}
-
-.reviews {
-  background-color: var(--background);
-  padding: 3rem;
-}
-
-.reviews h1 {
-  font-size: 3em;
-}
-
-.reviews__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
-  justify-items: center;
-}
-
-.review {
-  background-color: var(--white);
-  padding: 1rem;
-  position: relative;
 }
 
 .columns:not(:last-child) {

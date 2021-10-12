@@ -1,34 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import ButtonLink from "../Atoms/ButtonLink";
 
-const Button = ({ fgColor, textColor, key, link, text }) => (
-  <a
-    class="custom-button"
-    href={link}
-    key={key}
-    style={{
-      color: textColor,
-      textDecoration: "none",
-      borderRadius: "6px",
-      margin: "10px",
-      width: "250px",
-      display: "inline-block",
-      textAlign: "center",
-      padding: "10px 0",
-      fontSize: "18px",
-      backgroundColor: fgColor,
-      fontWeight: "bold",
-      border: "2px solid",
-      borderColor: textColor,
-    }}
-  >
-    {text}
-  </a>
-);
-
-const Buttons = ({ data }) => {
-  const { bgColor, fgColor, textColor, list } = data;
-
+/**
+ * Provide quick access to other pages in the app via these button styled links
+ */
+const Buttons = ({ bgColor, fgColor, textColor, list }) => {
   if (list === undefined) {
     return null;
   }
@@ -54,12 +31,12 @@ const Buttons = ({ data }) => {
       >
         {!!list &&
           list.map((item, i) => (
-            <Button
-              key={`Button-${i}`}
+            <ButtonLink
+              key={`button-link-${i}`}
               fgColor={fgColor}
               textColor={textColor}
-              link={item.content}
-              text={item.title}
+              content={item.content}
+              title={item.title}
             />
           ))}
       </div>
@@ -68,17 +45,33 @@ const Buttons = ({ data }) => {
 };
 
 Buttons.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    fgColor: PropTypes.string,
-    textColor: PropTypes.string,
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        content: PropTypes.string,
-      })
-    ),
-  }),
+  /**
+   Color for the background of the component
+  */
+  bgColor: PropTypes.string,
+  /**
+   The fill color of the button
+  */
+  fgColor: PropTypes.string,
+  /**
+   The text and border color
+  */
+  textColor: PropTypes.string,
+  /**
+   List of buttons to display. Can be any 1 - 3 buttons. Due to limitations of the standardization of prop names by the page builder, the list item's title corresponds to the button's text, and the list item's content corresponds to the button's link.
+  */
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      /**
+       Label/Button text
+      */
+      title: PropTypes.string,
+      /**
+       Url
+      */
+      content: PropTypes.string,
+    })
+  ),
 };
 
 export default Buttons;

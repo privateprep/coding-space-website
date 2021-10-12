@@ -15,23 +15,23 @@ import {
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
     case "boxWithLogo":
-      return <BoxWithLogo data={data} />;
+      return <BoxWithLogo {...data} />;
     case "buttons":
-      return <Buttons data={data} />;
+      return <Buttons {...data} />;
     case "customLinkBoxes":
-      return <CustomLinkBoxes data={data} />;
+      return <CustomLinkBoxes {...data} />;
     case "textOnly":
       return <TextOnly data={data} />;
     case "headerAndMarkDownBlock":
-      return <HeaderAndMarkDownBlock data={data} />;
+      return <HeaderAndMarkDownBlock {...data} />;
     case "textAndImageBlock":
       return <TextAndImageBlock data={data} />;
     case "reviews":
-      return <Reviews data={data} />;
+      return <Reviews {...data} />;
     case "points":
       return <Points data={data} />;
     case "styledChecks":
-      return <StyledChecks data={data} />;
+      return <StyledChecks {...data} />;
     default:
       return <p>Unknown Type</p>;
   }

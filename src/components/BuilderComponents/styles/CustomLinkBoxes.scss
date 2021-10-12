@@ -1,0 +1,15 @@
+.custom-link-boxes {
+  display: grid;
+  justify-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-items: center;
+    a {
+      text-decoration: none;
+    }
+  }
+}

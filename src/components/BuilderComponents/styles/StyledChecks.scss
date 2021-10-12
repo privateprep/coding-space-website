@@ -1,0 +1,38 @@
+.styled-checks {
+  padding: 4rem; // TODO: Standardize this component level padding
+
+  &__list {
+    max-width: 1000px; // TODO: Standardize component level width
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      list-style: none;
+      margin-left: 2rem;
+
+      &__head {
+        display: flex;
+        .styled-check-mark {
+          width: 25px;
+          height: 25px;
+          line-height: 10px;
+          font-weight: bold;
+          border-radius: 305px;
+          text-align: center;
+          padding: 15px;
+          font-size: 4rem;
+          margin-right: 15px;
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+      }
+
+      &__content {
+        padding: 1rem;
+      }
+    }
+  }
+}

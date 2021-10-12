@@ -1,31 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import quote from "../../img/quote.svg";
+import Review from "../Atoms/Review";
 
-const Review = ({ name, review }) => (
-  <section className="review">
-    <img
-      src={quote}
-      alt="gold quote mark"
-      style={{ width: "3em", height: "2em" }}
-    />
-    <p style={{ padding: "2rem" }}>{review}</p>
-    <p
-      className="has-text-weight-semibold"
-      style={{ paddingLeft: "2rem", position: "absolute", bottom: "1rem" }}
-    >
-      {name}
-    </p>
-  </section>
-);
+import "./styles/Reviews.scss";
 
-const Reviews = ({ data }) => {
-  const { bgColor, heading, list } = data;
-
+/**
+ This component provides formatted quotes or reviews that display a person's name and their statement.
+*/
+const Reviews = ({ bgColor, fgColor, heading, list, textColor }) => {
   return (
     <div className="reviews component" style={{ backgroundColor: bgColor }}>
       {!!heading && (
-        <div className="has-text-centered">
+        <div className="reviews__header">
           <h1>{heading}</h1>
         </div>
       )}
@@ -34,8 +20,10 @@ const Reviews = ({ data }) => {
           list.map((item, i) => (
             <Review
               key={`review-${i}`}
-              name={item.content}
-              review={item.title}
+              content={item.content}
+              textColor={textColor}
+              fgColor={fgColor}
+              title={item.title}
             />
           ))}
       </div>
@@ -44,16 +32,31 @@ const Reviews = ({ data }) => {
 };
 
 Reviews.propTypes = {
-  data: PropTypes.shape({
-    bgColor: PropTypes.string,
-    heading: PropTypes.string,
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        content: PropTypes.string,
-      })
-    ),
-  }),
+  /**
+   Color for the background of the component
+  */
+  bgColor: PropTypes.string,
+  /**
+   Color of the review background
+  */
+  fgColor: PropTypes.string,
+  /**
+   Color of the quote
+  */
+  textColor: PropTypes.string,
+  /**
+   An optional header above all the reviews/quotes
+  */
+  heading: PropTypes.string,
+  /**
+   List of reviews themselves containing the name and statement.
+  */
+  list: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      content: PropTypes.string,
+    })
+  ),
 };
 
 export default Reviews;

@@ -190,6 +190,24 @@ page_builder:
                     },
                   ],
               },
+              {
+                label: "Quote Icon Color",
+                name: textColor,
+                widget: color,
+                picker: twitter,
+                default: "#EDC034",
+                required: false,
+                presetColors: *presetColors,
+              },
+              {
+                label: "Review Background Color",
+                name: fgColor,
+                widget: color,
+                picker: twitter,
+                default: "#ffffff",
+                required: false,
+                presetColors: *presetColors,
+              },
               *backgroundColor,
             ],
         },
@@ -422,12 +440,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          required: false,
-          widget: image,
-        }
+      - { label: "Hero", name: "headingImage", required: false, widget: image }
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -564,12 +577,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          required: false,
-          widget: image,
-        }
+      - { label: "Hero", name: "headingImage", required: false, widget: image }
       - *page_builder
   - name: "partnerships"
     label: "Partnerships"
@@ -586,12 +594,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          required: false,
-          widget: image,
-        }
+      - { label: "Hero", name: "headingImage", required: false, widget: image }
       - *page_builder
   - name: "pages"
     label: "Pages"
