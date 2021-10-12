@@ -6,13 +6,13 @@ export default {
   title: "Atoms/Review",
   component: Review,
   argTypes: {
-    quoteColor: { control: "color" },
-    reviewColor: { control: "color" },
+    textColor: { control: "color" },
+    fgColor: { control: "color" },
   },
   args: {
-    reviewColor: "#faf6ee",
-    review: "This is the coolest!",
-    name: "Alejandro",
+    fgColor: "#faf6ee",
+    title: "This is the coolest!",
+    content: "Alejandro",
   },
 };
 
@@ -25,5 +25,5 @@ Primary.args = {
 
 export const GreenQuote = Template.bind({});
 GreenQuote.args = {
-  quoteColor: "#264548",
+  textColor: "#264548",
 };

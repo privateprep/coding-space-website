@@ -20,10 +20,10 @@ const Reviews = ({ bgColor, fgColor, heading, list, textColor }) => {
           list.map((item, i) => (
             <Review
               key={`review-${i}`}
-              name={item.content}
-              quoteColor={textColor}
-              reviewColor={fgColor}
-              review={item.title}
+              content={item.content}
+              textColor={textColor}
+              fgColor={fgColor}
+              title={item.title}
             />
           ))}
       </div>
