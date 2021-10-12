@@ -9,9 +9,9 @@ import "./styles/CustomLinkBox.scss";
  * rich text editor.
  */
 export const CustomLinkBox = ({
-  boxColor,
+  fgColor,
   mdContent,
-  link,
+  content,
   textAlign,
   textColor,
 }) => {
@@ -21,11 +21,11 @@ export const CustomLinkBox = ({
     <a
       className="custom-link-box"
       style={{
-        backgroundColor: boxColor,
+        backgroundColor: fgColor,
         color: textColor,
         border: `solid 2px ${textColor}`,
       }}
-      href={link}
+      href={content}
     >
       <div
         className="custom-link-box__content"
@@ -45,7 +45,7 @@ CustomLinkBox.propTypes = {
   /**
    * The background color of the box
    */
-  boxColor: PropTypes.string,
+  fgColor: PropTypes.string,
   /**
    * Rich text
    */
@@ -57,7 +57,7 @@ CustomLinkBox.propTypes = {
   /**
    * Text alignment options ("left", "center", "right")
    */
-  textAlign: PropTypes.string,
+  textAlign: PropTypes.oneOf(["left", "center", "right"]),
 };
 
 export default CustomLinkBox;

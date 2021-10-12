@@ -22,7 +22,7 @@ const CustomLinkBoxes = ({ bgColor, list }) => {
                 key={`custom-link-box-${i}`}
                 link={item.content}
                 mdContent={item.mdContent}
-                boxColor={item.fgColor}
+                fgColor={item.fgColor}
                 textAlign={item.textAlign}
                 textColor={item.textColor}
               />

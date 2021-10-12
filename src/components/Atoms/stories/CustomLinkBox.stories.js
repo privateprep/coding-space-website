@@ -6,14 +6,14 @@ export default {
   title: "Atoms/CustomLinkBox",
   component: CustomLinkBox,
   argTypes: {
-    boxColor: { control: "color" },
+    fgColor: { control: "color" },
     textColor: { control: "color" },
   },
   args: {
-    boxColor: "#9de2dd",
+    fgColor: "#9de2dd",
     textColor: "#264548",
     mdContent: "My **whole** box is _clickable_!",
-    link: "#",
+    content: "#",
     textAlign: "center",
   },
 };
@@ -21,6 +21,3 @@ export default {
 const Template = args => <CustomLinkBox {...args} />;
 
 export const Primary = Template.bind({});
-Primary.args = {
-  label: "CustomLinkBox",
-};
