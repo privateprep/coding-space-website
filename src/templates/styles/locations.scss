@@ -98,6 +98,9 @@
           color: var(--primary);
         }
       }
+      &__info {
+        margin-top: 1.5rem;
+      }
       .leaflet-container {
         height: 100px;
         width: 100%;

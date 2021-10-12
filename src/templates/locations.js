@@ -116,6 +116,7 @@ export const pageQuery = graphql`
         addressString
         categoryIds
         courseOfferingsEndpoint
+        phoneNumber
       }
     }
   }

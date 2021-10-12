@@ -59,25 +59,40 @@ const LocationsPanel = ({ locations, experienceLevels }) => {
           <Link className="button" to={`/locations/${activeLocation.code}`}>
             View Full Details
           </Link>
-          {activeLocation.isOnline ? (
-            <>
+          <div className="LocationsPanel__main__details__info">
+            {!!activeLocation.phoneNumber && (
               <p>
-                Connect to curriculum from anywhere with our suite of virtual
-                courses!
+                <a
+                  href={`tel:${activeLocation.phoneNumber}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "currentColor" }}
+                >
+                  {activeLocation.phoneNumber}
+                </a>
               </p>
-            </>
-          ) : (
-            <>
-              <p>{activeLocation.addressString}</p>
-              <MapDisplay
-                addressCoords={[
-                  activeLocation.latitude,
-                  activeLocation.longitude,
-                ]}
-              />
-            </>
-          )}
+            )}
+            {activeLocation.isOnline ? (
+              <>
+                <p>
+                  Connect to curriculum from anywhere with our suite of virtual
+                  courses!
+                </p>
+              </>
+            ) : (
+              <>
+                <p>{activeLocation.addressString}</p>
+                <MapDisplay
+                  addressCoords={[
+                    activeLocation.latitude,
+                    activeLocation.longitude,
+                  ]}
+                />
+              </>
+            )}
+          </div>
         </div>
+
         <div className="LocationsPanel__main__offerings">
           <h4>Offerings</h4>
           <ClassCards
