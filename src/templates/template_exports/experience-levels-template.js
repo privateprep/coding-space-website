@@ -29,7 +29,10 @@ export const ExperienceLevelsTemplate = ({
             <span className="course-hero__text__byline">{byline}</span>
             {title}
           </h1>
-          <p dangerouslySetInnerHTML={htmlContent} />
+          <div
+            className="course-hero__text__content"
+            dangerouslySetInnerHTML={htmlContent}
+          />
         </div>
         <div className="course-hero__card">
           <header className="course-hero__card__header">
