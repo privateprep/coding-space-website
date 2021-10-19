@@ -1,3 +1,4 @@
+export { default as Accordion } from './Accordion';
 export { default as BoxWithLogo } from "./BoxWithLogo";
 export { default as Buttons } from "./Buttons";
 export { default as CustomLinkBoxes } from "./CustomLinkBoxes";
