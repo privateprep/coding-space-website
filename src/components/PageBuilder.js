@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
+  Accordion,
   BoxWithLogo,
   Buttons,
   TextOnly,
@@ -14,6 +15,8 @@ import {
 
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
+    case "accordion":
+      return <Accordion {...data} />;
     case "boxWithLogo":
       return <BoxWithLogo {...data} />;
     case "buttons":
