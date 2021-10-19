@@ -4,10 +4,15 @@ title: Common Questions
 titleColor: "#ffffff"
 description: "We answer some of the most common questions from parents like you. "
 pageBuilder:
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## Have questions about working with The Coding Space? Here are
+      answers to some of our most common questions."
   - type: accordion
     bgColor: "#faf6ee"
-    heading: Have questions about working with The Coding Space? Here are answers to
-      some of our most common questions.
+    heading: ""
     list:
       - fgColor: "#264548"
         title: Where do you offer classes?
