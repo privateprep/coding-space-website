@@ -118,6 +118,44 @@ page_builder:
     types:
       [
         {
+          label: "Accordion",
+          name: accordion,
+          widget: object,
+          fields:
+            [
+              *backgroundColor,
+              { label: Heading, name: heading, widget: string, required: false },
+              {
+                label: "Accordion Items",
+                name: list,
+                widget: list,
+                summary: "{{fields.title}}",
+                fields:
+                  [
+                    {
+                      label: "Active Color",
+                      name: fgColor,
+                      hint:
+                        "When a user clicks on a link, the background of that
+                        item is set to this color",
+                      widget: color,
+                      picker: twitter,
+                      default: "#264548",
+                      presetColors: *presetColors,
+                    },
+                    {
+                      label: "Item Header",
+                      name: title,
+                      widget: string,
+                      default: "Click me to show answer",
+                    },
+                    *textColor,
+                    { label: Content, name: mdContent, widget: markdown },
+                  ],
+              },
+            ],
+        },
+        {
           label: "Linked Grid",
           name: customLinkBoxes,
           widget: object,
