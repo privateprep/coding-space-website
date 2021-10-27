@@ -7,6 +7,7 @@ import "../BuilderComponents/styles/Accordion.scss";
 export const AccordionItem = ({
   activeItem,
   index,
+  fgColor,
   mdContent,
   onClick,
   textColor,
@@ -26,7 +27,10 @@ export const AccordionItem = ({
           className={`accordion-item__button ${
             !!activeItem ? "display-content" : ""
           }`}
-          style={{ color: textColor }}
+          style={{
+            color: textColor,
+            backgroundColor: activeItem ? fgColor : "transparent",
+          }}
           onClick={onClick}
         >
           {title}

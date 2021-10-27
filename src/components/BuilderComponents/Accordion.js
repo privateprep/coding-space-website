@@ -27,6 +27,7 @@ const AccordionItems = ({ bgColor, heading, fgColor, list, textColor }) => {
             return (
               <AccordionItem
                 activeItem={activeItem}
+                fgColor={fgColor}
                 index={i}
                 mdContent={item.mdContent}
                 textColor={textColor}
