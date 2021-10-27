@@ -62,14 +62,63 @@ pageBuilder:
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Summer Camp**"
-  - type: reviews
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: "#"
+    mediaPosition: right
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#9de2dd"
+    heading: Experiential Programs
+    mdContent: Discover unique learning experiences with our GirlCode and teen
+      programs. From supportive, female-identifying coding environments to our
+      STEM Leadership and High School Accelerator programs, we have a fit for
+      every student.
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#faf6ee"
+      textColor: "#264548"
+      list:
+        - title: Sign Up Now
+          content: "#"
+    mediaPosition: left
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#faf6ee"
+    heading: Explore Our Classes and Camps
+    mdContent: Click below to explore our full range of available classes and camps.
+      Search by type, experience level, or location.
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#264548"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list: []
+    mediaPosition: right
+    textColor: "#faf6ee"
+    textAlign: center
     bgColor: "#264548"
-    heading: What Parents and Kids Say About Working With Us
+    heading: Build Your Own
+    mdContent: Looking for something else? Our Build Your Own options are perfect
+      for personalized group classes and private lessons. Click below to learn
+      more.
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
     list:
-      - title: This is great!
-        content: Alejandro
-      - title: This is great!
-        content: Alejandro
-      - title: This is great!
-        content: Alejandro
+      - title: Girl Scouts
+        content: "#"
+      - title: Private Lessons & Small Groups
+        content: "#"
+      - title: Birthday Parties
+        content: "#"
+      - title: Workshops
+        content: "#"
 ---
