@@ -44,7 +44,7 @@ pageBuilder:
       - title: develop a fluency with technology
         content: " "
   - type: boxWithLogo
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     fgColor: "#264548"
     textColor: "#faf6ee"
     heading: Students will
@@ -54,4 +54,15 @@ pageBuilder:
       * craft their first lines of code
       * start forming computational thinking patterns
       * develop a fluency with technology
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: For young and first-time coders, we focus on fostering a welcoming
+      and creative learning environment where students will develop a fluency
+      with technology, and start forming crucial computational thinking patterns
+      as they piece together their first lines of code. Students learn through
+      specially curated activities in Code.org and advance into building
+      animations and games in Scratch, a block-based programming language
+      developed by MIT.
 ---
