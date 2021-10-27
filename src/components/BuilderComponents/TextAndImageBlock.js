@@ -5,7 +5,15 @@ import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import Buttons from "./Buttons";
 
 const TextAndImageBlock = ({ data }) => {
-  const { bgColor, buttons, fgColor, image, mdContent, mediaPosition } = data;
+  const {
+    bgColor,
+    buttons,
+    fgColor,
+    image,
+    mdContent,
+    mediaPosition,
+    textColor,
+  } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -23,7 +31,7 @@ const TextAndImageBlock = ({ data }) => {
         className="TextAndImageBlock__content"
         style={{
           padding: "1rem",
-          color: "black",
+          color: textColor,
           fontSize: "18px",
           margin: "0px",
           flex: "1 1 500px",
@@ -67,6 +75,7 @@ TextAndImageBlock.propTypes = {
     fgColor: PropTypes.string,
     image: PropTypes.any,
     mdContent: PropTypes.string,
+    textColor: PropTypes.string,
   }),
 };
 
