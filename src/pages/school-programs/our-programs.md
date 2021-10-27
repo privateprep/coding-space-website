@@ -121,4 +121,19 @@ pageBuilder:
         content: "#"
       - title: Workshops
         content: "#"
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: See What’s Coming
+          content: "#"
+    mediaPosition: left
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#faf6ee"
+    mdContent: Check out our upcoming event calendar, mini camps, Code 4 Change
+      challenges, and more in one spot.
+    heading: Special Events
 ---
