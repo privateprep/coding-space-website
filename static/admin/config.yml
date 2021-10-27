@@ -124,7 +124,25 @@ page_builder:
           fields:
             [
               *backgroundColor,
-              { label: Heading, name: heading, widget: string, required: false },
+              {
+                label: "Active Color",
+                name: fgColor,
+                hint:
+                  "When a user clicks on a link, the background of that item is
+                  set to this color",
+                widget: color,
+                picker: twitter,
+                required: false,
+                default: "#9de2dd",
+                presetColors: *presetColors,
+              },
+              *textColor,
+              {
+                label: Heading,
+                name: heading,
+                widget: string,
+                required: false,
+              },
               {
                 label: "Accordion Items",
                 name: list,
@@ -133,23 +151,11 @@ page_builder:
                 fields:
                   [
                     {
-                      label: "Active Color",
-                      name: fgColor,
-                      hint:
-                        "When a user clicks on a link, the background of that
-                        item is set to this color",
-                      widget: color,
-                      picker: twitter,
-                      default: "#264548",
-                      presetColors: *presetColors,
-                    },
-                    {
                       label: "Item Header",
                       name: title,
                       widget: string,
                       default: "Click me to show answer",
                     },
-                    *textColor,
                     { label: Content, name: mdContent, widget: markdown },
                   ],
               },
@@ -347,15 +353,17 @@ page_builder:
           widget: "object",
           fields:
             [
-              { label: Content, name: mdContent, widget: markdown },
               *buttons,
+              *textColor,
+              *backgroundColor,
+              { label: Content, name: mdContent, widget: markdown },
               {
                 label: Image,
                 name: image,
                 widget: object,
                 fields:
                   [
-                    { label: Image, name: image, widget: image },
+                    { label: Image, name: image, widget: image, default: "" },
                     {
                       label: Alt,
                       name: alt,
@@ -371,7 +379,6 @@ page_builder:
                 default: ["right"],
                 options: ["left", "right"],
               },
-              *backgroundColor,
               {
                 label: "Image Shadow",
                 name: fgColor,
