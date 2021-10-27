@@ -355,7 +355,7 @@ page_builder:
                 widget: object,
                 fields:
                   [
-                    { label: Image, name: image, widget: image },
+                    { label: Image, name: image, widget: image, default: "" },
                     {
                       label: Alt,
                       name: alt,
