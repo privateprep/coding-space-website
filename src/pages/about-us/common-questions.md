@@ -100,6 +100,8 @@ pageBuilder:
         mdContent: We teach coding using the Socratic Method, allowing our students to
           discover the solution independently. To read more about what makes our
           Approach different, go here.
+    fgColor: "#9de2dd"
+    textColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
