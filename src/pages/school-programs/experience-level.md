@@ -43,4 +43,15 @@ pageBuilder:
         content: " "
       - title: develop a fluency with technology
         content: " "
+  - type: boxWithLogo
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    heading: Students will
+    mdContent: |-
+      
+
+      * craft their first lines of code
+      * start forming computational thinking patterns
+      * develop a fluency with technology
 ---
