@@ -24,6 +24,7 @@ pageBuilder:
 
 
       Our customized curriculum was created to inspire your child to achieve their maximum potential. This student-centered approach combines project-based learning with unique platforms like WoofJS to create a totally personalized education experience, allowing students to be challenged at their individual level and pace. Want to know more? Check out the answers to some of our most commonly asked curriculum questions.
+    textColor: "#faf6ee"
   - type: accordion
     bgColor: "#faf6ee"
     list:
@@ -153,6 +154,8 @@ pageBuilder:
           between. Because our courses are project-based but not
           tutorial-driven, after your child completes a Coding Space project,
           they will have the ability to create their own projects at home.
+    fgColor: "#9de2dd"
+    textColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
