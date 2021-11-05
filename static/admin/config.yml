@@ -34,6 +34,28 @@ backgroundColor:
     presetColors: *presetColors,
   }
 
+boxWithLogo:
+  &boxWithLogo {
+    label: "Box with Logo",
+    name: "boxWithLogo",
+    widget: "object",
+    fields:
+      [
+        { label: Heading, name: heading, widget: string },
+        { label: Content, name: mdContent, widget: markdown },
+        *backgroundColor,
+        {
+          label: "Box Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#264548",
+          presetColors: *presetColors,
+        },
+        *textColor,
+      ],
+  }
+
 titleColor:
   &titleColor {
     label: "Title Color",
@@ -106,6 +128,67 @@ buttons:
           required: false,
           presetColors: *presetColors,
         },
+        *textColor,
+      ],
+  }
+
+styledChecks:
+  &styledChecks {
+    label: "Styled Checks",
+    name: "styledChecks",
+    widget: object,
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Check Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          presetColors: *presetColors,
+        },
+        *textColor,
+        {
+          label: "Check Direction",
+          name: mediaPosition,
+          widget: select,
+          default: "column",
+          options: ["column", "row"],
+        },
+        {
+          label: "Checks",
+          name: list,
+          widget: list,
+          fields:
+            [
+              {
+                label: Heading,
+                name: title,
+                widget: string,
+                default: "Heading",
+              },
+              {
+                label: Content,
+                name: content,
+                widget: text,
+                default: "Content...",
+              },
+            ],
+        },
+      ],
+  }
+
+text:
+  &text {
+    label: "Text",
+    name: "textOnly",
+    widget: "object",
+    fields:
+      [
+        { label: Content, name: mdContent, widget: markdown },
+        *textAlign,
+        *backgroundColor,
         *textColor,
       ],
   }
@@ -255,26 +338,7 @@ page_builder:
               *backgroundColor,
             ],
         },
-        {
-          label: "Box with Logo",
-          name: "boxWithLogo",
-          widget: "object",
-          fields:
-            [
-              { label: Heading, name: heading, widget: string },
-              { label: Content, name: mdContent, widget: markdown },
-              *backgroundColor,
-              {
-                label: "Box Color",
-                name: fgColor,
-                widget: color,
-                picker: twitter,
-                default: "#264548",
-                presetColors: *presetColors,
-              },
-              *textColor,
-            ],
-        },
+        *boxWithLogo,
         {
           label: "Buttons",
           name: "buttons",
@@ -314,18 +378,7 @@ page_builder:
               *textColor,
             ],
         },
-        {
-          label: "Text",
-          name: "textOnly",
-          widget: "object",
-          fields:
-            [
-              { label: Content, name: mdContent, widget: markdown },
-              *textAlign,
-              *backgroundColor,
-              *textColor,
-            ],
-        },
+        *text,
         {
           label: "Side By Side (header)",
           name: "headerAndMarkDownBlock",
@@ -421,51 +474,7 @@ page_builder:
               *textColor,
             ],
         },
-        {
-          label: "Styled Checks",
-          name: "styledChecks",
-          widget: object,
-          fields:
-            [
-              *backgroundColor,
-              {
-                label: "Check Color",
-                name: fgColor,
-                widget: color,
-                picker: twitter,
-                default: "#9de2dd",
-                presetColors: *presetColors,
-              },
-              *textColor,
-              {
-                label: "Check Direction",
-                name: mediaPosition,
-                widget: select,
-                default: "column",
-                options: ["column", "row"],
-              },
-              {
-                label: "Checks",
-                name: list,
-                widget: list,
-                fields:
-                  [
-                    {
-                      label: Heading,
-                      name: title,
-                      widget: string,
-                      default: "Heading",
-                    },
-                    {
-                      label: Content,
-                      name: content,
-                      widget: text,
-                      default: "Content...",
-                    },
-                  ],
-              },
-            ],
-        },
+        *styledChecks,
       ],
   }
 
