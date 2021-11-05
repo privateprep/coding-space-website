@@ -65,6 +65,28 @@ textAlign:
     options: ["left", "center", "right"],
   }
 
+boxWithLogo:
+  &boxWithLogo {
+    label: "Box with Logo",
+    name: "boxWithLogo",
+    widget: "object",
+    fields:
+      [
+        { label: Heading, name: heading, widget: string },
+        { label: Content, name: mdContent, widget: markdown },
+        *backgroundColor,
+        {
+          label: "Box Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          presetColors: *presetColors,
+        },
+        *textColor,
+      ],
+  }
+
 buttons:
   &buttons {
     label: "Buttons",
@@ -107,6 +129,90 @@ buttons:
           presetColors: *presetColors,
         },
         *textColor,
+      ],
+  }
+
+styledChecks:
+  &styledChecks {
+    label: "Styled Checks",
+    name: "styledChecks",
+    widget: object,
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Check Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          presetColors: *presetColors,
+        },
+        *textColor,
+        {
+          label: "Check Direction",
+          name: mediaPosition,
+          widget: select,
+          default: "column",
+          options: ["column", "row"],
+        },
+        {
+          label: "Checks",
+          name: list,
+          widget: list,
+          fields:
+            [
+              {
+                label: Heading,
+                name: title,
+                widget: string,
+                default: "Heading",
+              },
+              {
+                label: Content,
+                name: content,
+                widget: text,
+                default: "Content...",
+              },
+            ],
+        },
+      ],
+  }
+
+text:
+  &text {
+    label: "Text",
+    name: "textOnly",
+    widget: "object",
+    fields:
+      [
+        { label: Content, name: mdContent, widget: markdown },
+        *textAlign,
+        *backgroundColor,
+        *textColor,
+      ],
+  }
+
+sideBySide:
+  &sideBySide {
+    label: "Side by Side (items)",
+    name: "sideBySide",
+    widget: "object",
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Left Component",
+          name: leftComponent,
+          widget: "list",
+          types: [*text, *boxWithLogo, *styledChecks],
+        },
+        {
+          label: "Right Component",
+          name: rightComponent,
+          widget: "list",
+          types: [*text, *boxWithLogo, *styledChecks],
+        },
       ],
   }
 
@@ -255,26 +361,7 @@ page_builder:
               *backgroundColor,
             ],
         },
-        {
-          label: "Box with Logo",
-          name: "boxWithLogo",
-          widget: "object",
-          fields:
-            [
-              { label: Heading, name: heading, widget: string },
-              { label: Content, name: mdContent, widget: markdown },
-              *backgroundColor,
-              {
-                label: "Box Color",
-                name: fgColor,
-                widget: color,
-                picker: twitter,
-                default: "#264548",
-                presetColors: *presetColors,
-              },
-              *textColor,
-            ],
-        },
+        *boxWithLogo,
         {
           label: "Buttons",
           name: "buttons",
@@ -314,18 +401,7 @@ page_builder:
               *textColor,
             ],
         },
-        {
-          label: "Text",
-          name: "textOnly",
-          widget: "object",
-          fields:
-            [
-              { label: Content, name: mdContent, widget: markdown },
-              *textAlign,
-              *backgroundColor,
-              *textColor,
-            ],
-        },
+        *text,
         {
           label: "Side By Side (header)",
           name: "headerAndMarkDownBlock",
@@ -389,6 +465,7 @@ page_builder:
               },
             ],
         },
+        *sideBySide,
         {
           label: Points,
           name: points,
@@ -421,51 +498,7 @@ page_builder:
               *textColor,
             ],
         },
-        {
-          label: "Styled Checks",
-          name: "styledChecks",
-          widget: object,
-          fields:
-            [
-              *backgroundColor,
-              {
-                label: "Check Color",
-                name: fgColor,
-                widget: color,
-                picker: twitter,
-                default: "#9de2dd",
-                presetColors: *presetColors,
-              },
-              *textColor,
-              {
-                label: "Check Direction",
-                name: mediaPosition,
-                widget: select,
-                default: "column",
-                options: ["column", "row"],
-              },
-              {
-                label: "Checks",
-                name: list,
-                widget: list,
-                fields:
-                  [
-                    {
-                      label: Heading,
-                      name: title,
-                      widget: string,
-                      default: "Heading",
-                    },
-                    {
-                      label: Content,
-                      name: content,
-                      widget: text,
-                      default: "Content...",
-                    },
-                  ],
-              },
-            ],
-        },
+        *styledChecks,
       ],
   }
 

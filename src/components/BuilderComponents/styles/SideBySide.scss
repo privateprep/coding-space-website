@@ -1,0 +1,16 @@
+.side-by-side {
+  display: flex;
+  flex-wrap: wrap;
+
+  // Medium devices (large tablets, computers and up)
+  @media (min-width: 992px) {
+    flex-wrap: nowrap;
+    &__left-component {
+      min-width: 450px;
+    }
+
+    &__right-component {
+      min-width: 450px;
+    }
+  }
+}

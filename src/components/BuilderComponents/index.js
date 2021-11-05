@@ -7,4 +7,5 @@ export { default as HeaderAndMarkDownBlock } from "./HeaderAndMarkDownBlock";
 export { default as TextAndImageBlock } from "./TextAndImageBlock";
 export { default as Points } from "./Points";
 export { default as Reviews } from "./Reviews";
+export { default as SideBySide } from "./SideBySide";
 export { default as StyledChecks } from "./StyledChecks";
