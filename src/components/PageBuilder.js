@@ -7,6 +7,7 @@ import {
   TextOnly,
   Reviews,
   Points,
+  SideBySide,
   StyledChecks,
   HeaderAndMarkDownBlock,
   TextAndImageBlock,
@@ -29,6 +30,8 @@ const ComponentSelector = ({ data }) => {
       return <HeaderAndMarkDownBlock {...data} />;
     case "textAndImageBlock":
       return <TextAndImageBlock data={data} />;
+    case "sideBySide":
+      return <SideBySide {...data} />;
     case "reviews":
       return <Reviews {...data} />;
     case "points":
