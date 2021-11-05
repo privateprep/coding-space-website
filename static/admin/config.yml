@@ -34,28 +34,6 @@ backgroundColor:
     presetColors: *presetColors,
   }
 
-boxWithLogo:
-  &boxWithLogo {
-    label: "Box with Logo",
-    name: "boxWithLogo",
-    widget: "object",
-    fields:
-      [
-        { label: Heading, name: heading, widget: string },
-        { label: Content, name: mdContent, widget: markdown },
-        *backgroundColor,
-        {
-          label: "Box Color",
-          name: fgColor,
-          widget: color,
-          picker: twitter,
-          default: "#264548",
-          presetColors: *presetColors,
-        },
-        *textColor,
-      ],
-  }
-
 titleColor:
   &titleColor {
     label: "Title Color",
@@ -85,6 +63,28 @@ textAlign:
     widget: select,
     default: "center",
     options: ["left", "center", "right"],
+  }
+
+boxWithLogo:
+  &boxWithLogo {
+    label: "Box with Logo",
+    name: "boxWithLogo",
+    widget: "object",
+    fields:
+      [
+        { label: Heading, name: heading, widget: string },
+        { label: Content, name: mdContent, widget: markdown },
+        *backgroundColor,
+        {
+          label: "Box Color",
+          name: fgColor,
+          widget: color,
+          picker: twitter,
+          default: "#9de2dd",
+          presetColors: *presetColors,
+        },
+        *textColor,
+      ],
   }
 
 buttons:
@@ -190,6 +190,29 @@ text:
         *textAlign,
         *backgroundColor,
         *textColor,
+      ],
+  }
+
+sideBySide:
+  &sideBySide {
+    label: "Side by Side (items)",
+    name: "sideBySide",
+    widget: "object",
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Left Component",
+          name: leftComponent,
+          widget: "list",
+          types: [*text, *boxWithLogo, *styledChecks],
+        },
+        {
+          label: "Right Component",
+          name: rightComponent,
+          widget: "list",
+          types: [*text, *boxWithLogo, *styledChecks],
+        },
       ],
   }
 
@@ -442,6 +465,7 @@ page_builder:
               },
             ],
         },
+        *sideBySide,
         {
           label: Points,
           name: points,
