@@ -68,4 +68,16 @@ pageBuilder:
 
 
       \[Text:] Don’t miss our mini coding camps and one-time special events, offered virtually or in person throughout the year. Often coinciding with school and federal holidays like Presidents’ Day, Veterans’ Day, and more, These 90-minute events pack a big punch, bringing engagement and education to days off from school.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: "## Looking for something else?"
+  - type: buttons
+    bgColor: "#ffffff"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Contact Us
+        content: "#"
 ---
