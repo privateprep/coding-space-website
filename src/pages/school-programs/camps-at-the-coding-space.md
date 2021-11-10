@@ -50,6 +50,9 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
+      list:
+        - title: Learn More
+          content: "#"
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
