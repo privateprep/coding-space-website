@@ -42,4 +42,24 @@ pageBuilder:
 
 
       Looking for a way for your child to learn with friends near and far? Or get dedicated help from an instructor in a one-on-one setting? Our virtual and in-person private lessons and small group classes provide students with targeted support from our experienced instructors.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/accomplished.jpg
+      alt: Accessibility name
+    mediaPosition: right
+    fgColor: "#9de2dd"
+    mdContent: >-
+      # Girl Scouts Programs
+
+
+      ## Gather the Troops for Some Coding Fun
+
+
+      Empower Girl Scouts to take STEM by storm! Our welcoming and inclusive workshops teach Girl Scouts programming skills, encourage the exploration of STEM subjects, and conclude with a special badge ceremony.
 ---
