@@ -45,4 +45,24 @@ pageBuilder:
 
 
       Held Monday through Friday throughout the summer, these live Zoom classes bring kids together to explore coding challenges, STEM subjects, and fun screen-free activities.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/collaborative-group-space.jpg
+      alt: Accessibility name
+    mediaPosition: left
+    fgColor: "#9de2dd"
+    mdContent: >-
+      # Mini Camps and Special Events
+
+
+      ## Check Out Our Byte-Size Coding Camps
+
+
+      \[Text:] Don’t miss our mini coding camps and one-time special events, offered virtually or in person throughout the year. Often coinciding with school and federal holidays like Presidents’ Day, Veterans’ Day, and more, These 90-minute events pack a big punch, bringing engagement and education to days off from school.
 ---
