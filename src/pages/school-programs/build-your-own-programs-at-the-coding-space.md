@@ -104,4 +104,16 @@ pageBuilder:
 
 
       You bring the cake, we’ll bring the coding fun. Held in person or online, this unique event makes coding with friends a true celebration. Personalize your party by choosing a fun theme, cool activities, STEM-based subjects, and more.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## Looking for something else?"
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#9de2dd"
+    list:
+      - title: Contact Us
+        content: "#"
 ---
