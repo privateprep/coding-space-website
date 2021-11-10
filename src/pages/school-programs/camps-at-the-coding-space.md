@@ -23,8 +23,8 @@ pageBuilder:
        Our wildly popular camps combine project-based coding, STEM elective exploration, hands-on activities, epic team challenges, theme days, and more. Whether your child is joining us virtually or at one of our coding centers, they’re sure to have an unforgettable experience.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#264548"
+      bgColor: "#264548"
+      fgColor: "#9de2dd"
       textColor: "#faf6ee"
       list:
         - title: Learn More
