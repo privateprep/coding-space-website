@@ -83,4 +83,25 @@ pageBuilder:
 
 
       Interested in bringing The Coding Space to a special event near you? We partner with workplaces and community organizations to bring the fun of coding to your doorstep.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/birthday.png
+      alt: Accessibility name
+    mediaPosition:
+      - right
+    fgColor: "#eec11a"
+    mdContent: >-
+      # Birthday Parties
+
+
+      ## Happy Coding to You!
+
+
+      You bring the cake, we’ll bring the coding fun. Held in person or online, this unique event makes coding with friends a true celebration. Personalize your party by choosing a fun theme, cool activities, STEM-based subjects, and more.
 ---
