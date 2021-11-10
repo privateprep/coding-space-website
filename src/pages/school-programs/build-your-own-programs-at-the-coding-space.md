@@ -62,4 +62,25 @@ pageBuilder:
 
 
       Empower Girl Scouts to take STEM by storm! Our welcoming and inclusive workshops teach Girl Scouts programming skills, encourage the exploration of STEM subjects, and conclude with a special badge ceremony.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/kid-on-the-computer-backside.jpg
+      alt: Accessibility name
+    mediaPosition:
+      - right
+    fgColor: "#9de2dd"
+    mdContent: >-
+      # One-Time Events and Workshops
+
+
+      ## The Coding Space Comes to You
+
+
+      Interested in bringing The Coding Space to a special event near you? We partner with workplaces and community organizations to bring the fun of coding to your doorstep.
 ---
