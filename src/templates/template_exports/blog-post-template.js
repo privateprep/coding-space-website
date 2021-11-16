@@ -24,7 +24,7 @@ export const BlogPostTemplate = ({
       <div className="blog-container" style={{ backgroundColor: bgColor }}>
         <div className="blog-post">
           <div className="blog-post__info">
-            {/* <span>{date}</span> */}
+            <span>{date}</span>
           </div>
           <h1 style={{ color: titleColor }}>{title}</h1>
           <PreviewCompatibleImage imageInfo={featuredImage} />

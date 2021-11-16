@@ -535,9 +535,21 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - *backgroundColor
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "MMMM Do, YYYY",
+          date_format: "MMMM Do, YYYY",
+          time_format: false,
+        }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredPost", widget: "boolean", default: false }
+      - {
+          label: "Featured Post",
+          name: "featuredPost",
+          widget: "boolean",
+          default: false,
+        }
       - {
           label: "Featured Image",
           name: featuredImage,

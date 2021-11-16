@@ -5,7 +5,7 @@ import { BlogPostTemplate } from "../../templates/template_exports/blog-post-tem
 const BlogPostPreview = ({ entry, widgetFor }) => {
   // Always convert extracted objects and arrays .toJS()
   // in order to access the data.
-  
+
   const tags = entry.getIn(["data", "tags"]);
   const featuredImage = entry.getIn(["data", "featuredImage"]).toJS();
 
@@ -13,7 +13,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
     <BlogPostTemplate
       bgColor={entry.getIn(["data", "bgColor"])}
       content={widgetFor("body")}
-      date={entry.getIn(["data", "date"])}
+      date={entry.getIn(["data", "date"]).toString()}
       description={entry.getIn(["data", "description"])}
       featuredImage={featuredImage}
       tags={tags && tags.toJS()}

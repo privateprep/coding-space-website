@@ -9,7 +9,7 @@ import { BlogPostTemplate } from "./template_exports/blog-post-template";
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   const { bgColor, date, description, featuredImage, tags, title, titleColor } = post.frontmatter;
-  console.log(post.frontmatter);
+
   return (
     <Layout>
       <BlogPostTemplate
