@@ -2,7 +2,9 @@
 templateKey: 'blog-post'
 title: 'TCS Teacher Spotlight: Meet Brenda Castro'
 date: 2020-11-04T15:04:10.000Z
-featuredImage: /img/coding-camp.jpg
+featuredImage:
+  image: /img/girl-doing-class-at-home.jpg
+  alt: Accessibility name
 featuredPost: true
 description: >-
   We at The Coding Space are continually inspired by the dedicated and caring teachers on our team, especially those who contribute to the wellbeing of the communities they serve.

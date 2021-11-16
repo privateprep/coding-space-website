@@ -12,7 +12,9 @@ description: "With Code 4 Change: Kids Teaching Kids rounding the halfway mark,
   presentations. But what inspires them to give back and why are they excited to
   help? We asked them, and here's how they answered:."
 featuredPost: false
-featuredImage: /img/coding-camp.jpg
+featuredImage:
+  image: /img/girl-doing-class-at-home.jpg
+  alt: Accessibility name
 tags:
   - give-back
 ---

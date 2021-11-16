@@ -50,9 +50,12 @@ export const pageQuery = graphql`
         bgColor
         date(formatString: "MMMM DD, YYYY")
         featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+          alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

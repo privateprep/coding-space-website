@@ -18,7 +18,6 @@ export const BlogPostTemplate = ({
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(date);
   return (
     <React.Fragment>
       {helmet || ""}
@@ -28,7 +27,7 @@ export const BlogPostTemplate = ({
             {/* <span>{date}</span> */}
           </div>
           <h1 style={{ color: titleColor }}>{title}</h1>
-          {/* <PreviewCompatibleImage imageInfo={featuredImage} /> */}
+          <PreviewCompatibleImage imageInfo={featuredImage} />
           <p>{description}</p>
           <PostContent content={content} />
           {tags && tags.length ? (
