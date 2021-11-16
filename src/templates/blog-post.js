@@ -8,7 +8,7 @@ import { BlogPostTemplate } from "./template_exports/blog-post-template";
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { bgColor, date, description, featuredimage, tags, title, titleColor } = post.frontmatter;
+  const { bgColor, date, description, featuredImage, tags, title, titleColor } = post.frontmatter;
   console.log(post.frontmatter);
   return (
     <Layout>
@@ -18,7 +18,7 @@ const BlogPost = ({ data }) => {
         bgColor={bgColor}
         date={date}
         description={description}
-        featuredImage={featuredimage}
+        featuredImage={featuredImage}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${title}`}</title>
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       frontmatter {
         bgColor
         date(formatString: "MMMM DD, YYYY")
-        featuredimage {
+        featuredImage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid

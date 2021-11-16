@@ -21,8 +21,8 @@ const BlogRoll = () => {
               title
               templateKey
               date(formatString: "MMMM DD, YYYY")
-              featuredpost
-              featuredimage {
+              featuredPost
+              featuredImage {
                 childImageSharp {
                   fluid(maxWidth: 120, quality: 100) {
                     ...GatsbyImageSharpFluid
@@ -49,15 +49,15 @@ const BlogRoll = () => {
           <div className="is-parent column is-6" key={post.id}>
             <article
               className={`blog-list-item tile is-child box notification ${
-                post.frontmatter.featuredpost ? "is-featured" : ""
+                post.frontmatter.featuredPost ? "is-featured" : ""
               }`}
             >
               <header>
-                {post.frontmatter.featuredimage ? (
+                {post.frontmatter.featuredImage ? (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
                       imageInfo={{
-                        image: post.frontmatter.featuredimage,
+                        image: post.frontmatter.featuredImage,
                         alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                       }}
                     />

@@ -2,8 +2,8 @@
 templateKey: blog-post
 title: "Don’t Know Much About: The Coding Space Scholarship Program"
 date: 2017-01-04T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/coding-camp.jpg
+featuredPost: false
+featuredImage: /img/coding-camp.jpg
 description: From schools moving to remote or hybrid learning environments to families losing jobs and income as a result of the COVID-19 pandemic, 2020 has been a year full of challenges. Here at The Coding Space, we’re committed to offering support to families and students in need through our scholarship program. With the season of giving just around the corner, we wanted to take a moment and highlight how the scholarship program has contributed to continuing the coding education of students during an especially trying year, as well as to provide information about the program and invite qualifying students to apply. We spoke with Ofelia Canals, Head of Admissions and Client Relations, about this important initiative.
 tags:
   - scholarship
