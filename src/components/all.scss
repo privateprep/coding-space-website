@@ -580,3 +580,26 @@ $menu-label-color: var(--white);
   margin: auto;
   padding: 2rem;
 }
+
+// blogs
+.blog-container {
+  margin: 4rem;
+
+  h3 {
+    font-style: italic;
+    margin: 2rem;
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+  }
+
+  .blog-post {
+    padding: 4rem;
+    background-color: var(--white);
+
+    img {
+      width: 80%;
+      display: flex;
+      margin: auto;
+    }
+  }
+}
