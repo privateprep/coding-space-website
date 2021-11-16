@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { kebabCase } from "lodash";
 import Content from "../../components/Content";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import facebook from "../../img/social/facebook.svg";
 
 export const BlogPostTemplate = ({
   bgColor,
@@ -16,6 +17,7 @@ export const BlogPostTemplate = ({
   title,
   titleColor,
   helmet,
+  postUrl,
 }) => {
   const PostContent = contentComponent || Content;
   return (
@@ -46,6 +48,18 @@ export const BlogPostTemplate = ({
             <PostContent content={content} />
           </div>
           <hr />
+          <div className="blog-post__footer">
+            <a
+              title="facebook"
+              href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`}
+            >
+              <img
+                src={facebook}
+                alt="Facebook"
+                style={{ width: "1em", height: "1em" }}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </React.Fragment>
