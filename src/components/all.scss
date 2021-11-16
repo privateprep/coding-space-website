@@ -583,7 +583,20 @@ $menu-label-color: var(--white);
 
 // blogs
 .blog-container {
-  margin: 4rem;
+  padding: 4rem;
+
+  .tags {
+    margin: 0 auto;
+    width: 980px;
+    padding: 0 4rem;
+
+    .taglist {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 1.5rem;
+    }
+  }
 
   h3 {
     font-style: italic;
@@ -593,11 +606,35 @@ $menu-label-color: var(--white);
   }
 
   .blog-post {
-    padding: 4rem;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 4rem 8rem;
     background-color: var(--white);
 
+    &__details {
+      margin-bottom: 1rem;
+    }
+
+    &__heading {
+      margin-bottom: 1rem;
+
+      .gatsby-image-wrapper {
+        height: 35vh;
+      }
+
+      h2 {
+        font-style: italic;
+        font-size: 1.25rem;
+        margin: 2rem 0;
+      }
+    }
+
+    &__content {
+      margin-bottom: 4rem;
+    }
+
     img {
-      width: 80%;
+      width: 60%;
       display: flex;
       margin: auto;
     }
