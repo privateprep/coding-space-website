@@ -8,24 +8,26 @@ import { BlogPostTemplate } from "./template_exports/blog-post-template";
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const { bgColor, date, description, featuredimage, tags, title, titleColor } = post.frontmatter;
+  console.log(post.frontmatter);
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        bgColor={bgColor}
+        date={date}
+        description={description}
+        featuredImage={featuredimage}
         helmet={
           <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
+            <title>{`${title}`}</title>
+            <meta name="description" content={`${description}`} />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        tags={tags}
+        title={title}
+        titleColor={titleColor}
       />
     </Layout>
   );
@@ -45,8 +47,17 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        bgColor
         date(formatString: "MMMM DD, YYYY")
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         title
+        titleColor
         description
         tags
       }

@@ -3,23 +3,32 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import { kebabCase } from "lodash";
 import Content from "../../components/Content";
+import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
 export const BlogPostTemplate = ({
+  bgColor,
   content,
   contentComponent,
+  date,
   description,
+  featuredImage,
   tags,
   title,
+  titleColor,
   helmet,
 }) => {
   const PostContent = contentComponent || Content;
-
+  console.log(date);
   return (
-    <section>
+    <React.Fragment>
       {helmet || ""}
-      <div className="blog-container">
+      <div className="blog-container" style={{ backgroundColor: bgColor }}>
         <div className="blog-post">
-          <h1>{title}</h1>
+          <div className="blog-post__info">
+            {/* <span>{date}</span> */}
+          </div>
+          <h1 style={{ color: titleColor }}>{title}</h1>
+          {/* <PreviewCompatibleImage imageInfo={featuredImage} /> */}
           <p>{description}</p>
           <PostContent content={content} />
           {tags && tags.length ? (
@@ -36,7 +45,7 @@ export const BlogPostTemplate = ({
           ) : null}
         </div>
       </div>
-    </section>
+    </React.Fragment>
   );
 };
 
