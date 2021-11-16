@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const { alt = "", image, imageStyle } = imageInfo;
 
-  if (!!image?.childImageSharp?.fixed && image.extension === "png") {
+  if (!!image?.childImageSharp?.fixed && image?.extension === "png") {
     return (
       <Img
         style={imageStyle}
@@ -41,7 +41,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   if (!!image && typeof image === "string")
     return <img style={imageStyle} src={image} alt={alt} />;
 
-  if (image.extension === "svg" && !!image.publicURL)
+  if (image?.extension === "svg" && !!image.publicURL)
     return <img style={imageStyle} src={image.publicURL} alt={alt} />;
 
   return null;
