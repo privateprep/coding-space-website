@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
 title: "C4C Check-In: What Inspires Our Coders to Give Back"
+titleColor: "#264548"
+bgColor: "#9de2dd"
 date: 2016-12-17T15:04:10.000Z
 description: "With Code 4 Change: Kids Teaching Kids rounding the halfway mark,
   we wanted to take a moment to check in with our coders. Participants of all
