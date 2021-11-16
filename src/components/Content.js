@@ -4,11 +4,6 @@ import PropTypes from "prop-types";
 export const HTMLContent = ({ content, className }) => (
   <div
     className={className}
-    style={{
-      backgroundColor: "#9fe2dd",
-      padding: "4rem",
-      fontSize: "18px",
-    }}
     dangerouslySetInnerHTML={{ __html: content }}
   />
 );
@@ -16,11 +11,6 @@ export const HTMLContent = ({ content, className }) => (
 const Content = ({ content, className }) => (
   <div
     className={className}
-    style={{
-      backgroundColor: "#9fe2dd",
-      padding: "4rem",
-      fontSize: "18px",
-    }}
   >
     {content}
   </div>

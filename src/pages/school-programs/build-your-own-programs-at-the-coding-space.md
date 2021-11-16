@@ -72,8 +72,7 @@ pageBuilder:
     image:
       image: /img/kid-on-the-computer-backside.jpg
       alt: Accessibility name
-    mediaPosition:
-      - right
+    mediaPosition: right
     fgColor: "#9de2dd"
     mdContent: >-
       # One-Time Events and Workshops
@@ -93,8 +92,7 @@ pageBuilder:
     image:
       image: /img/birthday.png
       alt: Accessibility name
-    mediaPosition:
-      - right
+    mediaPosition: right
     fgColor: "#eec11a"
     mdContent: >-
       # Birthday Parties

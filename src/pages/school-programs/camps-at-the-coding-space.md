@@ -34,8 +34,7 @@ pageBuilder:
     image:
       image: /img/GirlCode-around-a-table.jpg
       alt: Accessibility name
-    mediaPosition:
-      - right
+    mediaPosition: right
     fgColor: "#9de2dd"
     mdContent: >-
       # Camp Coding Space Online

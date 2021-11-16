@@ -6,10 +6,14 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(["data", "tags"]);
   return (
     <BlogPostTemplate
+      bgColor={entry.getIn(["data", "bgColor"])}
       content={widgetFor("body")}
+      date={entry.getIn(["data", "date"])}
       description={entry.getIn(["data", "description"])}
+      featuredImage={entry.getIn(["data", "featuredImage"])}
       tags={tags && tags.toJS()}
       title={entry.getIn(["data", "title"])}
+      titleColor={entry.getIn(["data", "titleColor"])}
     />
   );
 };
