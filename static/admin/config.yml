@@ -452,7 +452,7 @@ page_builder:
                 label: "Image Position",
                 name: mediaPosition,
                 widget: select,
-                default: ["right"],
+                default: "right",
                 options: ["left", "right"],
               },
               {
