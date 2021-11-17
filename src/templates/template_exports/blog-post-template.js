@@ -20,11 +20,15 @@ export const BlogPostTemplate = ({
   postUrl,
 }) => {
   const PostContent = contentComponent || Content;
-  const fbURL = !!window
-    ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-        window.location.href
-      )}`
-    : "";
+  const isBrowser = typeof window !== "undefined";
+  let fbURL = "";
+
+  if (!!isBrowser) {
+    fbURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+      window.location.href
+    )}`;
+  }
+
   return (
     <React.Fragment>
       {helmet || ""}
