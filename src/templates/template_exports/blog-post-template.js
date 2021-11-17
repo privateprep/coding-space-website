@@ -20,6 +20,11 @@ export const BlogPostTemplate = ({
   postUrl,
 }) => {
   const PostContent = contentComponent || Content;
+  const fbURL = !!window
+    ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+        window.location.href
+      )}`
+    : "";
   return (
     <React.Fragment>
       {helmet || ""}
@@ -49,14 +54,11 @@ export const BlogPostTemplate = ({
           </div>
           <hr />
           <div className="blog-post__footer">
-            <a
-              title="facebook"
-              href={`https://www.facebook.com/sharer/sharer.php?u=${postUrl}`}
-            >
+            <a title="facebook" href={fbURL}>
               <img
                 src={facebook}
                 alt="Facebook"
-                style={{ width: "1em", height: "1em" }}
+                style={{ width: "2em", height: "2em" }}
               />
             </a>
           </div>
