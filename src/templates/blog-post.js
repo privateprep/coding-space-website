@@ -24,7 +24,9 @@ const BlogPost = ({ data, location }) => {
             <title>{`${title}`}</title>
             <meta name="title" content={`${title}`} />
             <meta name="description" content={`${description}`} />
-            <meta property="og:image" content={featuredImage.image} />
+            <meta property="og:title" content={`${title}`} />
+            <meta property="og:description" content={`${description}`} />
+            <meta property="og:image" content={featuredImage.image.childImageSharp.fluid.src} />
           </Helmet>
         }
         postUrl={location?.href}
