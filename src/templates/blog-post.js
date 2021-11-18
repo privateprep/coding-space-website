@@ -6,10 +6,10 @@ import Layout from "../components/Layout";
 import { HTMLContent } from "../components/Content";
 import { BlogPostTemplate } from "./template_exports/blog-post-template";
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
-  const { bgColor, date, description, featuredimage, tags, title, titleColor } = post.frontmatter;
-  console.log(post.frontmatter);
+  const { bgColor, date, description, featuredImage, tags, title, titleColor } =
+    post.frontmatter;
   return (
     <Layout>
       <BlogPostTemplate
@@ -18,13 +18,16 @@ const BlogPost = ({ data }) => {
         bgColor={bgColor}
         date={date}
         description={description}
-        featuredImage={featuredimage}
+        featuredImage={featuredImage}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${title}`}</title>
+            <meta name="title" content={`${title}`} />
             <meta name="description" content={`${description}`} />
+            <meta property="og:image" content={featuredImage.image} />
           </Helmet>
         }
+        postUrl={location?.href}
         tags={tags}
         title={title}
         titleColor={titleColor}
@@ -49,10 +52,13 @@ export const pageQuery = graphql`
       frontmatter {
         bgColor
         date(formatString: "MMMM DD, YYYY")
-        featuredimage {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        featuredImage {
+          alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

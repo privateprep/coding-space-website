@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { kebabCase } from "lodash";
 import Content from "../../components/Content";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import facebook from "../../img/social/facebook.svg";
 
 export const BlogPostTemplate = ({
   bgColor,
@@ -16,33 +17,55 @@ export const BlogPostTemplate = ({
   title,
   titleColor,
   helmet,
+  postUrl,
 }) => {
   const PostContent = contentComponent || Content;
-  console.log(date);
+  const isBrowser = typeof window !== "undefined";
+  let fbURL = "";
+
+  if (!!isBrowser) {
+    fbURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+      window.location.href
+    )}`;
+  }
+
   return (
     <React.Fragment>
       {helmet || ""}
       <div className="blog-container" style={{ backgroundColor: bgColor }}>
-        <div className="blog-post">
-          <div className="blog-post__info">
-            {/* <span>{date}</span> */}
+        {tags && tags.length ? (
+          <div className="tags">
+            <ul className="taglist">
+              {tags.map((tag) => (
+                <li key={tag + `tag`}>
+                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
-          <h1 style={{ color: titleColor }}>{title}</h1>
-          {/* <PreviewCompatibleImage imageInfo={featuredImage} /> */}
-          <p>{description}</p>
-          <PostContent content={content} />
-          {tags && tags.length ? (
-            <div style={{ marginTop: `4rem` }}>
-              <h4>Tags</h4>
-              <ul className="taglist">
-                {tags.map((tag) => (
-                  <li key={tag + `tag`}>
-                    <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
+        ) : null}
+        <div className="blog-post">
+          <div className="blog-post__details">
+            <span>{date}</span>
+          </div>
+          <div className="blog-post__heading">
+            <h1 style={{ color: titleColor }}>{title}</h1>
+            <PreviewCompatibleImage imageInfo={featuredImage} />
+            <h2>{description}</h2>
+          </div>
+          <div className="blog-post__content">
+            <PostContent content={content} />
+          </div>
+          <hr />
+          <div className="blog-post__footer">
+            <a title="facebook" href={fbURL}>
+              <img
+                src={facebook}
+                alt="Facebook"
+                style={{ width: "2em", height: "2em" }}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </React.Fragment>

@@ -535,10 +535,36 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - *backgroundColor
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "MMMM Do, YYYY",
+          date_format: "MMMM Do, YYYY",
+          time_format: false,
+        }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
+      - {
+          label: "Featured Post",
+          name: "featuredPost",
+          widget: "boolean",
+          default: false,
+        }
+      - {
+          label: "Featured Image",
+          name: featuredImage,
+          widget: object,
+          fields:
+            [
+              { label: Image, name: image, widget: image, default: "" },
+              {
+                label: Alt,
+                name: alt,
+                default: "Accessibility name",
+                widget: string,
+              },
+            ],
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
   - name: "custom"
