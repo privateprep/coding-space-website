@@ -598,8 +598,9 @@ $menu-label-color: var(--white);
     }
   }
 
-  h3 {
+  blockquote {
     font-style: italic;
+    font-size: 1.25rem;
     margin: 2rem;
     border-left: 4px solid var(--accent);
     padding-left: 1rem;
