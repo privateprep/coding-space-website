@@ -117,11 +117,18 @@ const TemplateWrapper = ({ children }) => {
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/meta-image.jpg`}
         />
+        <meta
+          property="og:image:alt"
+          content={"Girls coding around a table."}
+        />
+        <meta property="og:image:width" content={3000} />
+        <meta property="og:image:height" content={2000} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
       <BasicHeader />
