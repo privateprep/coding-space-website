@@ -28,7 +28,6 @@ export const BlogPostTemplate = ({
       window.location.href
     )}`;
   }
-
   return (
     <React.Fragment>
       {helmet || ""}
@@ -58,13 +57,15 @@ export const BlogPostTemplate = ({
           </div>
           <hr />
           <div className="blog-post__footer">
-            <a title="facebook" href={fbURL}>
-              <img
-                src={facebook}
-                alt="Facebook"
-                style={{ width: "2em", height: "2em" }}
-              />
-            </a>
+            {!!fbURL && (
+              <a title="facebook" href={fbURL}>
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  style={{ width: "2em", height: "2em" }}
+                />
+              </a>
+            )}
           </div>
         </div>
       </div>
