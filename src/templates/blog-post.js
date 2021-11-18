@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { HTMLContent } from "../components/Content";
 import { BlogPostTemplate } from "./template_exports/blog-post-template";
+import { withPrefix } from "gatsby";
 
 const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
@@ -26,7 +27,14 @@ const BlogPost = ({ data, location }) => {
             <meta name="description" content={`${description}`} />
             <meta property="og:title" content={`${title}`} />
             <meta property="og:description" content={`${description}`} />
-            <meta property="og:image" content={featuredImage.image.childImageSharp.fluid.src} />
+            <meta
+              property="og:image"
+              content={`${withPrefix("/")}${featuredImage.image.childImageSharp.fluid.src}`}
+            />
+            <meta
+              property="og:image:alt"
+              content={featuredImage.alt}
+            />
           </Helmet>
         }
         postUrl={location?.href}
