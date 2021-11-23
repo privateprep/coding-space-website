@@ -44,4 +44,21 @@ pageBuilder:
 
 
           ###### And seemingling everything else...
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: iframe
+        bgColor: "#faf6ee"
+        content: https://scratch.mit.edu/projects/510001177/embed
+        size:
+          height: 300
+          width: 300
+        title: This is an example
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        heading: Testing
+        mdContent: Testing... read all about it!
 ---
