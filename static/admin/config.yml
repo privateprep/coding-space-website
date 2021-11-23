@@ -11,6 +11,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# Presets
+
 presetColors:
   &presetColors [
     "#faf6ee",
@@ -22,6 +24,8 @@ presetColors:
     "#eec11a",
     "#f6c924",
   ]
+
+# Reusable fields
 
 backgroundColor:
   &backgroundColor {
@@ -48,8 +52,8 @@ size:
           widget: number,
           default: 300,
           value_type: "int",
-          min: 100px,
-          max: 1200px,
+          min: 100,
+          max: 1200,
           step: 10,
         },
         {
@@ -58,8 +62,8 @@ size:
           widget: number,
           default: 300,
           value_type: "int",
-          min: 100px,
-          max: 1200px,
+          min: 100,
+          max: 1200,
           step: 10,
         },
       ],
@@ -95,6 +99,8 @@ textAlign:
     default: "center",
     options: ["left", "center", "right"],
   }
+
+# Reusable components
 
 boxWithLogo:
   &boxWithLogo {
@@ -160,6 +166,32 @@ buttons:
           presetColors: *presetColors,
         },
         *textColor,
+      ],
+  }
+
+iframe:
+  &iframe {
+    label: "Iframe",
+    name: "iframe",
+    widget: "object",
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Source of iframe",
+          hint:
+            "This is a url to the source you want to import. Useful for student
+            projects",
+          name: "content",
+          widget: string,
+        },
+        {
+          label: "Title",
+          hint: "Not visible in the UI",
+          name: "title",
+          widget: string,
+        },
+        *size,
       ],
   }
 
@@ -432,6 +464,7 @@ page_builder:
               *textColor,
             ],
         },
+        *iframe,
         *text,
         {
           label: "Side By Side (header)",
