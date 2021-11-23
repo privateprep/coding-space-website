@@ -89,4 +89,16 @@ pageBuilder:
           height: 300
           width: 300
         title: "Climate Action: Save the bears"
+  - type: iframe
+    bgColor: "#ffffff"
+    content: "https://scratch.mit.edu/projects/510001177/embed"
+    title: "Scratch project to erase hunger"
+    size:
+      height: 400
+      width: 600
+  - type: textOnly
+    textAlign: left
+    bgColor: "#ffffff"
+    textColor: "#fff"
+    mdContent: >-
 ---

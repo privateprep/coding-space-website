@@ -49,6 +49,7 @@ export const pageQuery = graphql`
           publicURL
         }
         pageBuilder {
+          content
           heading
           image {
             alt
@@ -72,8 +73,13 @@ export const pageQuery = graphql`
             textColor
             textAlign
           }
+          size {
+            height
+            width
+          }
           textAlign
           textColor
+          title
           fgColor
           bgColor
         }
