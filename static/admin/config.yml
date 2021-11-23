@@ -179,6 +179,7 @@ iframe:
         *backgroundColor,
         {
           label: "Source of iframe",
+          default: "https://scratch.mit.edu/projects/510001177/embed",
           hint:
             "This is a url to the source you want to import. Useful for student
             projects",
@@ -268,13 +269,13 @@ sideBySide:
           label: "Left Component",
           name: leftComponent,
           widget: "list",
-          types: [*text, *boxWithLogo, *styledChecks],
+          types: [*text, *iframe, *boxWithLogo, *styledChecks],
         },
         {
           label: "Right Component",
           name: rightComponent,
           widget: "list",
-          types: [*text, *boxWithLogo, *styledChecks],
+          types: [*text, *iframe, *boxWithLogo, *styledChecks],
         },
       ],
   }

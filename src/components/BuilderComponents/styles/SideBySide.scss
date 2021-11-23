@@ -1,16 +1,19 @@
 .side-by-side {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   // Medium devices (large tablets, computers and up)
   @media (min-width: 992px) {
     flex-wrap: nowrap;
     &__left-component {
       min-width: 450px;
+      height: auto;
     }
 
     &__right-component {
       min-width: 450px;
+      height: auto;
     }
   }
 }
