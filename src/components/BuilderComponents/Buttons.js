@@ -19,6 +19,7 @@ const Buttons = ({ bgColor, fgColor, textColor, list }) => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        flexWrap: "wrap",
       }}
     >
       <div
