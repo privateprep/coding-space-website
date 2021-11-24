@@ -70,10 +70,6 @@ export const pageQuery = graphql`
             fgColor
             heading
             mdContent
-            size {
-              height
-              width
-            }
             textColor
             title
             type
@@ -93,17 +89,9 @@ export const pageQuery = graphql`
             fgColor
             heading
             mdContent
-            size {
-              height
-              width
-            }
             textColor
             title
             type
-          }
-          size {
-            height
-            width
           }
           textAlign
           textColor

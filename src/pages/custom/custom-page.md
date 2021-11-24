@@ -40,7 +40,9 @@ pageBuilder:
     bgColor: "#faf6ee"
     leftComponent:
       - type: iframe
+        fgColor: "#faf6ee"
         bgColor: "#faf6ee"
+        heading: "Dummy data for graphql"
         content: https://scratch.mit.edu/projects/515763533/embed
         size:
           height: 300

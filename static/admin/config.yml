@@ -38,37 +38,6 @@ backgroundColor:
     presetColors: *presetColors,
   }
 
-size:
-  &size {
-    label: "Item sizing",
-    name: size,
-    widget: object,
-    required: false,
-    fields:
-      [
-        {
-          label: Height,
-          name: height,
-          widget: number,
-          default: 300,
-          value_type: "int",
-          min: 100,
-          max: 1200,
-          step: 10,
-        },
-        {
-          label: Width,
-          name: width,
-          widget: number,
-          default: 300,
-          value_type: "int",
-          min: 100,
-          max: 1200,
-          step: 10,
-        },
-      ],
-  }
-
 titleColor:
   &titleColor {
     label: "Title Color",
@@ -192,7 +161,6 @@ iframe:
           name: "title",
           widget: string,
         },
-        *size,
       ],
   }
 
