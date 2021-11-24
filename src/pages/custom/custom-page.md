@@ -66,22 +66,22 @@ pageBuilder:
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
-      - type: boxWithLogo
+      - type: textOnly
+        textAlign: center
         bgColor: "#faf6ee"
-        fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: >-
-          Chase, age 9\
-
-          [“Climate Action - Save the Bears”](https://code4change.thecodingspace.com/1620442938498)
+          ### Best Sound Design
 
 
-          **About the Project:** “Climate Action as it affects bears and our planet.”\
 
-          \
+          **Chase, age 9**
+           “Climate Action - Save the Bears”
 
-          **From the Judges:** *Chase's wholesome project about protecting wildlife from pollution is bursting with character. His voice recordings give the project a sense of urgency and humor which help to communicate his important message. The project also ends with a wonderful song composed entirely in Scratch - impressive!*
-        heading: Best Sound Design
+
+          **About the Project:** “Climate Action as it affects bears and our planet.”
+
+           **From the Judges:** Chase’s wholesome project about protecting wildlife from pollution is bursting with character. His voice recordings give the project a sense of urgency and humor which help to communicate his important message. The project also ends with a wonderful song composed entirely in Scratch - impressive!
     rightComponent:
       - type: iframe
         bgColor: "#faf6ee"
