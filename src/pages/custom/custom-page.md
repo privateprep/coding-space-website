@@ -2,6 +2,7 @@
 templateKey: custom-page
 title: Custom Page
 description: This is for SEO
+headingImage: /img/girl-code-group.jpg
 pageBuilder:
   - type: styledChecks
     bgColor: "#9de2dd"
@@ -91,14 +92,9 @@ pageBuilder:
         title: "Climate Action: Save the bears"
   - type: iframe
     bgColor: "#ffffff"
-    content: "https://scratch.mit.edu/projects/510001177/embed"
-    title: "Scratch project to erase hunger"
+    content: https://scratch.mit.edu/projects/510001177/embed
+    title: Scratch project to erase hunger
     size:
       height: 400
       width: 600
-  - type: textOnly
-    textAlign: left
-    bgColor: "#ffffff"
-    textColor: "#fff"
-    mdContent: >-
 ---
