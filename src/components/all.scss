@@ -11,6 +11,9 @@
   --fontStack--heading: "Futura", "Futura Std", -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
     "Helvetica Neue", sans-serif;
+  --ratio16x9: 56.25%;
+  --ratio4x3: 75%;
+  --ratio1x1: 100%;
 }
 
 body {
@@ -493,6 +496,19 @@ img {
   &[open] {
     height: 95%; // space from next child
   }
+}
+
+.ratio1x1 {
+  padding-top: var(--ratio1x1);
+}
+
+.ratio4x3 {
+  padding-top: var(--ratio4x3);
+}
+
+.ratio16x9 {
+  background-color: pink;
+  padding-top: var(--ratio16x9);
 }
 
 .margin-top-0 {

@@ -70,6 +70,7 @@ export const pageQuery = graphql`
             fgColor
             heading
             mdContent
+            ratio
             textColor
             title
             type
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
             fgColor
             heading
             mdContent
+            ratio
             textColor
             title
             type

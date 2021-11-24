@@ -44,9 +44,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         heading: "Dummy data for graphql"
         content: https://scratch.mit.edu/projects/515763533/embed
-        size:
-          height: 300
-          width: 300
+        ratio: "ratio1x1"
         title: Build Africa - The Conservation Fund
     rightComponent:
       - type: boxWithLogo
@@ -71,6 +69,7 @@ pageBuilder:
       - type: textOnly
         textAlign: center
         bgColor: "#faf6ee"
+        ratio: "ratio16x9"
         textColor: "#264548"
         mdContent: >-
           ### Best Sound Design
@@ -88,9 +87,7 @@ pageBuilder:
       - type: iframe
         bgColor: "#faf6ee"
         content: https://scratch.mit.edu/projects/524294318/embed
-        size:
-          height: 300
-          width: 300
+        ratio: "ratio16x9"
         title: "Climate Action: Save the bears"
   - type: iframe
     bgColor: "#ffffff"

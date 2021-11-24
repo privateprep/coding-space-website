@@ -2,8 +2,17 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
+  &.ratio1x1 {
+    padding-top: var(--ratio1x1);
+  }
 
+  &.ratio4x3 {
+    padding-top: var(--ratio4x3);
+  }
+
+  &.ratio16x9 {
+    padding-top: var(--ratio16x9);
+  }
   .iframe-responsive {
     position: absolute;
     top: 0;

@@ -3,10 +3,13 @@ import PropTypes from "prop-types";
 
 import "./styles/Iframe.scss";
 
-const Iframe = ({ bgColor, content, title }) => {
+const Iframe = ({ bgColor, content, ratio, title }) => {
   return (
     <div className="component">
-      <div className="iframe-container" style={{ backgroundColor: bgColor }}>
+      <div
+        className={`iframe-container ${ratio}`}
+        style={{ backgroundColor: bgColor }}
+      >
         <iframe
           className="iframe-responsive"
           title={title}
@@ -27,12 +30,13 @@ Iframe.propTypes = {
   */
   content: PropTypes.string,
   /**
+   Aspect ratio of the iframe
+  */
+  ratio: PropTypes.string,
+  /**
    Title of the iframe (does not appear in the UI)
   */
   title: PropTypes.string,
-  /**
-   Controls the size of the iframe
-  */
 };
 
 export default Iframe;
