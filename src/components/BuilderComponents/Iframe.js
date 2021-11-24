@@ -3,20 +3,16 @@ import PropTypes from "prop-types";
 
 import "./styles/Iframe.scss";
 
-const Iframe = ({
-  bgColor,
-  content,
-  size: { height = 300, width = 300 },
-  title,
-}) => {
+const Iframe = ({ bgColor, content, title }) => {
   return (
-    <div className="iframe-container" style={{ backgroundColor: bgColor }}>
-      <iframe
-        title={title}
-        width={width}
-        height={height}
-        src={content}
-      ></iframe>
+    <div className="component">
+      <div className="iframe-container" style={{ backgroundColor: bgColor }}>
+        <iframe
+          className="iframe-responsive"
+          title={title}
+          src={content}
+        ></iframe>
+      </div>
     </div>
   );
 };
@@ -37,16 +33,6 @@ Iframe.propTypes = {
   /**
    Controls the size of the iframe
   */
-  size: PropTypes.shape({
-    /**
-     height of iframe in pixels
-    */
-    height: PropTypes.number,
-    /**
-     Width of iframe in pixels
-    */
-    width: PropTypes.number,
-  }),
 };
 
 export default Iframe;

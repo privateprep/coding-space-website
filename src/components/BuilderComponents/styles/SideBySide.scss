@@ -9,11 +9,13 @@
     &__left-component {
       min-width: 450px;
       height: auto;
+      flex: 1;
     }
 
     &__right-component {
       min-width: 450px;
       height: auto;
+      flex: 1;
     }
   }
 }
