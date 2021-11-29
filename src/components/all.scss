@@ -592,8 +592,14 @@ $menu-label-color: var(--white);
 }
 
 .component {
-  max-width: 1360px;
-  padding: 4rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: var(--tablet-width)) {
+  .component {
+    padding: 4rem;
+    max-width: 1360px;
+  }
 }
 
 // blogs
