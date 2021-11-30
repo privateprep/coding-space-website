@@ -9,8 +9,16 @@ import { withPrefix } from "gatsby";
 
 const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data;
-  const { bgColor, date, description, featuredImage, tags, title, titleColor } =
-    post.frontmatter;
+  const {
+    bgColor,
+    date,
+    description,
+    featuredImage,
+    tags,
+    title,
+    titleColor,
+    pageBuilder,
+  } = post.frontmatter;
   return (
     <Layout>
       <BlogPostTemplate
@@ -29,14 +37,14 @@ const BlogPost = ({ data, location }) => {
             <meta property="og:description" content={`${description}`} />
             <meta
               property="og:image"
-              content={`${withPrefix("/")}${featuredImage.image.childImageSharp.fluid.src}`}
+              content={`${withPrefix("/")}${
+                featuredImage.image.childImageSharp.fluid.src
+              }`}
             />
-            <meta
-              property="og:image:alt"
-              content={featuredImage.alt}
-            />
+            <meta property="og:image:alt" content={featuredImage.alt} />
           </Helmet>
         }
+        pageBuilder={pageBuilder}
         postUrl={location?.href}
         tags={tags}
         title={title}
@@ -76,6 +84,59 @@ export const pageQuery = graphql`
         titleColor
         description
         tags
+        pageBuilder {
+          content
+          heading
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          mdContent
+          mediaPosition
+          type
+          leftComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
+          list {
+            content
+            title
+            mdContent
+            fgColor
+            bgColor
+            textColor
+            textAlign
+          }
+          rightComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
+          textAlign
+          textColor
+          title
+          fgColor
+          bgColor
+        }
       }
     }
   }

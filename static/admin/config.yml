@@ -615,6 +615,7 @@ collections:
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      - *page_builder
       - { label: "Tags", name: "tags", widget: "list" }
   - name: "custom"
     label: "Customizable Pages"
