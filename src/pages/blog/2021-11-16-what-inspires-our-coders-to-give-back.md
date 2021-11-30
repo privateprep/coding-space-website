@@ -26,7 +26,7 @@ pageBuilder:
         title: Test
     rightComponent:
       - type: boxWithLogo
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         fgColor: "#9de2dd"
         textColor: "#264548"
         heading: Testing Interactive content in blog
