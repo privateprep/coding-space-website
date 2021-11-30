@@ -3,19 +3,24 @@
   flex-wrap: wrap;
   justify-content: center;
 
+  &__left-component {
+    flex: 1 1 auto;
+  }
+
+  &__right-component {
+    flex: 1 1 auto;
+  }
   // Medium devices (large tablets, computers and up)
   @media (min-width: 992px) {
     flex-wrap: nowrap;
     &__left-component {
       min-width: 450px;
       height: auto;
-      flex: 1;
     }
 
     &__right-component {
       min-width: 450px;
       height: auto;
-      flex: 1;
     }
   }
 }
