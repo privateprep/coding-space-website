@@ -26,7 +26,7 @@ pageBuilder:
         title: Test
     rightComponent:
       - type: boxWithLogo
-        bgColor: "#ffffff"
+        bgColor: "#264548"
         fgColor: "#9de2dd"
         textColor: "#264548"
         heading: Testing Interactive content in blog
@@ -38,6 +38,24 @@ pageBuilder:
           projects, and presentations. But what inspires them to give back and
           why are they excited to help? We asked them, and here's how they
           answered:"
+  - type: sideBySide
+    bgColor: "#ffffff"
+    leftComponent:
+      - type: iframe
+        bgColor: "#ffffff"
+        content: https://scratch.mit.edu/projects/510001177/embed
+        ratio: ratio16x9
+        title: testing
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          ### Testing Interactive content in blog
+
+
+          With Code 4 Change: Kids Teaching Kids rounding the halfway mark, we wanted to take a moment to check in with our coders. Participants of all ages and skill levels are hard at work coding their Kids Teaching Kids projects, which are aimed at helping early elementary learners understand important academic concepts through engaging games, projects, and presentations. But what inspires them to give back and why are they excited to help? We asked them, and here's how they answered:
 tags:
   - give-back
 ---
