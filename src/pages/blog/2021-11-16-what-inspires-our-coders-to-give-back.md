@@ -17,7 +17,7 @@ featuredImage:
   alt: Girls around a table coding.
 pageBuilder:
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     leftComponent:
       - type: iframe
         bgColor: "#faf6ee"
