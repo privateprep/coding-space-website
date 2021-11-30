@@ -5,10 +5,14 @@
 
   &__left-component {
     flex: 1 1 auto;
+    display: grid;
+    align-items: center;
   }
 
   &__right-component {
     flex: 1 1 auto;
+    display: grid;
+    align-items: center;
   }
   // Medium devices (large tablets, computers and up)
   @media (min-width: 992px) {
