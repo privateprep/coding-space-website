@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: iframe-component
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -43,7 +43,7 @@ ratio:
     label: "Aspect Ratio",
     name: ratio,
     widget: select,
-    default: "1:1",
+    default: { label: "1:1", value: "ratio1x1" },
     options:
       [
         { label: "16:9", value: "ratio16x9" },
