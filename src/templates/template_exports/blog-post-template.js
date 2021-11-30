@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import { kebabCase } from "lodash";
 import Content from "../../components/Content";
+import PageBuilder from "../../components/PageBuilder";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 import facebook from "../../img/social/facebook.svg";
 
@@ -17,6 +18,7 @@ export const BlogPostTemplate = ({
   title,
   titleColor,
   helmet,
+  pageBuilder,
   postUrl,
 }) => {
   const PostContent = contentComponent || Content;
@@ -28,6 +30,9 @@ export const BlogPostTemplate = ({
       window.location.href
     )}`;
   }
+
+  const data = pageBuilder ?? [];
+
   return (
     <React.Fragment>
       {helmet || ""}
@@ -54,6 +59,7 @@ export const BlogPostTemplate = ({
           </div>
           <div className="blog-post__content">
             <PostContent content={content} />
+            <PageBuilder data={data} />
           </div>
           <hr />
           <div className="blog-post__footer">

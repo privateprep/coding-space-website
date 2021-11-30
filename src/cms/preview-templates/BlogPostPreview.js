@@ -8,6 +8,8 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
 
   const tags = entry.getIn(["data", "tags"]);
   const featuredImage = entry.getIn(["data", "featuredImage"]).toJS();
+  const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
+  const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
 
   return (
     <BlogPostTemplate
@@ -16,6 +18,7 @@ const BlogPostPreview = ({ entry, widgetFor }) => {
       date={entry.getIn(["data", "date"]).toString()}
       description={entry.getIn(["data", "description"])}
       featuredImage={featuredImage}
+      pageBuilder={pageBuilder}
       tags={tags && tags.toJS()}
       title={entry.getIn(["data", "title"])}
       titleColor={entry.getIn(["data", "titleColor"])}
