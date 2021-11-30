@@ -20,7 +20,7 @@ pageBuilder:
     bgColor: "#ffffff"
     leftComponent:
       - type: iframe
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         content: https://scratch.mit.edu/projects/510001177/embed
         ratio: ratio16x9
         title: Test
@@ -49,7 +49,7 @@ pageBuilder:
     rightComponent:
       - type: textOnly
         textAlign: center
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         textColor: "#264548"
         mdContent: >-
           ### Testing Interactive content in blog
