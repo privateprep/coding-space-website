@@ -26,6 +26,7 @@ const Buttons = ({ bgColor, fgColor, textColor, list }) => {
         style={{
           backgroundColor: bgColor,
           display: "flex",
+          flexWrap: "wrap",
           justifyContent: "space-between",
         }}
       >

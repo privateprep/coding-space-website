@@ -1,7 +1,8 @@
-export { default as Accordion } from './Accordion';
+export { default as Accordion } from "./Accordion";
 export { default as BoxWithLogo } from "./BoxWithLogo";
 export { default as Buttons } from "./Buttons";
 export { default as CustomLinkBoxes } from "./CustomLinkBoxes";
+export { default as Iframe } from "./Iframe";
 export { default as TextOnly } from "./TextOnly";
 export { default as HeaderAndMarkDownBlock } from "./HeaderAndMarkDownBlock";
 export { default as TextAndImageBlock } from "./TextAndImageBlock";

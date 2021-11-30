@@ -49,6 +49,7 @@ export const pageQuery = graphql`
           publicURL
         }
         pageBuilder {
+          content
           heading
           image {
             alt
@@ -63,6 +64,17 @@ export const pageQuery = graphql`
           mdContent
           mediaPosition
           type
+          leftComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
           list {
             content
             title
@@ -72,8 +84,20 @@ export const pageQuery = graphql`
             textColor
             textAlign
           }
+          rightComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
           textAlign
           textColor
+          title
           fgColor
           bgColor
         }

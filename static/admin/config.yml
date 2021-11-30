@@ -11,6 +11,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# Presets
+
 presetColors:
   &presetColors [
     "#faf6ee",
@@ -23,6 +25,8 @@ presetColors:
     "#f6c924",
   ]
 
+# Reusable fields
+
 backgroundColor:
   &backgroundColor {
     label: "Background Color",
@@ -32,6 +36,21 @@ backgroundColor:
     default: "#faf6ee",
     required: false,
     presetColors: *presetColors,
+  }
+
+ratio:
+  &ratio {
+    label: "Aspect Ratio",
+    name: ratio,
+    widget: select,
+    default: { label: "1:1", value: "ratio1x1" },
+    options:
+      [
+        { label: "16:9", value: "ratio16x9" },
+        { label: "4:3", value: "ratio4x3" },
+        { label: "1:1", value: "ratio1x1" },
+      ],
+    required: false,
   }
 
 titleColor:
@@ -64,6 +83,8 @@ textAlign:
     default: "center",
     options: ["left", "center", "right"],
   }
+
+# Reusable components
 
 boxWithLogo:
   &boxWithLogo {
@@ -129,6 +150,33 @@ buttons:
           presetColors: *presetColors,
         },
         *textColor,
+      ],
+  }
+
+iframe:
+  &iframe {
+    label: "Iframe",
+    name: "iframe",
+    widget: "object",
+    fields:
+      [
+        *backgroundColor,
+        {
+          label: "Source of iframe",
+          default: "https://scratch.mit.edu/projects/510001177/embed",
+          hint:
+            "This is a url to the source you want to import. Useful for student
+            projects",
+          name: "content",
+          widget: string,
+        },
+        *ratio,
+        {
+          label: "Title",
+          hint: "Not visible in the UI",
+          name: "title",
+          widget: string,
+        },
       ],
   }
 
@@ -205,13 +253,13 @@ sideBySide:
           label: "Left Component",
           name: leftComponent,
           widget: "list",
-          types: [*text, *boxWithLogo, *styledChecks],
+          types: [*text, *iframe, *boxWithLogo, *styledChecks],
         },
         {
           label: "Right Component",
           name: rightComponent,
           widget: "list",
-          types: [*text, *boxWithLogo, *styledChecks],
+          types: [*text, *iframe, *boxWithLogo, *styledChecks],
         },
       ],
   }
@@ -401,6 +449,7 @@ page_builder:
               *textColor,
             ],
         },
+        *iframe,
         *text,
         {
           label: "Side By Side (header)",

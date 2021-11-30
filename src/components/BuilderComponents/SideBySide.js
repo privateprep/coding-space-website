@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BoxWithLogo, TextOnly, StyledChecks } from "./index";
+import { BoxWithLogo, Iframe, TextOnly, StyledChecks } from "./index";
 
 import "./styles/SideBySide.scss";
 
@@ -8,6 +8,8 @@ const ComponentSelector = ({ data }) => {
   switch (data.type) {
     case "boxWithLogo":
       return <BoxWithLogo {...data} />;
+    case "iframe":
+      return <Iframe {...data} />;
     case "textOnly":
       return <TextOnly data={data} />;
     case "styledChecks":

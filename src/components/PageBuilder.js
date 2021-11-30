@@ -4,6 +4,7 @@ import {
   Accordion,
   BoxWithLogo,
   Buttons,
+  Iframe,
   TextOnly,
   Reviews,
   Points,
@@ -24,6 +25,8 @@ const ComponentSelector = ({ data }) => {
       return <Buttons {...data} />;
     case "customLinkBoxes":
       return <CustomLinkBoxes {...data} />;
+    case "iframe":
+      return <Iframe {...data} />;
     case "textOnly":
       return <TextOnly data={data} />;
     case "headerAndMarkDownBlock":
