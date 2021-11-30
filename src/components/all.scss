@@ -16,6 +16,11 @@
   --ratio1x1: 100%;
 }
 
+  // for media query use scss variables
+  $large-width: 1900px;
+  $desktop-width: 1200px;
+  $tablet-width: 768px;
+
 body {
   margin: 0;
   font-size: 16px;
@@ -593,10 +598,8 @@ $menu-label-color: var(--white);
 
 .component {
   padding: 1rem;
-}
 
-@media screen and (min-width: var(--tablet-width)) {
-  .component {
+  @media screen and (min-width: $tablet-width) {
     padding: 4rem;
     max-width: 1360px;
   }
