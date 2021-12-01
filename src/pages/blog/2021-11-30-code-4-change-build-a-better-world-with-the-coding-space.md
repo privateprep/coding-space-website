@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Code 4 Change: Build a Better World with The Coding Space"
 titleColor: "#ffffff"
 bgColor: "#faf6ee"
-date: March 9th, 2021
+date: 2016-12-17T15:04:10.000Z
 description: "We believe that coders have the power to change the world. This
   belief is the core of our Code 4 Change initiative, biannual challenges that
   ask coders of all ages to use their powers for good and apply tech-based
