@@ -2,28 +2,33 @@ import React from "react";
 
 import Helmet from "react-helmet";
 import { withPrefix } from "gatsby";
+import { useSearchParams } from "../hooks";
 
 import Layout from "../components/Layout";
 import BoxWithLogo from "../components/shared/BoxWithLogo";
 import Seo from "../components/seo";
 
 // scripts provided by Google Ad Words Team
-const GTag = () =>
+const GTag = ({ adsTracking }) =>
   true ? (
     <Helmet>
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-943271359"
-      />
-      <script src={withPrefix("ad-words-event.js")} type="text/javascript" />
       <script src={withPrefix("ad-words-tracking.js")} type="text/javascript" />
+      <script>
+        {typeof window !== "undefined" &&
+          window.gtag("event", "conversion", {
+            send_to: "AW-943271359/NoDFCMXbkuEBEL_b5MED",
+            ...adsTracking,
+          })}
+      </script>
     </Helmet>
   ) : null;
 
 const ThankYou = _ => {
+  const adsTracking = useSearchParams();
+
   return (
     <Layout>
-      <GTag />
+      <GTag adsTracking={adsTracking} />
       <Seo title="Thank You" />
       <BoxWithLogo>
         <h2>See you in class!</h2>
