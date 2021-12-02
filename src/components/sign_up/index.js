@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby";
 import { DateTime } from "luxon";
+import { buildQueryString } from "../../utils/service";
 
 import Wizard from "./Wizard";
 import FormPage from "./FormPage";
@@ -59,6 +60,7 @@ const confirmationPageSubmitText = values => {
 };
 
 const SignUp = ({ classTypeId, location: { search } }) => {
+  const [adsTracking, setAdsTracking] = useState({});
   const [paymentIntent, setPaymentIntent] = useState(null);
   const [stripePublicKey, setStripePublicKey] = useState(null);
   const [overview, setOverview] = useState();
@@ -130,6 +132,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
 
     try {
       const res = await signupForClass(values);
+      setAdsTracking(res.adsTracking);
       if (res.nextStep === "collect_payment") {
         setPaymentIntent(res.paymentIntent);
         setStripePublicKey(res.stripePublicKey);
@@ -152,7 +155,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
   };
 
   const onSuccessRedirect = () => {
-    navigate("/thank_you", { replace: true });
+    navigate(`/thank_you?${buildQueryString(adsTracking)}`, { replace: true });
   };
 
   if (!!fetchError) {
