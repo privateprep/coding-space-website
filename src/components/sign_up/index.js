@@ -59,6 +59,7 @@ const confirmationPageSubmitText = values => {
 };
 
 const SignUp = ({ classTypeId, location: { search } }) => {
+  const [adsTracking, setAdsTracking] = useState({});
   const [paymentIntent, setPaymentIntent] = useState(null);
   const [stripePublicKey, setStripePublicKey] = useState(null);
   const [overview, setOverview] = useState();
@@ -130,6 +131,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
 
     try {
       const res = await signupForClass(values);
+      setAdsTracking(res.adsTracking);
       if (res.nextStep === "collect_payment") {
         setPaymentIntent(res.paymentIntent);
         setStripePublicKey(res.stripePublicKey);
@@ -152,7 +154,10 @@ const SignUp = ({ classTypeId, location: { search } }) => {
   };
 
   const onSuccessRedirect = () => {
-    navigate("/thank_you", { replace: true });
+    navigate(`/thank_you`, {
+      replace: true,
+      state: { adsTracking: adsTracking },
+    });
   };
 
   if (!!fetchError) {
