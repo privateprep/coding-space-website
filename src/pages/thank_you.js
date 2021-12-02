@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
-import { useSearchParams } from "../hooks";
 
 import Layout from "../components/Layout";
 import BoxWithLogo from "../components/shared/BoxWithLogo";
 import Seo from "../components/seo";
 
-const ThankYou = _ => {
-  const priceInfo = useSearchParams();
+const ThankYou = ({ location }) => {
+  const { adsTracking = {} } = location.state || {};
 
   // conversion tracking code with safeguards against non-production environments
   useEffect(() => {
@@ -14,9 +13,9 @@ const ThankYou = _ => {
       typeof window?.gtag === "function" &&
       window.gtag("event", "conversion", {
         send_to: "AW-943271359/NoDFCMXbkuEBEL_b5MED",
-        ...priceInfo,
+        ...adsTracking,
       });
-  }, [priceInfo]);
+  }, [adsTracking]);
 
   return (
     <Layout>

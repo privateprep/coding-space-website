@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby";
 import { DateTime } from "luxon";
-import { buildQueryString } from "../../utils/service";
 
 import Wizard from "./Wizard";
 import FormPage from "./FormPage";
@@ -155,7 +154,10 @@ const SignUp = ({ classTypeId, location: { search } }) => {
   };
 
   const onSuccessRedirect = () => {
-    navigate(`/thank_you?${buildQueryString(adsTracking)}`, { replace: true });
+    navigate(`/thank_you`, {
+      replace: true,
+      state: { adsTracking: adsTracking },
+    });
   };
 
   if (!!fetchError) {
