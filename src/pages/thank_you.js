@@ -12,7 +12,6 @@ import Seo from "../components/seo";
 const GTag = ({ adsTracking }) =>
   true ? (
     <Helmet>
-      <script src={withPrefix("ad-words-tracking.js")} type="text/javascript" />
       <script>
         {typeof window !== "undefined" &&
           window.gtag("event", "conversion", {
