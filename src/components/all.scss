@@ -600,7 +600,7 @@ $menu-label-color: var(--white);
   padding: 1rem;
 
   @media screen and (min-width: $tablet-width) {
-    padding: 4rem;
+    padding: 1rem 4rem;
     max-width: 1360px;
   }
 }
