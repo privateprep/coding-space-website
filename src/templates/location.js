@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import ClassPanel from "../components/ClassPanel";
 import MapDisplay from "../components/MapDisplay";
 import CtaContact from "../components/CtaContact";
+import Banner from "../components/Atoms/Banner";
 import PageBuilder from "../components/PageBuilder";
 
 import "./styles/location.scss";
@@ -74,6 +75,9 @@ const LocationPage = ({ data }) => {
         <meta name="description" content={description} />
       </Helmet>
       <div className="Location">
+        {!!customInfo?.frontmatter && customInfo?.frontmatter?.banner && (
+          <Banner {...customInfo.frontmatter.banner} />
+        )}
         <div
           className={`Location__hero${
             activeLocation.isOnline ? " Location__hero--online" : ""
@@ -133,7 +137,7 @@ const LocationPage = ({ data }) => {
         </div>
         {!!customInfo?.frontmatter && customInfo?.frontmatter?.pageBuilder && (
           <div className="Location__customInfo">
-            <PageBuilder data={customInfo.pageBuilder} />
+            <PageBuilder data={customInfo.frontmatter.pageBuilder} />
           </div>
         )}
         <ClassPanel
