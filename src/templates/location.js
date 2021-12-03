@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import ClassPanel from "../components/ClassPanel";
 import MapDisplay from "../components/MapDisplay";
 import CtaContact from "../components/CtaContact";
+import PageBuilder from "../components/PageBuilder";
 
 import "./styles/location.scss";
 
@@ -40,8 +41,7 @@ const locationFilterTemplate = [
 
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
-  const { frontmatter: customInfo } = data.customInfo;
-  console.log(customInfo);
+  const { customInfo = {} } = data;
 
   const description = activeLocation.isOnline
     ? `Connect to curriculum from anywhere with our suite of virtual courses!`
@@ -89,16 +89,16 @@ const LocationPage = ({ data }) => {
           )}
           <div className="Location__hero__text">
             <h1 className="title">{activeLocation.name}</h1>
-            {!!activeLocation.phoneNumber && (
+            {!!customInfo?.frontmatter?.contactInfo?.phone && (
               <p>
                 <strong>Phone Number:</strong>{" "}
                 <a
-                  href={`tel:${activeLocation.phoneNumber}`}
+                  href={`tel:${customInfo.frontmatter.contactInfo.phone}`}
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: "currentColor" }}
                 >
-                  {activeLocation.phoneNumber}
+                  {customInfo.frontmatter.contactInfo.phone}
                 </a>
               </p>
             )}
@@ -131,6 +131,11 @@ const LocationPage = ({ data }) => {
             )}
           </div>
         </div>
+        {!!customInfo?.frontmatter && customInfo?.frontmatter?.pageBuilder && (
+          <div className="Location__customInfo">
+            <PageBuilder data={customInfo.pageBuilder} />
+          </div>
+        )}
         <ClassPanel
           title={`${activeLocation.name} Catalog`}
           experienceLevels={activeLevels}
