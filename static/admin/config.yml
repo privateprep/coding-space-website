@@ -108,6 +108,26 @@ boxWithLogo:
       ],
   }
 
+banner:
+  &banner {
+    label: "Banner",
+    name: "banner",
+    widget: "object",
+    required: false,
+    collapsed: true,
+    fields:
+      [
+        { label: Content, name: mdContent, widget: markdown },
+        {
+          label: "Removal Date",
+          name: removalDate,
+          widget: datetime,
+          hint:
+            "Date and time when the banner will be removed from the website.",
+        },
+      ],
+  }
+
 buttons:
   &buttons {
     label: "Buttons",
