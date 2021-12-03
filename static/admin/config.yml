@@ -737,6 +737,40 @@ collections:
               { label: "Content", name: "mdContent", widget: "markdown" },
             ],
         }
+  - name: "locations"
+    label: "Locations"
+    folder: "src/pages/locations"
+    create: true
+    slug: "custom-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "location",
+        }
+      - { label: "Title", name: "title", default: "Title", widget: "string" }
+      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - {
+          label: "PP Dashboard Location Id",
+          name: "classLocationId",
+          hint: "Ask someone on the PP Dashboard team for this!",
+          widget: "number",
+          value_type: int,
+        }
+      - { label: "Hero", name: "headingImage", required: false, widget: image }
+      - *banner
+      - {
+          label: "Contact Information",
+          name: "contactInfo",
+          widget: "object",
+          fields:
+            [
+              { label: "Phone", name: "phone", widget: "string", required: false },
+              { label: "Email", name: "email", widget: "string", required: false },
+            ],
+        }
+      - *page_builder
   - name: "school-programs"
     label: "Programs"
     folder: "src/pages/school-programs"

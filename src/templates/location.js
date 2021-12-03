@@ -40,6 +40,8 @@ const locationFilterTemplate = [
 
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
+  const { frontmatter: customInfo } = data.customInfo;
+  console.log(customInfo);
 
   const description = activeLocation.isOnline
     ? `Connect to curriculum from anywhere with our suite of virtual courses!`
@@ -144,7 +146,7 @@ const LocationPage = ({ data }) => {
 export default LocationPage;
 
 export const pageQuery = graphql`
-  query LocationsByCode($code: String!) {
+  query LocationsByCode($code: String!, $classLocationId: Int!) {
     classLocation(code: { eq: $code }) {
       classLocationId
       code
@@ -158,6 +160,73 @@ export const pageQuery = graphql`
       categoryIds
       courseOfferingsEndpoint
       phoneNumber
+    }
+    customInfo: markdownRemark(
+      frontmatter: { classLocationId: { eq: $classLocationId } }
+    ) {
+      frontmatter {
+        banner {
+          mdContent
+          removalDate
+        }
+        contactInfo {
+          email
+          phone
+        }
+        pageBuilder {
+          content
+          heading
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          mdContent
+          mediaPosition
+          type
+          leftComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
+          list {
+            content
+            title
+            mdContent
+            fgColor
+            bgColor
+            textColor
+            textAlign
+          }
+          rightComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
+          textAlign
+          textColor
+          title
+          fgColor
+          bgColor
+        }
+      }
     }
     experienceLevelQuery: allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
