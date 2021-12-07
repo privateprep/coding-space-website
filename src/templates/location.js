@@ -155,7 +155,7 @@ const LocationPage = ({ data }) => {
 export default LocationPage;
 
 export const pageQuery = graphql`
-  query LocationsByCode($code: String!, $classLocationId: Int!) {
+  query LocationsByCode($code: String, $classLocationId: Int) {
     classLocation(code: { eq: $code }) {
       classLocationId
       code
