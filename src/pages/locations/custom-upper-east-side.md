@@ -1,5 +1,5 @@
 ---
-templateKey: location
+templateKey: location-page
 title: Upper East Side
 seo_description: Learn coding in-person with us at Upper East Side!
 classLocationId: 1

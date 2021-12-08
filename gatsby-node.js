@@ -189,7 +189,7 @@ exports.createPages = async ({ actions, graphql }) => {
       const { classLocationId, code } = node;
       createPage({
         path: `/locations/${code}`,
-        component: path.resolve(`src/templates/location.js`),
+        component: path.resolve(`src/templates/location-page.js`),
         // additional data can be passed via context
         context: {
           classLocationId,
