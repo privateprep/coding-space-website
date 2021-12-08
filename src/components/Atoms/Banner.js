@@ -16,7 +16,7 @@ const Banner = ({ mdContent, removalDate }) => {
   }
 
   return (
-    <div className="Banner component">
+    <div className="Banner">
       <div dangerouslySetInnerHTML={htmlContent} />
     </div>
   );
