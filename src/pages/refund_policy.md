@@ -20,6 +20,9 @@ pageBuilder:
       Make-ups are subject to availability and require 3 days notice (i.e. for a Monday make-up, the request must be made by 4 pm on Friday). In addition, make-ups that are scheduled aren’t eligible for rescheduling a second time. Make-ups can't be rolled over to a future term.
 
 
+      If an enrollment is changed after the start of a semester to one of lesser value, the difference will not be refunded.
+
+
       ## Mini Camps & Summer Camps
 
 
