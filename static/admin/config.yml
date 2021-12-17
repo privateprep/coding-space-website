@@ -117,7 +117,7 @@ banner:
     collapsed: true,
     fields:
       [
-        { label: Content, name: mdContent, widget: markdown },
+        { label: Content, name: mdContent, widget: markdown, required: false },
         {
           label: "Removal Date",
           name: removalDate,
