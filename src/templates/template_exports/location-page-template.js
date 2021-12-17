@@ -1,14 +1,9 @@
-import * as React from "react";
-import { Helmet } from "react-helmet";
-import { graphql } from "gatsby";
-
-import Layout from "../components/Layout";
-
-import ClassPanel from "../components/ClassPanel";
-import MapDisplay from "../components/MapDisplay";
-import CtaContact from "../components/CtaContact";
-
-import "./styles/location.scss";
+import React from "react";
+import PropTypes from "prop-types";
+import Banner from "../../components/Atoms/Banner";
+import PageBuilder from "../../components/PageBuilder";
+import ClassPanel from "../../components/ClassPanel";
+import MapDisplay from "../../components/MapDisplay";
 
 // omit semesters that don't accurately represent what's in locations
 const locationFilterTemplate = [
@@ -38,22 +33,11 @@ const locationFilterTemplate = [
   },
 ];
 
-const LocationPage = ({ data }) => {
-  const activeLocation = data.classLocation;
-
-  const description = activeLocation.isOnline
-    ? `Connect to curriculum from anywhere with our suite of virtual courses!`
-    : `Our ${activeLocation.name} location is located at ${data.addressString}.`;
-
-  // mimic transformation in LocationsPanel
-  const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
-    levelNode => {
-      return {
-        ...levelNode.frontmatter, // most MD file things
-        ...levelNode.fields, // slug, extras
-      };
-    }
-  );
+export const LocationPageTemplate = ({
+  activeLocation,
+  customInfo,
+  experienceLevels,
+}) => {
   const activeLevels = experienceLevels.filter(l => {
     const levelCategoryIds = l.categoryIds.map(str => Number(str)); // Netlify CMS saves strings
     return activeLocation.categoryIds.some(catId =>
@@ -66,12 +50,11 @@ const LocationPage = ({ data }) => {
     : "";
 
   return (
-    <Layout>
-      <Helmet titleTemplate="%s | Locations">
-        <title>{activeLocation.name}</title>
-        <meta name="description" content={description} />
-      </Helmet>
+    <React.Fragment>
       <div className="Location">
+        {!!customInfo?.frontmatter && customInfo?.frontmatter?.banner && (
+          <Banner {...customInfo.frontmatter.banner} />
+        )}
         <div
           className={`Location__hero${
             activeLocation.isOnline ? " Location__hero--online" : ""
@@ -87,16 +70,16 @@ const LocationPage = ({ data }) => {
           )}
           <div className="Location__hero__text">
             <h1 className="title">{activeLocation.name}</h1>
-            {!!activeLocation.phoneNumber && (
+            {!!customInfo?.frontmatter?.contactInfo?.phone && (
               <p>
                 <strong>Phone Number:</strong>{" "}
                 <a
-                  href={`tel:${activeLocation.phoneNumber}`}
+                  href={`tel:${customInfo.frontmatter.contactInfo.phone}`}
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: "currentColor" }}
                 >
-                  {activeLocation.phoneNumber}
+                  {customInfo.frontmatter.contactInfo.phone}
                 </a>
               </p>
             )}
@@ -129,6 +112,11 @@ const LocationPage = ({ data }) => {
             )}
           </div>
         </div>
+        {!!customInfo?.frontmatter && customInfo?.frontmatter?.pageBuilder && (
+          <div className="Location__customInfo">
+            <PageBuilder data={customInfo.frontmatter.pageBuilder} />
+          </div>
+        )}
         <ClassPanel
           title={`${activeLocation.name} Catalog`}
           experienceLevels={activeLevels}
@@ -136,62 +124,14 @@ const LocationPage = ({ data }) => {
           filterTemplate={locationFilterTemplate}
         />
       </div>
-      <CtaContact />
-    </Layout>
+    </React.Fragment>
   );
 };
 
-export default LocationPage;
-
-export const pageQuery = graphql`
-  query LocationsByCode($code: String!) {
-    classLocation(code: { eq: $code }) {
-      classLocationId
-      code
-      name
-      isOnline
-      latitude
-      longitude
-      addressString
-      addressNotes
-      addressLink
-      categoryIds
-      courseOfferingsEndpoint
-      phoneNumber
-    }
-    experienceLevelQuery: allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "experience-levels" } } }
-    ) {
-      experienceLevels: nodes {
-        frontmatter {
-          heading
-          title
-          categoryIds
-          details {
-            age
-            gender
-            byline
-            skills
-            experience
-            sellingPoints
-          }
-          thumbnail {
-            childImageSharp {
-              fluid(maxWidth: 480, quality: 80) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            extension
-            publicURL
-          }
-        }
-        fields {
-          slug
-          extras {
-            semesters
-          }
-        }
-      }
-    }
-  }
-`;
+LocationPageTemplate.propTypes = {
+  content: PropTypes.node.isRequired,
+  contentComponent: PropTypes.func,
+  description: PropTypes.string,
+  title: PropTypes.string,
+  helmet: PropTypes.object,
+};

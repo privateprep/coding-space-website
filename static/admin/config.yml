@@ -108,6 +108,26 @@ boxWithLogo:
       ],
   }
 
+banner:
+  &banner {
+    label: "Banner",
+    name: "banner",
+    widget: "object",
+    required: false,
+    collapsed: true,
+    fields:
+      [
+        { label: Content, name: mdContent, widget: markdown, required: false },
+        {
+          label: "Removal Date",
+          name: removalDate,
+          widget: datetime,
+          hint:
+            "Date and time when the banner will be removed from the website.",
+        },
+      ],
+  }
+
 buttons:
   &buttons {
     label: "Buttons",
@@ -717,6 +737,53 @@ collections:
               { label: "Content", name: "mdContent", widget: "markdown" },
             ],
         }
+  - name: "locations"
+    label: "Custom Location Pages"
+    folder: "src/pages/locations"
+    create: true
+    hint:
+      "Please note the placeholder data is replaced dynamically from Dashboard
+      data depending on the inputted 'PP Dashboard Location Id'. It will not be
+      rendered in this preview."
+    slug: "custom-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "location-page",
+        }
+      - { label: "Title", name: "title", default: "Title", widget: "string" }
+      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - {
+          label: "PP Dashboard Location Id",
+          name: "classLocationId",
+          hint: "Ask someone on the PP Dashboard team for this!",
+          widget: "number",
+          value_type: int,
+        }
+      - *banner
+      - {
+          label: "Contact Information",
+          name: "contactInfo",
+          widget: "object",
+          fields:
+            [
+              {
+                label: "Phone",
+                name: "phone",
+                widget: "string",
+                required: false,
+              },
+              {
+                label: "Email",
+                name: "email",
+                widget: "string",
+                required: false,
+              },
+            ],
+        }
+      - *page_builder
   - name: "school-programs"
     label: "Programs"
     folder: "src/pages/school-programs"
