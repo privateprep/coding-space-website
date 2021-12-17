@@ -11,6 +11,9 @@ const LocationPagePreview = ({ entry }) => {
   // Always convert extracted objects and arrays .toJS()
   // in order to access the data.
 
+  const entryTitle = entry.getIn(["data", "title"]);
+  const title = entryTitle ? entryTitle : "";
+
   const entryBanner = entry.getIn(["data", "banner"]);
   const banner = entryBanner ? entryBanner.toJS() : [];
 
@@ -22,7 +25,7 @@ const LocationPagePreview = ({ entry }) => {
 
   // placeholder data
   const activeLocation = {
-    isOnline: false,
+    isOnline: title.toLowerCase().includes("online"),
     addressLink: "#",
     addressString: "10346 CO-347, Montrose, CO 81401",
     addressNotes:
@@ -34,7 +37,7 @@ const LocationPagePreview = ({ entry }) => {
 
   return (
     <div className="Location">
-      {!!banner && <Banner {...banner} />}
+      {!!banner?.mdContent && <Banner {...banner} />}
       <div
         className={`Location__hero${
           activeLocation.isOnline ? " Location__hero--online" : ""
