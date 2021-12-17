@@ -738,16 +738,20 @@ collections:
             ],
         }
   - name: "locations"
-    label: "Locations"
+    label: "Custom Location Pages"
     folder: "src/pages/locations"
     create: true
+    hint:
+      "Please note the placeholder data is replaced dynamically from Dashboard
+      data depending on the inputted 'PP Dashboard Location Id'. It will not be
+      rendered in this preview."
     slug: "custom-{{slug}}"
     fields:
       - {
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "location",
+          default: "location-page",
         }
       - { label: "Title", name: "title", default: "Title", widget: "string" }
       - { label: "SEO Description", name: "seo_description", widget: "text" }
@@ -758,7 +762,6 @@ collections:
           widget: "number",
           value_type: int,
         }
-      - { label: "Hero", name: "headingImage", required: false, widget: image }
       - *banner
       - {
           label: "Contact Information",
@@ -766,8 +769,18 @@ collections:
           widget: "object",
           fields:
             [
-              { label: "Phone", name: "phone", widget: "string", required: false },
-              { label: "Email", name: "email", widget: "string", required: false },
+              {
+                label: "Phone",
+                name: "phone",
+                widget: "string",
+                required: false,
+              },
+              {
+                label: "Email",
+                name: "email",
+                widget: "string",
+                required: false,
+              },
             ],
         }
       - *page_builder

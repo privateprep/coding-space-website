@@ -3,7 +3,6 @@ templateKey: location-page
 title: Upper East Side
 seo_description: Learn coding in-person with us at Upper East Side!
 classLocationId: 1
-headingImage: /img/slice-9-2-.png
 banner:
   removalDate: 2021-12-15T15:46:17.545Z
   mdContent:
