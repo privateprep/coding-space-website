@@ -5,6 +5,8 @@ import { ColorControl, ColorPreview } from "netlify-cms-widget-colorpicker";
 
 // import relevant styles here for previews
 import "../components/all.scss";
+import "../templates/styles/experience-levels.scss";
+import "../templates/styles/location.scss";
 
 import AboutUsPreview from "./preview-templates/AboutUsPreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
@@ -14,7 +16,7 @@ import LiabilityPagePreview from "./preview-templates/LiabilityPagePreview";
 import ReferralPagePreview from "./preview-templates/ReferralPagePreview";
 import RefundPagePreview from "./preview-templates/RefundPagePreview";
 import SchoolProgramPreview from "./preview-templates/SchoolProgramsPreview";
-import LocationsPagePreview from "./preview-templates/LocationsPagePreview";
+import LocationPagePreview from "./preview-templates/LocationPagePreview.js";
 import PartnershipsPreview from "./preview-templates/PartnershipsPreview";
 import ExperienceLevelsPreview from "./preview-templates/ExperienceLevelsPreview";
 
@@ -30,7 +32,7 @@ CMS.registerPreviewTemplate("liability-release", LiabilityPagePreview);
 CMS.registerPreviewTemplate("referral-program", ReferralPagePreview);
 CMS.registerPreviewTemplate("refund-policy", RefundPagePreview);
 CMS.registerPreviewTemplate("school-programs", SchoolProgramPreview);
-CMS.registerPreviewTemplate("locations", LocationsPagePreview);
+CMS.registerPreviewTemplate("locations", LocationPagePreview);
 CMS.registerPreviewTemplate("partnerships", PartnershipsPreview);
 
 // Widgets
