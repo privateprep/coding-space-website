@@ -13,9 +13,20 @@
   }
 
   &__content {
-    padding: 4rem;
+    padding: 1rem;
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-columns: auto;
+
+    @media (min-width: 576px) {
+      // two column on landscape phone
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Medium devices (large tablets, computers and up)
+    @media (min-width: 1080px) {
+      padding: 4rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }
