@@ -4,6 +4,24 @@
   flex-direction: column;
   background-color: var(--white);
 
+  &.featured {
+    background-color: var(--accent);
+
+    .blog-preview__content {
+      .tag {
+        background-color: var(--white);
+        color: var(--accent);
+      }
+    }
+
+    .blog-preview__footer {
+      .button {
+        background-color: var(--white);
+        color: var(--accent);
+      }
+    }
+  }
+
   &__header {
     img {
       max-width: 100%;
