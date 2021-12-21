@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Don’t Know Much About: The Coding Space Scholarship Program"
-date: 2017-01-04T15:04:10.000Z
+date: 2021-11-16T15:04:10.000Z
 description: " With the season of giving just around the corner, we wanted to
   take a moment and highlight how the scholarship program has contributed to
   continuing the coding education of students during an especially trying year,
@@ -36,7 +36,7 @@ We know this year especially has brought increased hardship to many of our famil
 
 ## What makes the TCS scholarship program unique from other programs like it?
 
-Our process is very simple and straightforward. We don’t require long application answers or multiple forms and simply aim to provide access to as many students as we can. Parents simply submit answers to a short questionnaire which our team then reviews. If your application is approved and a scholarship spot opens up, we will reach out directly.
+Our process is very simple and straightforward. We don’t require long application answers or multiple forms and simply aim to provide access to as many students as we can. [Parents simply submit answers to a short questionnaire which our team then reviews.](https://www.thecodingspace.com/scholarships.html) If your application is approved and a scholarship spot opens up, we will reach out directly.
 
 ## Looking ahead, what’s next for the scholarship program?
 
@@ -44,4 +44,6 @@ As we grow and our students enter high school, we hope to be able to continue to
 
 Finally, because our aim is to support students from a wide variety of backgrounds and experiences, we acknowledge that this program will require continued assessment, especially through the lens of racial equity. We are currently in this process and look forward to the continued work of incorporating racial equity into our approach.
 
-Full details as well as application information can be found here. For questions about the scholarship program, please contact Ofelia directly at ofelia@thecodingspace.com.
+
+
+> Full details as well as application information can be found [here](https://www.thecodingspace.com/scholarships.html). For questions about the scholarship program, please contact Ofelia directly at ofelia@thecodingspace.com.
