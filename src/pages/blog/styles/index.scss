@@ -14,5 +14,8 @@
 
   &__content {
     padding: 4rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }

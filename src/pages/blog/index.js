@@ -10,9 +10,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <div className="blog-page">
-          <div
-            className="blog-page__header"
-          >
+          <div className="blog-page__header">
             <h1
               style={{
                 backgroundColor: "transparent",
@@ -24,9 +22,7 @@ export default class BlogIndexPage extends React.Component {
             </h1>
           </div>
           <section className="blog-page__content">
-            <div className="content">
-              <BlogRoll />
-            </div>
+            <BlogRoll />
           </section>
         </div>
       </Layout>
