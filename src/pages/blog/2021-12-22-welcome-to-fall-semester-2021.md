@@ -7,7 +7,7 @@ date: 2021-08-06T23:39:38.319Z
 description: We're back!
 featuredPost: false
 featuredImage:
-  image: /img/safari-pinned-tab.svg
+  image: /img/tcs-logo.png
   alt: TCS logo of rocket
 tags:
   - Fall
