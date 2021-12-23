@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import BlogPreview from "../components/Atoms/BlogPreview";
 
@@ -8,6 +8,12 @@ import "./styles/BlogList.scss";
 
 const BlogList = ({ data, pageContext }) => {
   const { edges: posts } = data?.allMarkdownRemark;
+  const { currentPage, numBlogListPages } = pageContext;
+  const isFirst = currentPage === 1;
+  const isLast = currentPage === numBlogListPages;
+  const prevPage =
+    currentPage - 1 === 1 ? "/blog" : (currentPage - 1).toString();
+  const nextPage = (currentPage + 1).toString();
 
   return (
     <Layout>
@@ -24,8 +30,35 @@ const BlogList = ({ data, pageContext }) => {
           </h1>
         </div>
         <section className="blog-page__content">
-          {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
+          {posts &&
+            posts.map(({ node: post }) => (
+              <BlogPreview key={post.id} {...post} />
+            ))}
         </section>
+        <div className="blog-page__footer">
+          <ul className="pagination">
+            {!isFirst && (
+              <Link to={prevPage} rel="prev">
+                ← Previous Page
+              </Link>
+            )}
+            {Array.from({ length: numBlogListPages }, (_, i) => (
+              <li key={`pagination-number${i + 1}`}>
+                <Link
+                  to={`/blog/${i === 0 ? "" : i + 1}`}
+                  activeClassName={i + 1 === currentPage ? "active" : ""}
+                >
+                  {i + 1}
+                </Link>
+              </li>
+            ))}
+            {!isLast && (
+              <Link to={nextPage} rel="next">
+                Next Page →
+              </Link>
+            )}
+          </ul>
+        </div>
       </div>
     </Layout>
   );
