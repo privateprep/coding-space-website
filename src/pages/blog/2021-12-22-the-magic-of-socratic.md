@@ -7,7 +7,7 @@ date: 2021-08-23T23:34:22.291Z
 description: “I cannot teach anybody anything. I can only make them think.” —Socrates
 featuredPost: false
 featuredImage:
-  image: /img/ghost_orig.gif
+  image: /img/collaborative-group-space.jpg
   alt: Demo on adding a ghost sprite onto a canvas.
 pageBuilder:
   - type: textOnly
