@@ -142,6 +142,26 @@ exports.createPages = async ({ actions, graphql }) => {
       });
     });
 
+    // Blog list pages
+    const blogPostCount = posts.filter(
+      post => post.node.frontmatter.templateKey === "blog-post"
+    ).length;
+    const blogsPerPage = 6;
+    const numBlogListPages = Math.ceil(blogPostCount / blogsPerPage);
+
+    Array.from({ length: numBlogListPages }).forEach((_, i) => {
+      createPage({
+        path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+        component: path.resolve("./src/templates/blog-list.js"),
+        context: {
+          limit: blogsPerPage,
+          skip: i * blogsPerPage,
+          numBlogListPages,
+          currentPage: i + 1,
+        },
+      });
+    });
+
     // Tag pages:
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
