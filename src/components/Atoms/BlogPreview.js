@@ -53,12 +53,12 @@ BlogPreview.propTypes = {
    */
   id: PropTypes.string,
   /**
-   * Content pulled from the blog post
-   */
-  /**
    * Takes first 400 characters of the post as a preview
    */
   excerpt: PropTypes.string,
+  /**
+   * Content pulled from the blog post
+   */
   frontmatter: PropTypes.shape({
     /**
      * Published date of the blog post
