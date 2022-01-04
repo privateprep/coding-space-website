@@ -1,13 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import Features from "../../components/Features";
 import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
 
-export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
-  <div>
-    <div className="index-container">
+export const IndexPageTemplate = ({ hero, mainpitch }) => (
+  <div className="homepage">
+    <div className="homepage__hero">
       <div className="banner">
         <h1 className="">{hero.heading}</h1>
         <p className="">{hero.subheading}</p>
@@ -24,37 +23,28 @@ export const IndexPageTemplate = ({ hero, mainpitch, intro }) => (
         <source src={BgSmallMp4} type="video/mp4" />
       </video>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section className="homepage__info">
+      <div className="content">
+        <div className="tile">
+          <h1 className="title">{mainpitch.title}</h1>
+        </div>
+        <div className="tile">
+          <h3 className="subtitle">{mainpitch.description}</h3>
         </div>
       </div>
+    </section>
+    <section className="homepage__features">
+      <div className="features__project"></div>
+      <div className="features__class"></div>
+      <div className="features__blogs">
+        <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
+        <BlogRoll />
+        <Link className="btn" to="/blog">
+          Read more
+        </Link>
+      </div>
+    </section>
+    <section className="homepage__testimonials">
     </section>
   </div>
 );
