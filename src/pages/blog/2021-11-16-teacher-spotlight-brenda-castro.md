@@ -5,7 +5,7 @@ date: 2020-11-04T15:04:10.000Z
 description: We at The Coding Space are continually inspired by the dedicated
   and caring teachers on our team, especially those who contribute to the
   wellbeing of the communities they serve.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/girl-doing-class-at-home.jpg
   alt: Accessibility name

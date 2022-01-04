@@ -10,7 +10,7 @@ description: The holidays are just around the corner, which means the
   inspire and more seem to arrive with each new technological advancement. But
   with so many choices, the options can be overwhelming. That’s why we’ve
   narrowed down some of our recent favorites.
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/kids-building-lego-robot.jpeg
   alt: "Kids building a programmable robot "
