@@ -63,4 +63,11 @@
       transition: 1s opacity;
     }
   }
+
+  &__features {
+    padding: 1rem;
+    @media (min-width: 1080px) {
+      padding: 4rem;
+    }
+  }
 }

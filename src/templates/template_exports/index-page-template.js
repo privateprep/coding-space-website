@@ -37,15 +37,11 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
       <div className="features__project"></div>
       <div className="features__class"></div>
       <div className="features__blogs">
-        <h3 className="has-text-weight-semibold is-size-2">Latest stories</h3>
+        <h2>Latest stories</h2>
         <BlogRoll />
-        <Link className="btn" to="/blog">
-          Read more
-        </Link>
       </div>
     </section>
-    <section className="homepage__testimonials">
-    </section>
+    <section className="homepage__testimonials"></section>
   </div>
 );
 
