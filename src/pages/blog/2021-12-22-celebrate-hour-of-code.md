@@ -6,7 +6,7 @@ bgColor: "#faf6ee"
 date: 2021-11-12T23:59:05.504Z
 description: "December is a warm and fuzzy time for us at The Coding Space
   because we get to celebrate one of our favorite traditions: Hour of Code! "
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/faceless-teens-studying.jpeg
   alt: Group of faceless teens on computers, tables, notebooks.

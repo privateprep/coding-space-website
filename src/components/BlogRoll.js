@@ -3,12 +3,19 @@ import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
 import BlogPreview from "./Atoms/BlogPreview";
 
+import "./BlogRoll.scss";
+
 const BlogRoll = () => {
   const data = useStaticQuery(graphql`
     query BlogRollQuery {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+        filter: {
+          frontmatter: {
+            templateKey: { eq: "blog-post" }
+            featuredPost: { eq: true }
+          }
+        }
       ) {
         edges {
           node {
@@ -47,9 +54,9 @@ const BlogRoll = () => {
   const { edges: posts } = data?.allMarkdownRemark;
 
   return (
-    <React.Fragment>
+    <div className="blog-roll">
       {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
-    </React.Fragment>
+    </div>
   );
 };
 

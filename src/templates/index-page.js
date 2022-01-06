@@ -18,7 +18,6 @@ const IndexPage = ({ data }) => {
         <IndexPageTemplate
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
-          intro={frontmatter.intro}
         />
       )}
     </Layout>
@@ -39,34 +38,33 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        seo {
+          seo_description
+          title
+        }
         hero {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           heading
           subheading
+          buttons {
+            fgColor
+            textColor
+            list {
+              content
+              title
+            }
+          }
         }
         mainpitch {
           title
           description
-        }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
+          buttons {
+            fgColor
+            textColor
+            list {
+              content
+              title
             }
-            text
           }
-          heading
-          description
         }
       }
     }

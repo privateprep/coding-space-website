@@ -1,0 +1,24 @@
+.blog-roll {
+  display: grid;
+  grid-gap: 2rem;
+  grid-auto-columns: auto;
+
+  .blog-preview.featured {
+    background-color: var(--white);
+
+    .tag {
+      background-color: var(--accent);
+      color: var(--white);
+    }
+  }
+
+  @media (min-width: 576px) {
+    // two column on landscape phone
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Medium devices (large tablets, computers and up)
+  @media (min-width: 1080px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
