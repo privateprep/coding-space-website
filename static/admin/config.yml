@@ -830,10 +830,72 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
+          - {
+              label: "SEO",
+              name: "seo",
+              widget: "object",
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  {
+                    label: SEO Description,
+                    name: seo_description,
+                    widget: text,
+                  },
+                ],
+            }
+          - {
+              label: "Hero Content",
+              name: "hero",
+              widget: "object",
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  { label: Subheading, name: subheading, widget: text },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: "object",
+                    collapsed: true,
+                    fields:
+                      [
+                        {
+                          label: "Buttons",
+                          name: list,
+                          widget: list,
+                          summary: "{{fields.title}} - {{fields.content}}",
+                          fields:
+                            [
+                              {
+                                label: "Button Text",
+                                name: title,
+                                widget: string,
+                                default: "Click me!",
+                              },
+                              {
+                                label: "Link",
+                                name: content,
+                                widget: string,
+                                hint:
+                                  "Outside links must start with 'https://'",
+                                default: "#",
+                              },
+                            ],
+                        },
+                        {
+                          label: "Button Color",
+                          name: fgColor,
+                          widget: color,
+                          picker: twitter,
+                          default: "#9de2dd",
+                          required: false,
+                          presetColors: *presetColors,
+                        },
+                        *textColor,
+                      ],
+                  },
+                ],
+            }
           - {
               label: Mainpitch,
               name: mainpitch,
@@ -842,9 +904,50 @@ collections:
                 [
                   { label: Title, name: title, widget: string },
                   { label: Description, name: description, widget: text },
+                  {
+                    label: "Buttons",
+                    name: "buttons",
+                    widget: "object",
+                    collapsed: true,
+                    fields:
+                      [
+                        {
+                          label: "Buttons",
+                          name: list,
+                          widget: list,
+                          summary: "{{fields.title}} - {{fields.content}}",
+                          fields:
+                            [
+                              {
+                                label: "Button Text",
+                                name: title,
+                                widget: string,
+                                default: "Click me!",
+                              },
+                              {
+                                label: "Link",
+                                name: content,
+                                widget: string,
+                                hint:
+                                  "Outside links must start with 'https://'",
+                                default: "#",
+                              },
+                            ],
+                        },
+                        {
+                          label: "Button Color",
+                          name: fgColor,
+                          widget: color,
+                          picker: twitter,
+                          default: "#9de2dd",
+                          required: false,
+                          presetColors: *presetColors,
+                        },
+                        *textColor,
+                      ],
+                  },
                 ],
             }
-          - { label: Description, name: description, widget: string }
       - file: "src/pages/liability_release.md"
         label: "Liability Release"
         name: "liability-release"

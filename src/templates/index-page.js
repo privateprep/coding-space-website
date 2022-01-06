@@ -38,20 +38,33 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        seo {
+          seo_description
+          title
+        }
         hero {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
           heading
           subheading
+          buttons {
+            fgColor
+            textColor
+            list {
+              content
+              title
+            }
+          }
         }
         mainpitch {
           title
           description
+          buttons {
+            fgColor
+            textColor
+            list {
+              content
+              title
+            }
+          }
         }
       }
     }

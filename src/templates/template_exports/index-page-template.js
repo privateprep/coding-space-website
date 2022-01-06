@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "gatsby";
 import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
+import { ButtonLink } from "../../components/Atoms";
 
 export const IndexPageTemplate = ({ hero, mainpitch }) => (
   <div className="homepage">
@@ -10,13 +10,15 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
       <div className="banner">
         <h1 className="">{hero.heading}</h1>
         <p className="">{hero.subheading}</p>
-        <div className="banner__buttons">
-          <a className="classes" href="https://classes.thecodingspace.com">
-            Join a Class
-          </a>
-          <a className="classes" href="https://classes.thecodingspace.com">
-            Winter Break Mini Camps
-          </a>
+        <div className="hero__buttons">
+          {hero.buttons.list.map((button, index) => (
+            <ButtonLink
+              {...button}
+              fgColor={hero.buttons.fgColor}
+              textColor={hero.buttons.textColor}
+              key={index}
+            />
+          ))}
         </div>
       </div>
       <video autoPlay muted loop id="indexVideo" className="bg-video">
@@ -32,6 +34,16 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
           <div className="tile">
             <h3 className="subtitle">{mainpitch.description}</h3>
           </div>
+          {
+            !!mainpitch.buttons && mainpitch.buttons.list.map((button, index) => (
+              <ButtonLink
+                {...button}
+                fgColor={mainpitch.buttons.fgColor}
+                textColor={mainpitch.buttons.textColor}
+                key={index}
+              />
+            ))
+          }
         </div>
       </section>
       <section className="differentiators"></section>
@@ -50,12 +62,9 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
 
 IndexPageTemplate.propTypes = {
   hero: PropTypes.shape({
-    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     heading: PropTypes.string,
     subheading: PropTypes.string,
+    buttons: PropTypes.object,
   }),
   mainpitch: PropTypes.object,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 };
