@@ -18,7 +18,6 @@ const IndexPage = ({ data }) => {
         <IndexPageTemplate
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
-          intro={frontmatter.intro}
         />
       )}
     </Layout>
@@ -52,20 +51,6 @@ export const pageQuery = graphql`
         }
         mainpitch {
           title
-          description
-        }
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
           description
         }
       }

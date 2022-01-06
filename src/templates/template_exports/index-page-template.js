@@ -23,25 +23,28 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
         <source src={BgSmallMp4} type="video/mp4" />
       </video>
     </div>
-    <section className="homepage__info">
-      <div className="content">
-        <div className="tile">
-          <h1 className="title">{mainpitch.title}</h1>
+    <div className="homepage__main">
+      <section className="main-pitch">
+        <div className="content">
+          <div className="tile">
+            <h1 className="title">{mainpitch.title}</h1>
+          </div>
+          <div className="tile">
+            <h3 className="subtitle">{mainpitch.description}</h3>
+          </div>
         </div>
-        <div className="tile">
-          <h3 className="subtitle">{mainpitch.description}</h3>
+      </section>
+      <section className="differentiators"></section>
+      <section className="features">
+        <div className="features__project"></div>
+        <div className="features__class"></div>
+        <div className="features__blogs">
+          <h2>Latest stories</h2>
+          <BlogRoll />
         </div>
-      </div>
-    </section>
-    <section className="homepage__features">
-      <div className="features__project"></div>
-      <div className="features__class"></div>
-      <div className="features__blogs">
-        <h2>Latest stories</h2>
-        <BlogRoll />
-      </div>
-    </section>
-    <section className="homepage__testimonials"></section>
+      </section>
+      <section className="testimonials"></section>
+    </div>
   </div>
 );
 
