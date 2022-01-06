@@ -1,62 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, useStaticQuery } from "gatsby";
 import BlogPreview from "./Atoms/BlogPreview";
 
 import "./BlogRoll.scss";
 
-const BlogRoll = () => {
-  const data = useStaticQuery(graphql`
-    query BlogRollQuery {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        filter: {
-          frontmatter: {
-            templateKey: { eq: "blog-post" }
-            featuredPost: { eq: true }
-          }
-        }
-      ) {
-        edges {
-          node {
-            excerpt(pruneLength: 400)
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
-              title
-              templateKey
-              date(formatString: "MMMM DD, YYYY")
-              featuredPost
-              featuredImage {
-                alt
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 2048, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `);
-
-  if (typeof data === "undefined") {
+const BlogRoll = ({ blogRoll }) => {
+  if (typeof blogRoll === "undefined") {
     return null;
   }
 
-  const { edges: posts } = data?.allMarkdownRemark;
+  const { edges: posts } = blogRoll;
 
   return (
-    <div className="blog-roll">
-      {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
-    </div>
+    <React.Fragment>
+      <h2>Latest stories</h2>{" "}
+      <div className="blog-roll">
+        {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
+      </div>
+    </React.Fragment>
   );
 };
 
