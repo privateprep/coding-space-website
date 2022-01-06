@@ -4,7 +4,7 @@ import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
 import { ButtonLink } from "../../components/Atoms";
 
-export const IndexPageTemplate = ({ hero, mainpitch }) => (
+export const IndexPageTemplate = ({ blogRoll, hero, mainpitch }) => (
   <div className="homepage">
     <div className="homepage__hero">
       <div className="banner">
@@ -34,16 +34,15 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
           <div className="tile">
             <h3 className="subtitle">{mainpitch.description}</h3>
           </div>
-          {
-            !!mainpitch.buttons && mainpitch.buttons.list.map((button, index) => (
+          {!!mainpitch.buttons &&
+            mainpitch.buttons.list.map((button, index) => (
               <ButtonLink
                 {...button}
                 fgColor={mainpitch.buttons.fgColor}
                 textColor={mainpitch.buttons.textColor}
                 key={index}
               />
-            ))
-          }
+            ))}
         </div>
       </section>
       <section className="differentiators"></section>
@@ -51,8 +50,7 @@ export const IndexPageTemplate = ({ hero, mainpitch }) => (
         <div className="features__project"></div>
         <div className="features__class"></div>
         <div className="features__blogs">
-          <h2>Latest stories</h2>
-          <BlogRoll />
+          <BlogRoll blogRoll={blogRoll} />
         </div>
       </section>
       <section className="testimonials"></section>
