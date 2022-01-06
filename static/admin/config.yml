@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: differentiators
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -945,6 +945,23 @@ collections:
                         },
                         *textColor,
                       ],
+                  },
+                ],
+            }
+          - {
+              label: "Differentiators",
+              name: "differentiators",
+              widget: "list",
+              summary: "{{fields.title}}",
+              fields:
+                [
+                  { label: "Title", name: title, widget: string },
+                  { label: "Description", name: description, widget: text },
+                  {
+                    label: "Image",
+                    name: image,
+                    widget: image,
+                    required: true,
                   },
                 ],
             }
