@@ -88,6 +88,9 @@
         color: var(--dark);
         font-size: 1rem;
         padding: 0 10px;
+        // iOS date picker bug has no height and width
+        min-height: 22px;
+        min-width: 204px;
       }
 
       input:focus,
