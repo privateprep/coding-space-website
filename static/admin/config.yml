@@ -958,10 +958,25 @@ collections:
                   { label: "Title", name: title, widget: string },
                   { label: "Description", name: description, widget: text },
                   {
-                    label: "Image",
+                    label: Image,
                     name: image,
-                    widget: image,
                     required: true,
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: Image,
+                          name: image,
+                          widget: image,
+                          default: "",
+                        },
+                        {
+                          label: Alt,
+                          name: alt,
+                          default: "Accessibility name",
+                          widget: string,
+                        },
+                      ],
                   },
                 ],
             }

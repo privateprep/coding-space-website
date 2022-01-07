@@ -37,24 +37,36 @@ mainpitch:
 differentiators:
   - title: Student-Centered Learning
     description: Personalized, self-paced learning means projects as unique as our students
-    image: /img/white-board.jpg
+    image:
+      image: /img/white-board.jpg
+      alt: "Instructor showing code logic on a white board to a student"
   - title: Exceptional Experiences
     description: We partner with parents at every step, from accessible tech support
       to progress reports
-    image: /img/field_trips.jpg
+    image:
+      image: /img/field_trips.jpg
+      alt: "Group of Coding Space students go on a field trip to Google office in NYC"
   - title: Skills For Life
     description: Our supportive space fosters a growth mindset, empowering students
       to grow past their comfort zones
-    image: /img/girl-code-vert.jpg
+    image:
+      image: /img/girl-code-vert.jpg
+      alt: "A young girl in coding classes in the appearance of a superhero."
   - title: Teacher Development
     description: Ongoing educator training means students learn from teachers in the know
-    image: /img/white-board.jpg
+    image:
+      image: /img/white-board.jpg
+      alt: ""Instructor showing code logic on a white board to a student"
   - title: Unique Teaching Methods
     description: We encourage students to discover solutions by modeling effective
       learning strategies and providing room to test and tinker
-    image: /img/hands_on.jpeg
+    image:
+      image: /img/hands_on.jpeg
+      alt: "An instructor and two students gather around a computer with electronics hooked up to study circuits."
   - title: Educational Equity
     description: We commit to increasing access to education through scholarships,
       community partnerships, and social impact initiatives
-    image: /img/coder.jpg
+    image:
+      image: /img/coder.jpg
+      alt: "Four girls in a Coding Space camp smiling with stickers on their faces"
 ---
