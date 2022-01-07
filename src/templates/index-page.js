@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
-          differentiators={data.differentiators}
+          differentiators={frontmatter.differentiators}
         />
       )}
     </Layout>
@@ -65,6 +65,25 @@ export const pageQuery = graphql`
             list {
               content
               title
+            }
+          }
+        }
+        differentiators {
+          description
+          title
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, quality: 100) {
+                  base64
+                  tracedSVG
+                  srcWebp
+                  srcSetWebp
+                  originalImg
+                  originalName
+                }
+              }
             }
           }
         }
