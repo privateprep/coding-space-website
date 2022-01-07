@@ -19,6 +19,7 @@ const IndexPage = ({ data }) => {
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
+          differentiators={data.differentiators}
         />
       )}
     </Layout>
