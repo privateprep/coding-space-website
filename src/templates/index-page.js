@@ -75,13 +75,8 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 100) {
-                  base64
-                  tracedSVG
-                  srcWebp
-                  srcSetWebp
-                  originalImg
-                  originalName
+                fluid(maxHeight: 500, maxWidth: 500, quality: 100) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
