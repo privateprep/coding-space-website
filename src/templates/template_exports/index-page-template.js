@@ -3,6 +3,22 @@ import PropTypes from "prop-types";
 import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
 import { ButtonLink } from "../../components/Atoms";
+import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+
+const Differentiator = ({ title, description, image }) => {
+  image.imageStyle = { borderRadius: "50%" };
+  return (
+    <div className="differentiator">
+      <div className="differentiator__image">
+        <PreviewCompatibleImage imageInfo={image} />
+      </div>
+      <div className="differentiator__content">
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+};
 
 export const IndexPageTemplate = ({
   blogRoll,
@@ -53,7 +69,7 @@ export const IndexPageTemplate = ({
         </section>
         <section className="differentiators">
           {differentiators.map((differentiator, index) => (
-            <div>{differentiator.title}</div>
+            <Differentiator {...differentiator} key={index} />
           ))}
         </section>
         <section className="features">
