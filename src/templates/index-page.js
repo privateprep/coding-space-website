@@ -20,6 +20,7 @@ const IndexPage = ({ data }) => {
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
           differentiators={frontmatter.differentiators}
+          featuredProject={frontmatter.featuredProject}
           reviews={frontmatter.reviews}
         />
       )}
@@ -81,6 +82,31 @@ export const pageQuery = graphql`
                 }
               }
             }
+          }
+        }
+        featuredProject {
+          project {
+            content
+            description
+            title
+          }
+          studentProfile {
+            age
+            className
+            classUrl
+            image {
+              alt
+              image {
+                childImageSharp {
+                  fluid(maxHeight: 500, maxWidth: 500, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+                publicURL
+              }
+            }
+            interests
+            name
           }
         }
         reviews {
