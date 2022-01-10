@@ -1,0 +1,11 @@
+.blurb {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 3rem;
+  max-width: 800px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
