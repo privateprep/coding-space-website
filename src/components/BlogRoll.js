@@ -13,7 +13,7 @@ const BlogRoll = ({ blogRoll }) => {
 
   return (
     <React.Fragment>
-      <h2>Latest stories</h2>{" "}
+      <h1>Latest stories</h1>{" "}
       <div className="blog-roll">
         {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
       </div>
