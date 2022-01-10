@@ -1,0 +1,22 @@
+.blurb {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 1rem;
+  max-width: 800px;
+
+  @media (min-width: 768px) {
+    grid-gap: 3rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

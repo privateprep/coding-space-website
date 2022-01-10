@@ -18,6 +18,8 @@ const IndexPage = ({ data }) => {
         <IndexPageTemplate
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
+          blogRoll={data.blogRoll}
+          differentiators={frontmatter.differentiators}
         />
       )}
     </Layout>
@@ -63,6 +65,56 @@ export const pageQuery = graphql`
             list {
               content
               title
+            }
+          }
+        }
+        differentiators {
+          description
+          title
+          image {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxHeight: 500, maxWidth: 500, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    blogRoll: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "blog-post" }
+          featuredPost: { eq: true }
+        }
+      }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 400)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            tags
+            title
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+            featuredPost
+            featuredImage {
+              alt
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
           }
         }

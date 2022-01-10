@@ -81,7 +81,6 @@ export const pageQuery = graphql`
     ) {
       experienceLevels: nodes {
         frontmatter {
-          heading
           title
           categoryIds
           details {

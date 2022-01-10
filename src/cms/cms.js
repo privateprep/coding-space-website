@@ -7,6 +7,7 @@ import { ColorControl, ColorPreview } from "netlify-cms-widget-colorpicker";
 import "../components/all.scss";
 import "../templates/styles/experience-levels.scss";
 import "../templates/styles/location.scss";
+import "../templates/styles/IndexPage.scss";
 
 import AboutUsPreview from "./preview-templates/AboutUsPreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
