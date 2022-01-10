@@ -980,6 +980,27 @@ collections:
                   },
                 ],
             }
+          - {
+              label: "Reviews",
+              name: list,
+              widget: list,
+              summary: "{{fields.content}} - {{fields.title}}",
+              fields:
+                [
+                  {
+                    label: Review,
+                    name: title,
+                    widget: string,
+                    default: "This is great!",
+                  },
+                  {
+                    label: Name,
+                    name: content,
+                    widget: string,
+                    default: "Alejandro",
+                  },
+                ],
+            }
       - file: "src/pages/liability_release.md"
         label: "Liability Release"
         name: "liability-release"
