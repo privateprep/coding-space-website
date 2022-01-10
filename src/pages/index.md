@@ -35,7 +35,7 @@ mainpitch:
         content: /classes
 differentiators:
   - image:
-      image: /img/white-board.jpg
+      image: /img/slice-9-2-.png
       alt: Instructor showing code logic on a white board to a student
     title: Student-Centered Learning
     description: Personalized, self-paced learning means projects as unique as our students
