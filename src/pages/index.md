@@ -1,7 +1,6 @@
 ---
-templateKey: index-page
-title: Coding Space Landing Page
 heading: Now Kids Can Explore the Unknown, Even From Home
+templateKey: index-page
 seo:
   title: The Coding Space
   seo_description: >
@@ -36,7 +35,7 @@ mainpitch:
         content: /classes
 differentiators:
   - image:
-      image: /img/white-board.jpg
+      image: /img/slice-9-2-.png
       alt: Instructor showing code logic on a white board to a student
     title: Student-Centered Learning
     description: Personalized, self-paced learning means projects as unique as our students
@@ -70,11 +69,34 @@ differentiators:
     title: Educational Equity
     description: We commit to increasing access to education through scholarships,
       community partnerships, and social impact initiatives
+featuredProject:
+  studentProfile:
+    name: India
+    age: 12
+    interests: Coding, sustainability, giving
+    image:
+      image: /img/smily_face.svg
+      alt: Placeholder image for India
+    className: Intermediate GirlCode
+    classUrl: http://localhost:8000/experience-levels/intermediate-girlcode/
+  project:
+    description: This is a quiz to determine which charity to donate to based on how
+      you answer the questions.
+    title: Where to give
+    content: https://scratch.mit.edu/projects/515763533/embed
+title: Coding Space Landing Page
 reviews:
   - content: Jill, NYC
-    title: The Coding Space has opened up a whole new world for our daughter, which was especially needed when she couldn’t see friends in person. Her classes are the highlight of her week, and it’s so incredible to watch her progress.
+    title: The Coding Space has opened up a whole new world for our daughter, which
+      was especially needed when she couldn’t see friends in person. Her classes
+      are the highlight of her week, and it’s so incredible to watch her
+      progress.
   - content: Sofia, age 9
-    title: I love it here because in my other classes and camps, they just give the answers to you. Here I get to figure it out for myself. It’s more exciting because I learned it myself.
+    title: I love it here because in my other classes and camps, they just give the
+      answers to you. Here I get to figure it out for myself. It’s more exciting
+      because I learned it myself.
   - content: Lea, Park Slope
-    title: My son Aiden said it was the best camp he’s ever done and he absolutely loved everything he learned about coding. The instructors were really excited and knowledgeable.
+    title: My son Aiden said it was the best camp he’s ever done and he absolutely
+      loved everything he learned about coding. The instructors were really
+      excited and knowledgeable.
 ---

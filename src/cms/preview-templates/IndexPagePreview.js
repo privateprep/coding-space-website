@@ -10,6 +10,9 @@ const IndexPagePreview = ({ entry }) => {
         title={data.title}
         mainpitch={data.mainpitch || {}}
         hero={data.hero || {}}
+        differentiators={data.differentiators || {}}
+        featuredProject={data.featuredProject || {}}
+        reviews={data.reviews || {}}
       />
     );
   } else {

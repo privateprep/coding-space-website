@@ -5,7 +5,13 @@ import "./styles/ButtonLink.scss";
 /**
  This is a button in appearance only and is actually a link to another page, either internal or external.
 */
-export const ButtonLink = ({ fgColor, textColor, key, content, title }) => (
+export const ButtonLink = ({
+  fgColor = "#9de2dd",
+  textColor = "#264548",
+  key,
+  content,
+  title,
+}) => (
   <a
     class="button-link"
     href={content}

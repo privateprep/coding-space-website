@@ -981,10 +981,104 @@ collections:
                 ],
             }
           - {
+              label: "Featured Project",
+              name: "featuredProject",
+              widget: object,
+              summary:
+                "{{fields.studentProfile.name}} - {{fields.project.title}}",
+              fields:
+                [
+                  {
+                    label: "Student Profile",
+                    name: "studentProfile",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Name",
+                          name: "name",
+                          widget: string,
+                          default: "",
+                        },
+                        { label: "Age", name: "age", widget: number },
+                        {
+                          label: "Interests",
+                          name: "interests",
+                          widget: text,
+                          default: "",
+                        },
+                        {
+                          label: Image,
+                          name: image,
+                          required: true,
+                          widget: object,
+                          fields:
+                            [
+                              {
+                                label: Image,
+                                name: image,
+                                widget: image,
+                                default: "",
+                              },
+                              {
+                                label: Alt,
+                                name: alt,
+                                default: "Accessibility name",
+                                widget: string,
+                              },
+                            ],
+                        },
+                        {
+                          label: "Enrolled Class",
+                          name: "className",
+                          widget: string,
+                        },
+                        {
+                          label: "Class Signup Link",
+                          hint:
+                            "Select the experience level from the classes page
+                            and link here",
+                          name: "classUrl",
+                          widget: string,
+                        },
+                      ],
+                  },
+                  {
+                    label: "Project Info",
+                    name: "project",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Title",
+                          name: "title",
+                          widget: string,
+                          default: "",
+                        },
+                        {
+                          label: "Description",
+                          name: "description",
+                          widget: text,
+                          default: "",
+                        },
+                        {
+                          label: "Source of iframe",
+                          default: "https://scratch.mit.edu/projects/510001177/embed",
+                          hint:
+                            "This is a url to the source you want to import. Ask
+                            for help if you need finding it.",
+                          name: "content",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
               label: "Reviews",
-              name: list,
+              name: reviews,
               widget: list,
-              summary: "{{fields.content}} - {{fields.title}}",
+              summary: "{{fields.content}}",
               fields:
                 [
                   {

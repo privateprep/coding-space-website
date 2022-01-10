@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BoxWithLogo, Iframe, TextOnly, StyledChecks } from "./index";
+import { BoxWithLogo, TextOnly, StyledChecks } from "./index";
+import { Iframe } from "../Atoms"
 
 import "./styles/SideBySide.scss";
 
