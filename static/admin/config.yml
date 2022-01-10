@@ -1076,9 +1076,9 @@ collections:
             }
           - {
               label: "Reviews",
-              name: list,
+              name: reviews,
               widget: list,
-              summary: "{{fields.content}} - {{fields.title}}",
+              summary: "{{fields.content}}",
               fields:
                 [
                   {
