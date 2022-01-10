@@ -4,7 +4,6 @@ import {
   Accordion,
   BoxWithLogo,
   Buttons,
-  Iframe,
   TextOnly,
   Reviews,
   Points,
@@ -14,6 +13,7 @@ import {
   TextAndImageBlock,
   CustomLinkBoxes,
 } from "./BuilderComponents";
+import { Iframe } from "./Atoms";
 
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
