@@ -5,11 +5,12 @@ const FadeIn = props => {
   const [isVisible, setVisible] = useState(true);
 
   useEffect(() => {
+    const ref = fadeRef.current;
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(fadeRef.current);
-    return () => observer.unobserve(fadeRef.current);
+    return () => observer.unobserve(ref);
   }, []);
 
   return (

@@ -88,3 +88,22 @@
     grid-gap: 3rem;
   }
 }
+
+.testimonials {
+  &__reviews {
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3rem;
+    }
+
+    .review {
+      height: 220px;
+    }
+  }
+}

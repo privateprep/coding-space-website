@@ -20,6 +20,7 @@ const IndexPage = ({ data }) => {
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
           differentiators={frontmatter.differentiators}
+          reviews={frontmatter.reviews}
         />
       )}
     </Layout>
@@ -81,6 +82,10 @@ export const pageQuery = graphql`
               }
             }
           }
+        }
+        reviews {
+          title
+          content
         }
       }
     }

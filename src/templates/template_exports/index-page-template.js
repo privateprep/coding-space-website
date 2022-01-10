@@ -2,13 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
-import { ButtonLink, Blurb } from "../../components/Atoms";
+import { ButtonLink, Blurb, Review } from "../../components/Atoms";
 
 export const IndexPageTemplate = ({
   blogRoll,
   differentiators,
   hero,
   mainpitch,
+  reviews,
 }) => {
   return (
     <div className="homepage">
@@ -63,7 +64,14 @@ export const IndexPageTemplate = ({
             <BlogRoll blogRoll={blogRoll} />
           </div>
         </section>
-        <section className="testimonials"></section>
+        <section className="testimonials">
+          <h1>What Families Are Saying About The Coding Space</h1>
+          <div className="testimonials__reviews">
+            {reviews.map((review, index) => (
+              <Review {...review} key={index} />
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );
