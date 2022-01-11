@@ -16,6 +16,7 @@ const IndexPage = ({ data }) => {
         <Redirect noThrow to="/locations" />
       ) : (
         <IndexPageTemplate
+          banner={frontmatter.banner}
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
