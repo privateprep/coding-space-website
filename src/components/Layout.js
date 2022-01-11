@@ -2,87 +2,103 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import BasicHeader from "../components/BasicHeader";
 import Footer from "../components/Footer";
-// import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import "./all.scss";
 import "../fonts/fonts.css";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
-// const menuItems = [
-//   {
-//     title: "Get Started - WIP",
-//     subMenu: [
-//       { title: "Help me decide?", path: "/whats-new" },
-//       { title: "What's New", path: "/whats-new" },
-//       { title: "Semester Classes", path: "/semester-classes" },
-//       { title: "Girlcode", path: "signup/girlcode" },
-//       { title: "Camps", path: "/camps" },
-//     ],
-//   },
-//   {
-//     title: "Programs",
-//     path: "",
-//     subMenu: [
-//       { title: "Experience Levels", path: "/programs/experience-levels" },
-//       {
-//         title: "Seasonal Programs",
-//         path: "/programs/seasonal-programs",
-//       },
-//       {
-//         title: "Experiential Programs",
-//         path: "/programs/experiential-programs",
-//       },
-//       {
-//         title: "Camps",
-//         path: "/programs/camps",
-//       },
-//       {
-//         title: "Build Your Own",
-//         path: "/programs/build-your-own",
-//       },
-//       {
-//         title: "Special Events",
-//         path: "/programs/special-events",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Partnerships",
-//     path: "",
-//     subMenu: [
-//       { title: "Schools", path: "partnerships/schools" },
-//       { title: "Community", path: "partnerships/community" },
-//       { title: "Corporate", path: "partnerships/corporate" },
-//       { title: "Camps", path: "partnerships/camps" },
-//     ],
-//   },
-//   {
-//     title: "About Us",
-//     path: "",
-//     subMenu: [
-//       { title: "How TCS is different", path: "about-us/how-tcs-is-different" },
-//       { title: "Social Impact", path: "about-us/social-impact" },
-//       { title: "Common Questions", path: "about-us/common-questions" },
-//       { title: "School Programs", path: "about-us/school-programs" },
-//       { title: "Rewards Program", path: "about-us/rewards-program" },
-//       { title: "Our Philosophy", path: "about-us/out-philosophy" },
-//       { title: "LMS", path: "/lms" },
-//     ],
-//   },
-//   {
-//     title: "Blogs",
-//     path: "/blogs",
-//     subMenu: [],
-//   },
-//   {
-//     title: "Contact Us",
-//     path: "/contact",
-//     subMenu: [],
-//   },
-// ];
+const menuItems = [
+  {
+    title: "Get Started",
+    subMenu: [
+      { title: "Help me decide?", path: "/classes" },
+      { title: "What's New", path: "/whats-new" },
+      { title: "Semester Classes", path: "/semester-classes" },
+      { title: "Girlcode", path: "signup/girlcode" },
+      { title: "Camps", path: "/camps" },
+    ],
+  },
+  {
+    title: "Programs",
+    path: "",
+    subMenu: [
+      {
+        title: "Our Programs",
+        path: "/school-programs/our-programs",
+      },
+      {
+        title: "Experience Levels",
+        path: "/school-programs/experience-level",
+      },
+      {
+        title: "Seasonal Programs",
+        path: "/school-programs/seasonal-programs",
+      },
+      {
+        title: "Experiential Programs",
+        path: "/programs/experiential-programs",
+      },
+      {
+        title: "Camps",
+        path: "/school-programs/camps-at-the-coding-space",
+      },
+      {
+        title: "Build Your Own",
+        path: "/school-programs/build-your-own-programs-at-the-coding-space",
+      },
+      {
+        title: "Special Events",
+        path: "/programs/special-events",
+      },
+    ],
+  },
+  {
+    title: "Partnerships",
+    path: "",
+    subMenu: [
+      { title: "Schools", path: "/partnerships/schools" },
+      { title: "Community", path: "/partnerships/community" },
+      { title: "Corporate", path: "/partnerships/corporate" },
+      {
+        title: "Camps",
+        path: "/partnerships/camps",
+      },
+    ],
+  },
+  {
+    title: "About Us",
+    path: "",
+    subMenu: [
+      { title: "About Us", path: "/about-us/about-us/" },
+      { title: "How TCS is different", path: "/about-us/how-tcs-is-different" },
+      { title: "Social Impact", path: "/about-us/social-impact/" },
+      {
+        title: "Scholarship Program",
+        path: "/about-us/entries/scholarship-program",
+      },
+      { title: "Common Questions", path: "/about-us/common-questions" },
+      { title: "School Programs", path: "/about-us/school-programs" },
+      { title: "Rewards Program", path: "/referral_program" },
+      { title: "Our Philosophy", path: "/about-us/our-philosophy" },
+      { title: "LMS", path: "/about-us/my-coding-space-lms" },
+    ],
+  },
+  {
+    title: "Blogs",
+    path: "/blog",
+    subMenu: [],
+  },
+  {
+    title: "Contact Us",
+    path: "/contact",
+    subMenu: [],
+  },
+];
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  const production = process.env.NODE_ENV === "production";
   return (
     <div>
       <Helmet>
@@ -131,7 +147,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image:height" content={2000} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
-      <BasicHeader />
+      {!!production ? <BasicHeader /> : <Navbar menuItems={menuItems} />}
       <div className="page-container">{children}</div>
       <Footer />
     </div>
