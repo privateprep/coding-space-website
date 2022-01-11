@@ -46,6 +46,10 @@ export const pageQuery = graphql`
           seo_description
           title
         }
+        banner {
+          mdContent
+          removalDate
+        }
         hero {
           heading
           subheading
