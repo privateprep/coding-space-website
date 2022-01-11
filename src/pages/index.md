@@ -7,6 +7,10 @@ seo:
     We offer in-person and virtual coding classes that provide kids with a
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
+banner:
+  removalDate: 2022-01-26T16:39:43.806Z
+  mdContent: Signup for our [Spring
+    Classes](http://localhost:8000/classes?semesters[]=Spring%20Classes%202022)!
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and students
