@@ -11,6 +11,10 @@ const Banner = ({ mdContent, removalDate }) => {
   const removalDateTime =
     DateTime.fromISO(removalDate).setZone("America/New_York");
 
+  if (!mdContent) {
+    return null;
+  }
+
   if (!!removalDate && currentDate > removalDateTime) {
     return null;
   }
