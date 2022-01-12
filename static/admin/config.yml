@@ -844,6 +844,7 @@ collections:
                   },
                 ],
             }
+          - *banner
           - {
               label: "Hero Content",
               name: "hero",

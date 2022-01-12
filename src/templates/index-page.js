@@ -16,6 +16,7 @@ const IndexPage = ({ data }) => {
         <Redirect noThrow to="/locations" />
       ) : (
         <IndexPageTemplate
+          banner={frontmatter.banner}
           hero={frontmatter.hero}
           mainpitch={frontmatter.mainpitch}
           blogRoll={data.blogRoll}
@@ -45,6 +46,10 @@ export const pageQuery = graphql`
         seo {
           seo_description
           title
+        }
+        banner {
+          mdContent
+          removalDate
         }
         hero {
           heading

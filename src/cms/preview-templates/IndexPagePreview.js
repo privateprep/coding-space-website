@@ -7,6 +7,7 @@ const IndexPagePreview = ({ entry }) => {
   if (data) {
     return (
       <IndexPageTemplate
+        banner={data.banner || {}}
         title={data.title}
         mainpitch={data.mainpitch || {}}
         hero={data.hero || {}}

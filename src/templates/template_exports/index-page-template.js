@@ -2,7 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
-import { ButtonLink, Blurb, Review, Iframe } from "../../components/Atoms";
+import {
+  Banner,
+  ButtonLink,
+  Blurb,
+  Review,
+  Iframe,
+} from "../../components/Atoms";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
 const FeaturedProject = ({ studentProfile, project }) => {
@@ -47,6 +53,7 @@ const FeaturedProject = ({ studentProfile, project }) => {
 };
 
 export const IndexPageTemplate = ({
+  banner,
   blogRoll,
   differentiators,
   featuredProject,
@@ -56,6 +63,7 @@ export const IndexPageTemplate = ({
 }) => {
   return (
     <div className="homepage">
+      <Banner {...banner} />
       <div className="homepage__hero">
         <div className="banner">
           <h1 className="">{hero.heading}</h1>
