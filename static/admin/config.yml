@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: meet-our-team
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -1107,6 +1107,50 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: "SEO Description", name: "seoDescription", widget: "text" }
           - *page_builder
+      - file: "src/pages/our_team.md"
+        label: "Our Team"
+        name: "our-team"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "our-team-page",
+            }
+          - *seo
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text }
+          - {
+              label: "Team Members",
+              name: "team",
+              widget: "list",
+              summary: "{{fields.image.alt}}",
+              fields:
+                [
+                  { label: Content, name: mdContent, widget: markdown },
+                  {
+                    label: Image,
+                    name: image,
+                    required: true,
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: Image,
+                          name: image,
+                          widget: image,
+                          default: "",
+                        },
+                        {
+                          label: Alt,
+                          name: alt,
+                          default: "Accessibility name",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: "src/pages/referral_program.md"
         label: "Referral and Rewards Program"
         name: "referral-program"
