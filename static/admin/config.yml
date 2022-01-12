@@ -956,8 +956,7 @@ collections:
               summary: "{{fields.title}}",
               fields:
                 [
-                  { label: "Title", name: title, widget: string },
-                  { label: "Description", name: description, widget: text },
+                  { label: Content, name: mdContent, widget: markdown },
                   {
                     label: Image,
                     name: image,
