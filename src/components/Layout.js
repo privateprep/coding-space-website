@@ -13,6 +13,7 @@ const menuItems = [
     title: "Get Started",
     subMenu: [
       { title: "Help me decide?", path: "/classes" },
+      { title: "Locations", path: "/locations" },
       { title: "What's New", path: "/whats-new" },
       { title: "Semester Classes", path: "/semester-classes" },
       { title: "Girlcode", path: "signup/girlcode" },
