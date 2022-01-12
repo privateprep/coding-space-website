@@ -200,6 +200,18 @@ iframe:
       ],
   }
 
+seo:
+  &seo {
+    label: "SEO",
+    name: "seo",
+    widget: "object",
+    fields:
+      [
+        { label: Title, name: title, widget: string },
+        { label: SEO Description, name: seo_description, widget: text },
+      ],
+  }
+
 styledChecks:
   &styledChecks {
     label: "Styled Checks",
@@ -830,20 +842,7 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - {
-              label: "SEO",
-              name: "seo",
-              widget: "object",
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  {
-                    label: SEO Description,
-                    name: seo_description,
-                    widget: text,
-                  },
-                ],
-            }
+          - *seo
           - *banner
           - {
               label: "Hero Content",
