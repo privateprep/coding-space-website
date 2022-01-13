@@ -17,7 +17,6 @@ team:
 
       ### Managing Director
 
-
       A graduate of Boston University’s College of Communication, Maddy has always been interested in the ways we use language to convey ideas and connect with each other. This interest has led her to experiences that range from studying Spanish in Madrid, to writing grant proposals in NYC, to building websites for local businesses, to crafting songs on her guitar in her living room.
 
 
@@ -26,11 +25,9 @@ team:
       image: /img/melissa.jpeg
       alt: Melissa Vogt's headshot
     mdContent: >-
-      ### Melissa Vogt
-
+      ## Melissa Vogt
 
       #### Manager of Business Development & Client Relations
-
 
       Originally from Austin, Texas, Melissa holds her BFA from Sam Houston State University. Prior to working at The Coding Space, she served as Director of Operations for a private music school in Manhattan. She is passionate about education and cultivating creativity. In her free time, she enjoys performing in local plays and musicals, cooking new recipes, and traveling.
 
@@ -40,7 +37,7 @@ team:
       image: /img/aspen.jpeg
       alt: Aspen Meineke's Headshot
     mdContent: >-
-      ### Aspen Meineke
+      ## Aspen Meineke
 
 
       #### Program Director
@@ -54,11 +51,10 @@ team:
       image: /img/ofelia.jpeg
       alt: Ofelia Canals's headshot
     mdContent: >-
-      ### Ofelia Canals
+      ## Ofelia Canals
 
 
       #### Chief Talent Officer
-
 
       Ofelia started her career in education twelve years ago, as a Spanish teacher for Teach For America in Connecticut. It was there, that she found her passion for giving all students a space to develop and use their individual talents and voices. For the last ten years, she's worked in recruitment and hiring, to ensure that students have the right guides to help them reach their full potential.
 
@@ -68,11 +64,9 @@ team:
       image: /img/becky.jpeg
       alt: Becky McGlensey's headshot
     mdContent: >-
-      ### Becky McGlensey
-
+      ## Becky McGlensey
 
       #### Chief Marketing Officer
-
 
       Becky is a marketing enthusiast with experience in wellness brands, sporting teams, lifestyle brands and influential companies. She is originally from California but has lived in multiple countries including Singapore and Italy which sparked her love of travel. Becky is now located in Denver and enjoys fitness, food, traveling and learning.
 
@@ -82,11 +76,9 @@ team:
       image: /img/scott.jpeg
       alt: Scott Levenson's headshot
     mdContent: >-
-      ### Scott Levenson
-
+      ## Scott Levenson
 
       #### Managing Partner
-
 
       Scott is the Managing Partner of Private Prep, a premier education company providing one-on- one tutoring, test prep and college admissions services.
 
