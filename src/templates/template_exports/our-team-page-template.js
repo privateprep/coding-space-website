@@ -1,5 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Blurb } from "../../components/Atoms";
+
+
+import "../styles/our-team-page.scss";
 
 export const OurTeamPageTemplate = ({ title, description, team }) => {
   return (
@@ -15,4 +19,11 @@ export const OurTeamPageTemplate = ({ title, description, team }) => {
       </section>
     </div>
   );
+};
+
+
+OurTeamPageTemplate.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  team: PropTypes.array,
 };

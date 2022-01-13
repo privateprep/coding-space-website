@@ -1,0 +1,48 @@
+.our-team-page {
+  padding: 1rem;
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  .team {
+    display: grid;
+    gap: 2rem;
+
+    .blurb {
+      grid-template-columns: 1fr;
+
+      h1,
+      h2,
+      h3 {
+        margin: 0.25rem 0;
+      }
+
+      p:first-of-type {
+        padding-top: 0.5rem;
+      }
+
+      &__image {
+        width: 200px;
+        justify-self: center;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding: 4rem;
+
+    .team {
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 6rem;
+
+      .blurb {
+        grid-template-columns: 2fr 3fr;
+
+        &__image {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
