@@ -9,12 +9,14 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-01-26T16:39:43.806Z
-  mdContent: Signup for our [Spring
+  mdContent:
+    Signup for our [Spring
     Classes](http://localhost:8000/classes?semesters[]=Spring%20Classes%202022)!
 hero:
   heading: The Coding Space
-  subheading: ​​An after-school and summer coding program where kids and students
-    of all ages learn to code while developing critical thinking skills.
+  subheading:
+    ​​An after-school and summer coding program where kids and students of all
+    ages learn to code while developing critical thinking skills.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
@@ -30,7 +32,9 @@ mainpitch:
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 
-    At The Coding Space, kids learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
+    At The Coding Space, kids learn to code through the development of
+    computational thinking skills, intellectual confidence, self-expression, and
+    independence.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
@@ -41,38 +45,55 @@ differentiators:
   - image:
       image: /img/slice-9-2-.png
       alt: Instructor showing code logic on a white board to a student
-    title: Student-Centered Learning
-    description: Personalized, self-paced learning means projects as unique as our students
+    mdContent: |-
+      ## Student-Centered Learning
+
+      Personalized, self-paced learning means projects as unique as our students
   - image:
       image: /img/field_trips.jpg
-      alt: Group of Coding Space students go on a field trip to Google office in NYC
-    title: Exceptional Experiences
-    description: We partner with parents at every step, from accessible tech support
+      alt:
+        Group of Coding Space students go on a field trip to Google office in
+        NYC
+    mdContent: |-
+      ## Exceptional Experiences
+
+      We partner with parents at every step, from accessible tech support
       to progress reports
   - image:
       image: /img/girl-code-vert.jpg
       alt: A young girl in coding classes in the appearance of a superhero.
-    title: Skills For Life
-    description: Our supportive space fosters a growth mindset, empowering students
+    mdContent: |-
+      ## Skills For Life
+
+      Our supportive space fosters a growth mindset, empowering students
       to grow past their comfort zones
   - image:
       image: /img/white-board.jpg
       alt: Instructor showing code logic on a white board to a student
-    title: Teacher Development
-    description: Ongoing educator training means students learn from teachers in the know
+    mdContent: |-
+      ## Teacher Development
+
+      Ongoing educator training means students learn from teachers in the know
   - image:
       image: /img/hands_on.jpeg
-      alt: An instructor and two students gather around a computer with electronics
+      alt:
+        An instructor and two students gather around a computer with electronics
         hooked up to study circuits.
-    title: Unique Teaching Methods
-    description: We encourage students to discover solutions by modeling effective
+    mdContent: |-
+      ## Unique Teaching Methods
+
+      We encourage students to discover solutions by modeling effective
       learning strategies and providing room to test and tinker
   - image:
       image: /img/coder.jpg
-      alt: Four girls in a Coding Space camp smiling with stickers on their faces
-    title: Educational Equity
-    description: We commit to increasing access to education through scholarships,
+      alt:
+        Four girls in a Coding Space camp smiling with stickers on their faces
+    mdContent: |-
+      ## Educational Equity
+
+      We commit to increasing access to education through scholarships,
       community partnerships, and social impact initiatives
+    title: Educational Equity
 featuredProject:
   studentProfile:
     name: India
@@ -84,23 +105,27 @@ featuredProject:
     className: Intermediate GirlCode
     classUrl: http://localhost:8000/experience-levels/intermediate-girlcode/
   project:
-    description: This is a quiz to determine which charity to donate to based on how
-      you answer the questions.
+    description:
+      This is a quiz to determine which charity to donate to based on how you
+      answer the questions.
     title: Where to give
     content: https://scratch.mit.edu/projects/515763533/embed
 title: Coding Space Landing Page
 reviews:
   - content: Jill, NYC
-    title: The Coding Space has opened up a whole new world for our daughter, which
+    title:
+      The Coding Space has opened up a whole new world for our daughter, which
       was especially needed when she couldn’t see friends in person. Her classes
       are the highlight of her week, and it’s so incredible to watch her
       progress.
   - content: Sofia, age 9
-    title: I love it here because in my other classes and camps, they just give the
+    title:
+      I love it here because in my other classes and camps, they just give the
       answers to you. Here I get to figure it out for myself. It’s more exciting
       because I learned it myself.
   - content: Lea, Park Slope
-    title: My son Aiden said it was the best camp he’s ever done and he absolutely
+    title:
+      My son Aiden said it was the best camp he’s ever done and he absolutely
       loved everything he learned about coding. The instructors were really
       excited and knowledgeable.
 ---

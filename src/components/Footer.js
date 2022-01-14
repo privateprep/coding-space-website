@@ -20,6 +20,7 @@ const Footer = () => (
         <h4 style={{ margin: "0 0 1.75rem" }}>SITE LINKS</h4>
         <ul className="Footer__list">
           {[
+            ["/our_team", "Our Team"],
             ["/classes", "Classes"],
             ["/locations", "Locations"],
             ["/referral_program", "Referral and Rewards Program"],

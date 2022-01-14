@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Img from "gatsby-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const { alt = "", image, imageStyle } = imageInfo;
+  const { alt = "", image, imageStyle, url } = imageInfo;
 
   if (!!image?.childImageSharp?.fixed && image?.extension === "png") {
     return (
@@ -41,8 +41,11 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   if (!!image && typeof image === "string")
     return <img style={imageStyle} src={image} alt={alt} />;
 
-  if (!!image.publicURL)
+  if (!!image?.publicURL)
     return <img style={imageStyle} src={image.publicURL} alt={alt} />;
+
+  // URL provided by getAsset for CMS preview.
+  if (!!url) return <img style={imageStyle} src={url} alt={alt} />;
 
   return null;
 };

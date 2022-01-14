@@ -1,22 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
+import createHtml from "../MdToHtml";
 import FadeIn from "../shared/FadeIn";
 
 import "./styles/Blurb.scss";
 
-const Blurb = ({ title, description, image }) => {
+const Blurb = ({ mdContent, image }) => {
   image.imageStyle = { borderRadius: "50%" };
+  const htmlContent = createHtml(mdContent);
+
   return (
     <FadeIn>
       <div className="blurb">
         <div className="blurb__image">
           <PreviewCompatibleImage imageInfo={image} />
         </div>
-        <div className="blurb__content">
-          <h2>{title}</h2>
-          <p>{description}</p>
-        </div>
+        <div
+          className="blurb__content"
+          dangerouslySetInnerHTML={htmlContent}
+        ></div>
       </div>
     </FadeIn>
   );
@@ -24,17 +27,13 @@ const Blurb = ({ title, description, image }) => {
 
 Blurb.propTypes = {
   /**
-   Blurb content
+   markdown content for flexible rich text
   */
-  description: PropTypes.string,
+  mdContent: PropTypes.string,
   /**
    Image object containing image path and alt text, renders as a circle
   */
   image: PropTypes.object,
-  /**
-   Heading of the blurb
-  */
-  title: PropTypes.string,
 };
 
 export default Blurb;

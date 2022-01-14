@@ -76,8 +76,7 @@ export const pageQuery = graphql`
           }
         }
         differentiators {
-          description
-          title
+          mdContent
           image {
             alt
             image {
