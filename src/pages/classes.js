@@ -49,7 +49,7 @@ const ClassesPage = ({ data }) => {
     levelNode => {
       return {
         ...levelNode.frontmatter, // most MD file things
-        ...levelNode.fields // slug, extras
+        ...levelNode.fields, // slug, extras
       };
     }
   );
@@ -69,7 +69,10 @@ const ClassesPage = ({ data }) => {
           <h1 className="classes__hero__title">{title}</h1>
           <h2 className="classes__hero__subtitle">{description}</h2>
         </div>
-        <ClassPanel experienceLevels={experienceLevels || []} filterTemplate={classesFilterTemplate}/>
+        <ClassPanel
+          experienceLevels={experienceLevels || []}
+          filterTemplate={classesFilterTemplate}
+        />
       </div>
       <CtaContact />
     </Layout>
@@ -96,9 +99,7 @@ export const pageQuery = graphql`
           }
           thumbnail {
             childImageSharp {
-              fixed(height: 200, quality: 80) {
-                ...GatsbyImageSharpFixed
-              }
+              gatsbyImageData(height: 200, quality: 80, layout: FIXED)
             }
             extension
             publicURL

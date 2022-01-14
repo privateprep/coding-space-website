@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { graphql} from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import { LocationsPageTemplate } from "./template_exports/locations-template"
+import { LocationsPageTemplate } from "./template_exports/locations-template";
 
 import "./styles/locations.scss";
 
@@ -52,9 +52,12 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  height: 500
+                  width: 500
+                  quality: 100
+                  layout: CONSTRAINED
+                )
               }
             }
           }
@@ -91,9 +94,7 @@ export const pageQuery = graphql`
           }
           thumbnail {
             childImageSharp {
-              fluid(maxWidth: 480, quality: 80) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 480, quality: 80, layout: CONSTRAINED)
             }
             extension
             publicURL

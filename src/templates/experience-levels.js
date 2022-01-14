@@ -45,9 +45,7 @@ export const pageQuery = graphql`
         }
         thumbnail {
           childImageSharp {
-            fluid(maxWidth: 2080, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(quality: 100, layout: FIXED)
           }
         }
         seo_description
