@@ -15,7 +15,8 @@ team:
     mdContent: >-
       ## Maddy Carter
 
-      ### Managing Director
+
+      #### Managing Director
 
 
       A graduate of Boston University’s College of Communication, Maddy has always been interested in the ways we use language to convey ideas and connect with each other. This interest has led her to experiences that range from studying Spanish in Madrid, to writing grant proposals in NYC, to building websites for local businesses, to crafting songs on her guitar in her living room.
