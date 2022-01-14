@@ -15,7 +15,8 @@ team:
     mdContent: >-
       ## Maddy Carter
 
-      ### Managing Director
+
+      #### Managing Director
 
       A graduate of Boston University’s College of Communication, Maddy has always been interested in the ways we use language to convey ideas and connect with each other. This interest has led her to experiences that range from studying Spanish in Madrid, to writing grant proposals in NYC, to building websites for local businesses, to crafting songs on her guitar in her living room.
 
@@ -84,4 +85,15 @@ team:
 
 
       Scott’s experiences in education began during his high school years where he helped struggling elementary school students from low-income neighborhoods with their schoolwork. After graduating with a B.A in Political Science from Emory University, Scott moved back to Washington DC to work as an analyst at MCG Capital and mentored inner-city high school seniors as part of the Hoop Dreams Scholarship Fund program. Scott also holds an MBA from Emory, where he graduated with honors.
+  - image:
+      image: /img/alejandro.jpg
+      alt: Alejandro Salazar's headshot
+    mdContent: >-
+      ### Alejandro Salazar
+
+
+      #### Software Engineer
+
+
+      Alejandro is Colorado-born and raised, the first in his family to graduate from college, and engaged in web development for Private Prep. His interests have continued multiplying throughout the years. Interest and work in nonprofits and public service led him to a full-ride scholarship to Colorado College. He was active in diverse and multicultural groups on campus and spearheaded initiatives to improve inclusivity while serving in the student government. His academic focus of belongingness and self-actualization led him to complete his degree in neuroscience. After graduation, he explored the vast world of technology and set his sights on developing websites. In his spare time, he enjoys learning, cooking, walking his high-energy dogs named Leslie (Knope) and Lisa (Simpson), and spending time with his partner Taylor.
 ---
