@@ -4,6 +4,8 @@ import createHtml from "../MdToHtml";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import Buttons from "./Buttons";
 
+import "./styles/TextAndImageBlock.scss";
+
 const TextAndImageBlock = ({ data }) => {
   const {
     bgColor,
@@ -18,23 +20,16 @@ const TextAndImageBlock = ({ data }) => {
 
   return (
     <div
-      className="TextAndImageBlock component"
+      className="TextAndImageBlock"
       style={{
-        display: "flex",
-        flexWrap: "wrap",
         backgroundColor: bgColor,
         flexDirection: mediaPosition === "left" ? "row-reverse" : "row",
-        justifyContent: "space-between",
       }}
     >
       <div
         className="TextAndImageBlock__content"
         style={{
-          padding: "1rem",
           color: textColor,
-          fontSize: "18px",
-          margin: "0px",
-          flex: "1 1 500px",
         }}
       >
         <div
@@ -54,14 +49,7 @@ const TextAndImageBlock = ({ data }) => {
       </div>
       <div
         className="TextAndImageBlock__image"
-        style={{
-          alignSelf: "center",
-          boxShadow: `20px 20px ${fgColor}`,
-          margin: "2rem",
-          position: "relative",
-          flex: "1 1 500px",
-          lineHeight: ".5",
-        }}
+        style={fgColor ? { boxShadow: `20px 20px ${fgColor}` } : {}}
       >
         <PreviewCompatibleImage imageInfo={image} />
       </div>
