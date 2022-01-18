@@ -605,7 +605,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Hero", name: "headingImage", required: false, widget: image }
+      - {
+          label: "Hero",
+          name: "headingImage",
+          required: false,
+          choose_url: false,
+          widget: image,
+        }
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -642,7 +648,13 @@ collections:
           widget: object,
           fields:
             [
-              { label: Image, name: image, widget: image, default: "" },
+              {
+                label: Image,
+                name: image,
+                widget: image,
+                choose_url: false,
+                default: "",
+              },
               {
                 label: Alt,
                 name: alt,
@@ -816,7 +828,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Hero", name: "headingImage", required: false, widget: image }
+      - {
+          label: "Hero",
+          name: "headingImage",
+          required: false,
+          choose_url: false,
+          widget: image,
+        }
       - *page_builder
   - name: "partnerships"
     label: "Partnerships"
@@ -833,7 +851,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Hero", name: "headingImage", required: false, widget: image }
+      - {
+          label: "Hero",
+          name: "headingImage",
+          required: false,
+          choose_url: false,
+          widget: image,
+        }
       - *page_builder
   - name: "pages"
     label: "Pages"
@@ -973,6 +997,7 @@ collections:
                           label: Image,
                           name: image,
                           widget: image,
+                          choose_url: false,
                           default: "",
                         },
                         {
@@ -1023,6 +1048,7 @@ collections:
                                 label: Image,
                                 name: image,
                                 widget: image,
+                                choose_url: false,
                                 default: "",
                               },
                               {
@@ -1145,6 +1171,7 @@ collections:
                           label: Image,
                           name: image,
                           widget: image,
+                          choose_url: false,
                           default: "",
                         },
                         {
