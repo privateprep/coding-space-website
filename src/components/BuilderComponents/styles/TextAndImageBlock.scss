@@ -1,24 +1,25 @@
 .TextAndImageBlock {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
 
   &__content {
     font-size: 18px;
     margin: 0px;
-    flex: 1 1 500px;
+    display: flex;
+    align-items: center;
   }
 
   &__image {
     align-self: center;
     position: relative;
-    flex: 1 1 500px;
     line-height: 0.5;
     margin-bottom: 2rem;
   }
 
   // tablet and up
   @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
     &__content {
       padding: 1rem;
     }
