@@ -520,7 +520,13 @@ page_builder:
                 widget: object,
                 fields:
                   [
-                    { label: Image, name: image, widget: image, default: "" },
+                    {
+                      label: Image,
+                      name: image,
+                      choose_url: false,
+                      widget: image,
+                      default: "",
+                    },
                     {
                       label: Alt,
                       name: alt,
