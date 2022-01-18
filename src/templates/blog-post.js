@@ -38,7 +38,7 @@ const BlogPost = ({ data, location }) => {
             <meta
               property="og:image"
               content={`${withPrefix("/")}${
-                featuredImage.image.childImageSharp.fluid.src
+                featuredImage.image.childImageSharp.gatsbyImageData.src
               }`}
             />
             <meta property="og:image:alt" content={featuredImage.alt} />
@@ -74,9 +74,7 @@ export const pageQuery = graphql`
           alt
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
             }
           }
         }
@@ -91,9 +89,10 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  quality: 100
+                  layout: CONSTRAINED
+                )
               }
             }
           }

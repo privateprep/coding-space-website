@@ -1,40 +1,37 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const { alt = "", image, imageStyle, url } = imageInfo;
 
-  if (!!image?.childImageSharp?.fixed && image?.extension === "png") {
+  if (!!image?.childImageSharp?.gatsbyImageData && image?.extension === "png") {
     return (
-      <Img
+      <GatsbyImage
+        image={image.childImageSharp.gatsbyImageData}
         style={imageStyle}
         imgStyle={{ width: "100%", objectFit: "contain" }}
-        fixed={image.childImageSharp.fixed}
-        alt={alt}
-      />
+        alt={alt} />
     );
   }
 
-  if (!!image?.childImageSharp?.fixed) {
+  if (!!image?.childImageSharp?.gatsbyImageData) {
     return (
-      <Img
+      <GatsbyImage
+        image={image.childImageSharp.gatsbyImageData}
         style={imageStyle}
         imgStyle={{ width: "100%" }}
-        fixed={image.childImageSharp.fixed}
-        alt={alt}
-      />
+        alt={alt} />
     );
   }
 
-  if (!!image?.childImageSharp?.fluid) {
+  if (!!image?.childImageSharp?.gatsbyImageData) {
     return (
-      <Img
+      <GatsbyImage
+        image={image.childImageSharp.gatsbyImageData}
         style={imageStyle}
         imgStyle={{ width: "100%" }}
-        fluid={image.childImageSharp.fluid}
-        alt={alt}
-      />
+        alt={alt} />
     );
   }
 

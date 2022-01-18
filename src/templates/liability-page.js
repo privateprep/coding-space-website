@@ -53,9 +53,12 @@ export const pageQuery = graphql`
               alt
               image {
                 childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(
+                    height: 500
+                    width: 500
+                    quality: 100
+                    layout: CONSTRAINED
+                  )
                 }
               }
             }

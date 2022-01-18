@@ -4,11 +4,12 @@ title: "The Top Computers For Young Coders: Our 2021 Laptop Picks"
 titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2021-12-01T23:43:53.463Z
-description: "The holiday gift-giving season is upon us, and for many young
-  coders, a computer that allows them to expand their programming skills is a
-  top wish list item. But with so many options to choose from, it's hard to know
-  where to start. We asked our team for their tips and top picks to help parents
-  make a smart choice. "
+description:
+  "The holiday gift-giving season is upon us, and for many young coders, a
+  computer that allows them to expand their programming skills is a top wish
+  list item. But with so many options to choose from, it's hard to know where to
+  start. We asked our team for their tips and top picks to help parents make a
+  smart choice. "
 featuredPost: false
 featuredImage:
   image: /img/family-looking-at-computer.jpeg
@@ -36,7 +37,11 @@ pageBuilder:
 
       \
 
-      At only $650, the Acer Swift 3 boasts decent performance, size/weight, durability, and battery life. It isn't the best in any of those categories, but it's good enough at all of them. It won't play any games on maximum settings, but it'll be capable of running programs like Minecraft.
+      At only $650, the Acer Swift 3 boasts decent performance, size/weight,
+      durability, and battery life. It isn't the best in any of those
+      categories, but it's good enough at all of them. It won't play any games
+      on maximum settings, but it'll be capable of running programs like
+      Minecraft.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
@@ -51,7 +56,7 @@ pageBuilder:
       image: /img/razer15.png
       alt: Picture of Razer Blade laptop
     mediaPosition: right
-    fgColor: "#9de2dd"
+    fgColor: "#ffffff"
     mdContent: >-
       **Best at Everything (But Price) - *[Razer
       Blade](https://www.razer.com/gaming-laptops/razer-blade)* - starting at
@@ -59,7 +64,11 @@ pageBuilder:
 
       \
 
-      While no doubt a bit of an investment, getting a Razer Blade will mean not needing to upgrade any time soon. Razer's Blade line always has superb build quality, amazing performance, and surprisingly good battery life. This computer will handle any game or application your coder throws at it, though under heavy load it'll run a little hot.
+      While no doubt a bit of an investment, getting a Razer Blade will mean not
+      needing to upgrade any time soon. Razer's Blade line always has superb
+      build quality, amazing performance, and surprisingly good battery life.
+      This computer will handle any game or application your coder throws at
+      it, though under heavy load it'll run a little hot.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -78,7 +87,12 @@ pageBuilder:
 
       \
 
-      It may not be as sleek as other options, but for the price and performance, the Acer Nitro 5 is an excellent pick. The large 17-inch screen will provide additional viewing space for kids when both gaming and coding. However, due to it's size, this computer is not very portable. Consider this option if your coder will use the computer mainly at home and the performance/price combo appeals to you.
+      It may not be as sleek as other options, but for the price and
+      performance, the Acer Nitro 5 is an excellent pick. The large 17-inch
+      screen will provide additional viewing space for kids when both gaming and
+      coding. However, due to it's size, this computer is not very portable.
+      Consider this option if your coder will use the computer mainly at home
+      and the performance/price combo appeals to you.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -98,7 +112,12 @@ pageBuilder:
 
       \
 
-      The Dell New XPS 13 is a light, thin, durable laptop with excellent build quality and battery life. This machine can handle light modeling or video editing (consider upgrading to the **Intel® Iris® Xe Graphics** as they will add a nice boost to graphics performance), but only expect modest gaming performance. It'll run most games (including Minecraft), but on lower settings.
+      The Dell New XPS 13 is a light, thin, durable laptop with excellent build
+      quality and battery life. This machine can handle light modeling or video
+      editing (consider upgrading to the **Intel® Iris® Xe Graphics** as they
+      will add a nice boost to graphics performance), but only expect modest
+      gaming performance. It'll run most games (including Minecraft), but on
+      lower settings.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -118,7 +137,11 @@ pageBuilder:
 
       \
 
-      If price is your primary concern, the Acer Aspire 5 will be an excellent choice. While it is a little big and not as powerful as the options above, it'll be sufficient for coding and should be able to run most games at the lowest settings. Though less expensive than most on this list, it's still quite a capable machine. Take care of it, and it'll take care of you.
+      If price is your primary concern, the Acer Aspire 5 will be an excellent
+      choice. While it is a little big and not as powerful as the options above,
+      it'll be sufficient for coding and should be able to run most games at the
+      lowest settings. Though less expensive than most on this list, it's still
+      quite a capable machine. Take care of it, and it'll take care of you.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -137,7 +160,11 @@ pageBuilder:
 
       \
 
-      While Apple computers come with a price premium, for some people, the design, software, build quality, and support are worth it. Though Apple does not offer the range of options that are available elsewhere, their quality is consistent. The new M1 Macbook Air is an excellent computer and the perfect choice for a coder who'd prefer MacOS.
+      While Apple computers come with a price premium, for some people, the
+      design, software, build quality, and support are worth it. Though Apple
+      does not offer the range of options that are available elsewhere, their
+      quality is consistent. The new M1 Macbook Air is an excellent computer and
+      the perfect choice for a coder who'd prefer MacOS.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -157,18 +184,26 @@ pageBuilder:
 
       \
 
-      A Chromebook does not have access to the same applications or the flexibility of a Windows or MacOS computer, but if your child will be just browsing the web, writing documents, and coding, a Chromebook might be enough for them. This Samsung model is an excellent value and quite portable, but lags behind in performance.
+      A Chromebook does not have access to the same applications or the
+      flexibility of a Windows or MacOS computer, but if your child will be just
+      browsing the web, writing documents, and coding, a Chromebook might be
+      enough for them. This Samsung model is an excellent value and quite
+      portable, but lags behind in performance.
 tags:
   - Laptops
   - Picks
 ---
-When buying a laptop, generally there's a trade-off between the following characteristics:
 
-* **Price**
-* **Size/Weight**
-* **Durability**
-* **Computing Power *(Performance)***
-* **Battery Life**
+When buying a laptop, generally there's a trade-off between the following
+characteristics:
+
+- **Price**
+- **Size/Weight**
+- **Durability**
+- **Computing Power *(Performance)***
+- **Battery Life**
 
 \
-The good news is that no matter which characteristics are important to you, there's an option that will be great for coding. Here are some recommendations based on these varying priorities:
+The good news is that no matter which characteristics are important to you, there's
+an option that will be great for coding. Here are some recommendations based on these
+varying priorities:

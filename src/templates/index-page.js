@@ -81,9 +81,12 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxHeight: 500, maxWidth: 500, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  height: 500
+                  width: 500
+                  quality: 100
+                  layout: CONSTRAINED
+                )
               }
             }
           }
@@ -102,9 +105,12 @@ export const pageQuery = graphql`
               alt
               image {
                 childImageSharp {
-                  fluid(maxHeight: 500, maxWidth: 500, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(
+                    height: 500
+                    width: 500
+                    quality: 100
+                    layout: CONSTRAINED
+                  )
                 }
                 publicURL
               }
@@ -145,9 +151,7 @@ export const pageQuery = graphql`
               alt
               image {
                 childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
+                  gatsbyImageData(quality: 100, layout: FULL_WIDTH)
                 }
               }
             }
