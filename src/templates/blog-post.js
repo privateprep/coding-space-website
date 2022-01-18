@@ -74,7 +74,7 @@ export const pageQuery = graphql`
           alt
           image {
             childImageSharp {
-              gatsbyImageData(quality: 100, layout: CONSTRAINED)
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
             }
           }
         }
@@ -90,8 +90,6 @@ export const pageQuery = graphql`
             image {
               childImageSharp {
                 gatsbyImageData(
-                  height: 500
-                  width: 500
                   quality: 100
                   layout: CONSTRAINED
                 )

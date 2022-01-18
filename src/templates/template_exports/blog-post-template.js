@@ -40,7 +40,7 @@ export const BlogPostTemplate = ({
         {tags && tags.length ? (
           <div className="tags">
             <ul className="taglist">
-              {tags.map((tag) => (
+              {tags.map(tag => (
                 <li key={tag + `tag`}>
                   <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                 </li>
@@ -54,7 +54,9 @@ export const BlogPostTemplate = ({
           </div>
           <div className="blog-post__heading">
             <h1 style={{ color: titleColor }}>{title}</h1>
-            <PreviewCompatibleImage imageInfo={featuredImage} />
+            <PreviewCompatibleImage
+              imageInfo={{ ...featuredImage, imageStyle: { height: "300px" } }}
+            />
             <h2>{description}</h2>
           </div>
           <div className="blog-post__content">
