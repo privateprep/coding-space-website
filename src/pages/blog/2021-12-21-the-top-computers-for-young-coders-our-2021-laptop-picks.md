@@ -48,10 +48,10 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/razer15.png
+      image: https://assets.razerzone.com/eeimages/products/26727/rzrblade14-02.png
       alt: Picture of Razer Blade laptop
     mediaPosition: right
-    fgColor: "#9de2dd"
+    fgColor: "#ffffff"
     mdContent: >-
       **Best at Everything (But Price) - *[Razer
       Blade](https://www.razer.com/gaming-laptops/razer-blade)* - starting at
