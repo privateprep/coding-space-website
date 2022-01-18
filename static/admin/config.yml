@@ -541,7 +541,7 @@ page_builder:
                 name: fgColor,
                 widget: color,
                 picker: twitter,
-                default: "#9de2dd",
+                required: false,
                 presetColors: *presetColors,
               },
             ],
