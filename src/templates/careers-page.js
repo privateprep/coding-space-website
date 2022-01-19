@@ -62,12 +62,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(
-                  height: 500
-                  width: 500
-                  quality: 100
-                  layout: CONSTRAINED
-                )
+                gatsbyImageData(quality: 100, layout: CONSTRAINED)
               }
             }
           }
@@ -86,6 +81,15 @@ export const pageQuery = graphql`
           textColor
           fgColor
           bgColor
+          buttons {
+            bgColor
+            fgColor
+            list {
+              content
+              title
+            }
+            textColor
+          }
         }
       }
     }

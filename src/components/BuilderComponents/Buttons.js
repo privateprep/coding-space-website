@@ -6,7 +6,7 @@ import ButtonLink from "../Atoms/ButtonLink";
  * Provide quick access to other pages in the app via these button styled links
  */
 const Buttons = ({ bgColor, fgColor, textColor, list }) => {
-  if (list === undefined) {
+  if (!Array.isArray(list) && !list?.length) {
     return null;
   }
 
