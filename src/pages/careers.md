@@ -21,7 +21,9 @@ pageBuilder:
       ### We teach differently
 
 
-      We teach differently at The Coding Space. Join a team that is passionate about our mission, follows a unique teaching philosophy, and cares. [Contact us](https://www.thecodingspace.com/contact) to learn more.
+      We teach differently at The Coding Space. Join a team that is passionate
+      about our mission, follows a unique teaching philosophy, and
+      cares. [Contact us](https://www.thecodingspace.com/contact) to learn more.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -41,7 +43,14 @@ pageBuilder:
       ### Not Your Typical Coding Class
 
 
-      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem-solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
+      At The Coding Space, we specialize in providing a safe and inclusive
+      learning environment for kids to have fun, be challenged, and discover
+      their passions. Our teachers never lecture; instead, they ask targeted
+      questions using the Socratic Method to get students thinking and
+      problem-solving on their own. By focusing on the development of
+      computational thinking skills, intellectual confidence, self-expression,
+      and independence, our students learn to code while growing as thinkers,
+      learners, and leaders.
     fgColor: "#264548"
 openings:
   - info:
@@ -55,8 +64,6 @@ openings:
         - hourly
       locations:
         - online
-      location:
-        - Online
     details:
       postingDate: 2022-01-01T16:39:43.806Z
       removalDate: 2022-01-26T16:39:43.806Z

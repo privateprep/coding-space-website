@@ -1176,7 +1176,7 @@ collections:
                         },
                         {
                           label: Locations,
-                          name: location,
+                          name: locations,
                           widget: select,
                           multiple: true,
                           options:
