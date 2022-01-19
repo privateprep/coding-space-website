@@ -11,6 +11,7 @@ import "../templates/styles/IndexPage.scss";
 
 import AboutUsPreview from "./preview-templates/AboutUsPreview";
 import BlogPostPreview from "./preview-templates/BlogPostPreview";
+import CareersPagePreview from "./preview-templates/CareersPagePreview";
 import CustomPagePreview from "./preview-templates/CustomPagePreview";
 import IndexPagePreview from "./preview-templates/IndexPagePreview";
 import LiabilityPagePreview from "./preview-templates/LiabilityPagePreview";
@@ -28,6 +29,7 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate("index", IndexPagePreview);
 CMS.registerPreviewTemplate("about-us", AboutUsPreview);
 CMS.registerPreviewTemplate("blog", BlogPostPreview);
+CMS.registerPreviewTemplate("careers", CareersPagePreview);
 CMS.registerPreviewTemplate("custom", CustomPagePreview);
 CMS.registerPreviewTemplate("experience-levels", ExperienceLevelsPreview);
 CMS.registerPreviewTemplate("liability-release", LiabilityPagePreview);
