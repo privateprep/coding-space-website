@@ -99,7 +99,7 @@ export const pageQuery = graphql`
           }
           thumbnail {
             childImageSharp {
-              gatsbyImageData(height: 200, quality: 80, layout: FIXED)
+              gatsbyImageData(height: 200, quality: 80, layout: CONSTRAINED)
             }
             extension
             publicURL
