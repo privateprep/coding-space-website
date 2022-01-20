@@ -1,0 +1,47 @@
+@import "../../styles/card.scss";
+
+.careers-page {
+  &__title {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  &__content {
+    .container {
+      // remove after components standardized.
+      padding: 4rem;
+    }
+  }
+  &__openings {
+    padding: 4rem;
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+  }
+}
+
+.opening-card {
+  @include card;
+  max-width: 420px;
+  &__header {
+    h3 {
+      margin: .5rem 0;
+    }
+  }
+
+  &__locations {
+    padding: .5rem 0;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .button-link {
+      margin: 0;
+    }
+  }
+}

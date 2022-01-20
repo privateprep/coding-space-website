@@ -1137,6 +1137,95 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/careers.md"
+        label: "Careers Page"
+        name: "careers"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "careers-page",
+            }
+          - *seo
+          - *page_builder
+          - {
+              label: "Openings",
+              name: "openings",
+              widget: "list",
+              summary: "{{fields.info.title}}",
+              fields:
+                [
+                  {
+                    label: Job Information,
+                    name: info,
+                    widget: object,
+                    collapsed: true,
+                    fields:
+                      [
+                        { label: Job Title, name: title, widget: string },
+                        {
+                          label: Job Description,
+                          name: description,
+                          hint: "Give a short 2-3 sentence summary, optional",
+                          required: false,
+                          widget: text,
+                        },
+                        {
+                          label: Type,
+                          name: type,
+                          widget: select,
+                          multiple: true,
+                          options:
+                            [
+                              { label: "Full Time", value: "full-time" },
+                              { label: "Part Time", value: "part-time" },
+                              { label: "Contract", value: "contract" },
+                              { label: "Salaried", value: "salaried" },
+                              { label: "Hourly", value: "hourly" },
+                            ],
+                        },
+                        {
+                          label: Locations,
+                          name: locations,
+                          widget: select,
+                          multiple: true,
+                          options:
+                            [
+                              "NYC",
+                              "Brooklyn",
+                              "Long Island",
+                              "Westchester",
+                              "Online",
+                            ],
+                        },
+                      ],
+                  },
+                  {
+                    label: "Posting Details",
+                    name: "details",
+                    widget: object,
+                    fields:
+                      [
+                        {
+                          label: "Posting Date",
+                          name: "postingDate",
+                          widget: "datetime",
+                        },
+                        {
+                          label: "Removal Date",
+                          name: "removalDate",
+                          widget: "datetime",
+                        },
+                        {
+                          label: "Apply Link",
+                          name: "applyLink",
+                          widget: string,
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: "src/pages/liability_release.md"
         label: "Liability Release"
         name: "liability-release"

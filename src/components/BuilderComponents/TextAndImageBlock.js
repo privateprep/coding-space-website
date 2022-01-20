@@ -17,13 +17,13 @@ const TextAndImageBlock = ({ data }) => {
     textColor,
   } = data;
   const htmlContent = createHtml(mdContent);
-
+  console.log(mediaPosition);
   return (
     <div
       className="TextAndImageBlock"
       style={{
         backgroundColor: bgColor,
-        flexDirection: mediaPosition === "left" ? "row-reverse" : "row",
+        direction: mediaPosition === "left" ? "rtl" : "ltr",
       }}
     >
       <div
@@ -37,14 +37,7 @@ const TextAndImageBlock = ({ data }) => {
           dangerouslySetInnerHTML={htmlContent}
         />
         <div className="TextAndImageBlock__content_buttons">
-          {!!buttons && (
-            <div
-              className="HeaderAndMarkDownBlock__heading_buttons"
-              style={{ paddingTop: "1rem" }}
-            >
-              <Buttons data={buttons} />
-            </div>
-          )}
+          {!!buttons && <Buttons {...buttons} />}
         </div>
       </div>
       <div
