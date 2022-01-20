@@ -42,19 +42,6 @@
       padding-top: 1rem;
       margin-bottom: 0;
     }
-
-    .tag {
-      align-self: flex-start;
-      padding: 0.25em 0.75em;
-      border-radius: 1em;
-      font-weight: 900;
-      background-color: var(--accent);
-      color: var(--white);
-    }
-
-    .tag + .tag {
-      margin-left: 0.5em;
-    }
   }
 
   &__footer {
