@@ -744,7 +744,9 @@ collections:
                 label: "Gender",
                 name: "gender",
                 default: "GirlCode",
-                widget: "string",
+                widget: "select",
+                multiple: true,
+                options: ["GirlCode", "Co-ed."],
               },
               {
                 label: "Byline",

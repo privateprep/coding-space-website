@@ -10,7 +10,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=104
 thumbnail: /img/collaborative-group-space.jpg
 details:
   age: Ages 8+
-  gender: Co-ed.
+  gender:
+    - Co-ed.
   byline: Scratch through Javascript
   experience: Some Experience Required
   skills:

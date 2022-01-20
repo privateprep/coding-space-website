@@ -11,7 +11,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=45
 thumbnail: /img/white-board.jpg
 details:
   age: Ages 8+
-  gender: Co-ed.
+  gender:
+    - Co-ed.
   byline: Advanced Scratch, HTML, CSS, and JavaScript.
   experience: JavaScript or Other Text-Based Language
   skills:

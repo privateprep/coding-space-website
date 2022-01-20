@@ -10,7 +10,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=47
 thumbnail: /img/girl-code-group.jpg
 details:
   age: Ages 8+
-  gender: GirlCode
+  gender:
+    - GirlCode
   byline: Intro to Scratch
   experience: First-Time or Beginner Coders
   skills:

@@ -11,7 +11,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49
 thumbnail: /img/teenage-boy-on-computer-1.jpg
 details:
   age: Ages 14-17
-  gender: Co-ed.
+  gender:
+    - Co-ed.
   byline: Prepare to blast off.
   experience: First-Time Through Advanced
   skills:
