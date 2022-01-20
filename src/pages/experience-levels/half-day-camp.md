@@ -11,7 +11,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=95
 thumbnail: /img/kids-around-a-computer.jpg
 details:
   age: Ages 8+
-  gender: Co-ed.
+  gender: Co-ed., GirlCode
   byline: Monday through Friday, 1 & 2 Week Options Available
   experience: First-Time Through Advanced
   skills:
