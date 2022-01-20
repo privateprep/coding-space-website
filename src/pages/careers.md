@@ -18,12 +18,13 @@ pageBuilder:
       alt: Safely learning during COVID.
     mediaPosition: left
     mdContent: >-
-      ### We teach differently
+      ## We teach differently
 
 
       We teach differently at The Coding Space. Join a team that is passionate
-      about our mission, follows a unique teaching philosophy, and
-      cares. [Contact us](https://www.thecodingspace.com/contact) to learn more.
+      about our mission, follows a unique teaching philosophy, and cares. 
+
+      [Contact us](https://www.thecodingspace.com/contact) to learn more.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -38,9 +39,9 @@ pageBuilder:
     image:
       image: /img/hands_on.jpeg
       alt: Group of three student's working with a circuits.
-    mediaPosition: left
+    mediaPosition: right
     mdContent: >-
-      ### Not Your Typical Coding Class
+      ## Not Your Typical Coding Class
 
 
       At The Coding Space, we specialize in providing a safe and inclusive

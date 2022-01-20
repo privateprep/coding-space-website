@@ -67,6 +67,7 @@ export const pageQuery = graphql`
             }
           }
           mdContent
+          mediaPosition
           type
           list {
             content

@@ -57,7 +57,7 @@ export const CareersPageTemplate = ({ title, openings, pageBuilder }) => {
         <PageBuilder data={pageBuilder} />
       </div>
       <section className="careers-page__openings">
-        <div classNme="careers-page__openings__title">
+        <div className="careers-page__openings__title">
           <h1>Openings</h1>
         </div>
         <div className="careers-page__openings__list">
