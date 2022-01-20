@@ -692,7 +692,7 @@ collections:
     label: "Experience Levels (class categories)"
     folder: "src/pages/experience-levels"
     create: true
-    slug: "{{title}}"
+    slug: "{{slug}}"
     fields:
       - {
           label: "Template Key",
@@ -717,6 +717,15 @@ collections:
           name: "courseOfferingEndpoint",
           hint: "Ask someone on the PP Dashboard team for this!",
           widget: "string",
+        }
+      - {
+          label: "Display in class offerings",
+          name: "display",
+          hint:
+            "Useful for hiding course offerings that aren't offered in a
+            particular semester or for soft archiving",
+          default: true,
+          widget: "boolean",
         }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - {

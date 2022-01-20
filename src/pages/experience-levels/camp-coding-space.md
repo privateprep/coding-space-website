@@ -8,6 +8,7 @@ seo_description: Our summer camp is back and better than ever! Held from June to
 categoryIds:
   - 95
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=95
+display: true
 thumbnail: /img/kids-around-a-computer.jpg
 details:
   age: Ages 8+
