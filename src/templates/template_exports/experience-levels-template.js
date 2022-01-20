@@ -9,15 +9,8 @@ export const ExperienceLevelsTemplate = ({
   title,
   helmet,
 }) => {
-  const {
-    age,
-    gender,
-    byline,
-    mdContent,
-    experience,
-    skills,
-    sellingPoints,
-  } = details;
+  const { age, gender, byline, mdContent, experience, skills, sellingPoints } =
+    details;
   const htmlContent = createHtml(mdContent);
 
   return (
@@ -36,7 +29,7 @@ export const ExperienceLevelsTemplate = ({
         </div>
         <div className="course-hero__card">
           <header className="course-hero__card__header">
-            <span>{gender}</span>
+            <span>{gender.join(", ")}</span>
             <span>{age}</span>
           </header>
           <p className="course-hero__card__detail-title">Includes</p>

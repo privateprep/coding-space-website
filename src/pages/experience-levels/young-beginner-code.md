@@ -11,7 +11,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=50
 thumbnail: /img/two-girls-coding-scratch.png
 details:
   age: Ages 6-8
-  gender: Co-ed.
+  gender:
+    - Co-ed.
   byline: Intro to Coding
   experience: Young & First-Time Coders
   skills:

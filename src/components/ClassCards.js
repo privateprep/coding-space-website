@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
-import "./ClassCards.scss"
+import "./ClassCards.scss";
 
 const ClassCards = ({ activeLevels, slugExtension = "" }) => {
   if (!activeLevels.length) {
@@ -24,12 +24,9 @@ const ClassCards = ({ activeLevels, slugExtension = "" }) => {
         ) => {
           return (
             <li className="class-card-list__item" key={levelIndex}>
-              <Link
-                className="class-card"
-                to={`${slug}${slugExtension}`}
-              >
+              <Link className="class-card" to={`${slug}${slugExtension}`}>
                 <div className="class-card__top">
-                  <p className="gender">{gender}</p>
+                  <p className="gender">{gender.join(", ")}</p>
                   <p className="age">{age}</p>
                 </div>
                 <h4 className="class-card__title">{title}</h4>

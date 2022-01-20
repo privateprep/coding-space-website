@@ -718,6 +718,15 @@ collections:
           hint: "Ask someone on the PP Dashboard team for this!",
           widget: "string",
         }
+      - {
+          label: "Display in class offerings",
+          name: "display",
+          hint:
+            "Useful for hiding course offerings that aren't offered in a
+            particular semester or for soft archiving",
+          default: true,
+          widget: "boolean",
+        }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - {
           label: "Details",
@@ -735,7 +744,9 @@ collections:
                 label: "Gender",
                 name: "gender",
                 default: "GirlCode",
-                widget: "string",
+                widget: "select",
+                multiple: true,
+                options: ["GirlCode", "Co-ed."],
               },
               {
                 label: "Byline",

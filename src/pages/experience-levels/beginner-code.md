@@ -11,7 +11,8 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=46
 thumbnail: /img/sisters-doing-their-homework-orig.jpg
 details:
   age: Ages 8+
-  gender: Co-ed.
+  gender:
+    - Co-ed.
   byline: Intro to Scratch
   experience: First-Time or Beginner Coders
   skills:
