@@ -9,6 +9,20 @@ import twitter from "../img/social/twitter.svg";
 import "./Footer.scss";
 
 const Footer = () => {
+  const prodLinks = [
+    ["/classes", "Classes"],
+    ["/locations", "Locations"],
+    ["/referral_program", "Referral and Rewards Program"],
+  ];
+
+  const devLinks = [
+    ["/our_team", "Our Team"],
+    ["/careers", "Careers"],
+    ...prodLinks,
+  ];
+
+  const production = process.env.NODE_ENV === "production";
+  const links = production ? prodLinks : devLinks;
   return (
     <footer className="Footer">
       <div className="Footer__content">
@@ -16,35 +30,20 @@ const Footer = () => {
           <img src={logo} alt="The Coding Space" className="Footer__logo" />
           <div className="social-links">
             <a title="facebook" href="https://facebook.com/thecodingspace">
-              <img
-                src={facebook}
-                alt="Facebook"
-              />
+              <img src={facebook} alt="Facebook" />
             </a>
             <a title="twitter" href="https://twitter.com/thecodingspace">
-              <img
-                className="fas fa-lg"
-                src={twitter}
-                alt="Twitter"
-              />
+              <img className="fas fa-lg" src={twitter} alt="Twitter" />
             </a>
             <a title="instagram" href="https://instagram.com/thecodingspace">
-              <img
-                src={instagram}
-                alt="Instagram"
-              />
+              <img src={instagram} alt="Instagram" />
             </a>
           </div>
         </div>
         <div className="Footer__content__center">
           <h4 style={{ margin: "0 0 0.75rem" }}>SITE LINKS</h4>
           <ul className="Footer__list">
-            {[
-              ["/our_team", "Our Team"],
-              ["/classes", "Classes"],
-              ["/locations", "Locations"],
-              ["/referral_program", "Referral and Rewards Program"],
-            ].map(([route, label], linkIndex) => (
+            {links.map(([route, label], linkIndex) => (
               <li key={linkIndex} className="Footer__list__link">
                 <Link
                   to={route}
@@ -56,9 +55,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="Footer__content__right">
-          {/* Newsletter form */}
-        </div>
+        <div className="Footer__content__right">{/* Newsletter form */}</div>
       </div>
       <div className="Footer__bottom" style={{ padding: 0 }}>
         <p>© {new Date().getFullYear()}, The Coding Space</p>
