@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import BasicHeader from "../components/BasicHeader";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar";
 import "./all.scss";
 import "../fonts/fonts.css";
