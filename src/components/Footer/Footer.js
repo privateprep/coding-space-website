@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { NewsletterForm } from "./NewsletterForm";
 
 import logo from "../../img/logo.svg";
 import facebook from "../../img/social/facebook.svg";
@@ -55,7 +56,9 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="Footer__content__right">{/* Newsletter form */}</div>
+        <div className="Footer__content__right">
+          <NewsletterForm />
+        </div>
       </div>
       <div className="Footer__bottom" style={{ padding: 0 }}>
         <p>© {new Date().getFullYear()}, The Coding Space</p>

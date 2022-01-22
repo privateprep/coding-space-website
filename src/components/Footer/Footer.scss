@@ -6,7 +6,7 @@
     max-width: 1200px;
     margin: auto 2rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
 
     .social-links {
@@ -25,17 +25,23 @@
     @media screen and (min-width: 558px) {
       margin: auto;
       grid-template-columns: repeat(3, 1fr);
+      column-gap: 2rem;
 
       &__center {
         // to align with text of the logo
         margin-top: 1rem;
       }
     }
+
+    @media screen and (min-width: 1080px) {
+      column-gap: 6rem;
+    }
   }
 
   &__bottom {
     text-align: center;
   }
+
 
   &__list {
     list-style: none;
@@ -53,5 +59,11 @@
         transform: scale(1.03);
       }
     }
+  }
+}
+
+.newsletter {
+  h4 {
+    margin-top: 0;
   }
 }
