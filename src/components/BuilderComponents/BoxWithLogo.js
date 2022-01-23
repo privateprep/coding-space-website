@@ -43,7 +43,7 @@ const BoxWithLogo = ({
         className="BoxWithLogo__content"
         style={{
           backgroundColor: fgColor,
-          padding: "2rem",
+          padding: "3rem",
           textAlign: "left",
           borderRadius: "8px",
           maxWidth: "800px",

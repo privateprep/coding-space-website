@@ -6,6 +6,7 @@ export const NewsletterForm = () => {
       name="newsletter"
       className="newsletter"
       method="POST"
+      action="/newsletter"
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
