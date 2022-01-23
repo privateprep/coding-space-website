@@ -10,6 +10,7 @@ export const NewsletterForm = () => {
       data-netlify="true"
     >
       <h4>Subscribe to our newsletter</h4>
+      <input type="hidden" name="form-name" value="newsletter" />
       <p style={{ display: "none" }}>
         <input name="bot-field" />
       </p>
