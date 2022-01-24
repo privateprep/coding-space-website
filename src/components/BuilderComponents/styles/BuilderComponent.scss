@@ -1,0 +1,23 @@
+@mixin component {
+  padding: 1rem;
+  max-width: 1360px;
+
+ @media only screen and (min-width: 768px) {
+   padding: 2rem;
+ }
+
+  @media only screen and (min-width: 1200px) {
+   padding: 4rem;
+ }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component {
+  @include component;
+}

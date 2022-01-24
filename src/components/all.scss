@@ -609,15 +609,6 @@ $menu-label-color: var(--white);
   margin-bottom: 0;
 }
 
-.component {
-  padding: 1rem;
-
-  @media screen and (min-width: $tablet-width) {
-    padding: 1rem 4rem;
-    max-width: 1360px;
-  }
-}
-
 // blogs
 .blog-container {
   .tags {
