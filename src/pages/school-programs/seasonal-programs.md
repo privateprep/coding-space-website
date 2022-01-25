@@ -66,16 +66,16 @@ pageBuilder:
       * Discover and define their personal passions
       * Make new friends near and far
   - type: headerAndMarkDownBlock
-    mediaPosition: right
-    textColor: "#264548"
+    mediaPosition: left
+    textColor: "#faf6ee"
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#264548"
     heading: What to Expect
     mdContent: >-
       **What’s Class Like?**
 
 
-      **Whether your child is joining us in one of our coding spaces or from the comfort of their couch, our classes combine project-based coding and challenges with opportunities to take a break from the screen to laugh, learn, and explore. Here’s what your child can expect from our seasonal classes:**
+      Whether your child is joining us in one of our coding spaces or from the comfort of their couch, our classes combine project-based coding and challenges with opportunities to take a break from the screen to laugh, learn, and explore. Here’s what your child can expect from our seasonal classes:
   - type: styledChecks
     bgColor: "#9de2dd"
     fgColor: "#faf6ee"
@@ -103,4 +103,36 @@ pageBuilder:
           and stretch their minds in fresh, interesting ways. Each class ends
           with a reflection on the day's work, lessons learned, and future
           goals.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## Ready to Register?"
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#faf6ee"
+    list:
+      - title: Summer Programs
+        content: "#"
+      - title: Spring Classes
+        content: "#"
+      - title: Fall Classes
+        content: "#"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#faf6ee"
+    bgColor: "#264548"
+    image:
+      image: /img/GirlCode-around-a-table.jpg
+      alt: Where Should My Child Start?
+    mediaPosition: right
+    mdContent: >-
+      ## Where Should My Child Start? 
+
+
+      Our classes are offered for every skill level. Not sure where your child should begin? Visit our Experience Levels page to learn more and take our Placement Quiz for personalized recommendations.
 ---
