@@ -8,6 +8,7 @@
   align-content: center;
   align-items: stretch;
   flex-direction: column;
+  transition: all 0.2s ease-in-out;
   &__link {
     text-decoration: none;
   }
@@ -19,5 +20,9 @@
     p {
       margin-bottom: 0;
     }
+  }
+
+  &:hover {
+    transform: scale(1.05);
   }
 }
