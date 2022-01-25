@@ -146,7 +146,7 @@ pageBuilder:
 
       Growth is always possible.
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
