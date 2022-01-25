@@ -60,7 +60,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "# **Our Guiding Principles and Pillars**"
+    mdContent: "# Our Guiding Principles and Pillars"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
