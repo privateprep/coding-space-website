@@ -111,7 +111,7 @@ pageBuilder:
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"
-    textColor: "#faf6ee"
+    textColor: "#264548"
     list:
       - title: Summer Programs
         content: "#"
@@ -135,4 +135,20 @@ pageBuilder:
 
 
       Our classes are offered for every skill level. Not sure where your child should begin? Visit our Experience Levels page to learn more and take our Placement Quiz for personalized recommendations.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Scholarships Available
+
+
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Apply for a Scholarship
+        content: "#"
 ---
