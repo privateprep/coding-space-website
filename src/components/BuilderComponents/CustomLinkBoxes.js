@@ -17,7 +17,7 @@ const CustomLinkBoxes = ({ list }) => {
             <li>
               <CustomLinkBox
                 key={`custom-link-box-${i}`}
-                link={item.content}
+                content={item.content}
                 mdContent={item.mdContent}
                 fgColor={item.fgColor}
                 textAlign={item.textAlign}
