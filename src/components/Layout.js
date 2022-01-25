@@ -71,12 +71,12 @@ const menuItems = [
     title: "About Us",
     path: "",
     subMenu: [
-      { title: "About Us", path: "/about-us/about-us/" },
+      { title: "About Us", path: "/about-us/" },
       { title: "How TCS is different", path: "/about-us/how-tcs-is-different" },
       { title: "Social Impact", path: "/about-us/social-impact/" },
       {
         title: "Scholarship Program",
-        path: "/about-us/entries/scholarship-program",
+        path: "/about-us/scholarship-program",
       },
       { title: "Common Questions", path: "/about-us/common-questions" },
       { title: "School Programs", path: "/about-us/school-programs" },
