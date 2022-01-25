@@ -8,12 +8,9 @@ import "./styles/CustomLinkBoxes.scss";
  * A clickable box that links to another page or external site. Customizable content using a
  * rich text editor.
  */
-const CustomLinkBoxes = ({ bgColor, list }) => {
+const CustomLinkBoxes = ({ list }) => {
   return (
-    <div
-      className="custom-link-boxes component"
-      style={{ backgroundColor: bgColor }}
-    >
+    <div className="custom-link-boxes component">
       <ul className="custom-link-boxes__list">
         {!!list &&
           list.map((item, i) => (
@@ -35,7 +32,7 @@ const CustomLinkBoxes = ({ bgColor, list }) => {
 
 CustomLinkBoxes.propTypes = {
   /**
-   * The background color of the entire component
+   * The background color of the entire component, set in parent container
    */
   bgColor: PropTypes.string,
   /**

@@ -1,19 +1,23 @@
-    .custom-link-box {
-      border-radius: 5px;
-      width: 300px;
-      padding: 1rem;
-      margin: 1rem;
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      align-items: stretch;
-      flex-direction: column;
-      &__link {
-        text-decoration: none;
-      }
-      &__content {
-        img {
-          max-width: 250px;
-        }
-      }
+.custom-link-box {
+  border-radius: 5px;
+  width: 300px;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  &__link {
+    text-decoration: none;
+  }
+  &__content {
+    img {
+      max-width: 250px;
     }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
