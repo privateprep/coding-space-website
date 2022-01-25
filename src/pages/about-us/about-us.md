@@ -56,15 +56,11 @@ pageBuilder:
           students, regardless of their age, skill level, or background, through
           superior curriculum, customized teaching methods, and ongoing
           investment in our expert teachers. "
-  - type: customLinkBoxes
-    bgColor: "#faf6ee"
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: "# **Our Guiding Principles and Pillars**"
-  - type: customLinkBoxes
-    bgColor: "#faf6ee"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -120,17 +116,17 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      ## At The Coding Space
+      # At The Coding Space...
 
 
 
-      Every problem is an opportunity.
+      # Every problem is an opportunity.
 
-      There are no fair advantages.
+      # There are no fair advantages.
 
-      Different is better.
+      # Different is better.
 
-      Growth is always possible.
+      # Growth is always possible.
   - type: reviews
     bgColor: "#9de2dd"
     heading: ""
