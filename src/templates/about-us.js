@@ -12,7 +12,7 @@ const AboutUs = ({ data }) => {
       <AboutUsTemplate
         description={page.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | About Us">
             <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"
