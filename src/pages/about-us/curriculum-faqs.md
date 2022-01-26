@@ -2,6 +2,7 @@
 templateKey: about-us
 title: Curriculum FAQs
 titleColor: "#ffffff"
+headingImage: /img/tcs-header.png
 description: Learn more about our customized curriculum which was created to
   inspire your child to achieve their maximum potential.
 pageBuilder:

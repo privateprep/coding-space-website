@@ -2,6 +2,7 @@
 templateKey: about-us
 title: Common Questions
 titleColor: "#ffffff"
+headingImage: /img/tcs-header.png
 description: "We answer some of the most common questions from parents like you. "
 pageBuilder:
   - type: textOnly

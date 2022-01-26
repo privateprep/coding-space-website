@@ -1,6 +1,7 @@
 ---
 templateKey: about-us
 title: My Coding Space (LMS)
+headingImage: /img/tcs-header.png
 titleColor: "#ffffff"
 description: My Coding Space is a custom-built platform for The Coding Space students.
 pageBuilder:

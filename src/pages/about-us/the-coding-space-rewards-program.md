@@ -2,9 +2,9 @@
 templateKey: about-us
 title: The Coding Space Rewards Program
 titleColor: "#ffffff"
+headingImage: /img/tcs-header.png
 description: Share the love with your friends and family and they’ll receive 10%
   off* their first recurring coding class or camp registration.
-headingImage: ""
 pageBuilder:
   - type: textOnly
     textAlign: center
