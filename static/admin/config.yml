@@ -59,7 +59,7 @@ titleColor:
     name: titleColor,
     widget: color,
     picker: twitter,
-    default: "#ffffff",
+    default: "#264548",
     required: false,
     presetColors: *presetColors,
   }
@@ -608,7 +608,7 @@ collections:
       - {
           label: "Hero",
           name: "headingImage",
-          required: false,
+          default: "static/img/tcs-header.png",
           choose_url: false,
           widget: image,
         }
