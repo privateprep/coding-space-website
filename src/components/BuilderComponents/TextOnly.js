@@ -2,25 +2,21 @@ import React from "react";
 import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 
+import "./styles/TextOnly.scss";
+
 const TextOnly = ({ data }) => {
-  const { bgColor, textAlign, textColor, mdContent } = data;
+  const { textAlign, textColor, mdContent } = data;
   const htmlContent = createHtml(mdContent);
 
   return (
-    <div
-      className="columns component"
-      style={{ backgroundColor: bgColor }}
-    >
-      <div className="column">
-        <div
-          style={{
-            textAlign: textAlign,
-            padding: "1rem",
-            color: textColor,
-          }}
-          dangerouslySetInnerHTML={htmlContent}
-        />
-      </div>
+    <div className="TextOnly component">
+      <div
+        style={{
+          textAlign: textAlign,
+          color: textColor,
+        }}
+        dangerouslySetInnerHTML={htmlContent}
+      />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const AboutUs = ({ data }) => {
       <AboutUsTemplate
         description={page.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | About Us">
             <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -22,7 +22,7 @@ const AboutUs = ({ data }) => {
         }
         title={page.frontmatter.title}
         titleColor={page.frontmatter.titleColor}
-        headingImage={page.frontmatter.headingImage}
+        heroImage={page.frontmatter.heroImage}
         pageBuilder={page.frontmatter.pageBuilder}
       />
     </Layout>
@@ -45,8 +45,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         titleColor
-        headingImage {
-          publicURL
+        heroImage {
+          alt
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
         }
         pageBuilder {
           heading

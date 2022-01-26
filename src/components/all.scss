@@ -577,6 +577,25 @@ $menu-label-color: var(--white);
   vertical-align: middle;
   display: inline;
 }
+
+// heros
+.hero-container {
+  position: relative;
+  height: 30vh;
+
+  &__title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+  }
+}
 // blog roll
 .blog-list-item.is-featured {
   background-color: var(--accent);
@@ -607,15 +626,6 @@ $menu-label-color: var(--white);
 
 .columns:not(:last-child) {
   margin-bottom: 0;
-}
-
-.component {
-  padding: 1rem;
-
-  @media screen and (min-width: $tablet-width) {
-    padding: 1rem 4rem;
-    max-width: 1360px;
-  }
 }
 
 // blogs

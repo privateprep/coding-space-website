@@ -12,7 +12,7 @@ const Partnerships = ({ data }) => {
       <PartnershipsTemplate
         description={page.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Partnerships">
             <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"

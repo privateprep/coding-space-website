@@ -12,7 +12,7 @@ const CustomPage = ({ data }) => {
       <CustomPageTemplate
         description={page.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s">
             <title>{`${page.frontmatter.title}`}</title>
             <meta
               name="description"

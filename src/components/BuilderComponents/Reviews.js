@@ -7,9 +7,9 @@ import "./styles/Reviews.scss";
 /**
  This component provides formatted quotes or reviews that display a person's name and their statement.
 */
-const Reviews = ({ bgColor, fgColor, heading, list, textColor }) => {
+const Reviews = ({ fgColor, heading, list, textColor }) => {
   return (
-    <div className="reviews component" style={{ backgroundColor: bgColor }}>
+    <div className="reviews component">
       {!!heading && (
         <div className="reviews__header">
           <h1>{heading}</h1>

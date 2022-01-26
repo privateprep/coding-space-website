@@ -2,6 +2,9 @@
 templateKey: about-us
 title: Curriculum FAQs
 titleColor: "#ffffff"
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 description: Learn more about our customized curriculum which was created to
   inspire your child to achieve their maximum potential.
 pageBuilder:

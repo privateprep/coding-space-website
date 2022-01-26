@@ -15,6 +15,8 @@ import {
 } from "./BuilderComponents";
 import { Iframe } from "./Atoms";
 
+import "./BuilderComponents/styles/BuilderComponent.scss";
+
 const ComponentSelector = ({ data }) => {
   switch (data.type) {
     case "accordion":

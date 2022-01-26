@@ -2,7 +2,10 @@
 templateKey: about-us
 title: Social Impact
 titleColor: "#ffffff"
-description: The Coding Space is committed to Racial Justice,  Empowerment, and
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
+description: The Coding Space is committed to Racial Justice, Empowerment, and
   Educational Equity.
 pageBuilder:
   - type: textOnly
@@ -44,7 +47,7 @@ pageBuilder:
 
       2. Address the fact that racial equity is inextricably linked to economic opportunity through the following initiatives:
 
-         * Develop teacher-in-training programming that provides job opportunities to people of color with non-traditional work and educational backgrounds. 
+         * Develop teacher-in-training programming that provides job opportunities to people of color with non-traditional work and educational backgrounds.
 
            * Widen access to our program through our scholarship program, which aims to award need-based scholarships to 25% of our student body.
   - type: textOnly

@@ -2,9 +2,12 @@
 templateKey: about-us
 title: The Coding Space Rewards Program
 titleColor: "#ffffff"
-description: Share the love with your friends and family and they’ll receive 10%
-  off* their first recurring coding class or camp registration.
-headingImage: ""
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
+description:
+  Share the love with your friends and family and they’ll receive 10% off* their
+  first recurring coding class or camp registration.
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -32,11 +35,14 @@ pageBuilder:
       your next registration. Here’s how it works:
 
 
-      1. Spread the word: Get your unique referral code and share it with friends and family who are new to The Coding Space.
+      1. Spread the word: Get your unique referral code and share it with
+      friends and family who are new to The Coding Space.
 
 
 
-      2. Start earning: When your friend signs up for their first recurring class or camp, you’ll automatically receive a $100 credit, available for use on your next class registration.
+      2. Start earning: When your friend signs up for their first recurring
+      class or camp, you’ll automatically receive a $100 credit, available for
+      use on your next class registration.
 
 
 
@@ -45,7 +51,8 @@ pageBuilder:
 
 
 
-      Ready to start earning? Check your email for your unique referral code. Can’t find it? See our FAQs below.
+      Ready to start earning? Check your email for your unique referral code.
+      Can’t find it? See our FAQs below.
 
 
       ###### ***\*terms and conditions apply***

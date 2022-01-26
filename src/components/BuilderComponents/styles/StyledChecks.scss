@@ -1,15 +1,14 @@
 .styled-checks {
-  padding: 4rem; // TODO: Standardize this component level padding
 
   &__list {
-    max-width: 1000px; // TODO: Standardize component level width
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 
     &__item {
       list-style: none;
-      margin-left: 2rem;
+      margin-left: 0rem;
 
       &__head {
         display: flex;
