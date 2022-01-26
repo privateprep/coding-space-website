@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: standard-component-styles
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
