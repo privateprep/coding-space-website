@@ -2,8 +2,10 @@
 templateKey: about-us
 title: Social Impact
 titleColor: "#ffffff"
-headingImage: /img/tcs-header.png
-description: The Coding Space is committed to Racial Justice,  Empowerment, and
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
+description: The Coding Space is committed to Racial Justice, Empowerment, and
   Educational Equity.
 pageBuilder:
   - type: textOnly

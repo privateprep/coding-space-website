@@ -2,7 +2,9 @@
 templateKey: about-us
 title: About Us
 titleColor: "#264548"
-headingImage: /img/tcs-header.png
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 description: "The Coding Space—an afterschool program where students would learn
   how to tackle challenges independently through learning to code. They
   envisioned unconventional coding classes where students could control the pace
