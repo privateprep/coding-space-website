@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: custom-page-tweaks
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -685,7 +685,7 @@ collections:
     label: "Customizable Pages"
     folder: "src/pages/custom"
     create: true
-    slug: "{{slug}}"
+    slug: "/{{slug}}"
     fields:
       - {
           label: "Template Key",
