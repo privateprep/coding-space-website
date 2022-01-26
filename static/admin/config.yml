@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: standard-component-styles
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -626,13 +626,6 @@ collections:
                 widget: string,
               },
             ],
-        }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          default: "static/img/tcs-header.png",
-          choose_url: false,
-          widget: image,
         }
       - *page_builder
   - name: "blog"

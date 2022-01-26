@@ -5,7 +5,9 @@ import { AboutUsTemplate } from "../../templates/template_exports/about-us-templ
 const AboutUsPreview = ({ entry, getAsset }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
   const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
-  const heroImage = getAsset(entry.getIn(["data", "heroImage"]));
+  // extracts image url from the entry
+  const heroImage = getAsset(entry.getIn(["data", "heroImage"]).toJS().image);
+
   return (
     <AboutUsTemplate
       description={entry.getIn(["data", "description"])}
