@@ -142,6 +142,26 @@ exports.createPages = async ({ actions, graphql }) => {
       });
     });
 
+    // Custom Pages without /custom/ prefix
+    const customPosts = posts.filter(
+      post => post.node.frontmatter.templateKey === "custom-page"
+    );
+    customPosts.forEach(edge => {
+      const id = edge.node.id;
+      const strippedSlug = edge.node.fields.slug.replace(/^\/custom/, "");
+      createPage({
+        path: strippedSlug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+        ),
+        // additional data can be passed via context
+        context: {
+          id,
+        },
+      });
+    });
+
     // Blog list pages
     const blogPostCount = posts.filter(
       post => post.node.frontmatter.templateKey === "blog-post"
