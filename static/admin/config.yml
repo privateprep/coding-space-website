@@ -606,6 +606,28 @@ collections:
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
       - {
+          label: "Hero Image",
+          name: heroImage,
+          widget: object,
+          collapsed: true,
+          fields:
+            [
+              {
+                label: Image,
+                name: image,
+                widget: image,
+                default: "static/img/tcs-header.png",
+                choose_url: false,
+              },
+              {
+                label: Alt,
+                name: alt,
+                default: "Accessibility name",
+                widget: string,
+              },
+            ],
+        }
+      - {
           label: "Hero",
           name: "headingImage",
           default: "static/img/tcs-header.png",

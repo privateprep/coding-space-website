@@ -6,7 +6,7 @@ import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 export const AboutUsTemplate = ({
   title,
   titleColor,
-  headingImage,
+  heroImage,
   pageBuilder,
   helmet,
 }) => {
@@ -16,7 +16,7 @@ export const AboutUsTemplate = ({
       {helmet || ""}
       <div className="hero-container">
         <PreviewCompatibleImage
-          imageInfo={{ image: headingImage, alt: `Hero Image for ${title}` }}
+          imageInfo={heroImage}
         />
         <h1 className="hero-container__title" style={{ color: titleColor }}>
           {title}

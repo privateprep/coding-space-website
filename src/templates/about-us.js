@@ -22,7 +22,7 @@ const AboutUs = ({ data }) => {
         }
         title={page.frontmatter.title}
         titleColor={page.frontmatter.titleColor}
-        headingImage={page.frontmatter.headingImage}
+        heroImage={page.frontmatter.heroImage}
         pageBuilder={page.frontmatter.pageBuilder}
       />
     </Layout>
@@ -45,9 +45,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         titleColor
-        headingImage {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+        heroImage {
+          alt
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
           }
         }
         pageBuilder {
