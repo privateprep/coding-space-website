@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import PageBuilder from "../../components/PageBuilder";
+import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
 
 export const AboutUsTemplate = ({
   title,
@@ -10,33 +11,17 @@ export const AboutUsTemplate = ({
   helmet,
 }) => {
   const data = pageBuilder ?? [];
-  const backgroundImage = !!headingImage
-    ? headingImage.publicURL
-    : "/static/602986bab4e3eb9b86d275153b37f58c/43a2d/tcs-header.png";
-
   return (
     <section className="section">
       {helmet || ""}
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundPosition: "left",
-          width: "100%",
-        }}
-      >
-        <div className="columns">
-          <div className="column">
-            <h1
-              className="title"
-              style={{ color: titleColor, fontSize: "5em" }}
-            >
-              {title}
-            </h1>
-          </div>
-        </div>
+      <div className="hero-container">
+        <PreviewCompatibleImage
+          imageInfo={{ image: headingImage, alt: `Hero Image for ${title}` }}
+        />
+        <h1 className="hero-container__title" style={{ color: titleColor }}>
+          {title}
+        </h1>
       </div>
-
       <div>
         <PageBuilder data={data} />
       </div>

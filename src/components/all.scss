@@ -577,6 +577,24 @@ $menu-label-color: var(--white);
   vertical-align: middle;
   display: inline;
 }
+
+// heros
+.hero-container {
+  position: relative;
+
+  &__title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 5em;
+  }
+}
 // blog roll
 .blog-list-item.is-featured {
   background-color: var(--accent);

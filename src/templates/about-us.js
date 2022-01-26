@@ -46,7 +46,9 @@ export const pageQuery = graphql`
         title
         titleColor
         headingImage {
-          publicURL
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
         pageBuilder {
           heading
