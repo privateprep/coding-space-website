@@ -84,6 +84,30 @@ textAlign:
     options: ["left", "center", "right"],
   }
 
+heroImage:
+  &heroImage {
+    label: "Hero Image",
+    name: heroImage,
+    widget: object,
+    collapsed: true,
+    fields:
+      [
+        {
+          label: Image,
+          name: image,
+          widget: image,
+          default: "static/img/tcs-header.png",
+          choose_url: false,
+        },
+        {
+          label: Alt,
+          name: alt,
+          default: "Accessibility name",
+          widget: string,
+        },
+      ],
+  }
+
 # Reusable components
 
 boxWithLogo:
@@ -605,28 +629,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero Image",
-          name: heroImage,
-          widget: object,
-          collapsed: true,
-          fields:
-            [
-              {
-                label: Image,
-                name: image,
-                widget: image,
-                default: "static/img/tcs-header.png",
-                choose_url: false,
-              },
-              {
-                label: Alt,
-                name: alt,
-                default: "Accessibility name",
-                widget: string,
-              },
-            ],
-        }
+      - *heroImage
       - *page_builder
   - name: "blog"
     label: "Blog"
@@ -696,12 +699,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          required: false,
-          widget: "image",
-        }
+      - *heroImage
       - *page_builder
   - name: "experience-levels"
     label: "Experience Levels (class categories)"
