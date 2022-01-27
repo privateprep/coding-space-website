@@ -8,14 +8,12 @@ import "./styles/ButtonLink.scss";
 export const ButtonLink = ({
   fgColor = "#9de2dd",
   textColor = "#264548",
-  key,
   content,
   title,
 }) => (
   <a
-    class="button-link"
+    className="button-link"
     href={content}
-    key={key}
     style={{
       color: textColor,
       backgroundColor: fgColor,
@@ -35,10 +33,6 @@ ButtonLink.propTypes = {
    The text and border color
   */
   textColor: PropTypes.string,
-  /**
-   Key necessary if used in a a ButtonLinkList
-  */
-  key: PropTypes.string,
   /**
    The URL to link to another page or external source
   */
