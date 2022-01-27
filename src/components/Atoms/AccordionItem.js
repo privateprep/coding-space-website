@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 
-import "../BuilderComponents/styles/Accordion.scss";
+import "./styles/AccordionItem.scss";
 
 export const AccordionItem = ({
   activeItem,
