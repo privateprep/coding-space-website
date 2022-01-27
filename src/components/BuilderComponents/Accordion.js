@@ -26,6 +26,7 @@ const AccordionItems = ({ bgColor, heading, fgColor, list, textColor }) => {
             const activeItem = activeIndex === i;
             return (
               <AccordionItem
+                key={`${item}-${i}`}
                 activeItem={activeItem}
                 fgColor={fgColor}
                 index={i}
