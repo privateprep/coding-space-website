@@ -8,7 +8,7 @@ import "./styles/Accordion.scss";
  This component is ideal for displaying FAQ or other bulk information.
 */
 const AccordionItems = ({ bgColor, heading, fgColor, list, textColor }) => {
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <div
