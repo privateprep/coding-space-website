@@ -12,7 +12,7 @@ const AccordionItems = ({ bgColor, heading, fgColor, list, textColor }) => {
 
   return (
     <div
-      className="accordion"
+      className="accordion component"
       style={{ backgroundColor: bgColor, color: textColor }}
     >
       {!!heading && (
