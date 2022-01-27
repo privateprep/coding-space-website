@@ -7,7 +7,7 @@ description: The Coding Space continues to monitor the COVID-19 pandemic and
   bodies of government. We will communicate with our community through email as
   new information or guidance emerges.
 heroImage:
-  image: static/img/tcs-header.png
+  image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
   - type: textAndImageBlock

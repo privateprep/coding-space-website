@@ -5,7 +5,7 @@ titleColor: "#264548"
 description: For in-person learning, all staff members, teachers and students
   must participate in a health screening to prevent the spread of COVID.
 heroImage:
-  image: static/img/tcs-header.png
+  image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
   - type: textOnly

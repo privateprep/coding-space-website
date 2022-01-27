@@ -96,7 +96,7 @@ heroImage:
           label: Image,
           name: image,
           widget: image,
-          default: "static/img/tcs-header.png",
+          default: "/img/tcs-header.png",
           choose_url: false,
         },
         {
