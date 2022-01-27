@@ -2,7 +2,9 @@
 templateKey: custom-page
 title: Custom Page
 description: This is for SEO
-headingImage: /img/girl-code-group.jpg
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: styledChecks
     bgColor: "#9de2dd"
@@ -55,14 +57,21 @@ pageBuilder:
         mdContent: >-
           India, age 12\
 
-          ["Code 4 Change Charity Quiz"](https://code4change.thecodingspace.com/1620445272119)
+          ["Code 4 Change Charity
+          Quiz"](https://code4change.thecodingspace.com/1620445272119)
 
 
-          About the Project: “This is a quiz to determine which charity to donate to based on how you answer the questions.”\
+          About the Project: “This is a quiz to determine which charity to
+          donate to based on how you answer the questions.”\
 
           \
 
-          From the Judges: *India's cleanly designed quiz helps you to find the best charities for helping with the causes you care about most. We were impressed by how clean the design of the project was overall, as well as her use of the UN Sustainable Goal icons. Making a project in Scratch that looks this good isn't easy, and India clearly didn't cut any corners!*
+          From the Judges: *India's cleanly designed quiz helps you to find the
+          best charities for helping with the causes you care about most. We
+          were impressed by how clean the design of the project was overall, as
+          well as her use of the UN Sustainable Goal icons. Making a project in
+          Scratch that looks this good isn't easy, and India clearly didn't cut
+          any corners!*
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -80,9 +89,14 @@ pageBuilder:
            “Climate Action - Save the Bears”
 
 
-          **About the Project:** “Climate Action as it affects bears and our planet.”
+          **About the Project:** “Climate Action as it affects bears and our
+          planet.”
 
-           **From the Judges:** Chase’s wholesome project about protecting wildlife from pollution is bursting with character. His voice recordings give the project a sense of urgency and humor which help to communicate his important message. The project also ends with a wonderful song composed entirely in Scratch - impressive!
+           **From the Judges:** Chase’s wholesome project about protecting
+          wildlife from pollution is bursting with character. His voice
+          recordings give the project a sense of urgency and humor which help to
+          communicate his important message. The project also ends with a
+          wonderful song composed entirely in Scratch - impressive!
     rightComponent:
       - type: iframe
         bgColor: "#faf6ee"

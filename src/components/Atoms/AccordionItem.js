@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import createHtml from "../MdToHtml";
 
-import "../BuilderComponents/styles/Accordion.scss";
+import "./styles/AccordionItem.scss";
 
 export const AccordionItem = ({
   activeItem,
@@ -33,7 +33,7 @@ export const AccordionItem = ({
           }}
           onClick={onClick}
         >
-          {title}
+          <p>{title}</p>
         </button>
       </dt>
       <dd>
