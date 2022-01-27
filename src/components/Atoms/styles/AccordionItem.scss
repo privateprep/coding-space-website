@@ -15,9 +15,13 @@
       padding: 1rem;
       padding-right: 0;
 
+      p {
+        width: 90%;
+      }
+
       &::after {
         content: url(../../../img/down-arrow.svg);
-        margin-right: 30px;
+        margin-right: 10px;
         transform: rotate(90deg);
         height: 10px;
         width: 10px;
@@ -25,7 +29,7 @@
 
       &.display-content::after {
         transform: rotate(0deg);
-        transition: all 200ms ease-out;
+        transition: all 500ms ease-out;
       }
 
       &:hover {
@@ -41,7 +45,7 @@
       margin-bottom: 0;
       height: 0;
       overflow: hidden;
-      transition: all 200ms ease-out;
+      transition: all 500ms ease-out;
       &.display-content {
         height: auto;
         padding-top: 1rem;

@@ -33,7 +33,7 @@ export const AccordionItem = ({
           }}
           onClick={onClick}
         >
-          {title}
+          <p>{title}</p>
         </button>
       </dt>
       <dd>
