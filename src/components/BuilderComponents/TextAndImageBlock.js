@@ -17,7 +17,6 @@ const TextAndImageBlock = ({ data }) => {
     textColor,
   } = data;
   const htmlContent = createHtml(mdContent);
-  console.log(mediaPosition);
   return (
     <div
       className="TextAndImageBlock"
