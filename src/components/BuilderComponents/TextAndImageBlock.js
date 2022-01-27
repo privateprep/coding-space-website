@@ -19,7 +19,7 @@ const TextAndImageBlock = ({ data }) => {
   const htmlContent = createHtml(mdContent);
   return (
     <div
-      className="TextAndImageBlock"
+      className="TextAndImageBlock component"
       style={{
         backgroundColor: bgColor,
         direction: mediaPosition === "left" ? "rtl" : "ltr",
