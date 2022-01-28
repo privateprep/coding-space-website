@@ -175,6 +175,9 @@ hr {
   padding: 0;
   border: none;
 }
+.required {
+  color: var(--danger);
+}
 button,
 input,
 optgroup,
