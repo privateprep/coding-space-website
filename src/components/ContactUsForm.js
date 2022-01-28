@@ -9,7 +9,7 @@ const encode = data =>
     .join("&");
 
 const ContactUsForm = () => {
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({ country: "United States" });
 
   const handleBlur = e => {
     e.target.reportValidity();
