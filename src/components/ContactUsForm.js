@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { navigate } from "gatsby-link";
 
+import "./ContactUsForm.scss";
+
 const encode = data =>
   Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -33,150 +35,159 @@ const ContactUsForm = () => {
   };
 
   return (
-    <form
-      name="contact"
-      method="post"
-      action="/contact-us/thanks/"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      onSubmit={handleSubmit}
-    >
-      {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-      <input type="hidden" name="form-name" value="contact" />
-      <p style={{ display: "none" }}>
-        <input name="bot-field" />
-      </p>
-      <div className="field">
-        <label className="label" htmlFor="first_name">
-          Your name <span className="required">*</span>
-        </label>
-        <div className="control">
-          <input
-            className="input"
-            type="text"
-            name="first_name"
-            onChange={handleChange}
-            onBlur={handleBlur}
-            placeholder="First"
-            id="first_name"
-            required={true}
-          />
-          <input
-            className="input"
-            type="text"
-            name="last_name"
-            onChange={handleChange}
-            onBlur={handleBlur}
-            placeholder="Last"
-            id="last_name"
-            required={true}
-          />
+    <div className="form-container">
+      <form
+        name="contact"
+        className="contact-us-form"
+        method="post"
+        action="/contact-us/thanks/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+      >
+        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
+        <p style={{ display: "none" }}>
+          <input name="bot-field" />
+        </p>
+        <div className="field">
+          <label className="label" htmlFor="first_name">
+            Your name <span className="required">*</span>
+          </label>
+          <div className="group-fields">
+            <input
+              className="input"
+              type="text"
+              name="first_name"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              placeholder="First"
+              id="first_name"
+              required={true}
+            />
+            <input
+              className="input"
+              type="text"
+              name="last_name"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              placeholder="Last"
+              id="last_name"
+              required={true}
+            />
+          </div>
         </div>
-      </div>
-      <div className="field">
-        <label className="label" htmlFor="email">
-          Email <span className="required">*</span>
-        </label>
-        <div className="control">
-          <input
-            className="input"
-            type="email"
-            name="email"
-            onblur="this.reportValidity()"
-            onChange={handleChange}
-            onBlur={handleBlur}
-            id="email"
-            required={true}
-          />
+        <div className="group-fields">
+          <div className="field">
+            <label className="label" htmlFor="email">
+              Email <span className="required">*</span>
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type="email"
+                name="email"
+                onblur="this.reportValidity()"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                id="email"
+                required={true}
+              />
+            </div>
+          </div>
+          <div className="field">
+            <label className="label" htmlFor="phone">
+              Phone Number
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type="tel"
+                name="phone"
+                onChange={handleChange}
+                id="phone"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="field">
-        <label className="label" htmlFor="phone">
-          Phone Number
-        </label>
-        <div className="control">
-          <input
-            className="input"
-            type="tel"
-            name="phone"
-            onChange={handleChange}
-            id="phone"
-          />
+        <div className="field">
+          <label className="label" htmlFor="message">
+            Message <span className="required">*</span>
+          </label>
+          <div className="control">
+            <textarea
+              className="textarea"
+              name="message"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              id="message"
+              required={true}
+              cols="50"
+              rows="4"
+            />
+          </div>
         </div>
-      </div>
-
-      <div className="field">
-        <label className="label" htmlFor="message">
-          Message <span className="required">*</span>
-        </label>
-        <div className="control">
-          <textarea
-            className="textarea"
-            name="message"
-            onChange={handleChange}
-            onBlur={handleBlur}
-            id="message"
-            required={true}
-            cols="50"
-            rows="4"
-          />
+        <div className="group-fields">
+          <div className="field">
+            <label className="label" htmlFor="zip">
+              Zip Code
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type="number"
+                name="zip"
+                placeholder="N/A if outside of the US"
+                onChange={handleChange}
+                id="zip"
+              />
+            </div>
+          </div>
+          <div className="field">
+            <label className="label" htmlFor="country">
+              Country <span className="required">*</span>
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type="text"
+                name="country"
+                onChange={handleChange}
+                value="United States"
+                required={true}
+                onBlur={handleBlur}
+                id="country"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="field">
-        <label className="label" htmlFor="zip">
-          Zip Code (N/A if outside of the US)
-        </label>
-        <div className="control">
-          <input
-            className="input"
-            type="number"
-            name="zip"
-            onChange={handleChange}
-            id="zip"
-          />
+        <div className="field">
+          <label className="label" htmlFor="how_hear">
+            How did you hear about us?
+          </label>
+          <p className="hint">
+            <small>
+              If referred, please include the referral source's full name.
+            </small>
+          </p>
+          <div className="control">
+            <input
+              className="input"
+              type="text"
+              name="how_hear"
+              onChange={handleChange}
+              required={true}
+              id="how_hear"
+            />
+          </div>
         </div>
-      </div>
-      <div className="field">
-        <label className="label" htmlFor="country">
-          Country <span className="required">*</span>
-        </label>
-        <div className="control">
-          <input
-            className="input"
-            type="text"
-            name="country"
-            onChange={handleChange}
-            value="United States"
-            required={true}
-            onBlur={handleBlur}
-            id="country"
-          />
+        <div className="field">
+          <button className="button" type="submit">
+            Submit
+          </button>
         </div>
-      </div>
-      <div className="field">
-        <label className="label" htmlFor="how_hear">
-          How did you hear about us?
-        </label>
-        <small>
-          If referred, please include the referral source's full name.
-        </small>
-        <div className="control">
-          <input
-            className="input"
-            type="text"
-            name="how_hear"
-            onChange={handleChange}
-            required={true}
-            id="how_hear"
-          />
-        </div>
-      </div>
-      <div className="field">
-        <button className="button" type="submit">
-          Submit
-        </button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 
