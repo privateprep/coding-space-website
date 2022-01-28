@@ -5,7 +5,7 @@ import { kebabCase } from "lodash";
 import Content from "../../components/Content";
 import PageBuilder from "../../components/PageBuilder";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
-import facebook from "../../img/social/facebook.svg";
+import { Socials } from "../../components/Atoms";
 
 export const BlogPostTemplate = ({
   bgColor,
@@ -22,14 +22,6 @@ export const BlogPostTemplate = ({
   postUrl,
 }) => {
   const PostContent = contentComponent || Content;
-  const isBrowser = typeof window !== "undefined";
-  let fbURL = "";
-
-  if (!!isBrowser) {
-    fbURL = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-      window.location.href
-    )}`;
-  }
 
   const data = pageBuilder ?? [];
 
@@ -65,15 +57,7 @@ export const BlogPostTemplate = ({
           </div>
           <hr />
           <div className="blog-post__footer">
-            {!!fbURL && (
-              <a title="facebook" href={fbURL}>
-                <img
-                  src={facebook}
-                  alt="Facebook"
-                  style={{ width: "2em", height: "2em" }}
-                />
-              </a>
-            )}
+            <Socials url={postUrl} />
           </div>
         </div>
       </div>

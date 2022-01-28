@@ -679,6 +679,11 @@ $menu-label-color: var(--white);
       margin-bottom: 4rem;
     }
 
+    &__footer {
+      display: flex;
+      justify-content: center;
+    }
+
     img {
       display: flex;
       margin: auto;
