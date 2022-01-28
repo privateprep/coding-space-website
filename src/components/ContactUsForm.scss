@@ -1,0 +1,65 @@
+.form-container {
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    width: 600px;
+    padding: 2rem;
+  }
+
+  // Medium devices (large tablets, computers and up)
+  @media (min-width: 1080px) {
+    padding: 4rem;
+  }
+}
+.contact-us-form {
+  width: 100%px;
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    color: var(--primary);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 16px;
+    background-color: transparent;
+    border: 2px solid var(--accent);
+    transition: all 0.3s;
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  .group-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .field {
+    width: 100%;
+  }
+
+  .hint {
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    width: 500px;
+
+    .group-fields {
+      flex-direction: row;
+    }
+  }
+
+}
