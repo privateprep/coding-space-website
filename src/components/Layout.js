@@ -92,7 +92,12 @@ const menuItems = [
   },
   {
     title: "Contact Us",
-    path: "/contact",
+    path: "/contact-us",
+    subMenu: [],
+  },
+  {
+    title: "COVID Safety",
+    path: "/safety-policy/",
     subMenu: [],
   },
 ];
