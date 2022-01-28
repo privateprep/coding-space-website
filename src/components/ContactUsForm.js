@@ -9,7 +9,7 @@ const encode = data =>
     .join("&");
 
 const ContactUsForm = () => {
-  const [formData, setFormData] = useState({ country: "United States" });
+  const [formData, setFormData] = useState({});
 
   const handleBlur = e => {
     e.target.reportValidity();
@@ -153,7 +153,6 @@ const ContactUsForm = () => {
                 type="text"
                 name="country"
                 onChange={handleChange}
-                value="United States"
                 required={true}
                 onBlur={handleBlur}
                 id="country"
