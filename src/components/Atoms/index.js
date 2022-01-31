@@ -5,3 +5,4 @@ export { default as ButtonLink } from "./ButtonLink";
 export { default as CustomLinkBox } from "./CustomLinkBox";
 export { default as Iframe } from "./Iframe";
 export { default as Review } from "./Review";
+export { default as Socials } from "./Socials";
