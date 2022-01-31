@@ -42,6 +42,13 @@ const BlogPost = ({ data, location }) => {
                   .fallback.src
               }`}
             />
+            <meta
+              property="twitter:image"
+              content={`${withPrefix("")}${
+                featuredImage.image.childImageSharp.gatsbyImageData.images
+                  .fallback.src
+              }`}
+            />
             <meta property="og:image:alt" content={featuredImage.alt} />
           </Helmet>
         }
