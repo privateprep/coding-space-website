@@ -37,8 +37,9 @@ const BlogPost = ({ data, location }) => {
             <meta property="og:description" content={`${description}`} />
             <meta
               property="og:image"
-              content={`${withPrefix("/")}${
-                featuredImage.image.childImageSharp.gatsbyImageData.src
+              content={`${withPrefix("")}${
+                featuredImage.image.childImageSharp.gatsbyImageData.images
+                  .fallback.src
               }`}
             />
             <meta property="og:image:alt" content={featuredImage.alt} />
@@ -89,10 +90,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(
-                  quality: 100
-                  layout: CONSTRAINED
-                )
+                gatsbyImageData(quality: 100, layout: CONSTRAINED)
               }
             }
           }
