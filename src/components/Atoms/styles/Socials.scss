@@ -1,4 +1,10 @@
 .socials {
   display: flex;
   gap: 1rem;
+
+  .react-share__ShareButton {
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
