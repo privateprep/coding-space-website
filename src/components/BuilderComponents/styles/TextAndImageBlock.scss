@@ -13,6 +13,8 @@
     p:first-of-type {
       margin-top: 1rem;
     }
+    // content always displayed left to right
+    direction: ltr;
   }
 
   &__image {
