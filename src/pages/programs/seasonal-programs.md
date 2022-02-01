@@ -4,7 +4,9 @@ title: Seasonal Programs
 description: "Our spring, summer, and fall classes bring students together each
   week to make progress on individual projects, dive into hands-on activities,
   and explore opportunities for self-expression. "
-headingImage: /img/tcs-header.png
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:

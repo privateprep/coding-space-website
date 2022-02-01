@@ -5,6 +5,9 @@ titleColor: "#ffffff"
 description: Whether your child is new to coding or already building their own
   websites, our classes will promote their growth within a safe, supportive
   environment.
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: textOnly
     textAlign: center

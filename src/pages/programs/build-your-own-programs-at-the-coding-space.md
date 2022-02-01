@@ -6,6 +6,9 @@ description: >
   Our totally personalized Build-Your-Own coding experiences put parents in the
   driver’s seat. Or contact us to create the perfect coding event for your
   child.
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:
