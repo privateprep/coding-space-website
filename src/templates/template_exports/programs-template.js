@@ -1,7 +1,7 @@
 import React from "react";
 import PageBuilder from "../../components/PageBuilder";
 
-export const SchoolProgramsTemplate = ({
+export const ProgramsTemplate = ({
   title,
   titleColor,
   headingImage,

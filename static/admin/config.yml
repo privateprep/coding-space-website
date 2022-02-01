@@ -837,9 +837,9 @@ collections:
             ],
         }
       - *page_builder
-  - name: "school-programs"
+  - name: "programs"
     label: "Programs"
-    folder: "src/pages/school-programs"
+    folder: "src/pages/programs"
     create: true
     slug: "{{slug}}"
     fields:
@@ -847,7 +847,7 @@ collections:
           label: "Template Key",
           name: "templateKey",
           widget: "hidden",
-          default: "school-programs",
+          default: "programs",
         }
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor

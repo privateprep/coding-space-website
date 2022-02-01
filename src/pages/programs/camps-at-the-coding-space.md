@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Camps at The Coding Space
 titleColor: "#ffffff"
 description: "Our wildly popular camps combine project-based coding, STEM

@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: In-Person Classes
 description: Our in-person class offerings.
 headingImage: /img/coding-camp.jpg

@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Our Programs
 description: The Coding Space Programs, Classes, and Camps
 headingImage: /img/tcs-header.png
