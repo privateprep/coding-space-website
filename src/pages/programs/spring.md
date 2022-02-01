@@ -39,7 +39,7 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/in-person-classes
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
