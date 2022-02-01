@@ -59,6 +59,14 @@ const requiredPhoneNumber = Yup.string()
   .required("Required");
 
 export const overviewFields = [
+  {
+    name: "vaccinated",
+    type: "hidden",
+    initialValue: "",
+    validator: Yup.mixed()
+      .oneOf(["yes"], "Vaccination required.")
+      .required("Please answer this question."),
+  },
   { name: "class_type_id", type: "hidden", initialValue: "" },
   { name: "price_shown_to_customer", type: "hidden", initialValue: "" },
   { name: "enrollment_type", type: "hidden", initialValue: "" },
@@ -136,8 +144,7 @@ export const studentFields = [
   },
   {
     name: "student_racial_identity",
-    hint:
-      "The Coding Space is committed to racial justice and educational equity. This data will primarily be used for internal purposes. We will release a report stripped of all individually identifying data on an annual basis.",
+    hint: "The Coding Space is committed to racial justice and educational equity. This data will primarily be used for internal purposes. We will release a report stripped of all individually identifying data on an annual basis.",
     label:
       "What race/ethnicity best describes your child? Write all that apply.",
     type: "custom-radio",
@@ -249,8 +256,7 @@ export const covidStudentFields = [
   },
   {
     name: "student_racial_identity",
-    hint:
-      "The Coding Space is committed to racial justice and educational equity. This data will primarily be used for internal purposes. We will release a report stripped of all individually identifying data on an annual basis.",
+    hint: "The Coding Space is committed to racial justice and educational equity. This data will primarily be used for internal purposes. We will release a report stripped of all individually identifying data on an annual basis.",
     label:
       "What race/ethnicity best describes your child? Write all that apply.",
     type: "custom-radio",
@@ -288,8 +294,7 @@ export const covidStudentFields = [
   },
   {
     name: "device_type",
-    hint:
-      "Macs & PCs are strongly preferred for The Coding Space Online. iPads and Tablets are not supported for our online classes.",
+    hint: "Macs & PCs are strongly preferred for The Coding Space Online. iPads and Tablets are not supported for our online classes.",
     label: "Please select the primary device your child will use",
     type: "select",
     options: [
@@ -471,8 +476,7 @@ export const termFields = [
     label: "Photo Release",
     context:
       "If The Coding Space takes photos during class, I give permission to use these photos.",
-    hint:
-      "Note: for your privacy, we will never associate your child's name with the photo.",
+    hint: "Note: for your privacy, we will never associate your child's name with the photo.",
     type: "radio",
     initialValue: "",
     options: [
@@ -531,8 +535,7 @@ export const termFields = [
   {
     name: "additional_details",
     label: "Is there anything else we should know about your child?",
-    hint:
-      "Note: if you would like your child to be grouped with other class or camp members, please include their full names above. We will do our best to accommodate your request...",
+    hint: "Note: if you would like your child to be grouped with other class or camp members, please include their full names above. We will do our best to accommodate your request...",
     placeholder: "Additional Details...",
     type: "textarea",
     initialValue: "",
