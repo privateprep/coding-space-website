@@ -26,15 +26,15 @@ const menuItems = [
     subMenu: [
       {
         title: "Our Programs",
-        path: "/school-programs/our-programs",
+        path: "/programs/our-programs",
       },
       {
         title: "Experience Levels",
-        path: "/school-programs/experience-level",
+        path: "/programs/experience-level",
       },
       {
         title: "Seasonal Programs",
-        path: "/school-programs/seasonal-programs",
+        path: "/programs/seasonal-programs",
       },
       {
         title: "Experiential Programs",
@@ -42,11 +42,11 @@ const menuItems = [
       },
       {
         title: "Camps",
-        path: "/school-programs/camps-at-the-coding-space",
+        path: "/programs/camps-at-the-coding-space",
       },
       {
         title: "Build Your Own",
-        path: "/school-programs/build-your-own-programs-at-the-coding-space",
+        path: "/programs/build-your-own-programs-at-the-coding-space",
       },
       {
         title: "Special Events",
@@ -79,7 +79,7 @@ const menuItems = [
         path: "/about-us/scholarship-program",
       },
       { title: "Common Questions", path: "/about-us/common-questions" },
-      { title: "School Programs", path: "/about-us/school-programs" },
+      { title: "School Programs", path: "/about-us/programs" },
       { title: "Rewards Program", path: "/referral_program" },
       { title: "Our Philosophy", path: "/about-us/our-philosophy" },
       { title: "LMS", path: "/about-us/my-coding-space-lms" },

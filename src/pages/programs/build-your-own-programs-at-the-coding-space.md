@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Build-Your-Own Programs at The Coding Space
 titleColor: "#ffffff"
 description: >

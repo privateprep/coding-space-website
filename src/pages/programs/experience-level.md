@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Experience Level
 titleColor: "#ffffff"
 description: Whether your child is new to coding or already building their own
@@ -46,7 +46,7 @@ pageBuilder:
     textColor: "#faf6ee"
     heading: Students will
     mdContent: |-
-      
+
 
       * craft their first lines of code
       * start forming computational thinking patterns
@@ -108,7 +108,7 @@ pageBuilder:
     fgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      
+
 
       * create projects in Scratch and WoofJS
       * take a deeper dive into computer science concepts
@@ -141,7 +141,7 @@ pageBuilder:
     textColor: "#264548"
     heading: "Students will:"
     mdContent: |-
-      
+
 
       * learn JavaScript
       * build web-based games, animations, and applications

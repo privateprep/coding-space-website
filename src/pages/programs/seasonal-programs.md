@@ -1,5 +1,5 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Seasonal Programs
 description: "Our spring, summer, and fall classes bring students together each
   week to make progress on individual projects, dive into hands-on activities,
@@ -131,7 +131,7 @@ pageBuilder:
       alt: Where Should My Child Start?
     mediaPosition: right
     mdContent: >-
-      ## Where Should My Child Start? 
+      ## Where Should My Child Start?
 
 
       Our classes are offered for every skill level. Not sure where your child should begin? Visit our Experience Levels page to learn more and take our Placement Quiz for personalized recommendations.
