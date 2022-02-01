@@ -18,7 +18,7 @@ import LiabilityPagePreview from "./preview-templates/LiabilityPagePreview";
 import OurTeamPagePreview from "./preview-templates/OurTeamPagePreview";
 import ReferralPagePreview from "./preview-templates/ReferralPagePreview";
 import RefundPagePreview from "./preview-templates/RefundPagePreview";
-import ProgramPreview from "./preview-templates/ProgramsPreview";
+import ProgramsPreview from "./preview-templates/ProgramsPreview";
 import LocationPagePreview from "./preview-templates/LocationPagePreview.js";
 import PartnershipsPreview from "./preview-templates/PartnershipsPreview";
 import ExperienceLevelsPreview from "./preview-templates/ExperienceLevelsPreview";
@@ -36,7 +36,7 @@ CMS.registerPreviewTemplate("liability-release", LiabilityPagePreview);
 CMS.registerPreviewTemplate("our-team", OurTeamPagePreview);
 CMS.registerPreviewTemplate("referral-program", ReferralPagePreview);
 CMS.registerPreviewTemplate("refund-policy", RefundPagePreview);
-CMS.registerPreviewTemplate("programs", ProgramPreview);
+CMS.registerPreviewTemplate("programs", ProgramsPreview);
 CMS.registerPreviewTemplate("locations", LocationPagePreview);
 CMS.registerPreviewTemplate("partnerships", PartnershipsPreview);
 

@@ -2,7 +2,9 @@
 templateKey: programs
 title: In-Person Classes
 description: Our in-person class offerings.
-headingImage: /img/coding-camp.jpg
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: textAndImageBlock
     image:
