@@ -175,6 +175,9 @@ hr {
   padding: 0;
   border: none;
 }
+.alert {
+  color: var(--danger);
+}
 .required {
   color: var(--danger);
 }

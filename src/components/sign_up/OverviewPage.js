@@ -11,6 +11,7 @@ import Wizard from "./Wizard";
 
 import PromoField from "./PromoField";
 import RewardsField from "./RewardsField";
+import FormikRadioButtonGroup from "./FormikRadioButtonGroup";
 
 import * as api from "./api";
 
@@ -19,7 +20,7 @@ const OverviewPage = ({
   enrollmentType,
   classTypeId,
   isTrialClass,
-  parentState: { setFieldValue, values },
+  parentState: { setFieldValue, setSubmitting, values },
 }) => {
   let startingPrice = !!overview ? Number(overview.base_price) : NaN;
   const [basePrice, setBasePrice] = useState(startingPrice);
@@ -41,6 +42,21 @@ const OverviewPage = ({
     },
     [setFieldValue]
   );
+
+  // set vaccinated status if online
+  useEffect(() => {
+    if (!!isOnline) setFieldValue("vaccinated", "yes");
+  }, [isOnline]);
+
+  const customCheckVaccination = useCallback(e => {
+    setFieldValue("vaccinated", e.target.value);
+    const value = e.target.value;
+    if (isOnline || value === "yes") {
+      setSubmitting(false);
+    } else if (e.target.value === "no") {
+      setSubmitting(true);
+    }
+  });
 
   const applyPromo = useCallback(
     async promoCode => {
@@ -230,11 +246,44 @@ const OverviewPage = ({
                 </p>
               )}
             </div>
+            {!isOnline && (
+              <div className="vaccine-card">
+                <p>
+                  To maximize the safety of in-person classes, all students and
+                  instructors are required to be vaccinated. Please confirm that
+                  your child has had at least one vaccine dose.
+                </p>
+                <label htmlFor="vaccinated">
+                  Has your child received their first dose of the COVID-19
+                  vaccine prior to January 30, 2022?
+                </label>
+                <FormikRadioButtonGroup
+                  name="vaccinated"
+                  options={[
+                    { label: "Yes", id: "yes" },
+                    {
+                      label: "No",
+                      id: "no",
+                    },
+                  ]}
+                  customOnChange={customCheckVaccination}
+                ></FormikRadioButtonGroup>
+                {values.vaccinated === "no" && (
+                  <p className="alert">
+                    <strong>
+                      All students must be vaccinated to attend in-person class.
+                      Please visit our{" "}
+                      <a href="/locations/online">online offerings here</a>{" "}
+                      instead.
+                    </strong>
+                  </p>
+                )}
+              </div>
+            )}
             <div className="overview-page__row">
               <ul className="details">
                 <li>
-                  <strong>{overview.classTypeName}</strong>{" "}
-                  {overview.semester}
+                  <strong>{overview.classTypeName}</strong> {overview.semester}
                 </li>
                 {isTrialClass && (
                   <li className="trial-class-wrapper">
