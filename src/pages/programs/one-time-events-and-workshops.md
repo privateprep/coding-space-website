@@ -32,4 +32,16 @@ pageBuilder:
 
       * Learn to Code With Your Child
     fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "## Have an event in mind?"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
