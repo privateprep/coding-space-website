@@ -36,4 +36,26 @@ pageBuilder:
 
 
       These 90-minute workshops are ideal for ages 6-17.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#9de2dd"
+    mdContent: "## Your Girl Scout Will..."
+  - type: styledChecks
+    bgColor: "#264548"
+    fgColor: "#eec11a"
+    textColor: "#9de2dd"
+    mediaPosition: column
+    list:
+      - title: Build grit, a growth mindset, intellectual confidence, and
+          problem-solving skills
+        content: " "
+      - title: Be challenged at their individual level
+        content: " "
+      - title: Feel supported in an engaging and inclusive environment that encourages
+          collaboration
+        content: " "
+      - title: Earn a Girl Scout STEM badge, such as Computer Expert, Coding for Good,
+          or Cybersecurity
+        content: " "
 ---
