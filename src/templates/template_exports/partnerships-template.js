@@ -10,7 +10,6 @@ export const PartnershipsTemplate = ({
   pageBuilder,
   helmet,
 }) => {
-  console.log(pageBuilder);
   const data = pageBuilder ?? [];
   heroImage.imageStyle = { height: "100%" };
 
