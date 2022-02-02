@@ -44,4 +44,26 @@ pageBuilder:
 
 
       Whether your child is a complete beginner or already building applications in JavaScript and Python, our experienced instructors can provide personalized support in person or online.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#faf6ee"
+      list:
+        - title: Start Building Your Group
+          content: /contact-us
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/kids-around-a-computer.jpg
+      alt: Small Group Classes
+    mediaPosition: right
+    mdContent: >-
+      ## Small Group Classes
+
+
+      ### Learn to Code With Friends
+
+
+      Looking to form a recurring group lesson for your child and their friends? Our small group coding classes provide our signature 4:1 student-to-teacher ratio and personalized attention. Available in person and online.
 ---
