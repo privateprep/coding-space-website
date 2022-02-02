@@ -36,7 +36,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/girl-doing-class-at-home.jpg
+      image: /img/shutterstock_1906365397.jpg
       alt: Accessibility name
     mediaPosition: left
     fgColor: "#9de2dd"
