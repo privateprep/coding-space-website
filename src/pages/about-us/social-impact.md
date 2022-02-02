@@ -76,7 +76,9 @@ pageBuilder:
           with the tools necessary to support and advocate for students and
           co-workers of all backgrounds. 
 
+
           Maintain a compensation review process that includes pay equity analysis.
+
 
           Prioritize gender and racial diversity when filling leadership positions and creating internal teams.
 ---
