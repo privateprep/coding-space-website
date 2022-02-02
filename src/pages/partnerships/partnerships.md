@@ -42,7 +42,11 @@ pageBuilder:
     textAlign: center
     bgColor: "#264548"
     textColor: "#faf6ee"
-    mdContent: "## **Schools and Organizations We’ve Worked With**"
+    mdContent: >-
+      ## **Schools and Organizations We’ve Worked With**
+
+
+      ![Schools and Orgs We Work With](/img/screen-shot-2022-02-02-at-10.47.41-am.png)
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
