@@ -58,4 +58,9 @@ pageBuilder:
       - title: Earn a Girl Scout STEM badge, such as Computer Expert, Coding for Good,
           or Cybersecurity
         content: " "
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Girl Scout Badges](/img/screen-shot-2022-02-02-at-2.59.59-pm.png)"
 ---
