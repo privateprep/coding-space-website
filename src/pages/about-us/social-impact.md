@@ -48,17 +48,17 @@ pageBuilder:
          * Widen access to our program through our scholarship program, which aims to award need-based scholarships to 25% of our student body.
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
+    bgColor: "#264548"
+    textColor: "#faf6ee"
     mdContent: >-
       ## Empowering Women+
 
 
       Founded to address the glaring gender gaps in STEM fields and the tech industry and to advocate for and champion female voices in all arenas, our GirlCode program is woven into the fabric of our company. We are committed to providing mentorship, opportunities for growth, and equitable access to girls, women, transgender people, gender non-conforming people, non-binary people, and people who want to be in a female-identified environment. To this end, we strive to achieve the following goals:
   - type: styledChecks
-    bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    textColor: "#264548"
+    bgColor: "#264548"
+    fgColor: "#eec11a"
+    textColor: "#faf6ee"
     mediaPosition: column
     list:
       - title: Maintain a staff of more than 50% women+.
@@ -81,4 +81,35 @@ pageBuilder:
 
 
           Prioritize gender and racial diversity when filling leadership positions and creating internal teams.
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    mediaPosition: right
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#faf6ee"
+    heading: Creating Educational Equity
+    mdContent: We believe that everyone has a right to equitable education in a safe
+      and inclusive learning environment and are committed to increasing access
+      to our high-quality coding programs. Our scholarship program accounts for
+      25 percent of the students we teach. Our long-term goal as we work towards
+      educational equity is to reach 50 percent of our students through at-cost
+      and pro-bono services.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#eec11a"
+    list:
+      - title: Learn More About Our Scholarship
+        content: "#"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: We present our company values and goals as a living document that we
+      will review, adjust, and improve upon as we continue to evolve as a
+      company, society, and world. We invite our colleagues, peers, and clients
+      to join us in shaping a better future.
 ---
