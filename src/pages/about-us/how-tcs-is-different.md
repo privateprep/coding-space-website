@@ -6,7 +6,7 @@ description: "The Coding Space is about more than just first-class coding
   throughout life. "
 heroImage:
   image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -61,7 +61,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#264548"
     textColor: "#faf6ee"
-    mdContent: Have questions about our program?
+    mdContent: "## Have questions about our program?"
   - type: buttons
     bgColor: "#264548"
     fgColor: "#9de2dd"
