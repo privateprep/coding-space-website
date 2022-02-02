@@ -881,13 +881,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
       - { label: "Description", name: "description", widget: "text" }
-      - {
-          label: "Hero",
-          name: "headingImage",
-          required: false,
-          choose_url: false,
-          widget: image,
-        }
+      - *heroImage
       - *page_builder
   - name: "pages"
     label: "Pages"
