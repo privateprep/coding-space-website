@@ -30,7 +30,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/kids-building-lego-robot.jpeg
+      image: /img/GirlCode-around-a-table.jpg
       alt: Kids building a robot
     mediaPosition: right
     mdContent: >-
