@@ -1,7 +1,9 @@
 ---
 templateKey: partnerships
-title: Schools
-description: This is for SEO, we partner with schools to do ...
+title: Partnerships
+description: We’re passionate about partnering with organizations to help kids
+  develop critical thinking skills, confidence, and self-expression through
+  coding education.
 headingImage: /img/tcs-header.png
 pageBuilder:
   - type: headerAndMarkDownBlock
