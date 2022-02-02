@@ -115,4 +115,48 @@ pageBuilder:
 
 
       Curious to see our partnerships in action? Check out [a recent partnership with TradeZero](https://www.thecodingspace.com/the-coding-space-blog/community-partner-spotlight-tradezero) to provide free coding classes to a Title I school in Brooklyn.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: >-
+      ## Camp Partnerships
+
+
+      We have a proven track record of successfully partnering with day and summer camps. From an in-person STEM corner at your day camp to a virtual coding elective at sleepaway camp, we’re here to provide campers with a special summer of coding fun.
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Learn More
+        content: "#"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Special Events
+
+
+      From Bring Your Child to Work Day and Girl Scout Troop events, to birthday parties or parent-child coding events, our workshops and mini camps are totally customizable and suited for any event where your child wants to have fun and learn something, too.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Learn More
+        content: "#"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "## Ready to Team Up?"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Contact Us
+        content: "#"
 ---
