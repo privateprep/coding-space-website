@@ -78,14 +78,21 @@ pageBuilder:
       * PTA Give Back Program serves as a PTA fundraiser and connects students with opportunities to code during school breaks.
 
       * Host an in-school or after-school class for students to more fully explore their interest in coding and take their skills to the next level.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Contact Us
+        content: /contact-us
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
       fgColor: "#264548"
       textColor: "#faf6ee"
       list:
-        - title: Learn More
-          content: "#"
+        - title: Contact Us
+          content: /contact-us
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -103,8 +110,8 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Learn More
-          content: "#"
+        - title: Contact Us
+          content: /contact-us
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -133,8 +140,8 @@ pageBuilder:
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
-      - title: Learn More
-        content: "#"
+      - title: Contact Us
+        content: /contact-us
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -149,8 +156,8 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
-      - title: Learn More
-        content: "#"
+      - title: Contact Us
+        content: /contact-us
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -163,4 +170,8 @@ pageBuilder:
     list:
       - title: Contact Us
         content: "#"
+  - type: accordion
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
 ---
