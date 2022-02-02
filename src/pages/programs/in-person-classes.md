@@ -1,63 +1,87 @@
 ---
 templateKey: programs
 title: In-Person Classes
-description: Our in-person class offerings.
+description: |
+  In-Person Coding Instruction is Back!
 heroImage:
   image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
-  - type: textAndImageBlock
-    image:
-      alt: Chicken Coop!
-      image: /img/coding-camp.jpg
-    bgColor: "#ffffff"
-    fgColor: "#9de2dd"
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Register Now
+          content: /locations
     mediaPosition: right
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#faf6ee"
+    heading: In-Person Classes Are Back This Spring
     mdContent: >-
-
-      ## In-Person Coding Instruction is Back!
-
-
-      The Coding Space is now safely offering private classes from the comfort
-      of your home. Working in small groups, our coding classes balance screen
-      time with hands-on activities and opportunities to create and explore. Our
-      program is aimed at helping children develop critical thinking skills,
-      confidence, and self-expression through learning to code. Our private
-      classes also provide our signature 4:1 student to teacher ratio ensuring
-      personalized attention when they need it.
+      ## Join Us At Your Nearest Location
 
 
-      ### How It Works
-
-
-      * Contact us to create the lesson format best suited to your child.
-
-      * Sign waivers to ensure the safety of all involved.
-
-      * Our teachers come to you. Let the fun begin!
-  - type: buttons
-    bgColor: "#ffffff"
-    fgColor: "#eec11a"
-    textColor: "#fff"
-    list:
-      - title: Sign Up Now
-        content: /contact
+      We’re thrilled to announce the return of in-person classes to our New York coding centers. With opportunities to learn and explore with friends and under the guidance of our experienced instructors, there’s never been a better time to start or continue your child’s coding journey. Keep reading to learn more about our unique approach to coding education and find the location nearest you.
   - type: textOnly
-    textAlign: left
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: "# Check Out Our New York Coding Centers"
+  - type: customLinkBoxes
+    bgColor: "#ffffff"
+    list:
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: /locations/upper-east-side
+        textAlign: center
+        textColor: "#9de2dd"
+        mdContent: |-
+          # Upper East Side
+
+
+
+          ***View Offerings***
+      - bgColor: "#ffffff"
+        fgColor: "#264548"
+        content: /locations/park-slope
+        textAlign: center
+        textColor: "#9de2dd"
+        mdContent: |-
+          # Park Slope
+
+
+
+          ***View Offerings***
+      - bgColor: "#faf6ee"
+        fgColor: "#264548"
+        content: /locations/long-island
+        textAlign: center
+        textColor: "#9de2dd"
+        mdContent: |-
+          # Long Island
+
+
+
+          ***View Offerings***
+  - type: textOnly
+    textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
+      ## Don’t See a Location Near You?
 
 
-      ## In-Person Coding Instruction is Back!
-
-      The Coding Space is now safely offering private classes from the comfort
-      of your home. Working in small groups, our coding classes balance screen
-      time with hands-on activities and opportunities to create and explore. Our
-      program is aimed at helping children develop critical thinking skills,
-      confidence, and self-expression through learning to code. Our private
-      classes also provide our signature 4:1 student to teacher ratio ensuring
-      personalized attention when they need it.
+      Not to worry. Our classes are just as much fun online and available for all ages and skill levels.
+  - type: buttons
+    bgColor: "#ffffff"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: See Online Options
+        content: /locations/online
   - type: textAndImageBlock
     image:
       alt: Accessibility name
@@ -65,21 +89,18 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-
+      
 
       ### Your child will...
 
 
-      * Build **grit**, a **growth mindset**, and **computational thinking**
-      through coding.
+      * Build **grit**, a **growth mindset**, and **computational thinking** through coding.
 
       * Learn to code in Scratch or JavaScript.
 
-      * Balance screen time with hands-on activities and opportunities to create
-      and explore, even in their own living rooms.
+      * Balance screen time with hands-on activities and opportunities to create and explore, even in their own living rooms.
 
-      * Discover and define their personal passions through STEM challenges and
-      more.
+      * Discover and define their personal passions through STEM challenges and more.
 
       * Make new friends near and far.
 
@@ -94,31 +115,18 @@ pageBuilder:
       ### A Space for Growth
 
 
-      We guarantee individual attention and a custom learning experience for
-      each student with a 4:1 student-to-teacher ratio.
+      We guarantee individual attention and a custom learning experience for each student with a 4:1 student-to-teacher ratio.
 
 
       ### Personalized Learning
 
 
-      We’re not your typical coding class. Our classes are designed to foster
-      intellectual confidence, growth mindset and computational thinking skills.
+      We’re not your typical coding class. Our classes are designed to foster intellectual confidence, growth mindset and computational thinking skills.
 
 
       ### Expert Teachers
 
 
-      Our teachers create a welcoming and engaging learning environment for
-      students. Our teachers never lecture. We believe in asking specific
-      questions to help students solve problems.
-  - type: textOnly
-    textAlign: right
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: |-
-      # This is a test
-
-
-
-      Of free response text with alignment.
+      Our teachers create a welcoming and engaging learning environment for students. Our teachers never lecture. We believe in asking specific questions to help students solve problems.
+    textAlign: left
 ---
