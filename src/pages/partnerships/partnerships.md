@@ -5,7 +5,9 @@ titleColor: "#264548"
 description: We’re passionate about partnering with organizations to help kids
   develop critical thinking skills, confidence, and self-expression through
   coding education.
-headingImage: /img/tcs-header.png
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: textOnly
     textAlign: center

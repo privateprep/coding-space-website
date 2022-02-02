@@ -22,7 +22,7 @@ const Partnerships = ({ data }) => {
         }
         title={page.frontmatter.title}
         titleColor={page.frontmatter.titleColor}
-        headingImage={page.frontmatter.headingImage}
+        heroImage={page.frontmatter.heroImage}
         pageBuilder={page.frontmatter.pageBuilder}
       />
     </Layout>
@@ -45,8 +45,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         titleColor
-        headingImage {
-          publicURL
+        heroImage {
+          alt
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
         }
         pageBuilder {
           heading
@@ -54,12 +59,7 @@ export const pageQuery = graphql`
             alt
             image {
               childImageSharp {
-                gatsbyImageData(
-                  height: 500
-                  width: 500
-                  quality: 100
-                  layout: CONSTRAINED
-                )
+                gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }
             }
           }
