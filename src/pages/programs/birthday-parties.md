@@ -114,4 +114,16 @@ pageBuilder:
 
 
       Parties consist of three hours of activities and coding instruction. Our unique 4:1 student-to-teacher ratio ensures personalized learning experience for every child.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: "## Ready to Party?"
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#faf6ee"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
