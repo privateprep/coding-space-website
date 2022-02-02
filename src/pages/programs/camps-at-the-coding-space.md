@@ -1,11 +1,14 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Camps at The Coding Space
 titleColor: "#ffffff"
 description: "Our wildly popular camps combine project-based coding, STEM
   elective exploration, hands-on activities, epic team challenges, theme days,
   and more. Whether your child is joining us virtually or at one of our coding
   centers, they’re sure to have an unforgettable experience. "
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:

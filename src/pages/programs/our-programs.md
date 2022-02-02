@@ -1,8 +1,10 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Our Programs
 description: The Coding Space Programs, Classes, and Camps
-headingImage: /img/tcs-header.png
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: headerAndMarkDownBlock
     mediaPosition: right
