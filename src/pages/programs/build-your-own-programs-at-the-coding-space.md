@@ -8,7 +8,7 @@ description: >
   child.
 heroImage:
   image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:
@@ -30,38 +30,44 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
+      list:
+        - title: Learn More
+          content: "#"
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
       image: /img/girl-doing-class-at-home.jpg
       alt: Accessibility name
     mediaPosition: left
-    fgColor: "#faf6ee"
+    fgColor: "#9de2dd"
     mdContent: >-
-      # Private Lessons and Small Groups
+      ## Private Lessons and Small Groups
 
 
-      ## A Personalized Learning Experience
+      ### A Personalized Learning Experience
 
 
       Looking for a way for your child to learn with friends near and far? Or get dedicated help from an instructor in a one-on-one setting? Our virtual and in-person private lessons and small group classes provide students with targeted support from our experienced instructors.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#faf6ee"
+      list:
+        - title: Learn More
+          content: "#"
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
       image: /img/accomplished.jpg
       alt: Accessibility name
     mediaPosition: right
-    fgColor: "#9de2dd"
+    fgColor: "#eec11a"
     mdContent: >-
-      # Girl Scouts Programs
+      ## Girl Scouts Programs
 
 
-      ## Gather the Troops for Some Coding Fun
+      ### Gather the Troops for Some Coding Fun
 
 
       Empower Girl Scouts to take STEM by storm! Our welcoming and inclusive workshops teach Girl Scouts programming skills, encourage the exploration of STEM subjects, and conclude with a special badge ceremony.
@@ -70,26 +76,32 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
+      list:
+        - title: Learn More
+          content: "#"
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
       image: /img/kid-on-the-computer-backside.jpg
       alt: Accessibility name
-    mediaPosition: right
+    mediaPosition: left
     fgColor: "#9de2dd"
     mdContent: >-
-      # One-Time Events and Workshops
+      ## One-Time Events and Workshops
 
 
-      ## The Coding Space Comes to You
+      ### The Coding Space Comes to You
 
 
       Interested in bringing The Coding Space to a special event near you? We partner with workplaces and community organizations to bring the fun of coding to your doorstep.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#faf6ee"
+      list:
+        - title: Learn More
+          content: "#"
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -98,10 +110,10 @@ pageBuilder:
     mediaPosition: right
     fgColor: "#eec11a"
     mdContent: >-
-      # Birthday Parties
+      ## Birthday Parties
 
 
-      ## Happy Coding to You!
+      ### Happy Coding to You!
 
 
       You bring the cake, we’ll bring the coding fun. Held in person or online, this unique event makes coding with friends a true celebration. Personalize your party by choosing a fun theme, cool activities, STEM-based subjects, and more.
