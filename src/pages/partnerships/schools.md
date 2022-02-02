@@ -1,33 +1,19 @@
 ---
 templateKey: partnerships
 title: Partnerships
+titleColor: "#264548"
 description: We’re passionate about partnering with organizations to help kids
   develop critical thinking skills, confidence, and self-expression through
   coding education.
 headingImage: /img/tcs-header.png
 pageBuilder:
-  - type: headerAndMarkDownBlock
-    mediaPosition: right
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
     textColor: "#264548"
-    textAlign: left
-    bgColor: "#faf6ee"
-    heading: The header above was working...
-    mdContent: |-
-      #### **But now I can't seem to make it work!**
+    mdContent: >-
+      ##  Partner With The Coding Space
 
-      The font looks way too small...
-  - type: points
-    bgColor: "#faf6ee"
-    heading: I'm Making a Statement
-    list:
-      - title: 100+
-        content: Students
-  - type: textAndImageBlock
-    image:
-      alt: Inside of a chicken coop!
-      image: /img/coding-camp.jpg
-    mediaPosition: right
-    bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    mdContent: This is text
+
+      Looking for a way to bring The Coding Space to your school or organization? You’ve come to the right place. We’re passionate about partnering with organizations to help kids develop critical thinking skills, confidence, and self-expression through coding education. Our class and camp partnerships range from full, interactive semesters to personalized private lessons and customized group events. From fun hands-on activities to cool STEM explorations and coding challenges, these classes and workshops are fun, educational, and a great way to engage families within your organization.
 ---
