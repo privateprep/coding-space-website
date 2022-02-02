@@ -2,9 +2,6 @@
 templateKey: about-us
 title: About Us
 titleColor: "#264548"
-heroImage:
-  image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
 description: "The Coding Space—an afterschool program where students would learn
   how to tackle challenges independently through learning to code. They
   envisioned unconventional coding classes where students could control the pace
@@ -13,6 +10,9 @@ description: "The Coding Space—an afterschool program where students would lea
   years, The Coding Space doubled in size, adding classes in multiple locations
   and schools around New York City as well as several full-time staff
   members.  "
+heroImage:
+  image: /img/tcs-header.png
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:
@@ -119,17 +119,15 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      # At The Coding Space...
+      ## At The Coding Space...
 
+      ## Every problem is an opportunity.
 
+      ## There are no fair advantages.
 
-      # Every problem is an opportunity.
+      ## Different is better.
 
-      # There are no fair advantages.
-
-      # Different is better.
-
-      # Growth is always possible.
+      ## Growth is always possible.
   - type: reviews
     bgColor: "#9de2dd"
     heading: ""
@@ -148,6 +146,7 @@ pageBuilder:
       Different is better.
 
       Growth is always possible.
+    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -176,43 +175,43 @@ pageBuilder:
         mdContent: "**How TCS is Different**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/about-us/our-philosophy"
+        content: /about-us/our-philosophy
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Our Philosophy**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/locations"
+        content: /locations
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Locations**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/about-us/social-impact/"
+        content: /about-us/social-impact/
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Social Impact**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/about-us/scholarship-program"
+        content: /about-us/scholarship-program
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Scholarship**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/about-us/common-questions"
+        content: /about-us/common-questions
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Common Questions**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/referral_program"
+        content: /referral_program
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Rewards Program**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "/about-us/my-coding-space-lms"
+        content: /about-us/my-coding-space-lms
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**LMS**"
