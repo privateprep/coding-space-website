@@ -1,11 +1,14 @@
 ---
-templateKey: school-programs
+templateKey: programs
 title: Experiential Programs
 titleColor: "#264548"
 description: From supportive, female-identifying coding environments to our STEM
   Leadership and High School Accelerator programs, our GirlCode and teen
   programs meet student needs inside the classroom and beyond, creating a
   community of coders and friendships that last.
+heroImage:
+  image: /img/tcs-header.png
+  alt: "Light blue hero image with animated computer and code"
 pageBuilder:
   - type: textOnly
     textAlign: center
