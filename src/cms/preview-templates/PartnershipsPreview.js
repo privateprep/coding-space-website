@@ -6,13 +6,14 @@ const PartnershipsPreview = ({ entry, getAsset }) => {
   const entryPageBuilder = entry.getIn(["data", "pageBuilder"]);
   const pageBuilder = entryPageBuilder ? entryPageBuilder.toJS() : [];
   // extracts image url from the entry
-  const image = entry.getIn(["data", "heroImage"]);
-  const heroImage = image ? getAsset(image).toJS().image : {};
+  // extracts image url from the entry
+  const heroImage = getAsset(entry.getIn(["data", "heroImage"]).toJS().image);
 
   return (
     <PartnershipsTemplate
       description={entry.getIn(["data", "description"])}
       title={entry.getIn(["data", "title"])}
+      titleColor={entry.getIn(["data", "titleColor"])}
       heroImage={heroImage}
       pageBuilder={pageBuilder}
     />
