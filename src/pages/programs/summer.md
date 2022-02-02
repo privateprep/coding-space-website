@@ -88,18 +88,119 @@ pageBuilder:
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
+    bgColor: "#264548"
+    textColor: "#ffffff"
     mdContent: >-
       ## Class Options 
 
 
       Our highly trained teachers are able to instruct students with a range of abilities and skills levels: from complete beginners to students already building applications in JavaScript and Python. Choose from two weekly classes and a variety of skill levels. For added scheduling flexibility, half-semester options are also available.
   - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Learn More
+        content: /classes/?semesters[]=Summer%202022
+  - type: sideBySide
+    bgColor: "#ffffff"
+    leftComponent:
+      - type: boxWithLogo
+        bgColor: "#ffffff"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        heading: Class Schedule
+        mdContent: |-
+          **First:** Class Kick-Off & Challenges
+
+          **Next:** Project-Based Coding
+
+          **Then:** Hands-On Activity*
+
+          **Last:** Reflection
+    rightComponent:
+      - type: styledChecks
+        bgColor: "#ffffff"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        mediaPosition: column
+        list:
+          - title: Class Kickoff & Challenges
+            content: Each week, students are challenged to learn new programming techniques
+              and stretch their minds in fresh, interesting ways. We'll kick off
+              each class with a warm welcome and ideas and inspiration for new
+              challenges to tackle.
+          - title: Project-Based Coding
+            content: We challenge our students to create projects as unique as they are.
+              Students receive individualized attention and curriculum
+              customization through experienced teachers and a 4:1
+              student-to-teacher ratio. Using the Socratic method, our teachers
+              ask questions aimed at helping students discover their own
+              solutions to problems. Whether your child is new to coding or
+              already building their own websites and projects, students
+              progress through our curriculum at the pace that’s right for them.
+          - title: Hands-On Activities
+            content: Time to stretch, tinker, and play. Students take a break from their
+              screens and discover the opportunities to create and explore that
+              exist all around them, even in their own living rooms. Centered in
+              the world of STEM, these activities range from short story writing
+              and yoga to virtual escape rooms, cryptography, and much more.
+              These opportunities, offered in classes longer than 1.5 hours,
+              support cognitive, emotional, and social development, allowing
+              students to grow in fun new ways.
+          - title: Reflection
+            content: >
+              Each class ends with a reflection on the day's work, lessons
+              learned, and future goals.
+  - type: textOnly
+    textAlign: center
     bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ##  Scholarships Available
+
+
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Apply for a Scholarship
+        content: /about-us/scholarship-program/
+  - type: reviews
+    textColor: "#EDC034"
+    fgColor: "#ffffff"
+    bgColor: "#faf6ee"
+    heading: What Families Are Saying About The Coding Space
+    list:
+      - title: The Coding Space has opened up a whole new world for our daughter, which
+          was especially needed when she couldn’t see friends in person. Her
+          classes are the highlight of her week, and it’s so incredible to watch
+          her progress.
+        content: "Jill, NYC "
+      - title: I love it here because in my other classes and camps, they just give the
+          answers to you. Here I get to figure it out for myself. It’s more
+          exciting because I learned it myself.
+        content: Sofia, age 9
+      - title: The Coding Space has been a wonderful learning experience for two of my
+          children. The classes are fun and challenging and the instructors are
+          caring, knowledgeable and professional
+        content: Blake, NYC
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Have a question?
+
+
+      Be sure to check out our [Common Questions](/about-us/common-questions/). If you still don’t see what you need, reach out to us.
+  - type: buttons
+    bgColor: "#9de2dd"
     fgColor: "#264548"
     textColor: "#ffffff"
     list:
-      - title: Learn More
-        content: /classes
+      - title: Contact Us
+        content: /contact-us
 ---
