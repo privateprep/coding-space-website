@@ -66,4 +66,16 @@ pageBuilder:
 
 
       Looking to form a recurring group lesson for your child and their friends? Our small group coding classes provide our signature 4:1 student-to-teacher ratio and personalized attention. Available in person and online.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: "## **Looking for something else?**"
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
