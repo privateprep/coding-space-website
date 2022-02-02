@@ -45,8 +45,7 @@ pageBuilder:
       2. Address the fact that racial equity is inextricably linked to economic opportunity through the following initiatives:
 
          * Develop teacher-in-training programming that provides job opportunities to people of color with non-traditional work and educational backgrounds.
-
-           Widen access to our program through our scholarship program, which aims to award need-based scholarships to 25% of our student body.
+         * Widen access to our program through our scholarship program, which aims to award need-based scholarships to 25% of our student body.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
