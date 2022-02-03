@@ -80,6 +80,9 @@ export const pageQuery = graphql`
           textColor
           fgColor
           bgColor
+          ratio
+          content
+          title
         }
       }
     }

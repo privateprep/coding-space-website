@@ -103,6 +103,9 @@ export const pageQuery = graphql`
           title
           fgColor
           bgColor
+          ratio
+          content
+          title
         }
       }
     }
