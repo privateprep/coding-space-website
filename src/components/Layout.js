@@ -142,7 +142,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image:height" content={2000} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
-      {!!production ? <BasicHeader /> : <Navbar menuItems={menuItems} />}
+      <Navbar menuItems={menuItems} />
       <div className="page-container">{children}</div>
       <Footer />
     </div>
