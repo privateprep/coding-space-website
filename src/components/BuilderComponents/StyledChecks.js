@@ -41,7 +41,7 @@ const StyledChecks = ({
                   >
                     ✓
                   </div>
-                  <h2>{title}</h2>
+                  <h3>{title}</h3>
                 </div>
                 <p className="styled-checks__list__item__content">{content}</p>
               </li>
