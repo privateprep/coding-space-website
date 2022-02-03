@@ -14,10 +14,7 @@ const menuItems = [
     subMenu: [
       { title: "Help me decide?", path: "/classes" },
       { title: "Locations", path: "/locations" },
-      { title: "What's New", path: "/whats-new" },
-      { title: "Semester Classes", path: "/semester-classes" },
-      { title: "Girlcode", path: "signup/girlcode" },
-      { title: "Camps", path: "/camps" },
+      { title: "How TCS is different", path: "/about-us/how-tcs-is-different" },
     ],
   },
   {
@@ -56,16 +53,8 @@ const menuItems = [
   },
   {
     title: "Partnerships",
-    path: "",
-    subMenu: [
-      { title: "Schools", path: "/partnerships/schools" },
-      { title: "Community", path: "/partnerships/community" },
-      { title: "Corporate", path: "/partnerships/corporate" },
-      {
-        title: "Camps",
-        path: "/partnerships/camps",
-      },
-    ],
+    path: "/partnerships/partnerships/",
+    subMenu: [],
   },
   {
     title: "About Us",
