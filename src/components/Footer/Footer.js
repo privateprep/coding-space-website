@@ -22,8 +22,7 @@ const Footer = () => {
     ...prodLinks,
   ];
 
-  const production = process.env.NODE_ENV === "production";
-  const links = production ? prodLinks : devLinks;
+  const links = devLinks;
   return (
     <footer className="Footer">
       <div className="Footer__content">
