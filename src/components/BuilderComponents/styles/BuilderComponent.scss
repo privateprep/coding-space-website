@@ -1,5 +1,6 @@
 @mixin component {
   padding: 1rem;
+  min-width: 80%;
   max-width: 1360px;
 
  @media only screen and (min-width: 768px) {
@@ -20,4 +21,8 @@
 
 .component {
   @include component;
+
+  .gatsby-image-wrapper {
+    max-height: 30vh;
+  }
 }

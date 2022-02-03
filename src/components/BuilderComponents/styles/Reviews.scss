@@ -1,6 +1,11 @@
-.reviews__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-  grid-gap: 1rem;
-  justify-items: center;
+.reviews {
+  &__header {
+    text-align: center;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+  }
 }
