@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import ButtonLink from "../Atoms/ButtonLink";
 
+import "./styles/Buttons.scss";
+
 /**
  * Provide quick access to other pages in the app via these button styled links
  */
@@ -15,19 +17,13 @@ const Buttons = ({ bgColor, fgColor, textColor, list }) => {
       className="Buttons component"
       style={{
         backgroundColor: bgColor,
-        // padding: "0 4rem 4rem 4rem",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        paddingTop: "0",
       }}
     >
       <div
         className="Buttons__list"
         style={{
           backgroundColor: bgColor,
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
         }}
       >
         {!!list &&
