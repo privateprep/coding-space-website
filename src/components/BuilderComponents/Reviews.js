@@ -12,7 +12,7 @@ const Reviews = ({ fgColor, heading, list, textColor }) => {
     <div className="reviews component">
       {!!heading && (
         <div className="reviews__header">
-          <h1>{heading}</h1>
+          <h2>{heading}</h2>
         </div>
       )}
       <div className="reviews__list">
