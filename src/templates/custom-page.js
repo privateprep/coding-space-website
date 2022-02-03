@@ -92,8 +92,14 @@ export const pageQuery = graphql`
             content
             fgColor
             heading
+            list {
+              content
+              title
+            }
             mdContent
+            mediaPosition
             ratio
+            textAlign
             textColor
             title
             type
