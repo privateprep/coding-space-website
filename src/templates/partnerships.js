@@ -65,6 +65,17 @@ export const pageQuery = graphql`
           }
           mdContent
           type
+          leftComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
+          }
           list {
             content
             title
@@ -73,6 +84,17 @@ export const pageQuery = graphql`
             bgColor
             textColor
             textAlign
+          }
+          rightComponent {
+            bgColor
+            content
+            fgColor
+            heading
+            mdContent
+            ratio
+            textColor
+            title
+            type
           }
           textAlign
           textColor
