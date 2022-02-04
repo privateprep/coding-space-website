@@ -47,8 +47,8 @@ pageBuilder:
       High school students will take a deep dive into programming with a variety of preliminary scaffolds, including instructional support on a sequence of challenge projects. Midway through the course, students will choose open-ended projects that combine the skills they’ve learned to work on for the duration of the semester. They’ll be encouraged to pair up with other students, even if they’re not necessarily at their same level, providing an authentic team setting for students to collaborate and pair-program on software projects of their creation.
   - type: boxWithLogo
     bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    textColor: "#264548"
+    fgColor: "#264548"
+    textColor: "#9de2dd"
     heading: In the High School Accelerator program, your teen will...
     mdContent: |-
       
@@ -59,4 +59,37 @@ pageBuilder:
       * Launch solo projects.
       * Learn to collaborate with other coders.
       * Make new friends near and far.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/shutterstock_1926868460.jpg
+      alt: STEM Leadership Program
+    mediaPosition: right
+    mdContent: >-
+      ## STEM Leadership Program
+
+
+      ## Recommended for ages 14-17, co-ed
+
+
+      It’s often said that there is no better way to learn than to teach. Similar to a CIT program, this program is designed for teenagers who enjoy helping younger learners and serving as a mentor and role model. After learning our curriculum, our STEM Leadership students join our teacher training program, where they’ll become adept in teaching using the Socratic Method. As they progress, they’ll team up with our expert teachers to lead coding classes for younger students.
+  - type: boxWithLogo
+    bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
+    heading: In the STEM Leadership program, your teen will...
+    mdContent: |-
+      
+
+      * Be challenged at their individual level.
+      * Build grit, a growth mindset, and computational thinking skills.
+      * Learn The Coding Space curriculum and Socratic Method.
+      * Partner with existing teachers to learn how to lead coding classes.
+      * Serve as a mentor and role model for young learners.
+      * Be front of mind for future TCS employment opportunities.
 ---
