@@ -54,4 +54,4 @@ Below is an example of how this might play out in our classrooms, as a student t
 The magic of Socratic is that, in the above example, the teacher has actually told the student nothing. By asking questions and modeling a thought process, the student came to the solution all on their own. Once they learn they have this power, the sky’s the limit.
 
 \
-We strongly believe in this method and all of our teachers go through an intensive training process to ensure we are inspiring all of our students. Learn more about our [teaching philosophy ](https://www.thecodingspace.com/teaching-philosophy.html)or [contact us](https://www.thecodingspace.com/contact.html) to learn more about our classes so that your child can grow and learn with us!
+We strongly believe in this method and all of our teachers go through an intensive training process to ensure we are inspiring all of our students. Learn more about our [teaching philosophy ](/about-us/teaching-philosophy)or [contact us](/contact-us) to learn more about our classes so that your child can grow and learn with us!

@@ -20,9 +20,9 @@ tags:
 ---
 This spring we’re looking forward to opening a new space on the Upper East Side (details coming soon!), as well as continuing our programs in Brooklyn, Long Island, Westchester, and Online. Here’s a taste of what else is happening here at The Coding Space:
 
-* We’re partnering with new schools to bring our coding program to them (interested in bringing our program to your school? [Learn more here](https://www.thecodingspace.com/for-schools.html))
+* We’re partnering with new schools to bring our coding program to them (interested in bringing our program to your school? [Learn more here](/partnerships/partnerships/))
 * We’re gearing up to run our annual Code 4 Change Challenge in March
-* We’ve recently welcomed two amazing new team members ([meet Melissa and Aspen!](https://thecodingspace.com/team))
+* We’ve recently welcomed two amazing new team members ([meet Melissa and Aspen!](/our_team))
 * We’re launching new partnerships to deepen our impact in our communities (we’re thrilled to be sponsored by [TradeZero](https://www.tradezero.co/) to provide free classes to over 50 kids through [East Flatbush Village](https://eastflatbushvillage.org/) this year)
 
 We’re so excited for the year ahead and to share a large part of it with you, our families. Have a great rest of 2021 and we’ll see you soon!\
