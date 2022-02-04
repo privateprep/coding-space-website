@@ -75,4 +75,19 @@ pageBuilder:
     bgColor: "#264548"
     textColor: "#faf6ee"
     mdContent: "## **What GirlCoders and Their Parents Have to Say About Our Program**"
+  - type: reviews
+    textColor: "#EDC034"
+    fgColor: "#faf6ee"
+    bgColor: "#264548"
+    list:
+      - title: The atmosphere at GirlCode is so judge-free and friendly!
+        content: Yursa, age 9
+      - title: Coding Space has a very positive spirit of collaborative learning. My
+          daughter loves the classes and looks forward to them every week. She's
+          learned a great deal about coding but also has developed a real
+          confidence.
+        content: Julie, Brooklyn
+      - title: All my other coding classes are with boys. At GirlCode, the community is
+          way more supportive.
+        content: Rita, age 10
 ---
