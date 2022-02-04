@@ -51,6 +51,13 @@ pageBuilder:
           * craft their first lines of code
           * start forming computational thinking patterns
           * develop a fluency with technology
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#ffffff"
+    list:
+      - title: Sign Up
+        content: /experience-levels/young-beginner-code/
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -80,6 +87,13 @@ pageBuilder:
 
 
           In our Beginner course, we use Scratch challenge projects as our core curriculum. By starting in Scratch, a block-based coding language, we skip over the small syntactic details of text-based languages and cut directly to the difficult part of coding: formulating one’s ideas into a logical sequence of steps. Students can jump into this class with no prior programming knowledge and in just a few hours build a foundational understanding of core computer science concepts through building games and animations. As they progress through this course, they’ll continue to learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Sign Up
+        content: /classes?experiences[]=First-Time%20or%20Beginner%20Coders
   - type: sideBySide
     bgColor: "#264548"
     leftComponent:
@@ -107,6 +121,13 @@ pageBuilder:
           * take a deeper dive into computer science concepts
           * learn text-based syntax
         heading: "Students will:"
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Sign Up
+        content: /classes?experiences[]=Some%20Experience%20Required
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -134,6 +155,13 @@ pageBuilder:
 
 
           In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages and platforms to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Sign Up
+        content: /classes?experiences[]=Experience%20Required
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -145,15 +173,15 @@ pageBuilder:
       fgColor: "#f6c924"
       textColor: "#264548"
       list:
-        - title: Take The Quiz
-          content: "#"
+        - title: Find Your Fit
+          content: /classes
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
       image: /img/20190711-img_9252-1-.jpg
       alt: Find The Perfect Fit
     mediaPosition: right
-    mdContent: Still unsure where your child should begin? Our Placement Quiz was
-      created by TCS instructors to help parents determine the best starting
-      point for any coder.
+    mdContent: Still unsure where your child should begin? Visit our classes page
+      where you can check your child's experience, interests, and skills.
+    fgColor: "#eec11a"
 ---
