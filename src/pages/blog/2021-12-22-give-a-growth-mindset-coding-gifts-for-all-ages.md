@@ -38,7 +38,7 @@ tags:
 \
 There are also many online-based games and platforms for students to start learning programming. *[CodeCombat](https://codecombat.com/play)* offers a series of online levels in settings like the Kithgard Dungeon and the Backwoods Forest. Students gain points by completing challenges so that they can advance to the next level and buy power-ups. *[CodeMonkey](https://www.playcodemonkey.com/)* is another online gamxe where the student moves through a series of challenges in tracks like Coding Adventure and Coding Chatbots. The main language they focus on is CoffeeScript.\
 \
-Of course, there’s no better way to encourage a love of coding than personalized instruction. *[The Coding Space](http://www.thecodingspace.com/)* offers self-paced learning with a unique 4:1 student-to-teacher ratio. Our virtual group classes supplement coding instruction with hands-on games, screen-free activities, and coding challenges to push students’ skills even outside of class. Giving the gift of coding is even easier with ***[gift certificates](https://thecodingspace.com/gift-cards)*** offered in any amount.\
+Of course, there’s no better way to encourage a love of coding than personalized instruction. *[The Coding Space](http://www.thecodingspace.com/)* offers self-paced learning with a unique 4:1 student-to-teacher ratio. Our virtual group classes supplement coding instruction with hands-on games, screen-free activities, and coding challenges to push students’ skills even outside of class.
 \
 Looking for more gift ideas? Visit our partner site, Private Prep, for even more thoughtful ***[gift options](https://privateprep.com/blog/2020-holiday-gift-guide/)*** for every child on your list.\
 \

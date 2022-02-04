@@ -24,6 +24,6 @@ In addition to our online camp, we were thrilled to return to our Brooklyn locat
 
 ![Wooden block stacking competition at a TCS camp](/img/wooden-block-stacking-competition.jpeg)
 
-And let’s not forget about the return of [The Coding Space Cup](https://www.thecodingspace.com/the-coding-space-blog/the-coding-space-cup-where-legends-are-made)! Whether online or in person, our campers worked hard to earn points for their teams and cheered each other on regardless of the winner. In the end, whether it was Team Liskov or Team Dijkstra with the trophy, our campers were proud of all that they accomplished — and so were we!
+And let’s not forget about the return of [The Coding Space Cup](/blog/2022-02-04-the-coding-space-cup-where-legends-are-made)! Whether online or in person, our campers worked hard to earn points for their teams and cheered each other on regardless of the winner. In the end, whether it was Team Liskov or Team Dijkstra with the trophy, our campers were proud of all that they accomplished — and so were we!
 
 Thanks to all of our kids, families, and counselors who joined us over the summer. We can’t wait to see you next year!

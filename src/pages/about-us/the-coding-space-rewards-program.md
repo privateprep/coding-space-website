@@ -21,7 +21,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Start Earning
-          content: "https://www.thecodingspace.com/referral-program.html "
+          content: "/referral_program"
     image:
       alt: Rewards Program
       image: /img/accomplished.jpg

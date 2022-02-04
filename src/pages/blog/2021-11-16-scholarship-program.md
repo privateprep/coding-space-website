@@ -18,7 +18,7 @@ tags:
 ---
 ![teaching younger student](/img/collaborative-group-space.jpg)
 
-From schools moving to remote or hybrid learning environments to families losing jobs and income as a result of the COVID-19 pandemic, 2020 has been a year full of challenges. 
+From schools moving to remote or hybrid learning environments to families losing jobs and income as a result of the COVID-19 pandemic, 2020 has been a year full of challenges.
 
 ### Here at The Coding Space, we’re committed to offering support to families and students in need through our scholarship program.
 
@@ -36,7 +36,7 @@ We know this year especially has brought increased hardship to many of our famil
 
 ## What makes the TCS scholarship program unique from other programs like it?
 
-Our process is very simple and straightforward. We don’t require long application answers or multiple forms and simply aim to provide access to as many students as we can. [Parents simply submit answers to a short questionnaire which our team then reviews.](https://www.thecodingspace.com/scholarships.html) If your application is approved and a scholarship spot opens up, we will reach out directly.
+Our process is very simple and straightforward. We don’t require long application answers or multiple forms and simply aim to provide access to as many students as we can. [Parents simply submit answers to a short questionnaire which our team then reviews.](/scholarship) If your application is approved and a scholarship spot opens up, we will reach out directly.
 
 ## Looking ahead, what’s next for the scholarship program?
 
@@ -46,4 +46,4 @@ Finally, because our aim is to support students from a wide variety of backgroun
 
 
 
-> Full details as well as application information can be found [here](https://www.thecodingspace.com/scholarships.html). For questions about the scholarship program, please contact Ofelia directly at ofelia@thecodingspace.com.
+> Full details as well as application information can be found [here](/about-us/scholarship-program). For questions about the scholarship program, please contact Ofelia directly at ofelia@thecodingspace.com.

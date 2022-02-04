@@ -32,11 +32,11 @@ pageBuilder:
     textColor: "#fff"
     list:
       - title: Summer 2022
-        content: www.thecodingspace.com/summer
+        content: /programs/summer
       - title: Fall 2022
-        content: "#"
+        content: /programs/fall
       - title: Spring 2022
-        content: "#"
+        content: /programs/spring
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -116,11 +116,11 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Summer Programs
-        content: "#"
-      - title: Spring Classes
-        content: "#"
+        content: /programs/summer
       - title: Fall Classes
-        content: "#"
+        content: /programs/fall
+      - title: Spring Classes
+        content: /programs/spring
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -152,5 +152,5 @@ pageBuilder:
     textColor: "#faf6ee"
     list:
       - title: Apply for a Scholarship
-        content: "#"
+        content: /scholarship
 ---

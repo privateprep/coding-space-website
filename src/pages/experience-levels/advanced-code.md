@@ -8,13 +8,14 @@ seo_description: Advanced students (ages 8-14, co-ed) will transition from
 categoryIds:
   - 45
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=45
+display: true
 thumbnail: /img/white-board.jpg
 details:
   age: Ages 8+
   gender:
     - Co-ed.
   byline: Advanced Scratch, HTML, CSS, and JavaScript.
-  experience: JavaScript or Other Text-Based Language
+  experience: Advanced
   skills:
     - JavaScript
     - HTML/CSS

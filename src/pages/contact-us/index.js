@@ -21,7 +21,7 @@ export default class Index extends React.Component {
               src="../../img/tcs-header.png"
               alt="Light blue hero image with animated computer and code"
               layout="fullWidth"
-              style={{height: "25vh"}}
+              style={{ height: "25vh", maxHeight: "200px" }}
             />
             <h1 className="hero-container__title">Contact Us</h1>
           </div>

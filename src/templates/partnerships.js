@@ -55,6 +55,15 @@ export const pageQuery = graphql`
         }
         pageBuilder {
           heading
+          buttons {
+            bgColor
+            fgColor
+            list {
+              content
+              title
+            }
+            textColor
+          }
           image {
             alt
             image {

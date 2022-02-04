@@ -21,7 +21,7 @@ pageBuilder:
         title: Where do you offer classes?
         textColor: "#264548"
         mdContent: You can view our class locations
-          [here.](https://classes.thecodingspace.com/locations)
+          [here.](/locations)
       - fgColor: "#264548"
         title: How old does my child have to be?
         textColor: "#264548"
