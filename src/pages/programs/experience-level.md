@@ -161,7 +161,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?experiences[]=Experience%20Required
+        content: /classes?experiences[]=Advanced
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
