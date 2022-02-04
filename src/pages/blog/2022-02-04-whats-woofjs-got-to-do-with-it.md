@@ -16,7 +16,7 @@ pageBuilder:
   - type: iframe
     bgColor: "#ffffff"
     content: https://woofjs.com/full.html#Frogger/embed
-    ratio: ratio4x3
+    ratio: ratio1x1
     title: Frogger
 tags:
   - WoofJS

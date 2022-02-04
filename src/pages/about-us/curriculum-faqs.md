@@ -56,7 +56,7 @@ pageBuilder:
         textColor: "#264548"
         mdContent: >-
           The cornerstone of our curriculum begins with
-          [Scratch](https://www.thecodingspace.com/the-coding-space-blog/celebrating-scratch-during-scratchweek),
+          [Scratch](/blog/2022-02-04-celebrating-scratch-during-scratchweek),
           a block-based programming language built by MIT.
 
 
@@ -66,8 +66,7 @@ pageBuilder:
         textColor: "#264548"
         mdContent: "Our team at The Coding Space has spent thousands of hours creating
           the best possible solution to this answer:
-          [WoofJS](https://www.thecodingspace.com/the-coding-space-blog/whats-w\
-          oofjs-got-to-do-with-it). We developed WoofJS as an intermediate step,
+          [WoofJS](/blog/2022-02-04-whats-woofjs-got-to-do-with-it). We developed WoofJS as an intermediate step,
           allowing students to leverage their existing Scratch knowledge while
           using a web programming language. For every block in Scratch, we
           created an equivalent text-based command in JavaScript, thus creating
@@ -118,7 +117,7 @@ pageBuilder:
         title: Do you teach Processing?
         textColor: "#264548"
         mdContent: Part of our goal in creating [WoofJS
-          ](https://www.thecodingspace.com/the-coding-space-blog/whats-woofjs-got-to-do-with-it)was
+          ](/blog/2022-02-04-whats-woofjs-got-to-do-with-it)was
           to build an alternative to Processing that addresses its many flaws as
           an introductory programming language.
       - fgColor: "#264548"
