@@ -92,4 +92,20 @@ pageBuilder:
       * Partner with existing teachers to learn how to lead coding classes.
       * Serve as a mentor and role model for young learners.
       * Be front of mind for future TCS employment opportunities.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#9de2dd"
+    mdContent: >-
+      ##  Looking For Something Else?
+
+
+      Our seasonal camps and classes are suitable for students of all ages and skill levels. Click below to learn more about our experience levels or get personalized recommendations by taking our Placement Quiz.
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Learn More
+        content: "#"
 ---
