@@ -70,4 +70,9 @@ pageBuilder:
 
 
       Ready to sign up for a GirlCode Class? Every seasonal class and camp program we offer includes a GirlCode option. Check out our Programs page to learn more and register.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: "## **What GirlCoders and Their Parents Have to Say About Our Program**"
 ---
