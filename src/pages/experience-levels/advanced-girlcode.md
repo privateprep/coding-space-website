@@ -7,13 +7,14 @@ seo_description: Our GirlCode program is designed to create a welcoming and
 categoryIds:
   - 48
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48
+display: true
 thumbnail: /img/coder.jpg
 details:
   age: Ages 8+
   gender:
     - GirlCode
   byline: Scratch through JavaScript
-  experience: Some Experience Required
+  experience: Advanced
   skills:
     - JavaScript
     - HTML/CSS
