@@ -108,4 +108,22 @@ pageBuilder:
     list:
       - title: Learn More
         content: "#"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Scholarships Available
+
+
+
+
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#9de2dd"
+    list:
+      - title: Apply For A Scholarship
+        content: "#"
 ---
