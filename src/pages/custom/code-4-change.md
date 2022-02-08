@@ -103,7 +103,7 @@ pageBuilder:
           instructors, during a live virtual event on Sunday, May 16th.
       - title: How can kids get involved?
         mdContent: Participating coders can [sign up
-          here](https://www.thecodingspace.com/c4csignup.html) between Monday,
+          here](https://code4change.thecodingspace.com/c4csignup) between Monday,
           March 22nd and Sunday, April 11th.
       - title: How can parents help support their C4C coders?
         mdContent: We encourage you to explore the [Sustainable Development
@@ -137,7 +137,7 @@ pageBuilder:
           **April 11th - Registration Closes**
 
 
-          Make sure to register by April 11th. 
+          Make sure to register by April 11th.
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
