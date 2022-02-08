@@ -105,4 +105,28 @@ pageBuilder:
 
 
           Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space instructors draw ideas from students through the use of the Socratic Method and model strategies on how they can find answers for themselves.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list: []
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#faf6ee"
+      list:
+        - title: Learn More About Our Curriculum
+          content: "#"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/chappaqua-stem-code-4-change-game.png
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## Custom Curriculum and Resources
+
+
+      Our customized curriculum was created to inspire your child to achieve their maximum potential. This student-centered approach combines project-based learning with unique platforms like WoofJS to create a totally personalized education experience, allowing students to be challenged at their individual level and pace.
 ---
