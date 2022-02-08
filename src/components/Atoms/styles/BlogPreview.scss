@@ -23,6 +23,10 @@
   }
 
   &__header {
+    .featured-thumbnail {
+      display: flex;
+      justify-content: center;
+    }
     img {
       max-width: 100%;
       display: block;
