@@ -35,4 +35,31 @@ pageBuilder:
           curriculum and teaching methods are centered around asking questions
           that empower students to explore problems, discover solutions, and
           grow as thinkers, learners, and leaders. "
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## Here’s What That Looks Like in Our Classrooms"
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "### **Project-Based Learning**"
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: In our classrooms, students learn entirely through creating projects.
+          Projects allow students to work at their own pace on building critical
+          thinking and problem solving skills while simultaneously picking up
+          the hard skills of coding. Students create games in Scratch, progress
+          to websites in HTML, CSS, and JavaScript, as well as work in many
+          other tools and languages depending on what keeps them both engaged
+          and challenged. It is the job of our teachers to make sure that
+          students find projects that are both engaging and challenging at the
+          same time.
 ---
