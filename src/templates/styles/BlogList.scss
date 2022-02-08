@@ -18,6 +18,11 @@
     grid-gap: 2rem;
     grid-auto-columns: auto;
 
+    .featured-thumbnail {
+      display: flex;
+      justify-content: center;
+    }
+
     @media (min-width: 576px) {
       // two column on landscape phone
       grid-template-columns: repeat(2, 1fr);
