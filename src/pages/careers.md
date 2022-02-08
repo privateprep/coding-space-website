@@ -24,7 +24,7 @@ pageBuilder:
       We teach differently at The Coding Space. Join a team that is passionate
       about our mission, follows a unique teaching philosophy, and cares. 
 
-      [Contact us](https://www.thecodingspace.com/contact) to learn more.
+      [Contact us](/contact-us) to learn more.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:

@@ -11,7 +11,7 @@ banner:
   removalDate: 2022-01-26T16:39:43.806Z
   mdContent:
     Signup for our [Spring
-    Classes](http://localhost:8000/classes?semesters[]=Spring%20Classes%202022)!
+    Classes](/programs/spring)!
 hero:
   heading: The Coding Space
   subheading:
@@ -24,7 +24,7 @@ hero:
       - title: Find a Class
         content: /classes
       - title: Spring Classes
-        content: /classes?semesters[]=Spring%20Classes%202022
+        content: /programs/spring
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
@@ -103,7 +103,7 @@ featuredProject:
       image: /img/smily_face.svg
       alt: Placeholder image for India
     className: Intermediate GirlCode
-    classUrl: http://localhost:8000/experience-levels/intermediate-girlcode/
+    classUrl: /experience-levels/intermediate-girlcode/
   project:
     description:
       This is a quiz to determine which charity to donate to based on how you
