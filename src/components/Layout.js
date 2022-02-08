@@ -53,7 +53,7 @@ const menuItems = [
   },
   {
     title: "Partnerships",
-    path: "/partnerships/partnerships/",
+    path: "/partnerships",
     subMenu: [],
   },
   {
