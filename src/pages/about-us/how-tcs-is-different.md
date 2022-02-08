@@ -68,5 +68,5 @@ pageBuilder:
     textColor: "#faf6ee"
     list:
       - title: Contact Us
-        content: "#"
+        content: /contact-us
 ---

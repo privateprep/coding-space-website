@@ -74,7 +74,7 @@ pageBuilder:
         content: >
           Maintain ongoing training, mentoring, and support to equip our staff
           with the tools necessary to support and advocate for students and
-          co-workers of all backgrounds. 
+          co-workers of all backgrounds.
 
 
           Maintain a compensation review process that includes pay equity analysis.
@@ -103,7 +103,7 @@ pageBuilder:
     textColor: "#eec11a"
     list:
       - title: Learn More About Our Scholarship
-        content: "#"
+        content: /about-us/scholarship-program
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
