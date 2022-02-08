@@ -62,4 +62,27 @@ pageBuilder:
           and challenged. It is the job of our teachers to make sure that
           students find projects that are both engaging and challenging at the
           same time.
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          Unlike virtually all other coding curriculums, The Coding Space
+          doesn’t use follow-along instructions. Instead, we employ Untutorials:
+          fun and engaging games, websites, or apps that students are challenged
+          to figure out how to build. 
+
+
+
+
+          Untutorials list the high-level tasks students need to complete the project, but intentionally leave out how to accomplish those tasks. Students develop strong grit, determination, and problem-solving skills by figuring out the rest via tinkering, Googling, asking a friend, and iterating towards a solution, all while developing deep insights and intuition of high-level concepts.
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "### Untutorials"
 ---
