@@ -85,4 +85,24 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: "### Untutorials"
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "### Expert Mentorship"
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          Fostering non-cognitive skills, like perseverance and intellectual
+          self-confidence, is a delicate balance of targeted encouragement and
+          tough love.
+
+
+          Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space instructors draw ideas from students through the use of the Socratic Method and model strategies on how they can find answers for themselves.
 ---
