@@ -50,18 +50,20 @@ const BoxWithLogo = ({
           margin: "auto",
         }}
       >
-        <h3
-          className="item__head__title"
-          style={{
-            fontSize: "1.8rem",
-            margin: "0",
-            marginBottom: "1rem",
-            lineHeight: "2.2rem",
-            color: textColor,
-          }}
-        >
-          {heading}
-        </h3>
+        {!!heading && (
+          <h3
+            className="item__head__title"
+            style={{
+              fontSize: "1.8rem",
+              margin: "0",
+              marginBottom: "1rem",
+              lineHeight: "2.2rem",
+              color: textColor,
+            }}
+          >
+            {heading}
+          </h3>
+        )}
         <div
           className="item__content"
           style={{

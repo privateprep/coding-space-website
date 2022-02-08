@@ -141,7 +141,6 @@ pageBuilder:
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
-        heading: .
     rightComponent:
       - type: boxWithLogo
         bgColor: "#ffffff"
@@ -164,7 +163,6 @@ pageBuilder:
 
 
           Winners will be announced live during a special virtual event!
-        heading: .
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"

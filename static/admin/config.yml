@@ -118,7 +118,7 @@ boxWithLogo:
     summary: "{{fields.heading}}",
     fields:
       [
-        { label: Heading, name: heading, widget: string },
+        { label: Heading, name: heading, widget: string, required: false },
         { label: Content, name: mdContent, widget: markdown },
         *backgroundColor,
         {
