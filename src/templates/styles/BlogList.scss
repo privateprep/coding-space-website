@@ -28,6 +28,11 @@
       padding: 4rem;
       grid-template-columns: repeat(3, 1fr);
     }
+
+    .featured-thumbnail {
+      display: flex;
+      justify-content: center;
+    }
   }
 
   &__footer {
