@@ -31,12 +31,12 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
-      - title: Summer 2021
-        content: "#"
-      - title: Fall 2021
-        content: "#"
-      - title: Spring 2022
-        content: "#"
+      - title: Summer
+        content: /programs/summer
+      - title: Fall
+        content: /programs/fall
+      - title: Spring
+        content: /programs/spring
   - type: textAndImageBlock
     image:
       alt: Accessibility name
@@ -71,7 +71,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/experiential-programs
     mediaPosition: right
     textColor: "#264548"
     textAlign: center
@@ -88,7 +88,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Sign Up Now
-          content: "#"
+          content: /classes
     mediaPosition: left
     textColor: "#264548"
     textAlign: center
@@ -116,13 +116,13 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Girl Scouts
-        content: "#"
+        content: /programs/girl-scouts-program
       - title: Private Lessons & Small Groups
-        content: "#"
+        content: /programs/private-lessons-and-small-groups/
       - title: Birthday Parties
-        content: "#"
+        content: /programs/birthday-parties/
       - title: Workshops
-        content: "#"
+        content: /programs/one-time-events-and-workshops/
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -130,7 +130,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: See What’s Coming
-          content: "#"
+          content: /programs/special-events/
     mediaPosition: left
     textColor: "#264548"
     textAlign: center
