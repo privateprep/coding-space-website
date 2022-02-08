@@ -12,12 +12,9 @@ const BlogRoll = ({ blogRoll }) => {
   const { edges: posts } = blogRoll;
 
   return (
-    <React.Fragment>
-      <h1>Latest stories</h1>{" "}
-      <div className="blog-roll">
-        {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
-      </div>
-    </React.Fragment>
+    <div className="blog-roll">
+      {posts && posts.map(({ node: post }) => <BlogPreview {...post} />)}
+    </div>
   );
 };
 
