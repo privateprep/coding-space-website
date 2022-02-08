@@ -165,4 +165,140 @@ pageBuilder:
 
           Winners will be announced live during a special virtual event!
         heading: .
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/unsustainable.png
+      alt: UN’s 17 Sustainable Development Goals
+    mediaPosition: right
+    mdContent: >-
+      ### The UN’s 17 Sustainable Development Goals
+
+
+      What global issue are you passionate about solving? Below you’ll find the 17 Sustainable Development Goals created by the UN. We encourage you to [visit their website](https://sdgs.un.org/goals) to learn more about each issue. Then, consider your passions: are you dedicated to protecting wildlife and the environment? Making sure people have enough to eat and the resources they need to thrive? Once you’ve decided on your project, start thinking about how you would solve it and how you can explore that solution in a game, project, or presentation.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## Wondering what's possible? Here are a few sample project designs
+      created by previous Code 4 Change participants."
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: iframe
+        bgColor: "#faf6ee"
+        content: https://scratch.mit.edu/projects/171209549/embed
+        ratio: ratio1x1
+        title: Clean Water For All
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          > ## Scratch
+
+
+          The Clean Water For All project teaches how to care for our oceans through proper recycling.\
+
+          [View Project](https://scratch.mit.edu/projects/171209549)
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          ## WoofJS
+
+
+          In this WoofJS game, players drag debris to different sorting bins to save the beavers.\
+
+          [View Project](https://woofjs.com/full.html#games_for_change)
+    rightComponent:
+      - type: iframe
+        bgColor: "#ffffff"
+        content: https://woofjs.com/full.html#games_for_change
+        ratio: ratio1x1
+        title: Recycle game
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/accomplished.jpg
+      alt: Girl coders laughing while coding!
+    mediaPosition: right
+    mdContent: >-
+      ### Prizes
+
+
+      Winners will be announced during a live virtual event on May 16th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
+    fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ### Sharing Instructions
+
+
+      #### Scratch
+
+
+      After creating and completing your project on Scratch, you will need to share it publicly. To do so, navigate to your Project Page. If you can’t find your Project Page, simply save your project, then go to "My Stuff" and click on the project from there.
+
+
+      If you see this banner, just click Share!
+
+
+      ![](https://www.thecodingspace.com/uploads/6/0/5/0/60503695/screenshot-2020-04-13-at-4-04-34-pm_orig.png)
+
+
+      If you do not see this banner, then either your project is already shared or your account has not been fully activated. To check if your account is fully activated, go to your Profile page by clicking on your username on the top bar and selecting Profile.
+
+
+      If you see this banner, your account needs to be activated:
+
+
+      ![](https://www.thecodingspace.com/uploads/6/0/5/0/60503695/screenshot-2020-04-13-at-4-06-12-pm_orig.png)
+
+
+      If you made the account with The Coding Space, we can help you. Just email us at support@thecodingspace.com and we’ll help you to fully activate your account. Otherwise, you need to activate your account using the email you registered it with.
+
+
+      To test your project’s sharing capabilities, simply click the link on the Project Page which says Copy Link and copy the link into the browser of an incognito window to make sure it is publicly visible. If you can see the project when not signed into the account that made it, your link is ready to submit!
+
+
+      #### WoofJS
+
+
+      All WoofJS projects are public. Just click the fullscreen button, then copy the URL in your browser’s bar. It will look like this one: <https://woofjs.com/full.html#c4cexample>
+
+
+      #### Codepen and Glitch
+
+
+      Just make sure to link to the public version of your project. If you have trouble figuring out how to do this, please just contact us at support@thecodingspace.com
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: "## Have a question?"
+  - type: buttons
+    bgColor: "#ffffff"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
