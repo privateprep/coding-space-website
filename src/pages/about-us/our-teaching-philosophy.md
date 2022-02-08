@@ -40,71 +40,60 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: "## Here’s What That Looks Like in Our Classrooms"
-  - type: sideBySide
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: "### **Project-Based Learning**"
-    rightComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: In our classrooms, students learn entirely through creating projects.
-          Projects allow students to work at their own pace on building critical
-          thinking and problem solving skills while simultaneously picking up
-          the hard skills of coding. Students create games in Scratch, progress
-          to websites in HTML, CSS, and JavaScript, as well as work in many
-          other tools and languages depending on what keeps them both engaged
-          and challenged. It is the job of our teachers to make sure that
-          students find projects that are both engaging and challenging at the
-          same time.
-  - type: sideBySide
+    image:
+      image: /img/kids-building-lego-robot.jpeg
+      alt: Accessibility name
+    mediaPosition: left
+    mdContent: >-
+      ### **Project-Based Learning**
+
+
+      In our classrooms, students learn entirely through creating projects. Projects allow students to work at their own pace on building critical thinking and problem solving skills while simultaneously picking up the hard skills of coding. Students create games in Scratch, progress to websites in HTML, CSS, and JavaScript, as well as work in many other tools and languages depending on what keeps them both engaged and challenged. It is the job of our teachers to make sure that students find projects that are both engaging and challenging at the same time.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          Unlike virtually all other coding curriculums, The Coding Space
-          doesn’t use follow-along instructions. Instead, we employ Untutorials:
-          fun and engaging games, websites, or apps that students are challenged
-          to figure out how to build. 
+    image:
+      image: /img/untutorials.gif
+      alt: Scrolling through Untutorial projects
+    mediaPosition: right
+    mdContent: >-
+      ### Untutorials
 
 
+      Unlike virtually all other coding curriculums, The Coding Space doesn’t use follow-along instructions. Instead, we employ Untutorials: fun and engaging games, websites, or apps that students are challenged to figure out how to build. 
 
 
-          Untutorials list the high-level tasks students need to complete the project, but intentionally leave out how to accomplish those tasks. Students develop strong grit, determination, and problem-solving skills by figuring out the rest via tinkering, Googling, asking a friend, and iterating towards a solution, all while developing deep insights and intuition of high-level concepts.
-    rightComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: "### Untutorials"
-  - type: sideBySide
+      Untutorials list the high-level tasks students need to complete the project, but intentionally leave out how to accomplish those tasks. Students develop strong grit, determination, and problem-solving skills by figuring out the rest via tinkering, Googling, asking a friend, and iterating towards a solution, all while developing deep insights and intuition of high-level concepts.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: "### Expert Mentorship"
-    rightComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          Fostering non-cognitive skills, like perseverance and intellectual
-          self-confidence, is a delicate balance of targeted encouragement and
-          tough love.
+    image:
+      image: /img/20190711-img_9252-1-.jpg
+      alt: Instructor reviewing coding example on a white board in front of a kid.
+    mediaPosition: left
+    mdContent: >-
+      ### Expert Mentorship
 
 
-          Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space instructors draw ideas from students through the use of the Socratic Method and model strategies on how they can find answers for themselves.
+      Fostering non-cognitive skills, like perseverance and intellectual self-confidence, is a delicate balance of targeted encouragement and tough love.
+
+
+      Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space instructors draw ideas from students through the use of the Socratic Method and model strategies on how they can find answers for themselves.
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
