@@ -90,7 +90,7 @@ export const IndexPageTemplate = ({
               <h1 className="title">{mainpitch.title}</h1>
             </div>
             <div className="tile">
-              <h3 className="subtitle">{mainpitch.description}</h3>
+              <p className="subtitle">{mainpitch.description}</p>
             </div>
             {!!mainpitch.buttons &&
               mainpitch.buttons.list.map((button, index) => (
@@ -114,6 +114,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="features__class"></div>
           <div className="features__blogs">
+            <h1>Latest stories</h1>
             <BlogRoll blogRoll={blogRoll} />
           </div>
         </section>
