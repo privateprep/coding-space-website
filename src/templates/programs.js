@@ -81,6 +81,10 @@ export const pageQuery = graphql`
             content
             fgColor
             heading
+            list {
+              content
+              title
+            }
             mdContent
             ratio
             textColor
