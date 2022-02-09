@@ -29,7 +29,7 @@ module.exports = {
       options: {
         apiKey: "391861b6",
         revision: `${Date.now()}`,
-        assetsUrl: "https://www.thecodingspace.com/",
+        assetsUrl: "https://deploy-preview-85--thecodingspace.netlify.app/",
       },
     },
     "gatsby-plugin-react-helmet",
