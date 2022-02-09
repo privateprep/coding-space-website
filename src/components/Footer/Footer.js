@@ -10,20 +10,14 @@ import twitter from "../../img/social/twitter.svg";
 import "./Footer.scss";
 
 const Footer = () => {
-  const prodLinks = [
+  const links = [
     ["/classes", "Classes"],
     ["/locations", "Locations"],
     ["/referral_program", "Referral and Rewards Program"],
-  ];
-
-  const devLinks = [
     ["/our_team", "Our Team"],
     ["/careers", "Careers"],
-    ...prodLinks,
   ];
 
-  const production = process.env.NODE_ENV === "production";
-  const links = production ? prodLinks : devLinks;
   return (
     <footer className="Footer">
       <div className="Footer__content">
