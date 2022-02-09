@@ -24,6 +24,14 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `@honeybadger-io/gatsby-plugin-honeybadger`,
+      options: {
+        apiKey: "391861b6",
+        revision: `${Date.now()}`,
+        assetsUrl: "https://www.thecodingspace.com/",
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
