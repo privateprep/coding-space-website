@@ -62,7 +62,7 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Learn More
-          content: "#"
+          content: /locations/online
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -85,7 +85,7 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/private-lessons-and-small-groups
     textColor: "#264548"
     bgColor: "#ffffff"
     image:

@@ -175,7 +175,7 @@ pageBuilder:
         mdContent: "**How TCS is Different**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: /about-us/our-philosophy
+        content: /about-us/our-teaching-philosophy/
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Our Philosophy**"

@@ -30,7 +30,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Register Now
-          content: "#"
+          content: /classes
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -51,7 +51,7 @@ pageBuilder:
     textColor: "#9de2dd"
     heading: In the High School Accelerator program, your teen will...
     mdContent: |-
-      
+
 
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
@@ -84,7 +84,7 @@ pageBuilder:
     textColor: "#264548"
     heading: In the STEM Leadership program, your teen will...
     mdContent: |-
-      
+
 
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
@@ -100,14 +100,14 @@ pageBuilder:
       ##  Looking For Something Else?
 
 
-      Our seasonal camps and classes are suitable for students of all ages and skill levels. Click below to learn more about our experience levels or get personalized recommendations by taking our Placement Quiz.
+      Our seasonal camps and classes are suitable for students of all ages and skill levels. Click below to learn more about our experience levels or get personalized recommendations by checking what you're interested in.
   - type: buttons
     bgColor: "#264548"
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
       - title: Learn More
-        content: "#"
+        content: /classes
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -125,5 +125,5 @@ pageBuilder:
     textColor: "#9de2dd"
     list:
       - title: Apply For A Scholarship
-        content: "#"
+        content: /about-us/scholarship-program
 ---

@@ -65,7 +65,7 @@ pageBuilder:
 
       > Yes. Upon arrival, and before being admitted to programming, all
       students must undergo a [Health
-      Screening](https://thecodingspace.com/health-screening), which includes a
+      Screening](/health-screening), which includes a
       series of questions and a temperature check.
 
 

@@ -106,7 +106,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Learn More About Our Curriculum
-          content: "#"
+          content: /about-us/our-teaching-philosophy
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:

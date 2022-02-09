@@ -125,7 +125,7 @@ pageBuilder:
       We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs through corporate partnerships so that underrepresented children everywhere can surpass societal limitations and thrive. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through scholarships and corporate partnerships.
 
 
-      Curious to see our partnerships in action? Check out [a recent partnership with TradeZero](https://www.thecodingspace.com/the-coding-space-blog/community-partner-spotlight-tradezero) to provide free coding classes to a Title I school in Brooklyn.
+      Curious to see our partnerships in action? Check out [a recent partnership with TradeZero](/blog/2022-02-08-community-partner-spotlight-tradezero/) to provide free coding classes to a Title I school in Brooklyn.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
@@ -169,7 +169,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Contact Us
-        content: "#"
+        content: /contact-us
   - type: accordion
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"

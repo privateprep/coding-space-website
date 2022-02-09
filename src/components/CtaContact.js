@@ -8,7 +8,7 @@ const CtaContact = () => (
     <p className="cta-contact__secondary">
       Get in touch with our team to get your questions answered.
     </p>
-    <a href="https://thecodingspace.com/contact" className="link-button">
+    <a href="/contact-us" className="link-button">
       Get In Touch
     </a>
   </section>

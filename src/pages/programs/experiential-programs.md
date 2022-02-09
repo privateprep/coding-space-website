@@ -31,7 +31,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/girlcode-program
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -57,7 +57,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/teen-programs
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -93,5 +93,5 @@ pageBuilder:
     textColor: "#eec11a"
     list:
       - title: Apply for a Scholarship
-        content: "#"
+        content: /about-us/scholarship-program
 ---

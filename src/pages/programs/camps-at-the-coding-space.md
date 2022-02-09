@@ -31,7 +31,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/summer-camps
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -54,7 +54,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/special-events
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:

@@ -32,7 +32,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/private-lessons-and-small-groups
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -55,7 +55,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/girl-scouts-program
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -78,7 +78,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/one-time-events-and-workshops
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -101,7 +101,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Learn More
-          content: "#"
+          content: /programs/entries/birthday-parties
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -128,5 +128,5 @@ pageBuilder:
     textColor: "#9de2dd"
     list:
       - title: Contact Us
-        content: "#"
+        content: /contact-us
 ---

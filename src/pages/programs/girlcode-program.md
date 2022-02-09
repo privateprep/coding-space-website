@@ -23,7 +23,7 @@ pageBuilder:
       Recent research suggests that nearly 65 percent of today’s kindergartners
       will land in jobs that don’t yet exist, likely in the technology, science,
       and math industries. Yet, as of 2015, [only 18
-      percent](https://www.thecodingspace.com/the-coding-space-blog/how-to-encourage-a-love-of-steam-in-girls)
+      percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/)
       of graduates with a computer science degree identified as female. Now more
       than ever, we need to close the gender gap in tech by creating
       opportunities for inclusivity.
@@ -39,7 +39,7 @@ pageBuilder:
     textColor: "#264548"
     heading: GirlCoders...
     mdContent: >-
-      
+
 
       * Include girls, transgender, gender non-conforming, and non-binary kids who want to dream big and use code to change the world.
 
@@ -52,8 +52,8 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Click me!
-          content: "#"
+        - title: Sign Up
+          content: /classes?genders[]=GirlCode
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -107,5 +107,5 @@ pageBuilder:
     textColor: "#eec11a"
     list:
       - title: Apply For A Scholarship
-        content: "#"
+        content: /about-us/scholarship-program
 ---

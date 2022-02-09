@@ -103,8 +103,8 @@ pageBuilder:
           instructors, during a live virtual event on Sunday, May 16th.
       - title: How can kids get involved?
         mdContent: Participating coders can [sign up
-          here](https://www.thecodingspace.com/c4csignup.html) between Monday,
-          March 22nd and Sunday, April 11th.
+          here](https://code4change.thecodingspace.com/c4csignup) between
+          Monday, March 22nd and Sunday, April 11th.
       - title: How can parents help support their C4C coders?
         mdContent: We encourage you to explore the [Sustainable Development
           Goals](https://sdgs.un.org/goals) with your children and to engage in
@@ -137,11 +137,10 @@ pageBuilder:
           **April 11th - Registration Closes**
 
 
-          Make sure to register by April 11th. 
+          Make sure to register by April 11th.
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
-        heading: .
     rightComponent:
       - type: boxWithLogo
         bgColor: "#ffffff"
@@ -164,7 +163,6 @@ pageBuilder:
 
 
           Winners will be announced live during a special virtual event!
-        heading: .
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -261,7 +259,7 @@ pageBuilder:
       If you see this banner, just click Share!
 
 
-      ![](https://www.thecodingspace.com/uploads/6/0/5/0/60503695/screenshot-2020-04-13-at-4-04-34-pm_orig.png)
+      ![Code 4 Change banner to share](/img/c4c-share.png "Code 4 Change banner to share")
 
 
       If you do not see this banner, then either your project is already shared or your account has not been fully activated. To check if your account is fully activated, go to your Profile page by clicking on your username on the top bar and selecting Profile.
@@ -270,7 +268,7 @@ pageBuilder:
       If you see this banner, your account needs to be activated:
 
 
-      ![](https://www.thecodingspace.com/uploads/6/0/5/0/60503695/screenshot-2020-04-13-at-4-06-12-pm_orig.png)
+      ![Code 4 Change confirm email banner](/img/c4c-email-confirm.png "Code 4 Change confirm email banner")
 
 
       If you made the account with The Coding Space, we can help you. Just email us at support@thecodingspace.com and we’ll help you to fully activate your account. Otherwise, you need to activate your account using the email you registered it with.
