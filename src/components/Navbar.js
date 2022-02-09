@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Location } from "@reach/router";
 import { Link } from "gatsby";
 import logo from "../img/logo.svg";
-// import menu from "../img/menu-icon.svg";
 import "./Navbar.scss";
 
 const Navigation = ({ location, menuItems }) => {
@@ -132,8 +131,10 @@ const Navigation = ({ location, menuItems }) => {
   );
 };
 
-export default ({ menuItems }) => (
+const Navbar = ({ menuItems }) => (
   <Location>
     {route => <Navigation menuItems={menuItems} {...route} />}
   </Location>
 );
+
+export default Navbar;
