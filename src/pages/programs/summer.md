@@ -58,7 +58,7 @@ pageBuilder:
         textColor: "#faf6ee"
         heading: Your child will...
         mdContent: |-
-          
+
 
           * Learn to code!
           * Be challenged at their individual level.
@@ -73,7 +73,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: /about-us/our-philosophy
+          content: /about-us/our-teaching-philosophy
     textColor: "#264548"
     bgColor: "#ffffff"
     image:

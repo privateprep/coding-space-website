@@ -69,7 +69,7 @@ const menuItems = [
       },
       { title: "Common Questions", path: "/about-us/common-questions" },
       { title: "Rewards Program", path: "/referral_program" },
-      { title: "Our Philosophy", path: "/about-us/our-philosophy" },
+      { title: "Our Teaching Philosophy", path: "/about-us/our-teaching-philosophy" },
       { title: "LMS", path: "/about-us/my-coding-space-lms" },
     ],
   },
