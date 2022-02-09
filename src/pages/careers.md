@@ -33,7 +33,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: /about-us/our-philosophy
+          content: /about-us/our-teaching-philosophy
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
