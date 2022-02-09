@@ -52,15 +52,9 @@ pageBuilder:
   - type: customLinkBoxes
     bgColor: "#faf6ee"
     list:
-      - bgColor: "#264548"
-        fgColor: "#264548"
-        content: "#"
-        textAlign: center
-        textColor: "#faf6ee"
-        mdContent: "**Upcoming Mini Camps**"
       - bgColor: "#faf6ee"
         fgColor: "#264548"
-        content: "#"
+        content: /programs/summer-camps
         textAlign: center
         textColor: "#faf6ee"
         mdContent: "**Summer Camp**"
