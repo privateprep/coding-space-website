@@ -34,6 +34,62 @@ pageBuilder:
 
       Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#9de2dd"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Contact Us
+          content: /contact-us
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/field_trips.jpg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## Bringing Silicon Valley to NY
+
+
+
+
+      ### Field Trips to Tech Companies
+
+
+      Exclusive field trips to NYC tech companies. Past trips have included Google, Etsy, and Microsoft
+
+
+      ### Real World Problem-Solving
+
+
+      Our Code For Change curriculum encourages campers to learn about the United Nations Sustainable Development Goals and develop a technology solution to tackle this global issue.
+
+
+      ### Personalizing Learning
+
+
+      We guarantee individual attention and a custom learning experience for each camper with a 4:1 student to teacher ratio. Our counselors create a welcoming and engaging camp environment for all campers.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#ffffff"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /about-us/our-teaching-philosophy
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/hands_on.jpeg
+      alt: Kids working on on a computer in a group
+    mediaPosition: left
+    mdContent: >-
+      ## Not Your Typical Coding Class
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
+    fgColor: "#9de2dd"
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
@@ -59,70 +115,70 @@ pageBuilder:
           * Balance screen time with hands-on activities, games, and more.
           * Discover and define their personal passions.
           * Make new friends near and far.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#ffffff"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /about-us/our-teaching-philosophy
-    textColor: "#264548"
-    bgColor: "#ffffff"
-    image:
-      image: /img/hands_on.jpeg
-      alt: Kids working on on a computer in a group
-    mediaPosition: left
-    mdContent: >-
-      ## Not Your Typical Coding Class
-
-
-      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
-    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
-    bgColor: "#264548"
-    textColor: "#ffffff"
-    mdContent: >-
-      ## Class Options 
-
-
-      Our highly trained teachers are able to instruct students with a range of abilities and skills levels: from complete beginners to students already building applications in JavaScript and Python. Choose from two weekly classes and a variety of skill levels. For added scheduling flexibility, half-semester options are also available.
-  - type: buttons
-    bgColor: "#264548"
-    fgColor: "#9de2dd"
+    bgColor: "#ffffff"
     textColor: "#264548"
-    list:
-      - title: Learn More
-        content: /classes/?semesters[]=Summer%202022
+    mdContent: |-
+      ## A Day at Camp Coding Space
+
+      ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
+  - type: sideBySide
+    bgColor: "#9de2dd"
+    leftComponent:
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        heading: Upper East Side
+        mdContent: |-
+          **Location:** 201 E 83rd Street, New York, NY 10028
+
+          **Drop Off:** 9:00 AM
+
+          **Pickup:** 3:30 PM
+
+          **Laptops:** Provided
+
+          **Lunch:** Bring Your Own
+
+          **Outdoor time:** 12:30 PM-1:30 PM in Central or Nearby Park
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#264548"
+        textColor: "#ffffff"
+        heading: Park Slope
+        mdContent: >-
+          **Location:** 461 6th St, Brooklyn, NY 11215 (Greenwood Baptist
+          Church, Entrance on 7th Avenue
+
+
+          **Drop Off:** 9:00 AM
+
+
+          **Pickup:** 3:30 PM
+
+
+          **Laptops:** Provided
+
+
+          **Lunch:** Bring Your Own
+
+
+          **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
   - type: sideBySide
     bgColor: "#ffffff"
     leftComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        heading: Class Schedule
-        mdContent: |-
-          **First:** Class Kick-Off & Challenges
-
-          **Next:** Project-Based Coding
-
-          **Then:** Hands-On Activity*
-
-          **Last:** Reflection
-    rightComponent:
       - type: styledChecks
         bgColor: "#ffffff"
         fgColor: "#9de2dd"
         textColor: "#264548"
         mediaPosition: column
         list:
-          - title: Class Kickoff & Challenges
-            content: Each week, students are challenged to learn new programming techniques
-              and stretch their minds in fresh, interesting ways. We'll kick off
-              each class with a warm welcome and ideas and inspiration for new
-              challenges to tackle.
+          - title: Warm Up Activities
+            content: We'll kick-off each day with fun new ways of getting to know each other
+              through activities like Theme Day or Cool Hidden Talents.
           - title: Project-Based Coding
             content: We challenge our students to create projects as unique as they are.
               Students receive individualized attention and curriculum
@@ -133,29 +189,100 @@ pageBuilder:
               already building their own websites and projects, students
               progress through our curriculum at the pace that’s right for them.
           - title: Hands-On Activities
-            content: Time to stretch, tinker, and play. Students take a break from their
+            content: Time to stretch, express, and play. Students take a break from their
               screens and discover the opportunities to create and explore that
-              exist all around them, even in their own living rooms. Centered in
-              the world of STEM, these activities range from short story writing
-              and yoga to virtual escape rooms, cryptography, and much more.
-              These opportunities, offered in classes longer than 1.5 hours,
+              exist all around them. Centered in the world of STEAM, these
+              activities range from short story writing and yoga to cryptography
+              and science experiments, and much more. These opportunities
               support cognitive, emotional, and social development, allowing
-              students to grow in fun new ways.
+              students to grow in new ways.
+    rightComponent:
+      - type: styledChecks
+        bgColor: "#ffffff"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        mediaPosition: column
+        list:
+          - title: STEM Challenges
+            content: Campers will build their engineering grit and teamwork skills by
+              collaborating on daily STEM challenges, like building the
+              strongest bridge or tallest tower, making a light blink in
+              Arduino, inventing a Rube Goldberg machine to solve a problem, and
+              more!
+          - title: " Field Trips"
+            content: >-
+              During each two-week session, campers go on field trips to nearby
+              tech companies. Past field trips have included trips to Google,
+              Etsy, and Microsoft.*
+
+
+              *Please note: Field trips are available on Weeks 2, 4, 6, & 8. Trips are subject to change based on CDC recommendations relating to COVID-19. Field trip schedules are expected to be released in April.
           - title: Reflection
             content: >
               Each class ends with a reflection on the day's work, lessons
               learned, and future goals.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/unsustainable.png
+      alt: UN sustainability goals
+    mediaPosition: right
+    mdContent: >-
+      ### Coders Who Care
+
+
+      At The Coding Space, we are passionate about creating a space for campers to dream big and see how technology can be a tool for changing the world.
+
+
+      One of our key programs is the Code for Change Challenge. Each summer, campers learn about one of the United Nations Sustainable Development Goals (SDGs) and work on developing a technology solution to tackle this global issue.
+
+
+      This summer campers will have the opportunity to build projects around an SDG they'd like to tackle and present it to the camp at the end of the week.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Learn More Here
+          content: /programs/girlcode-program/
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/accomplished.jpg
+      alt: Two girl camp coders smiling at a computer
+    mediaPosition: right
+    mdContent: >-
+      ### Don't Miss a Special Two Weeks of GirlCode!
+
+
+      ## Why all girls classes?
+
+
+      Only 20% of tech jobs are held by women.
+
+
+      Male dominated coding classes could be an intimidating way to start learning to code.
+
+
+      By creating a welcoming and inclusive environment for girls to learn to code, we can help change the gender gap in tech.
+    fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
+    bgColor: "#264548"
+    textColor: "#ffffff"
     mdContent: >-
       ##  Scholarships Available
 
 
       We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
   - type: buttons
-    bgColor: "#faf6ee"
+    bgColor: "#264548"
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
