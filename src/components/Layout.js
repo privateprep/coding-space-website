@@ -1,6 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import BasicHeader from "../components/BasicHeader";
+import { Helmet } from "react-helmet";;
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar";
 import "./all.scss";
@@ -92,7 +91,6 @@ const menuItems = [
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
-  const production = process.env.NODE_ENV === "production";
   return (
     <div>
       <Helmet>
@@ -141,7 +139,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image:height" content={2000} />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
-      {!!production ? <BasicHeader /> : <Navbar menuItems={menuItems} />}
+      <Navbar menuItems={menuItems} />
       <div className="page-container">{children}</div>
       <Footer />
     </div>
