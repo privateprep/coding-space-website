@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";;
+import { Helmet } from "react-helmet";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar";
 import "./all.scss";
@@ -7,90 +7,98 @@ import "../fonts/fonts.css";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
-const menuItems = [
-  {
-    title: "Get Started",
-    subMenu: [
-      { title: "Help me decide?", path: "/classes" },
-      { title: "Locations", path: "/locations" },
-      { title: "How TCS is different", path: "/about-us/how-tcs-is-different" },
-    ],
-  },
-  {
-    title: "Programs",
-    path: "",
-    subMenu: [
-      {
-        title: "Our Programs",
-        path: "/programs/our-programs",
-      },
-      {
-        title: "Experience Levels",
-        path: "/programs/experience-level",
-      },
-      {
-        title: "Seasonal Programs",
-        path: "/programs/seasonal-programs",
-      },
-      {
-        title: "Experiential Programs",
-        path: "/programs/experiential-programs",
-      },
-      {
-        title: "Camps",
-        path: "/programs/camps-at-the-coding-space",
-      },
-      {
-        title: "Build Your Own",
-        path: "/programs/build-your-own-programs-at-the-coding-space",
-      },
-      {
-        title: "Special Events",
-        path: "/programs/special-events",
-      },
-    ],
-  },
-  {
-    title: "Partnerships",
-    path: "/partnerships",
-    subMenu: [],
-  },
-  {
-    title: "About Us",
-    path: "",
-    subMenu: [
-      { title: "About Us", path: "/about-us/" },
-      { title: "How TCS is different", path: "/about-us/how-tcs-is-different" },
-      { title: "Social Impact", path: "/about-us/social-impact/" },
-      {
-        title: "Scholarship Program",
-        path: "/about-us/scholarship-program",
-      },
-      { title: "Common Questions", path: "/about-us/common-questions" },
-      { title: "School Programs", path: "/about-us/programs" },
-      { title: "Rewards Program", path: "/referral_program" },
-      { title: "Our Teaching Philosophy", path: "/about-us/our-teaching-philosophy" },
-      { title: "LMS", path: "/about-us/my-coding-space-lms" },
-    ],
-  },
-  {
-    title: "Blogs",
-    path: "/blog",
-    subMenu: [],
-  },
-  {
-    title: "Contact Us",
-    path: "/contact-us",
-    subMenu: [],
-  },
-  {
-    title: "COVID Safety",
-    path: "/safety-policy/",
-    subMenu: [],
-  },
-];
-
 const TemplateWrapper = ({ children }) => {
+  const menuItems = [
+    {
+      title: "Get Started",
+      subMenu: [
+        { title: "Help me decide?", path: "/classes" },
+        { title: "Locations", path: "/locations" },
+        {
+          title: "How TCS is different",
+          path: "/about-us/how-tcs-is-different",
+        },
+      ],
+    },
+    {
+      title: "Programs",
+      path: "",
+      subMenu: [
+        {
+          title: "Our Programs",
+          path: "/programs/our-programs",
+        },
+        {
+          title: "Experience Levels",
+          path: "/programs/experience-level",
+        },
+        {
+          title: "Seasonal Programs",
+          path: "/programs/seasonal-programs",
+        },
+        {
+          title: "Experiential Programs",
+          path: "/programs/experiential-programs",
+        },
+        {
+          title: "Camps",
+          path: "/programs/camps-at-the-coding-space",
+        },
+        {
+          title: "Build Your Own",
+          path: "/programs/build-your-own-programs-at-the-coding-space",
+        },
+        {
+          title: "Special Events",
+          path: "/programs/special-events",
+        },
+      ],
+    },
+    {
+      title: "Partnerships",
+      path: "/partnerships",
+      subMenu: [],
+    },
+    {
+      title: "About Us",
+      path: "",
+      subMenu: [
+        { title: "About Us", path: "/about-us/" },
+        {
+          title: "How TCS is different",
+          path: "/about-us/how-tcs-is-different",
+        },
+        { title: "Social Impact", path: "/about-us/social-impact/" },
+        {
+          title: "Scholarship Program",
+          path: "/about-us/scholarship-program",
+        },
+        { title: "Common Questions", path: "/about-us/common-questions" },
+        { title: "School Programs", path: "/about-us/programs" },
+        { title: "Rewards Program", path: "/referral_program" },
+        {
+          title: "Our Teaching Philosophy",
+          path: "/about-us/our-teaching-philosophy",
+        },
+        { title: "LMS", path: "/about-us/my-coding-space-lms" },
+      ],
+    },
+    {
+      title: "Blogs",
+      path: "/blog",
+      subMenu: [],
+    },
+    {
+      title: "Contact Us",
+      path: "/contact-us",
+      subMenu: [],
+    },
+    {
+      title: "COVID Safety",
+      path: "/safety-policy/",
+      subMenu: [],
+    },
+  ];
   const { title, description } = useSiteMetadata();
   return (
     <div>
