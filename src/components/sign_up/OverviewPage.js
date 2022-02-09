@@ -46,17 +46,20 @@ const OverviewPage = ({
   // set vaccinated status if online
   useEffect(() => {
     if (!!isOnline) setFieldValue("vaccinated", "yes");
-  }, [isOnline]);
+  }, [isOnline, setFieldValue]);
 
-  const customCheckVaccination = useCallback(e => {
-    setFieldValue("vaccinated", e.target.value);
-    const value = e.target.value;
-    if (isOnline || value === "yes") {
-      setSubmitting(false);
-    } else if (e.target.value === "no") {
-      setSubmitting(true);
-    }
-  });
+  const customCheckVaccination = useCallback(
+    e => {
+      setFieldValue("vaccinated", e.target.value);
+      const value = e.target.value;
+      if (isOnline || value === "yes") {
+        setSubmitting(false);
+      } else if (e.target.value === "no") {
+        setSubmitting(true);
+      }
+    },
+    [isOnline, setFieldValue, setSubmitting]
+  );
 
   const applyPromo = useCallback(
     async promoCode => {
