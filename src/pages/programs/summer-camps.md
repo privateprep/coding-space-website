@@ -124,7 +124,7 @@ pageBuilder:
 
       ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
   - type: sideBySide
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     leftComponent:
       - type: boxWithLogo
         bgColor: "#faf6ee"
