@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import "./404.scss";
 import rocket from "../img/rocket.png";
-import HoneyBadger from "@honeybadger-io/js";
+import HoneyBadger from "../utils/honeybadger";
 
 const NotFoundPage = ({ location }) => {
   const starContainer = createRef();
@@ -12,7 +12,7 @@ const NotFoundPage = ({ location }) => {
       starContainer.current.innerHTML += `<div class="star"></div>`;
     }
   });
-  debugger;
+
   const url = location.href ? location.href : "";
   useEffect(() => {
     HoneyBadger.notify({ name: "Error: 404 missing page", message: url });
