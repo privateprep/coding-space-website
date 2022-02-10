@@ -23,7 +23,7 @@ $tablet-width: 768px;
 
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--fontStack);
   background: var(--background);
   color: var(--text-primary);
@@ -122,6 +122,10 @@ h1 {
   padding-top: 0;
   color: inherit;
   line-height: 1.1;
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 p:first-of-type {
