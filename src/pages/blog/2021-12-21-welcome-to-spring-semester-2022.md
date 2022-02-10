@@ -10,7 +10,7 @@ description: Welcome to the Spring Semester! We’re so excited to offer the
   welcomed back familiar faces and met new ones, too. We’ve been reminded many
   times these past few months about the inherent joy coding brings to us all,
   and we can’t wait to bring that into the new year.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-logo.png
   alt: Cherry blossoms
