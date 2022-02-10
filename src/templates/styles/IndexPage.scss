@@ -65,20 +65,8 @@
   }
 
   &__main {
-    padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    @media (min-width: 1080px) {
-      padding: 4rem 8rem;
-      gap: 4rem;
-    }
-
-    .features {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
   }
 }
 
@@ -88,6 +76,7 @@
   align-items: center;
   justify-items: center;
   grid-template-columns: 1fr;
+  background-color: var(--accent);
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
@@ -98,6 +87,8 @@
 .featured-project {
   display: flex;
   flex-direction: column;
+  background-color: var(--white);
+  max-height: 84vh;
 
   &__heading {
     display: flex;
@@ -119,6 +110,7 @@
 
     &__iframe {
       width: 100%;
+      max-height: 70vh;
       .component {
         padding: 0;
       }
@@ -151,7 +143,15 @@
   }
 }
 
+.featured-blogs {
+  background-color: var(--accent);
+}
+
 .testimonials {
+  background-color: var(--primary);
+  h2 {
+    color: var(--white);
+  }
   &__reviews {
     display: grid;
     grid-gap: 1rem;
