@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { Redirect } from "@reach/router";
 import { IndexPageTemplate } from "./template_exports/index-page-template";
 import Layout from "../components/Layout";
 
@@ -12,19 +11,15 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      {process.env.NODE_ENV === "production" ? (
-        <Redirect noThrow to="/locations" />
-      ) : (
-        <IndexPageTemplate
-          banner={frontmatter.banner}
-          hero={frontmatter.hero}
-          mainpitch={frontmatter.mainpitch}
-          blogRoll={data.blogRoll}
-          differentiators={frontmatter.differentiators}
-          featuredProject={frontmatter.featuredProject}
-          reviews={frontmatter.reviews}
-        />
-      )}
+      <IndexPageTemplate
+        banner={frontmatter.banner}
+        hero={frontmatter.hero}
+        mainpitch={frontmatter.mainpitch}
+        blogRoll={data.blogRoll}
+        differentiators={frontmatter.differentiators}
+        featuredProject={frontmatter.featuredProject}
+        reviews={frontmatter.reviews}
+      />
     </Layout>
   );
 };
@@ -96,6 +91,7 @@ export const pageQuery = graphql`
             content
             description
             title
+            ratio
           }
           studentProfile {
             age

@@ -5,13 +5,13 @@
   z-index: 100;
   border-bottom: 1px solid var(--lightGrey);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  padding: 0 1rem;
 }
 
 .Nav--Container {
   display: flex;
   align-items: center;
   height: 4rem;
-  padding-left: 1rem;
 }
 
 .Nav--Links {

@@ -29,7 +29,7 @@ module.exports = {
       options: {
         apiKey: "391861b6",
         revision: process.env.REVIEW_ID,
-        assetsUrl: process.env.DEPLOY_URL,
+        assetsUrl: `${process.env.URL}/assets`,
       },
     },
     "gatsby-plugin-react-helmet",
