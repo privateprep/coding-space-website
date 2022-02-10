@@ -28,8 +28,8 @@ module.exports = {
       resolve: `@honeybadger-io/gatsby-plugin-honeybadger`,
       options: {
         apiKey: "391861b6",
-        revision: `${Date.now()}`,
-        assetsUrl: "https://deploy-preview-85--thecodingspace.netlify.app/",
+        revision: process.env.REVIEW_ID,
+        assetsUrl: process.env.DEPLOY_URL,
       },
     },
     "gatsby-plugin-react-helmet",
