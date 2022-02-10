@@ -101,7 +101,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Learn More
-          content: /programs/entries/birthday-parties
+          content: /programs/birthday-parties
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
