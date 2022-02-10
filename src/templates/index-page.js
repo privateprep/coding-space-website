@@ -91,6 +91,7 @@ export const pageQuery = graphql`
             content
             description
             title
+            ratio
           }
           studentProfile {
             age
