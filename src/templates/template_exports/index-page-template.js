@@ -84,10 +84,10 @@ export const IndexPageTemplate = ({
         </video>
       </div>
       <div className="homepage__main">
-        <section className="main-pitch">
+        <section className="main-pitch component">
           <div className="content">
             <div className="tile">
-              <h1 className="title">{mainpitch.title}</h1>
+              <h2 className="title">{mainpitch.title}</h2>
             </div>
             <div className="tile">
               <p className="subtitle">{mainpitch.description}</p>
@@ -103,23 +103,20 @@ export const IndexPageTemplate = ({
               ))}
           </div>
         </section>
-        <section className="differentiators">
+        <section className="differentiators component">
           {differentiators.map((differentiator, index) => (
             <Blurb {...differentiator} key={index} />
           ))}
         </section>
-        <section className="features">
-          <div className="features__project">
-            <FeaturedProject {...featuredProject} />
-          </div>
-          <div className="features__class"></div>
-          <div className="features__blogs">
-            <h1>Latest stories</h1>
-            <BlogRoll blogRoll={blogRoll} />
-          </div>
+        <section className="featured-project component">
+          <FeaturedProject {...featuredProject} />
         </section>
-        <section className="testimonials">
-          <h1>What Families Are Saying About The Coding Space</h1>
+        <section className="featured-blogs component">
+          <h1>Latest stories</h1>
+          <BlogRoll blogRoll={blogRoll} />
+        </section>
+        <section className="testimonials component">
+          <h2>What Families Are Saying About The Coding Space</h2>
           <div className="testimonials__reviews">
             {reviews.map((review, index) => (
               <Review {...review} key={index} />

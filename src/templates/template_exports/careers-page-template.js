@@ -47,7 +47,7 @@ const Opening = ({ details, info }) => {
   );
 };
 
-export const CareersPageTemplate = ({ title, openings, pageBuilder }) => {
+export const CareersPageTemplate = ({ title, openings = [], pageBuilder }) => {
   return (
     <div className="careers-page">
       <section className="careers-page__title">
@@ -62,7 +62,13 @@ export const CareersPageTemplate = ({ title, openings, pageBuilder }) => {
         </div>
         <div className="careers-page__openings__list">
           {!openings.length && (
-            <h3>No openings at the moment. Check back soon!</h3>
+            <h3>
+              No openings at the moment. Check back soon! Still interested?
+              Reach out to{" "}
+              <a href="mailto:careers@thecodingspace.com">
+                careers@thecodingspace.com
+              </a>
+            </h3>
           )}
           {openings.map((opening, index) => (
             <Opening

@@ -110,6 +110,7 @@ featuredProject:
       answer the questions.
     title: Where to give
     content: https://scratch.mit.edu/projects/515763533/embed
+    ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
   - content: Jill, NYC
