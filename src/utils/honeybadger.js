@@ -5,3 +5,5 @@ HoneyBadger.configure({
   revision: process.env.REVIEW_ID,
   assetsUrl: process.env.DEPLOY_URL,
 });
+
+export default HoneyBadger;
