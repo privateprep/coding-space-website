@@ -2,11 +2,11 @@
 templateKey: programs
 title: Summer
 titleColor: "#264548"
-description: Beginning in June, these live Zoom classes balance project-based
-  coding education with hands-on activities and opportunities to create and
-  explore at home. Students will make new friends near and far, all while
-  experiencing our signature 4:1 student to teacher ratio ensuring personalized
-  attention when they need it.
+description: Beginning in June, these in person or live Zoom classes balance
+  project-based coding education with hands-on activities and opportunities to
+  create and explore at home. Students will make new friends near and far, all
+  while experiencing our signature 4:1 student to teacher ratio ensuring
+  personalized attention when they need it.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -16,7 +16,7 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: |-
-      # 2022 Classes Online and In-Person
+      # 2022 Classes & Camp Online and In-Person
 
       ## June - August
   - type: textAndImageBlock
@@ -58,7 +58,7 @@ pageBuilder:
         textColor: "#faf6ee"
         heading: Your child will...
         mdContent: |-
-
+          
 
           * Learn to code!
           * Be challenged at their individual level.
