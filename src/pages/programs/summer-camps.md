@@ -85,7 +85,7 @@ pageBuilder:
       alt: Kids working on on a computer in a group
     mediaPosition: left
     mdContent: >-
-      ## Not Your Typical Coding Class
+      ## Not Your Typical Coding Camp
 
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
@@ -261,7 +261,7 @@ pageBuilder:
       ### Don't Miss a Special Two Weeks of GirlCode!
 
 
-      ## Why all girls classes?
+      ## Why all girls camp?
 
 
       Only 20% of tech jobs are held by women.
