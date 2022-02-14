@@ -82,7 +82,7 @@ pageBuilder:
 
       Last 15 minutes: Reflection & badge ceremony
 
-      Pricing: $20/scout
+      Pricing: $25/scout
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
