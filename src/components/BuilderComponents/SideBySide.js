@@ -33,7 +33,7 @@ ComponentSelector.propTypes = {
 */
 const SideBySide = ({ bgColor, leftComponent = [], rightComponent = [] }) => {
   return (
-    <div className="side-by-side" style={{ backgroundColor: bgColor }}>
+    <div className="side-by-side component" style={{ backgroundColor: bgColor }}>
       {!leftComponent.length && !rightComponent.length && (
         <p>Add left and right items to view.</p>
       )}
