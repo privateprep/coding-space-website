@@ -21,7 +21,7 @@ const BoxWithLogo = ({
     <div
       className="BoxWithLogo component"
       style={{
-        paddingTop: "80px",
+        paddingTop: "40px",
         backgroundColor: bgColor,
       }}
     >
