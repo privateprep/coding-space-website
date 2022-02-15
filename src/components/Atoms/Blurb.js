@@ -7,7 +7,7 @@ import FadeIn from "../shared/FadeIn";
 import "./styles/Blurb.scss";
 
 const Blurb = ({ mdContent, image }) => {
-  image.imageStyle = { borderRadius: "50%" };
+  image.wrapperStyle = { borderRadius: "50%" };
   const htmlContent = createHtml(mdContent);
 
   return (

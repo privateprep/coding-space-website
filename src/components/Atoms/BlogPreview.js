@@ -16,7 +16,7 @@ const BlogPreview = ({ id, excerpt, fields, frontmatter }) => {
           <div className="featured-thumbnail">
             <PreviewCompatibleImage
               imageInfo={{
-                imageStyle: { height: "30vh" },
+                wrapperStyle: { height: "30vh" },
                 image: frontmatter.featuredImage.image,
                 alt: `featured image thumbnail for post ${frontmatter.title}`,
               }}

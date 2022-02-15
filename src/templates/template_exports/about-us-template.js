@@ -11,7 +11,7 @@ export const AboutUsTemplate = ({
   helmet,
 }) => {
   const data = pageBuilder ?? [];
-  heroImage.imageStyle = { height: "100%" };
+  heroImage.wrapperStyle = { height: "100%" };
   return (
     <section className="section">
       {helmet || ""}
