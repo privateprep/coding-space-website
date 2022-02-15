@@ -3,15 +3,22 @@ import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const { alt = "", image, wrapperStyle, url } = imageInfo;
-
+  const {
+    alt = "",
+    image,
+    wrapperStyle,
+    imgStyle = { width: "100%" },
+    url,
+  } = imageInfo;
+  console.log(imgStyle);
   if (!!image?.childImageSharp?.gatsbyImageData && image?.extension === "png") {
     return (
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
-        imgStyle={{ width: "100%", objectFit: "contain" }}
-        alt={alt} />
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
@@ -20,8 +27,9 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
-        imgStyle={{ width: "100%" }}
-        alt={alt} />
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
@@ -30,8 +38,9 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
-        imgStyle={{ width: "100%" }}
-        alt={alt} />
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
@@ -52,7 +61,8 @@ PreviewCompatibleImage.propTypes = {
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
-    style: PropTypes.object,
+    imgStyle: PropTypes.object,
+    wrapperStyle: PropTypes.object,
   }).isRequired,
 };
 
