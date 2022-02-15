@@ -11,7 +11,7 @@ export const ProgramsTemplate = ({
 }) => {
   const data = pageBuilder ?? [];
   console.log(heroImage);
-  heroImage.imageStyle = { height: "100%" };
+  heroImage.wrapperStyle = { height: "100%" };
 
   return (
     <section className="section">

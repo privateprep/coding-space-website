@@ -7,24 +7,35 @@
     flex: 1 1 auto;
     display: grid;
     align-items: center;
+    overflow: hidden;
   }
 
   &__right-component {
     flex: 1 1 auto;
     display: grid;
     align-items: center;
+    overflow: hidden;
   }
   // Medium devices (large tablets, computers and up)
   @media (min-width: 992px) {
     flex-wrap: nowrap;
+    gap: 4rem;
     &__left-component {
-      min-width: 450px;
+      min-width: 400px;
       height: auto;
     }
 
     &__right-component {
-      min-width: 450px;
+      min-width: 400px;
       height: auto;
+    }
+
+    img {
+      max-width: 40vw;
+    }
+
+    .component {
+      padding: 0rem;
     }
   }
 }

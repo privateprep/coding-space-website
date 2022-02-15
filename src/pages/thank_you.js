@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import Layout from "../components/Layout";
-import BoxWithLogo from "../components/shared/BoxWithLogo";
+import BoxWithLogo from "../components/BuilderComponents/BoxWithLogo";
 import Seo from "../components/seo";
 
 const ThankYou = ({ location }) => {

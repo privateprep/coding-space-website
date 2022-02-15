@@ -1,0 +1,29 @@
+.BoxWithLogo {
+  position: relative;
+  max-width: 800px;
+  &__logo {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    padding: 3rem;
+    text-align: left;
+    border-radius: 8px;
+    margin: auto;
+
+    &__title {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+    &__md {
+      padding: 0 0 20px;
+      margin: 0;
+    }
+  }
+}

@@ -3,15 +3,22 @@ import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const { alt = "", image, imageStyle, url } = imageInfo;
-
+  const {
+    alt = "",
+    image,
+    wrapperStyle,
+    imgStyle = { width: "100%" },
+    url,
+  } = imageInfo;
+  console.log(imgStyle);
   if (!!image?.childImageSharp?.gatsbyImageData && image?.extension === "png") {
     return (
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
-        style={imageStyle}
-        imgStyle={{ width: "100%", objectFit: "contain" }}
-        alt={alt} />
+        style={wrapperStyle}
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
@@ -19,9 +26,10 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return (
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
-        style={imageStyle}
-        imgStyle={{ width: "100%" }}
-        alt={alt} />
+        style={wrapperStyle}
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
@@ -29,20 +37,21 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return (
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
-        style={imageStyle}
-        imgStyle={{ width: "100%" }}
-        alt={alt} />
+        style={wrapperStyle}
+        imgStyle={imgStyle}
+        alt={alt}
+      />
     );
   }
 
   if (!!image && typeof image === "string")
-    return <img style={imageStyle} src={image} alt={alt} />;
+    return <img style={wrapperStyle} src={image} alt={alt} />;
 
   if (!!image?.publicURL)
-    return <img style={imageStyle} src={image.publicURL} alt={alt} />;
+    return <img style={wrapperStyle} src={image.publicURL} alt={alt} />;
 
   // URL provided by getAsset for CMS preview.
-  if (!!url) return <img style={imageStyle} src={url} alt={alt} />;
+  if (!!url) return <img style={wrapperStyle} src={url} alt={alt} />;
 
   return null;
 };
@@ -52,7 +61,8 @@ PreviewCompatibleImage.propTypes = {
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
     image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
-    style: PropTypes.object,
+    imgStyle: PropTypes.object,
+    wrapperStyle: PropTypes.object,
   }).isRequired,
 };
 

@@ -3,6 +3,8 @@ import createHtml from "../MdToHtml";
 import PropTypes from "prop-types";
 import smallLogo from "../../img/logo-small.svg";
 
+import "./styles/BoxWithLogo.scss";
+
 /**
  * Renders a styled container to display information like a schedule, instructions, or list.
  */
@@ -19,59 +21,27 @@ const BoxWithLogo = ({
     <div
       className="BoxWithLogo component"
       style={{
-        padding: "4rem",
-        paddingTop: "80px",
-        textAlign: "center",
-        position: "relative",
+        paddingTop: "40px",
         backgroundColor: bgColor,
       }}
     >
       <img
         src={smallLogo}
         alt="Rocket Ship Logo"
-        style={{
-          width: "85px",
-          height: "85px",
-          position: "absolute",
-          left: "0",
-          right: "0",
-          margin: "0 auto",
-          top: "30px",
-        }}
+        className="BoxWithLogo__logo"
       />
       <div
         className="BoxWithLogo__content"
         style={{
           backgroundColor: fgColor,
-          padding: "3rem",
-          textAlign: "left",
-          borderRadius: "8px",
-          maxWidth: "800px",
-          margin: "auto",
+          color: textColor,
         }}
       >
         {!!heading && (
-          <h3
-            className="item__head__title"
-            style={{
-              fontSize: "1.8rem",
-              margin: "0",
-              marginBottom: "1rem",
-              lineHeight: "2.2rem",
-              color: textColor,
-            }}
-          >
-            {heading}
-          </h3>
+          <h2 className="BoxWithLogo__content__title">{heading}</h2>
         )}
         <div
-          className="item__content"
-          style={{
-            padding: "0 0 20px",
-            color: textColor,
-            fontSize: "18px",
-            margin: "0px",
-          }}
+          className="BoxWithLogo__content__md"
           dangerouslySetInnerHTML={htmlContent}
         ></div>
       </div>

@@ -47,7 +47,11 @@ export const BlogPostTemplate = ({
           <div className="blog-post__heading">
             <h1 style={{ color: titleColor }}>{title}</h1>
             <PreviewCompatibleImage
-              imageInfo={{ ...featuredImage, imageStyle: { height: "300px" } }}
+              imageInfo={{
+                ...featuredImage,
+                imgStyle: { objectFit: "contain" },
+                wrapperStyle: { height: "40vh" },
+              }}
             />
             <h2>{description}</h2>
           </div>
