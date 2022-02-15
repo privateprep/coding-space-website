@@ -8,7 +8,7 @@ import OverviewPage from "./OverviewPage";
 import ConfirmationPage from "./ConfirmationPage";
 import CheckoutPage from "./CheckoutPage";
 import { getClassOverview, signupForClass } from "./api";
-import BoxWithLogo from "../shared/BoxWithLogo";
+import BoxWithLogo from "../BuilderComponents/BoxWithLogo";
 
 import {
   overviewFields,
