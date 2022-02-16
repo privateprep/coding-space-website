@@ -6,10 +6,7 @@ description: "The Coding Space—an afterschool program where students would lea
   how to tackle challenges independently through learning to code. They
   envisioned unconventional coding classes where students could control the pace
   of their learning while developing intellectual confidence, a growth mindset,
-  self-expression, and computational thinking skills. Within the first two
-  years, The Coding Space doubled in size, adding classes in multiple locations
-  and schools around New York City as well as several full-time staff
-  members.  "
+  self-expression, and computational thinking skills. "
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
