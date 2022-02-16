@@ -6,7 +6,7 @@ description: Coding truly is a superpower. It can help make us safer, more
   sustainable, and more equitable. Used for good, it can truly help us create a
   stronger world for everyone.
 heroImage:
-  image: /img/code4change.png
+  image: /img/1200x400-code-4-change-logos.png
   alt: Code 4 Change hero banner
 pageBuilder:
   - type: textOnly
