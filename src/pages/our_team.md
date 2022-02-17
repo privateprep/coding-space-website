@@ -107,4 +107,18 @@ team:
 
 
       Sarah is from Philadelphia where she has participated in various community-based projects. The most recent initiative she worked for was a city-wide pre-Kindergarten program that offered free Pre-K to all 3 and 4 year old's in the city of Philadelphia where she provided data and programmatic support to stakeholders at all levels. Sarah is also an English tutor and enjoys interacting with her students from all over the world. In the spirit of multiculturalism, she holds a bachelor's degree in International Politics from Penn State University and is currently working on obtaining a Master's degree in Sustainable Cultural Heritage from the American University of Rome. When she is not working, studying, or writing Sarah enjoys traveling, hanging out with her dog and catching up on reading. Sarah is excited to take on this new opportunity in the education sector by providing technical support to teachers so that The Coding Space lessons run smoothly and to work to provide students with scholarship opportunities so that every child who wants to learn coding can. She is also super happy to be working for an organization with a mission and goals like The Coding Space!
+  - image:
+      image: /img/caroline-hertz.jpg
+      alt: Caroline Hertz
+    mdContent: >-
+      ### Caroline Hertz
+
+
+      #### TCS Social Media Manager
+
+
+      Caroline is a multidisciplinary scholar and artist with degrees from Princeton University and The New School. As an educator, she has taught in a wide variety of environments, from large undergraduate classrooms where she taught theory and literature to public parks where she taught Greek mythology to middle schoolers. As a marketing expert and a visual artist, Caroline is thrilled to advance TCS's mission of inclusion and empowerment across a wide variety of channels.
+
+
+      Caroline is interested in the intersection of STEM and the arts, and she fiercely believes in the power of STEM to advance equity. Originally hailing from Virginia, Caroline is also a musician, an actor, and an equestrian — she even had a (very brief) rodeo career.
 ---
