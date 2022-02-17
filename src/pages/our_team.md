@@ -96,4 +96,15 @@ team:
 
 
       Alejandro is Colorado-born and raised, the first in his family to graduate from college, and engaged in web development for Private Prep. His interests have continued multiplying throughout the years. Interest and work in nonprofits and public service led him to a full-ride scholarship to Colorado College. He was active in diverse and multicultural groups on campus and spearheaded initiatives to improve inclusivity while serving in the student government. His academic focus of belongingness and self-actualization led him to complete his degree in neuroscience. After graduation, he explored the vast world of technology and set his sights on developing websites. In his spare time, he enjoys learning, cooking, walking his high-energy dogs named Leslie (Knope) and Lisa (Simpson), and spending time with his partner Taylor.
+  - image:
+      image: /img/screen-shot-2022-02-17-at-4.03.58-pm.png
+      alt: Sarah Tucci
+    mdContent: >-
+      ### Sarah Tucci
+
+
+      #### Online Support Associate and Head of Scholarship Admissions
+
+
+      Sarah is from Philadelphia where she has participated in various community-based projects. The most recent initiative she worked for was a city-wide pre-Kindergarten program that offered free Pre-K to all 3 and 4 year old's in the city of Philadelphia where she provided data and programmatic support to stakeholders at all levels. Sarah is also an English tutor and enjoys interacting with her students from all over the world. In the spirit of multiculturalism, she holds a bachelor's degree in International Politics from Penn State University and is currently working on obtaining a Master's degree in Sustainable Cultural Heritage from the American University of Rome. When she is not working, studying, or writing Sarah enjoys traveling, hanging out with her dog and catching up on reading. Sarah is excited to take on this new opportunity in the education sector by providing technical support to teachers so that The Coding Space lessons run smoothly and to work to provide students with scholarship opportunities so that every child who wants to learn coding can. She is also super happy to be working for an organization with a mission and goals like The Coding Space!
 ---
