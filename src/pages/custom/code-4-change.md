@@ -11,15 +11,15 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#9de2dd"
+    bgColor: ""
     textColor: "#264548"
-    mdContent: "## Voting is Open!"
+    mdContent: "## Registration is Open!"
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Vote Now
+      - title: Register Now
         content: https://code4change.thecodingspace.com/
   - type: textAndImageBlock
     buttons:
