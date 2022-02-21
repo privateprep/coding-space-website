@@ -28,7 +28,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Join the Challenge
-          content: https://code4change.thecodingspace.com/c4csignup
+          content: https://code4change.thecodingspace.com/
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
@@ -66,10 +66,10 @@ pageBuilder:
           approachable pace.
       - title: When is Code 4 Change happening?
         mdContent: "Code 4 Change: Build a Better World kicks off officially on Monday,
-          April 5th, but kids are invited to begin coding their projects as soon
-          as they sign up. Coders will have four weeks to code their projects
-          before turning them in by Friday, May 7th. Voting begins Saturday, May
-          8th."
+          March 28th, but kids are invited to begin coding their projects as
+          soon as they sign up. Coders will have four weeks to code their
+          projects before turning them in by Friday, April 22nd. Voting begins
+          Monday, April 25th."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
@@ -97,14 +97,14 @@ pageBuilder:
           That’s why we’re empowering our students to put their ideas into action. How can we use code to distribute food to the hungry? To stop future pandemics? To support the pursuit of racial equity? Whether it’s on a local or global level, kids will have the chance to program prototypes of their creative solutions for real issues facing our world.
       - title: How will projects be judged?
         mdContent: All completed projects will be hosted on the TCS website. Voting
-          opens on Saturday, May 8th when participants will have the opportunity
-          to vote for Coders’ Choice. The TCS team will reveal this winner, as
-          well as winners in several technical categories chosen by our TCS
-          instructors, during a live virtual event on Sunday, May 16th.
+          opens on Monday, April 25th when participants will have the
+          opportunity to vote for Coders’ Choice. The TCS team will reveal this
+          winner, as well as winners in several technical categories chosen by
+          our TCS instructors, during a live virtual event on Sunday, May 1st.
       - title: How can kids get involved?
         mdContent: Participating coders can [sign up
-          here](https://code4change.thecodingspace.com/c4csignup) between
-          Monday, March 22nd and Sunday, April 11th.
+          here](https://code4change.thecodingspace.com) between Monday, February
+          21st and Sunday, March 27th.
       - title: How can parents help support their C4C coders?
         mdContent: We encourage you to explore the [Sustainable Development
           Goals](https://sdgs.un.org/goals) with your children and to engage in
