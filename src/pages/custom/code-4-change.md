@@ -128,16 +128,16 @@ pageBuilder:
         fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: >-
-          **March 22nd - Registration Opens**
+          **February 21st - Registration Opens**
 
 
           Participants will have four weeks to work on their projects. Group projects are also encouraged.
 
 
-          **April 11th - Registration Closes**
+          **March 27th - Registration Closes**
 
 
-          Make sure to register by April 11th.
+          Make sure to register by March 27th.
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
@@ -147,19 +147,19 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#ffffff"
         mdContent: >-
-          **May 7th - Project Due**
+          **April 22nd - Project Due**
 
 
           Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
 
 
-          **May 15th - Time to vote**
+          **April 25 - Time to Vote**
 
 
           Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. Voting is open through May 15th.
 
 
-          **May 16th - Watch the finale**
+          **May 1st - Watch the Finale**
 
 
           Winners will be announced live during a special virtual event!
