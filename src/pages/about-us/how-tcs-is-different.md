@@ -69,4 +69,24 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/shutterstock_1297618672.jpg
+      alt: What Makes Us Different
+    mediaPosition: left
+    mdContent: >-
+      # What Makes Us Different
+
+
+      ### Above and Beyond Coding Education
+
+
+      The Coding Space is about more than just first-class coding education, it’s about helping kids build the skills that will serve them throughout life. Here’s how we go above and beyond:
+    fgColor: "#9de2dd"
 ---
