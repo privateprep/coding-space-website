@@ -9,6 +9,8 @@ featuredPost: false
 featuredImage:
   image: /img/meet-sarah.png
   alt: Sarah Tucci
+tags:
+  - OurTeam
 ---
 As part of The Coding Space’s commitment to educational equity, we are pleased as punch to announce our newest hire: Sarah Tucci, Head of Scholarship Admissions! Sarah is a bi-continental educator and community activist with a keen interest in advancing technological equity. She comes to us with tons of experience providing data and programmatic support to community initiatives, which comes in handy for her secondary role as TCS’s Online Support Associate. Sarah holds a bachelor's degree in International Politics from Penn State University and is currently working on a Master's degree in Sustainable Cultural Heritage from the American University of Rome. Keep reading to learn more about Sarah, her background, and her appreciation for TCS’s tangible impact in our communities. 
 
