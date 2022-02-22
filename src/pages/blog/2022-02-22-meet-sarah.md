@@ -7,7 +7,7 @@ date: 2022-02-22T17:39:11.755Z
 description: Give a warm TCS welcome to our new Head of Scholarship Admissions
 featuredPost: false
 featuredImage:
-  image: /img/meet-sarah.png
+  image: /img/img-3791-1-.jpg
   alt: Sarah Tucci
 tags:
   - OurTeam
