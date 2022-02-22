@@ -6,7 +6,7 @@ description: "Our spring, summer, and fall classes bring students together each
   and explore opportunities for self-expression. "
 heroImage:
   image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: headerAndMarkDownBlock
     buttons:
@@ -31,12 +31,12 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#fff"
     list:
-      - title: Summer 2022
-        content: /programs/summer
       - title: Fall 2022
         content: /programs/fall
       - title: Spring 2022
         content: /programs/spring
+      - title: Summer 2022
+        content: /programs/summer
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
