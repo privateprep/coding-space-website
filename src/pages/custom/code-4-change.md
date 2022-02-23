@@ -15,7 +15,7 @@ pageBuilder:
     textColor: "#264548"
     mdContent: "## Registration is Open!"
   - type: buttons
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
