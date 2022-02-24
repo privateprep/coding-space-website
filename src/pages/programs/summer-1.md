@@ -15,10 +15,14 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: |-
-      # 2022 Summer Offerings 
+    mdContent: >-
+      # 2022 Summer Offerings
+
 
       ## June - August
+
+
+      Beginning in June, your child can join The Coding Space for exciting opportunties to keep leaerning all summer long. Choose from in person summer camp options or attend classes in-person or online, for ultimate flexibility.  All of our summer offerings ensure students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -34,13 +38,13 @@ pageBuilder:
       alt: Kids building a robot
     mediaPosition: right
     mdContent: >-
-      ## Summer Camp and Classes
+      ## Camp Coding Space
 
 
-      #### Evenings & Weekends All Summer Long
+      ### Learn to Code in Our Immersive Camps
 
 
-      Beginning in June, your child can join The Coding Space for exciting opportunties to keep leaerning all summer long. Choose from in person summer camp options or attend classes in-person or online, for ultimate flexibility.  All of our summer offerings ensure students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
+      Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#9de2dd"
   - type: sideBySide
     bgColor: "#9de2dd"
