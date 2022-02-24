@@ -66,10 +66,10 @@ pageBuilder:
           approachable pace.
       - title: When is Code 4 Change happening?
         mdContent: "Code 4 Change: Build a Better World kicks off officially on Monday,
-          March 28th, but kids are invited to begin coding their projects as
+          March 21th, but kids are invited to begin coding their projects as
           soon as they sign up. Coders will have four weeks to code their
-          projects before turning them in by Friday, April 22nd. Voting begins
-          Monday, April 25th."
+          projects before turning them in by Sunday, May 1st. Voting begins
+          Monday, May 2nd."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
@@ -81,30 +81,28 @@ pageBuilder:
           is expected and encouraged.
       - title: Why Build a Better World?
         mdContent: >-
-          It’s no secret that our world changed dramatically in the last year.
-          This has been a period of hardship and upheaval, one which has left
-          many of us, adults and kids alike, feeling understandably helpless.
-          But it’s also been a time of incredible community-driven support and
-          creative problem-solving, especially in tech. From students using 3D
-          printers to create face shields for healthcare workers to companies
-          like Dyson using their engineering expertise to design and produce new
-          ventilators, it’s clear that ingenuity and kindness still abound. And
-          we at The Coding Space believe that our students can be a part of the
-          solution.\
+          It’s no secret that coding is becoming a critical skill for success.
+          With the world rapidly growing more tech-focused and data-driven, the
+          importance of coding and other digital literacy skills will only
+          increase. However, we at TCS believe that coding is more than just a
+          tool for individual advancement — instead, we focus on the
+          intersection of coding and community service, bolstered by the belief
+          that coding can be a tool for positive social change. Through Code 4
+          Change, we aim to support a new generation of global leaders working
+          at the intersection of technology and social impact.
 
-          \
 
-          That’s why we’re empowering our students to put their ideas into action. How can we use code to distribute food to the hungry? To stop future pandemics? To support the pursuit of racial equity? Whether it’s on a local or global level, kids will have the chance to program prototypes of their creative solutions for real issues facing our world.
+          That’s why we’re empowering our students to put their ideas into action. How can we use code to distribute food to the hungry? To stop future pandemics? To support the pursuit of racial equity? Whether it’s on a local or global level, kids will have the chance to program prototypes of their creative solutions to real issues facing our world.
       - title: How will projects be judged?
         mdContent: All completed projects will be hosted on the TCS website. Voting
-          opens on Monday, April 25th when participants will have the
-          opportunity to vote for Coders’ Choice. The TCS team will reveal this
-          winner, as well as winners in several technical categories chosen by
-          our TCS instructors, during a live virtual event on Sunday, May 1st.
+          opens on Monday, May 2nd when participants will have the opportunity
+          to vote for Coders’ Choice. The TCS team will reveal this winner, as
+          well as winners in several technical categories chosen by our TCS
+          instructors, during a live virtual event on Sunday, May 8th.
       - title: How can kids get involved?
         mdContent: Participating coders can [sign up
           here](https://code4change.thecodingspace.com) between Monday, February
-          21st and Sunday, March 27th.
+          21st and Sunday, April 3rd.
       - title: How can parents help support their C4C coders?
         mdContent: We encourage you to explore the [Sustainable Development
           Goals](https://sdgs.un.org/goals) with your children and to engage in
