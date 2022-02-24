@@ -17,6 +17,8 @@ const TextAndImageBlock = ({ data }) => {
     textColor,
   } = data;
   const htmlContent = createHtml(mdContent);
+  const imageInfo = image;
+  imageInfo.wrapperStyle = fgColor ? { boxShadow: `20px 20px ${fgColor}` } : {};
   return (
     <div
       className="TextAndImageBlock component"
@@ -39,11 +41,8 @@ const TextAndImageBlock = ({ data }) => {
           {!!buttons && <Buttons {...buttons} />}
         </div>
       </div>
-      <div
-        className="TextAndImageBlock__image"
-        style={fgColor ? { boxShadow: `20px 20px ${fgColor}` } : {}}
-      >
-        <PreviewCompatibleImage imageInfo={image} />
+      <div className="TextAndImageBlock__image">
+        <PreviewCompatibleImage imageInfo={imageInfo} />
       </div>
     </div>
   );

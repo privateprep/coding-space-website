@@ -52,6 +52,10 @@ const TemplateWrapper = ({ children }) => {
           title: "Special Events",
           path: "/programs/special-events",
         },
+        {
+          title: "Code 4 Change",
+          path: "/code-4-change",
+        },
       ],
     },
     {
