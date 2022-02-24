@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Summer
+title: Summer Classes
 titleColor: "#264548"
 description: Beginning in June, these in person or live Zoom classes balance
   project-based coding education with hands-on activities and opportunities to
@@ -16,7 +16,7 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: |-
-      # 2022 Classes & Camp Online and In-Person
+      # 2022 Classes Online and In-Person
 
       ## June - August
   - type: textAndImageBlock
