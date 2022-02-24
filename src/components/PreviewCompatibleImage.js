@@ -10,7 +10,6 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     imgStyle = { width: "100%" },
     url,
   } = imageInfo;
-  console.log(imgStyle);
   if (!!image?.childImageSharp?.gatsbyImageData && image?.extension === "png") {
     return (
       <GatsbyImage
