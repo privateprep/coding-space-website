@@ -132,10 +132,10 @@ pageBuilder:
           Participants will have four weeks to work on their projects. Group projects are also encouraged.
 
 
-          **March 27th - Registration Closes**
+          **April 3rdth - Registration Closes**
 
 
-          Make sure to register by March 27th.
+          Make sure to register by Aprill 3rd.
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
@@ -145,19 +145,19 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#ffffff"
         mdContent: >-
-          **April 22nd - Project Due**
+          **May 1st - Project Due**
 
 
           Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
 
 
-          **April 25 - Time to Vote**
+          **May 2nd - Time to Vote**
 
 
           Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. Voting is open through May 15th.
 
 
-          **May 1st - Watch the Finale**
+          **May 8th - Watch the Finale**
 
 
           Winners will be announced live during a special virtual event!
@@ -238,7 +238,7 @@ pageBuilder:
       ### Prizes
 
 
-      Winners will be announced during a live virtual event on May 16th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
+      Winners will be announced during a live virtual event on May 18th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
