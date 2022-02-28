@@ -48,7 +48,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/kids-building-lego-robot.jpeg
+      image: /img/slice-12-1-.png
       alt: Accessibility name
     mediaPosition: left
     mdContent: >-
