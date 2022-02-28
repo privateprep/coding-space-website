@@ -730,6 +730,7 @@ collections:
             "This is a list, separate items with commas. Used to ensure location
             pages show offerings",
           widget: "list",
+          field: {label: Category Id, name: categoryId, widget: number}
         }
       - {
           label: "Course Offering Endpoint",

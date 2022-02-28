@@ -8,7 +8,7 @@ seo_description: "Our summer GirlCode program is back and better than ever! This
   space that gives participants the tools and confidence they need to take on
   STEM by storm. "
 categoryIds:
-  - "111"
+  - 111
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=111
 display: true
 thumbnail: /img/accomplished.jpg
