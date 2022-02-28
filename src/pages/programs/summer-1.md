@@ -69,40 +69,16 @@ pageBuilder:
 
       Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#9de2dd"
-  - type: sideBySide
-    bgColor: "#9de2dd"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: '![Girls learning in a group with computers](/img/girl-code-group.jpg
-          "Girls learning in a group with computers")'
-    rightComponent:
-      - type: boxWithLogo
-        bgColor: "#9de2dd"
-        fgColor: "#264548"
-        textColor: "#faf6ee"
-        heading: Your child will...
-        mdContent: |-
-          
-
-          * Learn to code!
-          * Be challenged at their individual level.
-          * Build grit, a growth mindset, and computational thinking skills.
-          * Balance screen time with hands-on activities, games, and more.
-          * Discover and define their personal passions.
-          * Make new friends near and far.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#ffffff"
-      fgColor: "#9de2dd"
+      bgColor: "#264548"
+      fgColor: "#eec11a"
       textColor: "#264548"
       list:
         - title: Learn More
           content: /about-us/our-teaching-philosophy
-    textColor: "#264548"
-    bgColor: "#ffffff"
+    textColor: "#faf6ee"
+    bgColor: "#264548"
     image:
       image: /img/hands_on.jpeg
       alt: Accessibility name
