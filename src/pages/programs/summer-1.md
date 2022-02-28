@@ -80,7 +80,7 @@ pageBuilder:
     textColor: "#faf6ee"
     bgColor: "#264548"
     image:
-      image: /img/hands_on.jpeg
+      image: /img/img_3005-2-.jpg
       alt: Accessibility name
     mediaPosition: left
     mdContent: >-
