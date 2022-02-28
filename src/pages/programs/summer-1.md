@@ -57,8 +57,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/GirlCode-around-a-table.jpg
-      alt: Kids building a robot
+      image: /img/img_2952.jpg
+      alt: Summer Camp
     mediaPosition: right
     mdContent: >-
       ## Camp Coding Space
