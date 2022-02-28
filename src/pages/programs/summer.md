@@ -53,7 +53,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Sign up
-          content: /classes/?semesters[]=Summer%202022
+          content: /programs/summer-camps/
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
