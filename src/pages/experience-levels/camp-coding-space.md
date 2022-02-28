@@ -14,7 +14,6 @@ details:
   age: Ages 8+
   gender:
     - Co-ed.
-    - GirlCode
   byline: Monday through Friday, 1 & 2 Week Options Available
   experience: First-Time Through Advanced
   skills:
