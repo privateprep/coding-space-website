@@ -132,10 +132,7 @@ pageBuilder:
           Participants will have four weeks to work on their projects. Group projects are also encouraged.
 
 
-          **April 3rdth - Registration Closes**
-
-
-          Make sure to register by Aprill 3rd.
+          **April 3rd - Registration Closes**
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
