@@ -30,7 +30,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Sign Up
-          content: "#"
+          content: /classes/?semesters[]=Summer%20Classes%202022
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
