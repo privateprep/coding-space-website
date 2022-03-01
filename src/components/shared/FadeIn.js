@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+require("intersection-observer");
 
 const FadeIn = props => {
   const fadeRef = useRef();
