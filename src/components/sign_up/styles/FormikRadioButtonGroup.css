@@ -30,6 +30,10 @@
   /* padding: 0.5rem; */
 }
 
+.radio-button {
+  min-width: 16px; /* for disappearing radio button on mobile */
+}
+
 .radio-button-group__options .option-wrapper .radio-button-label {
   text-align: left;
   padding: 0 0.5rem;
