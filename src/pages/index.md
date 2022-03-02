@@ -9,14 +9,11 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-01-26T16:39:43.806Z
-  mdContent:
-    Signup for our [Spring
-    Classes](/programs/spring)!
+  mdContent: Signup for our [Spring Classes](/programs/spring)!
 hero:
   heading: The Coding Space
-  subheading:
-    ​​An after-school and summer coding program where kids and students of all
-    ages learn to code while developing critical thinking skills.
+  subheading: ​​An after-school and summer coding program where kids and students
+    of all ages learn to code while developing critical thinking skills.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
@@ -25,6 +22,8 @@ hero:
         content: /classes
       - title: Spring Classes
         content: /programs/spring
+      - title: Summer Programs
+        content: /programs/summer/
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
@@ -32,9 +31,7 @@ mainpitch:
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 
-    At The Coding Space, kids learn to code through the development of
-    computational thinking skills, intellectual confidence, self-expression, and
-    independence.
+    At The Coding Space, kids learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
@@ -51,9 +48,7 @@ differentiators:
       Personalized, self-paced learning means projects as unique as our students
   - image:
       image: /img/field_trips.jpg
-      alt:
-        Group of Coding Space students go on a field trip to Google office in
-        NYC
+      alt: Group of Coding Space students go on a field trip to Google office in NYC
     mdContent: |-
       ## Exceptional Experiences
 
@@ -76,8 +71,7 @@ differentiators:
       Ongoing educator training means students learn from teachers in the know
   - image:
       image: /img/hands_on.jpeg
-      alt:
-        An instructor and two students gather around a computer with electronics
+      alt: An instructor and two students gather around a computer with electronics
         hooked up to study circuits.
     mdContent: |-
       ## Unique Teaching Methods
@@ -86,8 +80,7 @@ differentiators:
       learning strategies and providing room to test and tinker
   - image:
       image: /img/coder.jpg
-      alt:
-        Four girls in a Coding Space camp smiling with stickers on their faces
+      alt: Four girls in a Coding Space camp smiling with stickers on their faces
     mdContent: |-
       ## Educational Equity
 
@@ -105,28 +98,24 @@ featuredProject:
     className: Intermediate GirlCode
     classUrl: /experience-levels/intermediate-girlcode/
   project:
-    description:
-      This is a quiz to determine which charity to donate to based on how you
-      answer the questions.
+    description: This is a quiz to determine which charity to donate to based on how
+      you answer the questions.
     title: Where to give
     content: https://scratch.mit.edu/projects/515763533/embed
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
   - content: Jill, NYC
-    title:
-      The Coding Space has opened up a whole new world for our daughter, which
+    title: The Coding Space has opened up a whole new world for our daughter, which
       was especially needed when she couldn’t see friends in person. Her classes
       are the highlight of her week, and it’s so incredible to watch her
       progress.
   - content: Sofia, age 9
-    title:
-      I love it here because in my other classes and camps, they just give the
+    title: I love it here because in my other classes and camps, they just give the
       answers to you. Here I get to figure it out for myself. It’s more exciting
       because I learned it myself.
   - content: Lea, Park Slope
-    title:
-      My son Aiden said it was the best camp he’s ever done and he absolutely
+    title: My son Aiden said it was the best camp he’s ever done and he absolutely
       loved everything he learned about coding. The instructors were really
       excited and knowledgeable.
 ---
