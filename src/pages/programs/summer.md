@@ -29,6 +29,52 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
+        - title: Sign up
+          content: /programs/summer-camps/
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/img_2952.jpg
+      alt: Summer Camp
+    mediaPosition: left
+    mdContent: >-
+      ## Camp Coding Space
+
+
+      ### Learn to Code in Our Immersive Camps
+
+
+      Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
+    fgColor: "#264548"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Signup
+          content: /experience-levels/girlcode-summer-program/
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/coder.jpg
+      alt: Girl coders with multicolor "coder" letters on their foreheads.
+    mediaPosition: right
+    mdContent: >-
+      ## GirlCode Summer Program
+
+
+      ### Explore the Unknown
+
+
+      Don't miss a special two weeks of GirlCode this summer! This immersive two-week program combines project-based coding, STEM exploration, epic team challenges, field trips, and more in a supportive and inclusive space that gives participants the tools and confidence they need to take on STEM by storm.
+    fgColor: "#9de2dd"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
         - title: Sign Up
           content: /classes/?semesters[]=Summer%20Classes%202022
     textColor: "#264548"
@@ -46,29 +92,6 @@ pageBuilder:
 
       Beginning in June, these live Zoom classes balance project-based coding education with hands-on activities and opportunities to create and explore at home. Students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it. Featuring evening and weekend classes, this option is a perfect way for busy kids to continue their coding journey over the summer.
     fgColor: "#264548"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Sign up
-          content: /programs/summer-camps/
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/img_2952.jpg
-      alt: Summer Camp
-    mediaPosition: right
-    mdContent: >-
-      ## Camp Coding Space
-
-
-      ### Learn to Code in Our Immersive Camps
-
-
-      Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
-    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
       bgColor: "#264548"
