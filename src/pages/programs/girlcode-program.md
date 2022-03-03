@@ -23,8 +23,8 @@ pageBuilder:
       Recent research suggests that nearly 65 percent of today’s kindergartners
       will land in jobs that don’t yet exist, likely in the technology, science,
       and math industries. Yet, as of 2015, [only 18
-      percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/)
-      of graduates with a computer science degree identified as female. Now more
+      percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/) of
+      graduates with a computer science degree identified as female. Now more
       than ever, we need to close the gender gap in tech by creating
       opportunities for inclusivity.
 
@@ -39,7 +39,7 @@ pageBuilder:
     textColor: "#264548"
     heading: GirlCoders...
     mdContent: >-
-
+      
 
       * Include girls, transgender, gender non-conforming, and non-binary kids who want to dream big and use code to change the world.
 
@@ -67,9 +67,7 @@ pageBuilder:
       ### Experience Levels and Formats For Every Fit
 
 
-
-
-      Ready to sign up for a GirlCode Class? Every seasonal class and camp program we offer includes a GirlCode option. Check out our Programs page to learn more and register.
+      Ready to sign up for a GirlCode Class or Camp? Every seasonal class and camp program we offer includes a GirlCode option. Check out our Programs page to learn more and register.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
