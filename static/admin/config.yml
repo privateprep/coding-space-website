@@ -1116,7 +1116,7 @@ collections:
                           default: "https://scratch.mit.edu/projects/510001177/embed",
                           hint:
                             "This is a url to the source you want to import. Ask
-                            for help if you need finding it.",
+                            for help if you need finding it. For scratch links, ensure `/embed` is at the end of the url or it will not work!",
                           name: "content",
                           widget: string,
                         },
