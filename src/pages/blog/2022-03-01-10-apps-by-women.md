@@ -200,5 +200,7 @@ pageBuilder:
 
 
       [EXHALE](https://www.exhalesite.com/) is an emotional well-being app designed for Black, Indigenous, and Women of Color. Founder Katara McCarty, an entrepreneur dedicated to building brave spaces for BlWOC, seeks to provide a place of refuge and healing through the app. EXHALE features meditations, guided visualizations, breathwork, coaching talks, and daily affirmations to help users invest in themselves and cultivate lasting energy.
+tags:
+  - WomensHistoryMonth
 ---
 While the tech industry remains massively male-dominated, extraordinary women are making their mark on STEM fields, resulting in a plethora of exciting new offerings on your device. As part of our Women’s History Month celebration, we’ve compiled a list of 10 apps designed by female-identifying founders. Scroll down to get inspired and support the work of these coding icons!
