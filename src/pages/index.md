@@ -89,19 +89,20 @@ differentiators:
     title: Educational Equity
 featuredProject:
   studentProfile:
-    name: India
-    age: 12
-    interests: Coding, sustainability, giving
+    name: "Alexandra "
+    age: 10
+    interests: Coding
     image:
       image: /img/smily_face.svg
       alt: Placeholder image for India
     className: Intermediate GirlCode
     classUrl: /experience-levels/intermediate-girlcode/
   project:
-    description: This is a quiz to determine which charity to donate to based on how
-      you answer the questions.
-    title: Where to give
-    content: https://scratch.mit.edu/projects/515763533/embed
+    description: >
+      Press the green flag and any key on your keyboard can make noise. Use the
+      arrows to move the ball around
+    title: Noise Maker and Ball Mover
+    content: https://scratch.mit.edu/projects/644317533/embed
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
