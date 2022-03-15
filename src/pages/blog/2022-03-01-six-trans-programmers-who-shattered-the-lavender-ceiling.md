@@ -130,6 +130,8 @@ pageBuilder:
       who wants to enter the field of STEM. Click
       [here](https://www.thecodingspace.com/about-us/social-impact/) to learn
       more about TCS’s commitment to gender diversity.
+tags:
+  - TransDayofVisibility
 ---
 Each year on March 31st, the world celebrates International Transgender Day of Visibility, a day to recognize the many contributions that trans individuals have made to every sector of society — and coding is no exception!
 
