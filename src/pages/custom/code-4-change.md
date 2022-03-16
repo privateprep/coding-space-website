@@ -66,10 +66,10 @@ pageBuilder:
           approachable pace.
       - title: When is Code 4 Change happening?
         mdContent: "Code 4 Change: Build a Better World kicks off officially on Monday,
-          March 21th, but kids are invited to begin coding their projects as
-          soon as they sign up. Coders will have four weeks to code their
-          projects before turning them in by Sunday, May 1st. Voting begins
-          Monday, May 2nd."
+          April 4th, but kids are invited to begin coding their projects as soon
+          as they sign up. Coders will have four weeks to code their projects
+          before turning them in by Sunday, May 1st. Voting begins Monday, May
+          2nd."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
