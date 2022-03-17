@@ -29,11 +29,8 @@ pageBuilder:
       as new information or guidance emerges.
 
 
-      **Starting 1/30/2022, all in-person classes require that students above
-      the age of 5 have received their first vaccine dose. Families should
-      continue to follow the manufacturer and vaccine site’s recommendations
-      regarding completion of the second dose 21 days following the initial
-      dose.**
+      **All in-person classes require that students above
+      the age of 5 are fully vaccinated.**
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: left
@@ -46,10 +43,7 @@ pageBuilder:
       **Are students required to be vaccinated?**
 
 
-      > Yes. Students ages 5 and older must complete their first dose of the
-      vaccine no later than Sunday 1/30/22. Families should continue to follow
-      the manufacturer and vaccine site’s recommendations regarding completion
-      of the second dose 21 days following the initial dose.
+      > Yes. Students ages 5 and older must be fully vaccinated.
 
 
       **Are all employees fully vaccinated?**
@@ -241,39 +235,17 @@ pageBuilder:
       **Face Coverings**
 
 
-      > All individuals in our spaces must wear face coverings, regardless of
-      vaccination status. The Coding Space will have cloth face coverings
-      available for each student and employee available. No one is required to
-      wear the The Coding Space-provided face covering, but a face covering must
-      be worn as indicated below:
+      > Face masks are optional in our coding classes. We encourage each of our families to choose what they feel is safest for their own child, and we will do our best to support your preference in class and remind students to keep their masks on if that is what their family decided.
 
       >
 
-      > * Students, employees, parents, guardians, and caregivers: face
-      coverings are required when in class unless in a single-occupant room,
-      when outdoors, or when eating/drinking.
+      > * Face coverings are required after return from 5-day isolation: Anyone returning on Day 6 after a positive COVID-19 diagnosis or after having COVID-19 symptoms without testing is still required to wear a well-fitting mask at all times on school property through Day 10.
 
       >
 
-      > All students and employees must adhere to the [CDC’s guidance on washing
-      cloth face
-      coverings](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-to-wash-cloth-face-coverings.html).
-      If wearing a disposable face covering, the manufacturer should be
-      consulted to determine appropriate use.
+      > * Face coverings are strongly recommended following exposure: It is strongly recommended that face coverings be worn when an individual has been exposed or potentially exposed to COVID-19 (in the same room for 15 minutes or longer with a person who tested positive for COVID-19). This face covering should be well-fitting and should be worn for 10 days after the known exposure.
 
       >
-
-      > Acceptable face coverings include cloth-based face coverings (e.g,
-      homemade sewn, quick cut), N-95 or KN-95 respirators, and surgical masks
-      that cover both the nose and mouth. Bandanas or face masks with exhalation
-      vents or valves are not considered acceptable face coverings. Acceptable
-      face coverings should have at least two layers (e.g. 2-ply) and fit snug
-      against your face without gaping openings around the edges. If choosing to
-      wear a face shield, it must be worn in addition to a face covering. Face
-      shields alone are not considered adequate protection against COVID-19.
-      Additional information about how to select, wear, and clean your mask may
-      be
-      found [here](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html).
 
 
       **Following a Confirmed Case of COVID-19**

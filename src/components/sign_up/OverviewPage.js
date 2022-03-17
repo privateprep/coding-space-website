@@ -253,12 +253,10 @@ const OverviewPage = ({
               <div className="vaccine-card">
                 <p>
                   To maximize the safety of in-person classes, all students and
-                  instructors are required to be vaccinated. Please confirm that
-                  your child has had at least one vaccine dose.
+                  instructors are required to be vaccinated.
                 </p>
                 <label htmlFor="vaccinated">
-                  Has your child received their first dose of the COVID-19
-                  vaccine prior to January 30, 2022?
+                  Is your child fully vaccinated (2 doses) against COVID-19?
                 </label>
                 <FormikRadioButtonGroup
                   name="vaccinated"
@@ -276,8 +274,12 @@ const OverviewPage = ({
                     <strong>
                       All students must be vaccinated to attend in-person class.
                       Please visit our{" "}
-                      <a href="/locations/online">online offerings here</a>{" "}
-                      instead.
+                      <a href="/locations/online">online offerings here</a> or
+                      email us at{" "}
+                      <a href="mailto:admissions@thecodingspace.com">
+                        admissions@thecodingspace.com
+                      </a>{" "}
+                      with any detailed questions.
                     </strong>
                   </p>
                 )}
