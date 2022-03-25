@@ -9,7 +9,6 @@ import {
 } from "@stripe/react-stripe-js";
 import ErrorEmailRedirection from "./ErrorEmailRedirection";
 import ThreeDotLoader from "./shared/three-dot-loader";
-import BoxWithLogo from "./BuilderComponents/BoxWithLogo";
 
 import { loadStripe } from "@stripe/stripe-js";
 
@@ -127,8 +126,7 @@ class CollectRetrievedPayment extends Component {
     }
 
     return (
-      <BoxWithLogo>
-        <div className="collect-payment-page">
+        <div className="collect-payment-page component">
           <h1 className="title">Checkout</h1>
           <p>{this.state.paymentContext.paymentDetails.memo}</p>
           <Elements stripe={this.state.stripePromise}>
@@ -138,7 +136,6 @@ class CollectRetrievedPayment extends Component {
             />
           </Elements>
         </div>
-      </BoxWithLogo>
     );
   }
 }
