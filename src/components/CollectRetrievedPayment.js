@@ -75,6 +75,7 @@ const CheckoutForm = props => {
       </div>
       {!!cardError && <CardError cardError={cardError} />}
       <button
+        className="button"
         onClick={handleSubmit}
         disabled={isSubmitting}
         style={{ display: "flex", justifyContent: "center" }}
@@ -126,16 +127,16 @@ class CollectRetrievedPayment extends Component {
     }
 
     return (
-        <div className="collect-payment-page component">
-          <h1 className="title">Checkout</h1>
-          <p>{this.state.paymentContext.paymentDetails.memo}</p>
-          <Elements stripe={this.state.stripePromise}>
-            <CheckoutForm
-              {...this.state.paymentContext}
-              onSuccessRedirect={this.onSuccessRedirect}
-            />
-          </Elements>
-        </div>
+      <div className="collect-payment-page component">
+        <h1 className="title">Checkout</h1>
+        <p>{this.state.paymentContext.paymentDetails.memo}</p>
+        <Elements stripe={this.state.stripePromise}>
+          <CheckoutForm
+            {...this.state.paymentContext}
+            onSuccessRedirect={this.onSuccessRedirect}
+          />
+        </Elements>
+      </div>
     );
   }
 }
