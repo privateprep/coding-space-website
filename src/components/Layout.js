@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { loadPolyfills } from "../utils/pollyfills";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar";
 import "./all.scss";
@@ -103,6 +104,9 @@ const TemplateWrapper = ({ children }) => {
     },
   ];
   const { title, description } = useSiteMetadata();
+
+  loadPolyfills();
+
   return (
     <div>
       <Helmet>
