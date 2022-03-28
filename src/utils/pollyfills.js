@@ -1,5 +1,7 @@
 export const loadPolyfills = async () => {
-  await loadIntersectionObserver();
+  if (typeof window !== "undefined") {
+    await loadIntersectionObserver();
+  }
 };
 
 const loadIntersectionObserver = () => {
