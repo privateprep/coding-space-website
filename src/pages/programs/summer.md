@@ -22,7 +22,7 @@ pageBuilder:
       ## June - August
 
 
-      Beginning in June, your child can join The Coding Space for exciting opportunties to keep leaerning all summer long. Choose from in person summer camp options or attend classes in-person or online, for ultimate flexibility.  All of our summer offerings ensure students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
+      Beginning in June, your child can join The Coding Space for exciting opportunities to keep learning all summer long. Choose from in-person summer camp options or attend classes in-person or online, for ultimate flexibility.  All of our summer offerings ensure students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
