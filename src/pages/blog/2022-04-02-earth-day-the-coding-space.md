@@ -44,7 +44,7 @@ pageBuilder:
 
       Enter green coding. Green coding refers to code that is written to minimize energy consumption. It’s a way of writing code that minimizes bloatware and maximizes elegance and efficiency to diminish the demand that code places on physical servers. Green code can also increase battery life for mobile devices, save watts, maximize power, and combine resources for greater efficiency in solving a task. Coders and tech companies can make their software part and parcel of their sustainability efforts by judging that software’s performance based on its “green”ness as much as on its functionality, security, and scalability.
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: These small tweaks may not zero out large-scale emissions, but
