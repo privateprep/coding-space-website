@@ -124,6 +124,6 @@ pageBuilder:
 
       This one’s just for iPhone users. There are tons of Easter Eggs secreted away in iPhones, but our favorite is this one: try saying “Lumos” (spell for light in Harry Potter) to Siri. Your phone flashlight will turn on!
 tags:
-  - OurTeam
+  - Easter
 ---
 In the world of computer programming, an "easter egg" is a digital secret tucked inside a piece of code. Easter eggs often take the form of jokes, features, and messages — like what happens when you Google “flip a coin” in Chrome or when you ask Siri to read you a haiku. This month, in honor of Easter, we're featuring our favorite easter eggs on the Internet!
