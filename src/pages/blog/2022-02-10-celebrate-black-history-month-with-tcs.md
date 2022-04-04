@@ -10,7 +10,7 @@ description: The feats of humankind, in both the tangible and virtual world,
   how the tremendous contributions of Black coding leaders continue to shape our
   digital experiences. Below, we’ve highlighted just a few of the many amazing
   Black STEM leaders!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/shaniqua-jarvis.png
   alt: Photo of Joy Buolamwini
