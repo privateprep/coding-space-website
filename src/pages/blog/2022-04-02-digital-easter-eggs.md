@@ -95,7 +95,7 @@ pageBuilder:
       On Buzzfeed's homepage, type the Konami code: up, up, down, down, right, left, right, left, b, a. Confetti will drop from the top of the page! The Konami Code (invented by Kazuhisa Hashimoto) originated as a cheat code—a sequence of button presses that unlocks secret features in a video game, usually making it easier to play.
     fgColor: "#eec11a"
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#264548"
     textColor: "#faf6ee"
     mdContent: >-
