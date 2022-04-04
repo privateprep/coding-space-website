@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-03-01T16:30:15.756Z
 description: Spotlighting Inspiring Women Creators
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-apps-by-women.png
   alt: 10 Apps by Women
