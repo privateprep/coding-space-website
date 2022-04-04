@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-04-02T18:10:48.270Z
 description: Ears looking at you, code lovers!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-april-2022-news-photos.png
   alt: Turquoise & teal easter egg
