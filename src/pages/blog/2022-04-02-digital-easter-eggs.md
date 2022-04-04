@@ -10,100 +10,90 @@ featuredImage:
   image: /img/tcs-april-2022-news-photos.png
   alt: Turquoise & teal easter egg
 pageBuilder:
-  - type: sideBySide
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          ## GOOGLE BARREL ROLL
+    image:
+      image: /img/barrel-roll.gif
+      alt: Google Barrel Roll
+    mediaPosition: right
+    mdContent: >-
+      ## GOOGLE BARREL ROLL
 
 
-          In Chrome, Google the words “do a barrel roll.” Your browser will do a 360-degree spin!
-    rightComponent:
-      - type: iframe
-        bgColor: "#faf6ee"
-        content: "https://drive.google.com/file/d/1uujyvY1mMAAfj7oKTx_3iSvqFz7HLbCc/vie\
-          w?usp=sharing "
-        ratio: ratio1x1
-        title: Barrel Roll
-  - type: sideBySide
+      In Chrome, Google the words “do a barrel roll.” Your browser will do a 360-degree spin!
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#faf6ee"
     bgColor: "#264548"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#faf6ee"
-        mdContent: >-
-          ## HIDDEN WIKI EGG
+    image:
+      image: /img/wiki-egg.gif
+      alt: Wiki egg
+    mediaPosition: right
+    mdContent: >-
+      ## HIDDEN WIKI EGG
 
 
-          On the Wikipedia page for Easter egg (media), click the hedgehog in the image. It links to a secret picture!
-    rightComponent:
-      - type: iframe
-        bgColor: "#faf6ee"
-        content: "https://drive.google.com/file/d/1St6sICpL_9sunaIsG04KTJYPx4_tDQxk/vie\
-          w?usp=sharing "
-        ratio: ratio1x1
-        title: Wiki Egg
-  - type: sideBySide
+      On the Wikipedia page for Easter egg (media), click the hedgehog in the image. It links to a secret picture!
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: |-
-          ## ASKEW
+    image:
+      image: /img/askew.gif
+      alt: Askew
+    mediaPosition: right
+    mdContent: |-
+      ## ASKEW
 
-          In a Chrome window, Google the word “askew”. Your browser will tilt!
-    rightComponent:
-      - type: iframe
-        bgColor: "#faf6ee"
-        content: "​​https://drive.google.com/file/d/1H5Z-AJ9hV5ZVsYNfNDPh-qzlGWOvB5uJ/v\
-          iew?usp=sharing "
-        ratio: ratio1x1
-        title: Askew
-  - type: sideBySide
+      In a Chrome window, Google the word “askew”. Your browser will tilt!
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#faf6ee"
     bgColor: "#264548"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#faf6ee"
-        mdContent: >-
-          ## CHROME DINOSAUR GAME
+    image:
+      image: /img/chrome-dino.gif
+      alt: Chrome dino
+    mediaPosition: right
+    mdContent: >-
+      ## CHROME DINOSAUR GAME
 
 
-          You’re probably familiar with the Chrome “no internet” dinosaur — it’s the little pixelated T-Rex that pops up on your browser when the connection peters out. But did you know that the "no internet" dinosaur is a mini game? Hit the space bar, and jump the scrolling cacti!
-    rightComponent:
-      - type: iframe
-        bgColor: "#faf6ee"
-        content: "https://drive.google.com/file/d/1fiVQesqeuI4xFilGeCW8BCx5nLNGtlu1/vie\
-          w?usp=sharing "
-        ratio: ratio1x1
-        title: Dinosaur Game
-  - type: sideBySide
+      You’re probably familiar with the Chrome “no internet” dinosaur — it’s the little pixelated T-Rex that pops up on your browser when the connection peters out. But did you know that the "no internet" dinosaur is a mini game? Hit the space bar, and jump the scrolling cacti!
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          ## BUZZFEED CONFETTI DROP
+    image:
+      image: /img/buzzfeed-confetti.gif
+      alt: Buzzfeed confetti
+    mediaPosition: right
+    mdContent: >-
+      ## BUZZFEED CONFETTI DROP
 
 
-          On Buzzfeed's homepage, type the Konami code: up, up, down, down, right, left, right, left, b, a. Confetti will drop from the top of the page! The Konami Code (invented by Kazuhisa Hashimoto) originated as a cheat code—a sequence of button presses that unlocks secret features in a video game, usually making it easier to play.
-    rightComponent:
-      - type: iframe
-        bgColor: "#faf6ee"
-        content: "https://drive.google.com/file/d/1odd-QxMysltqcgYd-J_nh6RLB_J2mB0i/vie\
-          w?usp=sharing "
-        ratio: ratio1x1
-        title: Buzzfeed
+      On Buzzfeed's homepage, type the Konami code: up, up, down, down, right, left, right, left, b, a. Confetti will drop from the top of the page! The Konami Code (invented by Kazuhisa Hashimoto) originated as a cheat code—a sequence of button presses that unlocks secret features in a video game, usually making it easier to play.
+    fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
