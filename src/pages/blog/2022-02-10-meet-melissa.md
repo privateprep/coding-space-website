@@ -11,7 +11,7 @@ description: "If you’ve cruised through our website recently, you may have
   problem-solver, and she’s already made invaluable contributions to our
   organization’s growth as we continue to offer your child the highest quality
   coding education. "
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/meet-melissa.jpeg
   alt: Our newest employee Melissa with her dog
