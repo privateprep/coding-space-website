@@ -28,8 +28,8 @@ module.exports = {
       resolve: `@honeybadger-io/gatsby-plugin-honeybadger`,
       options: {
         apiKey: "391861b6",
-        revision: process.env.REVIEW_ID,
-        assetsUrl: `${process.env.URL}/assets`,
+        revision: `${Date.now()}-${process.env.REVIEW_ID}`,
+        assetsUrl: `${process.env.WEBPACKER_ASSETS_URL}`,
       },
     },
     "gatsby-plugin-react-helmet",
