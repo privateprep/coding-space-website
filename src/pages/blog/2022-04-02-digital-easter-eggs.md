@@ -27,9 +27,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         content: "https://drive.google.com/file/d/1uujyvY1mMAAfj7oKTx_3iSvqFz7HLbCc/vie\
           w?usp=sharing "
-        ratio:
-          label: 1:1
-          value: ratio1x1
+        ratio: ratio1x1
         title: Barrel Roll
   - type: sideBySide
     bgColor: "#264548"
@@ -48,9 +46,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         content: "https://drive.google.com/file/d/1St6sICpL_9sunaIsG04KTJYPx4_tDQxk/vie\
           w?usp=sharing "
-        ratio:
-          label: 1:1
-          value: ratio1x1
+        ratio: ratio1x1
         title: Wiki Egg
   - type: sideBySide
     bgColor: "#faf6ee"
@@ -68,9 +64,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         content: "​​https://drive.google.com/file/d/1H5Z-AJ9hV5ZVsYNfNDPh-qzlGWOvB5uJ/v\
           iew?usp=sharing "
-        ratio:
-          label: 1:1
-          value: ratio1x1
+        ratio: ratio1x1
         title: Askew
   - type: sideBySide
     bgColor: "#264548"
@@ -89,9 +83,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         content: "https://drive.google.com/file/d/1fiVQesqeuI4xFilGeCW8BCx5nLNGtlu1/vie\
           w?usp=sharing "
-        ratio:
-          label: 1:1
-          value: ratio1x1
+        ratio: ratio1x1
         title: Dinosaur Game
   - type: sideBySide
     bgColor: "#faf6ee"
@@ -110,9 +102,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         content: "https://drive.google.com/file/d/1odd-QxMysltqcgYd-J_nh6RLB_J2mB0i/vie\
           w?usp=sharing "
-        ratio:
-          label: 1:1
-          value: ratio1x1
+        ratio: ratio1x1
         title: Buzzfeed
   - type: textOnly
     textAlign: center

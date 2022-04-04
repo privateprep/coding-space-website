@@ -43,13 +43,8 @@ ratio:
     label: "Aspect Ratio",
     name: ratio,
     widget: select,
-    default: { label: "1:1", value: "ratio1x1" },
-    options:
-      [
-        { label: "16:9", value: "ratio16x9" },
-        { label: "4:3", value: "ratio4x3" },
-        { label: "1:1", value: "ratio1x1" },
-      ],
+    default: "ratio1x1",
+    options: ["ratio16x9", "ratio4x3", "ratio1x1"],
     required: false,
   }
 
@@ -730,7 +725,7 @@ collections:
             "This is a list, separate items with commas. Used to ensure location
             pages show offerings",
           widget: "list",
-          field: {label: Category Id, name: categoryId, widget: number}
+          field: { label: Category Id, name: categoryId, widget: number },
         }
       - {
           label: "Course Offering Endpoint",
@@ -1116,7 +1111,9 @@ collections:
                           default: "https://scratch.mit.edu/projects/510001177/embed",
                           hint:
                             "This is a url to the source you want to import. Ask
-                            for help if you need finding it. For scratch links, ensure `/embed` is at the end of the url or it will not work!",
+                            for help if you need finding it. For scratch links,
+                            ensure `/embed` is at the end of the url or it will
+                            not work!",
                           name: "content",
                           widget: string,
                         },
