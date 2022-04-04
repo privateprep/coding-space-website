@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-02-22T17:39:11.755Z
 description: Give a warm TCS welcome to our new Head of Scholarship Admissions
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img-3791-1-.jpg
   alt: Sarah Tucci
