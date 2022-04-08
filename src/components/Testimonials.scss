@@ -3,7 +3,7 @@
   align-items: center;
   justify-items: center;
   padding-bottom: 2rem;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 
   &__item {
     position: relative;
@@ -24,7 +24,6 @@
 
   @media (min-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
 
     &__item {
       min-height: 260px;
