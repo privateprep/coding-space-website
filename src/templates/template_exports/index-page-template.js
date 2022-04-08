@@ -1,15 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import BlogRoll from "../../components/BlogRoll";
 import BgSmallMp4 from "../../assets/bg_small.mp4";
-import {
-  Banner,
-  ButtonLink,
-  Blurb,
-  Review,
-  Iframe,
-} from "../../components/Atoms";
+import { Banner, ButtonLink, Blurb, Iframe } from "../../components/Atoms";
+import BlogRoll from "../../components/BlogRoll";
 import PreviewCompatibleImage from "../../components/PreviewCompatibleImage";
+import Testimonials from "../../components/Testimonials";
 
 const FeaturedProject = ({ studentProfile, project }) => {
   const { name, age, interests, image, className, classUrl } = studentProfile;
@@ -115,13 +110,9 @@ export const IndexPageTemplate = ({
           <h1>Latest stories</h1>
           <BlogRoll blogRoll={blogRoll} />
         </section>
-        <section className="testimonials component">
+        <section className="family-reviews component">
           <h2>What Families Are Saying About The Coding Space</h2>
-          <div className="testimonials__reviews">
-            {reviews.map((review, index) => (
-              <Review {...review} key={index} />
-            ))}
-          </div>
+          <Testimonials testimonials={reviews} />
         </section>
       </div>
     </div>
