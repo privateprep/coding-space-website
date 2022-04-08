@@ -1,0 +1,33 @@
+.testimonials-list {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 2rem;
+  grid-gap: 3rem;
+
+  &__item {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1.15rem;
+
+    p {
+      margin: 0;
+      padding: 1rem;
+    }
+
+    cite {
+      display: block;
+      text-align: right;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+    &__item {
+      min-height: 260px;
+    }
+  }
+}
