@@ -10,7 +10,7 @@ description: We are over the moon about our extraordinary new Program Director,
   only is Aspen a fierce advocate for educational equity and a warm, supportive
   educator, she’s also a dog-loving Swiftie who brings a wealth of experience as
   a STEM content creator and educational consultant to our TCS family.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/meet-aspen.png
   alt: Aspen and her family!
