@@ -106,15 +106,15 @@ featuredProject:
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
+  - content: Sofia, age 9
+    title: I love it here because in my other classes and camps, they just give the
+      answers to you. Here I get to figure it out for myself. It’s more exciting
+      because I learned it myself.
   - content: Jill, NYC
     title: The Coding Space has opened up a whole new world for our daughter, which
       was especially needed when she couldn’t see friends in person. Her classes
       are the highlight of her week, and it’s so incredible to watch her
       progress.
-  - content: Sofia, age 9
-    title: I love it here because in my other classes and camps, they just give the
-      answers to you. Here I get to figure it out for myself. It’s more exciting
-      because I learned it myself.
   - content: Lea, Park Slope
     title: My son Aiden said it was the best camp he’s ever done and he absolutely
       loved everything he learned about coding. The instructors were really
