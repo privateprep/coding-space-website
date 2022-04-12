@@ -3,9 +3,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  max-width: 100rem;
-
-  margin: auto;
   padding: 2.25rem 2rem 3rem;
   position: relative;
 }
@@ -13,7 +10,7 @@
 @media screen and (min-width: 960px) {
   .course-hero {
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 4rem 5%;
   }
 }
