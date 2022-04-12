@@ -27,12 +27,10 @@
   // tablet and up
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+
     &__content {
       padding: 1rem;
-    }
-
-    &__image {
-      margin: 1rem 0 0 0;
     }
   }
 }
