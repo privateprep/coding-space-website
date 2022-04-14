@@ -1,3 +1,5 @@
+# Redirect classes subdomain to primary domain
+https://classes.thecodingspace.com/*  https://thecodingspace.com/:splat 301!
 /birthday.html                        /programs/birthday-parties/
 /birthday                             /programs/birthday-parties/
 /spring-break-camp.html               /programs/camps-at-the-coding-space
