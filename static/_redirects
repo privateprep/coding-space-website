@@ -1,5 +1,4 @@
 # Redirect classes subdomain to primary domain
-https://test.thecodingspace.com/*     https://thecodingspace.com/:splat 301!
 https://classes.thecodingspace.com/*  https://thecodingspace.com/:splat 301!
 # Known page redirects from old site
 /birthday.html                        /programs/birthday-parties/
