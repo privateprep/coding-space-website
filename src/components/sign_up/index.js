@@ -163,12 +163,10 @@ const SignUp = ({ classTypeId, location: { search } }) => {
   if (!!fetchError) {
     return (
       <div className="SignUp">
-        <BoxWithLogo>
-          <div>
-            <h2>We ran into a problem...</h2>
-            <p>{fetchError.message}</p>
-          </div>
-        </BoxWithLogo>
+        <BoxWithLogo
+          heading="We ran into a problem..."
+          mdContent={fetchError.message}
+        ></BoxWithLogo>
       </div>
     );
   }

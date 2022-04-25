@@ -20,10 +20,10 @@ const ThankYou = ({ location }) => {
   return (
     <Layout>
       <Seo title="Thank You" />
-      <BoxWithLogo>
-        <h2>See you in class!</h2>
-        <p>A confirmation email will be sent shortly.</p>
-      </BoxWithLogo>
+      <BoxWithLogo
+        heading="See you in class!"
+        mdContent="A confirmation email will be sent shortly."
+      ></BoxWithLogo>
     </Layout>
   );
 };
