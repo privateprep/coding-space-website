@@ -8,12 +8,14 @@ const ThankYou = ({ location }) => {
   const { adsTracking = {} } = location.state || {};
   // conversion tracking code with safeguards against non-production environments
   useEffect(() => {
+    console.log("Starting conversion event");
     if (typeof window !== "undefined" && typeof window?.gtag === "function") {
       window.gtag("event", "purchase", {...adsTracking});
       window.gtag("event", "conversion", {
         send_to: "AW-943271359/NoDFCMXbkuEBEL_b5MED",
         ...adsTracking,
       });
+      console.log("Conversion event sent");
     }
   }, [adsTracking]);
 
