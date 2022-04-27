@@ -18,8 +18,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/1.png
-      alt: Shafi Goldwasser
+      image: /img/1-jerry.png
+      alt: Jerry Yang
     mediaPosition: right
     mdContent: >-
       # Shafi Goldwasser
