@@ -82,16 +82,16 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: left
     mdContent: >-
-      # John von Neumann
+      # Dr. Josiah Hester
 
 
-      ### THE FATHER OF THE MODERN COMPUTER
+      ### FIRST NATIVE HAWAIIAN TENURE-TRACK COMPUTER SCIENCE PROFESSOR
 
 
-      John von Neumann, who is widely regarded as one of the foremost mathematicians of his time, pioneered Game Theory and was one of the conceptual inventors of the stored-program digital computer. Among his many accomplishments, the Hungarian-born American mathematician was the originator of the basic principle of computer design known as the "[von Neumann architecture](https://www.computerscience.gcse.guru/theory/von-neumann-architecture)." Von Neumann computers are the ancestors of today's desktop and laptop PCs.
+      Dr. Hester’s lab at Northwestern is called the [Ka Mamoa](http://kamoamoa.eecs.northwestern.edu/) lab. The name comes from Hawaiian voyaging traditions, which date back thousands of years. Hawaiians voyaged across the Pacific in open-air canoes without navigational instruments; the [mamoa](http://kamoamoa.eecs.northwestern.edu/about/) is a small indentation at the rear of the canoe, where the spirit sits to provide guidance on voyages. Dr. Hester chose this name because he considers it the role of scientists to function as a guide for society, especially when tackling global-scale challenges, such as climate change, where often the direction is unknown and the destination far off. In his lab, Dr. Hester and his team are focused on building smart electronic devices to support applications across health care, environmental stewardship, and space exploration: smart face masks that monitor respiration and mask fit, soil-powered sensors for smart cities, and [even a battery-free Game Boy](http://news.northwestern.edu/stories/2020/09/battery-free-game-boy-runs-forever/). 
 
 
-      The principal feature of a von Neumann computer is that the program and any data are both stored together, usually in a slow-to-access storage medium such as a hard disk, and transferred as required to a faster storage medium (RAM) for execution or processing by a central processing unit (CPU). When von Neumann proposed this architecture in 1945, it was a radical idea. Today, practically all computers work this way.
+      For Dr. Hester, coupling computer science with sustainability is deeply motivated by his cultural heritage. As a Native Hawaiian himself, Dr. Hester understands how Native peoples’ expertise about their home landscapes far exceeds the expertise of people with a doctoral education. In his lab, Dr. Hester champions engaging technology to address issues that Indigenous people care deeply about, thereby broadening participation in STEM.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
