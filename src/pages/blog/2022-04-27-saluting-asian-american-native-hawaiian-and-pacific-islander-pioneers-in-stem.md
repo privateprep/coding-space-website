@@ -115,17 +115,13 @@ pageBuilder:
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "We at TCS are a community of coding nerds, so we’ve focused here on
-      the amazing contributions of Jewish Americans in the tech sector. But
-      while it’s undeniable that Jewish American coders have shaped modern
-      computing, it’s also important to acknowledge that the contributions of
-      the Jewish American community range far and wide: a Hall of Fame packed
-      with Nobel Prize winners, dramatists, musicians, artists, business
-      leaders, movie moguls, educators,  journalists, and educators who have
-      enriched and advanced American society. To learn more about Jewish
-      American Heritage Month, click
-      [here](https://www.whitehouse.gov/briefing-room/presidential-actions/2021\
-      /04/30/a-proclamation-on-jewish-american-heritage-month-2021/)!"
+    mdContent: AA & NH/PI Heritage Month is the perfect time to celebrate the
+      resilience, brilliance, and grit of the AA & NH/PI community in STEM. At
+      TCS, we believe that coding has the power to be a great social equalizer
+      and that everyone benefits when we create more opportunities for students
+      from all walks of life to develop this skill. Through our coding
+      curriculum, we hope to encourage and empower a diverse generation of
+      future leaders in STEM.
 tags: []
 ---
 Here at The Coding Space, the month of May isn’t just a time for spring blooms and summer anticipation — it’s also Asian American, Native Hawaiian, & Pacific Islander Heritage Month. Celebrated each May, [AA & NH/PI Heritage Month](https://asianpacificheritage.gov/) is an awesome opportunity to spotlight the accomplishments of these individuals in STEM and re-commit to disrupting the “model minority” myths that unjustly sabotage their visibility in tech. While Asian Americans are well-represented in the rank and file tech workforce, they are severely underrepresented at executive levels. In fact, Asian American tech professionals are the [least likely racial group](https://hbr.org/2018/05/asian-americans-are-the-least-likely-group-in-the-u-s-to-be-promoted-to-management) to be promoted into leadership roles, even though they are the most likely to be hired into technical roles — a phenomenon often referred to as the [bamboo ceiling](https://www.alliant.edu/blog/bamboo-ceiling-asian-americans-and-myth-model-minority).
