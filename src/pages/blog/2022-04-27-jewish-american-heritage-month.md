@@ -56,17 +56,17 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/3.png
+      image: /img/barbara-liskov.png
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      # Shine
+      # Barbara Liskov
 
 
-      ### Founders: Marah Lidey & Naomi Hirabayashi
+      ### THE ARCHITECT OF MODERN ALGORITHMS
 
 
-      [Shine](https://www.theshineapp.com/) is a self-care app designed to increase representation in and access to mental health care. The idea for the app was born when founders Marah Lidey and Naomi Hirabayashi, who are both women of color, didn't feel their experiences were often addressed in the world of wellness. Shine functions as a daily self-care check in, but what makes the app unique is how it incorporates current events, considering how headlines and crises might impact the mental health of its users. Shine also offers a collection of meditations in the app specific to Black well-being, including meditations on healing trauma and dealing with representation burnout.
+      Barbara Liskov pioneered the modern approach to writing code. When she was still a young professor at MIT, she led the team that created the first programming language that did not rely on “goto” statements. The language, CLU (short for “cluster”), relied on an approach she invented — data abstraction — that organized code into modules. Every important programming language used today, including Java and C++, is a descendant of CLU. In 2008, [Liskov won the Turing Award](http://amturing.acm.org/award_winners/liskov_1108679.cfm) for her contributions to programming language and system design.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
