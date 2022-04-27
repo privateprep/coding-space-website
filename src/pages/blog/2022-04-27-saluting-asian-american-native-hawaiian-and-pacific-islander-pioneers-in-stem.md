@@ -59,8 +59,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/barbara-liskov.png
-      alt: Accessibility name
+      image: /img/3-eric.png
+      alt: Eric Yuan
     mediaPosition: right
     mdContent: >-
       # Eric Yuan
