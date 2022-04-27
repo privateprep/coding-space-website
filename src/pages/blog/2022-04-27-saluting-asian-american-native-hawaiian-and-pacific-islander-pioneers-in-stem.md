@@ -78,8 +78,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/john-von-neu.png
-      alt: Accessibility name
+      image: /img/4-josiah.png
+      alt: Dr. Josiah Hester
     mediaPosition: left
     mdContent: >-
       # Dr. Josiah Hester
