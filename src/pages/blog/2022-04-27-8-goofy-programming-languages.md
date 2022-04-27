@@ -58,6 +58,22 @@ pageBuilder:
 
 
       If you love a genteel Elizabethan romance, you’ll love the [Shakespeare](http://shakespearelang.sourceforge.net/) programming language. Created by Jon Aslund and Karl Hesselstörm, this language reads exactly like a Shakespeare play, including Shakespearean characters, titles, scenes, acts, and stage directions. Because this code is designed to read like a play, it’s quite lengthy — but here’s an excerpt of the “Hello World” code (full version is available [here](http://shakespearelang.sourceforge.net/report/shakespeare/shakespeare.html#SECTION00091000000000000000)).
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/chef.png
+      alt: Chef
+    mediaPosition: right
+    mdContent: >-
+      ## CHEF
+
+
+      [Chef](https://www.dangermouse.net/esoteric/chef.html), created by David Morgan-Mar, is a programming language that looks like a recipe. The extra twist in this coding language is that, in order for the code to be valid, the recipes have to work both as code AND as functional recipes that make for delicious meals for cooks with different tastes and budgets. Chef is the perfect language for coders looking for an extra scoop of challenge in their coding fun.
 tags: []
 ---
 Have you ever wondered how programming languages come to life? Most functional languages, like the ones we teach at The Coding Space, began as solutions to coding problems. But sometimes, a programming language creator doesn’t want to inhabit such a utilitarian mindset — they want to express their creativity, inject some humor into their work, or show off their niche trivia knowledge.
