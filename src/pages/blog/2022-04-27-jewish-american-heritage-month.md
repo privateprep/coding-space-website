@@ -22,13 +22,13 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      # PepTalkHer
+      # Shafi Goldwasser
 
 
-      ### Founder: Meggie Palmer
+      ### CRYPTOGRAPHER & WINNER OF THE TURING PRIZE
 
 
-      This ambitious app is designed to close the gender pay gap, increase the number of women in executive positions, strengthen the talent pipeline, and achieve gender diversity in leadership. Founded by Meggie Palmer after her own experience of inequality at work, [PepTalkHer](https://www.peptalkher.com/) provides career pep talks and strategy sessions to women who are striving for greater professional recognition and success. It also helps users track their career successes and coaches them in confidence and negotiation skills, so they get every dollar and every promotion they deserve!
+      Shafira Goldwasser is an Israeli-American computer scientist and winner of the [Turing Award](https://amturing.acm.org/award_winners/goldwasser_8627889.cfm) in 2012. By all accounts, Shafi Goldwasser has revolutionized cryptography; her findings have prompted the creation of entire subfields of computer science. In 1982, she co-authored a paper that is widely credited with turning encryption from an art to a science and allowing better data security in the Internet age. She followed this with another game-changing paper in 1985 on zero-knowledge interactive proofs, which are the basis for the now-common security questions that allow internet users to retrieve lost passwords. In addition to her Turing Award, the highest honor in computer science, Goldwasser is also the recipient of two [Gödel Prizes](https://sigact.org/prizes/g%C3%B6del.html), the [ACM Grace Murray Hopper Award](https://awards.acm.org/award_winners/goldwasser_8627889) (1996), the [ACM Athena Award](https://awards.acm.org/award_winners/goldwasser_8627889) (2008), and the [Suffrage Science Award](https://www.suffragescience.org/) (2016). Goldwasser currently works at [UC Berkeley](https://simons.berkeley.edu/people/shafi-goldwasser) as the Director of the Simons Institute for the Theory of Computing and the C. Lester Hogan Professor in Electrical Engineering and Computer Sciences.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
