@@ -108,7 +108,22 @@ pageBuilder:
 
 
       Without doubt, Leonard Adleman’s most famous work is his contribution to the RSA algorithm — the most widely-used contemporary encryption method, with applications throughout the Internet to secure on-line transactions. In recent years, however, Adleman has focused on the interface between biology and computation; for this work, he has been named the “Father of DNA Computation”. Adelman noticed that, like a computer, DNA can store information and proteins can modify that information. He hypothesized that, theoretically, DNA should be able to compute anything that is computable by silicon-based computers. In a jaw-dropping experiment, Adleman used DNA to solve an instance of the [Sharp Satisfiability Problem](https://en.wikipedia.org/wiki/Sharp-SAT), one of the central problems of computer science.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "We at TCS are a community of coding nerds, so we’ve focused here on
+      the amazing contributions of Jewish Americans in the tech sector. But
+      while it’s undeniable that Jewish American coders have shaped modern
+      computing, it’s also important to acknowledge that the contributions of
+      the Jewish American community range far and wide: a Hall of Fame packed
+      with Nobel Prize winners, dramatists, musicians, artists, business
+      leaders, movie moguls, educators,  journalists, and educators who have
+      enriched and advanced American society. To learn more about Jewish
+      American Heritage Month, click
+      [here](https://www.whitehouse.gov/briefing-room/presidential-actions/2021\
+      /04/30/a-proclamation-on-jewish-american-heritage-month-2021/)!"
 tags:
-  - WomensHistoryMonth
+  - JewishAmericanHeritageMonth
 ---
 This month, we’re celebrating more than just the return of warm weather here at TCS — we’re also celebrating Jewish American Heritage Month! JAHM is a welcome opportunity to honor the generations of Jewish Americans who have helped form the fabric of American culture, American society, and American tech. Scroll down to learn about five Jewish American STEM legends who have made invaluable contributions to the advancement of computing technology.
