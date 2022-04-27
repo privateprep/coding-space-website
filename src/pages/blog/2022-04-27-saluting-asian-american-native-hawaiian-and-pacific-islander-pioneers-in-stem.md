@@ -104,13 +104,13 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      # Leonard Adelman
+      # Tracy Chou
 
 
-      ### THE FOUNDING FATHER OF DNA COMPUTING
+      ### FOUNDER OF BLOCK PARTY AND DIVERSITY ADVOCATE IN TECH
 
 
-      Without doubt, Leonard Adleman’s most famous work is his contribution to the RSA algorithm — the most widely-used contemporary encryption method, with applications throughout the Internet to secure on-line transactions. In recent years, however, Adleman has focused on the interface between biology and computation; for this work, he has been named the “Father of DNA Computation”. Adelman noticed that, like a computer, DNA can store information and proteins can modify that information. He hypothesized that, theoretically, DNA should be able to compute anything that is computable by silicon-based computers. In a jaw-dropping experiment, Adleman used DNA to solve an instance of the [Sharp Satisfiability Problem](https://en.wikipedia.org/wiki/Sharp-SAT), one of the central problems of computer science.
+      Tracy Chou is an entrepreneur, software engineer, and diversity advocate. She is currently founder and CEO of [Block Party](http://blockpartyapp.com/), working to solve abuse and harassment online. Prior to founding Block Party, Tracy was a software engineer and tech lead at Pinterest and Quora. Aside from her many accomplishments as an engineer, Chou is perhaps better-known for her tech diversity activism. In 2016, Tracy co-founded the non-profit [Project Include](https://projectinclude.org/), which works with tech startups to ensure that they are giving everyone a fair chance to succeed in tech. In 2018, Tracy co-founded the non-profit [\#MovingForward](http://venturemovingforward.org/), which works with venture capital firms to establish anti-harassment policies. For her advocacy work, Tracy has appeared on the covers of The Atlantic, WIRED, and MIT Technology Review; been named Forbes Tech 30 under 30, MIT Technology Review 35 Innovators under 35, and Fast Company Most Creative People in Business; and been profiled in Vogue, ELLE, and other media outlets. In 2022, she was honored as one of Time Magazine’s [Women of the Year](https://time.com/collection/women-of-the-year/6150549/tracy-chou/).
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
