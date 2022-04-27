@@ -19,7 +19,7 @@ pageBuilder:
     bgColor: "#faf6ee"
     image:
       image: /img/1.png
-      alt: Accessibility name
+      alt: Shafi Goldwasser
     mediaPosition: right
     mdContent: >-
       # Shafi Goldwasser
