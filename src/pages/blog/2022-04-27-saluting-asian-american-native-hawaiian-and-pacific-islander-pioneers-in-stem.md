@@ -22,13 +22,16 @@ pageBuilder:
       alt: Jerry Yang
     mediaPosition: right
     mdContent: >-
-      # Shafi Goldwasser
+      # Jerry Yang
 
 
-      ### CRYPTOGRAPHER & WINNER OF THE TURING PRIZE
+      ### FOUNDER OF YAHOO
 
 
-      Shafira Goldwasser is an Israeli-American computer scientist and winner of the [Turing Award](https://amturing.acm.org/award_winners/goldwasser_8627889.cfm) in 2012. By all accounts, Shafi Goldwasser has revolutionized cryptography; her findings have prompted the creation of entire subfields of computer science. In 1982, she co-authored a paper that is widely credited with turning encryption from an art to a science and allowing better data security in the Internet age. She followed this with another game-changing paper in 1985 on zero-knowledge interactive proofs, which are the basis for the now-common security questions that allow internet users to retrieve lost passwords. In addition to her Turing Award, the highest honor in computer science, Goldwasser is also the recipient of two [Gödel Prizes](https://sigact.org/prizes/g%C3%B6del.html), the [ACM Grace Murray Hopper Award](https://awards.acm.org/award_winners/goldwasser_8627889) (1996), the [ACM Athena Award](https://awards.acm.org/award_winners/goldwasser_8627889) (2008), and the [Suffrage Science Award](https://www.suffragescience.org/) (2016). Goldwasser currently works at [UC Berkeley](https://simons.berkeley.edu/people/shafi-goldwasser) as the Director of the Simons Institute for the Theory of Computing and the C. Lester Hogan Professor in Electrical Engineering and Computer Sciences.
+      Jerry Yang was born in Taipei and immigrated to the United States in 1978. When Yang was 10, the only English word he knew was “shoe”.  “We got made fun of a lot at first,” Yang told [Fortune magazine](https://archive.fortune.com/magazines/fortune/fortune_archive/2000/03/06/275253/index.htm) about his experience growing up in the US. “I didn’t even know who the faces were on the paper money.” But Yang mastered English in just three years, graduated first in his high school class, and enrolled at Stanford, where he acquired both his bachelor’s and his master’s degree in just four years.
+
+
+      In 1995, when Yang was partway through his PhD, he-co founded Yahoo! with a fellow Stanford grad student. Yahoo! was an overnight sensation. Before the dawn of search engines, it functioned as a directory—and a guide—to the amorphous and often intimidating Web, making the internet feel manageable for millions of users. After serving as Yahoo’s CEO, Yang departed to seek new challenges in 2012. He is currently investing in the next generation of technologies at his firm [AME Cloud Ventures](http://www.amecloudventures.com/), where he has supported space travel, longevity research, and more than 50 startups. To this day, Jerry Yang is credited with fomenting an Internet revolution, making the World Wide Web friendly to a broad range of everyday users — not just tech experts.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
