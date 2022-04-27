@@ -44,13 +44,13 @@ pageBuilder:
       alt: Bob Kahn
     mediaPosition: left
     mdContent: >-
-      # Bob Kahn
+      # Reshma Saujani
 
 
-      ### INVENTOR OF TCP/IP
+      ### FOUNDER OF GIRLSWHOCODE
 
 
-      Known as one of the “Fathers of the Internet,” Dr. Robert Kahn created Transmission Control Protocol/Internet Protocol — commonly known as TCP/IP — which is still the standard of communication for computers to this day. Many of the things we think about computers doing – sending emails, watching Netflix, or Googling directions – involve computers communicating. These computers may be from different companies or may be located in different parts of the world, and the people and programs using them may speak different human and computer languages. To facilitate communication, computers need an agreed-upon set of rules (like Morse Code on a telegraph or “10-4” on a radio). That set of rules — known as a protocol — is TCP/IP, and it was invented by Jewish-American computer engineer Bob Kahn. In brief, Kahn designed the software code that is used to transmit data over the Internet, creating a digital revolution that has transformed global commerce, communication, and entertainment. Among his numerous awards, Dr Kahn received the [Presidential Medal of Freedom](https://georgewbush-whitehouse.archives.gov/government/cerf-kahn-bio.html) in 2005 and the [National Medal of Technology](https://www.uspto.gov/learning-and-resources/ip-programs-and-awards/national-medal-technology-and-innovation-nmti) in 1997.
+      Reshma Saujani is the founder of [Girls Who Code](https://girlswhocode.com/), a visionary nonprofit on a mission to close the gender gap in technology and cultivate the next generation of tech superstars. Saujani began her career as an attorney and Democratic organizer; in 2010, she became the first Indian American woman to run for U.S. Congress. During her Congressional campaign, Reshma visited local schools and witnessed the gender gap in computing classes firsthand, which led her to start Girls Who Code. Today, Girls Who Code has taught computer science to 300,000 girls and reached 500 million people worldwide through its New York Times-bestselling book series.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
