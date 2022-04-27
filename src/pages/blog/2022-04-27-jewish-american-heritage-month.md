@@ -203,4 +203,4 @@ pageBuilder:
 tags:
   - WomensHistoryMonth
 ---
-While the tech industry remains massively male-dominated, extraordinary women are making their mark on STEM fields, resulting in a plethora of exciting new offerings on your device. As part of our Women’s History Month celebration, we’ve compiled a list of 10 apps designed by female-identifying founders. Scroll down to get inspired and support the work of these coding icons!
+This month, we’re celebrating more than just the return of warm weather here at TCS — we’re also celebrating Jewish American Heritage Month! JAHM is a welcome opportunity to honor the generations of Jewish Americans who have helped form the fabric of American culture, American society, and American tech. Scroll down to learn about five Jewish American STEM legends who have made invaluable contributions to the advancement of computing technology.
