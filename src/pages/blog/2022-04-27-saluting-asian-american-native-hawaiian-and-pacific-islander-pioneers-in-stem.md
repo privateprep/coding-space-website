@@ -63,13 +63,13 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      # Barbara Liskov
+      # Eric Yuan
 
 
-      ### THE ARCHITECT OF MODERN ALGORITHMS
+      ### CREATOR OF ZOOM
 
 
-      Barbara Liskov pioneered the modern approach to writing code. When she was still a young professor at MIT, she led the team that created the first programming language that did not rely on “goto” statements. The language, CLU (short for “cluster”), relied on an approach she invented — data abstraction — that organized code into modules. Every important programming language used today, including Java and C++, is a descendant of CLU. In 2008, [Liskov won the Turing Award](http://amturing.acm.org/award_winners/liskov_1108679.cfm) for her contributions to programming language and system design.
+      In the late 1980s, Eric Yuan was a computer-science student at Shandong University. On numerous 10-hour train rides to visit his girlfriend, Yuan imagined a way to instantly see her face; as a college freshman, he developed his first piece of bespoke video telephony software. Inspired by the American dot-com boom, Yuan dreamed of moving to Silicon Valley, but his dreams were stalled when he was rejected for a visa eight times. When he was finally granted a visa in 1997, he moved to California and was hired as one of the first 20 coders at WebEx, where he became integral to building its video-conferencing platform. Eventually, Yuan began to notice deficiencies in WebEx: connectivity was unstable, audio and video would lag, and the installation process was frustrating. This led Yuan to pitch [Zoom](https://zoom.us/) — a more user-friendly video system. When the higher-ups turned him down, Yuan left to strike out on his own. Zoom was initially intended as a no-frills, highly functional conferencing platform for businesses, but the coronavirus pandemic changed all of that: in March 2020, Zoom was downloaded 2.13 million times in one day. Like Google and Skype, Zoom is now a verb as well as a noun — a symbol of its indispensability in contemporary life.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
