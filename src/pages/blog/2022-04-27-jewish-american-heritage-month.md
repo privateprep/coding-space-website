@@ -37,17 +37,17 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/2.png
-      alt: Accessibility name
+      image: /img/bob-kahn.png
+      alt: Bob Kahn
     mediaPosition: left
     mdContent: >-
-      # Classpass
+      # Bob Kahn
 
 
-      ### Founder: Payal Kadakia
+      ### INVENTOR OF TCP/IP
 
 
-      [Classpass](https://classpass.com/), the world’s most flexible fitness membership, was created by dancer Payal Kadakia after she spent hours on her laptop searching for an open ballet class, struggling to make sense of different schedules, prices, packages, and levels. With Classpass, you can book an hour of fitness at a variety of top-rated local fitness studios each month. Whether you hit up a boxing class, unwind with yoga, or tackle hills of new heights in a spin session, ClassPass makes it easy to prioritize your health.
+      Known as one of the “Fathers of the Internet,” Dr. Robert Kahn created Transmission Control Protocol/Internet Protocol — commonly known as TCP/IP — which is still the standard of communication for computers to this day. Many of the things we think about computers doing – sending emails, watching Netflix, or Googling directions – involve computers communicating. These computers may be from different companies or may be located in different parts of the world, and the people and programs using them may speak different human and computer languages. To facilitate communication, computers need an agreed-upon set of rules (like Morse Code on a telegraph or “10-4” on a radio). That set of rules — known as a protocol — is TCP/IP, and it was invented by Jewish-American computer engineer Bob Kahn. In brief, Kahn designed the software code that is used to transmit data over the Internet, creating a digital revolution that has transformed global commerce, communication, and entertainment. Among his numerous awards, Dr Kahn received the [Presidential Medal of Freedom](https://georgewbush-whitehouse.archives.gov/government/cerf-kahn-bio.html) in 2005 and the [National Medal of Technology](https://www.uspto.gov/learning-and-resources/ip-programs-and-awards/national-medal-technology-and-innovation-nmti) in 1997.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
