@@ -106,6 +106,22 @@ pageBuilder:
 
 
       [Ook!](https://www.dangermouse.net/esoteric/ook.html) was created by serial esoteric language developer David Morgan-Mar, and it involves three words: "Ook.", "Ook?" and "Ook!". In developing Ook!, Morgan-Mar was attempting to create a programming language "writable and readable by orangutans". Yeah, we didn’t believe it when we heard it the first time either.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/omgrolf.png
+      alt: Omgrofl
+    mediaPosition: right
+    mdContent: >-
+      ## OMGROFL
+
+
+      In Juraj Borza’s programming language [Omgrofl](https://github.com/OlegSmelov/omgrofl-interpreter) (“oh my god rolling on the floor laughing”’), all of the commands are made up of internet acronyms — “lol”, “brb”, “kthx”, etc. Here’s what the source code for “Hello World!” looks like.
 tags: []
 ---
 Have you ever wondered how programming languages come to life? Most functional languages, like the ones we teach at The Coding Space, began as solutions to coding problems. But sometimes, a programming language creator doesn’t want to inhabit such a utilitarian mindset — they want to express their creativity, inject some humor into their work, or show off their niche trivia knowledge.
