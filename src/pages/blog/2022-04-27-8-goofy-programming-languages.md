@@ -42,6 +42,22 @@ pageBuilder:
 
 
       [ArnoldC](https://github.com/lhartikk/ArnoldC) is a programming language consisting exclusively of (get this) one-liners from movies starring Arnold Schwarzenegger — especially classics such as Terminator, Predator and Total Recall. [ArnoldC](https://github.com/lhartikk/ArnoldC) was created by Lauri Hartikka, who started by swapping out standard commands for an equivalent Arnold one-liner. For example, the standard commands “False” and “True” become “I LIED” and “NO PROBLEMO”, and “Return” becomes “I’LL BE BACK” Here’s what the (frankly hilarious) "Hello World!" code looks like.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/shakespeare.png
+      alt: Shakespeare
+    mediaPosition: right
+    mdContent: >-
+      ## SHAKESPEARE
+
+
+      If you love a genteel Elizabethan romance, you’ll love the [Shakespeare](http://shakespearelang.sourceforge.net/) programming language. Created by Jon Aslund and Karl Hesselstörm, this language reads exactly like a Shakespeare play, including Shakespearean characters, titles, scenes, acts, and stage directions. Because this code is designed to read like a play, it’s quite lengthy — but here’s an excerpt of the “Hello World” code (full version is available [here](http://shakespearelang.sourceforge.net/report/shakespeare/shakespeare.html#SECTION00091000000000000000)).
 tags: []
 ---
 Have you ever wondered how programming languages come to life? Most functional languages, like the ones we teach at The Coding Space, began as solutions to coding problems. But sometimes, a programming language creator doesn’t want to inhabit such a utilitarian mindset — they want to express their creativity, inject some humor into their work, or show off their niche trivia knowledge.
