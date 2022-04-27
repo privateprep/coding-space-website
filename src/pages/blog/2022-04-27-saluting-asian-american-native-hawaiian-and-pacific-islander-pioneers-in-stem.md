@@ -40,8 +40,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/bob-kahn.png
-      alt: Bob Kahn
+      image: /img/2-reshma.png
+      alt: Reshma Saujani
     mediaPosition: left
     mdContent: >-
       # Reshma Saujani
