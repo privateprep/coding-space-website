@@ -98,7 +98,7 @@ pageBuilder:
           opens on Monday, May 2nd when participants will have the opportunity
           to vote for Coders’ Choice. The TCS team will reveal this winner, as
           well as winners in several technical categories chosen by our TCS
-          instructors, during a live virtual event on Sunday, May 8th.
+          instructors, during a live virtual event on Monday, May 9th.
       - title: How can kids get involved?
         mdContent: Participating coders can [sign up
           here](https://code4change.thecodingspace.com) between Monday, February
