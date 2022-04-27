@@ -154,7 +154,7 @@ pageBuilder:
           Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. Voting is open through May 7th.
 
 
-          **May 8th - Watch the Finale**
+          **May 9th - Watch the Finale**
 
 
           Winners will be announced live during a special virtual event!
