@@ -75,17 +75,20 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/4.png
+      image: /img/john-von-neu.png
       alt: Accessibility name
     mediaPosition: left
     mdContent: >-
-      # Hey! VINA
+      # John von Neumann
 
 
-      ### Founder: Olivia June-Poole
+      ### THE FATHER OF THE MODERN COMPUTER
 
 
-      Often referred to as the “Tinder for (girl) friends”, [Hey! VINA](https://www.heyvina.com/) is an app based on the premise that nothing makes us feel more confident, secure, happy, and free than a supportive group of friends. Frustrated by the difficulty she faced in finding like-minded women in the tech industry, founder Olivia June-Poole created Hey! VINA to provide women with the tools to connect, support, and empower each other. You can use Hey! VINA to find new platonic friends based on interest, occupation, and location — because friendships are an essential ingredient to living healthy lives!
+      John von Neumann, who is widely regarded as one of the foremost mathematicians of his time, pioneered Game Theory and was one of the conceptual inventors of the stored-program digital computer. Among his many accomplishments, the Hungarian-born American mathematician was the originator of the basic principle of computer design known as the "[von Neumann architecture](https://www.computerscience.gcse.guru/theory/von-neumann-architecture)." Von Neumann computers are the ancestors of today's desktop and laptop PCs.
+
+
+      The principal feature of a von Neumann computer is that the program and any data are both stored together, usually in a slow-to-access storage medium such as a hard disk, and transferred as required to a faster storage medium (RAM) for execution or processing by a central processing unit (CPU). When von Neumann proposed this architecture in 1945, it was a radical idea. Today, practically all computers work this way.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
