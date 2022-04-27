@@ -97,112 +97,17 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/5.png
+      image: /img/len-adelman.png
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      # SHEROES
+      # Leonard Adelman
 
 
-      ### Founder: Sairee Chahal
+      ### THE FOUNDING FATHER OF DNA COMPUTING
 
 
-      [SHEROES](https://sheroes.com/) is the world’s largest women-only social networking app, but it’s also much more than that. As part of its newest features, SHEROES provides micro-loans for female entrepreneurs at lower rates. This feature has made a particularly powerful impact in countries where women are barred from having credit scores or building credit. Women across the globe use SHEROES to talk about their hobbies, share recipes, access mental health support, and find expert advice on their professional, financial, and personal lives.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/6.png
-      alt: Accessibility name
-    mediaPosition: left
-    mdContent: >-
-      # Gender Fair
-
-
-      ### Founder: Amy Cross
-
-
-      According to Gender Fair founder Amy Cross, companies may have an outsized role in shaping society — but people can shape company behavior. The [Gender Fair](https://www.genderfair.com/) app tracks companies’ commitment to gender equality so that consumers can make informed decisions about where they spend their money. By downloading the app, you can search and scan products while you shop in-store and access detailed information about a company’s gender fairness rating. Even better, the app gives you a voice, allowing you to communicate with companies and show them that their values impact your buying decisions, encouraging them to accelerate equality.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/7.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      # Bumble
-
-
-      ### Founder: Whitney Wolfe
-
-
-      Whitney Wolfe, who used to be a marketing VP for the dating app Tinder, designed [Bumble](https://bumble.com/) to help the smart, wonderful women in her life shake free from the often restrictive and outdated gender dynamics of love and romance. Bumble began as a dating app that allows only those who identify as female to send the first message, giving women+ the control and helping mitigate the awkwardness (and creepiness) that can plague online dating. Now, Bumble has expanded to include two additional  modes: Bumble BFF, which helps users meet new friends and build a supportive community, and Bumble Bizz, which is for professionals to connect and share expertise.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/8.png
-      alt: Accessibility name
-    mediaPosition: left
-    mdContent: >-
-      # Wysa
-
-
-      ### Founder: Jo Aggarwal
-
-
-      [Wysa](https://www.wysa.io/), a mental health app powered by artificial intelligence, connects users with an anonymous, free, clinically assured AI mental wellness coach. Founder Jo Aggarwal designed Wysa to help compensate for the scarcity of therapists across the globe – even in countries with a relatively high therapist-to-population ratio, like the US, some therapists still have a year’s worth of patients on a waiting list. Aggarwal also emphasizes that the app is not a replacement for human therapy, but rather an additional tool for users who aren’t yet sure that they need therapy or don’t currently have access to a professional therapist. Wysa uses evidence-based cognitive-behavioral techniques (CBT), DBT, meditation, breathing, yoga, motivational interviewing and micro-actions to help you build mental resilience skills and, above all, feel better.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/9.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      # Euphoria
-
-
-      ### Founder: Robbi Katherine Anthony
-
-
-      [Euphoria](https://euphoria.lgbt/) aims to empower and guide the transgender community through every facet of their lives. The app provides daily affirmation and support for trans individuals, tailored to meet the user no matter where they are on their journey of transition. Founder Robbi Katherine Anthony was inspired to create Euphoria by her own experiences as a trans woman; with this app, she hopes to offer a technological solution to the confusion, pain, and isolation often felt in the trans community. “Our charter,” says Robbi, “is just to help people cross this chasm that is transition.”
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/10.png
-      alt: Accessibility name
-    mediaPosition: left
-    mdContent: >-
-      # EXHALE
-
-
-      ### Founder: Katara McCarty
-
-
-      [EXHALE](https://www.exhalesite.com/) is an emotional well-being app designed for Black, Indigenous, and Women of Color. Founder Katara McCarty, an entrepreneur dedicated to building brave spaces for BlWOC, seeks to provide a place of refuge and healing through the app. EXHALE features meditations, guided visualizations, breathwork, coaching talks, and daily affirmations to help users invest in themselves and cultivate lasting energy.
+      Without doubt, Leonard Adleman’s most famous work is his contribution to the RSA algorithm — the most widely-used contemporary encryption method, with applications throughout the Internet to secure on-line transactions. In recent years, however, Adleman has focused on the interface between biology and computation; for this work, he has been named the “Father of DNA Computation”. Adelman noticed that, like a computer, DNA can store information and proteins can modify that information. He hypothesized that, theoretically, DNA should be able to compute anything that is computable by silicon-based computers. In a jaw-dropping experiment, Adleman used DNA to solve an instance of the [Sharp Satisfiability Problem](https://en.wikipedia.org/wiki/Sharp-SAT), one of the central problems of computer science.
 tags:
   - WomensHistoryMonth
 ---
