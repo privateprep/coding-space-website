@@ -8,7 +8,7 @@ description: Honoring Jewish American Coders Throughout History
 featuredPost: false
 featuredImage:
   image: /img/tcs-jah-month-5.48.40-pm.png
-  alt: 10 Apps by Women
+  alt: Jewish American Heritage Month
 pageBuilder:
   - type: textAndImageBlock
     buttons:
