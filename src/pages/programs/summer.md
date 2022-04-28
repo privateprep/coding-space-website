@@ -13,7 +13,7 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
       # 2022 Summer Offerings
@@ -48,14 +48,14 @@ pageBuilder:
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#264548"
       fgColor: "#9de2dd"
-      textColor: "#264548"
+      textColor: "#ffffff"
       list:
         - title: Signup
           content: /experience-levels/girlcode-summer-program/
-    textColor: "#264548"
-    bgColor: "#faf6ee"
+    textColor: "#faf6ee"
+    bgColor: "#264548"
     image:
       image: /img/coder.jpg
       alt: Girl coders with multicolor "coder" letters on their foreheads.
@@ -69,6 +69,25 @@ pageBuilder:
 
       Don't miss a special two weeks of GirlCode this summer! This immersive two-week program combines project-based coding, STEM exploration, epic team challenges, field trips, and more in a supportive and inclusive space that gives participants the tools and confidence they need to take on STEM by storm.
     fgColor: "#9de2dd"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#faf6ee"
+      list:
+        - title: Sign Up
+          content: "#"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/girl-computer-home-sofa-woman-work-teen-student-e-learning-communication-laptop-internet-couch-online_t20_ojmlne.jpg
+      alt: Accessibility name
+    mediaPosition: left
+    mdContent: >-
+      ## **The Coding Space Academy**
+
+
+      Join our two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
