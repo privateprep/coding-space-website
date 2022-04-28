@@ -28,42 +28,6 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
-      list:
-        - title: Register Now
-          content: /classes
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/shutterstock_1408075316.jpg
-      alt: High School Accelerator
-    mediaPosition: left
-    mdContent: >-
-      ## High School Accelerator
-
-
-      ### Recommended for ages 14-17, co-ed
-
-
-      High school students will take a deep dive into programming with a variety of preliminary scaffolds, including instructional support on a sequence of challenge projects. Midway through the course, students will choose open-ended projects that combine the skills they’ve learned to work on for the duration of the semester. They’ll be encouraged to pair up with other students, even if they’re not necessarily at their same level, providing an authentic team setting for students to collaborate and pair-program on software projects of their creation.
-  - type: boxWithLogo
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#9de2dd"
-    heading: In the High School Accelerator program, your teen will...
-    mdContent: |-
-      
-
-      * Be challenged at their individual level.
-      * Build grit, a growth mindset, and computational thinking skills.
-      * Utilize existing coding skills to build new connections.
-      * Launch solo projects.
-      * Learn to collaborate with other coders.
-      * Make new friends near and far.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -92,6 +56,42 @@ pageBuilder:
       * Partner with existing teachers to learn how to lead coding classes.
       * Serve as a mentor and role model for young learners.
       * Be front of mind for future TCS employment opportunities.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#264548"
+      textColor: "#ffffff"
+      list:
+        - title: Register Now
+          content: /classes
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/shutterstock_1408075316.jpg
+      alt: High School Accelerator
+    mediaPosition: left
+    mdContent: >-
+      ## High School Accelerator
+
+
+      ### Recommended for ages 14-17, co-ed
+
+
+      High school students will take a deep dive into programming with a variety of preliminary scaffolds, including instructional support on a sequence of challenge projects. Midway through the course, students will choose open-ended projects that combine the skills they’ve learned to work on for the duration of the semester. They’ll be encouraged to pair up with other students, even if they’re not necessarily at their same level, providing an authentic team setting for students to collaborate and pair-program on software projects of their creation.
+  - type: boxWithLogo
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#9de2dd"
+    heading: In the High School Accelerator program, your teen will...
+    mdContent: |-
+      
+
+      * Be challenged at their individual level.
+      * Build grit, a growth mindset, and computational thinking skills.
+      * Utilize existing coding skills to build new connections.
+      * Launch solo projects.
+      * Learn to collaborate with other coders.
+      * Make new friends near and far.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
