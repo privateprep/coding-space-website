@@ -103,24 +103,9 @@ pageBuilder:
           * Celebrate their accomplishments and bond with their fellow coders at a team dinner and game night.
 
           * Present their projects at Demo Day, a final-day celebration including all students and parents!
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#264548"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Register Now
-          content: https://www.thecodingspace.com/experience-levels/the-coding-space-academy/
-    textColor: "#faf6ee"
+  - type: textOnly
+    textAlign: center
     bgColor: "#264548"
-    image:
-      image: /img/screen-shot-2022-04-27-at-11.58.28-am.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: |-
-      ## Program Dates (Tentative):
-
-      #### Monday, July 11, 2022 to Friday July 22nd
-
-      #### 9:00am-4:00pm
+    textColor: "#264548"
+    mdContent: "![](/img/screen-shot-2022-04-27-at-11.58.28-am.png)"
 ---
