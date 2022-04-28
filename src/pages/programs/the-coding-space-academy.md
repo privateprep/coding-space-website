@@ -10,7 +10,7 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: headerAndMarkDownBlock
+  - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
       fgColor: "#9de2dd"
@@ -18,18 +18,17 @@ pageBuilder:
       list:
         - title: Register Now
           content: https://www.thecodingspace.com/experience-levels/the-coding-space-academy/
-    mediaPosition: right
     textColor: "#264548"
-    textAlign: center
     bgColor: "#ffffff"
-    heading: Welcome to The Coding Space Academy
-    mdContent: The Coding Space Academy is a two-week in-person coding intensive for
-      rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous
-      pre-college program, coding novices and experienced programmers alike will
-      pick up the hard skills of coding, dive into the professional and
-      collegiate world of computer science, test their limits, make friends, and
-      be treated like the young adults that they are — all in an immersive boot
-      camp setting.
+    image:
+      image: /img/shutterstock_1066424816.jpg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## Welcome to The Coding Space Academy
+
+
+      The Coding Space Academy is a two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -104,26 +103,24 @@ pageBuilder:
           * Celebrate their accomplishments and bond with their fellow coders at a team dinner and game night.
 
           * Present their projects at Demo Day, a final-day celebration including all students and parents!
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#264548"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Register Now
+          content: https://www.thecodingspace.com/experience-levels/the-coding-space-academy/
+    textColor: "#faf6ee"
+    bgColor: "#264548"
+    image:
+      image: /img/screen-shot-2022-04-27-at-11.58.28-am.png
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: |-
       ## Program Dates (Tentative):
 
-
-      #### Monday, July 11, 2022 to Friday, July 22nd
-
+      #### Monday, July 11, 2022 to Friday July 22nd
 
       #### 9:00am-4:00pm
-
-
-      ![The Coding Space Academy Schedule](/img/screen-shot-2022-04-27-at-11.58.28-am.png "The Coding Space Academy Schedule")
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    textColor: "#264548"
-    list:
-      - title: Register Now
-        content: https://www.thecodingspace.com/experience-levels/the-coding-space-academy/
 ---
