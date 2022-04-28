@@ -51,7 +51,7 @@ pageBuilder:
     textColor: "#9de2dd"
     heading: In the High School Accelerator program, your teen will...
     mdContent: |-
-
+      
 
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
@@ -65,9 +65,9 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
-      image: /img/shutterstock_1926868460.jpg
+      image: /img/shutterstock_1408075316.jpg
       alt: STEM Leadership Program
     mediaPosition: right
     mdContent: >-
@@ -79,12 +79,12 @@ pageBuilder:
 
       It’s often said that there is no better way to learn than to teach. Similar to a CIT program, this program is designed for teenagers who enjoy helping younger learners and serving as a mentor and role model. After learning our curriculum, our STEM Leadership students join our teacher training program, where they’ll become adept in teaching using the Socratic Method. As they progress, they’ll team up with our expert teachers to lead coding classes for younger students.
   - type: boxWithLogo
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     fgColor: "#faf6ee"
     textColor: "#264548"
     heading: In the STEM Leadership program, your teen will...
     mdContent: |-
-
+      
 
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
