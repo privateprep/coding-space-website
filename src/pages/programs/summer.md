@@ -76,11 +76,11 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Sign Up
-          content: /the-coding-space-academy
+          content: https://www.thecodingspace.com/programs/the-coding-space-academy/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/girl-computer-home-sofa-woman-work-teen-student-e-learning-communication-laptop-internet-couch-online_t20_ojmlne.jpg
+      image: /img/shutterstock_1066424816.jpg
       alt: Accessibility name
     mediaPosition: left
     mdContent: >-
@@ -101,7 +101,7 @@ pageBuilder:
     image:
       image: /img/covid-in-person-camp.jpeg
       alt: Summer Classes
-    mediaPosition: left
+    mediaPosition: right
     mdContent: >-
       ## Summer Coding Classes For Kids
 
