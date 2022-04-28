@@ -76,7 +76,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Sign Up
-          content: "#"
+          content: /the-coding-space-academy
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
