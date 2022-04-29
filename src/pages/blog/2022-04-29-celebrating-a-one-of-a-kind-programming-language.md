@@ -31,6 +31,11 @@ pageBuilder:
       ## FEED MAMA HEN
 
       Gather the seeds and give them to mom!
+  - type: iframe
+    bgColor: "#faf6ee"
+    content: https://scratch.mit.edu/projects/682518063/embed
+    ratio: ratio1x1
+    title: Feed Mama Hen
 tags:
   - ScratchWeek
 ---
