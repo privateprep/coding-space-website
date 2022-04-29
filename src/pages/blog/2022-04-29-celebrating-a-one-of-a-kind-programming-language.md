@@ -36,6 +36,19 @@ pageBuilder:
     content: https://scratch.mit.edu/projects/682518063/embed
     ratio: ratio1x1
     title: Feed Mama Hen
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: |-
+      ## THE TALE OF SUPER GOAT
+
+      Watch and listen as Super Goat defeats his arch-nemesis!
+  - type: iframe
+    bgColor: "#264548"
+    content: https://scratch.mit.edu/projects/676100585/embed
+    ratio: ratio1x1
+    title: The Tale of Super Goat
 tags:
   - ScratchWeek
 ---
