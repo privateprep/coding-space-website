@@ -113,4 +113,23 @@ pageBuilder:
     bgColor: "#264548"
     textColor: "#264548"
     mdContent: "![](/img/screen-shot-2022-04-27-at-11.58.28-am.png)"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: https://www.thecodingspace.com/about-us/our-teaching-philosophy/
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/hands_on.jpeg
+      alt: Accessibility name
+    mediaPosition: left
+    mdContent: >-
+      ## Not Your Typical Coding Camp
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
 ---
