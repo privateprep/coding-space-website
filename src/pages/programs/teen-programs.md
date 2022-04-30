@@ -63,26 +63,26 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Register Now
-          content: /classes
+          content: https://www.thecodingspace.com/programs/the-coding-space-academy/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/shutterstock_1408075316.jpg
+      image: /img/img_2785.jpg
       alt: High School Accelerator
     mediaPosition: left
     mdContent: >-
-      ## High School Accelerator
+      ## **The Coding Space Academy**
 
 
       ### Recommended for ages 14-17, co-ed
 
 
-      High school students will take a deep dive into programming with a variety of preliminary scaffolds, including instructional support on a sequence of challenge projects. Midway through the course, students will choose open-ended projects that combine the skills they’ve learned to work on for the duration of the semester. They’ll be encouraged to pair up with other students, even if they’re not necessarily at their same level, providing an authentic team setting for students to collaborate and pair-program on software projects of their creation.
+      The Coding Space Academy is a two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
   - type: boxWithLogo
     bgColor: "#faf6ee"
     fgColor: "#264548"
     textColor: "#9de2dd"
-    heading: In the High School Accelerator program, your teen will...
+    heading: In the The Coding Space Academy, your teen will...
     mdContent: |-
       
 
