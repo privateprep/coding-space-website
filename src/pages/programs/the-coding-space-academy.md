@@ -21,7 +21,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/shutterstock_1066424816.jpg
+      image: /img/img_2785.jpg
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
@@ -103,6 +103,11 @@ pageBuilder:
           * Celebrate their accomplishments and bond with their fellow coders at a team dinner and game night.
 
           * Present their projects at Demo Day, a final-day celebration including all students and parents!
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#9de2dd"
+    mdContent: "## Sample Schedule"
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
