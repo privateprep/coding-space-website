@@ -148,4 +148,20 @@ pageBuilder:
     list:
       - title: Apply Now
         content: https://www.thecodingspace.com/about-us/scholarship-program/
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Have a Question? 
+
+
+      Be sure to check out our [Common Questions](https://www.thecodingspace.com/about-us/common-questions/). If you stiill don' see what you need, reach out to us.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#ffffff"
+    list:
+      - title: Contact Us
+        content: https://www.thecodingspace.com/contact-us
 ---
