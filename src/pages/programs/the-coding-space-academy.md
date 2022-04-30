@@ -115,14 +115,14 @@ pageBuilder:
     mdContent: "![](/img/screen-shot-2022-04-27-at-11.58.28-am.png)"
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
         - title: Learn More
           content: https://www.thecodingspace.com/about-us/our-teaching-philosophy/
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/hands_on.jpeg
       alt: Accessibility name
