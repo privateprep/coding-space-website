@@ -44,8 +44,8 @@ pageBuilder:
       It’s often said that there is no better way to learn than to teach. Similar to a CIT program, this program is designed for teenagers who enjoy helping younger learners and serving as a mentor and role model. After learning our curriculum, our STEM Leadership students join our teacher training program, where they’ll become adept in teaching using the Socratic Method. As they progress, they’ll team up with our expert teachers to lead coding classes for younger students.
   - type: boxWithLogo
     bgColor: "#faf6ee"
-    fgColor: "#faf6ee"
-    textColor: "#264548"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
     heading: In the STEM Leadership program, your teen will...
     mdContent: |-
       
@@ -79,19 +79,16 @@ pageBuilder:
 
       The Coding Space Academy is a two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
   - type: boxWithLogo
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#9de2dd"
+    bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
     heading: In the The Coding Space Academy, your teen will...
     mdContent: |-
-      
-
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
-      * Utilize existing coding skills to build new connections.
-      * Launch solo projects.
+      * Explore programming languages like JavaScript, Python, and more.
       * Learn to collaborate with other coders.
-      * Make new friends near and far.
+      * Be mentored by expert coding instructors.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
