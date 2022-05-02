@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-04-02T18:31:06.565Z
 description: Coding against climate change
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-earth-day.png
   alt: Earth Day
