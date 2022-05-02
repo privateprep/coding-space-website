@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-04-27T21:12:13.637Z
 description: Technology on the cutting-edge of mental wellness
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-mental-health-month-2.png
   alt: Man on phone at window
