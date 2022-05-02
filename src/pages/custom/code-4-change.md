@@ -235,7 +235,7 @@ pageBuilder:
       ### Prizes
 
 
-      Winners will be announced during a live virtual event on May 8th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
+      Winners will be announced during a live virtual event on May 9th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
