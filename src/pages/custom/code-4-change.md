@@ -68,8 +68,8 @@ pageBuilder:
         mdContent: "Code 4 Change: Build a Better World kicks off officially on Monday,
           April 4th, but kids are invited to begin coding their projects as soon
           as they sign up. Coders will have four weeks to code their projects
-          before turning them in by Sunday, May 1st. Voting begins Monday, May
-          2nd."
+          before turning them in by Thursday, May 5th. Voting begins Friday, May
+          6th."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
@@ -95,7 +95,7 @@ pageBuilder:
           That’s why we’re empowering our students to put their ideas into action. How can we use code to distribute food to the hungry? To stop future pandemics? To support the pursuit of racial equity? Whether it’s on a local or global level, kids will have the chance to program prototypes of their creative solutions to real issues facing our world.
       - title: How will projects be judged?
         mdContent: All completed projects will be hosted on the TCS website. Voting
-          opens on Monday, May 2nd when participants will have the opportunity
+          opens on Friday, May 6th when participants will have the opportunity
           to vote for Coders’ Choice. The TCS team will reveal this winner, as
           well as winners in several technical categories chosen by our TCS
           instructors, during a live virtual event on Monday, May 9th.
@@ -142,13 +142,13 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#ffffff"
         mdContent: >-
-          **May 1st - Project Due**
+          **May 5th - Project Due**
 
 
           Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
 
 
-          **May 2nd - Time to Vote**
+          **May 6th - Time to Vote**
 
 
           Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. Voting is open through May 7th.
