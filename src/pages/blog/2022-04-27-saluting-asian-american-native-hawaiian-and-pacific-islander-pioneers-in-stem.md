@@ -100,7 +100,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/len-adelman.png
+      image: /img/tcs-aa-nhpi-blog-photos.png
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
