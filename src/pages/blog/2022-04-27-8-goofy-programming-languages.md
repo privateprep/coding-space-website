@@ -142,8 +142,8 @@ pageBuilder:
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: At TCS, though we teach primarily in Scratch, WoofJS, and Java, we
-      love the intellectual and creative challenges posed by these esoteric
+    mdContent: At TCS, though we teach primarily in Scratch and JavaScript, we love
+      the intellectual and creative challenges posed by these esoteric
       languages. Click
       [here](https://www.thecodingspace.com/about-us/our-teaching-philosophy) to
       learn more about our teaching philosophy.
