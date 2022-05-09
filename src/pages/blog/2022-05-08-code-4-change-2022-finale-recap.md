@@ -7,7 +7,7 @@ date: 2022-05-08T21:37:25.662Z
 description: Code-gratulations to all of our winners!
 featuredPost: false
 featuredImage:
-  image: /img/c4c-finale-2022.png
+  image: /img/image-from-ios.jpg
   alt: Code 4 Change Finale
 pageBuilder:
   - type: textOnly
@@ -31,14 +31,14 @@ pageBuilder:
     title: Crazy Shelter
   - type: textOnly
     textAlign: left
-    bgColor: "#264548"
-    textColor: "#faf6ee"
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: |-
       ## BEST SOUND DESIGN
 
       Into the Jungle by Chelsea E. & Lili D.
   - type: iframe
-    bgColor: "#264548"
+    bgColor: "#9de2dd"
     content: https://scratch.mit.edu/projects/675650445/embed
     ratio: ratio1x1
     title: Into the Jungle
@@ -57,14 +57,14 @@ pageBuilder:
     title: What is Climate Change
   - type: textOnly
     textAlign: left
-    bgColor: "#264548"
-    textColor: "#faf6ee"
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: |-
       ## **MOST IMAGINATIVE**
 
       Electric Delivery by Sasha L.
   - type: iframe
-    bgColor: "#264548"
+    bgColor: "#9de2dd"
     content: https://scratch.mit.edu/projects/666432441/embed
     ratio: ratio1x1
     title: Electric Delivery
@@ -83,8 +83,8 @@ pageBuilder:
     title: Save the Ocean
   - type: textOnly
     textAlign: left
-    bgColor: "#264548"
-    textColor: "#faf6ee"
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: >-
       We were blown away by these young coders’ creativity, technical expertise,
       and passion for finding unique coding solutions to real-world problems. As
