@@ -18,7 +18,7 @@ pageBuilder:
       ## BEST VISUAL DESIGN
 
 
-      TIE: A"maze"ing Ways to Zero Hunger by Emma Suh and Crazy Shelter by Brianna Stumacher
+      TIE: A"maze"ing Ways to Zero Hunger by Emma S. and Crazy Shelter by Brianna S.
   - type: iframe
     bgColor: "#faf6ee"
     content: https://scratch.mit.edu/projects/670528533/embed
@@ -36,7 +36,7 @@ pageBuilder:
     mdContent: |-
       ## BEST SOUND DESIGN
 
-      Into the Jungle by Chelsea Eisbruck & Lili Davis-McGinn
+      Into the Jungle by Chelsea E. & Lili D.
   - type: iframe
     bgColor: "#264548"
     content: https://scratch.mit.edu/projects/675650445/embed
@@ -49,7 +49,7 @@ pageBuilder:
     mdContent: |-
       ## **MOST INFORMATIVE**
 
-      What Is Climate Change by Brooke Goldman
+      What Is Climate Change by Brooke G.
   - type: iframe
     bgColor: "#faf6ee"
     content: https://woofjs.com/full.html#code-4-change/embed
@@ -62,7 +62,7 @@ pageBuilder:
     mdContent: |-
       ## **MOST IMAGINATIVE**
 
-      Electric Delivery by Sasha Levenson
+      Electric Delivery by Sasha L.
   - type: iframe
     bgColor: "#264548"
     content: https://scratch.mit.edu/projects/666432441/embed
@@ -75,7 +75,7 @@ pageBuilder:
     mdContent: |-
       ## **CODERS' CHOICE**
 
-      Save the Ocean by Wendy Chen
+      Save the Ocean by Wendy C.
   - type: iframe
     bgColor: "#faf6ee"
     content: https://scratch.mit.edu/projects/676919046/embed
