@@ -7,7 +7,7 @@ date: 2022-05-08T21:37:25.662Z
 description: Code-gratulations to all of our winners!
 featuredPost: false
 featuredImage:
-  image: /img/scratch-week.png
+  image: /img/c4c-finale-2022.png
   alt: Code 4 Change Finale
 pageBuilder:
   - type: textOnly
