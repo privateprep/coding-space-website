@@ -8,7 +8,7 @@ description: Code-gratulations to all of our winners!
 featuredPost: false
 featuredImage:
   image: /img/scratch-week.png
-  alt: Turquoise & teal easter egg
+  alt: Code 4 Change Finale
 pageBuilder:
   - type: textOnly
     textAlign: left
@@ -54,6 +54,47 @@ pageBuilder:
     content: https://woofjs.com/full.html#code-4-change/embed
     ratio: ratio1x1
     title: What is Climate Change
+  - type: textOnly
+    textAlign: left
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: |-
+      ## **MOST IMAGINATIVE**
+
+      Electric Delivery by Sasha
+  - type: iframe
+    bgColor: "#264548"
+    content: https://scratch.mit.edu/projects/666432441/embed
+    ratio: ratio1x1
+    title: Electric Delivery
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: |-
+      ## **CODERS' CHOICE**
+
+      Save the Ocean by Wendy
+  - type: iframe
+    bgColor: "#faf6ee"
+    content: https://scratch.mit.edu/projects/676919046/embed
+    ratio: ratio1x1
+    title: Save the Ocean
+  - type: textOnly
+    textAlign: left
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: >-
+      We were blown away by these young coders’ creativity, technical expertise,
+      and passion for finding unique coding solutions to real-world problems. As
+      a reward, we’ve donated $50 in each category winner’s name to a charitable
+      organization embodying the spirit of Code 4 Change. 
+
+
+      This challenge may be over, but your child’s coding education doesn’t have to stop here. Our summer programming is just around the corner with week-to-week in-person [summer coding camps](https://www.thecodingspace.com/programs/summer-camps/) well as weekly in-person and online [summer classes](https://www.thecodingspace.com/classes). Plus, now is a great time to register, as we’re offering 15% off until May 15th with promo code CODEINSUMMER22.
+
+
+      We hope our brilliant coders will take advantage of all they’ve learned during Code 4 Change and continue putting their programming powers to work for good. We look forward to seeing their creativity in action again during our next Code 4 Change initiative! Until then — code on.
 tags:
   - Code4Change
 ---
