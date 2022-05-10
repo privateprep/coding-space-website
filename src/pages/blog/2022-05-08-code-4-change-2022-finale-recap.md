@@ -99,4 +99,4 @@ pageBuilder:
 tags:
   - Code4Change
 ---
-Three cheers for our creative coders! Our Code 4 Change: Build a Better World participants have completed and submitted their programming [projects](https://code4change.thecodingspace.com/), the votes have been cast, and the results have been tallied. We hope you were able to tune in to the Code 4 Change finale this past weekend as we celebrated the hard work of all our coders and revealed the winners in an array of exciting categories! Check out the full list of winners below.
+Three cheers for our creative coders! Our Code 4 Change: Build a Better World participants have completed and submitted their programming [projects](https://code4change.thecodingspace.com/), the votes have been cast, and the results have been tallied. We hope you were able to tune in to the Code 4 Change finale this past weekend as we celebrated the hard work of all our coders and revealed the winners in an array of exciting categories! If you missed the live event, you can check out this [recording](https://youtu.be/zlylWg-U0ZI) and see the full list of winners below.
