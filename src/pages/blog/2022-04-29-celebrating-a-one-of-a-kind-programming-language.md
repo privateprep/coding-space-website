@@ -52,4 +52,4 @@ pageBuilder:
 tags:
   - ScratchWeek
 ---
-This year, May 23-27 is Scratch Week — a week set aside to celebrate Scratch, a block-based visual programming language that we use in all of our beginner classes! We love how Scratch provides a free coding platform for kids, allowing young coders to practice critical thinking, problem solving, and all kinds of technical programming skills. Check out three of our favorite recent TCS projects written in Scratch!
+This year, May 16-20 is Scratch Week — a week set aside to celebrate Scratch, a block-based visual programming language that we use in all of our beginner classes! We love how Scratch provides a free coding platform for kids, allowing young coders to practice critical thinking, problem solving, and all kinds of technical programming skills. Check out three of our favorite recent TCS projects written in Scratch!
