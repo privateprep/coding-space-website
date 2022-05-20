@@ -8,7 +8,7 @@ seo:
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2022-01-26T16:39:43.806Z
+  removalDate: 2022-05-22T04:39:00.000Z
   mdContent: Visit us at our Open House at [201 East 83rd
     Street](https://goo.gl/maps/mNjs136rKBcQ8q1t5) on Saturday, May 21st, 2-4
     pm. RSVP
