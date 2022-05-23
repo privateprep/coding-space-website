@@ -9,10 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-05-22T04:39:00.000Z
-  mdContent: Visit us at our Open House at [201 East 83rd
-    Street](https://goo.gl/maps/mNjs136rKBcQ8q1t5) on Saturday, May 21st, 2-4
-    pm. RSVP
-    [here](https://docs.google.com/forms/d/e/1FAIpQLScmNHSE_lCVKACDfOe7pz8J_JtYomr1wm42IU7F9s6ovHJKGA/viewform)!
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and students
