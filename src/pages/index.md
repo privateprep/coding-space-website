@@ -8,7 +8,7 @@ seo:
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2022-05-24T04:39:00.000Z
+  removalDate: 2022-05-27T04:39:00.000Z
   mdContent: Tune in to see TCS on Nick News on 5/25 at 7pm ET!
 hero:
   heading: The Coding Space
