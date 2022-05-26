@@ -9,7 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-05-27T04:39:00.000Z
-  mdContent: Tune in to see TCS on Nick News on 5/25 at 7pm ET!
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and students
