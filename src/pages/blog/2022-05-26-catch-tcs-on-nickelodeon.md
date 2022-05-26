@@ -11,6 +11,6 @@ featuredImage:
   alt: Filming at TCS
 pageBuilder: []
 tags:
-  - MentalHealthAwarenessMonth
+  - TCSPress
 ---
 In March, Nickelodeon stopped by with CBS anchor Vlad Druthiers to film a segment on the power of learning code for kids living in the Metaverse. We were over the moon at the chance to tell America all about how an unconventional coding education can help kids develop intellectual confidence, a growth mindset, self-expression, and computational thinking skills. Scroll to watch  our big TV debut!
