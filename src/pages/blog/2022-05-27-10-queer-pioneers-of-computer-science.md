@@ -52,17 +52,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/3.png
-      alt: Accessibility name
+      image: /img/3-edie-windsor.png
+      alt: Edie Windsor
     mediaPosition: right
     mdContent: >-
-      # Shine
+      # Edie Windsor
 
 
-      ### Founders: Marah Lidey & Naomi Hirabayashi
-
-
-      [Shine](https://www.theshineapp.com/) is a self-care app designed to increase representation in and access to mental health care. The idea for the app was born when founders Marah Lidey and Naomi Hirabayashi, who are both women of color, didn't feel their experiences were often addressed in the world of wellness. Shine functions as a daily self-care check in, but what makes the app unique is how it incorporates current events, considering how headlines and crises might impact the mental health of its users. Shine also offers a collection of meditations in the app specific to Black well-being, including meditations on healing trauma and dealing with representation burnout.
+      Edith Windsor is well-known as the queer rights activist whose victory in the landmark Supreme Court case [United States v. Windsor](https://en.wikipedia.org/wiki/United_States_v._Windsor) helped overturn DOMA (Defense of Marriage Act), giving federal recognition to same-sex couples for the first time. Windsor filed the lawsuit after she was unable to claim a tax exemption left to her by her late spouse, as the term “spouse” referred only to heterosexual couples at the time. What’s less well known, however, are Wilson’s contributions as a computer scientist. Windsor worked at IBM for 16 years and achieved the highest technical position at the time, Senior Systems Programmer. Praised especially for her “top-notch debugging skills,” Windsor founded the consulting firm PC Classics after leaving IBM, where she made a point to provide tech educations for queer groups.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
