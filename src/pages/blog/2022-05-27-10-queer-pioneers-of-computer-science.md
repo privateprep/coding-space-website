@@ -103,17 +103,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/6.png
-      alt: Accessibility name
+      image: /img/6-audrey-tang.png
+      alt: Audrey Tang
     mediaPosition: left
     mdContent: >-
-      # Gender Fair
+      # Audrey Tang
 
 
-      ### Founder: Amy Cross
-
-
-      According to Gender Fair founder Amy Cross, companies may have an outsized role in shaping society — but people can shape company behavior. The [Gender Fair](https://www.genderfair.com/) app tracks companies’ commitment to gender equality so that consumers can make informed decisions about where they spend their money. By downloading the app, you can search and scan products while you shop in-store and access detailed information about a company’s gender fairness rating. Even better, the app gives you a voice, allowing you to communicate with companies and show them that their values impact your buying decisions, encouraging them to accelerate equality.
+      Audrey Tang is a nonbinary transgender software developer and self-described “civic hacker” who was appointed as Taiwan’s official Digital Minister in 2016. Tang is the youngest and first transgender official in Taiwan’s executive government. As Digital Minister, Tang is the force behind Taiwan’s tech-based COVID-19 response: promoting an open source website for finding shops with masks in stock, developing a vaccination reservation system, and creating an anonymous contact tracing system. Born in Taiwan, Audrey Tang is a self-taught programmer who was learning Perl at the age of 12, launching a startup at 15, and working in Silicon Valley by 19. A programming wunderkind, Tang is well-known for leading the [Pugs](https://en.wikipedia.org/wiki/Pugs_(programming)) project to develop the Perl 6 language, starting the [Perl Archive Toolkit](https://en.wikipedia.org/wiki/Perl_Archive_Toolkit) (PAT), and their role as an outspoken advocate for free software and an open web.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
