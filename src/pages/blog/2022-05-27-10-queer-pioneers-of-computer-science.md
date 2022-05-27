@@ -157,17 +157,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/9.png
-      alt: Accessibility name
+      image: /img/9-irma-olguin-jr.png
+      alt: Irma Olguin, Jr
     mediaPosition: right
     mdContent: >-
-      # Euphoria
+      # Irma Olguin, Jr.
 
 
-      ### Founder: Robbi Katherine Anthony
-
-
-      [Euphoria](https://euphoria.lgbt/) aims to empower and guide the transgender community through every facet of their lives. The app provides daily affirmation and support for trans individuals, tailored to meet the user no matter where they are on their journey of transition. Founder Robbi Katherine Anthony was inspired to create Euphoria by her own experiences as a trans woman; with this app, she hopes to offer a technological solution to the confusion, pain, and isolation often felt in the trans community. “Our charter,” says Robbi, “is just to help people cross this chasm that is transition.”
+      As CEO and cofounder of [Bitwise Industries](https://bitwiseindustries.com/), Irma L. Olguin Jr. aims to activate human potential in "underdog" cities across the United States. In 2010, Olguin created [59DaysOfCode](https://59daysofcode.org/), a software development competition to cultivate the Central Valley’s tech industry. She also co-founded Hashtag, an open workspace for designers, developers, and entrepreneurs to collaborate. Then in 2012, Bitwise Industries was founded to strengthen the tech industry in Fresno. In 2021, Olguin was included in the [Fast Company Queer 50](https://www.fastcompany.com/queer-50/2021), a ranking of the most influential and innovative queer women and nonbinary people transforming the world of business, tech, and beyond.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
