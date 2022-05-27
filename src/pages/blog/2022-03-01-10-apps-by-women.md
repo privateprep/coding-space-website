@@ -18,8 +18,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/1.png
-      alt: Accessibility name
+      image: /img/tcs-apps-by-women-blog-photos.png
+      alt: Meggie Palmer
     mediaPosition: right
     mdContent: >-
       # PepTalkHer
