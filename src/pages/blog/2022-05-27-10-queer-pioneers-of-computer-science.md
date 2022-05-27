@@ -120,17 +120,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/7.png
-      alt: Accessibility name
+      image: /img/7-dr-mary-gray.png
+      alt: Mary Gray
     mediaPosition: right
     mdContent: >-
-      # Bumble
+      # Dr. Mary Gray
 
 
-      ### Founder: Whitney Wolfe
-
-
-      Whitney Wolfe, who used to be a marketing VP for the dating app Tinder, designed [Bumble](https://bumble.com/) to help the smart, wonderful women in her life shake free from the often restrictive and outdated gender dynamics of love and romance. Bumble began as a dating app that allows only those who identify as female to send the first message, giving women+ the control and helping mitigate the awkwardness (and creepiness) that can plague online dating. Now, Bumble has expanded to include two additional  modes: Bumble BFF, which helps users meet new friends and build a supportive community, and Bumble Bizz, which is for professionals to connect and share expertise.
+      The author of two books and co-editor of another, queer-identifying [Mary Gray](http://marylgray.org/?page_id=6) is currently a Senior Researcher at Microsoft Research, a Fellow at Harvard University’s Berkman Klein Center for Internet and Society, and a faculty member at Indiana University. Gray, an anthropologist and media scholar, focuses on how people’s everyday uses of technologies transform labor, identity, and human rights. In 2020, Gray was named a [MacArthur Fellow](https://youtu.be/RsgtRVI_yhM) for her contributions to the study of technology, digital economies, and society. Her recent research has focused on “ghost work” (i.e., [contract labor such as crowdsourcing](http://www.inthecrowd.org/) and the impact of automation on on-demand economies). Dr. Gray chairs the [Microsoft Research Ethics Review Program](https://www.microsoft.com/en-us/research/microsoft-research-ethics-review-program-irb/) and is recognized as a leading expert in the emerging field of AI and ethics.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
