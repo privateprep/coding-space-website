@@ -8,7 +8,7 @@ description: Take Pride in Coding
 featuredPost: false
 featuredImage:
   image: /img/tcs-pride-month.png
-  alt: 10 Apps by Women
+  alt: Pride Month
 pageBuilder:
   - type: textAndImageBlock
     buttons:
@@ -203,4 +203,4 @@ pageBuilder:
 tags:
   - WomensHistoryMonth
 ---
-While the tech industry remains massively male-dominated, extraordinary women are making their mark on STEM fields, resulting in a plethora of exciting new offerings on your device. As part of our Women’s History Month celebration, we’ve compiled a list of 10 apps designed by female-identifying founders. Scroll down to get inspired and support the work of these coding icons!
+Happy Pride Month! We’re stopping in this month to tell you all about the queer history of computing. You probably know a few of the famous LGBTQIA2+ tech pioneers — like Alan Turing and Tim Cook — but we bet you haven’t heard about all 10 of the individuals below whose life work played an integral role in the development of modern computer technology. Many of these individuals lived and worked in an era when social pressures (or even laws) required them to hide their true identities—which makes it all the more fitting that we celebrate them today.
