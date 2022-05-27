@@ -174,18 +174,25 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/10.png
-      alt: Accessibility name
+      image: /img/10-megan-smith.png
+      alt: Megan Smith
     mediaPosition: left
     mdContent: >-
-      # EXHALE
+      # Megan Smith
 
 
-      ### Founder: Katara McCarty
+      Megan Smith was the United States’ third [Chief Technology Officer](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith) during the Obama administration, helping the President and his teams harness the power of data and technology on behalf of the nation. After graduating from MIT, Smith served as CEO of [PlanetOut](https://en.wikipedia.org/wiki/PlanetOut_Inc.), a leading LGBT online community in the early days of the web. She then served as a Vice President at Google, first leading New Business Development and later serving as a VP in the leadership team at Google\[x] -— where she co-created the company’s “SolveForX” innovation community project as well as its “WomenTechmakers” tech-diversity initiative. During her tenure she led the company’s acquisitions of major platforms such as Google Earth, Google Maps, and Picasa.Currently, Smith is the CEO for [shift7](https://www.shift7digital.com/), a company striving to innovate tech-based solutions for systemic economic, social, and environmental problems.
+    fgColor: "#eec11a"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      # BONUS: Angelica Ross, Lynn Conway, Sophie Wilson, and more
 
 
-      [EXHALE](https://www.exhalesite.com/) is an emotional well-being app designed for Black, Indigenous, and Women of Color. Founder Katara McCarty, an entrepreneur dedicated to building brave spaces for BlWOC, seeks to provide a place of refuge and healing through the app. EXHALE features meditations, guided visualizations, breathwork, coaching talks, and daily affirmations to help users invest in themselves and cultivate lasting energy.
+      There are far more queer & trans coding icons than we have room for in this single blog post; if you’re eager to learn more, check out our [Trans Day of Visibility blog](https://www.thecodingspace.com/blog/2022-03-01-six-trans-programmers-who-shattered-the-lavender-ceiling/), in which we talk about game-changing trans computer programmers like Angelica Ross, Lynn Conway, Sophie Wilson, and more.
 tags:
-  - WomensHistoryMonth
+  - PrideMonth
 ---
 Happy Pride Month! We’re stopping in this month to tell you all about the queer history of computing. You probably know a few of the famous LGBTQIA2+ tech pioneers — like Alan Turing and Tim Cook — but we bet you haven’t heard about all 10 of the individuals below whose life work played an integral role in the development of modern computer technology. Many of these individuals lived and worked in an era when social pressures (or even laws) required them to hide their true identities—which makes it all the more fitting that we celebrate them today.
