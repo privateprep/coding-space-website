@@ -137,17 +137,18 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/8.png
-      alt: Accessibility name
+      image: /img/8-tim-cook.png
+      alt: Tim Cook
     mediaPosition: left
-    mdContent: >-
-      # Wysa
-
-
-      ### Founder: Jo Aggarwal
-
-
-      [Wysa](https://www.wysa.io/), a mental health app powered by artificial intelligence, connects users with an anonymous, free, clinically assured AI mental wellness coach. Founder Jo Aggarwal designed Wysa to help compensate for the scarcity of therapists across the globe – even in countries with a relatively high therapist-to-population ratio, like the US, some therapists still have a year’s worth of patients on a waiting list. Aggarwal also emphasizes that the app is not a replacement for human therapy, but rather an additional tool for users who aren’t yet sure that they need therapy or don’t currently have access to a professional therapist. Wysa uses evidence-based cognitive-behavioral techniques (CBT), DBT, meditation, breathing, yoga, motivational interviewing and micro-actions to help you build mental resilience skills and, above all, feel better.
+    mdContent: In 2014, Apple CEO Tim Cook became the first CEO of a Fortune 500
+      organization to come out as gay. The famously private Cook decided to do
+      so after receiving letters from children struggling with their sexual
+      orientation. He came out in a [Bloomberg
+      essay](https://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up),
+      saying, “If hearing that the CEO of Apple is gay can help someone
+      struggling to come to terms with who he or she is…then it’s worth the
+      trade-off with my privacy.”
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
