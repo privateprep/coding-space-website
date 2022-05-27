@@ -86,17 +86,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/5.png
-      alt: Accessibility name
+      image: /img/5-mary-ann-horton.png
+      alt: Mary Ann Horton
     mediaPosition: right
     mdContent: >-
-      # SHEROES
+      # Mary Ann Horton
 
 
-      ### Founder: Sairee Chahal
-
-
-      [SHEROES](https://sheroes.com/) is the world’s largest women-only social networking app, but it’s also much more than that. As part of its newest features, SHEROES provides micro-loans for female entrepreneurs at lower rates. This feature has made a particularly powerful impact in countries where women are barred from having credit scores or building credit. Women across the globe use SHEROES to talk about their hobbies, share recipes, access mental health support, and find expert advice on their professional, financial, and personal lives.
+      Mary Ann Horton is a computer scientist and transgender activist. She is one of the principal founders and designers of [Usenet](<https://en.wikipedia.org/wiki/Usenet#:~:text=Usenet%20(%2F%CB%88ju%CB%90z,it%20was%20established%20in%201980.>), a precursor to the modern Internet that is still in use today. Horton also invented uuencode, which was the forerunner to email attachments. In addition to her contributions to technology, Horton has also made significant contributions to transgender rights in the workplace. In 1997, she asked her then employer [Lucent Technologies](https://en.wikipedia.org/wiki/Lucent) to include the language “gender identity, characteristics, or expression” in its Equal Opportunity (EO) policy, which led to Lucent becoming the first company in the United States to add transgender-inclusive language to its EO policy.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
