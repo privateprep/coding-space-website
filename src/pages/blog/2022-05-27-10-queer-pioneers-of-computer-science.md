@@ -69,17 +69,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/4.png
-      alt: Accessibility name
+      image: /img/4-maddog-hall.png
+      alt: Jon Maddog Hall
     mediaPosition: left
     mdContent: >-
-      # Hey! VINA
+      # Jon "Maddog" Hall
 
 
-      ### Founder: Olivia June-Poole
-
-
-      Often referred to as the “Tinder for (girl) friends”, [Hey! VINA](https://www.heyvina.com/) is an app based on the premise that nothing makes us feel more confident, secure, happy, and free than a supportive group of friends. Frustrated by the difficulty she faced in finding like-minded women in the tech industry, founder Olivia June-Poole created Hey! VINA to provide women with the tools to connect, support, and empower each other. You can use Hey! VINA to find new platonic friends based on interest, occupation, and location — because friendships are an essential ingredient to living healthy lives!
+      Jon “Maddog” Hall is the board chair for [The Linux Professional Institute](https://www.lpi.org/) and a vocal champion of free and open-source software. Prior to this, Hall was head of the computer science department at [Hartford State Technical College](https://www.capitalcc.edu/about/), where his temper earned him the nickname “Maddog.” On Alan Turing’s 100th birth anniversary, Hall wrote an [article](https://www.linux-magazine.com/content/view/full/55727) in Linux magazine, in which he came out as gay and called Turing his hero: “\[Turing] did so much for the industry with which I have spent the last 42 years of my life.”
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
