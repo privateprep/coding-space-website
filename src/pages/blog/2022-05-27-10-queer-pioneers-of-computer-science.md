@@ -18,17 +18,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/tcs-apps-by-women-blog-photos.png
-      alt: Meggie Palmer
+      image: /img/1-alan-turing.png
+      alt: Alan Turing
     mediaPosition: right
     mdContent: >-
-      # PepTalkHer
+      # Alan Turing
 
 
-      ### Founder: Meggie Palmer
-
-
-      This ambitious app is designed to close the gender pay gap, increase the number of women in executive positions, strengthen the talent pipeline, and achieve gender diversity in leadership. Founded by Meggie Palmer after her own experience of inequality at work, [PepTalkHer](https://www.peptalkher.com/) provides career pep talks and strategy sessions to women who are striving for greater professional recognition and success. It also helps users track their career successes and coaches them in confidence and negotiation skills, so they get every dollar and every promotion they deserve!
+      We’ll start with the kingpin — the beloved and widely renowned father of computer science, Alan Turing. In the mid 1930s, Turing devised the idea for a universal machine that could decode and action a set of instructions; this Turing machine, as it came to be known, precedes the digital computers we use today. A graduate of Cambridge and Princeton, Turing worked as a cryptanalyst during World War II, when he designed and created a code-breaking system called the [Bombe](https://www.tnmoc.org/bombe). The Bombe was so adept at deciphering the so-called unbreakable German codes that historians now say Turing effectively shortened the war by as much as [four years](https://www.bbc.com/news/technology-18419691). In his work after the war, Turing developed the idea of artificial computer intelligence and devised an experiment to test AI’s ability to think like a human being, which is still referred to today as the “[Turing Test](https://en.wikipedia.org/wiki/Turing_test).”
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
