@@ -18,14 +18,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/1-alan-turing.png
-      alt: Alan Turing
+      image: /img/codemonkey.png
+      alt: CodeMonkey
     mediaPosition: right
     mdContent: >-
-      # Alan Turing
+      # CodeMonkey
 
 
-      We’ll start with the kingpin — the beloved and widely renowned father of computer science, Alan Turing. In the mid 1930s, Turing devised the idea for a universal machine that could decode and action a set of instructions; this Turing machine, as it came to be known, precedes the digital computers we use today. A graduate of Cambridge and Princeton, Turing worked as a cryptanalyst during World War II, when he designed and created a code-breaking system called the [Bombe](https://www.tnmoc.org/bombe). The Bombe was so adept at deciphering the so-called unbreakable German codes that historians now say Turing effectively shortened the war by as much as [four years](https://www.bbc.com/news/technology-18419691). In his work after the war, Turing developed the idea of artificial computer intelligence and devised an experiment to test AI’s ability to think like a human being, which is still referred to today as the “[Turing Test](https://en.wikipedia.org/wiki/Turing_test).”
+      [CodeMonkey](https://www.codemonkey.com/) is packed with gamified educational resources for students of different grades and different levels. The graphics are adorable, the language is kid-friendly, and the games are the right balance of fun & challenging. On CodeMonkey, kids will help the character “Monkey” cross the river, solve math problems with Dodo, or collect bananas for Turtle—all by writing code in CodeMonkey’s text-based editor.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -35,14 +35,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/2-christopher-strachey.png
-      alt: Christopher Strachey
+      image: /img/codingame.jpeg
+      alt: CodInGame
     mediaPosition: left
     mdContent: >-
-      # Christopher Strachey
+      # CodInGame
 
 
-      After an early career as a physicist and teacher, Christopher Strachey transitioned into computer programming, where he made a name for himself by blending computer science and art. When he was still a total novice, Strachey, over the course of a single evening, wrote one of the first computer music programs, which played “Baa Baa Black Sheep” on the [Ferranti Mark 1](https://en.wikipedia.org/wiki/Ferranti_Mark_1). In 1952, by which time he was an accomplished programmer, Strachey developed a love-letter generator that ran on the Manchester Mark 1 using a random number generating algorithm. These projects are widely regarded as the first examples of algorithmic or computational art. Strachey is also remembered as one of the developers of [Combined Programming Language](https://en.wikipedia.org/wiki/CPL_(programming_language)) (CPL), an early precursor to the influential C programming language.
+      [CodInGame](https://www.codingame.com/) offers games, challenges, and increasingly difficult puzzles to practice more than 25 programming languages, including JavaScript! One of the great things about CodInGame is that kids can play with their friends or siblings or even enter international coding competitions.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -52,14 +52,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/3-edie-windsor.png
+      image: /img/code-combat.png
       alt: Edie Windsor
     mediaPosition: right
     mdContent: >-
-      # Edie Windsor
+      # CodeCombat
 
 
-      Edith Windsor is well-known as the queer rights activist whose victory in the landmark Supreme Court case [United States v. Windsor](https://en.wikipedia.org/wiki/United_States_v._Windsor) helped overturn DOMA (Defense of Marriage Act), giving federal recognition to same-sex couples for the first time. Windsor filed the lawsuit after she was unable to claim a tax exemption left to her by her late spouse, as the term “spouse” referred only to heterosexual couples at the time. What’s less well known, however, are Wilson’s contributions as a computer scientist. Windsor worked at IBM for 16 years and achieved the highest technical position at the time, Senior Systems Programmer. Praised especially for her “top-notch debugging skills,” Windsor founded the consulting firm PC Classics after leaving IBM, where she made a point to provide tech educations for queer groups.
+      [CodeCombat](https://codecombat.com/) leverages kids’ love for fantasy stories — knights! dragons! heroes!—to help them drill coding fundamentals. Each lesson is introduced as a chapter in an overarching storyline; players defeat each level by coding, testing, and running the appropriate commands. Detailed characters coupled with beautifully designed maps and immersive sound make for one incredibly addictive coding game for kids. It’s important to note that, because CodeCombat’s lessons are designed for children aged 8 and up who have some degree of familiarity with coding, beginners might find the first few lessons confusing.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -69,14 +69,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/4-maddog-hall.png
-      alt: Jon Maddog Hall
+      image: /img/empire-of-code.jpeg
+      alt: Empire of Code
     mediaPosition: left
     mdContent: >-
-      # Jon "Maddog" Hall
+      # Empire of Code
 
 
-      Jon “Maddog” Hall is the board chair for [The Linux Professional Institute](https://www.lpi.org/) and a vocal champion of free and open-source software. Prior to this, Hall was head of the computer science department at [Hartford State Technical College](https://www.capitalcc.edu/about/), where his temper earned him the nickname “Maddog.” On Alan Turing’s 100th birth anniversary, Hall wrote an [article](https://www.linux-magazine.com/content/view/full/55727) in Linux magazine, in which he came out as gay and called Turing his hero: “\[Turing] did so much for the industry with which I have spent the last 42 years of my life.”
+      [Empire of Code](https://empireofcode.com/) is a sci-fi strategy game in which players’ ability to code gives them an edge as they explore new frontiers. Players are charged with rebuilding and expanding the Great Empire of Code. Along the way, they will overcome great challenges and rival factions competing to create their own empires. Your child might use algorithms to exploit resources, code defensive strategies to protect their Empire from invaders, or use AI to defeat their rivals.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -86,14 +86,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/5-mary-ann-horton.png
-      alt: Mary Ann Horton
+      image: /img/elevator_saga.png
+      alt: Elevator Saga
     mediaPosition: right
     mdContent: >-
-      # Mary Ann Horton
+      # Elevator Saga
 
 
-      Mary Ann Horton is a computer scientist and transgender activist. She is one of the principal founders and designers of [Usenet](<https://en.wikipedia.org/wiki/Usenet#:~:text=Usenet%20(%2F%CB%88ju%CB%90z,it%20was%20established%20in%201980.>), a precursor to the modern Internet that is still in use today. Horton also invented uuencode, which was the forerunner to email attachments. In addition to her contributions to technology, Horton has also made significant contributions to transgender rights in the workplace. In 1997, she asked her then employer [Lucent Technologies](https://en.wikipedia.org/wiki/Lucent) to include the language “gender identity, characteristics, or expression” in its Equal Opportunity (EO) policy, which led to Lucent becoming the first company in the United States to add transgender-inclusive language to its EO policy.
+      For more experienced coders who have been learning JavaScript in our advanced classes, [Elevator Saga](https://play.elevatorsaga.com/) allows them to practice applying JavaScript knowledge in challenges related to transporting people in an elevator as efficiently as possible. The game starts out by challenging the player to move 15 people in less than a minute and gets progressively more difficult from there.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -103,14 +103,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/6-audrey-tang.png
-      alt: Audrey Tang
+      image: /img/bitsbox.jpeg
+      alt: BitsBox
     mediaPosition: left
     mdContent: >-
-      # Audrey Tang
+      # BitsBox
 
 
-      Audrey Tang is a nonbinary transgender software developer and self-described “civic hacker” who was appointed as Taiwan’s official Digital Minister in 2016. Tang is the youngest and first transgender official in Taiwan’s executive government. As Digital Minister, Tang is the force behind Taiwan’s tech-based COVID-19 response: promoting an open source website for finding shops with masks in stock, developing a vaccination reservation system, and creating an anonymous contact tracing system. Born in Taiwan, Audrey Tang is a self-taught programmer who was learning Perl at the age of 12, launching a startup at 15, and working in Silicon Valley by 19. A programming wunderkind, Tang is well-known for leading the [Pugs](https://en.wikipedia.org/wiki/Pugs_(programming)) project to develop the Perl 6 language, starting the [Perl Archive Toolkit](https://en.wikipedia.org/wiki/Perl_Archive_Toolkit) (PAT), and their role as an outspoken advocate for free software and an open web.
+      [Bitsbox](https://bitsbox.com/), a sort of subscription service for programming projects, is especially unique because it offers both a digital and physical option. Each month, the company sends a box full of new “crazy fun app projects” for your child to tackle. These projects range in difficulty from simple app-creation to complicated tech challenges, and you can choose to receive the project as a digital package or a physical kit delivered to your doorstep. Order one box to arrive during your vacation — or order three boxes to keep your child practicing their coding skills for a full summer away!
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -120,14 +120,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/7-dr-mary-gray.png
-      alt: Mary Gray
+      image: /img/code-karts.png
+      alt: CodeKarts
     mediaPosition: right
     mdContent: >-
-      # Dr. Mary Gray
+      # CodeKarts
 
 
-      The author of two books and co-editor of another, queer-identifying [Mary Gray](http://marylgray.org/?page_id=6) is currently a Senior Researcher at Microsoft Research, a Fellow at Harvard University’s Berkman Klein Center for Internet and Society, and a faculty member at Indiana University. Gray, an anthropologist and media scholar, focuses on how people’s everyday uses of technologies transform labor, identity, and human rights. In 2020, Gray was named a [MacArthur Fellow](https://youtu.be/RsgtRVI_yhM) for her contributions to the study of technology, digital economies, and society. Her recent research has focused on “ghost work” (i.e., [contract labor such as crowdsourcing](http://www.inthecrowd.org/) and the impact of automation on on-demand economies). Dr. Gray chairs the [Microsoft Research Ethics Review Program](https://www.microsoft.com/en-us/research/microsoft-research-ethics-review-program-irb/) and is recognized as a leading expert in the emerging field of AI and ethics.
+      [Code Karts](https://apps.apple.com/us/app/code-karts-pre-coding-logic/id1222704761) is a phone app that encourages kids to drill coding concepts through dozens of levels of racetrack puzzles, in which players have to strategically place direction bricks to get their racecar across the finish line as speedily as possible. Not only does this game allow young coders to brush up on the drag-and-drop system of most visual programming languages like Scratch, it also helps hone focus, observation, and logic.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
