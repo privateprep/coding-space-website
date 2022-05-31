@@ -10,7 +10,7 @@ featuredImage:
   image: /img/tcs-summer-2022.png
   alt: Summer at TCS
 tags:
-  - SocialMediaDay
+  - Summer
 ---
 Curious what your child will be up to at The Coding Space this summer? Look no further. Each summer, we craft a curriculum designed to expose students to a wide variety of puzzles, problems, and challenges. This summer, we’re excited to introduce a new skill to the party: design thinking. Design thinking is an educational approach with a five-step framework (Empathize, Define, Ideate, Prototype, and Test) that stresses creative problem solving for students with the added value of an entrepreneurial outlook. Companies like Apple, Google, Facebook, and more rely on employees with a design thinking mindset to produce creative solutions to stubborn technical problems, and we’re taking this cutting-edge methodology into our coding classrooms.
 
