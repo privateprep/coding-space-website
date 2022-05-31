@@ -90,6 +90,6 @@ pageBuilder:
       trips will be shifted or canceled, depending on the individual company’s
       COVID-19 policies.*
 tags:
-  - AANHPIHeritageMonth
+  - Summer
 ---
 We’ve been busily working behind the scenes to organize amazing field trips for our summer coders, and we’re so excited to announce this summer’s destinations*! By visiting tech giants shaping the world and meeting with the STEM professionals powering these juggernauts, your young coder will learn the science behind the gadgets and websites they interact with every day. We can’t wait to inspire your child’s inner innovator this summer – let’s get coding!
