@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-04-29T18:40:25.409Z
 description: Happy Scratch Week!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/scratch-week.png
   alt: Turquoise & teal easter egg
