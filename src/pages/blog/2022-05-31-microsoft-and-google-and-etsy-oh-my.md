@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Microsoft and Google and Etsy, Oh My!
 titleColor: "#264548"
-bgColor: "#9de2dd"
+bgColor: "#faf6ee"
 date: 2022-05-31T15:57:09.635Z
 description: Sign your child up for unforgettable summer experiences
 featuredPost: true
