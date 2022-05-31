@@ -80,15 +80,16 @@ pageBuilder:
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: We at The Coding Space feel amazingly lucky that so many tech
-      superpowers are headquartered right here in our backyard. And we can’t
-      wait to show your child the wide world of professional coding! Secure your
-      child’s spot in one of our summer camps today.*\*With COVID cases on the
-      rise, there is always the outside chance that one or more of these field
-      trips will be shifted or canceled, depending on the individual company’s
-      COVID-19 policies.*
+    mdContent: >-
+      We at The Coding Space feel amazingly lucky that so many tech superpowers
+      are headquartered right here in our backyard. And we can’t wait to show
+      your child the wide world of professional coding! Secure your child’s spot
+      in one of our summer camps today.
+
+
+      *\*With COVID cases on the rise, there is always the outside chance that one or more of these field trips will be shifted or canceled, depending on the individual company’s COVID-19 policies.*
 tags:
   - Summer
 ---
