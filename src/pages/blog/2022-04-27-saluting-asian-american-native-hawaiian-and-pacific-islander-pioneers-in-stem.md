@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-04-27T22:54:42.268Z
 description: TCS Celebrates AA & NH/PI Month
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-aa-nhpi-month.png
   alt: AA & NH/PI Month
