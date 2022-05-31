@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-05-31T15:32:25.324Z
 description: Keep your coding skills sharp on vacation with these awesome games
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/coding-games.png
   alt: Coding Games
