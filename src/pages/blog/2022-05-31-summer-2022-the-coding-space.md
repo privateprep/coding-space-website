@@ -39,3 +39,7 @@ We’ve dreamed up a summer plan that will have your child tackling a wealth of 
 * **Cybersecurity Escape Room:** Learn about cybersecurity and work in groups to complete a digital escape room.
 * **Wearable Devices:** Study circuitry and engineer a wearable device with electrical capabilities.
 * **NFT Scavenger Hunt:** Embark on a digital scavenger hunt on OpenSea and learn about NFTs.
+
+
+
+*\*NOTE: Schedules and activities are subject to change based on location, resource availability, COVID-19, and other factors.*
