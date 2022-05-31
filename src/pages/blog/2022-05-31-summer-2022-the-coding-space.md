@@ -7,8 +7,8 @@ date: 2022-05-31T19:47:56.335Z
 description: Get a sneak peek into our big plans for your young coder
 featuredPost: false
 featuredImage:
-  image: /img/tcs-social-media-day.png
-  alt: Social Media Day
+  image: /img/tcs-summer-2022.png
+  alt: Summer at TCS
 tags:
   - SocialMediaDay
 ---
