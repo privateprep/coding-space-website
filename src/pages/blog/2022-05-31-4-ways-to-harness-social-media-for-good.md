@@ -7,10 +7,10 @@ date: 2022-05-31T15:49:35.202Z
 description: Celebrate Social Media Day with The Coding Space
 featuredPost: false
 featuredImage:
-  image: /img/tcs-mental-health-month-1.png
-  alt: Woman looking down at her phone
+  image: /img/tcs-social-media-day.png
+  alt: Social Media Day
 tags:
-  - MentalHealthAwarenessMonth
+  - SocialMediaDay
 ---
 We won’t deny it: watching the uber-edited highlights of other people’s lives and chasing the validation of likes and comments can steal hours of your day. That being said, social media can also be an invaluable mode of connection, especially for older people, those in rural areas, people with disabilities, or even just people who can’t find like-minded friends nearby. At TCS, we want to do our part to encourage positive and intentional relationships with technology of all kinds. So, this Social Media Day, we want to remind you that, with the right approach, social media can be a positive tool that fosters a sense of community. It just takes a bit of work to avoid common social media traps. Here are four quick tips to help you harness the positive power of social media.
 
