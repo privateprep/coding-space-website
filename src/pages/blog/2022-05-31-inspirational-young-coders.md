@@ -101,7 +101,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#eec11a"
+    bgColor: "#faf6ee"
     image:
       image: /img/6-basil.png
       alt: Basil Okpara, Jr.
@@ -111,10 +111,10 @@ pageBuilder:
 
 
       Basil Okpara, Jr. is the 11-year old Nigerian tech wunderkind whose original gaming creations have been taking the Google Play Store by storm. By the age of 9, Basil had built over 30 mobile games out of sheer interest using Scratch — the same block-based visual programming language we teach in our beginner classes at The Coding Space. Basil has been featured on CNN International, Kidpreneur Africa Ambassador, Reuters News Agency and many other outlets. His most popular game, [Mosquito Mash](https://arcade.gamesalad.com/games/131573), is designed to raise awareness of the various diseases caused by mosquitos.
-    fgColor: "#faf6ee"
+    fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
-    bgColor: "#faf6ee"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: At TCS, we believe that many of the world’s biggest challenges will
       be solved in the future with a few lines of elegant code, and these
