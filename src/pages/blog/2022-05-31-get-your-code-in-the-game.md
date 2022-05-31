@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Get Your Code in the Game
 titleColor: "#264548"
-bgColor: "#9de2dd"
+bgColor: "#faf6ee"
 date: 2022-05-31T15:32:25.324Z
 description: Keep your coding skills sharp on vacation with these awesome games
 featuredPost: true
