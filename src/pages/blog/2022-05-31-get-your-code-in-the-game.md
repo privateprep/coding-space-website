@@ -137,17 +137,14 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/8-tim-cook.png
-      alt: Tim Cook
+      image: /img/codemoji.png
+      alt: CodeMoji
     mediaPosition: left
-    mdContent: In 2014, Apple CEO Tim Cook became the first CEO of a Fortune 500
-      organization to come out as gay. The famously private Cook decided to do
-      so after receiving letters from children struggling with their sexual
-      orientation. He came out in a [Bloomberg
-      essay](https://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up),
-      saying, “If hearing that the CEO of Apple is gay can help someone
-      struggling to come to terms with who he or she is…then it’s worth the
-      trade-off with my privacy.”
+    mdContent: >-
+      # CodeMoji
+
+
+      [Codemoji](https://www.codemoji.com/) is a self-styled “emoji-based” coding game that helps kids practice their coding skills through emojis. Every syntax element has a corresponding emoji, making the hard work of coding feel especially fun & natural for kids, who can seamlessly shift between texting their friends from home and emoji-coding their way through challenges!
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -174,26 +171,24 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/10-megan-smith.png
-      alt: Megan Smith
+      image: /img/codemancer.png
+      alt: CodeMancer
     mediaPosition: left
     mdContent: >-
-      # Megan Smith
+      # CodeMancer
 
 
-      Megan Smith was the United States’ third [Chief Technology Officer](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith) during the Obama administration, helping the President and his teams harness the power of data and technology on behalf of the nation. After graduating from MIT, Smith served as CEO of [PlanetOut](https://en.wikipedia.org/wiki/PlanetOut_Inc.), a leading LGBT online community in the early days of the web. She then served as a Vice President at Google, first leading New Business Development and later serving as a VP in the leadership team at Google\[x] -— where she co-created the company’s “SolveForX” innovation community project as well as its “WomenTechmakers” tech-diversity initiative. During her tenure she led the company’s acquisitions of major platforms such as Google Earth, Google Maps, and Picasa.Currently, Smith is the CEO for [shift7](https://www.shift7digital.com/), a company striving to innovate tech-based solutions for systemic economic, social, and environmental problems.
+      Designed for kids aged 6-12, [Codemancer](https://codemancergame.com/) is a fantasy game that reminds kids about the magic of coding during their time away from coding class. Players will join the female protagonist Aurora as she struggles to become independent and stay good in a world full of challenges. The various plot points provide kids with the opportunity to continue drilling the coding basics as well as variables, conditionals, and functions. Rich with a narrative backbone, colorful settings, and plenty of rival sorcerers, Codemancer takes a magical approach to programming.
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      # BONUS: Angelica Ross, Lynn Conway, Sophie Wilson, and more
-
-
-      There are far more queer & trans coding icons than we have room for in this single blog post; if you’re eager to learn more, check out our [Trans Day of Visibility blog](https://www.thecodingspace.com/blog/2022-03-01-six-trans-programmers-who-shattered-the-lavender-ceiling/), in which we talk about game-changing trans computer programmers like Angelica Ross, Lynn Conway, Sophie Wilson, and more.
-tags:
-  - PrideMonth
+    mdContent: With these coding games, it’s easy for young coders to stay firing on
+      all four cylinders even while they’re having a blast on vacation. Looking
+      for a more systematic coding education? Check out our coding [camps and
+      classes](https://www.thecodingspace.com/classes).
+tags: []
 ---
 Summer is here! Coders of all ages are packing up their laptops and trading them for flippers & sunscreen as they embark on fun-filled vacations. So how do you keep your coding skills sharp while you’re away — without turning your vacation into summer school?
 
