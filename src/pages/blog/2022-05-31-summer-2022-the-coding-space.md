@@ -27,3 +27,9 @@ We’ve dreamed up a summer plan that will have your child tackling a wealth of 
 * **Robotic Hand:** Study the anatomy of the hand and build a paper hand that opens and closes.
 * **Hurricane-Proof House:** Research hurricanes and build a house to withstand hurricane conditions.
 * **Flying Machines:** Learn about the physics of flight and build a hoop glider.
+
+## Science experiments
+
+* **Alka-Seltzer Rockets:** Study Newton's Laws of Motion and the anatomy of a rocket, and make a rocket fly with Alka seltzer. 
+* **Slime:** Learn about non-Newtonian fluids, physical changes, and chemical changes while concocting bags of slime.
+* **Lava Lamp:** Explore hydrophobic substances and build your very own lava lamp.
