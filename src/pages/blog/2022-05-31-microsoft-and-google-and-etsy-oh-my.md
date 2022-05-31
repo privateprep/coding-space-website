@@ -18,20 +18,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/1-jerry.png
-      alt: Jerry Yang
+      image: /img/microsoft.png
+      alt: Microsoft
     mediaPosition: right
     mdContent: >-
-      # Jerry Yang
+      # Microsoft
 
 
-      ### FOUNDER OF YAHOO
-
-
-      Jerry Yang was born in Taipei and immigrated to the United States in 1978. When Yang was 10, the only English word he knew was “shoe”.  “We got made fun of a lot at first,” Yang told [Fortune magazine](https://archive.fortune.com/magazines/fortune/fortune_archive/2000/03/06/275253/index.htm) about his experience growing up in the US. “I didn’t even know who the faces were on the paper money.” But Yang mastered English in just three years, graduated first in his high school class, and enrolled at Stanford, where he acquired both his bachelor’s and his master’s degree in just four years.
-
-
-      In 1995, when Yang was partway through his PhD, he-co founded Yahoo! with a fellow Stanford grad student. Yahoo! was an overnight sensation. Before the dawn of search engines, it functioned as a directory—and a guide—to the amorphous and often intimidating Web, making the internet feel manageable for millions of users. After serving as Yahoo’s CEO, Yang departed to seek new challenges in 2012. He is currently investing in the next generation of technologies at his firm [AME Cloud Ventures](http://www.amecloudventures.com/), where he has supported space travel, longevity research, and more than 50 startups. To this day, Jerry Yang is credited with fomenting an Internet revolution, making the World Wide Web friendly to a broad range of everyday users — not just tech experts.
+      Get a peek behind the scenes at what keeps this tech icon on the cutting edge! Discover how state-of-the-art engineering & incredible coders dream up the latest Microsoft tech for happy customers.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -40,17 +35,15 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/2-reshma.png
-      alt: Reshma Saujani
+      image: /img/back-market.jpeg
+      alt: Back Market
     mediaPosition: left
     mdContent: >-
-      # Reshma Saujani
+      # Back Market
 
 
-      ### FOUNDER OF GIRLSWHOCODE
-
-
-      Reshma Saujani is the founder of [Girls Who Code](https://girlswhocode.com/), a visionary nonprofit on a mission to close the gender gap in technology and cultivate the next generation of tech superstars. Saujani began her career as an attorney and Democratic organizer; in 2010, she became the first Indian American woman to run for U.S. Congress. During her Congressional campaign, Reshma visited local schools and witnessed the gender gap in computing classes firsthand, which led her to start Girls Who Code. Today, Girls Who Code has taught computer science to 300,000 girls and reached 500 million people worldwide through its New York Times-bestselling book series.
+      Explore the green tech company taking Silicon Valley by storm! Learn about the ingenious code and forward-thinking vision that powers this refurbished tech marketplace on the rise.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
