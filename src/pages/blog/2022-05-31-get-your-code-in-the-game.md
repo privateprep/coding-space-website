@@ -154,23 +154,6 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/9-irma-olguin-jr.png
-      alt: Irma Olguin, Jr
-    mediaPosition: right
-    mdContent: >-
-      # Irma Olguin, Jr.
-
-
-      As CEO and cofounder of [Bitwise Industries](https://bitwiseindustries.com/), Irma L. Olguin Jr. aims to activate human potential in "underdog" cities across the United States. In 2010, Olguin created [59DaysOfCode](https://59daysofcode.org/), a software development competition to cultivate the Central Valley’s tech industry. She also co-founded Hashtag, an open workspace for designers, developers, and entrepreneurs to collaborate. Then in 2012, Bitwise Industries was founded to strengthen the tech industry in Fresno. In 2021, Olguin was included in the [Fast Company Queer 50](https://www.fastcompany.com/queer-50/2021), a ranking of the most influential and innovative queer women and nonbinary people transforming the world of business, tech, and beyond.
-    fgColor: "#eec11a"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
       image: /img/codemancer.png
       alt: CodeMancer
     mediaPosition: left
@@ -182,7 +165,7 @@ pageBuilder:
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: With these coding games, it’s easy for young coders to stay firing on
       all four cylinders even while they’re having a blast on vacation. Looking
