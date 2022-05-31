@@ -15,3 +15,9 @@ tags:
 Curious what your child will be up to at The Coding Space this summer? Look no further. Each summer, we craft a curriculum designed to expose students to a wide variety of puzzles, problems, and challenges. This summer, we’re excited to introduce a new skill to the party: design thinking. Design thinking is an educational approach with a five-step framework (Empathize, Define, Ideate, Prototype, and Test) that stresses creative problem solving for students with the added value of an entrepreneurial outlook. Companies like Apple, Google, Facebook, and more rely on employees with a design thinking mindset to produce creative solutions to stubborn technical problems, and we’re taking this cutting-edge methodology into our coding classrooms.
 
 We’ve dreamed up a summer plan that will have your child tackling a wealth of enriching STEM challenges, from tinkering with robotics to cracking NFT puzzles to building their own lava lamps to creating their own electronic wearable devices. Scroll down for a sneak peek into your young coder’s summer journey at The Coding Space!*
+
+## Team-building tasks
+
+* **Pipeline Challenge:** Learn about global water scarcity and work in teams to build a pipeline system to transport water.
+* **Stay Afloat:** Learn about buoyancy & density by building a flotation device to keep an object afloat for at least one minute.
+* **Journey to Space:** Tackle a variety of building challenges based around preparing for an expedition into outer space.
