@@ -2,9 +2,9 @@
 templateKey: blog-post
 title: Summer 2022 @ The Coding Space
 titleColor: "#264548"
-bgColor: "#faf6ee"
+bgColor: "#9de2dd"
 date: 2022-05-31T19:47:56.335Z
-description: Celebrate Social Media Day with The Coding Space
+description: Get a sneak peek into our big plans for your young coder
 featuredPost: false
 featuredImage:
   image: /img/tcs-social-media-day.png
