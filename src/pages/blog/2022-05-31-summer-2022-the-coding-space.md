@@ -21,3 +21,9 @@ We’ve dreamed up a summer plan that will have your child tackling a wealth of 
 * **Pipeline Challenge:** Learn about global water scarcity and work in teams to build a pipeline system to transport water.
 * **Stay Afloat:** Learn about buoyancy & density by building a flotation device to keep an object afloat for at least one minute.
 * **Journey to Space:** Tackle a variety of building challenges based around preparing for an expedition into outer space.
+
+## Engineering challenges
+
+* **Robotic Hand:** Study the anatomy of the hand and build a paper hand that opens and closes.
+* **Hurricane-Proof House:** Research hurricanes and build a house to withstand hurricane conditions.
+* **Flying Machines:** Learn about the physics of flight and build a hoop glider.
