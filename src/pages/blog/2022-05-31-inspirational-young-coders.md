@@ -16,33 +16,33 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#eec11a"
     image:
-      image: /img/1-alan-turing.png
-      alt: Alan Turing
+      image: /img/1-muhammad.png
+      alt: "Muhammad Hamza Shahzad "
     mediaPosition: right
     mdContent: >-
-      # Alan Turing
+      ## Muhammad Hamza Shahzad
 
 
-      We’ll start with the kingpin — the beloved and widely renowned father of computer science, Alan Turing. In the mid 1930s, Turing devised the idea for a universal machine that could decode and action a set of instructions; this Turing machine, as it came to be known, precedes the digital computers we use today. A graduate of Cambridge and Princeton, Turing worked as a cryptanalyst during World War II, when he designed and created a code-breaking system called the [Bombe](https://www.tnmoc.org/bombe). The Bombe was so adept at deciphering the so-called unbreakable German codes that historians now say Turing effectively shortened the war by as much as [four years](https://www.bbc.com/news/technology-18419691). In his work after the war, Turing developed the idea of artificial computer intelligence and devised an experiment to test AI’s ability to think like a human being, which is still referred to today as the “[Turing Test](https://en.wikipedia.org/wiki/Turing_test).”
-    fgColor: "#eec11a"
+      In 2016, Muhammad Hamza Shahzad, a British-Pakistani boy growing up in Birmingham, UK became the youngest qualified computer programmer in the world at the age of seven. When he was only 6 years old, he took the famously difficult Microsoft exam and passed with flying colors, earning him a highly sought-after certification from Microsoft. Technically, with this certificate, Muhammad could leave elementary school now and land a high-paying job in IT! Muhammad, who received his first computer at the age of 2 and a half, has been largely tutored by his father, who is a tech-whiz at the American IT company Cyber Royal. These days, Muhammad is working on developing a game that can be won in less than 30 clicks.
+    fgColor: "#faf6ee"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
-      image: /img/2-christopher-strachey.png
-      alt: Christopher Strachey
+      image: /img/2-arham.png
+      alt: Arham Om Talsania
     mediaPosition: left
     mdContent: >-
-      # Christopher Strachey
+      ## Arham Om Talsania
 
 
-      After an early career as a physicist and teacher, Christopher Strachey transitioned into computer programming, where he made a name for himself by blending computer science and art. When he was still a total novice, Strachey, over the course of a single evening, wrote one of the first computer music programs, which played “Baa Baa Black Sheep” on the [Ferranti Mark 1](https://en.wikipedia.org/wiki/Ferranti_Mark_1). In 1952, by which time he was an accomplished programmer, Strachey developed a love-letter generator that ran on the Manchester Mark 1 using a random number generating algorithm. These projects are widely regarded as the first examples of algorithmic or computational art. Strachey is also remembered as one of the developers of [Combined Programming Language](https://en.wikipedia.org/wiki/CPL_(programming_language)) (CPL), an early precursor to the influential C programming language.
+      Four years after Muhammad Hamza Shahzad set the record, Arham Om Talsania broke it, becoming the current Guinness World Record holder for the youngest computer programmer in the world. Arham cracked the Python programming language exam, an exam considered difficult even by aspiring adult engineers, in January of 2020. He is currently busily producing 2D, 3D, and text-based versions of his own video game and aspires to design robots that can help people in need.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -195,4 +195,4 @@ pageBuilder:
 tags:
   - PrideMonth
 ---
-Happy Pride Month! We’re stopping in this month to tell you all about the queer history of computing. You probably know a few of the famous LGBTQIA2+ tech pioneers — like Alan Turing and Tim Cook — but we bet you haven’t heard about all 10 of the individuals below whose life work played an integral role in the development of modern computer technology. Many of these individuals lived and worked in an era when social pressures (or even laws) required them to hide their true identities—which makes it all the more fitting that we celebrate them today.
+When you imagine leading computer programmers, you’re probably not picturing a squad of kids. But as technology continues to advance, so does the demand for STEM superstars of all ages. Here are six young coding leaders proving that age is just a number when it comes to revolutionizing the tech industry.
