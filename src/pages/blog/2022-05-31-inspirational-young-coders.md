@@ -50,33 +50,33 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#eec11a"
     image:
-      image: /img/3-edie-windsor.png
-      alt: Edie Windsor
+      image: /img/3-tanmay.png
+      alt: Tanmay Bakshi
     mediaPosition: right
     mdContent: >-
-      # Edie Windsor
+      ## Tanmay Bakshi
 
 
-      Edith Windsor is well-known as the queer rights activist whose victory in the landmark Supreme Court case [United States v. Windsor](https://en.wikipedia.org/wiki/United_States_v._Windsor) helped overturn DOMA (Defense of Marriage Act), giving federal recognition to same-sex couples for the first time. Windsor filed the lawsuit after she was unable to claim a tax exemption left to her by her late spouse, as the term “spouse” referred only to heterosexual couples at the time. What’s less well known, however, are Wilson’s contributions as a computer scientist. Windsor worked at IBM for 16 years and achieved the highest technical position at the time, Senior Systems Programmer. Praised especially for her “top-notch debugging skills,” Windsor founded the consulting firm PC Classics after leaving IBM, where she made a point to provide tech educations for queer groups.
-    fgColor: "#eec11a"
+      Canadian coder Tanmay is not only a software developer, but a [TEDx speaker](https://www.youtube.com/watch?v=y-lyzsqnK-c), YouTuber, author, and the world’s youngest IBM Watson developer. Tanmay began to learn programming at the age of 5; by age eight, he had designed his first app, and by age nine, he had built a now-popular iPhone app called “tTables” that helps kids learn multiplication tables. At age 12, Tanmay became the youngest IBM Watson developer in the world. Tanmay also devotes himself to spreading knowledge by authoring multiple books — including [Hello Swift!](https://www.manning.com/books/hello-swift), an iOS programming guide for kids — and by uploading videos to his YouTube channel [Tanmay Teaches](https://www.youtube.com/watch?v=i8f_QLkpIEg). In his free time, Tanmay is working on a project with IBM to help a quadriplegic woman learn how to communicate through the power of artificial intelligence.
+    fgColor: "#faf6ee"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
-      image: /img/4-maddog-hall.png
-      alt: Jon Maddog Hall
+      image: /img/4-isabel.png
+      alt: Isabel Sieh
     mediaPosition: left
     mdContent: >-
-      # Jon "Maddog" Hall
+      ## Isabel Sieh
 
 
-      Jon “Maddog” Hall is the board chair for [The Linux Professional Institute](https://www.lpi.org/) and a vocal champion of free and open-source software. Prior to this, Hall was head of the computer science department at [Hartford State Technical College](https://www.capitalcc.edu/about/), where his temper earned him the nickname “Maddog.” On Alan Turing’s 100th birth anniversary, Hall wrote an [article](https://www.linux-magazine.com/content/view/full/55727) in Linux magazine, in which he came out as gay and called Turing his hero: “\[Turing] did so much for the industry with which I have spent the last 42 years of my life.”
+      Filipino-American teenager Isabel Sieh learned how to code through Code Academy at the age of ten. When Isabel moved from New York to the Philippines, her individual passion for coding blossomed into community-centered education & activism; she founded [Girls Will Code](https://www.girlswillcode.com/), an organization that encourages girls to participate in activities related to coding, programming, robotics and engineering. Through her effort, Isabel is working to ensure that kids — and young girls especially — have the opportunity to learn the basics of coding, jump-starting their coding journeys.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
