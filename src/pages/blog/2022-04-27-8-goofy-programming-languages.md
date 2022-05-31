@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-04-27T22:19:32.304Z
 description: Peek inside the codes that make us <lol>
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/weird-programming-langugages.png
   alt: Weirdest Programming Languages
