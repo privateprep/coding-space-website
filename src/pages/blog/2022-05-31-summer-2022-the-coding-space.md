@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-05-31T19:47:56.335Z
 description: Get a sneak peek into our big plans for your young coder
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-summer-2022.png
   alt: Summer at TCS
