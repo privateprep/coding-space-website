@@ -16,7 +16,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     image:
       image: /img/margaret-hamilton.jpeg
       alt: Margaret Hamilton
@@ -36,7 +36,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
       image: /img/screen-shot-2022-04-10-at-11.49.10-am-1-.png
       alt: Apollo 11 code 1
@@ -53,7 +53,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
       image: /img/screen-shot-2022-04-10-at-11.49.46-am.png
       alt: Apollo 11 Code 2
@@ -72,46 +72,33 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/google-store.jpg
-      alt: Google
-    mediaPosition: right
-    mdContent: >-
-      # Google
-
-
-      Is there any more to say? Explore Google’s state-of-the-art NYC headquarters, and meet the coding changemakers shaping this company that has become synonymous with the Internet writ-large.
-    fgColor: "#eec11a"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/etsy.jpeg
-      alt: Etsy
-    mediaPosition: left
+      image: /img/agc.jpeg
+      alt: AGC
+    mediaPosition: right
     mdContent: >-
-      # Etsy
+      # Code = Man's best friend 
 
 
-      Dive into the tech side of e-commerce by touring Etsy’s famous Brooklyn headquarters, and hear from the nation’s top computer scientists blending artistry and tech.
+      As the spacecraft descended towards the moon’s surface, noise from one of its radars began to feed bad data into the system, directing the spacecraft’s autopilot system towards a dangerous landing spot. The popular narrative of this moment claims that Neil Armstrong, seizing “manual” control away from the glitchy computer, piloted the spacecraft to a safer landing spot on the moon’s surface. Humans did it! Computers are no match for us! 
+
+
+      While Armstrong’s instincts as a pilot were undoubtedly spot-on, the true victory of the day belongs to Hamilton and her team’s impeccable code, which was flexible enough to adapt even to unforeseen circumstances. The guidance computer understood it had a problem, but was able to stay functional throughout the descent, dumping the bad information and continuing its more important operations, saving the mission. More importantly, the spacecraft was a fully computerized system — any command that Armstrong gave had to route through the computer. There was no usable manual control! When Armstrong landed on the moon, he worked with and through the AGC, communicating with the computer and directing it towards a safer spot. The moon landing represented a thrilling triumph of human-computer interaction.
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      We at The Coding Space feel amazingly lucky that so many tech superpowers
-      are headquartered right here in our backyard. And we can’t wait to show
-      your child the wide world of professional coding! Secure your child’s spot
-      in one of our summer camps today.
-
-
-      *\*With COVID cases on the rise, there is always the outside chance that one or more of these field trips will be shifted or canceled, depending on the individual company’s COVID-19 policies.*
+    mdContent: The processing power of the AGC is now far outstripped by our
+      smartphones, our calculators — even our microwaves. But what the AGC
+      lacked in sheer power and speed, it made up for in elegance and
+      innovation. The code’s success in guiding the first manned mission to the
+      moon is a testament to the programming team’s ingenuity and
+      meticulousness. We at TCS are inspired not just by these visionary coders,
+      but also the bright young coders we see every day in our classes. We can’t
+      wait to see what amazing programming feats the next generation of coders
+      manages to pull off!
 tags: []
 ---
 On July 16, 1969, Apollo 11 launched from Cape Kennedy, propelling Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin "Buzz" Aldrin into space and into history. Much has been said and written about the bold astronauts and rocket scientists who made this momentous mission possible. But we’d also like to take a moment to celebrate — you guessed it — the code of it all. 
