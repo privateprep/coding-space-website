@@ -32,6 +32,9 @@ pageBuilder:
     mediaPosition: right
     fgColor: "#faf6ee"
     mdContent: >-
+      ## Coding improves perception of detail
+
+
       Try reading this scrambled text.
 
 
