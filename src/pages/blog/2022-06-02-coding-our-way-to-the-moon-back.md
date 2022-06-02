@@ -38,15 +38,34 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/back-market.jpeg
-      alt: Back Market
-    mediaPosition: left
+      image: /img/screen-shot-2022-04-10-at-11.49.10-am-1-.png
+      alt: Apollo 11 code 1
+    mediaPosition: right
     mdContent: >-
-      # Back Market
+      # Anything but "Sirius"
 
 
-      Explore the green tech company taking Silicon Valley by storm! Learn about the ingenious code and forward-thinking vision that powers this refurbished tech marketplace on the rise.
+      In programming, developers often leave comments throughout their code to describe to readers what the code is supposed to do. However, it’s obvious that the Apollo 11 programmers did more than that. Combing through the AGC source code, coding enthusiasts have found all sorts of easter eggs, consisting of playful messages, puns, and pop culture references. For example, the name for the file responsible for the spacecraft’s main ignition routine is titled "BURN_BABY_BURN," And the file responsible for the spaceship’s keyboard display system is called "PINBALL_GAME_BUTTONS_AND_LIGHTS".
     fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/screen-shot-2022-04-10-at-11.49.46-am.png
+      alt: Apollo 11 Code 2
+    mediaPosition: right
+    fgColor: "#eec11a"
+    mdContent: "Within the PINBALL folder, there’s an entire quote from
+      Shakespeare’s Henry V. Even cheekier, there’s a comment in the code
+      directing the user to check and make sure the astronauts aren’t lying
+      about following the appropriate commands. There are jokes and secret
+      messages tucked in every corner of the code: it's obvious that the
+      original developers had a lot of fun writing this code, and we have a lot
+      of fun reading it!"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -93,8 +112,7 @@ pageBuilder:
 
 
       *\*With COVID cases on the rise, there is always the outside chance that one or more of these field trips will be shifted or canceled, depending on the individual company’s COVID-19 policies.*
-tags:
-  - Summer
+tags: []
 ---
 On July 16, 1969, Apollo 11 launched from Cape Kennedy, propelling Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin "Buzz" Aldrin into space and into history. Much has been said and written about the bold astronauts and rocket scientists who made this momentous mission possible. But we’d also like to take a moment to celebrate — you guessed it — the code of it all. 
 
