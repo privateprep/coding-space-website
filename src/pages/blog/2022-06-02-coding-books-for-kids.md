@@ -9,8 +9,7 @@ featuredPost: false
 featuredImage:
   image: /img/coding-books-for-kids.png
   alt: Coding Books
-tags:
-  - CodingCareerSpotlight
+tags: []
 ---
 **If your child has a passion for patterns and an interest in puzzles, they might start reading and writing code before they pick up their first chapter book. Dozens of books about coding are filling the children’s section of bookstores — but which one should you pick out for your youngster?**
 
