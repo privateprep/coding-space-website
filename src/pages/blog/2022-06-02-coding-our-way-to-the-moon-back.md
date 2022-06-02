@@ -18,14 +18,17 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/microsoft.png
-      alt: Microsoft
+      image: /img/margaret-hamilton.jpeg
+      alt: Margaret Hamilton
     mediaPosition: right
     mdContent: >-
-      # Microsoft
+      # No bugs here
 
 
-      Get a peek behind the scenes at what keeps this tech icon on the cutting edge! Discover how state-of-the-art engineering & incredible coders dream up the latest Microsoft tech for happy customers.
+      Margaret Hamilton, the MIT computer programmer who led the team that created the onboard Apollo software, was an unbelievably capable and precise programmer. As [The Guardian noted in an interview](https://www.theguardian.com/technology/2019/jul/13/margaret-hamilton-computer-scientist-interview-software-apollo-missions-1969-moon-landing-nasa-women) with her, “Her rigorous approach was so successful that no software bugs were ever known to have occurred during any crewed Apollo missions.”
+
+
+      No software bugs! It’s incredibly rare for any code — let alone code as complex as the one powering the AGC — to be completely bug-free. Even today, mega-tech companies like Microsoft, Google, and Meta unofficially celebrate “Patch Tuesday” every month, when they release software patches to fix the bugs in their code. Now, we here at The Coding Space aren’t about to judge coding mistakes — we love mistakes for their irreplaceable educational value. That being said, the creation of a bug-less code managed by Hamilton and her team is still a feat worthy of admiration.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
