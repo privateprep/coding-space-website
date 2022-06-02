@@ -39,8 +39,25 @@ pageBuilder:
 
 
       Can you read it? Of course you can! You can make perfect sense of it, even though it’s a total mess. Because our brains don’t perceive individual letters; they perceive words as a whole. This is an AMAZING ability of our brains, but it also means that we’re hard-wired to see the big picture over the nitty gritty details — and successful code depends on the nitty gritty details. You can’t write “string” as “srting”: even though your brain understands what it means, a computer will not. As you code, you train yourself to recognize characters just as well as words and sentences, boosting your brain’s ability to pick up on small details.
-tags:
-  - Summer
+  - type: textOnly
+    textAlign: left
+    bgColor: "#eec11a"
+    textColor: "#264548"
+    mdContent: >-
+      ## Coding boosts memory
+
+
+      Working memory is the region of our brain that allows us to temporarily store and quickly access information — it’s the neurological muscle that allows us to remember things like telephone numbers and email addresses before we store them in our phones or laptops. And coders have to draw on their working memories to keep multiple cognitive plates spinning: loops, conditionals, syntax, etc. By learning coding, you provide yourself with the opportunity to exercise and develop your working memory, making your recall more efficient!
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: We at TCS build our curricula on our conviction that coding isn’t
+      just about writing lines & lines of code — it’s about learning to think
+      differently. It’s about honing your ability to shape vague concepts into
+      concrete steps towards solving a problem. Coding is good for your
+      confidence, good for your future, and good for your brain!
+tags: []
 ---
 Happy World Brain Day! Today is all about promoting brain health, and we at TCS have just the ticket. That’s right: coding! But it isn’t only us who think so. Apple founder Steve Jobs himself said that “Programming teaches you how to think.”
 
