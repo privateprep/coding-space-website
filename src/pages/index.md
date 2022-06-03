@@ -8,8 +8,10 @@ seo:
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2022-05-27T04:39:00.000Z
-  mdContent: ""
+  removalDate: 2022-06-25T04:39:00.000Z
+  mdContent: Celebrate our Nickelodeon debut! Make slime and code with us at our
+    Open House on Saturday, June 11th or Tuesday, June 14th. [RSVP
+    here.](https://docs.google.com/forms/d/e/1FAIpQLScInl52nppnQ3MQ5aMyqwp8fGb64I0RyEokzv5vOwM9wyilAA/viewform)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and students
