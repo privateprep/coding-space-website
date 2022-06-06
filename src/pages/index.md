@@ -9,8 +9,10 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-06-25T04:39:00.000Z
-  mdContent: Celebrate our Nickelodeon debut! Make slime and code with us at our
-    Open House on Saturday, June 11th or Tuesday, June 14th. [RSVP
+  mdContent: Celebrate our [Nickelodeon
+    debut](https://www.nick.com/episodes/8zjdil/nick-news-nick-news-metaverse-media-and-making-history-season-2-ep-4)!
+    Make slime and code with us at our Open House on Saturday, June 11th or
+    Tuesday, June 14th. [RSVP
     here.](https://docs.google.com/forms/d/e/1FAIpQLScInl52nppnQ3MQ5aMyqwp8fGb64I0RyEokzv5vOwM9wyilAA/viewform)
 hero:
   heading: The Coding Space
