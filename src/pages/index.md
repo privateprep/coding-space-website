@@ -2,7 +2,7 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: The Coding Space
+  title: Coding Classes for Kids - The Coding Space
   seo_description: >
     We offer in-person and virtual coding classes that provide kids with a
     caring, inclusive space to have fun, be challenged, and grow as thinkers,
