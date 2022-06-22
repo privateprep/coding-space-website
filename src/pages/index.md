@@ -9,10 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2022-06-25T04:39:00.000Z
-  mdContent: Celebrate our [Nickelodeon
-    debut](https://www.nick.com/episodes/8zjdil/nick-news-nick-news-metaverse-media-and-making-history-season-2-ep-4)!
-    Make slime and code with us at our Open House on Saturday, June 18th. [RSVP
-    here.](https://docs.google.com/forms/d/e/1FAIpQLScInl52nppnQ3MQ5aMyqwp8fGb64I0RyEokzv5vOwM9wyilAA/viewform)
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and students
