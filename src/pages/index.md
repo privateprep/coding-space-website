@@ -89,20 +89,18 @@ differentiators:
     title: Educational Equity
 featuredProject:
   studentProfile:
-    name: "Alexandra "
+    name: Marta
     age: 10
-    interests: Coding
+    interests: "Interests: Coding!"
     image:
       image: /img/smily_face.svg
-      alt: Placeholder image for India
-    className: Intermediate GirlCode
-    classUrl: /experience-levels/intermediate-girlcode/
+      alt: Placeholder image for Marta
+    className: Intermediate Code
+    classUrl: /experience-levels/intermediate-code/
   project:
-    description: >
-      Press the green flag and any key on your keyboard can make noise. Use the
-      arrows to move the ball around
-    title: Noise Maker and Ball Mover
-    content: https://scratch.mit.edu/projects/644317533/embed
+    description: Watch & listen as Super Goat defeats his arch nemesis.
+    title: The Tale of Super Goat
+    content: https://scratch.mit.edu/projects/676100585/embed
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
