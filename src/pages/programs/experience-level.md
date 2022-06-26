@@ -140,7 +140,7 @@ pageBuilder:
         mdContent: |-
           * learn JavaScript, HTML, CSS
           * build web-based games, animations, and applications
-          * launch their own independent projects in other languages if desired
+          * explore other languages like Python & Java
     rightComponent:
       - type: textOnly
         textAlign: left
@@ -161,6 +161,40 @@ pageBuilder:
     list:
       - title: Sign Up
         content: /classes?experiences[]=Advanced
+  - type: sideBySide
+    bgColor: "#9de2dd"
+    leftComponent:
+      - type: textOnly
+        textAlign: left
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          # Teen Code
+
+
+          **Ages 14-17, co-ed**
+
+
+          In our Teen Code course, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Join the Waitlist
+        content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#264548"
+        textColor: "#faf6ee"
+        heading: "Students will:"
+        mdContent: |-
+          * Code in JavaScript, Python, and more
+          * Use databases and APIs to build websites, games,  and apps  
+          * Learn to think like a software engineer
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -182,5 +216,5 @@ pageBuilder:
     mediaPosition: right
     mdContent: Still unsure where your child should begin? Visit our classes page
       where you can check your child's experience, interests, and skills.
-    fgColor: "#eec11a"
+    fgColor: "#264548"
 ---
