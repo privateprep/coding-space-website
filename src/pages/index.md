@@ -41,43 +41,47 @@ mainpitch:
 differentiators:
   - image:
       image: /img/slice-9-2-.png
-      alt: Instructor showing code logic on a white board to a student
-    mdContent: |-
+      alt: Kids collaborating on coding projects
+    mdContent: >-
       ## Student-Centered Learning
 
-      Personalized, self-paced learning means projects as unique as our students
-  - image:
-      image: /img/field_trips.jpg
-      alt: Group of Coding Space students go on a field trip to Google office in NYC
-    mdContent: |-
-      ## Exceptional Experiences
 
-      We partner with parents at every step, from accessible tech support
-      to progress reports
-  - image:
-      image: /img/girl-code-vert.jpg
-      alt: A young girl in coding classes in the appearance of a superhero.
-    mdContent: |-
-      ## Skills For Life
-
-      Our supportive space fosters a growth mindset, empowering students
-      to grow past their comfort zones
-  - image:
-      image: /img/white-board.jpg
-      alt: Instructor showing code logic on a white board to a student
-    mdContent: |-
-      ## Teacher Development
-
-      Ongoing educator training means students learn from teachers in the know
+      Our project-based, self-paced curriculum in Scratch, JavaScript, and other languages lets kids code games, animations, and apps as unique as they are
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
         hooked up to study circuits.
-    mdContent: |-
-      ## Unique Teaching Methods
+    mdContent: >-
+      ## Learn by Doing
 
-      We encourage students to discover solutions by modeling effective
-      learning strategies and providing room to test and tinker
+
+      Our teachers never lecture. We believe in asking questions to help students solve problems.
+  - image:
+      image: /img/girl-code-vert.jpg
+      alt: A young girl in coding classes in the appearance of a superhero.
+    mdContent: >-
+      ## Skills For Life
+
+
+      Our supportive space fosters a growth mindset, grit, and the freedom to make mistakes, empowering students
+
+      to grow past their comfort zones
+  - image:
+      image: /img/white-board.jpg
+      alt: Instructor showing code logic on a white board to a student
+    mdContent: >-
+      ## Expert Teachers
+
+
+      Our ongoing educator training in Socratic-based teaching methods and computer science curriculum means students learn from teachers in the know
+  - image:
+      image: /img/field_trips.jpg
+      alt: Group of Coding Space students go on a field trip to Google office in NYC
+    mdContent: >-
+      ## Personalized Experiences
+
+
+      We partner with students and parents at every step, from accessible tech support to progress reports.
   - image:
       image: /img/coder.jpg
       alt: Four girls in a Coding Space camp smiling with stickers on their faces
@@ -98,7 +102,7 @@ featuredProject:
     className: Intermediate Code
     classUrl: /experience-levels/intermediate-code/
   project:
-    description: Watch & listen as Super Goat defeats his arch nemesis.
+    description: Watch & listen as Super Goat defeats his arch nemesis!
     title: The Tale of Super Goat
     content: https://scratch.mit.edu/projects/676100585/embed
     ratio: ratio4x3
