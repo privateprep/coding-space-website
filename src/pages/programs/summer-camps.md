@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Summer Camps
+title: Coding Camp for Kids
 titleColor: "#264548"
 description: Our in-person summer camp is back and better than ever! Held Monday
   through Friday throughout the summer on the Upper East Side in NYC and Park
