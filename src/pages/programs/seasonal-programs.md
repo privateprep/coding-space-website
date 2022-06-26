@@ -22,7 +22,7 @@ pageBuilder:
       week to make progress on individual projects, dive into hands-on
       activities, and explore opportunities for self-expression. By challenging
       students at their individual level to create projects as unique as they
-      are, we underscore the power of personalized learning. And with our 4:1
+      are, we underscore the power of personalized learning. And with our small
       student-to-teacher ratio, students get the guidance they need to keep
       moving forward. Keep reading to learn more about ongoing semester
       learning.
@@ -53,7 +53,7 @@ pageBuilder:
       new skills.
   - type: textAndImageBlock
     image:
-      alt: Accessibility name
+      alt: Friends coding on their computers
       image: /img/sisters-doing-their-homework-orig.jpg
     mediaPosition: left
     bgColor: "#faf6ee"
@@ -64,7 +64,6 @@ pageBuilder:
       * Learn to code!
       * Be challenged at their individual level
       * Build grit, a growth mindset, and computational thinking skills
-      * Balance screen time with hands-on activities and more
       * Discover and define their personal passions
       * Make new friends near and far
   - type: headerAndMarkDownBlock
@@ -77,7 +76,7 @@ pageBuilder:
       **What’s Class Like?**
 
 
-      Whether your child is joining us in one of our coding spaces or from the comfort of their couch, our classes combine project-based coding and challenges with opportunities to take a break from the screen to laugh, learn, and explore. Here’s what your child can expect from our seasonal classes:
+      Whether your child is joining us in one of our coding spaces or from the comfort of their couch, our classes combine project-based coding with Socratic-based teaching and individualized attention. Here’s what your child can expect from our seasonal classes:
   - type: styledChecks
     bgColor: "#9de2dd"
     fgColor: "#faf6ee"
@@ -87,19 +86,17 @@ pageBuilder:
       - title: Project-Based Coding
         content: We challenge our students to create projects as unique as they are.
           Students receive individualized attention and curriculum customization
-          through experienced teachers and a 4:1 student-to-teacher ratio. Using
+          through experienced teachers and small student-to-teacher ratio. Using
           the Socratic method, our teachers ask questions aimed at helping
           students discover their own solutions to problems. Whether your child
           is new to coding or already building their own websites and projects,
           our classes allow students to progress through our curriculum at the
           pace that’s right for them.
       - title: Hands-On Activities
-        content: Students take a break from their screens and discover the opportunities
-          to create and explore that exist all around them, even in their own
-          living rooms. Centered in the world of STEM, these activities draw on
-          skills found in engineering, language arts, design, and more. These
-          opportunities support cognitive, emotional, and social development,
-          allowing students to grow in fun new ways.
+        content: Students have options to take a break from their screens and discover
+          the opportunities to create and explore that exist all around them.
+          These opportunities support cognitive, emotional, and social
+          development, allowing students to grow in fun new ways.
       - title: Weekly Challenges & Reflection
         content: Each week, students are challenged to learn new programming techniques
           and stretch their minds in fresh, interesting ways. Each class ends
@@ -136,7 +133,7 @@ pageBuilder:
       ## Where Should My Child Start?
 
 
-      Our classes are offered for every skill level. Not sure where your child should begin? Visit our Experience Levels page to learn more and take our Placement Quiz for personalized recommendations.
+      Our classes are offered for every skill level. Not sure where your child should begin? Visit our [Experience Levels](/programs/experience-level) page to learn more.
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
