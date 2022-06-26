@@ -75,13 +75,13 @@ pageBuilder:
       fgColor: "#264548"
       textColor: "#faf6ee"
       list:
-        - title: Sign Up
-          content: https://www.thecodingspace.com/programs/the-coding-space-academy/
+        - title: Join the Waitlist
+          content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
       image: /img/shutterstock_1066424816.jpg
-      alt: Accessibility name
+      alt: Two teenagers coding
     mediaPosition: left
     mdContent: >-
       ## **The Coding Space Academy**
