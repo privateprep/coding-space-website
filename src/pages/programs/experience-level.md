@@ -9,21 +9,25 @@ heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
 pageBuilder:
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
     textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/img_4127-2-.jpeg
+      alt: Kids coding together on the computer
+    mediaPosition: right
     mdContent: >-
       ## **Experience Levels**
 
 
-      Whether your child is new to coding or already building their own websites, our classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
+      Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
 
 
-      While our classes are tailored to each of the four experience levels below, our student-centered approach creates a totally personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go. 
-
-
-      Not sure where your child should begin? Take our Placement Quiz for personalized recommendations based on your child’s current experience.
+      While our classes are tailored to each of the four experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
@@ -38,7 +42,7 @@ pageBuilder:
           #### Ages 6-8, co-ed
 
 
-          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop a fluency with technology, and start forming crucial computational thinking patterns as they piece together their first lines of code. Students learn through specially curated activities in Code.org and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
+          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop a fluency with technology and start forming crucial computational thinking patterns. Students learn through specially curated activities in Code.org and ScratchJr, and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
@@ -46,9 +50,6 @@ pageBuilder:
         textColor: "#ffffff"
         heading: Students will
         mdContent: |-
-          
-
-          * craft their first lines of code
           * start forming computational thinking patterns
           * develop a fluency with technology
   - type: buttons
@@ -137,11 +138,9 @@ pageBuilder:
         textColor: "#264548"
         heading: "Students will:"
         mdContent: |-
-          
-
-          * learn JavaScript
+          * learn JavaScript, HTML, CSS
           * build web-based games, animations, and applications
-          * launch their own independent projects
+          * launch their own independent projects in other languages if desired
     rightComponent:
       - type: textOnly
         textAlign: left
@@ -154,7 +153,7 @@ pageBuilder:
           #### Ages 8-14, co-ed
 
 
-          In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages and platforms to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
+          In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages like Python or Java to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
