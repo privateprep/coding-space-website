@@ -109,7 +109,7 @@ pageBuilder:
       #### Evenings & Weekends All Summer Long
 
 
-      Beginning in June, these live Zoom classes balance project-based coding education with hands-on activities and opportunities to create and explore at home. Students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it. Featuring evening and weekend classes, this option is a perfect way for busy kids to continue their coding journey over the summer.
+      Beginning in June, these in person and online classes balance project-based coding education with hands-on activities and opportunities to create and explore at home. Students will make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it. Featuring evening and weekend classes, this option is a perfect way for busy kids to continue their coding journey over the summer.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
