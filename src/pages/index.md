@@ -2,11 +2,11 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: Coding Classes for Kids - The Coding Space
+  title: Coding for Kids - The Coding Space
   seo_description: >
-    We offer in-person and virtual coding classes for kids and teens that
-    provide a caring, inclusive space for students to have fun, be challenged,
-    and grow as thinkers, learners, and leaders.
+    We offer in-person and virtual coding for kids and teens that provide a
+    caring, inclusive space for students to have fun, be challenged, and grow as
+    thinkers, learners, and leaders.
 banner:
   removalDate: 2022-06-25T04:39:00.000Z
   mdContent: ""
@@ -27,11 +27,11 @@ hero:
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
-    We offer in-person and virtual coding classes for kids and teens that
-    provide a caring, inclusive space for students to have fun, be challenged,
-    and grow as thinkers, learners, and leaders.
+    We offer in-person and virtual coding for kids and teens in a caring,
+    inclusive space for students to have fun, be challenged, and grow as
+    thinkers, learners, and leaders.
 
-    At The Coding Space, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
+    In our coding classes and camps, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
