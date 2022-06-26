@@ -53,7 +53,7 @@ pageBuilder:
       **Build Friendships and Life Skills in a Supportive Setting**
 
 
-      Our weekly after-school coding classes combine unique coding challenges with STEM-based activities that get bodies and minds moving. Teachers utilize the Socratic teaching method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes combine unique coding challenges in Scratch, JavaScript, and more in a small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -70,13 +70,13 @@ pageBuilder:
       alt: Young girl learning on a tablet
     mediaPosition: left
     mdContent: >-
-      ## Virtual Coding Classes
+      ## Online Coding Classes
 
 
       **Explore the Unknown, Even From Home**
 
 
-      Our weekly virtual group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
+      Our weekly online group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -99,7 +99,7 @@ pageBuilder:
       **A Build-Your-Own Learning Experience**
 
 
-      Looking for a way for your child to learn with friends from afar? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a totally personalized class experience for your child.
+      Looking for a way for your child to learn with friends from afar? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a personalized class experience for your child.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
