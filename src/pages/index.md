@@ -4,9 +4,9 @@ templateKey: index-page
 seo:
   title: Coding Classes for Kids - The Coding Space
   seo_description: >
-    We offer in-person and virtual coding classes that provide kids with a
-    caring, inclusive space to have fun, be challenged, and grow as thinkers,
-    learners, and leaders.
+    We offer in-person and virtual coding classes for kids and teens that
+    provide a caring, inclusive space for students to have fun, be challenged,
+    and grow as thinkers, learners, and leaders.
 banner:
   removalDate: 2022-06-25T04:39:00.000Z
   mdContent: ""
@@ -27,11 +27,11 @@ hero:
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
-    We offer in-person and virtual coding classes that provide kids with a
-    caring, inclusive space to have fun, be challenged, and grow as thinkers,
-    learners, and leaders.
+    We offer in-person and virtual coding classes for kids and teens that
+    provide a caring, inclusive space for students to have fun, be challenged,
+    and grow as thinkers, learners, and leaders.
 
-    At The Coding Space, kids learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
+    At The Coding Space, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
@@ -46,7 +46,7 @@ differentiators:
       ## Student-Centered Learning
 
 
-      Our project-based, self-paced curriculum in Scratch, JavaScript, and other languages lets kids code games, animations, and apps as unique as they are
+      Our project-based, self-paced coding curriculum in Scratch, JavaScript, and other languages lets kids code games, animations, and apps as unique as they are.
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
@@ -65,7 +65,7 @@ differentiators:
 
       Our supportive space fosters a growth mindset, grit, and the freedom to make mistakes, empowering students
 
-      to grow past their comfort zones
+      to grow past their comfort zones.
   - image:
       image: /img/white-board.jpg
       alt: Instructor showing code logic on a white board to a student
@@ -73,7 +73,7 @@ differentiators:
       ## Expert Teachers
 
 
-      Our ongoing educator training in Socratic-based teaching methods and computer science curriculum means students learn from teachers in the know
+      Our ongoing training in Socratic-based teaching and computer science education means students learn from teachers in the know.
   - image:
       image: /img/field_trips.jpg
       alt: Group of Coding Space students go on a field trip to Google office in NYC
@@ -89,7 +89,7 @@ differentiators:
       ## Educational Equity
 
       We commit to increasing access to education through scholarships,
-      community partnerships, and social impact initiatives
+      community partnerships, and social impact initiatives.
     title: Educational Equity
 featuredProject:
   studentProfile:
