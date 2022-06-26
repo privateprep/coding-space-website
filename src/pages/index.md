@@ -4,7 +4,7 @@ templateKey: index-page
 seo:
   title: Coding for Kids - The Coding Space
   seo_description: >
-    We offer in-person and virtual coding for kids and teens that provide a
+    We offer in-person and online coding for kids and teens that provide a
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
@@ -27,7 +27,7 @@ hero:
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
-    We offer in-person and virtual coding for kids and teens in a caring,
+    We offer in-person and online coding for kids and teens in a caring,
     inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 
