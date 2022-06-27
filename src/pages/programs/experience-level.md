@@ -176,6 +176,18 @@ pageBuilder:
 
 
           In our Teen Code course, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#9de2dd"
+        fgColor: "#264548"
+        textColor: "#faf6ee"
+        mdContent: |-
+          
+
+          * Code in JavaScript, Python, and more
+          * Use databases and APIs to build websites, games,  and apps  
+          * Learn to think like a software engineer
+        heading: "Students will:"
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
@@ -183,33 +195,21 @@ pageBuilder:
     list:
       - title: Join the Waitlist
         content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
-  - type: sideBySide
-    bgColor: "#faf6ee"
-    rightComponent:
-      - type: boxWithLogo
-        bgColor: "#faf6ee"
-        fgColor: "#264548"
-        textColor: "#faf6ee"
-        heading: "Students will:"
-        mdContent: |-
-          * Code in JavaScript, Python, and more
-          * Use databases and APIs to build websites, games,  and apps  
-          * Learn to think like a software engineer
   - type: textOnly
     textAlign: center
-    bgColor: "#9de2dd"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: "## **Find Your Child’s Perfect Fit**"
   - type: textAndImageBlock
     buttons:
-      bgColor: "#9de2dd"
+      bgColor: "#ffffff"
       fgColor: "#f6c924"
       textColor: "#264548"
       list:
         - title: Find Your Fit
           content: /classes
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#ffffff"
     image:
       image: /img/20190711-img_9252-1-.jpg
       alt: Find The Perfect Fit
