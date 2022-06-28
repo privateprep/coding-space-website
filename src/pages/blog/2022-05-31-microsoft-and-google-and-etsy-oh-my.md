@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-05-31T15:57:09.635Z
 description: Sign your child up for unforgettable summer experiences
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/microsoft.png
   alt: Microsoft
