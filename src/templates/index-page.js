@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import Seo from "../components/seo";
 import { IndexPageTemplate } from "./template_exports/index-page-template";
 import Layout from "../components/Layout";
 
@@ -11,6 +12,10 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <Seo
+        title={frontmatter.seo.title}
+        description={frontmatter.seo.seoDescription}
+      />
       <IndexPageTemplate
         banner={frontmatter.banner}
         hero={frontmatter.hero}
