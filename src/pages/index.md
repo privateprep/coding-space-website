@@ -40,6 +40,14 @@ mainpitch:
         content: /classes
 differentiators:
   - image:
+      image: /img/as-seen-on.png
+      alt: The Coding Space featured on Nickelodeon!
+    mdContent: >-
+      ## Best Coding Classes for Kids 
+
+
+      We're the best according to [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), and [Nickelodeon](https://www.nick.com/episodes/8zjdil/nick-news-nick-news-metaverse-media-and-making-history-season-2-ep-4)!
+  - image:
       image: /img/slice-9-2-.png
       alt: Kids collaborating on coding projects
     mdContent: >-
@@ -82,23 +90,6 @@ differentiators:
 
 
       We partner with students and parents at every step, from accessible tech support to progress reports.
-  - image:
-      image: /img/coder.jpg
-      alt: Four girls in a Coding Space camp smiling with stickers on their faces
-    mdContent: |-
-      ## Educational Equity
-
-      We commit to increasing access to education through scholarships,
-      community partnerships, and social impact initiatives.
-    title: Educational Equity
-  - image:
-      image: /img/as-seen-on.png
-      alt: The Coding Space featured on Nickelodeon!
-    mdContent: >-
-      ## Best Coding Classes for Kids 
-
-
-      We're the best according to [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), and [Nickelodeon](https://www.nick.com/episodes/8zjdil/nick-news-nick-news-metaverse-media-and-making-history-season-2-ep-4)!
 featuredProject:
   studentProfile:
     name: Marta
