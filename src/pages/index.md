@@ -8,7 +8,7 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2022-06-25T04:39:00.000Z
+  removalDate: 2022-07-08T14:22:05.966Z
   mdContent: Let the fireworks continue! Join us for a special four-day camp from
     Tuesday, July 5th to Friday, July 8th at our UES location. [Secure Your Spot
     Now](https://www.thecodingspace.com/sign_up/classes/1778).
