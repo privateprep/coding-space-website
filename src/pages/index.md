@@ -9,7 +9,9 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-06-25T04:39:00.000Z
-  mdContent: ""
+  mdContent: Let the fireworks continue! Join us for a special four-day camp from
+    Tuesday, July 5th to Friday, July 8th at our UES location. [Secure Your Spot
+    Now](https://www.thecodingspace.com/sign_up/classes/1778).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
