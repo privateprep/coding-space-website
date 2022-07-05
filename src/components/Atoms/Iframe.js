@@ -11,6 +11,7 @@ const Iframe = ({ bgColor, content, ratio, title }) => {
         style={{ backgroundColor: bgColor }}
       >
         <iframe
+          loading="lazy"
           className="iframe-responsive"
           title={title}
           src={content}
