@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-07-01T19:55:54.073Z
 description: Learning to code is a no-brainer!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-brain-day.png
   alt: 3 Brainy Benefits of Coding
