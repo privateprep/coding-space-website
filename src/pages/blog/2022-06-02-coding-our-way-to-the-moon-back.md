@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-07-01T19:38:28.851Z
 description: Happy Apollo 11 Day!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-apollo-11.png
   alt: Apollo 11
