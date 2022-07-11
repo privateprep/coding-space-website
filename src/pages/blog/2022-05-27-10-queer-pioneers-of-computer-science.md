@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-05-27T14:29:03.681Z
 description: Take Pride in Coding
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-pride-month.png
   alt: Pride Month
