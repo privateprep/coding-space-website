@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-05-31T15:49:35.202Z
 description: Celebrate Social Media Day with The Coding Space
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-social-media-day.png
   alt: Social Media Day
