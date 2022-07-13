@@ -45,7 +45,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/download-2-.jpg
+      image: /img/samsung-three-story-stage-screen.png
       alt: The Coding Space at Samsung's Three Story Main Stage Screen
     mediaPosition: right
     mdContent: >-
