@@ -67,13 +67,13 @@ pageBuilder:
     image:
       image: /img/hands_on.jpeg
       alt: Kids working on on a computer in a group
-    mediaPosition: left
+    mediaPosition: right
     mdContent: >-
       ## Not Your Typical Coding Camp
 
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
-    fgColor: "#9de2dd"
+    fgColor: "#264548"
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
