@@ -18,7 +18,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Save Your Spot
-          content: /programs/summer-camps/
+          content: /experience-levels/camp-coding-space/
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
@@ -30,7 +30,7 @@ pageBuilder:
 
 
       On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now and we'll send you the invite.
-    fgColor: "#264548"
+    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
