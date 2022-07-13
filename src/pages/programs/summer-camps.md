@@ -40,36 +40,19 @@ pageBuilder:
       fgColor: "#eec11a"
       textColor: "#264548"
       list:
-        - title: Contact Us
+        - title: Save Your Spot
           content: /contact-us
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/field_trips.jpg
-      alt: Accessibility name
+      image: /img/download-2-.jpg
+      alt: The Coding Space at Samsung's Three Story Main Stage Screen
     mediaPosition: right
     mdContent: >-
-      ## Bringing Silicon Valley to NY
+      ## See Your Child's Name on a Three-Story Screen
 
 
-
-
-      ### Field Trips to Tech Companies
-
-
-      Exclusive field trips to NYC tech companies. Past trips have included Google, Etsy, and Microsoft
-
-
-      ### Real World Problem-Solving
-
-
-      Our Code For Change curriculum encourages campers to learn about the United Nations Sustainable Development Goals and develop a technology solution to tackle this global issue.
-
-
-      ### Personalizing Learning
-
-
-      We guarantee individual attention and a custom learning experience for each camper with a 4:1 student to teacher ratio. Our counselors create a welcoming and engaging camp environment for all campers.
+      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Parents are invited to attend the big show! Register now and we'll send you the invite.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
