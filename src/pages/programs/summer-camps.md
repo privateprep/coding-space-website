@@ -13,6 +13,25 @@ heroImage:
 pageBuilder:
   - type: textAndImageBlock
     buttons:
+      bgColor: "#ffffff"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Save Your Spot
+          content: /contact-us
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/samsung-three-story-stage-screen.png
+      alt: The Coding Space at Samsung's Three Story Main Stage Screen
+    mediaPosition: right
+    mdContent: >-
+      ## See Your Child's Name on a Three-Story Screen
+
+
+      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now and we'll send you the invite.
+  - type: textAndImageBlock
+    buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
@@ -24,7 +43,7 @@ pageBuilder:
     image:
       image: /img/GirlCode-around-a-table.jpg
       alt: Kids sitting around a table coding
-    mediaPosition: right
+    mediaPosition: left
     mdContent: >-
       ## Camp Coding Space
 
@@ -34,25 +53,6 @@ pageBuilder:
 
       Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#9de2dd"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Save Your Spot
-          content: /contact-us
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/samsung-three-story-stage-screen.png
-      alt: The Coding Space at Samsung's Three Story Main Stage Screen
-    mediaPosition: right
-    mdContent: >-
-      ## See Your Child's Name on a Three-Story Screen
-
-
-      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now and we'll send you the invite.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
