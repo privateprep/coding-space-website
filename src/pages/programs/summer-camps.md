@@ -26,10 +26,10 @@ pageBuilder:
       alt: The Coding Space at Samsung's Three Story Main Stage Screen
     mediaPosition: right
     mdContent: >-
-      ## See Your Child's Name on a Three-Story Screen
+      ## See Your Child on a Three-Story Stage
 
 
-      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now and we'll send you the invite.
+      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now for Week 4 of Camp Coding Space and we'll send you the invite.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
