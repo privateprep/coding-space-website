@@ -18,7 +18,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Save Your Spot
-          content: /experience-levels/camp-coding-space/
+          content: /classes?semesters[]=Summer%20Camps%202022
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
