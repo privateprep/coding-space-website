@@ -52,7 +52,7 @@ pageBuilder:
       ## See Your Child's Name on a Three-Story Screen
 
 
-      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Parents are invited to attend the big show! Register now and we'll send you the invite.
+      On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly immersive in-store experience, and present the projects they've coded all week on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now and we'll send you the invite.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
