@@ -8,7 +8,7 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2022-07-08T14:22:05.966Z
+  removalDate: 2022-07-22T14:22:05.966Z
   mdContent: Don't miss an unforgettable field trip to Samsung on July 22nd. [Save
     your child's spot
     now](https://www.thecodingspace.com/programs/summer-camps/).
