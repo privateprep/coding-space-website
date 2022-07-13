@@ -18,7 +18,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Save Your Spot
-          content: /classes?semesters[]=Summer%20Camps%202022
+          content: /experience-levels/camp-coding-space
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
@@ -26,7 +26,7 @@ pageBuilder:
       alt: The Coding Space at Samsung's Three Story Main Stage Screen
     mediaPosition: right
     mdContent: >-
-      ## See Your Child on a Three-Story Stage
+      ## Catch Your Child On Stage
 
 
       On Friday, July 22nd, our campers will take an exclusive field trip to Samsung where they'll explore cutting edge tech, code in a truly unique immersive environment, and present the projects they've created during camp on Samsung's three-story main stage screen. Families are invited to attend the big show! Register now for Week 4 of Camp Coding Space to get in on the action.
