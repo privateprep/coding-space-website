@@ -1,0 +1,19 @@
+---
+templateKey: blog-post
+title: The Coding Space @ Samsung 837
+titleColor: "#264548"
+bgColor: "#faf6ee"
+date: 2022-07-27T17:16:58.528Z
+description: Our summer excursion to a digital dreamscape!
+featuredPost: false
+featuredImage:
+  image: /img/img_0295.jpg
+  alt: Kids at Samsung 837
+---
+This July, we took a group of lucky TCS campers to Samsung 837, an experiential tech wonderland in the Meatpacking District featuring a living lab, a VR tunnel, digital art installations, and three floors of dynamic, immersive programming powered by state-of-the-art technology.
+
+We started the day with a tour of the space, where we saw all of Samsung’s latest gadgets (including Dusty the Cleanly Robot!). We also got a peek at Samsung’s “internet of things”, crawled through the mind-boggling TV tunnel, and saw a demo of Dreamground: part physical installation, part digital immersive experience, all cutting-edge Metaverse tech.
+
+After a lunchtime excursion to nearby floating park Little Island, we returned to Samsung, where coders (and their parents!) saw their work projected onto Samsung’s three-story screen and demo-ed their projects in Samsung’s gaming lounge.
+
+Check out some photos and videos of the day below!
