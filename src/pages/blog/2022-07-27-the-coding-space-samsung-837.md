@@ -9,6 +9,19 @@ featuredPost: false
 featuredImage:
   image: /img/img_0295.jpg
   alt: Kids at Samsung 837
+pageBuilder:
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: |-
+      ![](/img/img_0299.jpg)
+
+      ![](/img/img_0309.jpg)
+
+      ![](/img/img_0364.jpg)
+
+      ![](/img/img_0361.jpg)
 ---
 This July, we took a group of lucky TCS campers to Samsung 837, an experiential tech wonderland in the Meatpacking District featuring a living lab, a VR tunnel, digital art installations, and three floors of dynamic, immersive programming powered by state-of-the-art technology.
 
