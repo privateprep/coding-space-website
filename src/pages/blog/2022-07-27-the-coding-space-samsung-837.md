@@ -22,6 +22,11 @@ pageBuilder:
       ![](/img/img_0364.jpg)
 
       ![](/img/img_0361.jpg)
+  - type: iframe
+    bgColor: "#9de2dd"
+    content: https://www.youtube.com/embed/5LCidiP-i6s
+    ratio: ratio16x9
+    title: Samsung 837 Presentation
 ---
 This July, we took a group of lucky TCS campers to Samsung 837, an experiential tech wonderland in the Meatpacking District featuring a living lab, a VR tunnel, digital art installations, and three floors of dynamic, immersive programming powered by state-of-the-art technology.
 
