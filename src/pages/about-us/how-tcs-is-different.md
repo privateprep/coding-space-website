@@ -1,6 +1,6 @@
 ---
 templateKey: about-us
-title: How TCS is Different
+title: How The Coding Space is Different
 description: "The Coding Space is about more than just first-class coding
   education, it’s about helping kids build the skills that will serve them
   throughout life. "
@@ -16,8 +16,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/shutterstock_1297618672.jpg
-      alt: What Makes Us Different
+      image: /img/img_6197-1-.png
+      alt: The Coding Space Field Trip To Microsoft
     mediaPosition: left
     mdContent: >-
       # What Makes Us Different
