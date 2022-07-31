@@ -8,8 +8,9 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2022-07-22T14:22:05.966Z
-  mdContent: ""
+  removalDate: 2022-09-12T14:22:05.966Z
+  mdContent: Fall classes start Sept. 12th! [Save your
+    spot.](https://www.thecodingspace.com/classes/?semesters[]=Fall%20Classes%202022)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
