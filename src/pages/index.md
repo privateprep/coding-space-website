@@ -9,9 +9,7 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-07-22T14:22:05.966Z
-  mdContent: Don't miss an unforgettable field trip to Samsung on July 22nd. [Save
-    your child's spot
-    now](https://www.thecodingspace.com/programs/summer-camps/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
