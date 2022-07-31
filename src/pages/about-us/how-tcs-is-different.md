@@ -37,8 +37,8 @@ pageBuilder:
       - title: Student-Centered Learning
         content: "By challenging students at their individual level to create projects
           as unique as they are, we underscore the power of personalized
-          learning. And with our 4:1 student-to-teacher ratio, students get the
-          guidance they need to keep moving forward. "
+          learning. And with our small student-to-teacher ratio, students get
+          the guidance they need to keep moving forward. "
       - title: Exceptional Experiences
         content: "Our dedication to ongoing feedback and support through skill
           evaluations, progress reports, and technological pre-checks, makes us
