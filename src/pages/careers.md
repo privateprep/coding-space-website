@@ -21,9 +21,9 @@ pageBuilder:
       ## We teach differently
 
 
-      We teach differently at The Coding Space. Join a team that is passionate about our mission, follows a unique teaching philosophy, and cares. 
+      We teach differently at The Coding Space. Join a team that is passionate about our mission, follows a unique teaching philosophy, and cares. Scroll down for current postings. 
 
-      [Contact us](/contact-us) to learn more.
+      [](/contact-us)
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -58,7 +58,7 @@ openings:
       locations:
         - online
     details:
-      postingDate: 2022-01-01T16:39:43.806Z
-      removalDate: 2022-06-01T15:39:43.806Z
+      postingDate: 2022-07-31T19:51:01.787Z
+      removalDate: 2023-05-05T15:39:43.806Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdQn_EQUXGZt0ryzI9fl4cPYettZ5EFkhWTQt6rnPtoERC4tg/viewform
 ---
