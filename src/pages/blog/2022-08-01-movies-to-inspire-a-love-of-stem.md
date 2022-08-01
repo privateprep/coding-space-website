@@ -64,7 +64,7 @@ pageBuilder:
       alt: Edie Windsor
     mediaPosition: right
     mdContent: >-
-      # Edie Windsor
+      # Apollo 13
 
 
       Edith Windsor is well-known as the queer rights activist whose victory in the landmark Supreme Court case [United States v. Windsor](https://en.wikipedia.org/wiki/United_States_v._Windsor) helped overturn DOMA (Defense of Marriage Act), giving federal recognition to same-sex couples for the first time. Windsor filed the lawsuit after she was unable to claim a tax exemption left to her by her late spouse, as the term “spouse” referred only to heterosexual couples at the time. What’s less well known, however, are Wilson’s contributions as a computer scientist. Windsor worked at IBM for 16 years and achieved the highest technical position at the time, Senior Systems Programmer. Praised especially for her “top-notch debugging skills,” Windsor founded the consulting firm PC Classics after leaving IBM, where she made a point to provide tech educations for queer groups.
