@@ -124,10 +124,13 @@ pageBuilder:
       alt: Audrey Tang
     mediaPosition: left
     mdContent: >-
-      # Audrey Tang
+      # Jingle Jangle
 
 
-      Audrey Tang is a nonbinary transgender software developer and self-described “civic hacker” who was appointed as Taiwan’s official Digital Minister in 2016. Tang is the youngest and first transgender official in Taiwan’s executive government. As Digital Minister, Tang is the force behind Taiwan’s tech-based COVID-19 response: promoting an open source website for finding shops with masks in stock, developing a vaccination reservation system, and creating an anonymous contact tracing system. Born in Taiwan, Audrey Tang is a self-taught programmer who was learning Perl at the age of 12, launching a startup at 15, and working in Silicon Valley by 19. A programming wunderkind, Tang is well-known for leading the [Pugs](https://en.wikipedia.org/wiki/Pugs_(programming)) project to develop the Perl 6 language, starting the [Perl Archive Toolkit](https://en.wikipedia.org/wiki/Perl_Archive_Toolkit) (PAT), and their role as an outspoken advocate for free software and an open web.
+      *Rating: PG*
+
+
+      A 2020 Christmas musical fantasy film, [Jingle Jangle](https://www.youtube.com/watch?v=aYPUYVgwLWY), which stars acting and comedy powerhouses like Forest Whitaker, Keegan Michael Key, and Phylicia Rashad, focuses on genius inventor Jeronicus Jangle and his passionate, whip-smart granddaughter Journey, who is also a budding inventor. This film brings STEM to the forefront through imaginative mathematical dream sequences, richly composed numbers about the self-affirming power of invention, and an adorable robot called the Buddy 3000.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
