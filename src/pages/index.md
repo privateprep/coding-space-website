@@ -9,7 +9,8 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-09-12T14:22:05.966Z
-  mdContent: Fall classes start Sept. 12th! [Save your
+  mdContent: Fall classes start September 12th and slots are going fast! [Click
+    here to save your
     spot.](https://www.thecodingspace.com/classes/?semesters[]=Fall%20Classes%202022)
 hero:
   heading: The Coding Space
