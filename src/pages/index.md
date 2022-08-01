@@ -56,7 +56,7 @@ differentiators:
       ## Student-Centered Learning
 
 
-      Our project-based, self-paced coding curriculum in Scratch, JavaScript, and other languages lets kids code games, animations, and apps as unique as they are.
+      Our project-based, self-paced coding curriculum in Scratch, JavaScript, and more lets kids code games, animations, and apps as unique as they are.
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
