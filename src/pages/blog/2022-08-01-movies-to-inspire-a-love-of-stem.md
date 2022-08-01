@@ -150,7 +150,7 @@ pageBuilder:
       *Rating: PG*
 
 
-      You may not think of Legos as particularly scientific, but [The Lego Movie](https://www.youtube.com/watch?v=fZ_JOBCLF-I) speaks directly to the builder in every one of us. It’s an action-comedy featuring the voices of celebrated actors like Chris Pratt, Elizabeth Banks, and Will Farrell that showcases how creative engineering solutions and teamwork can solve even the most hilariously complex problems.
+      You may not think of Legos as particularly scientific, but *[The Lego Movie](https://www.youtube.com/watch?v=fZ_JOBCLF-I)* speaks directly to the builder in every one of us. It’s an action-comedy featuring the voices of celebrated actors like Chris Pratt, Elizabeth Banks, and Will Farrell that showcases how creative engineering solutions and teamwork can solve even the most hilariously complex problems.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
