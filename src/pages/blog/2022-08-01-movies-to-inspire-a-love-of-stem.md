@@ -87,7 +87,10 @@ pageBuilder:
       # Big Hero 6
 
 
-      Jon “Maddog” Hall is the board chair for [The Linux Professional Institute](https://www.lpi.org/) and a vocal champion of free and open-source software. Prior to this, Hall was head of the computer science department at [Hartford State Technical College](https://www.capitalcc.edu/about/), where his temper earned him the nickname “Maddog.” On Alan Turing’s 100th birth anniversary, Hall wrote an [article](https://www.linux-magazine.com/content/view/full/55727) in Linux magazine, in which he came out as gay and called Turing his hero: “\[Turing] did so much for the industry with which I have spent the last 42 years of my life.”
+      *Rating: PG*
+
+
+      Set in the fictional tech hub of San Fransokyo, [Big Hero 6](https://www.youtube.com/watch?v=z3biFxZIJOQ) follows the lives of brainy teens who use their ingenious inventions to become self-made superheroes. The 14 year old protagonist Hiro is a tech geek who participates in robotics projects at school and puts his brain to work in positive, practical ways. And though Big Hero 6 focuses on a group of science geeks using chemistry and engineering to battle the forces of evil, it’s also about family, loss, and the power of kindness.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
