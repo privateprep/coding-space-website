@@ -64,6 +64,15 @@ export const pageQuery = graphql`
               }
             }
           }
+          buttons {
+            bgColor
+            fgColor
+            list {
+              content
+              title
+            }
+            textColor
+          }
           mdContent
           type
           leftComponent {
