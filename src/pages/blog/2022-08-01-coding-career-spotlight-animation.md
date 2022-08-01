@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-08-01T11:25:14.304Z
 description: Using code to make images come to life
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-career-spotlight-animation.png
   alt: Animation
