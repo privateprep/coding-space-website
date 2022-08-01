@@ -184,7 +184,7 @@ pageBuilder:
       alt: Irma Olguin, Jr
     mediaPosition: right
     mdContent: >-
-      # Irma Olguin, Jr.
+      # Interstellar
 
 
       As CEO and cofounder of [Bitwise Industries](https://bitwiseindustries.com/), Irma L. Olguin Jr. aims to activate human potential in "underdog" cities across the United States. In 2010, Olguin created [59DaysOfCode](https://59daysofcode.org/), a software development competition to cultivate the Central Valley’s tech industry. She also co-founded Hashtag, an open workspace for designers, developers, and entrepreneurs to collaborate. Then in 2012, Bitwise Industries was founded to strengthen the tech industry in Fresno. In 2021, Olguin was included in the [Fast Company Queer 50](https://www.fastcompany.com/queer-50/2021), a ranking of the most influential and innovative queer women and nonbinary people transforming the world of business, tech, and beyond.
