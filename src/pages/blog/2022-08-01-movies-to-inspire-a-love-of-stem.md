@@ -167,7 +167,10 @@ pageBuilder:
       # Wall-E
 
 
-      In 2014, Apple CEO Tim Cook became the first CEO of a Fortune 500 organization to come out as gay. The famously private Cook decided to do so after receiving letters from children struggling with their sexual orientation. He came out in a [Bloomberg essay](https://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up), saying, “If hearing that the CEO of Apple is gay can help someone struggling to come to terms with who he or she is…then it’s worth the trade-off with my privacy.”
+      *Rating: G*
+
+
+      Though this [beloved Pixar film](https://www.youtube.com/watch?v=CZ1CATNbXg0) makes a point of spotlighting the dangerous effects of industrialization at all costs, it also shows the positive power of technology through its protagonist, a big-hearted and curious robot named Wall-E. As Wall-E dutifully organizes trash, cares for his pet cockroach, re-watches old musicals, falls in love with a combat robot, and travels across the galaxy, kids will learn that they can use tech to nurture the planet and care for each other.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
