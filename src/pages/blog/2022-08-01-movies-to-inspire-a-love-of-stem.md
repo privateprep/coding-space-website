@@ -187,7 +187,10 @@ pageBuilder:
       # Interstellar
 
 
-      As CEO and cofounder of [Bitwise Industries](https://bitwiseindustries.com/), Irma L. Olguin Jr. aims to activate human potential in "underdog" cities across the United States. In 2010, Olguin created [59DaysOfCode](https://59daysofcode.org/), a software development competition to cultivate the Central Valley’s tech industry. She also co-founded Hashtag, an open workspace for designers, developers, and entrepreneurs to collaborate. Then in 2012, Bitwise Industries was founded to strengthen the tech industry in Fresno. In 2021, Olguin was included in the [Fast Company Queer 50](https://www.fastcompany.com/queer-50/2021), a ranking of the most influential and innovative queer women and nonbinary people transforming the world of business, tech, and beyond.
+      *Rating: PG-13*
+
+
+      Sci-fi film *[Interstellar](https://www.youtube.com/watch?v=2LqzF5WauAw)* has been lauded by scientists and teachers alike for its ability to imaginatively and accurately portray complex and fascinating scientific phenomena and concepts, including black holes, gravity, wormholes, a fifth dimension, and special relativity. Set in a future in which Earth is rapidly becoming uninhabitable, the story follows former NASA pilot Cooper (played by Matthew McConaughey) and a team of researchers as they travel across the galaxy to investigate a new home for mankind. Director Christopher Nolan said, “We hoped that by dramatizing science and making it something that could be entertaining for kids we might inspire some of the astronauts of tomorrow – that would be the ultimate goal of the project.”
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
