@@ -192,32 +192,16 @@ pageBuilder:
 
       Sci-fi film *[Interstellar](https://www.youtube.com/watch?v=2LqzF5WauAw)* has been lauded by scientists and teachers alike for its ability to imaginatively and accurately portray complex and fascinating scientific phenomena and concepts, including black holes, gravity, wormholes, a fifth dimension, and special relativity. Set in a future in which Earth is rapidly becoming uninhabitable, the story follows former NASA pilot Cooper (played by Matthew McConaughey) and a team of researchers as they travel across the galaxy to investigate a new home for mankind. Director Christopher Nolan said, “We hoped that by dramatizing science and making it something that could be entertaining for kids we might inspire some of the astronauts of tomorrow – that would be the ultimate goal of the project.”
     fgColor: "#eec11a"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/10-megan-smith.png
-      alt: Megan Smith
-    mediaPosition: left
-    mdContent: >-
-      # Megan Smith
-
-
-      Megan Smith was the United States’ third [Chief Technology Officer](https://obamawhitehouse.archives.gov/administration/eop/ostp/about/leadershipstaff/smith) during the Obama administration, helping the President and his teams harness the power of data and technology on behalf of the nation. After graduating from MIT, Smith served as CEO of [PlanetOut](https://en.wikipedia.org/wiki/PlanetOut_Inc.), a leading LGBT online community in the early days of the web. She then served as a Vice President at Google, first leading New Business Development and later serving as a VP in the leadership team at Google\[x] -— where she co-created the company’s “SolveForX” innovation community project as well as its “WomenTechmakers” tech-diversity initiative. During her tenure she led the company’s acquisitions of major platforms such as Google Earth, Google Maps, and Picasa.Currently, Smith is the CEO for [shift7](https://www.shift7digital.com/), a company striving to innovate tech-based solutions for systemic economic, social, and environmental problems.
-    fgColor: "#eec11a"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      # BONUS: Angelica Ross, Lynn Conway, Sophie Wilson, and more
-
-
-      There are far more queer & trans coding icons than we have room for in this single blog post; if you’re eager to learn more, check out our [Trans Day of Visibility blog](https://www.thecodingspace.com/blog/2022-03-01-six-trans-programmers-who-shattered-the-lavender-ceiling/), in which we talk about game-changing trans computer programmers like Angelica Ross, Lynn Conway, Sophie Wilson, and more.
+    mdContent: It’s no secret that STEM careers are and will remain in-demand. But
+      even kids who aren’t ultimately interested in a STEM career can get
+      excited about the power and value of STEM – especially with the right
+      movie. If your child is inspired by one of these films and wants to
+      explore a STEM field for themselves, consider signing them up for one of
+      our rigorous and exciting coding classes!
 tags: []
 ---
 In decades past, technology was often presented in film as the stuff of nightmares — think of tech dystopias like Terminator or 2001: A Space Odyssey. But thankfully, technophobia in film is dwindling, and a new generation of filmmakers are creating STEM-centered stories that are full of optimism and possibility. And that’s great news for parents and educators who want to inspire a love of STEM!
