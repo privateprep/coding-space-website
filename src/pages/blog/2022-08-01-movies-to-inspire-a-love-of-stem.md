@@ -24,10 +24,13 @@ pageBuilder:
       alt: Alan Turing
     mediaPosition: right
     mdContent: >-
-      # Alan Turing
+      # Hidden Figures
 
 
-      We’ll start with the kingpin — the beloved and widely renowned father of computer science, Alan Turing. In the mid 1930s, Turing devised the idea for a universal machine that could decode and action a set of instructions; this Turing machine, as it came to be known, precedes the digital computers we use today. A graduate of Cambridge and Princeton, Turing worked as a cryptanalyst during World War II, when he designed and created a code-breaking system called the [Bombe](https://www.tnmoc.org/bombe). The Bombe was so adept at deciphering the so-called unbreakable German codes that historians now say Turing effectively shortened the war by as much as [four years](https://www.bbc.com/news/technology-18419691). In his work after the war, Turing developed the idea of artificial computer intelligence and devised an experiment to test AI’s ability to think like a human being, which is still referred to today as the “[Turing Test](https://en.wikipedia.org/wiki/Turing_test).”
+      *Rating: PG-13*
+
+
+      This uplifting [film](https://www.youtube.com/watch?v=RK8xHq6dfAo) tells the untold story of three [African-American women at NASA](https://www.nasa.gov/content/katherine-johnson-biography) who were instrumental in America's space missions in the 50s and 60s. Not only does this film present a number of scientific principles in an approachable way, it’s also bound to be especially inspiring for girls and children of color. This movie’s three Black protagonists — played by Taraji P. Henderson, Octavia Butler, and Janelle Monae — model academic excellence, confidence, and a passion for STEM, and they show how unity of vision and a commitment to scientific problem-solving can help to overcome all kinds of systemic challenges.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -191,8 +194,7 @@ pageBuilder:
 
 
       There are far more queer & trans coding icons than we have room for in this single blog post; if you’re eager to learn more, check out our [Trans Day of Visibility blog](https://www.thecodingspace.com/blog/2022-03-01-six-trans-programmers-who-shattered-the-lavender-ceiling/), in which we talk about game-changing trans computer programmers like Angelica Ross, Lynn Conway, Sophie Wilson, and more.
-tags:
-  - PrideMonth
+tags: []
 ---
 In decades past, technology was often presented in film as the stuff of nightmares — think of tech dystopias like Terminator or 2001: A Space Odyssey. But thankfully, technophobia in film is dwindling, and a new generation of filmmakers are creating STEM-centered stories that are full of optimism and possibility. And that’s great news for parents and educators who want to inspire a love of STEM!
 
