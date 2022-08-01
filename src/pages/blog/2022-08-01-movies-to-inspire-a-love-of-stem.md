@@ -140,8 +140,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/7-dr-mary-gray.png
-      alt: Mary Gray
+      image: /img/the-lego-movie.png
+      alt: The Lego Movie poster
     mediaPosition: right
     mdContent: >-
       # The Lego Movie
