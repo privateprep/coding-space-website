@@ -90,7 +90,7 @@ pageBuilder:
       *Rating: PG*
 
 
-      Set in the fictional tech hub of San Fransokyo, [Big Hero 6](https://www.youtube.com/watch?v=z3biFxZIJOQ) follows the lives of brainy teens who use their ingenious inventions to become self-made superheroes. The 14 year old protagonist Hiro is a tech geek who participates in robotics projects at school and puts his brain to work in positive, practical ways. And though Big Hero 6 focuses on a group of science geeks using chemistry and engineering to battle the forces of evil, it’s also about family, loss, and the power of kindness.
+      Set in the fictional tech hub of San Fransokyo, *[Big Hero 6](https://www.youtube.com/watch?v=z3biFxZIJOQ)* follows the lives of brainy teens who use their ingenious inventions to become self-made superheroes. The 14 year old protagonist Hiro is a tech geek who participates in robotics projects at school and puts his brain to work in positive, practical ways. And though Big Hero 6 focuses on a group of science geeks using chemistry and engineering to battle the forces of evil, it’s also about family, loss, and the power of kindness.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
