@@ -67,7 +67,10 @@ pageBuilder:
       # Apollo 13
 
 
-      Edith Windsor is well-known as the queer rights activist whose victory in the landmark Supreme Court case [United States v. Windsor](https://en.wikipedia.org/wiki/United_States_v._Windsor) helped overturn DOMA (Defense of Marriage Act), giving federal recognition to same-sex couples for the first time. Windsor filed the lawsuit after she was unable to claim a tax exemption left to her by her late spouse, as the term “spouse” referred only to heterosexual couples at the time. What’s less well known, however, are Wilson’s contributions as a computer scientist. Windsor worked at IBM for 16 years and achieved the highest technical position at the time, Senior Systems Programmer. Praised especially for her “top-notch debugging skills,” Windsor founded the consulting firm PC Classics after leaving IBM, where she made a point to provide tech educations for queer groups.
+      *Rating: PG*
+
+
+      Like Hidden Figures, part of [Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo)’s power to inspire lies in its [basis in real events](https://en.wikipedia.org/wiki/Apollo_13). Apollo 13, starring Tom Hanks, is a family movie focusing on the lives of the astronauts on board the landmark American expedition to the moon. When numerous technical problems threaten the astronauts’ survival and the success of the mission, the brave protagonists must devise ingenious DIY solutions to land safely back on Earth. This film emphasizes the role of visionary leadership, clear communication, superior teamwork, and unrelenting courage in STEM.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
