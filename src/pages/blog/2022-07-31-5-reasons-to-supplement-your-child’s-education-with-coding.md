@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-08-01T17:28:52.711Z
 description: Coding + school = a match made in Heaven
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img_6793.jpg
   alt: Accessibility name
