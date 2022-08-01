@@ -164,7 +164,7 @@ pageBuilder:
       alt: Tim Cook
     mediaPosition: left
     mdContent: >-
-      # Tim Cook
+      # Wall-E
 
 
       In 2014, Apple CEO Tim Cook became the first CEO of a Fortune 500 organization to come out as gay. The famously private Cook decided to do so after receiving letters from children struggling with their sexual orientation. He came out in a [Bloomberg essay](https://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up), saying, “If hearing that the CEO of Apple is gay can help someone struggling to come to terms with who he or she is…then it’s worth the trade-off with my privacy.”
