@@ -60,8 +60,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/3-edie-windsor.png
-      alt: Edie Windsor
+      image: /img/apollo-13.png
+      alt: Apollo 13 still
     mediaPosition: right
     mdContent: >-
       # Apollo 13
