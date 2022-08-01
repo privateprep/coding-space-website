@@ -44,7 +44,7 @@ pageBuilder:
       alt: Christopher Strachey
     mediaPosition: left
     mdContent: >-
-      # Christopher Strachey
+      # The Martian
 
 
       After an early career as a physicist and teacher, Christopher Strachey transitioned into computer programming, where he made a name for himself by blending computer science and art. When he was still a total novice, Strachey, over the course of a single evening, wrote one of the first computer music programs, which played “Baa Baa Black Sheep” on the [Ferranti Mark 1](https://en.wikipedia.org/wiki/Ferranti_Mark_1). In 1952, by which time he was an accomplished programmer, Strachey developed a love-letter generator that ran on the Manchester Mark 1 using a random number generating algorithm. These projects are widely regarded as the first examples of algorithmic or computational art. Strachey is also remembered as one of the developers of [Combined Programming Language](https://en.wikipedia.org/wiki/CPL_(programming_language)) (CPL), an early precursor to the influential C programming language.
