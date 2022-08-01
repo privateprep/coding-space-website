@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-07-01T17:51:25.697Z
 description: Summer reads to inspire a love of code
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/coding-books-for-kids.png
   alt: Coding Books
