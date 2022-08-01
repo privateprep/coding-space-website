@@ -21,7 +21,7 @@ pageBuilder:
     bgColor: "#faf6ee"
     image:
       image: /img/hidden-figures-poster.png
-      alt: Alan Turing
+      alt: Hidden Figures
     mediaPosition: right
     mdContent: >-
       # Hidden Figures
