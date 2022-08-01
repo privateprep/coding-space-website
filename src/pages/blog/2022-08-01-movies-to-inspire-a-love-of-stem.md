@@ -84,7 +84,7 @@ pageBuilder:
       alt: Jon Maddog Hall
     mediaPosition: left
     mdContent: >-
-      # Jon "Maddog" Hall
+      # Big Hero 6
 
 
       Jon “Maddog” Hall is the board chair for [The Linux Professional Institute](https://www.lpi.org/) and a vocal champion of free and open-source software. Prior to this, Hall was head of the computer science department at [Hartford State Technical College](https://www.capitalcc.edu/about/), where his temper earned him the nickname “Maddog.” On Alan Turing’s 100th birth anniversary, Hall wrote an [article](https://www.linux-magazine.com/content/view/full/55727) in Linux magazine, in which he came out as gay and called Turing his hero: “\[Turing] did so much for the industry with which I have spent the last 42 years of my life.”
