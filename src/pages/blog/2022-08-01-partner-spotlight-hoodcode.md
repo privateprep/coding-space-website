@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-08-02T01:15:42.783Z
 description: An interview with Jason Gibson, founder of HoodCode!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/tcs-partner-spotlight-hoodcode.png
   alt: HoodCode
