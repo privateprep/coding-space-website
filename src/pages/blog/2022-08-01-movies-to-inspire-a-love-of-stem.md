@@ -104,7 +104,7 @@ pageBuilder:
       alt: Mary Ann Horton
     mediaPosition: right
     mdContent: >-
-      # Mary Ann Horton
+      # Underwater Dreams
 
 
       Mary Ann Horton is a computer scientist and transgender activist. She is one of the principal founders and designers of [Usenet](<https://en.wikipedia.org/wiki/Usenet#:~:text=Usenet%20(%2F%CB%88ju%CB%90z,it%20was%20established%20in%201980.>), a precursor to the modern Internet that is still in use today. Horton also invented uuencode, which was the forerunner to email attachments. In addition to her contributions to technology, Horton has also made significant contributions to transgender rights in the workplace. In 1997, she asked her then employer [Lucent Technologies](https://en.wikipedia.org/wiki/Lucent) to include the language “gender identity, characteristics, or expression” in its Equal Opportunity (EO) policy, which led to Lucent becoming the first company in the United States to add transgender-inclusive language to its EO policy.
