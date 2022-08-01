@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-07-27T17:16:58.528Z
 description: Our summer excursion to a digital dreamscape!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img_0295.jpg
   alt: Kids at Samsung 837
