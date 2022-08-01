@@ -47,7 +47,10 @@ pageBuilder:
       # The Martian
 
 
-      After an early career as a physicist and teacher, Christopher Strachey transitioned into computer programming, where he made a name for himself by blending computer science and art. When he was still a total novice, Strachey, over the course of a single evening, wrote one of the first computer music programs, which played “Baa Baa Black Sheep” on the [Ferranti Mark 1](https://en.wikipedia.org/wiki/Ferranti_Mark_1). In 1952, by which time he was an accomplished programmer, Strachey developed a love-letter generator that ran on the Manchester Mark 1 using a random number generating algorithm. These projects are widely regarded as the first examples of algorithmic or computational art. Strachey is also remembered as one of the developers of [Combined Programming Language](https://en.wikipedia.org/wiki/CPL_(programming_language)) (CPL), an early precursor to the influential C programming language.
+      *Rating: PG-13*
+
+
+      Cool science: a contradiction in terms? Not according to thousands of moviegoers who have been mesmerized by [The Martian](https://www.youtube.com/watch?v=ej3ioOneTy8), in which an astronaut (played by Matt Damon) uses his science and math skills to survive being marooned on Mars. To generate water for growing crops, he burns hydrogen in the presence of oxygen. To power up the vehicle he needs to drive to the rescue site, he attaches leftover solar panels and battery packs to his rover. Math helps him determine the battery life he’ll need to reach the rescue site, and computer skills enable him to retool an old Mars lander to communicate with Earth. Your kids will love this space thriller, in which real STEM principles and science fiction collide.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
