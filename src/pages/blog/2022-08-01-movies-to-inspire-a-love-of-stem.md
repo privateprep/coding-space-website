@@ -50,7 +50,7 @@ pageBuilder:
       *Rating: PG-13*
 
 
-      Cool science: a contradiction in terms? Not according to thousands of moviegoers who have been mesmerized by [The Martian](https://www.youtube.com/watch?v=ej3ioOneTy8), in which an astronaut (played by Matt Damon) uses his science and math skills to survive being marooned on Mars. To generate water for growing crops, he burns hydrogen in the presence of oxygen. To power up the vehicle he needs to drive to the rescue site, he attaches leftover solar panels and battery packs to his rover. Math helps him determine the battery life he’ll need to reach the rescue site, and computer skills enable him to retool an old Mars lander to communicate with Earth. Your kids will love this space thriller, in which real STEM principles and science fiction collide.
+      Cool science: a contradiction in terms? Not according to thousands of moviegoers who have been mesmerized by *[The Martian](https://www.youtube.com/watch?v=ej3ioOneTy8)*, in which an astronaut (played by Matt Damon) uses his science and math skills to survive being marooned on Mars. To generate water for growing crops, he burns hydrogen in the presence of oxygen. To power up the vehicle he needs to drive to the rescue site, he attaches leftover solar panels and battery packs to his rover. Math helps him determine the battery life he’ll need to reach the rescue site, and computer skills enable him to retool an old Mars lander to communicate with Earth. Your kids will love this space thriller, in which real STEM principles and science fiction collide.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
