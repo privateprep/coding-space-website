@@ -147,7 +147,10 @@ pageBuilder:
       # The Lego Movie
 
 
-      The author of two books and co-editor of another, queer-identifying [Mary Gray](http://marylgray.org/?page_id=6) is currently a Senior Researcher at Microsoft Research, a Fellow at Harvard University’s Berkman Klein Center for Internet and Society, and a faculty member at Indiana University. Gray, an anthropologist and media scholar, focuses on how people’s everyday uses of technologies transform labor, identity, and human rights. In 2020, Gray was named a [MacArthur Fellow](https://youtu.be/RsgtRVI_yhM) for her contributions to the study of technology, digital economies, and society. Her recent research has focused on “ghost work” (i.e., [contract labor such as crowdsourcing](http://www.inthecrowd.org/) and the impact of automation on on-demand economies). Dr. Gray chairs the [Microsoft Research Ethics Review Program](https://www.microsoft.com/en-us/research/microsoft-research-ethics-review-program-irb/) and is recognized as a leading expert in the emerging field of AI and ethics.
+      *Rating: PG*
+
+
+      You may not think of Legos as particularly scientific, but [The Lego Movie](https://www.youtube.com/watch?v=fZ_JOBCLF-I) speaks directly to the builder in every one of us. It’s an action-comedy featuring the voices of celebrated actors like Chris Pratt, Elizabeth Banks, and Will Farrell that showcases how creative engineering solutions and teamwork can solve even the most hilariously complex problems.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
