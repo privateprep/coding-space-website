@@ -120,8 +120,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/6-audrey-tang.png
-      alt: Audrey Tang
+      image: /img/jingle-jangle.png
+      alt: Still from Jingle Jangle
     mediaPosition: left
     mdContent: >-
       # Jingle Jangle
