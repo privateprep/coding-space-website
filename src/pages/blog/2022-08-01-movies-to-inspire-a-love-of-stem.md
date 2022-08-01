@@ -40,8 +40,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/2-christopher-strachey.png
-      alt: Christopher Strachey
+      image: /img/themartian_trailer2.jpeg
+      alt: The Martian trailer
     mediaPosition: left
     mdContent: >-
       # The Martian
