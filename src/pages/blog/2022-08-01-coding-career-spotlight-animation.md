@@ -12,20 +12,20 @@ featuredImage:
 tags:
   - CodingCareerSpotlight
 ---
-Here at TCS, we love to spotlight the many enriching careers in a broad range of fields that can be built from a foundation in coding. One of the more surprising (and exciting!) coding careers involves the field of [Ethical Hacking](https://en.wikipedia.org/wiki/White_hat_(computer_security)). 
+Most people understand that a coding education can set you up for a successful career as a software engineer. But a foundation in code can actually prepare you for all kinds of fulfilling careers across a broad spectrum of fields! For example, visual artists and illustrators can use a degree in coding to propel themselves into the world of animation. 
 
+## WHAT DO ANIMATORS DO?
 
+Buzz Lightyear wasn’t born in a day. In fact, the charismatic space cadet from [Toy Story](http://disney.go.com/toystory/) was intricately designed on a computer screen by an army of animators. That adored astronaut is actually a series of still images manipulated to create the illusion of movement.
 
-## WHAT IS ETHICAL HACKING?
+Animators, also known as multimedia artists or motion graphics specialists, create special effects, animation or other visual images using computers or other electronic tools. And animation isn’t restricted to children’s cartoons. Animators play integral roles on projects spanning from action movies and video games to television commercials, websites, mobile applications, virtual tours of architecture, and recreating crime scenes for forensics.
 
-Ethical hacking is legally breaking into computers and devices to test the strength of an organization's defenses. It's among the most exciting IT jobs out there. You are literally getting paid to keep up with the latest technology and employ your creativity & coding strategy to break into computers. Ethical hackers aim to investigate the system for weak points that malicious hackers might be able to exploit. They collect and analyze the information to figure out ways to strengthen the security of the system/network/applications. By collecting this info, ethical hackers can figure out ways to strengthen a network’s security so that it can better withstand future attacks.
+## WHAT SKILLS DO ANIMATORS NEED?
 
-## WHY DO WE NEED ETHICAL HACKERS?
+In order to give digital life to their creative ideas, animators must access both the artistic right and analytical left side of their brains. Not only do they need to have visual creativity and inspiration, they also need the technical skills to make that inspiration visible using animation software.
 
-Companies engage ethical hackers to identify vulnerabilities in their systems, so that they can develop preventative solutions and stave off data breaches. From the ethical hacker’s point of view, there are no bad outcomes: if you manage to hack past the company’s current defenses, you’ve given them a chance to close the hole before a malicious hacker discovers it. If you can’t hack your way through, your happy client gets to declare their systems unhackable. 
+## HOW DOES CODING EXPERTISE HELP AN ANIMATOR?
 
-## HOW IS ETHICAL HACKING DIFFERENT?
-
-Ethical hackers are sometimes called “White Hat” hacking — they’re the good guys! In contrast, Black Hat hackers use illegal means to compromise security systems or leak stolen information. There is even a third group, called “Grey Hat” hackers. Grey Hats aren’t hired by a company, and they don’t ask for permission before hacking into a system, but they’re distinct from Black Hats in that they don’t hack for any personal or third-party benefit. In other words, these hackers may not be condoned by the system they’re hacking into, but they also don’t have any malicious intent – they’re usually just hacking for fun or to test their own abilities.
+Right now, almost all animations are made by computers using computer graphics. And most animation studios – especially big movie studios! – generally work on tight timelines, meaning they’re constantly looking for ways to make their process more efficient. Animators who can code can contribute to that in many ways. For example, when programs glitch, an artist with a knowledge of code has a much greater chance of fixing that problem on the spot instead of needing to call in a technical director.
 
 Keep an eye out in the coming weeks and months for more blogs in the Coding Career Spotlight series. You might be surprised to learn about all of the professional paths that open up with a coding education!
