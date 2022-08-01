@@ -100,8 +100,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/5-mary-ann-horton.png
-      alt: Mary Ann Horton
+      image: /img/underwater-dreams.jpeg
+      alt: Underwater Dreams robot
     mediaPosition: right
     mdContent: >-
       # Underwater Dreams
