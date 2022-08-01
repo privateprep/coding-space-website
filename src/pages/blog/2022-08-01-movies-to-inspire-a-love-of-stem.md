@@ -180,8 +180,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/9-irma-olguin-jr.png
-      alt: Irma Olguin, Jr
+      image: /img/interstellar.jpeg
+      alt: Interstellar still
     mediaPosition: right
     mdContent: >-
       # Interstellar
