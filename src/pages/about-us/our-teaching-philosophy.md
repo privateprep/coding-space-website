@@ -10,7 +10,7 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: "## Our classes are self-paced, allowing students to progress through
       our curriculum at their own speed."
@@ -42,7 +42,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     image:
       image: /img/untutorials.gif
       alt: Scrolling through Untutorial projects
@@ -51,7 +51,7 @@ pageBuilder:
       ### Un-tutorials
 
 
-      Unlike virtually all other coding curriculums, The Coding Space doesn’t use follow-along instructions. Instead, we employ Untutorials: fun and engaging games, websites, or apps that students are challenged to figure out how to build. 
+      Unlike virtually all other coding curricula, The Coding Space doesn’t use follow-along instructions. Instead, we employ Untutorials: fun and engaging games, websites, or apps that students are challenged to figure out how to build. 
 
 
       Untutorials list the high-level tasks students need to complete the project, but intentionally leave out how to accomplish those tasks. Students develop strong grit, determination, and problem-solving skills by figuring out the rest via tinkering, Googling, asking a friend, and iterating towards a solution, all while developing deep insights and intuition of high-level concepts.
@@ -61,7 +61,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/20190711-img_9252-1-.jpg
       alt: Instructor reviewing coding example on a white board in front of a kid.
@@ -74,21 +74,16 @@ pageBuilder:
 
 
       Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space teachers draw ideas from students through asking questions and modeling strategies on how they can find answers for themselves.
-  - type: buttons
-    bgColor: "#9de2dd"
-    fgColor: "#264548"
-    textColor: "#faf6ee"
-    list: []
   - type: textAndImageBlock
     buttons:
-      bgColor: "#9de2dd"
+      bgColor: "#faf6ee"
       fgColor: "#264548"
       textColor: "#faf6ee"
       list:
         - title: Learn More About Our Curriculum
-          content: /about-us/our-teaching-philosophy
+          content: /about-us/curriculum-faqs
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
       image: /img/screenshot-2022-07-31-194731.png
       alt: WoofJS, JavaScript Learning by The Coding Space
