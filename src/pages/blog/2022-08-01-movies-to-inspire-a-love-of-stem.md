@@ -80,8 +80,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/4-maddog-hall.png
-      alt: Jon Maddog Hall
+      image: /img/big-her-6.jpg
+      alt: Big Hero 6 poster
     mediaPosition: left
     mdContent: >-
       # Big Hero 6
