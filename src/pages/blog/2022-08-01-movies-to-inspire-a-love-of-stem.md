@@ -130,7 +130,7 @@ pageBuilder:
       *Rating: PG*
 
 
-      A 2020 Christmas musical fantasy film, [Jingle Jangle](https://www.youtube.com/watch?v=aYPUYVgwLWY), which stars acting and comedy powerhouses like Forest Whitaker, Keegan Michael Key, and Phylicia Rashad, focuses on genius inventor Jeronicus Jangle and his passionate, whip-smart granddaughter Journey, who is also a budding inventor. This film brings STEM to the forefront through imaginative mathematical dream sequences, richly composed numbers about the self-affirming power of invention, and an adorable robot called the Buddy 3000.
+      A 2020 Christmas musical fantasy film, *[Jingle Jangle](https://www.youtube.com/watch?v=aYPUYVgwLWY)*, which stars acting and comedy powerhouses like Forest Whitaker, Keegan Michael Key, and Phylicia Rashad, focuses on genius inventor Jeronicus Jangle and his passionate, whip-smart granddaughter Journey, who is also a budding inventor. This film brings STEM to the forefront through imaginative mathematical dream sequences, richly composed numbers about the self-affirming power of invention, and an adorable robot called the Buddy 3000.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
