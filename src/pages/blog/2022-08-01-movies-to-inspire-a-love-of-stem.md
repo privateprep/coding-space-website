@@ -70,7 +70,7 @@ pageBuilder:
       *Rating: PG*
 
 
-      Like Hidden Figures, part of [Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo)’s power to inspire lies in its [basis in real events](https://en.wikipedia.org/wiki/Apollo_13). Apollo 13, starring Tom Hanks, is a family movie focusing on the lives of the astronauts on board the landmark American expedition to the moon. When numerous technical problems threaten the astronauts’ survival and the success of the mission, the brave protagonists must devise ingenious DIY solutions to land safely back on Earth. This film emphasizes the role of visionary leadership, clear communication, superior teamwork, and unrelenting courage in STEM.
+      Like Hidden Figures, part of *[Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo)*’s power to inspire lies in its [basis in real events](https://en.wikipedia.org/wiki/Apollo_13). *Apollo 13*, starring Tom Hanks, is a family movie focusing on the lives of the astronauts on board the landmark American expedition to the moon. When numerous technical problems threaten the astronauts’ survival and the success of the mission, the brave protagonists must devise ingenious DIY solutions to land safely back on Earth. This film emphasizes the role of visionary leadership, clear communication, superior teamwork, and unrelenting courage in STEM.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
