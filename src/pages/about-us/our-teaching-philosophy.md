@@ -87,7 +87,7 @@ pageBuilder:
     image:
       image: /img/screenshot-2022-07-31-194731.png
       alt: WoofJS, JavaScript Learning by The Coding Space
-    mediaPosition: right
+    mediaPosition: left
     mdContent: >-
       ## Custom Curriculum and Resources
 
