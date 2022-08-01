@@ -160,8 +160,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/8-tim-cook.png
-      alt: Tim Cook
+      image: /img/wall-e.png
+      alt: Wall-E poster
     mediaPosition: left
     mdContent: >-
       # Wall-E
