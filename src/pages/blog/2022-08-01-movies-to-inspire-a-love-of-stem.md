@@ -194,4 +194,6 @@ pageBuilder:
 tags:
   - PrideMonth
 ---
-Happy Pride Month! We’re stopping in this month to tell you all about the queer history of computing. You probably know a few of the famous LGBTQIA2+ tech pioneers — like Alan Turing and Tim Cook — but we bet you haven’t heard about all 10 of the individuals below whose life work played an integral role in the development of modern computer technology. Many of these individuals lived and worked in an era when social pressures (or even laws) required them to hide their true identities—which makes it all the more fitting that we celebrate them today.
+In decades past, technology was often presented in film as the stuff of nightmares — think of tech dystopias like Terminator or 2001: A Space Odyssey. But thankfully, technophobia in film is dwindling, and a new generation of filmmakers are creating STEM-centered stories that are full of optimism and possibility. And that’s great news for parents and educators who want to inspire a love of STEM!
+
+If you’re hoping to use the magic of movies to spark an interest in STEM in your kids, look no further: we’ve assembled a list of kid-friendly films that will nurture your child’s curiosity and show them the power of problem-solving.
