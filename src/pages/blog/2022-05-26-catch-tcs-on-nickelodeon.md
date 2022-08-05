@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-05-26T18:49:04.024Z
 description: Live from New York, it's The Coding Space!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/nick-news.png
   alt: Filming at TCS
