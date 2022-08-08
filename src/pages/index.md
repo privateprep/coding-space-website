@@ -22,10 +22,6 @@ hero:
     list:
       - title: Find a Class
         content: /classes
-      - title: Summer Programs
-        content: /programs/summer/
-      - title: Fall Classes
-        content: /programs/fall
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
