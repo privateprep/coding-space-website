@@ -11,7 +11,7 @@ pageBuilder:
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
-    textColor: "#ffffff"
+    textColor: "#264548"
     mdContent: >-
       ## **What’s Happening at The Coding Space**
 
