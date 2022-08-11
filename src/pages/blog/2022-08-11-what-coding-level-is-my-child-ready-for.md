@@ -2,12 +2,12 @@
 templateKey: blog-post
 title: What Coding Level Is My Child Ready For?
 titleColor: "#264548"
-bgColor: "#9de2dd"
-date: 2022-08-11T19:38:40.357Z
-description: How reading books can make you a better coder
-featuredPost: true
+bgColor: "#eec11a"
+date: 2022-09-01T19:38:40.357Z
+description: There's no wrong way to get started
+featuredPost: false
 featuredImage:
-  image: /img/benefits-of-reading-for-coders.png
+  image: /img/GirlCode-around-a-table.jpg
   alt: Accessibility name
 pageBuilder:
   - type: textOnly
@@ -49,4 +49,4 @@ pageBuilder:
       Books for
       Kids](https://www.thecodingspace.com/blog/2022-06-02-coding-books-for-kids/).
 ---
-The myriad benefits of reading have been trumpeted far and wide, and rightly so! Reading transports us to new worlds, introduces us to new people, and offers us new insights about ourselves and the world. But here at The Coding Space, we’re getting even more specific. Here are three science-backed reasons why coders should spend some quality time with their noses in books.
+At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level at our blog below.
