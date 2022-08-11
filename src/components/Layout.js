@@ -50,8 +50,8 @@ const TemplateWrapper = ({ children }) => {
           path: "/programs/build-your-own-programs-at-the-coding-space",
         },
         {
-          title: "Special Events",
-          path: "/programs/special-events",
+          title: "Calendar",
+          path: "/programs/calendar",
         },
         {
           title: "Code 4 Change",
