@@ -15,10 +15,13 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Reading enhances empathy
+      ## Young Beginner Code
 
 
-      According to Dutch scientist duo [Matthijs Bal and Martjin Veltkamp](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0055341), reading teaches you how to see the world from someone else's perspective and encourages you to care for a character’s problems. Empathy like this can be extremely useful for coders! Instinctively, coders that deeply understand a client’s needs and want to create something valuable to solve their problems are more motivated and focused.
+      Young Beginner Code is built specifically for ages 6-8. If your young coder has no coding experience, we’ll likely start them out in code.org, a platform that introduces them to key concepts such as sequence, events, and loops; or ScratchJr, a precursor to Scratch, MIT’s introductory language designed for children. If your child has experience in Scratch already, we’ll likely start them there. Young Beginner classes are 90 minutes and include an offline activity to allow students to take a step back from the screen and reinforce concepts in a different way.
+
+
+      Browse our Young Beginner classes [here](https://www.thecodingspace.com/experience-levels/young-beginner-code/).
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -49,4 +52,4 @@ pageBuilder:
       Books for
       Kids](https://www.thecodingspace.com/blog/2022-06-02-coding-books-for-kids/).
 ---
-At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level at our blog below.
+At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level below.
