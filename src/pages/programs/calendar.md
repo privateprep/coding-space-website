@@ -10,10 +10,10 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#264548"
-    textColor: "#ffffff"
+    bgColor: "#ffffff"
+    textColor: "#264548"
     mdContent: >-
-      ## **What’s New at The Coding Space**
+      ## **What’s Happening at The Coding Space**
 
 
       In addition to our seasonal programs, The Coding Space offers a wide variety of fun mini camps, one-time events, and unique learning opportunities, often coinciding with school and federal holidays like Presidents’ Day, Veterans’ Day, and more. Check out our planned events and calendar to see what’s coming up and how your child can get involved.
