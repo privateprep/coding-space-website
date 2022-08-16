@@ -82,7 +82,7 @@ pageBuilder:
 
       Last 15 minutes: Reflection & badge ceremony
 
-      Pricing: $25/scout
+      Pricing: $40 per scout in person / $25 per scout online
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
