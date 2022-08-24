@@ -9,8 +9,8 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-09-12T14:22:05.966Z
-  mdContent: Join us for an open house at our UES or Park Slope location! [Click
-    here to
+  mdContent: Join us for a Fall Open House at our Upper East Side or Park Slope
+    location! [Click here to
     RSVP](https://docs.google.com/forms/d/e/1FAIpQLScmjta8LQ4eYJzH50hnva6c5GheZE-vedK2gLufe7qMAx_DQg/viewform).
 hero:
   heading: The Coding Space
