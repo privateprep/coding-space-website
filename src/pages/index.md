@@ -9,9 +9,9 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-09-12T14:22:05.966Z
-  mdContent: Fall classes start September 12th and slots are going fast! [Click
-    here to save your
-    spot.](https://www.thecodingspace.com/classes/?semesters[]=Fall%20Classes%202022)
+  mdContent: Join us for an open house at our UES or Park Slope location! [Click
+    here to
+    RSVP](https://docs.google.com/forms/d/e/1FAIpQLScmjta8LQ4eYJzH50hnva6c5GheZE-vedK2gLufe7qMAx_DQg/viewform).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
