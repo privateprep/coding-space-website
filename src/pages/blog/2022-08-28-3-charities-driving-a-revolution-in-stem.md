@@ -14,7 +14,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![](/img/ablegamers.jpg)"
+    mdContent: '![Group of kids building a robot](/img/revolution-robotics.png
+      "Revolution Robotics")'
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -24,6 +25,11 @@ pageBuilder:
 
 
       [Revolution Robotics](https://revolutionrobotics.org/) is a non-profit focused on making kids robotics programs affordable, accessible, fair, and fun. They create robotics kits and challenges that develop critical 21st century work skills, while inspiring kids around the world to pursue degrees and careers in STEM. This nonprofit envisions a future in which high school robotics competitions are as popular as Friday night football!
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: '![Two girls sorting plants](/img/ngcp.jpg "NGCP")'
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
