@@ -9,24 +9,22 @@ description: |
 featuredPost: false
 featuredImage:
   image: /img/tcs-career-spotlight-tech-writer.png
-  alt: Animation
+  alt: Technical Writer
 tags:
   - CodingCareerSpotlight
 ---
-Most people understand that a coding education can set you up for a successful career as a software engineer. But a foundation in code can actually prepare you for all kinds of fulfilling careers across a broad spectrum of fields! For example, visual artists and illustrators can use a degree in coding to propel themselves into the world of animation. 
+At The Coding Space, we champion a coding education not just for the computational literacy it offers but for the broad range of complementary skills it fosters – and chief among these critical skills is writing & communication. Writers who understand programming are a perfect fit for the field of technical writing!
 
-## WHAT DO ANIMATORS DO?
+## WHAT IS A TECHNICAL WRITER?
 
-Buzz Lightyear wasn’t born in a day. In fact, the charismatic space cadet from [Toy Story](http://disney.go.com/toystory/) was intricately designed on a computer screen by an army of animators. That adored astronaut is actually a series of still images manipulated to create the illusion of movement.
+A technical writer is a professional writer who can communicate complex information in a clear, concise, readable way for a broad audience. Not all inventors or engineers or doctors are good communicators – so after they’ve developed their product, they need someone else to explain that product’s benefits to the general public, translating technical jargon into accessible language. Technical writers are hired to work on all manner of technical documentation, from instruction manuals to tutorials to press releases to web pages to reference guides.
 
-Animators, also known as multimedia artists or motion graphics specialists, create special effects, animation or other visual images using computers or other electronic tools. And animation isn’t restricted to children’s cartoons. Animators play integral roles on projects spanning from action movies and video games to television commercials, websites, mobile applications, virtual tours of architecture, and recreating crime scenes for forensics.
+## WHAT SKILLS DO TECHNICAL WRITERS NEED?
 
-## WHAT SKILLS DO ANIMATORS NEED?
+Technical writers need excellent communication and writing skills, obviously, but they also need a certain level of expertise in technical fields, like engineering or computer science, in order to be able to translate from jargon to plain speech. Finally, technical writers should be great researchers and lifelong learners – skills that will allow them to fill in any content gaps in their knowledge of a specific subject.
 
-In order to give digital life to their creative ideas, animators must access both the artistic right and analytical left side of their brains. Not only do they need to have visual creativity and inspiration, they also need the technical skills to make that inspiration visible using animation software.
+## HOW DOES CODING EXPERTISE HELP TECHNICAL WRITERS?
 
-## HOW DOES CODING EXPERTISE HELP AN ANIMATOR?
-
-Right now, almost all animations are made by computers using computer graphics. And most animation studios – especially big movie studios! – generally work on tight timelines, meaning they’re constantly looking for ways to make their process more efficient. Animators who can code can contribute to that in many ways. For example, when programs glitch, an artist with a knowledge of code has a much greater chance of fixing that problem on the spot instead of needing to call in a technical director.
+Not every technical writing job requires an understanding of code, but a growing number of them do! Software engineers and cryptocurrency experts frequently need help writing user interface text, software release notes, and more. For technical writers to stay competitive in an increasingly code-able world, they should have basic familiarity with the primary coding languages.
 
 Keep an eye out in the coming weeks and months for more blogs in the Coding Career Spotlight series. You might be surprised to learn about all of the professional paths that open up with a coding education!
