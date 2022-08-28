@@ -58,6 +58,25 @@ pageBuilder:
 
 
       Another racing game for the typing speed demons! In [Owl Planes Typing](https://www.abcya.com/games/owl_planes_typing), kids will dive into a multiplayer racing game in which typing speed and accuracy determine how fast your little owl flies.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Epistory Typing Chronicles
+
+
+      Ages: 12-14
+
+
+      This one is perfect for kids & teens who love adventure stories. [Epistory Typing Chronicles](http://www.epistorygame.com/) takes place in a world “where everything is to be written”, and players serve as a muse for a writer who needs inspiration. Kids will solve puzzles, unlock magic powers, and battle enemies, all while building their typing skills.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: Want to improve your child’s typing skill in a more systematic way?
+      Sign them up for one of our top-tier, individualized [coding
+      classes](https://www.thecodingspace.com/programs/seasonal-programs).
 tags: []
 ---
 Computers, laptops, and tablets are being introduced in schools at a younger and younger age – and with that change, it’s becoming more and more important that young kids learn how to type! Fortunately, typing is not just some boring utilitarian skill: learning to type can help younger kids learn the alphabet, can help older kids tackle their schoolwork with more confidence, and improves communication skills all around.
