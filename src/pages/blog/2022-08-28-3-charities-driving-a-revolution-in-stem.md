@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 3 Charities Driving a Revolution in STEM
 titleColor: "#264548"
-bgColor: "#264548"
+bgColor: "#9de2dd"
 date: 2022-08-28T16:18:04.257Z
 description: Celebrating International Day of Charity
 featuredPost: false
@@ -11,14 +11,19 @@ featuredImage:
   alt: Boy in wheelchair gaming
 pageBuilder:
   - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "![](/img/ablegamers.jpg)"
+  - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Motherboard
+      ## Revolution Robotics
 
 
-      Think of the [motherboard](https://en.wikipedia.org/wiki/Motherboard) like the computer’s base camp. It’s a thin plate that directly or indirectly **connects every single part of the computer** – the CPU, memory, hard drive, USB ports, etc.
+      [Revolution Robotics](https://revolutionrobotics.org/) is a non-profit focused on making kids robotics programs affordable, accessible, fair, and fun. They create robotics kits and challenges that develop critical 21st century work skills, while inspiring kids around the world to pursue degrees and careers in STEM. This nonprofit envisions a future in which high school robotics competitions are as popular as Friday night football!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
