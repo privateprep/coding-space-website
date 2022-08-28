@@ -25,17 +25,19 @@ pageBuilder:
 
       Ever wondered how color first appeared on television screens? Well, the answer involves the "[Chromoscopic Adapter](https://artsandculture.google.com/story/the-original-patent-for-color-television-explained/uQJyulIPRfmyJw)" for television devices, created by the Mexican engineer [Guillermo González Camarena](https://en.wikipedia.org/wiki/Guillermo_Gonz%C3%A1lez_Camarena) in 1940. This simple, ingenious adaptor allowed for the transmission and reception of color images, and it was compatible with any of the black and white television sets of the time. In 1963, Camarena saw his invention succeed with the first color television broadcast. And in 1979, NASA [used the mechanism](https://twitter.com/uspto/status/1040691737449168898?s=20) to transmit images from [Jupiter](https://voyager.jpl.nasa.gov/mission/science/jupiter/)!
   - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Claudio Castillon Levano](/img/hhm-2022-3.png)"
+  - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Frankenworms
+      ## The neonatal artificial bubble
 
 
-      *Ages: 4-8*
-
-
-      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
+      Peruvian engineer [Claudio Castillón Lévano](https://www.cityoflawrence.org/news/2021/09/28/did-you-know-claudio-castill%C3%B3n-l%C3%A9vano) created a portable respirator and incubator for premature babies, a technological development that has made it much easier for premature babies to survive. Lévano’s design, called the [Incuven](https://medium.com/innovate4health/innovate4health-peruvian-bubble-gives-high-risk-newborns-a-fighting-chance-801e8a16022e), was a major improvement on the incubators that had been in use since the 1880s; they had the capacity to regulate temperature and vastly reduced the risk of contamination. Incuven’s patent was published by the United States in 2004, after more than 20 years of research and work by Lévano and his associates.
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
