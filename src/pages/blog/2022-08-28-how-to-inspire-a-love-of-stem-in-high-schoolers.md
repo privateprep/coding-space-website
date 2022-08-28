@@ -33,13 +33,10 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Intermediate Code
+      ## 3. Explore STEM clubs & camps
 
 
-      Also open to ages 8-14, Intermediate Code is designed for students who are coding complex projects in Scratch and soon ready to move on to [WoofJS](https://woofjs.com), our JavaScript learning platform. WoofJS was built by The Coding Space to help students transition from block-based programming to text-based languages, where they’ll learn syntax, functions, and how to read documentation. When students are ready for our Advanced class, they’ll have coded a project of a similar complexity to [Flappy Bird Game](https://woofjs.com/create.html#flappy-bird-example-1). 
-
-
-      Browse our Intermediate classes [here](https://www.thecodingspace.com/experience-levels/intermediate-code/).
+      Nothing sparks a love of STEM like a great STEM community! Pitch activities like robotics club or coding classes to your teenager to encourage them to explore concepts like logic, math, and engineering in a relaxed and collaborative environment with their peers.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
