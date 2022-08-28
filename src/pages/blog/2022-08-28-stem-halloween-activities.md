@@ -27,37 +27,49 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## 2. Learn on the job
+      ## Dancing Frankenworms
 
 
-      STEM internships can give high schoolers a chance to learn the ins & outs of a STEM career first-hand. Check out some local tech companies & STEM start-ups to see if they have high school internship programs. Who knows? Maybe your teenager will write an amazing college essay about how they discovered their love of coding during their summer at Verizon!
+      *Ages: 4-8*
+
+
+      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## 3. Explore STEM clubs & camps
+      ## Pumpkin Volcano
 
 
-      Nothing sparks a love of STEM like a great STEM community! Pitch activities like robotics club or coding classes to your teenager to encourage them to explore concepts like logic, math, and engineering in a relaxed and collaborative environment with their peers.
+      *Ages: 5-11*
+
+
+      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## 4. Enroll in a STEM competition
+      ## Bone Bridge
 
 
-      Have a high schooler at home who loves to win? Try signing them up for a STEM competition! From local science fairs to state-level math competitions to national robotics contests, teens can put their minds to the test devising creative solutions to global problems while expanding their STEM horizons and meeting other students with a passion for STEM.
+      *Ages: 11-14*
+
+
+      An engineering challenge with a [scary twist](https://www.youtube.com/watch?v=GucNGwQTGfM)? You don’t say! Get your young maker thinking about bridge design this Halloween season.
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## 5. Introduce them to non-traditional STEM careers
+      ## Creepy Density Tower
 
 
-      Not every high schooler wants to be a lifelong lab rat – but your teenager shouldn’t let that dissuade them from exploring STEM studies! If your teen loves sports, show them an article about sports statisticians. If they love Fortnite, ask them if they know about video game developers. If they’re a visual artist, hand them an interview with a Pixar animator. The STEM field is broad, and it can accommodate a huge range of personalities and interests!
+      *Ages: 11-14*
+
+
+      Concoct a gooey tiered potion to tangibly demonstrate the properties of density in this creepy [liquid layers](https://www.science-sparks.com/creepy-density/) challenge!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
