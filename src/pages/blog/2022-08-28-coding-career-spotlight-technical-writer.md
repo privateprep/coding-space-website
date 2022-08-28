@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Coding Career Spotlight: Technical Writer"
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-09-01T15:08:40.325Z
+date: 2022-10-01T15:08:40.325Z
 description: |
   Bridging the gap between the public & the technical world
 featuredPost: false
