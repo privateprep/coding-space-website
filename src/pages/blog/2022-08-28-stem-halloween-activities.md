@@ -8,17 +8,20 @@ description: Celebrate Halloween with scary STEM fun!
 featuredPost: false
 featuredImage:
   image: /img/halloween-stem-activities.png
-  alt: Teenage boy with cardboard roller coaster
+  alt: Halloween STEM tile
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## 1. Find them a mentor
+      ## Scary Slime
 
 
-      A good mentor can push a teenager in ways that parents sometimes can’t, providing a much-needed source of positive leadership and guidance at a time when teenagers are staking out their independence. In addition to helping teenagers build confidence and discipline, a rockstar STEM mentor can also spark a high schooler’s curiosity about STEM fields, shatter stereotypes about who practices STEM, and demonstrate the diversity of STEM career options. Does your teen admire an upperclassman who’s planning on majoring in Bio in college? Do they love their Physics teacher? Do they have a cool cousin working at a programming start-up? Any of these figures could make for an awesome mentor.
+      *Ages: 4-8*
+
+
+      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -63,4 +66,4 @@ pageBuilder:
       and more by enrolling your child in one of our [coding
       classes](https://www.thecodingspace.com/programs/our-programs)!
 ---
-Children are natural scientists – full of curiosity and wonder about the world around them. But often in the teenage years, this natural interest can diminish as teenagers begin to think of science as boring, confusing or difficult. Don’t panic: we promise that your kid’s thirst for learning is intact. They probably just feel bored or unchallenged by their school STEM classes! Here are five ways to help rekindle a love of STEM in your teenager.
+Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
