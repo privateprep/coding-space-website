@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-08-02T01:10:40.169Z
 description: How reading books can make you a better coder
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/benefits-of-reading-for-coders.png
   alt: Accessibility name
