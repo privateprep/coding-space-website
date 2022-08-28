@@ -83,4 +83,4 @@ pageBuilder:
 
       [Contact us](https://www.thecodingspace.com/contact-us) for private lessons.
 ---
-At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level below.
+Children are natural scientists – full of curiosity and wonder about the world around them. But often in the teenage years, this natural interest can diminish as teenagers begin to think of science as boring, confusing or difficult. Don’t panic: we promise that your kid’s thirst for learning is intact. They probably just feel bored or unchallenged by their school STEM classes! Here are five ways to help rekindle a love of STEM in your teenager.
