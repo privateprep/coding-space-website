@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 3 Charities Driving a Revolution in STEM
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-08-28T16:18:04.257Z
+date: 2022-09-01T16:18:04.257Z
 description: Celebrating International Day of Charity
 featuredPost: false
 featuredImage:
