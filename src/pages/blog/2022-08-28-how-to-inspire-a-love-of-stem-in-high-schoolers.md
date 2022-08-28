@@ -3,7 +3,7 @@ templateKey: blog-post
 title: How to Inspire a Love of STEM in High Schoolers
 titleColor: "#264548"
 bgColor: "#eec11a"
-date: 2022-09-01T14:48:38.027Z
+date: 2022-10-01T14:48:38.027Z
 description: Unlock your teenager's potential
 featuredPost: false
 featuredImage:
