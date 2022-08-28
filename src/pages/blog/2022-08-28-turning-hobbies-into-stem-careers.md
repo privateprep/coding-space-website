@@ -41,26 +41,8 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## 4. Coding is a safe place to fail
-
-
-      Students of all ages are under enormous pressure at school, and with that pressure can come a paralyzing fear of failure that limits their academic abilities and makes them tentative in the classroom. A regular coding class, though, offers students a fun, motivating, and creative opportunity to learn how to move through the inevitable setbacks of programming.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## 5. Coding bolsters communication skills
-
-
-      Because computers can only understand direct, simple instructions, tinkering with code naturally develops a child’s ability to express themselves clearly & concisely. This is a great skill for kids to build as they take on the increasing academic and organizational demands of middle & high school.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: With the school year right around the corner, our fall coding classes
-      are filling up quickly. Secure your child’s spot
-      [today](https://www.thecodingspace.com/programs/fall/)!
+    mdContent: Ready to take the first step towards turning your child’s favorite
+      hobby into an exciting STEM career? Sign up for one of our [coding
+      classes](https://www.thecodingspace.com/classes) today.
 ---
 Here’s some good news to boost your week: in a tech-driven era, interests and hobbies that seem like play can actually lead to stellar tech career prospects. Your kid’s favorite YouTube channel, TikTok trend, or video game could spark their interest in a lucrative career in e-commerce, streaming, gaming, e-sports, and a plethora of other exciting fields. Below, we’ve collected just a few of the interests and hobbies that can launch a STEM career.
