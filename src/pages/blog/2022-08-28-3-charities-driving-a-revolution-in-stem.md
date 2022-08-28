@@ -40,6 +40,11 @@ pageBuilder:
 
       The National Girls Collaborative Project ([NGCP](https://ngcproject.org/)) is a network that brings together organizations committed to encouraging girls to pursue careers in STEM. Recognizing that STEM fields often lack diversity of experiences, the founders of NGCP are committed to empowering educators, leaders, and youth to create a community of “lifelong STEM activators”.
   - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: '![Boy in wheelchair gaming](/img/ablegamers.jpg "AbleGamers")'
+  - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
