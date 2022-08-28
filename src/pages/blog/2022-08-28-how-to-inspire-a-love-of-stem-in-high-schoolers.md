@@ -59,13 +59,8 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Private Lessons
-
-
-      In addition to group classes at our locations, we offer private lessons in your home or online that fit into your busy schedule. You’ll receive a lesson summary after every class, and we’ll find a teacher that suits your child best.
-
-
-      [Contact us](https://www.thecodingspace.com/contact-us) for private lessons.
+    mdContent: Need help putting these ideas into action? Tackle all of these steps
+      and more by enrolling your child in one of our [coding
+      classes](https://www.thecodingspace.com/programs/our-programs)!
 ---
 Children are natural scientists – full of curiosity and wonder about the world around them. But often in the teenage years, this natural interest can diminish as teenagers begin to think of science as boring, confusing or difficult. Don’t panic: we promise that your kid’s thirst for learning is intact. They probably just feel bored or unchallenged by their school STEM classes! Here are five ways to help rekindle a love of STEM in your teenager.
