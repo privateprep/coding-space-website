@@ -15,22 +15,19 @@ pageBuilder:
     bgColor: "#f6c924"
     textColor: "#264548"
     mdContent: >-
-      ## 1. Coding shows your child that they can be a creator, not just a
-      consumer
+      ## Social Media
 
 
-      In school, lots of kids struggle to stay engaged in part because they are positioned as passive consumers of knowledge. This mindset can lead studies to develop to apathy or even resentment towards their studies. But through regular coding practice where they create instead of simply consume knowledge, kids will understand that they don’t have to approach learning in this passive way – they can be energetic equal partners in their own learning.
+      Look: social media deserves a lot of the criticism it gets. But the prevailing benefit of those platforms is that they connect people around the world. And a [2015 study](https://money.usnews.com/money/careers/slideshows/10-ways-social-media-can-help-you-land-a-job) revealed that 52% of employers use social networking sites to research job candidates. Social media is here to stay for the foreseeable future, and it doesn’t have to just be a distraction. From designing face filters as an AR designer, to developing the software of social platforms, to building social apps from scratch as a mobile app developer – if your child or teen loves social media, there are plenty of tech careers that can grow out of that interest.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## 2. Coding supports math principles & computational thinking
+      ## Sports & Gaming
 
 
-      \
-
-      Students who struggle in math might actually have the potential to be razor-sharp computational thinkers – they just might need a slightly different approach. In a regular math classroom, surrounded by peers who may perceive their math abilities as static, these students might continue to feel “stuck”. But an after-school coding class presents the perfect opportunity for students who have internalized that they’re “bad at math” to rebuild their computational confidence and practice logical thinking skills.
+      If you’ve got a sports nut at home, you’re in luck, because the esports industry is a burgeoning business powered by a variety of tech career paths. Aside from the professional gamers themselves, this billion dollar industry needs data analysts, software engineers, game testers, animators, and more.
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
@@ -66,4 +63,4 @@ pageBuilder:
       are filling up quickly. Secure your child’s spot
       [today](https://www.thecodingspace.com/programs/fall/)!
 ---
-With the fall semester looming, you might be tempted to shelve supplemental activities so that your child (and you!) can focus on school. And while it’s absolutely true that over-scheduled kids are rarely happy campers, we believe that an after-school coding is the perfect supplement to your child’s education – supporting and enriching their academic lives, rather than overwhelming them. Keep reading for 5 ways that coding will help your child stay focused, motivated, energetic, and confident this school year.
+Here’s some good news to boost your week: in a tech-driven era, interests and hobbies that seem like play can actually lead to stellar tech career prospects. Your kid’s favorite YouTube channel, TikTok trend, or video game could spark their interest in a lucrative career in e-commerce, streaming, gaming, e-sports, and a plethora of other exciting fields. Below, we’ve collected just a few of the interests and hobbies that can launch a STEM career.
