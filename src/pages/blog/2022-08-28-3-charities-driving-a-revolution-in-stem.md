@@ -35,10 +35,10 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## CPU
+      ## National Girls Collaborative Project
 
 
-      The [CPU](https://www.arm.com/glossary/cpu) (or central processing unit, or even just “processor”) is like **the brain of the computer**. It’s usually a two-inch ceramic square with a silicon chip the size of a thumbnail located inside, and its primary job is to carry out commands. Whenever you click a button or press a key, you’re sending an instruction to the CPU.
+      The National Girls Collaborative Project ([NGCP](https://ngcproject.org/)) is a network that brings together organizations committed to encouraging girls to pursue careers in STEM. Recognizing that STEM fields often lack diversity of experiences, the founders of NGCP are committed to empowering educators, leaders, and youth to create a community of “lifelong STEM activators”.
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
