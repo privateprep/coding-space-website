@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Turning Hobbies Into STEM Careers
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2022-09-01T15:11:36.363Z
+date: 2022-10-01T15:11:36.363Z
 description: Traditional and unexpected paths to STEM success
 featuredPost: false
 featuredImage:
