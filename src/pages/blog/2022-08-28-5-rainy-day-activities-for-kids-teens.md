@@ -15,86 +15,26 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Scary Slime
+      
 
+      1. **Learn to code.** You knew this would be our first suggestion! If your child loves to play video games after school, try redirecting some of that energy into learning coding. Sign up for one of our [after-school coding classes](https://www.thecodingspace.com/programs/fall/) and jump-start your child’s coding journey; along the way, they’ll develop intellectual confidence, a growth mindset, self-expression, and computational thinking skills.
 
-      *Ages: 4-8*
+      2. **Create a Makey Makey Game Controller.** The [Makey Makey](https://makeymakey.com/) is a circuit board that lets kids control their computers with conductive materials (like play-doh, graphite from a pencil, or even a banana!). It uses closed-loop electrical signals to send the computer a keyboard stroke signal, which then plays the designated sound from the instrument. The next time your child is bored after school, help them create a MakeyMakey Game Controller; they can play the piano, the drums, or even play DJ for the day with the audio sampler app.
 
+      3. **Make a lava lamp.** Did you know that you can make a [lava lamp](https://www.biogen.com/en_us/virtual-community-lab/diy-lava-lamp.html) with just a water bottle and a few ingredients from your kitchen? By combining water, oil, food coloring, and an alka-seltzer tablet, you’ll craft a mesmerizing at-home science project that will keep your child busy for hours — and maybe even inspire in them a love of STEM!
 
-      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
+      4. **Craft a Paper Robotic Hand.** This [simple engineering project](https://www.kaplanco.com/ii/diy-robot-hand) that uses only basic office supplies will help your child learn the basics of robotics. By building their own robotic hand, kids will learn to think about how the human body functions, robotic technology in the real world, and elements of design. It also combines STEM principles with artistic design!
+
+      5. **STEM-themed digital escape room.** Tackle digital puzzles and practice code-breaking with a STEM-themed virtual escape room like [this](https://escapewithstem.com/puzzles-1) one. Challenge your child to dive in solo, or make it into an activity for the whole family!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Dancing Frankenworms
-
-
-      *Ages: 4-8*
-
-
-      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## Pumpkin Volcano
-
-
-      *Ages: 5-11*
-
-
-      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## Bone Bridge
-
-
-      *Ages: 11-14*
-
-
-      An engineering challenge with a [scary twist](https://www.youtube.com/watch?v=GucNGwQTGfM)? You don’t say! Get your young maker thinking about bridge design this Halloween season.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## Creepy Density Tower
-
-
-      *Ages: 11-14*
-
-
-      Concoct a gooey tiered potion to tangibly demonstrate the properties of density in this creepy [liquid layers](https://www.science-sparks.com/creepy-density/) challenge!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## Pumpkin Bath Bombs
-
-
-      *Ages: 14-17*
-
-
-      Self care? More like self-SCARE. Mix up a [Halloween bath bomb](https://helloglow.co/halloween-bath-bombs/) with your teenager using turmeric, baking soda, and more.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## Ghost Rockets
-
-
-      *Ages: 14-17*
-
-
-      Use a spin on the old mentos-and-Diet-Coke trick to make [flying ghost rockets](https://www.growingajeweledrose.com/2013/09/ghost-rockets-halloween-activity.html)! You can even run several “trials” of this experiment, varying the ingredients to see how the flight patterns are affected.
-tags:
-  - Halloween
+    mdContent: "Love the sound of these activities, but don’t have the time or
+      energy to set them up yourself? Here’s a secret: we’ve included all of
+      these activities in our top-tier coding curriculum for kids! [Secure your
+      spot](https://www.thecodingspace.com/classes?semesters[]=Fall%20Classes%2\
+      02022) in our fall coding offerings today."
+tags: []
 ---
-Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
+When school’s out for the day, kids still have energy to burn! And that can be fine when your kid can tire themselves out running around outside, but what about when rain keeps everyone cooped up inside? At The Coding Space, we’d like to frame this challenge as an opportunity: an opportunity for some STEM-centered fun! With a few STEM-focused ideas in your back pocket, the hours between school and dinnertime can be a lot less frenetic. Whether your kid wants a higher-energy hands-on game or a more relaxing option, we’ve gathered ideas for indoor after-school activities below that are both fun and rewarding.
