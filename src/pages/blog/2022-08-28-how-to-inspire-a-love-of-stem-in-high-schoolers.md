@@ -42,25 +42,19 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Advanced Code
+      ## 4. Enroll in a STEM competition
 
 
-      In our Advanced class, students ages 8-14 code increasingly complex projects in WoofJS, and when they’re ready, start programming in a web-based environment. They’ll learn HTML & CSS and build their JavaScript skills to make projects that can run in any web browser. Maybe they’ll build a [to-do list](https://coding.space/v1/web/code/my-to-do-list-code.html) or [make a quiz](https://coding.space/v1/web/code/make-a-quiz-code.html)! As students get more familiar with JavaScript, they’ll switch into self-directed learning mode where they can try out other languages including Python to see what engages them most.
-
-
-      Browse our Advanced classes [here](<https://www.thecodingspace.com/experience-levels/advanced-code>).
+      Have a high schooler at home who loves to win? Try signing them up for a STEM competition! From local science fairs to state-level math competitions to national robotics contests, teens can put their minds to the test devising creative solutions to global problems while expanding their STEM horizons and meeting other students with a passion for STEM.
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Teen Code
+      ## 5. Introduce them to non-traditional STEM careers
 
 
-      Teen Code is for ages 14-18. It covers Beginner to Advanced material in a setting that is suited for a more mature age group. We’re putting the finishing touches on our course offerings and would love to hear what works best for your child’s busy schedule.
-
-
-      Join Our Teen Code [waitlist](<https://forms.gle/PwYHpk2JZ7PkMyxa9>).
+      Not every high schooler wants to be a lifelong lab rat – but your teenager shouldn’t let that dissuade them from exploring STEM studies! If your teen loves sports, show them an article about sports statisticians. If they love Fortnite, ask them if they know about video game developers. If they’re a visual artist, hand them an interview with a Pixar animator. The STEM field is broad, and it can accommodate a huge range of personalities and interests!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
