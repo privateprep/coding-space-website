@@ -12,49 +12,46 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Motherboard
+      ## Because it's NEW
 
 
-      Think of the [motherboard](https://en.wikipedia.org/wiki/Motherboard) like the computer’s base camp. It’s a thin plate that directly or indirectly **connects every single part of the computer** – the CPU, memory, hard drive, USB ports, etc.
+      There’s a grain of truth to this one – in a way, coding is new to pretty much everyone! For people who are adults now, coding wasn’t taught in schools when they were kids. And even for today’s kids, coding still isn’t part of most standard curriculums! Because of this, you might feel like coding is just too unfamiliar to learn – but don’t give up just yet. Even though you might have to seek out a special coding class or camp to learn, you’ll quickly find that the skill of coding builds on lots of skills that you already have: your skill with written language, your computational thinking skills, and your creativity!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## CPU
+      ## Because it TAKES TIME
 
 
-      The [CPU](https://www.arm.com/glossary/cpu) (or central processing unit, or even just “processor”) is like **the brain of the computer**. It’s usually a two-inch ceramic square with a silicon chip the size of a thumbnail located inside, and its primary job is to carry out commands. Whenever you click a button or press a key, you’re sending an instruction to the CPU.
+      This one is also partially true! Mastering the core skills of coding can only be achieved through a journey of obstacles, trial and error, and lots of mini-challenges on the way to expertise. But anything worth learning takes time! Whether you’re learning to play the guitar, learning water polo, or learning to speak Cantonese, picking up a new skill always takes time and persistence. And the time you spend learning coding will have amazing benefits!
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## RAM
+      ## Because it USES MATH
 
 
-      [RAM](https://www.techtarget.com/searchstorage/definition/RAM-random-access-memory) (or random access memory) is your computer’s **short-term memory**. Whenever your computer performs any type of calculation, it temporarily stores that data in RAM. RAM helps programs boot quickly, but it doesn’t last – anytime your computer powers down, it loses everything stored in RAM. That’s why you need to save your documents; anytime you hit that “save” button on a Word doc, you’re moving that information to long-term storage.
+      While many people assume that coding requires expertise in math, a lot of coding doesn’t involve math at all! Learning to code involves a lot of Googling, logic, and trial-and-error—but very little beyond simple math. More than anything, if you’re learning to code, you’re going to need to learn how to ask the right questions — something an avid reader can do just as well as an avid mathematician.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Long-term Storage
-
-
-      Every computer needs somewhere to store its data: your software, your documents, and all of your other files. That storage can take the form of a [hard drive or a solid state drive](https://www.avast.com/c-ssd-vs-hdd), and it’s long-term, meaning that **the data is safe even if you turn off the computer.** When you open a file, the computer copies some data from the hard drive onto the RAM, and when you save a file, the data is copied back to the hard drive.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: If your child loves taking things apart and putting them back
-      together, they might love tinkering with the parts of a computer.
-      [Register](https://www.thecodingspace.com/programs/fall/) for our fall
-      semester today and give your child the opportunity to learn about
-      hardware, software, engineering, and coding!
+    mdContent: When it comes to learning coding, the biggest favor you can do for
+      yourself is join a coding community by signing up for a coding class.
+      Check out our [fall coding
+      offerings](https://www.thecodingspace.com/programs/fall/), and start your
+      coding journey today!
 tags: []
 ---
-If you’re not that enamored by technical jargon (and let’s be honest: who is?), you probably refer to all of the discrete parts that comprise the glowing machine on your desk as simply “the computer”. Each magical, buzzing, clicking, whooshing tecno-innard gets grouped indiscriminately under that umbrella term. And for the most part, that’s totally great! But sometimes – when something in your computer isn’t working as it should, for example – it can help to get a little bit more specific about what’s going on under the hood. Below, we’ve broken down the basic components of a computer, including each one’s location and function.
+There are lots of reasons why people who are curious about coding shy away from learning code – but one of the most common reasons is the belief that coding is just too hard!
+
+\
+We’re here to tell you that this is a myth. Learning to code will take time, patience, and discipline, and it will challenge you in all sorts of unexpected ways — but so will any skill worth learning! No one is born understanding code, and people from all backgrounds have learned to code, from 6 year old kids to college math majors to Broadway actors to 65-year olds with no relevant experience!
+
+\
+Here are a few reasons why we think people shy away from learning coding.
