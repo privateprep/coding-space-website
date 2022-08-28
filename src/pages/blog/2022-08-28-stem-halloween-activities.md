@@ -74,8 +74,13 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: Need help putting these ideas into action? Tackle all of these steps
-      and more by enrolling your child in one of our [coding
-      classes](https://www.thecodingspace.com/programs/our-programs)!
+    mdContent: >-
+      ## Pumpkin Bath Bombs
+
+
+      *Ages: 14-17*
+
+
+      Self care? More like self-SCARE. Mix up a [Halloween bath bomb](https://helloglow.co/halloween-bath-bombs/) with your teenager using turmeric, baking soda, and more.
 ---
 Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
