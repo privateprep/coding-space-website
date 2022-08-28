@@ -43,13 +43,10 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Volcano
+      ## The laryngoscope
 
 
-      *Ages: 5-11*
-
-
-      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
+      If you’ve ever taken a voice lesson or had a bad cough that wouldn’t go away, you may have undergone a [laryngoscopy](https://www.webmd.com/oral-health/what-is-laryngoscopy) – and you have Spanish singer & voice teacher [Manuel García](https://www.entandaudiologynews.com/features/ent-features/post/manuel-patricio-rodriguez-garcia-1805-1906-the-inventor-of-the-laryngoscope-and-world-renowned-singing-teacher) to thank for inventing the tech that makes a laryngoscopy possible! In 1854, García’s invention used mirrors and external light to make it possible for doctors to view a functioning human voice box in action.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -98,7 +95,6 @@ pageBuilder:
 
 
       Use a spin on the old mentos-and-Diet-Coke trick to make [flying ghost rockets](https://www.growingajeweledrose.com/2013/09/ghost-rockets-halloween-activity.html)! You can even run several “trials” of this experiment, varying the ingredients to see how the flight patterns are affected.
-tags:
-  - Halloween
+tags: []
 ---
 From your home office to the NICU, the innovations of Hispanic inventors make your life healthier and more convenient every day! To celebrate the contributions of Hispanics to the global technological landscape, we’ve put together a few of our favorite inventions by Hispanics tech wizards.
