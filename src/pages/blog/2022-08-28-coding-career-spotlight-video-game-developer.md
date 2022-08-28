@@ -12,18 +12,18 @@ featuredImage:
 tags:
   - CodingCareerSpotlight
 ---
-At The Coding Space, we champion a coding education not just for the computational literacy it offers but for the broad range of complementary skills it fosters – and chief among these critical skills is writing & communication. Writers who understand programming are a perfect fit for the field of technical writing!
+Game development is one of the most sought-after fields for coders entering the professional market – which makes perfect sense! Who wouldn’t want to make a living testing video games and creating playable realities? If you love games AND coding, a career in video game development could be immensely rewarding for you.
 
-## WHAT IS A TECHNICAL WRITER?
+## WHAT IS A VIDEO GAME DEVELOPER?
 
-A technical writer is a professional writer who can communicate complex information in a clear, concise, readable way for a broad audience. Not all inventors or engineers or doctors are good communicators – so after they’ve developed their product, they need someone else to explain that product’s benefits to the general public, translating technical jargon into accessible language. Technical writers are hired to work on all manner of technical documentation, from instruction manuals to tutorials to press releases to web pages to reference guides.
+The type of work you do as a game developer will vary depending on the size of the company you work for and your specialization. At a bigger game company, you’ll probably have a more specialized role, but at an indie game company, you might see video games all the way from conception to completion! In addition to writing and testing the code for a video game, developers may create initial concepts, write storylines, invent characters, and devise the game’s artistic style.
 
-## WHAT SKILLS DO TECHNICAL WRITERS NEED?
+## WHAT SKILLS DO GAME DEVELOPERS NEED?
 
-Technical writers need excellent communication and writing skills, obviously, but they also need a certain level of expertise in technical fields, like engineering or computer science, in order to be able to translate from jargon to plain speech. Finally, technical writers should be great researchers and lifelong learners – skills that will allow them to fill in any content gaps in their knowledge of a specific subject.
+In order to both imagine entire playable worlds and translate those worlds into language that a computer can understand, game developers need a range of exciting skills: coding proficiency, physics knowledge (how fast should the player’s avatar drop when they jump off a castle wall?!), excellent communication and collaboration skills, and familiarity with gaming engines like Unity or Unreal.
 
-## HOW DOES CODING EXPERTISE HELP TECHNICAL WRITERS?
+## HOW DOES CODING EXPERTISE HELP GAME DEVELOPERS?
 
-Not every technical writing job requires an understanding of code, but a growing number of them do! Software engineers and cryptocurrency experts frequently need help writing user interface text, software release notes, and more. For technical writers to stay competitive in an increasingly code-able world, they should have basic familiarity with the primary coding languages.
+Coding is an absolutely critical skill for game developers to master if they want to get in the game and stay in the game! Programming languages like C, C++, and C# occupy the lion’s share of the gaming industry. Without a solid foundation in code, you could still pursue a career in game design – focusing on the initial work of creating storylines, drawing characters, and building video game worlds – but in order to be a game developer, you need to know how to talk to computers through code.
 
 Keep an eye out in the coming weeks and months for more blogs in the Coding Career Spotlight series. You might be surprised to learn about all of the professional paths that open up with a coding education!
