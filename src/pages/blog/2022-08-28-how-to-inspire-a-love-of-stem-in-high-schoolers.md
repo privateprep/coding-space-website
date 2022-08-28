@@ -7,8 +7,8 @@ date: 2022-09-01T14:48:38.027Z
 description: Unlock your teenager's potential
 featuredPost: false
 featuredImage:
-  image: /img/GirlCode-around-a-table.jpg
-  alt: Accessibility name
+  image: /img/img_6952.jpg
+  alt: Teenage boy with cardboard roller coaster
 pageBuilder:
   - type: textOnly
     textAlign: left
