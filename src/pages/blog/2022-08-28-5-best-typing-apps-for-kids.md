@@ -12,29 +12,31 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      
+      ## Keyboarding Zoo
 
-      1. **Learn to code.** You knew this would be our first suggestion! If your child loves to play video games after school, try redirecting some of that energy into learning coding. Sign up for one of our [after-school coding classes](https://www.thecodingspace.com/programs/fall/) and jump-start your child’s coding journey; along the way, they’ll develop intellectual confidence, a growth mindset, self-expression, and computational thinking skills.
 
-      2. **Create a Makey Makey Game Controller.** The [Makey Makey](https://makeymakey.com/) is a circuit board that lets kids control their computers with conductive materials (like play-doh, graphite from a pencil, or even a banana!). It uses closed-loop electrical signals to send the computer a keyboard stroke signal, which then plays the designated sound from the instrument. The next time your child is bored after school, help them create a MakeyMakey Game Controller; they can play the piano, the drums, or even play DJ for the day with the audio sampler app.
+      *Ages: 3-5*
 
-      3. **Make a lava lamp.** Did you know that you can make a [lava lamp](https://www.biogen.com/en_us/virtual-community-lab/diy-lava-lamp.html) with just a water bottle and a few ingredients from your kitchen? By combining water, oil, food coloring, and an alka-seltzer tablet, you’ll craft a mesmerizing at-home science project that will keep your child busy for hours — and maybe even inspire in them a love of STEM!
 
-      4. **Craft a Paper Robotic Hand.** This [simple engineering project](https://www.kaplanco.com/ii/diy-robot-hand) that uses only basic office supplies will help your child learn the basics of robotics. By building their own robotic hand, kids will learn to think about how the human body functions, robotic technology in the real world, and elements of design. It also combines STEM principles with artistic design!
-
-      5. **STEM-themed digital escape room.** Tackle digital puzzles and practice code-breaking with a STEM-themed virtual escape room like [this](https://escapewithstem.com/puzzles-1) one. Challenge your child to dive in solo, or make it into an activity for the whole family!
+      In [Keyboarding Zoo](https://www.abcya.com/games/keyboarding_practice), little typers meet colorful animals who help them learn the basics. This game focuses on mastering the task of typing with index fingers as well as reinforcing the connection between letter names and the sounds they make.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "Love the sound of these activities, but don’t have the time or
-      energy to set them up yourself? Here’s a secret: we’ve included all of
-      these activities in our top-tier coding curriculum for kids! [Secure your
-      spot](https://www.thecodingspace.com/classes?semesters[]=Fall%20Classes%2\
-      02022) in our fall coding offerings today."
+    mdContent: >-
+      ## Animal Typing
+
+
+      *Ages: 4-6*
+
+
+      [Animal Typing](https://apps.apple.com/us/app/animal-typing/id912022264) is a little like Keyboarding Zoo, but with the added element of pace: as they gradually improve their typing speed, players move up through the ranks of speedier animals, from snail to rabbit to horse and more. The app also rewards accuracy, so typers have to be precise — not just fast!
 tags: []
 ---
-When school’s out for the day, kids still have energy to burn! And that can be fine when your kid can tire themselves out running around outside, but what about when rain keeps everyone cooped up inside? At The Coding Space, we’d like to frame this challenge as an opportunity: an opportunity for some STEM-centered fun! With a few STEM-focused ideas in your back pocket, the hours between school and dinnertime can be a lot less frenetic. Whether your kid wants a higher-energy hands-on game or a more relaxing option, we’ve gathered ideas for indoor after-school activities below that are both fun and rewarding.
+Computers, laptops, and tablets are being introduced in schools at a younger and younger age – and with that change, it’s becoming more and more important that young kids learn how to type! Fortunately, typing is not just some boring utilitarian skill: learning to type can help younger kids learn the alphabet, can help older kids tackle their schoolwork with more confidence, and improves communication skills all around.
+
+\
+And apart from the many general benefits of learning to type, typing is an absolutely critical skill when it comes to coding! It’s hard to engage with a programming language if you struggle to use a keyboard. Below, we’ve listed some of our favorite apps that teach the skill of typing to kids, broken down by age range.
