@@ -11,17 +11,19 @@ featuredImage:
   alt: Luis Von Ahn
 pageBuilder:
   - type: textOnly
+    textAlign: center
+    bgColor: "#eec11a"
+    textColor: "#264548"
+    mdContent: "![Guillermo Gonzalez Camarena](/img/hhm-2022-2.png)"
+  - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Scary Slime
+      ## The color television
 
 
-      *Ages: 4-8*
-
-
-      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
+      Ever wondered how color first appeared on television screens? Well, the answer involves the "[Chromoscopic Adapter](https://artsandculture.google.com/story/the-original-patent-for-color-television-explained/uQJyulIPRfmyJw)" for television devices, created by the Mexican engineer [Guillermo González Camarena](https://en.wikipedia.org/wiki/Guillermo_Gonz%C3%A1lez_Camarena) in 1940. This simple, ingenious adaptor allowed for the transmission and reception of color images, and it was compatible with any of the black and white television sets of the time. In 1963, Camarena saw his invention succeed with the first color television broadcast. And in 1979, NASA [used the mechanism](https://twitter.com/uspto/status/1040691737449168898?s=20) to transmit images from [Jupiter](https://voyager.jpl.nasa.gov/mission/science/jupiter/)!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
