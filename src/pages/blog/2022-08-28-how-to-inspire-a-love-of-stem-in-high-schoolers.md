@@ -15,13 +15,10 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Young Beginner Code
+      ## 1. Find them a mentor
 
 
-      Young Beginner Code is built specifically for ages 6-8. If your young coder has no coding experience, we’ll likely start them out in code.org, a platform that introduces them to key concepts such as sequence, events, and loops; or ScratchJr, a precursor to Scratch, MIT’s introductory language designed for children. If your child has experience in Scratch already, we’ll likely start them there. Young Beginner classes are 90 minutes and include an offline activity to allow students to take a step back from the screen and reinforce concepts in a different way.
-
-
-      Browse our Young Beginner classes [here](https://www.thecodingspace.com/experience-levels/young-beginner-code/).
+      A good mentor can push a teenager in ways that parents sometimes can’t, providing a much-needed source of positive leadership and guidance at a time when teenagers are staking out their independence. In addition to helping teenagers build confidence and discipline, a rockstar STEM mentor can also spark a high schooler’s curiosity about STEM fields, shatter stereotypes about who practices STEM, and demonstrate the diversity of STEM career options. Does your teen admire an upperclassman who’s planning on majoring in Bio in college? Do they love their Physics teacher? Do they have a cool cousin working at a programming start-up? Any of these figures could make for an awesome mentor.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
