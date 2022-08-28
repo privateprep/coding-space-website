@@ -56,50 +56,25 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Bone Bridge
-
-
-      *Ages: 11-14*
-
-
-      An engineering challenge with a [scary twist](https://www.youtube.com/watch?v=GucNGwQTGfM)? You don’t say! Get your young maker thinking about bridge design this Halloween season.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## Creepy Density Tower
-
-
-      *Ages: 11-14*
-
-
-      Concoct a gooey tiered potion to tangibly demonstrate the properties of density in this creepy [liquid layers](https://www.science-sparks.com/creepy-density/) challenge!
+    mdContent: "![Luis von Ahn](/img/hhm-2022-5.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Bath Bombs
+      ## CAPTCHA codes
 
 
-      *Ages: 14-17*
-
-
-      Self care? More like self-SCARE. Mix up a [Halloween bath bomb](https://helloglow.co/halloween-bath-bombs/) with your teenager using turmeric, baking soda, and more.
+      You know when you’re making a purchase or entering a website, and that website gives you some crazy jumbled letters to transcribe? Those crazy letter and number codes are called [CAPTCHA](https://captcha.org/), and they are essentially a way to check if the person trying to register is a live human being as opposed to a computer program attempting to spam the site. CAPTCHA stands for “Completely Automated Public Turing test to tell Computers and Humans Apart” and was invented in 2000 in part by Guatemalan computer science professor [Luis Von Ahn](https://en.wikipedia.org/wiki/Luis_von_Ahn). Von Ahn is also the CEO and co-founder of [Duolingo](https://www.duolingo.com/)!
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Ghost Rockets
-
-
-      *Ages: 14-17*
-
-
-      Use a spin on the old mentos-and-Diet-Coke trick to make [flying ghost rockets](https://www.growingajeweledrose.com/2013/09/ghost-rockets-halloween-activity.html)! You can even run several “trials” of this experiment, varying the ingredients to see how the flight patterns are affected.
-tags: []
+    mdContent: Want to learn more about the many Hispanics who have advanced
+      technology across the globe? Check out the official
+      [website](https://www.hispanicheritagemonth.gov/) of Hispanic Heritage
+      Month!
+tags:
+  - HispanicHeritageMonth
 ---
 From your home office to the NICU, the innovations of Hispanic inventors make your life healthier and more convenient every day! To celebrate the contributions of Hispanics to the global technological landscape, we’ve put together a few of our favorite inventions by Hispanics tech wizards.
