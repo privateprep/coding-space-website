@@ -39,6 +39,11 @@ pageBuilder:
 
       Peruvian engineer [Claudio Castillón Lévano](https://www.cityoflawrence.org/news/2021/09/28/did-you-know-claudio-castill%C3%B3n-l%C3%A9vano) created a portable respirator and incubator for premature babies, a technological development that has made it much easier for premature babies to survive. Lévano’s design, called the [Incuven](https://medium.com/innovate4health/innovate4health-peruvian-bubble-gives-high-risk-newborns-a-fighting-chance-801e8a16022e), was a major improvement on the incubators that had been in use since the 1880s; they had the capacity to regulate temperature and vastly reduced the risk of contamination. Incuven’s patent was published by the United States in 2004, after more than 20 years of research and work by Lévano and his associates.
   - type: textOnly
+    textAlign: center
+    bgColor: "#eec11a"
+    textColor: "#264548"
+    mdContent: "![Manuel Garcia](/img/hhm-2022-4.png)"
+  - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
