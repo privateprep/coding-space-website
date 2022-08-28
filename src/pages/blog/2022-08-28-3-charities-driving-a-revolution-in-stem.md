@@ -4,7 +4,7 @@ title: 3 Charities Driving a Revolution in STEM
 titleColor: "#264548"
 bgColor: "#264548"
 date: 2022-08-28T16:18:04.257Z
-description: Breaking down the parts of your machine
+description: Celebrating International Day of Charity
 featuredPost: false
 featuredImage:
   image: /img/ablegamers.jpg
@@ -57,4 +57,4 @@ pageBuilder:
       hardware, software, engineering, and coding!
 tags: []
 ---
-If you’re not that enamored by technical jargon (and let’s be honest: who is?), you probably refer to all of the discrete parts that comprise the glowing machine on your desk as simply “the computer”. Each magical, buzzing, clicking, whooshing tecno-innard gets grouped indiscriminately under that umbrella term. And for the most part, that’s totally great! But sometimes – when something in your computer isn’t working as it should, for example – it can help to get a little bit more specific about what’s going on under the hood. Below, we’ve broken down the basic components of a computer, including each one’s location and function.
+On September 5th, people around the globe will celebrate International Day of Charity, a holiday established by the United Nations to encourage nonprofits and individuals to contribute to philanthropic causes. At The Coding Space, we believe in backing organizations that make the world a little better for all of us — plus, we’re STEM fanatics! Keep reading for a few of our favorite STEM-centered nonprofits.
