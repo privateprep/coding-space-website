@@ -12,40 +12,31 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Scary Slime
+      ## Motherboard
 
 
-      *Ages: 4-8*
-
-
-      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
+      Think of the [motherboard](https://en.wikipedia.org/wiki/Motherboard) like the computer’s base camp. It’s a thin plate that directly or indirectly **connects every single part of the computer** – the CPU, memory, hard drive, USB ports, etc.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Frankenworms
+      ## CPU
 
 
-      *Ages: 4-8*
-
-
-      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
+      The [CPU](https://www.arm.com/glossary/cpu) (or central processing unit, or even just “processor”) is like **the brain of the computer**. It’s usually a two-inch ceramic square with a silicon chip the size of a thumbnail located inside, and its primary job is to carry out commands. Whenever you click a button or press a key, you’re sending an instruction to the CPU.
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Volcano
+      ## RAM
 
 
-      *Ages: 5-11*
-
-
-      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
+      [RAM](https://www.techtarget.com/searchstorage/definition/RAM-random-access-memory) (or random access memory) is your computer’s **short-term memory**. Whenever your computer performs any type of calculation, it temporarily stores that data in RAM. RAM helps programs boot quickly, but it doesn’t last – anytime your computer powers down, it loses everything stored in RAM. That’s why you need to save your documents; anytime you hit that “save” button on a Word doc, you’re moving that information to long-term storage.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -97,4 +88,4 @@ pageBuilder:
 tags:
   - Halloween
 ---
-Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
+If you’re not that enamored by technical jargon (and let’s be honest: who is?), you probably refer to all of the discrete parts that comprise the glowing machine on your desk as simply “the computer”. Each magical, buzzing, clicking, whooshing tecno-innard gets grouped indiscriminately under that umbrella term. And for the most part, that’s totally great! But sometimes – when something in your computer isn’t working as it should, for example – it can help to get a little bit more specific about what’s going on under the hood. Below, we’ve broken down the basic components of a computer, including each one’s location and function.
