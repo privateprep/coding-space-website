@@ -24,13 +24,10 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Beginner Code
+      ## 2. Learn on the job
 
 
-      Beginner Code welcomes all students between ages 8-14. While no experience is required, it’s likely that some students will come into class already having coded in Scratch, or another language. Our self-paced, project-based curriculum is designed specifically for mixed level classrooms; we’ll assess where students are in their coding journey on day one and find just the right spot for them to be challenged and engaged. Beginner students are ready for our Intermediate class when they’ve coded a project similar in complexity to this [Typing Game](https://scratch.mit.edu/projects/369713744/editor/).
-
-
-      Browse our Beginner classes [here](https://www.thecodingspace.com/experience-levels/beginner-code/).
+      STEM internships can give high schoolers a chance to learn the ins & outs of a STEM career first-hand. Check out some local tech companies & STEM start-ups to see if they have high school internship programs. Who knows? Maybe your teenager will write an amazing college essay about how they discovered their love of coding during their summer at Verizon!
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
