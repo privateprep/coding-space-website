@@ -49,28 +49,21 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## RAM
+      ## AbleGamers
 
 
-      [RAM](https://www.techtarget.com/searchstorage/definition/RAM-random-access-memory) (or random access memory) is your computer’s **short-term memory**. Whenever your computer performs any type of calculation, it temporarily stores that data in RAM. RAM helps programs boot quickly, but it doesn’t last – anytime your computer powers down, it loses everything stored in RAM. That’s why you need to save your documents; anytime you hit that “save” button on a Word doc, you’re moving that information to long-term storage.
+      Dedicated to “combating isolation through play”, [AbleGamers](https://ablegamers.org/) is a nonprofit fighting to improve accessibility in video games. For people with disabilities, who are at a [heightened risk](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7403030/) of social isolation, video games can be the perfect gateway to community participation, lifelong friendships, and positive shared experiences. That’s why AbleGamers continues to push inclusivity forward in the video game industry by training and consulting with studios as well as connecting those studios directly with disabled players who can share their experiences.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Long-term Storage
-
-
-      Every computer needs somewhere to store its data: your software, your documents, and all of your other files. That storage can take the form of a [hard drive or a solid state drive](https://www.avast.com/c-ssd-vs-hdd), and it’s long-term, meaning that **the data is safe even if you turn off the computer.** When you open a file, the computer copies some data from the hard drive onto the RAM, and when you save a file, the data is copied back to the hard drive.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: If your child loves taking things apart and putting them back
-      together, they might love tinkering with the parts of a computer.
-      [Register](https://www.thecodingspace.com/programs/fall/) for our fall
-      semester today and give your child the opportunity to learn about
-      hardware, software, engineering, and coding!
-tags: []
+    mdContent: A humanitarian approach to STEM has allowed us to solve global
+      problems, find cures to diseases, and invent machines that improve
+      people's lives. At The Coding Space, we will continue to do our part to
+      train the next generation of STEM professionals, not only by teaching them
+      technical skills, but by encouraging them to envision coding as a tool for
+      positive change.
+tags:
+  - InternationalDayofCharity
 ---
 On September 5th, people around the globe will celebrate International Day of Charity, a holiday established by the United Nations to encourage nonprofits and individuals to contribute to philanthropic causes. At The Coding Space, we believe in backing organizations that make the world a little better for all of us — plus, we’re STEM fanatics! Keep reading for a few of our favorite STEM-centered nonprofits.
