@@ -34,6 +34,30 @@ pageBuilder:
 
 
       [Animal Typing](https://apps.apple.com/us/app/animal-typing/id912022264) is a little like Keyboarding Zoo, but with the added element of pace: as they gradually improve their typing speed, players move up through the ranks of speedier animals, from snail to rabbit to horse and more. The app also rewards accuracy, so typers have to be precise — not just fast!
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Typing Rocket
+
+
+      *Ages: 6-8*
+
+
+      Up up and away! In this [game](https://www.abcya.com/games/typing_rocket), players are faced with rockets that gradually arrive more quickly and in greater numbers – the goal of the game is to type the letter that appears on each rocket to make it explode into fireworks.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Owl Planes Typing
+
+
+      Ages: 8-10
+
+
+      Another racing game for the typing speed demons! In [Owl Planes Typing](https://www.abcya.com/games/owl_planes_typing), kids will dive into a multiplayer racing game in which typing speed and accuracy determine how fast your little owl flies.
 tags: []
 ---
 Computers, laptops, and tablets are being introduced in schools at a younger and younger age – and with that change, it’s becoming more and more important that young kids learn how to type! Fortunately, typing is not just some boring utilitarian skill: learning to type can help younger kids learn the alphabet, can help older kids tackle their schoolwork with more confidence, and improves communication skills all around.
