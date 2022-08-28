@@ -33,10 +33,10 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## 3. Coding supports writing skills
+      ## Entrepreneurship
 
 
-      On the other hand, some students have difficulty writing essays – lacking individual attention in their English classes, they may feel bewildered by the demands of grammar, structure, and argument. But in a coding class, more STEM-oriented students can practice the same skills required for effective writing in a left-brained way: they’ll become better self-editors, learn to organize their thoughts, practice explaining complex ideas simply, and learn how to adhere to a style guide.
+      Do you have a kid with big dreams of launching their own business? Well, thanks to the power of the internet, you can reach a global audience in minutes. Jobs for entrepreneurs in tech are abundant, according to the [Bureau of Labor Statistics](https://www.bls.gov/ooh/computer-and-information-technology/home.htm) (BLS). And a career path in tech is well-suited to entrepreneurs because the current economy is so driven by tech! For kids with entrepreneurial aspirations, consider introducing them to the types of technical skills they’ll need to succeed, like web development, information security, and app design.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
