@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-09-01T16:28:25.448Z
 description: Mythbusting common misconceptions about coding
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img_5731.png
   alt: Boys coding together at a table
