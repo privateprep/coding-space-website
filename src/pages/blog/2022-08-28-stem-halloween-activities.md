@@ -7,7 +7,7 @@ date: 2022-09-01T15:02:31.456Z
 description: Celebrate Halloween with scary STEM fun!
 featuredPost: false
 featuredImage:
-  image: /img/img_6952.jpg
+  image: /img/halloween-stem-activities.png
   alt: Teenage boy with cardboard roller coaster
 pageBuilder:
   - type: textOnly
