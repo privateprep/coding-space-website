@@ -15,7 +15,7 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
-      - title: SIgn upi
+      - title: Sign up!
         content: https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/#
 tags: []
 ---
