@@ -44,6 +44,27 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
+      image: /img/rectangle-14-copy1_orig.png
+      alt: Socratic-based teaching
+    mediaPosition: right
+    mdContent: >-
+      ### **The Socratic Method**
+
+
+      Think about a time that you had an extremely positive learning experience. Chances are it was when you felt in control of your own learning. Perhaps it was when you discovered a new passion, found a desire to master a sport, or you started a new job full of creative freedom.
+
+      ​
+
+      We try to create that same positive, hands-on learning environment for each of our students. Our secret sauce is the Socratic Method. The rule for our teachers: only questions. The goal of this methodology is to teach students that they contain valuable wisdom and intuition about the world. Students develop the confidence to solve problems independently while learning strategies and coding foundations from our instructors.
+    fgColor: "#264548"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
       image: /img/untutorials.gif
       alt: Scrolling through Untutorial projects
     mediaPosition: right
