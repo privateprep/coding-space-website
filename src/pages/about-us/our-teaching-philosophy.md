@@ -97,10 +97,10 @@ pageBuilder:
 
 
       Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space teachers draw ideas from students through asking questions and modeling strategies on how they can find answers for themselves.
-    fgColor: "#faf6ee"
+    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: ""
       fgColor: "#264548"
       textColor: "#faf6ee"
       list:
