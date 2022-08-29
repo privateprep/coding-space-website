@@ -36,6 +36,7 @@ pageBuilder:
 
 
       In addition to students being able to construct their own knowledge, project-based curriculum also allows students to work at their own pace. It is the job of our teachers to make sure that students find projects that are both engaging and challenging at the same time.
+    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -82,7 +83,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: ""
     image:
       image: /img/20190711-img_9252-1-.jpg
       alt: Instructor reviewing coding example on a white board in front of a kid.
@@ -95,6 +96,7 @@ pageBuilder:
 
 
       Our teachers are highly trained mentors that are skilled in knowing exactly how much help to give a student, when, and how often. Rather than simply giving hints or answers, The Coding Space teachers draw ideas from students through asking questions and modeling strategies on how they can find answers for themselves.
+    fgColor: "#faf6ee"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -114,4 +116,5 @@ pageBuilder:
 
 
       Our customized curriculum was created to inspire your child to achieve their maximum potential. This student-centered approach combines project-based learning with platforms like WoofJS, a JavaScript learning environment created by The Coding Space, allowing students to be challenged at their individual level and pace.
+    fgColor: "#9de2dd"
 ---
