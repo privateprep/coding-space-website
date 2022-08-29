@@ -64,7 +64,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#ffffff"
     image:
       image: /img/untutorials.gif
       alt: Scrolling through Untutorial projects
@@ -77,13 +77,14 @@ pageBuilder:
 
 
       Untutorials list the high-level tasks students need to complete the project, but intentionally leave out how to accomplish those tasks. Students develop strong grit, determination, and problem-solving skills by figuring out the rest via tinkering, Googling, asking a friend, and iterating towards a solution, all while developing deep insights and intuition of high-level concepts.
+    fgColor: "#faf6ee"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: ""
+    bgColor: "#faf6ee"
     image:
       image: /img/20190711-img_9252-1-.jpg
       alt: Instructor reviewing coding example on a white board in front of a kid.
@@ -106,7 +107,7 @@ pageBuilder:
         - title: Learn More About Our Curriculum
           content: /about-us/curriculum-faqs
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     image:
       image: /img/screenshot-2022-07-31-194731.png
       alt: WoofJS, JavaScript Learning by The Coding Space
@@ -116,5 +117,5 @@ pageBuilder:
 
 
       Our customized curriculum was created to inspire your child to achieve their maximum potential. This student-centered approach combines project-based learning with platforms like WoofJS, a JavaScript learning environment created by The Coding Space, allowing students to be challenged at their individual level and pace.
-    fgColor: "#9de2dd"
+    fgColor: "#264548"
 ---
