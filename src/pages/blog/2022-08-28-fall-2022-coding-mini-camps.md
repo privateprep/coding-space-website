@@ -23,15 +23,11 @@ With the start of the fall semester come three-day weekends, school holidays, an
 
 The Coding Space offers a wide variety of fun mini camps that coincide with school and federal holidays like Presidents’ Day, Veterans’ Day, and more. Check out our upcoming Fall 2022 Mini-Camps and [sign up today](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/) for a productive, meaningful, and FUN school holiday!
 
-
-
-* **September 26:** School Holiday Mini-Camp
-* **October 5:** School Holiday Mini-Camp
-* **October 10:** School Holiday Mini-Camp
-* **October 24:** School Holiday Mini-Camp
+* **September 26:** Rosh Hashanah Mini-Camp
+* **October 5:** Yom Kippur Mini-Camp
+* **October 10:** Indigenous Peoples' Day Mini-Camp
+* **October 24:** Diwali Mini-Camp
 * **December 19-23 & December 26-30:** Winter Break Mini-Camp
-* J**anuary 16:** School Holiday Mini-Camp
-
-
+* **January 16:** Dr. Martin Luther King Jr. Day Mini-Camp
 
 *NOTE: All Mini-Camps take place at our Upper East Side location (201 E 83rd St New York NY, 10028)*
