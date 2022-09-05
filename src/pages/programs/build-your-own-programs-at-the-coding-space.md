@@ -3,9 +3,8 @@ templateKey: programs
 title: Build-Your-Own Programs at The Coding Space
 titleColor: "#ffffff"
 description: >
-  Our totally personalized Build-Your-Own coding experiences put parents in the
-  driver’s seat. Or contact us to create the perfect coding event for your
-  child.
+  Our personalized Build-Your-Own coding experiences put parents in the driver’s
+  seat. Or contact us to create the perfect coding event for your child.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
@@ -31,13 +30,13 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Learn More
-          content: /programs/private-lessons-and-small-groups
+        - title: Get More Information
+          content: /contact-us/
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
       image: /img/shutterstock_1906365397.jpg
-      alt: Accessibility name
+      alt: Private coding lessons
     mediaPosition: left
     fgColor: "#9de2dd"
     mdContent: >-
