@@ -30,8 +30,8 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Get More Information
-          content: /contact-us/
+        - title: Learn More
+          content: /programs/private-lessons-and-small-groups
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
