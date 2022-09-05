@@ -22,6 +22,8 @@ hero:
     list:
       - title: Fall Classes
         content: /classes
+      - title: School Holiday Camps
+        content: /experience-levels/school-holiday-mini-camps
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
