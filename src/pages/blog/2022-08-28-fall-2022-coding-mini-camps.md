@@ -7,7 +7,7 @@ date: 2022-09-01T15:42:23.490Z
 description: Spend your school holidays coding with us!
 featuredPost: false
 featuredImage:
-  image: /img/fall-2022-mini-camps.png
+  image: /img/fall-2022-mini-camps-1-.png
   alt: Mini Camp Schedule
 pageBuilder:
   - type: buttons
@@ -27,7 +27,7 @@ The Coding Space offers a wide variety of fun mini-camps that coincide with scho
 * **October 5:** Yom Kippur Mini-Camp
 * **October 10:** Indigenous Peoples Day Mini-Camp
 * **October 24:** Diwali Mini-Camp
-* **December 19-23 & December 26-30:** Winter Break Mini-Camp
+* **December 20-23 & December 27-30:** Winter Break Mini-Camp
 * **January 16:** Dr. Martin Luther King Jr. Day Mini-Camp
 
 *NOTE: All Mini-Camps take place at our Upper East Side location (201 E 83rd St New York NY, 10028)*
