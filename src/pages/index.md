@@ -8,10 +8,10 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2022-09-12T14:22:05.966Z
-  mdContent: Join us for a Fall Open House at our Upper East Side or Park Slope
-    location! [Click here to
-    RSVP](https://docs.google.com/forms/d/e/1FAIpQLScmjta8LQ4eYJzH50hnva6c5GheZE-vedK2gLufe7qMAx_DQg/viewform).
+  removalDate: 2022-09-27T14:22:05.966Z
+  mdContent: D﻿on't miss our school holiday mini camps on Monday, September 26th!
+    [Learn more
+    here.](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/#)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
@@ -20,7 +20,7 @@ hero:
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
-      - title: Fall Classes
+      - title: Fall Coding Classes
         content: /classes
       - title: School Holiday Camps
         content: /blog/2022-08-28-fall-2022-coding-mini-camps
