@@ -9,9 +9,7 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-09-27T14:22:05.966Z
-  mdContent: D﻿on't miss our school holiday mini camps on Monday, September 26th!
-    [Learn more
-    here.](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/#)
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
