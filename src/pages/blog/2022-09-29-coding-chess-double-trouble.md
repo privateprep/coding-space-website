@@ -7,8 +7,8 @@ date: 2022-10-01T21:08:51.451Z
 description: Our fall alliance with Chess at Three
 featuredPost: false
 featuredImage:
-  image: /img/img_0295.jpg
-  alt: Kids at Samsung 837
+  image: /img/img_4683.png
+  alt: Young chess players gathered around a table learning to code
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -28,10 +28,8 @@ pageBuilder:
     ratio: ratio16x9
     title: Samsung 837 Presentation
 ---
-This July, we took a group of lucky TCS campers to Samsung 837, an experiential tech wonderland in the Meatpacking District featuring a living lab, a VR tunnel, digital art installations, and three floors of dynamic, immersive programming powered by state-of-the-art technology.
+Pop quiz: what activity builds critical thinking skills, intellectual confidence, and independence? If you answered **CODING**, you're correct! If you answered **CHESS**, you're also correct!
 
-We started the day with a tour of the space, where we saw all of Samsung’s latest gadgets (including Dusty the Cleanly Robot!). We also got a peek at Samsung’s “internet of things”, crawled through the mind-boggling TV tunnel, and saw a demo of Dreamground: part physical installation, part digital immersive experience, all cutting-edge Metaverse tech.
+ We’ve joined forces with [Chess at Three](https://chessat3.com/), an organization that teaches chess strategy through storytelling, to inspire a love of logic & creativity in kids from all over NYC. In September, we traveled just blocks away to their location on 5th Avenue and taught introductory coding to their young chess wizards. We're looking forward to next month, when the good folks at Chess at 3 will come teach chess to our young coders at our Park Slope location!
 
-After a lunchtime excursion to nearby floating park Little Island, we returned to Samsung, where coders (and their parents!) saw their work projected onto Samsung’s three-story screen and demo-ed their projects in Samsung’s gaming lounge.
-
-Check out some photos and videos of the day below!
+Scroll down for photos of this exciting crossover event. And give your child a head-start this fall by signing up for coding or chess in Park Slope and the Upper East Side!
