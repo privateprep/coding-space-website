@@ -22,6 +22,8 @@ pageBuilder:
       ![](/img/img_4598.png)
 
       ![](/img/img_4691.png)
+
+      ![](/img/img_4674.png)
 ---
 Pop quiz: what activity builds critical thinking skills, intellectual confidence, and independence? If you answered **CODING**, you're correct! If you answered **CHESS**, you're also correct!
 
