@@ -15,18 +15,13 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      ![](/img/img_0299.jpg)
+      ![](/img/img_4552.png)
 
-      ![](/img/img_0309.jpg)
+      ![](/img/img_4526.png)
 
-      ![](/img/img_0364.jpg)
+      ![](/img/img_4598.png)
 
-      ![](/img/img_0361.jpg)
-  - type: iframe
-    bgColor: "#9de2dd"
-    content: https://www.youtube.com/embed/5LCidiP-i6s
-    ratio: ratio16x9
-    title: Samsung 837 Presentation
+      ![](/img/img_4691.png)
 ---
 Pop quiz: what activity builds critical thinking skills, intellectual confidence, and independence? If you answered **CODING**, you're correct! If you answered **CHESS**, you're also correct!
 
