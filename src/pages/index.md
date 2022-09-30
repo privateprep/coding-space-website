@@ -8,8 +8,10 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2022-09-27T14:22:05.966Z
-  mdContent: ""
+  removalDate: 2022-10-11T14:22:05.966Z
+  mdContent: D﻿on't Miss Our School Holiday Camps on October 5th and October 10th
+    in Manhattan, Brooklyn, and Online! [Learn more
+    now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
