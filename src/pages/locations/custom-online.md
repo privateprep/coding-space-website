@@ -6,10 +6,7 @@ seo_description: |
 classLocationId: 10
 banner:
   removalDate: 2021-12-17T18:00:37.739Z
-  mdContent: "**T﻿ech requirements:** A MacOS or Windows computer is strongly
-    preferred for online classes. Tablets, smartphones and iPads will not work
-    for class. Mac and Windows users must install the latest version of Zoom
-    (version 5.5.2 or above)."
+  mdContent: ""
 contactInfo:
   phone: (929) 352-1272
 pageBuilder: []
