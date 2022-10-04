@@ -7,7 +7,7 @@ date: 2022-10-01T21:08:51.451Z
 description: Our fall alliance with Chess at Three
 featuredPost: false
 featuredImage:
-  image: /img/img_4723.png
+  image: /img/img_4723.jpeg
   alt: Young chess players gathered around a table learning to code
 pageBuilder:
   - type: textOnly
@@ -15,19 +15,19 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      ![](/img/img_4552.png)
+      ![](/img/img_4552.jpeg)
 
-      ![](/img/img_4526.png)
+      ![](/img/img_4526.jpeg)
 
-      ![](/img/img_4598.png)
+      ![](/img/img_4598.jpeg)
 
-      ![](/img/img_4691.png)
+      ![](/img/img_4691.jpeg)
 
-      ![](/img/img_4674.png)
+      ![](/img/img_4674.jpeg)
 
-      ![](/img/img_4592.png)
+      ![](/img/img_4592.jpeg)
 
-      ![](/img/img_4723.png)
+      ![](/img/img_4723.jpeg)
 ---
 Pop quiz: what activity builds critical thinking skills, intellectual confidence, and independence? If you answered **CODING**, you're correct! If you answered **CHESS**, you're also correct!
 
