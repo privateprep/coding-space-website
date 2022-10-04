@@ -7,7 +7,7 @@ date: 2022-10-01T21:08:51.451Z
 description: Our fall alliance with Chess at Three
 featuredPost: false
 featuredImage:
-  image: /img/img_4683.png
+  image: /img/img_4723.png
   alt: Young chess players gathered around a table learning to code
 pageBuilder:
   - type: textOnly
