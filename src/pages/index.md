@@ -9,9 +9,7 @@ seo:
     thinkers, learners, and leaders.
 banner:
   removalDate: 2022-10-11T14:22:05.966Z
-  mdContent: D﻿on't Miss Our School Holiday Camps on October 5th and October 10th
-    in Manhattan, Brooklyn, and Online! [Learn more
-    now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
