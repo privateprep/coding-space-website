@@ -1,10 +1,13 @@
 ---
 templateKey: experience-levels
 title: High School Code
-seo_description: In the high school program (ages 14-17, co-ed), students will
-  combine all the skills they’ve learned, launch solo projects, and learn to
-  collaborate with other coders to pair-program on software projects of their
-  creation.
+seo:
+  title: High School Code
+  seo_description: >
+    In the high school program (ages 14-17, co-ed), students will
+    combine all the skills they’ve learned, launch solo projects, and learn to
+    collaborate with other coders to pair-program on software projects of their
+    creation.
 categoryIds:
   - 49
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49

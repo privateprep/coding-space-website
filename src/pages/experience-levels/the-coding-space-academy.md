@@ -2,10 +2,13 @@
 templateKey: experience-levels
 title: The Coding Space Academy
 titleColor: "#264548"
-seo_description: High schoolers will be immersed in the world of computer
-  science through project-based coding that they’ll co-create with expert
-  mentors, learn from STEM professionals, engage in educational workshops, take
-  a college tour, and visit a tech company.
+seo:
+  title: The Coding Space Academy
+  seo_description: >
+    High schoolers will be immersed in the world of computer
+    science through project-based coding that they’ll co-create with expert
+    mentors, learn from STEM professionals, engage in educational workshops, take
+    a college tour, and visit a tech company.
 categoryIds:
   - 113
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=113

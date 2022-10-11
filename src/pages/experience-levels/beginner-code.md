@@ -1,10 +1,13 @@
 ---
 templateKey: experience-levels
 title: Beginner Code
-seo_description: Beginner students (ages 8-14, co-ed) will have learned the
-  building blocks of programming and will begin to discover how they can use
-  their newfound computational and critical thinking skills to tackle more
-  complex ideas and concepts.
+seo:
+  title: Beginner Code
+  seo_description: >
+    Beginner students (ages 8-14, co-ed) will have learned the
+    building blocks of programming and will begin to discover how they can use
+    their newfound computational and critical thinking skills to tackle more
+    complex ideas and concepts.
 categoryIds:
   - 46
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=46

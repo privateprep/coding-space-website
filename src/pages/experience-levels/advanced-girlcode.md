@@ -1,9 +1,12 @@
 ---
 templateKey: experience-levels
 title: Advanced GirlCode
-seo_description: Our GirlCode program is designed to create a welcoming and
-  inclusive environment for girls who want to learn how to code. Beginner and
-  Advanced classes offered.
+seo:
+  title: Advanced GirlCode
+  seo_description: >
+    Our GirlCode program is designed to create a welcoming and
+    inclusive environment for girls who want to learn how to code. Beginner and
+    Advanced classes offered.
 categoryIds:
   - 48
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48

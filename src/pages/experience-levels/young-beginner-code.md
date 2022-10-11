@@ -1,10 +1,13 @@
 ---
 templateKey: experience-levels
 title: Young Beginner Code
-seo_description: Young Beginner students (ages 6-8, co-ed) will develop typing
-  and motor skills, expand their reading comprehension abilities, and start
-  forming crucial computational thinking patterns as they piece together their
-  first lines of code through Code.org before advancing into Scratch.
+seo:
+  title: Young Beginner Code
+  seo_description: >
+    Young Beginner students (ages 6-8, co-ed) will develop typing
+    and motor skills, expand their reading comprehension abilities, and start
+    forming crucial computational thinking patterns as they piece together their
+    first lines of code through Code.org before advancing into Scratch.
 categoryIds:
   - 50
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=50

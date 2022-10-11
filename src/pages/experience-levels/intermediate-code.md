@@ -1,9 +1,12 @@
 ---
 templateKey: experience-levels
 title: Intermediate Code
-seo_description: "Students will create advanced projects in Scratch, a
-  block-based coding language, and move onto text-based programming in WoofJS,
-  our JavaScript learning platform. "
+seo:
+  title: Intermediate Code
+  seo_description: >
+    Students will create advanced projects in Scratch, a
+    block-based coding language, and move onto text-based programming in WoofJS,
+    our JavaScript learning platform.
 categoryIds:
   - 104
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=104
