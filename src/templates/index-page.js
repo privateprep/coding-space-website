@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <Seo
         title={frontmatter.seo.title}
-        description={frontmatter.seo.seoDescription}
+        description={frontmatter.seo.seo_description}
       />
       <IndexPageTemplate
         banner={frontmatter.banner}
