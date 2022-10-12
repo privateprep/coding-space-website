@@ -4,9 +4,9 @@ templateKey: index-page
 seo:
   title: Coding for Kids | Coding Classes for Kids & Teens
   description: >
-    We offer in-person and online coding for kids and teens that provide a
-    caring, inclusive space for students to have fun, be challenged, and grow as
-    thinkers, learners, and leaders.
+    We offer coding classes for kids and teens in a caring, inclusive space for
+    students to have fun, be challenged, and grow as thinkers, learners, and
+    leaders.
 banner:
   removalDate: 2022-10-11T14:22:05.966Z
   mdContent: ""
@@ -25,11 +25,11 @@ hero:
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
-    We offer in-person and online coding for kids and teens in a caring,
-    inclusive space for students to have fun, be challenged, and grow as
-    thinkers, learners, and leaders.
+    We offer in-person and online coding classes and camps for kids and teens in
+    a caring, inclusive space for students to have fun, be challenged, and grow
+    as thinkers, learners, and leaders.
 
-    In our coding classes and camps, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
+    In our online and in-person coding spaces, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
