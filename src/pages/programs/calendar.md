@@ -4,7 +4,7 @@ title: Calendar
 titleColor: "#264548"
 seo:
   title: Calendar
-  description:
+  description: >
     The Coding Space offers a wide variety of fun mini camps, one-time events,
     and unique learning opportunities
 heroImage:

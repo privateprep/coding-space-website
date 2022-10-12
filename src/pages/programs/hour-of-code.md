@@ -4,7 +4,7 @@ title: Hour of Code™
 titleColor: "#264548"
 seo:
   title: Hour of Code™
-  description:
+  description: >
     At The Coding Space, we know the impact learning to code can have on any
     student of any age. It teaches us how to think critically and learn better.
     It reminds us that lightbulb moments are often preceded by moments of

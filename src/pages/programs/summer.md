@@ -4,7 +4,7 @@ title: Summer
 titleColor: "#264548"
 seo:
   title: Summer
-  description:
+  description: >
     Beginning in June, these in person or live Zoom classes balance
     project-based coding education with hands-on activities and opportunities to
     create and explore at home. Students will make new friends near and far, all

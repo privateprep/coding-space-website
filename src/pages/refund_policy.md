@@ -3,7 +3,8 @@ templateKey: refund-page
 title: Refund Policy
 seo:
   title: Refund Policy
-  description: TCS Refund Policy
+  description: >
+    TCS Refund Policy
 pageBuilder:
   - type: textOnly
     textAlign: left

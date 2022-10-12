@@ -4,7 +4,7 @@ title: Experience Level
 titleColor: "#ffffff"
 seo:
   title: Experience Level
-  description:
+  description: >
     Whether your child is new to coding or already building their own websites,
     our classes will promote their growth within a safe, supportive environment.
 heroImage:

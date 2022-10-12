@@ -3,7 +3,7 @@ templateKey: careers-page
 title: Careers Page
 seo:
   title: Careers at The Coding Space
-  description: |
+  description: >
     We're hiring!
 pageBuilder:
   - type: textAndImageBlock

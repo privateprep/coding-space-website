@@ -4,7 +4,7 @@ title: One-Time Events and Workshops
 titleColor: "#264548"
 seo:
   title: One-Time Events and Workshops
-  description:
+  description: >
     We partner with workplaces and community organizations to bring the fun of
     coding to your doorstep.
 heroImage:

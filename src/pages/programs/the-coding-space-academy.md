@@ -4,7 +4,8 @@ title: The Coding Space Academy
 titleColor: "#264548"
 seo:
   title: The Coding Space Academy
-  description: The Coding Space Academy is a two-week in-person coding intensive
+  description: >
+    The Coding Space Academy is a two-week in-person coding intensive
     pre-college program to learn the hard skills of coding, dive into the
     professional and collegiate world of computer science — all in an immersive
     boot camp setting.
