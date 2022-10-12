@@ -225,6 +225,7 @@ seo:
     label: "SEO",
     name: "seo",
     widget: "object",
+    collapsed: true,
     fields:
       [
         { label: Title, name: title, widget: string },
@@ -322,6 +323,7 @@ page_builder:
     label: "Page Builder",
     name: "pageBuilder",
     widget: list,
+    collapsed: true,
     types:
       [
         {
