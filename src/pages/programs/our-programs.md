@@ -3,7 +3,7 @@ templateKey: programs
 title: Our Programs
 seo:
   title: Our Programs
-  seo_description: The Coding Space Programs, Classes, and Camps
+  description: The Coding Space Programs, Classes, and Camps
 heroImage:
   image: /img/tcs-header.png
   alt: "Light blue hero image with animated computer and code"
@@ -18,7 +18,13 @@ pageBuilder:
       ## **Discover Our Classes and Camps**
 
 
-      Welcome to The Coding Space! We are a coding education company dedicated to helping kids learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence. Our in-person and virtual classes and camps provide a caring, inclusive, and challenging experience for all students through exceptional curriculum and customized teaching methods delivered by our expert teachers. Learn more about what makes our approach unique here.
+      Welcome to The Coding Space! We are a coding education company dedicated
+      to helping kids learn to code through the development of computational
+      thinking skills, intellectual confidence, self-expression, and
+      independence. Our in-person and virtual classes and camps provide a
+      caring, inclusive, and challenging experience for all students through
+      exceptional curriculum and customized teaching methods delivered by our
+      expert teachers. Learn more about what makes our approach unique here.
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -27,7 +33,13 @@ pageBuilder:
       ## Seasonal Programs
 
 
-      Our spring, summer, and fall classes bring students together each week to make progress on individual projects, dive into hands-on activities, and explore opportunities for self-expression. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. And with our 4:1 student-to-teacher ratio, students get the guidance they need to keep moving forward. Learn more about each semester by clicking below.
+      Our spring, summer, and fall classes bring students together each week to
+      make progress on individual projects, dive into hands-on activities, and
+      explore opportunities for self-expression. By challenging students at
+      their individual level to create projects as unique as they are, we
+      underscore the power of personalized learning. And with our 4:1
+      student-to-teacher ratio, students get the guidance they need to keep
+      moving forward. Learn more about each semester by clicking below.
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
@@ -50,7 +62,13 @@ pageBuilder:
       ## The Coding Space Camps
 
 
-      Our unique coding camps are a perfect way to keep kids learning during time off from school. With cool team-building tasks, STEM subject explorations, and engaging hands-on activities, campers are challenged at their individual level while having a blast. Whether your child is joining us for our week-by-week summer camp or building their skills during a mini camp, they’ll come away smarter, stronger, and smiling. Learn more about our camp offerings by clicking below.
+      Our unique coding camps are a perfect way to keep kids learning during
+      time off from school. With cool team-building tasks, STEM subject
+      explorations, and engaging hands-on activities, campers are challenged at
+      their individual level while having a blast. Whether your child is joining
+      us for our week-by-week summer camp or building their skills during a mini
+      camp, they’ll come away smarter, stronger, and smiling. Learn more about
+      our camp offerings by clicking below.
   - type: customLinkBoxes
     bgColor: "#faf6ee"
     list:
@@ -73,10 +91,11 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     heading: Experiential Programs
-    mdContent: Discover unique learning experiences with our GirlCode and teen
-      programs. From supportive, female-identifying coding environments to our
-      STEM Leadership and High School Accelerator programs, we have a fit for
-      every student.
+    mdContent:
+      Discover unique learning experiences with our GirlCode and teen programs.
+      From supportive, female-identifying coding environments to our STEM
+      Leadership and High School Accelerator programs, we have a fit for every
+      student.
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -90,7 +109,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     heading: Explore Our Classes and Camps
-    mdContent: Click below to explore our full range of available classes and camps.
+    mdContent:
+      Click below to explore our full range of available classes and camps.
       Search by type, experience level, or location.
   - type: headerAndMarkDownBlock
     buttons:
@@ -103,9 +123,9 @@ pageBuilder:
     textAlign: center
     bgColor: "#264548"
     heading: Build Your Own
-    mdContent: Looking for something else? Our Build Your Own options are perfect
-      for personalized group classes and private lessons. Click below to learn
-      more.
+    mdContent:
+      Looking for something else? Our Build Your Own options are perfect for
+      personalized group classes and private lessons. Click below to learn more.
   - type: buttons
     bgColor: "#264548"
     fgColor: "#9de2dd"
@@ -131,7 +151,8 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#faf6ee"
-    mdContent: Check out our upcoming event calendar, mini camps, Code 4 Change
+    mdContent:
+      Check out our upcoming event calendar, mini camps, Code 4 Change
       challenges, and more in one spot.
     heading: Special Events
 ---

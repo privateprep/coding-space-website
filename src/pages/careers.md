@@ -3,7 +3,7 @@ templateKey: careers-page
 title: Careers Page
 seo:
   title: Careers at The Coding Space
-  seo_description: |
+  description: |
     We're hiring!
 pageBuilder:
   - type: textAndImageBlock
@@ -21,7 +21,7 @@ pageBuilder:
       ## We teach differently
 
 
-      We teach differently at The Coding Space. Join a team that is passionate about our mission, follows a unique teaching philosophy, and cares. Scroll down for current openings. 
+      We teach differently at The Coding Space. Join a team that is passionate about our mission, follows a unique teaching philosophy, and cares. Scroll down for current openings.
 
       [](/contact-us)
     fgColor: "#264548"

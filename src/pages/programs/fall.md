@@ -4,10 +4,10 @@ title: Fall
 titleColor: "#264548"
 seo:
   title: Fall
-  seo_description: >
-    Whether you’re joining us at one of our in-person locations or meeting up with
-    classmates for virtual lessons, we’re looking forward to laughing, learning,
-    and—of course, coding with you!
+  description: >
+    Whether you’re joining us at one of our in-person locations or meeting up
+    with classmates for virtual lessons, we’re looking forward to laughing,
+    learning, and—of course, coding with you!
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -34,7 +34,11 @@ pageBuilder:
       ### Join Our Community of Coders
 
 
-      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Here’s what we’re offering this fall:
+      This fall, we’re excited to welcome you back to The Coding Space. Whether
+      you’re joining us at one of our in-person locations or meeting up with
+      classmates for virtual lessons, we’re looking forward to laughing,
+      learning, and--of course--coding with you! Here’s what we’re offering this
+      fall:
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -56,7 +60,11 @@ pageBuilder:
       **Build Friendships and Life Skills in a Supportive Setting**
 
 
-      Our weekly after-school coding classes combine unique coding challenges in Scratch, JavaScript, and more in a small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes combine unique coding challenges in
+      Scratch, JavaScript, and more in a small student-to-teacher ratio that
+      promises personalized attention. Teachers utilize the Socratic method to
+      help students develop the power to solve problems, think critically,
+      express themselves, and discover their innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -79,10 +87,16 @@ pageBuilder:
       **Explore the Unknown, Even From Home**
 
 
-      Our weekly online group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far while receiving personalized attention when they need it.
+      Our weekly online group classes balance screen time with hands-on
+      activities and opportunities to create and explore, even in your own
+      house. Students make new friends near and far while receiving personalized
+      attention when they need it.
 
 
-      **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom (version 5.5.2 or above).
+      **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred
+      for online classes. Tablets, smartphones and iPads will not work for
+      class. Mac and Windows users must install the latest version of Zoom
+      (version 5.5.2 or above).
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -105,7 +119,11 @@ pageBuilder:
       **A Build-Your-Own Learning Experience**
 
 
-      Looking for a way for your child to learn with friends from afar? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a personalized class experience for your child.
+      Looking for a way for your child to learn with friends from afar? Or get
+      dedicated help from an instructor in a one-on-one setting? Our private
+      lessons put you in the driver’s seat, allowing you to determine the
+      schedule that best suits your needs and build a personalized class
+      experience for your child.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center

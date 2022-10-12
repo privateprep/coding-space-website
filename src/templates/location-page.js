@@ -12,7 +12,9 @@ import "./styles/location.scss";
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
   const { customInfo = {} } = data;
-  const { frontmatter: { seo } } = customInfo;
+  const {
+    frontmatter: { seo },
+  } = customInfo;
   // mimic transformation in LocationsPanel
   const experienceLevels = data.experienceLevelQuery.experienceLevels.map(
     levelNode => {
@@ -25,7 +27,7 @@ const LocationPage = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={seo.title} description={seo.seo_description} />
+      <Seo title={seo.title} description={seo.description} />
       <Helmet titleTemplate="%s | Locations" />
       <LocationPageTemplate
         activeLocation={activeLocation}
@@ -68,7 +70,7 @@ export const pageQuery = graphql`
           phone
         }
         seo {
-          seo_description
+          description
           title
         }
         pageBuilder {

@@ -3,7 +3,7 @@ templateKey: referral-page
 title: The Coding Space Referral and Rewards Program!
 seo:
   title: The Coding Space Referral and Rewards Program!
-  seo_description: The Coding Space Referral and Rewards Program!
+  description: The Coding Space Referral and Rewards Program!
 pageBuilder:
   - type: textOnly
     textAlign: left

@@ -2,12 +2,13 @@
 templateKey: our-team-page
 seo:
   title: Meet our team
-  seo_description: >
+  description: >
     Just a handful of folks who keep this place up so that our instructors can
     be their best!
 title: Meet our team
-description: Just a handful of folks who keep this place up so that our
-  instructors can be their best!
+description:
+  Just a handful of folks who keep this place up so that our instructors can be
+  their best!
 team:
   - image:
       image: /img/maddy.jpeg
@@ -18,10 +19,16 @@ team:
 
       #### Managing Director
 
-      A graduate of Boston University’s College of Communication, Maddy has always been interested in the ways we use language to convey ideas and connect with each other. This interest has led her to experiences that range from studying Spanish in Madrid, to writing grant proposals in NYC, to building websites for local businesses, to crafting songs on her guitar in her living room.
+      A graduate of Boston University’s College of Communication, Maddy has
+      always been interested in the ways we use language to convey ideas and
+      connect with each other. This interest has led her to experiences that
+      range from studying Spanish in Madrid, to writing grant proposals in NYC,
+      to building websites for local businesses, to crafting songs on her guitar
+      in her living room.
 
 
-      Maddy sees learning to code as yet another way to use language to express ourselves, collaborate, and continuously create.
+      Maddy sees learning to code as yet another way to use language to express
+      ourselves, collaborate, and continuously create.
   - image:
       image: /img/melissa.jpeg
       alt: Melissa Vogt's headshot
@@ -30,10 +37,16 @@ team:
 
       #### Manager of Business Development & Client Relations
 
-      Originally from Austin, Texas, Melissa holds her BFA from Sam Houston State University. Prior to working at The Coding Space, she served as Director of Operations for a private music school in Manhattan. She is passionate about education and cultivating creativity. In her free time, she enjoys performing in local plays and musicals, cooking new recipes, and traveling.
+      Originally from Austin, Texas, Melissa holds her BFA from Sam Houston
+      State University. Prior to working at The Coding Space, she served as
+      Director of Operations for a private music school in Manhattan. She is
+      passionate about education and cultivating creativity. In her free time,
+      she enjoys performing in local plays and musicals, cooking new recipes,
+      and traveling.
 
 
-      Melissa is thrilled about the chance to expand opportunities with the company, as well as help both the current and incoming students!
+      Melissa is thrilled about the chance to expand opportunities with the
+      company, as well as help both the current and incoming students!
   - image:
       image: /img/aspen.jpeg
       alt: Aspen Meineke's Headshot
@@ -44,10 +57,18 @@ team:
       #### Program Director
 
 
-      Aspen is a passionate educator originally from San Antonio, Texas. She received a Bachelor’s Degree in Mechanical Engineering at the University of Texas at San Antonio and while in college mentored a robotics club for elementary students. It was here she found her passion for making STEM education and coding accessible to all students. Prior to working at The Coding Space, Aspen worked in the non-profit sector bringing STEM education programming to low income students.
+      Aspen is a passionate educator originally from San Antonio, Texas. She
+      received a Bachelor’s Degree in Mechanical Engineering at the University
+      of Texas at San Antonio and while in college mentored a robotics club for
+      elementary students. It was here she found her passion for making STEM
+      education and coding accessible to all students. Prior to working at The
+      Coding Space, Aspen worked in the non-profit sector bringing STEM
+      education programming to low income students.
 
 
-      As the Program Director for The Coding Space, Aspen is excited to continue building programs for students that help them build confidence in their coding skills and themselves.
+      As the Program Director for The Coding Space, Aspen is excited to continue
+      building programs for students that help them build confidence in their
+      coding skills and themselves.
   - image:
       image: /img/ofelia.jpeg
       alt: Ofelia Canals's headshot
@@ -57,10 +78,17 @@ team:
 
       #### Chief Talent Officer
 
-      Ofelia started her career in education twelve years ago, as a Spanish teacher for Teach For America in Connecticut. It was there, that she found her passion for giving all students a space to develop and use their individual talents and voices. For the last ten years, she's worked in recruitment and hiring, to ensure that students have the right guides to help them reach their full potential.
+      Ofelia started her career in education twelve years ago, as a Spanish
+      teacher for Teach For America in Connecticut. It was there, that she found
+      her passion for giving all students a space to develop and use their
+      individual talents and voices. For the last ten years, she's worked in
+      recruitment and hiring, to ensure that students have the right guides to
+      help them reach their full potential.
 
 
-      She's excited to continue to find teachers for The Coding Space who deliver the highest quality instruction and encourage our students to be who they are, while stretching their creativity through their code.
+      She's excited to continue to find teachers for The Coding Space who
+      deliver the highest quality instruction and encourage our students to be
+      who they are, while stretching their creativity through their code.
   - image:
       image: /img/caroline-hertz.jpg
       alt: Caroline Hertz
@@ -71,10 +99,19 @@ team:
       #### Marketing & Communications Manager
 
 
-      Caroline is a multidisciplinary scholar and artist with degrees from Princeton University and The New School. As an educator, she has taught in a wide variety of environments, from large undergraduate classrooms where she taught theory and literature to public parks where she taught Greek mythology to middle schoolers. As a marketing expert and a visual artist, Caroline is thrilled to advance TCS's mission of inclusion and empowerment across a wide variety of channels.
+      Caroline is a multidisciplinary scholar and artist with degrees from
+      Princeton University and The New School. As an educator, she has taught in
+      a wide variety of environments, from large undergraduate classrooms where
+      she taught theory and literature to public parks where she taught Greek
+      mythology to middle schoolers. As a marketing expert and a visual
+      artist, Caroline is thrilled to advance TCS's mission of inclusion and
+      empowerment across a wide variety of channels.
 
 
-      Caroline is interested in the intersection of STEM and the arts, and she fiercely believes in the power of STEM to advance equity. Originally hailing from Virginia, Caroline is also a musician, an actor, and an equestrian — she even had a (very brief) rodeo career.
+      Caroline is interested in the intersection of STEM and the arts, and she
+      fiercely believes in the power of STEM to advance equity. Originally
+      hailing from Virginia, Caroline is also a musician, an actor, and an
+      equestrian — she even had a (very brief) rodeo career.
   - image:
       image: /img/scott.jpeg
       alt: Scott Levenson's headshot
@@ -83,10 +120,17 @@ team:
 
       #### Managing Partner
 
-      Scott is the Managing Partner of Private Prep, a premier education company providing one-on- one tutoring, test prep and college admissions services.
+      Scott is the Managing Partner of Private Prep, a premier education company
+      providing one-on- one tutoring, test prep and college admissions services.
 
 
-      Scott’s experiences in education began during his high school years where he helped struggling elementary school students from low-income neighborhoods with their schoolwork. After graduating with a B.A in Political Science from Emory University, Scott moved back to Washington DC to work as an analyst at MCG Capital and mentored inner-city high school seniors as part of the Hoop Dreams Scholarship Fund program. Scott also holds an MBA from Emory, where he graduated with honors.
+      Scott’s experiences in education began during his high school years where
+      he helped struggling elementary school students from low-income
+      neighborhoods with their schoolwork. After graduating with a B.A in
+      Political Science from Emory University, Scott moved back to Washington DC
+      to work as an analyst at MCG Capital and mentored inner-city high school
+      seniors as part of the Hoop Dreams Scholarship Fund program. Scott also
+      holds an MBA from Emory, where he graduated with honors.
   - image:
       image: /img/alejandro.jpg
       alt: Alejandro Salazar's headshot
@@ -97,7 +141,18 @@ team:
       #### Software Engineer
 
 
-      Alejandro is Colorado-born and raised, the first in his family to graduate from college, and engaged in web development for Private Prep. His interests have continued multiplying throughout the years. Interest and work in nonprofits and public service led him to a full-ride scholarship to Colorado College. He was active in diverse and multicultural groups on campus and spearheaded initiatives to improve inclusivity while serving in the student government. His academic focus of belongingness and self-actualization led him to complete his degree in neuroscience. After graduation, he explored the vast world of technology and set his sights on developing websites. In his spare time, he enjoys learning, cooking, walking his high-energy dogs named Leslie (Knope) and Lisa (Simpson), and spending time with his partner Taylor.
+      Alejandro is Colorado-born and raised, the first in his family to graduate
+      from college, and engaged in web development for Private Prep. His
+      interests have continued multiplying throughout the years. Interest and
+      work in nonprofits and public service led him to a full-ride scholarship
+      to Colorado College. He was active in diverse and multicultural groups on
+      campus and spearheaded initiatives to improve inclusivity while serving in
+      the student government. His academic focus of belongingness and
+      self-actualization led him to complete his degree in neuroscience. After
+      graduation, he explored the vast world of technology and set his sights on
+      developing websites. In his spare time, he enjoys learning, cooking,
+      walking his high-energy dogs named Leslie (Knope) and Lisa (Simpson), and
+      spending time with his partner Taylor.
   - image:
       image: /img/screen-shot-2022-02-17-at-4.03.58-pm.png
       alt: Sarah Tucci
@@ -108,5 +163,21 @@ team:
       #### Online Support Associate and Head of Scholarship Admissions
 
 
-      Sarah is from Philadelphia where she has participated in various community-based projects. The most recent initiative she worked for was a city-wide pre-Kindergarten program that offered free Pre-K to all 3 and 4 year old's in the city of Philadelphia where she provided data and programmatic support to stakeholders at all levels. Sarah is also an English tutor and enjoys interacting with her students from all over the world. In the spirit of multiculturalism, she holds a bachelor's degree in International Politics from Penn State University and is currently working on obtaining a Master's degree in Sustainable Cultural Heritage from the American University of Rome. When she is not working, studying, or writing Sarah enjoys traveling, hanging out with her dog and catching up on reading. Sarah is excited to take on this new opportunity in the education sector by providing technical support to teachers so that The Coding Space lessons run smoothly and to work to provide students with scholarship opportunities so that every child who wants to learn coding can. She is also super happy to be working for an organization with a mission and goals like The Coding Space!
+      Sarah is from Philadelphia where she has participated in various
+      community-based projects. The most recent initiative she worked for was a
+      city-wide pre-Kindergarten program that offered free Pre-K to all 3 and 4
+      year old's in the city of Philadelphia where she provided data and
+      programmatic support to stakeholders at all levels. Sarah is also an
+      English tutor and enjoys interacting with her students from all over the
+      world. In the spirit of multiculturalism, she holds a bachelor's degree in
+      International Politics from Penn State University and is currently working
+      on obtaining a Master's degree in Sustainable Cultural Heritage from the
+      American University of Rome. When she is not working, studying, or writing
+      Sarah enjoys traveling, hanging out with her dog and catching up on
+      reading. Sarah is excited to take on this new opportunity in the education
+      sector by providing technical support to teachers so that The Coding Space
+      lessons run smoothly and to work to provide students with scholarship
+      opportunities so that every child who wants to learn coding can. She is
+      also super happy to be working for an organization with a mission and
+      goals like The Coding Space!
 ---

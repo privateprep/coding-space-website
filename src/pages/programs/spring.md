@@ -4,10 +4,10 @@ title: Spring
 titleColor: "#264548"
 seo:
   title: Spring
-  seo_description: >
-    Whether you’re joining us at one of our in-person locations or meeting up with
-    classmates for virtual lessons, we’re looking forward to laughing, learning,
-    and—of course, coding with you!
+  description: >
+    Whether you’re joining us at one of our in-person locations or meeting up
+    with classmates for virtual lessons, we’re looking forward to laughing,
+    learning, and—of course, coding with you!
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -34,7 +34,11 @@ pageBuilder:
       ### Join Our Community of Coders
 
 
-      This spring, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you! Here’s what we’re offering this spring.
+      This spring, we’re excited to welcome you back to The Coding Space.
+      Whether you’re joining us at one of our in-person locations or meeting up
+      with classmates for virtual lessons, we’re looking forward to laughing,
+      learning, and—of course—coding with you! Here’s what we’re offering this
+      spring.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -56,7 +60,11 @@ pageBuilder:
       **Build Friendships and Life Skills in a Supportive Setting**
 
 
-      Our weekly after-school coding classes combine unique coding challenges with STEM-based activities that get bodies and minds moving. Teachers utilize the Socratic teaching method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes combine unique coding challenges
+      with STEM-based activities that get bodies and minds moving. Teachers
+      utilize the Socratic teaching method to help students develop the power to
+      solve problems, think critically, express themselves, and discover their
+      innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -79,7 +87,11 @@ pageBuilder:
       **Explore the Unknown, Even From Home**
 
 
-      Our weekly virtual group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far, all while experiencing our signature 4:1 student to teacher ratio ensuring personalized attention when they need it.
+      Our weekly virtual group classes balance screen time with hands-on
+      activities and opportunities to create and explore, even in your own
+      house. Students make new friends near and far, all while experiencing our
+      signature 4:1 student to teacher ratio ensuring personalized attention
+      when they need it.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -102,7 +114,11 @@ pageBuilder:
       **A Build-Your-Own Learning Experience**
 
 
-      Looking for a way for your child to learn with friends from afar? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a totally personalized class experience for your child.
+      Looking for a way for your child to learn with friends from afar? Or get
+      dedicated help from an instructor in a one-on-one setting? Our private
+      lessons put you in the driver’s seat, allowing you to determine the
+      schedule that best suits your needs and build a totally personalized class
+      experience for your child.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center

@@ -13,7 +13,7 @@ const OurTeamPage = ({ data }) => {
     <Layout>
       <Seo
         title={frontmatter.seo.title}
-        description={frontmatter.seo.seo_description}
+        description={frontmatter.seo.description}
       />
       <OurTeamPageTemplate
         title={frontmatter.title}
@@ -40,7 +40,7 @@ export const pageQuery = graphql`
       id
       frontmatter {
         seo {
-          seo_description
+          description
           title
         }
         description

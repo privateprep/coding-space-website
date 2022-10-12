@@ -3,7 +3,7 @@ templateKey: location-page
 title: Long Island
 seo:
   title: Long Island
-  seo_description: >
+  description: >
     Learn coding in-person with us at Upper East Side!
 classLocationId: 18
 banner:

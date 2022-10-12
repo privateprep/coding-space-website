@@ -3,7 +3,7 @@ templateKey: location-page
 title: Online
 seo:
   title: Online
-  seo_description: >
+  description: >
     Connect to curriculum from anywhere with our suite of virtual courses!
 classLocationId: 10
 banner:

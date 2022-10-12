@@ -4,10 +4,11 @@ title: Camps at The Coding Space
 titleColor: "#ffffff"
 seo:
   title: Camps at The Coding Space
-  seo_description: >
-    Our fun and educational camps combine project-based coding, STEM exploration, hands-on activities, epic team challenges, and more. Whether your
-    child is joining us virtually or at one of our coding centers, they’re sure to
-    have an unforgettable experience.
+  description: >
+    Our fun and educational camps combine project-based coding, STEM
+    exploration, hands-on activities, epic team challenges, and more. Whether
+    your child is joining us virtually or at one of our coding centers, they’re
+    sure to have an unforgettable experience.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
@@ -26,7 +27,10 @@ pageBuilder:
       ## Code With Us
 
 
-      Our fun and educational camps combine project-based coding, STEM exploration, hands-on activities, epic team challenges, and more. Whether your child is joining us virtually or at one of our coding centers, they’re sure to have an unforgettable experience.
+      Our fun and educational camps combine project-based coding, STEM
+      exploration, hands-on activities, epic team challenges, and more. Whether
+      your child is joining us virtually or at one of our coding centers,
+      they’re sure to have an unforgettable experience.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -49,7 +53,9 @@ pageBuilder:
       ### Explore the Unknown at Camp Coding Space
 
 
-      Held Monday through Friday throughout the summer,  Camp Coding Space brings kids together to explore coding challenges, STEM subjects, and fun and educational screen-free activities.
+      Held Monday through Friday throughout the summer,  Camp Coding Space
+      brings kids together to explore coding challenges, STEM subjects, and fun
+      and educational screen-free activities.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -72,7 +78,10 @@ pageBuilder:
       ### Check Out Our Byte-Size Coding Camps
 
 
-      Don’t miss our mini coding camps, offered virtually or in person throughout the year. Often coinciding with school and federal holidays like Presidents’ Day, Winter Break, and more, these camps pack a big punch, bringing engagement and education to days off from school.
+      Don’t miss our mini coding camps, offered virtually or in person
+      throughout the year. Often coinciding with school and federal holidays
+      like Presidents’ Day, Winter Break, and more, these camps pack a big
+      punch, bringing engagement and education to days off from school.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"

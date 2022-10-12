@@ -3,7 +3,7 @@ templateKey: location-page
 title: Park Slope
 seo:
   title: Park Slope
-  seo_description: >
+  description: >
     Come learn javascript and Scratch with us at our Park Slope location!
 classLocationId: 3
 banner:

@@ -15,11 +15,11 @@ const ExperienceLevels = ({ data }) => {
     <Layout>
       <Seo
         title={page.frontmatter.seo.title}
-        description={page.frontmatter.seo.seo_description}
+        description={page.frontmatter.seo.description}
       />
       <Helmet titleTemplate="%s | Experience Level" />
       <ExperienceLevelsTemplate
-        description={page.frontmatter.seo.seo_description}
+        description={page.frontmatter.seo.description}
         {...page.frontmatter}
       />
     </Layout>
@@ -48,7 +48,7 @@ export const pageQuery = graphql`
           }
         }
         seo {
-          seo_description
+          description
           title
         }
         title

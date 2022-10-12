@@ -8,14 +8,14 @@ import { ProgramsTemplate } from "./template_exports/programs-template";
 
 const Programs = ({ data }) => {
   const { markdownRemark: page } = data;
-  const { frontmatter: { seo } } = page;
+  const {
+    frontmatter: { seo },
+  } = page;
   return (
     <Layout>
-      <Seo title={seo.title} description={seo.seo_description} />
+      <Seo title={seo.title} description={seo.description} />
       <ProgramsTemplate
-        helmet={
-          <Helmet titleTemplate="%s | Programs" />
-        }
+        helmet={<Helmet titleTemplate="%s | Programs" />}
         title={page.frontmatter.title}
         titleColor={page.frontmatter.titleColor}
         heroImage={page.frontmatter.heroImage}
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
         title
         seo {
           title
-          seo_description
+          description
         }
         titleColor
         heroImage {

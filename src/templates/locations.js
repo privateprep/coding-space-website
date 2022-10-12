@@ -21,7 +21,7 @@ const LocationsPage = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title={seo.title} description={seo.seo_description} />
+      <Seo title={seo.title} description={seo.description} />
       <LocationsPageTemplate
         experienceLevels={experienceLevels || []}
         locations={data.allClassLocation.locations}
@@ -41,7 +41,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         seo {
-          seo_description
+          description
           title
         }
         subtitle

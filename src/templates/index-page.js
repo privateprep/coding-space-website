@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <Seo
         title={frontmatter.seo.title}
-        description={frontmatter.seo.seo_description}
+        description={frontmatter.seo.description}
       />
       <IndexPageTemplate
         banner={frontmatter.banner}
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         seo {
-          seo_description
+          description
           title
         }
         banner {

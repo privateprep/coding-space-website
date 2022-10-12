@@ -17,7 +17,7 @@ const ReferralPage = ({
 
   return (
     <Layout>
-      <Seo title={seo.title} description={seo.seo_description} />
+      <Seo title={seo.title} description={seo.description} />
       <ReferralPageTemplate
         title={title}
         lastUpdated={modifiedTime}
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
           title
           seo {
             title
-            seo_description
+            description
           }
           pageBuilder {
             heading

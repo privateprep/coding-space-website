@@ -4,10 +4,10 @@ title: School Holiday Mini Camps
 titleColor: "#264548"
 seo:
   title: School Holiday Mini Camps
-  seo_description: >
-    Our school holiday mini camps combine project-based coding, STEM exploration,
-    hands-on activities, and more. Your child is sure to have an unforgettable
-    experience on their day off from school.
+  description: >
+    Our school holiday mini camps combine project-based coding, STEM
+    exploration, hands-on activities, and more. Your child is sure to have an
+    unforgettable experience on their day off from school.
 
 categoryIds:
   - 92
@@ -28,7 +28,8 @@ details:
     - Camp Games & Activities
     - STEM Exploration
     - Immersive Experience
-  mdContent: Our school holiday mini camps combine project-based coding, STEM
+  mdContent:
+    Our school holiday mini camps combine project-based coding, STEM
     exploration, hands-on activities, and more. Your child is sure to have an
     unforgettable experience on their day off from school.
 ---

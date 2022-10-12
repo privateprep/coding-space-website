@@ -228,7 +228,7 @@ seo:
     fields:
       [
         { label: Title, name: title, widget: string },
-        { label: SEO Description, name: seo_description, widget: text },
+        { label: SEO Description, name: description, widget: text },
       ],
   }
 

@@ -3,7 +3,7 @@ heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
   title: Coding for Kids | Coding Classes for Kids & Teens
-  seo_description: >
+  description: >
     We offer in-person and online coding for kids and teens that provide a
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
@@ -41,7 +41,7 @@ differentiators:
       image: /img/as-seen-on.png
       alt: The Coding Space featured on Nickelodeon!
     mdContent: >-
-      ## Best Coding Classes for Kids 
+      ## Best Coding Classes for Kids
 
 
       We're the best according to [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), and [Nickelodeon](https://www.nick.com/episodes/8zjdil/nick-news-nick-news-metaverse-media-and-making-history-season-2-ep-4)!

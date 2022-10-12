@@ -3,7 +3,7 @@ templateKey: location-page
 title: Westchester
 seo:
   title: Westchester
-  seo_description: >
+  description: >
     Learn coding in-person with us in Westchester!
 classLocationId: 17
 banner:
