@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
+import Seo from "../components/seo";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -11,7 +12,7 @@ import "./styles/location.scss";
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
   const { customInfo = {} } = data;
-
+  const { frontmatter: { seo } } = customInfo;
   // mimic transformation in LocationsPanel
   const experienceLevels = data.experienceLevelQuery.experienceLevels.map(
     levelNode => {
@@ -22,16 +23,10 @@ const LocationPage = ({ data }) => {
     }
   );
 
-  const description = activeLocation.isOnline
-    ? `Connect to curriculum from anywhere with our suite of virtual courses!`
-    : `Our ${activeLocation.name} location is located at ${data.addressString}.`;
-
   return (
     <Layout>
-      <Helmet titleTemplate="%s | Locations">
-        <title>{activeLocation.name}</title>
-        <meta name="description" content={description} />
-      </Helmet>
+      <Seo title={seo.title} description={seo.seo_description} />
+      <Helmet titleTemplate="%s | Locations" />
       <LocationPageTemplate
         activeLocation={activeLocation}
         customInfo={customInfo}
@@ -71,6 +66,10 @@ export const pageQuery = graphql`
         contactInfo {
           email
           phone
+        }
+        seo {
+          seo_description
+          title
         }
         pageBuilder {
           content
