@@ -2,9 +2,12 @@
 templateKey: programs
 title: Spring
 titleColor: "#264548"
-description: Whether you’re joining us at one of our in-person locations or
-  meeting up with classmates for virtual lessons, we’re looking forward to
-  laughing, learning, and—of course, coding with you!
+seo:
+  title: Spring
+  seo_description: >
+    Whether you’re joining us at one of our in-person locations or meeting up with
+    classmates for virtual lessons, we’re looking forward to laughing, learning,
+    and—of course, coding with you!
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

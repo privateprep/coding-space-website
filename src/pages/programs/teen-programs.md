@@ -2,9 +2,12 @@
 templateKey: programs
 title: Teen Programs
 titleColor: "#264548"
-description: "Our high school programs build on foundational critical thinking,
-  problem solving, and computational thinking skills with new opportunities
-  designed to help students reach their goals. "
+seo:
+  title: Teen Programs
+  seo_description: >
+    Our high school programs build on foundational critical thinking, problem
+    solving, and computational thinking skills with new opportunities designed to
+    help students reach their goals.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -51,7 +54,7 @@ pageBuilder:
     textColor: "#264548"
     heading: Your teen will...
     mdContent: |-
-      
+
 
       * Code in JavaScript, Python, and more
       * Use databases and APIs to build websites, games, and apps
@@ -117,7 +120,7 @@ pageBuilder:
     textColor: "#faf6ee"
     heading: In the STEM Leadership program, your teen will...
     mdContent: |-
-      
+
 
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.

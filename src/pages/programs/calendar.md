@@ -2,8 +2,10 @@
 templateKey: programs
 title: Calendar
 titleColor: "#264548"
-description: The Coding Space offers a wide variety of fun mini camps, one-time
-  events, and unique learning opportunities
+seo:
+  title: Calendar
+  seo_description: The Coding Space offers a wide variety of fun mini camps, one-time
+    events, and unique learning opportunities
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

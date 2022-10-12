@@ -10,7 +10,6 @@ export const ProgramsTemplate = ({
   helmet,
 }) => {
   const data = pageBuilder ?? [];
-  console.log(heroImage);
   heroImage.wrapperStyle = { height: "100%" };
 
   return (

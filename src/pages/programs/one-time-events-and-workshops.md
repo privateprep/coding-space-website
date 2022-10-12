@@ -2,8 +2,10 @@
 templateKey: programs
 title: One-Time Events and Workshops
 titleColor: "#264548"
-description: We partner with workplaces and community organizations to bring the
-  fun of coding to your doorstep.
+seo:
+  title: One-Time Events and Workshops
+  seo_description: We partner with workplaces and community organizations to bring
+    the fun of coding to your doorstep.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

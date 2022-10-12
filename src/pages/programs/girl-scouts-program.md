@@ -2,9 +2,12 @@
 templateKey: programs
 title: Girl Scouts Program
 titleColor: "#264548"
-description: "We've created in person and online Girl Scouts Programs that are
-  inclusive workshops to introduce programming skills and fascinating STEM
-  subjects. "
+seo:
+  title: Girl Scouts Program
+  seo_description: >
+    We've created in person and online Girl Scouts Programs that are
+    inclusive workshops to introduce programming skills and fascinating STEM
+    subjects.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -48,7 +51,7 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      
+
 
       ### Your Girl Scout will...
 

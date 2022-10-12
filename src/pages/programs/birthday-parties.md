@@ -2,9 +2,11 @@
 templateKey: programs
 title: Birthday Parties
 titleColor: "#264548"
-description: >
-  Celebrate your child's birthday with an unforgettable birthday experience at
-  The Coding Space
+seo:
+  title: Birthday Parties
+  seo_description: >
+    Celebrate your child's birthday with an unforgettable birthday experience at
+    The Coding Space
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

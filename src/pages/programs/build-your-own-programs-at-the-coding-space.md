@@ -2,9 +2,12 @@
 templateKey: programs
 title: Build-Your-Own Programs at The Coding Space
 titleColor: "#ffffff"
-description: >
-  Our personalized Build-Your-Own coding experiences put parents in the driver’s
-  seat. Or contact us to create the perfect coding event for your child.
+seo:
+  title: Build-Your-Own Programs at The Coding Space
+  seo_description: >
+    Our personalized Build-Your-Own coding experiences put parents in the
+    driver’s seat. Or contact us to create the perfect coding event for your
+    child.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code

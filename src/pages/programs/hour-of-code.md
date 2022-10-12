@@ -2,11 +2,9 @@
 templateKey: programs
 title: Hour of Code™
 titleColor: "#264548"
-description: At The Coding Space, we know the impact learning to code can have
-  on any student of any age. It teaches us how to think critically and learn
-  better. It reminds us that lightbulb moments are often preceded by moments of
-  feeling stuck. It lets us be creative, express ourselves, make things that
-  we're proud of, and have fun!
+seo:
+  title: Hour of Code™
+  seo_description: At The Coding Space, we know the impact learning to code can have on any student of any age. It teaches us how to think critically and learn better. It reminds us that lightbulb moments are often preceded by moments of feeling stuck. It lets us be creative, express ourselves, make things that we're proud of, and have fun!
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -58,7 +56,7 @@ pageBuilder:
       alt: Covid safe learning between instructor and student
     mediaPosition: left
     mdContent: |-
-      
+
 
       ## In-School and After School Events
 

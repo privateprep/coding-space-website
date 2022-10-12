@@ -1,8 +1,10 @@
 ---
 templateKey: programs
 title: In-Person Classes
-description: |
-  In-Person Coding Instruction is Back!
+seo:
+  title: In-Person Classes
+  seo_description: >
+    In-Person Coding Instruction is Back!
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
@@ -89,7 +91,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-      
+
 
       ### Your child will...
 

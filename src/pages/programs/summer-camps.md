@@ -2,11 +2,10 @@
 templateKey: programs
 title: Coding Camp for Kids
 titleColor: "#264548"
-description: Our in-person summer camp is back and better than ever! Held Monday
-  through Friday throughout the summer on the Upper East Side in NYC and Park
-  Slope, Brooklyn, our camps combine project-based coding, STEM exploration,
-  team-building activities, exciting field trips, and more to create an
-  unforgettable summer experience.
+seo:
+  title: Coding Camp for Kids
+  seo_description: >
+    Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -71,7 +70,7 @@ pageBuilder:
         textColor: "#faf6ee"
         heading: Your child will...
         mdContent: |-
-          
+
 
           * Learn to code!
           * Be challenged at their individual level.

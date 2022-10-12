@@ -2,9 +2,12 @@
 templateKey: programs
 title: Private Lessons and Small Groups
 titleColor: "#264548"
-description: "Whether your child is a complete beginner or already building
-  applications in JavaScript and Python, our experienced instructors can provide
-  personalized support in person or online. "
+seo:
+  title: Private Lessons and Small Groups
+  seo_description: >
+    Whether your child is a complete beginner or already building
+    applications in JavaScript and Python, our experienced instructors can provide
+    personalized support in person or online.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

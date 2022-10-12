@@ -1,9 +1,12 @@
 ---
 templateKey: programs
 title: Seasonal Programs
-description: "Our spring, summer, and fall classes bring students together each
-  week to make progress on individual projects, dive into hands-on activities,
-  and explore opportunities for self-expression. "
+seo:
+  title: Seasonal Programs
+  seo_description: >
+    Our spring, summer, and fall classes bring students together each
+    week to make progress on individual projects, dive into hands-on activities,
+    and explore opportunities for self-expression.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code

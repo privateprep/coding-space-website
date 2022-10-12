@@ -2,10 +2,13 @@
 templateKey: programs
 title: GirlCode Program
 titleColor: "#264548"
-description: The Coding Space is committed to being a part of the solution by
-  providing mentorship, opportunities for growth, and equitable access to girls,
-  women, transgender people, gender non-conforming people, and non-binary
-  people.
+seo:
+  title: GirlCode Program
+  seo_description: >
+    The Coding Space is committed to being a part of the solution by
+    providing mentorship, opportunities for growth, and equitable access to girls,
+    women, transgender people, gender non-conforming people, and non-binary
+    people.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -39,7 +42,7 @@ pageBuilder:
     textColor: "#264548"
     heading: GirlCoders...
     mdContent: >-
-      
+
 
       * Include girls, transgender, gender non-conforming, and non-binary kids who want to dream big and use code to change the world.
 

@@ -2,11 +2,13 @@
 templateKey: programs
 title: Summer
 titleColor: "#264548"
-description: Beginning in June, these in person or live Zoom classes balance
-  project-based coding education with hands-on activities and opportunities to
-  create and explore at home. Students will make new friends near and far, all
-  while experiencing our signature 4:1 student to teacher ratio ensuring
-  personalized attention when they need it.
+seo:
+  title: Summer
+  seo_description: Beginning in June, these in person or live Zoom classes balance
+    project-based coding education with hands-on activities and opportunities to
+    create and explore at home. Students will make new friends near and far, all
+    while experiencing our signature 4:1 student to teacher ratio ensuring
+    personalized attention when they need it.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name

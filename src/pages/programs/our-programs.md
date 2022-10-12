@@ -1,7 +1,9 @@
 ---
 templateKey: programs
 title: Our Programs
-description: The Coding Space Programs, Classes, and Camps
+seo:
+  title: Our Programs
+  seo_description: The Coding Space Programs, Classes, and Camps
 heroImage:
   image: /img/tcs-header.png
   alt: "Light blue hero image with animated computer and code"
