@@ -1242,7 +1242,11 @@ collections:
               default: "liability-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - {
+              label: "SEO Description",
+              name: "seo_description",
+              widget: "text",
+            }
           - *page_builder
       - file: "src/pages/our_team.md"
         label: "Our Team"
@@ -1300,7 +1304,11 @@ collections:
               default: "referral-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - {
+              label: "SEO Description",
+              name: "seo_description",
+              widget: "text",
+            }
           - *page_builder
       - file: "src/pages/refund_policy.md"
         label: "Refund Policy"
@@ -1313,7 +1321,11 @@ collections:
               default: "refund-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - {
+              label: "SEO Description",
+              name: "seo_description",
+              widget: "text",
+            }
           - *page_builder
       - file: "src/pages/signup.md"
         label: "Class Signup Page"
@@ -1327,5 +1339,9 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - {
+              label: "SEO Description",
+              name: "seo_description",
+              widget: "text",
+            }
           - *page_builder

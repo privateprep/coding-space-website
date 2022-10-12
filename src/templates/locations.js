@@ -8,7 +8,7 @@ import "./styles/locations.scss";
 
 const LocationsPage = ({ data }) => {
   const {
-    frontmatter: { title, subtitle, seoDescription, pageBuilder },
+    frontmatter: { title, subtitle, seo_description, pageBuilder },
   } = data.markdownRemark;
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
     levelNode => {
@@ -25,7 +25,7 @@ const LocationsPage = ({ data }) => {
         helmet={
           <Helmet>
             <title>{title}</title>
-            <meta name="description" content={`${seoDescription}`} />
+            <meta name="description" content={`${seo_description}`} />
           </Helmet>
         }
         experienceLevels={experienceLevels || []}

@@ -13,12 +13,12 @@ const RefundPage = ({
   },
 }) => {
   const {
-    frontmatter: { title, seoDescription, pageBuilder },
+    frontmatter: { title, seo_description, pageBuilder },
   } = childMarkdownRemark;
 
   return (
     <Layout>
-      <Seo title={title} description={seoDescription} />
+      <Seo title={title} description={seo_description} />
       <RefundPageTemplate
         title={title}
         lastUpdated={modifiedTime}
