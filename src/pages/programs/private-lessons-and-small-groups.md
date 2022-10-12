@@ -2,9 +2,12 @@
 templateKey: programs
 title: Private Lessons and Small Groups
 titleColor: "#264548"
-description: "Whether your child is a complete beginner or already building
-  applications in JavaScript and Python, our experienced instructors can provide
-  personalized support in person or online. "
+seo:
+  title: Private Lessons and Small Groups
+  description: >
+    Whether your child is a complete beginner or already building applications
+    in JavaScript and Python, our experienced instructors can provide
+    personalized support in person or online.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -19,8 +22,9 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     heading: Personalized Learning Experiences
-    mdContent: Looking for a way for your child to learn with friends near and far?
-      Or get dedicated help from an instructor in a one-on-one setting? Our
+    mdContent:
+      Looking for a way for your child to learn with friends near and far? Or
+      get dedicated help from an instructor in a one-on-one setting? Our
       teachers are here to help.
   - type: textAndImageBlock
     buttons:
@@ -43,7 +47,9 @@ pageBuilder:
       ### One-on-One With a TCS Teacher
 
 
-      Whether your child is a complete beginner or already building applications in JavaScript and Python, our experienced instructors can provide personalized support in person or online.
+      Whether your child is a complete beginner or already building applications
+      in JavaScript and Python, our experienced instructors can provide
+      personalized support in person or online.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -65,7 +71,10 @@ pageBuilder:
       ### Learn to Code With Friends
 
 
-      Looking to form a recurring group lesson for your child and their friends? Our small group coding classes provide our signature 4:1 student-to-teacher ratio and personalized attention. Available in person and online.
+      Looking to form a recurring group lesson for your child and their friends?
+      Our small group coding classes provide our signature 4:1
+      student-to-teacher ratio and personalized attention. Available in person
+      and online.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"

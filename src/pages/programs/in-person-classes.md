@@ -1,8 +1,10 @@
 ---
 templateKey: programs
 title: In-Person Classes
-description: |
-  In-Person Coding Instruction is Back!
+seo:
+  title: In-Person Classes
+  description: >
+    In-Person Coding Instruction is Back!
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
@@ -24,7 +26,12 @@ pageBuilder:
       ## Join Us At Your Nearest Location
 
 
-      We’re thrilled to announce the return of in-person classes to our New York coding centers. With opportunities to learn and explore with friends and under the guidance of our experienced instructors, there’s never been a better time to start or continue your child’s coding journey. Keep reading to learn more about our unique approach to coding education and find the location nearest you.
+      We’re thrilled to announce the return of in-person classes to our New York
+      coding centers. With opportunities to learn and explore with friends and
+      under the guidance of our experienced instructors, there’s never been a
+      better time to start or continue your child’s coding journey. Keep reading
+      to learn more about our unique approach to coding education and find the
+      location nearest you.
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
@@ -74,7 +81,8 @@ pageBuilder:
       ## Don’t See a Location Near You?
 
 
-      Not to worry. Our classes are just as much fun online and available for all ages and skill levels.
+      Not to worry. Our classes are just as much fun online and available for
+      all ages and skill levels.
   - type: buttons
     bgColor: "#ffffff"
     fgColor: "#eec11a"
@@ -89,18 +97,21 @@ pageBuilder:
     bgColor: "#9de2dd"
     fgColor: "#9de2dd"
     mdContent: >-
-      
+
 
       ### Your child will...
 
 
-      * Build **grit**, a **growth mindset**, and **computational thinking** through coding.
+      * Build **grit**, a **growth mindset**, and **computational thinking**
+      through coding.
 
       * Learn to code in Scratch or JavaScript.
 
-      * Balance screen time with hands-on activities and opportunities to create and explore, even in their own living rooms.
+      * Balance screen time with hands-on activities and opportunities to create
+      and explore, even in their own living rooms.
 
-      * Discover and define their personal passions through STEM challenges and more.
+      * Discover and define their personal passions through STEM challenges and
+      more.
 
       * Make new friends near and far.
 
@@ -115,18 +126,22 @@ pageBuilder:
       ### A Space for Growth
 
 
-      We guarantee individual attention and a custom learning experience for each student with a 4:1 student-to-teacher ratio.
+      We guarantee individual attention and a custom learning experience for
+      each student with a 4:1 student-to-teacher ratio.
 
 
       ### Personalized Learning
 
 
-      We’re not your typical coding class. Our classes are designed to foster intellectual confidence, growth mindset and computational thinking skills.
+      We’re not your typical coding class. Our classes are designed to foster
+      intellectual confidence, growth mindset and computational thinking skills.
 
 
       ### Expert Teachers
 
 
-      Our teachers create a welcoming and engaging learning environment for students. Our teachers never lecture. We believe in asking specific questions to help students solve problems.
+      Our teachers create a welcoming and engaging learning environment for
+      students. Our teachers never lecture. We believe in asking specific
+      questions to help students solve problems.
     textAlign: left
 ---

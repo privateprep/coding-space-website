@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
+import Seo from "../components/seo";
 import Layout from "../components/Layout";
 import { ExperienceLevelsTemplate } from "./template_exports/experience-levels-template";
 
@@ -12,15 +13,13 @@ const ExperienceLevels = ({ data }) => {
 
   return (
     <Layout>
-      <Helmet titleTemplate="%s | Experience Level">
-        <title>{`${page.frontmatter.title}`}</title>
-        <meta
-          name="description"
-          content={`${page.frontmatter.seo_description}`}
-        />
-      </Helmet>
+      <Seo
+        title={page.frontmatter.seo.title}
+        description={page.frontmatter.seo.description}
+      />
+      <Helmet titleTemplate="%s | Experience Level" />
       <ExperienceLevelsTemplate
-        description={page.frontmatter.seo_description}
+        description={page.frontmatter.seo.description}
         {...page.frontmatter}
       />
     </Layout>
@@ -48,7 +47,10 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FIXED)
           }
         }
-        seo_description
+        seo {
+          description
+          title
+        }
         title
       }
     }

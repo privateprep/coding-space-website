@@ -11,12 +11,12 @@ const LiabilityPage = ({
   },
 }) => {
   const {
-    frontmatter: { title, seoDescription, pageBuilder },
+    frontmatter: { title, seo, pageBuilder },
   } = childMarkdownRemark;
 
   return (
     <Layout>
-      <Seo title={title} description={seoDescription} />
+      <Seo title={seo.title} description={seo.description} />
       <LiabilityPageTemplate
         title={title}
         lastUpdated={modifiedTime}
@@ -46,7 +46,10 @@ export const pageQuery = graphql`
       childMarkdownRemark {
         frontmatter {
           title
-          seo_description
+          seo {
+            title
+            description
+          }
           pageBuilder {
             heading
             image {

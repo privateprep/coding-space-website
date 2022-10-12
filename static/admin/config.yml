@@ -225,10 +225,11 @@ seo:
     label: "SEO",
     name: "seo",
     widget: "object",
+    collapsed: true,
     fields:
       [
         { label: Title, name: title, widget: string },
-        { label: SEO Description, name: seo_description, widget: text },
+        { label: SEO Description, name: description, widget: text },
       ],
   }
 
@@ -322,6 +323,7 @@ page_builder:
     label: "Page Builder",
     name: "pageBuilder",
     widget: list,
+    collapsed: true,
     types:
       [
         {
@@ -716,7 +718,7 @@ collections:
         }
       - { label: "Title", name: "title", default: "Title", widget: "string" }
       - *titleColor
-      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - *seo
       - {
           label: "PP Dashboard Class Category Ids",
           name: "categoryIds",
@@ -809,7 +811,7 @@ collections:
           default: "location-page",
         }
       - { label: "Title", name: "title", default: "Title", widget: "string" }
-      - { label: "SEO Description", name: "seo_description", widget: "text" }
+      - *seo
       - {
           label: "PP Dashboard Location Id",
           name: "classLocationId",
@@ -853,7 +855,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - *titleColor
-      - { label: "SEO Description", name: "description", widget: "text" }
+      - *seo
       - *heroImage
       - *page_builder
   - name: "partnerships"
@@ -1242,7 +1244,7 @@ collections:
               default: "liability-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *seo
           - *page_builder
       - file: "src/pages/our_team.md"
         label: "Our Team"
@@ -1300,7 +1302,7 @@ collections:
               default: "referral-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *seo
           - *page_builder
       - file: "src/pages/refund_policy.md"
         label: "Refund Policy"
@@ -1313,7 +1315,7 @@ collections:
               default: "refund-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *seo
           - *page_builder
       - file: "src/pages/signup.md"
         label: "Class Signup Page"
@@ -1327,5 +1329,5 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Subtitle, name: subtitle, widget: string }
-          - { label: "SEO Description", name: "seoDescription", widget: "text" }
+          - *seo
           - *page_builder

@@ -1,6 +1,6 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
+import Seo from "../components/seo";
 import Layout from "../components/Layout";
 import { LocationsPageTemplate } from "./template_exports/locations-template";
 
@@ -8,7 +8,7 @@ import "./styles/locations.scss";
 
 const LocationsPage = ({ data }) => {
   const {
-    frontmatter: { title, subtitle, seoDescription, pageBuilder },
+    frontmatter: { title, subtitle, seo, pageBuilder },
   } = data.markdownRemark;
   const experienceLevels = data.experienceLevelQuery.experienceLevels?.map(
     levelNode => {
@@ -21,13 +21,8 @@ const LocationsPage = ({ data }) => {
 
   return (
     <Layout>
+      <Seo title={seo.title} description={seo.description} />
       <LocationsPageTemplate
-        helmet={
-          <Helmet>
-            <title>{title}</title>
-            <meta name="description" content={`${seoDescription}`} />
-          </Helmet>
-        }
         experienceLevels={experienceLevels || []}
         locations={data.allClassLocation.locations}
         title={title}
@@ -45,6 +40,10 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "locations" } }) {
       frontmatter {
         title
+        seo {
+          description
+          title
+        }
         subtitle
         pageBuilder {
           heading

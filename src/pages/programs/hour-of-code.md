@@ -2,11 +2,14 @@
 templateKey: programs
 title: Hour of Code™
 titleColor: "#264548"
-description: At The Coding Space, we know the impact learning to code can have
-  on any student of any age. It teaches us how to think critically and learn
-  better. It reminds us that lightbulb moments are often preceded by moments of
-  feeling stuck. It lets us be creative, express ourselves, make things that
-  we're proud of, and have fun!
+seo:
+  title: Hour of Code™
+  description: >
+    At The Coding Space, we know the impact learning to code can have on any
+    student of any age. It teaches us how to think critically and learn better.
+    It reminds us that lightbulb moments are often preceded by moments of
+    feeling stuck. It lets us be creative, express ourselves, make things that
+    we're proud of, and have fun!
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -26,10 +29,16 @@ pageBuilder:
       ## Join Us for the Hour of Code™ — December 6-12
 
 
-      At The Coding Space, we know the impact learning to code can have on any student of any age. It teaches us how to think critically and learn better. It reminds us that lightbulb moments are often preceded by moments of feeling stuck. It lets us be creative, express ourselves, make things that we're proud of, and have fun!
+      At The Coding Space, we know the impact learning to code can have on any
+      student of any age. It teaches us how to think critically and learn
+      better. It reminds us that lightbulb moments are often preceded by moments
+      of feeling stuck. It lets us be creative, express ourselves, make things
+      that we're proud of, and have fun!
 
 
-      So what are you waiting for? Join us in the largest learning event in history: The Hour of Code, during Computer Science Education Week (December 6-12).
+      So what are you waiting for? Join us in the largest learning event in
+      history: The Hour of Code, during Computer Science Education Week
+      (December 6-12).
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -38,7 +47,10 @@ pageBuilder:
       #### Bring the Hour of Code™ to Your School/Organization
 
 
-      If you're a school or community organization looking to put together an Hour of Code™, we'd love to help. Just [contact us here](/contact-us), and we'll work together on bringing our in-person or virtual coding class to you.
+      If you're a school or community organization looking to put together an
+      Hour of Code™, we'd love to help. Just [contact us here](/contact-us), and
+      we'll work together on bringing our in-person or virtual coding class to
+      you.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
@@ -58,7 +70,7 @@ pageBuilder:
       alt: Covid safe learning between instructor and student
     mediaPosition: left
     mdContent: |-
-      
+
 
       ## In-School and After School Events
 
@@ -71,8 +83,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: The Hour of Code™ is a global initiative by [Computer Science
-      Education
+    mdContent:
+      The Hour of Code™ is a global initiative by [Computer Science Education
       Week](https://csedweek.org/) and [Code.org](https://code.org/) to
       introduce millions of students to one hour of computer science and
       computer programming
@@ -84,5 +96,6 @@ pageBuilder:
       ## Have a question?
 
 
-      Review our [Common Questions](/about-us/common-questions) or [reach out to us](/contact-us)!
+      Review our [Common Questions](/about-us/common-questions) or [reach out to
+      us](/contact-us)!
 ---
