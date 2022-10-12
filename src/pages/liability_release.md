@@ -1,7 +1,9 @@
 ---
 templateKey: liability-page
 title: Liability Release
-seo_description: TCS liability release
+seo:
+  title: Liability Release
+  seo_description: TCS liability release
 pageBuilder:
   - type: textOnly
     textAlign: center

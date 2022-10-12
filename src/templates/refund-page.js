@@ -13,12 +13,12 @@ const RefundPage = ({
   },
 }) => {
   const {
-    frontmatter: { title, seo_description, pageBuilder },
+    frontmatter: { title, seo, pageBuilder },
   } = childMarkdownRemark;
 
   return (
     <Layout>
-      <Seo title={title} description={seo_description} />
+      <Seo title={seo.title} description={seo.seo_description} />
       <RefundPageTemplate
         title={title}
         lastUpdated={modifiedTime}
@@ -48,7 +48,10 @@ export const pageQuery = graphql`
       childMarkdownRemark {
         frontmatter {
           title
-          seo_description
+          seo {
+            title
+            seo_description
+          }
           pageBuilder {
             heading
             image {
