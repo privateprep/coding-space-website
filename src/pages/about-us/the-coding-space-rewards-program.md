@@ -5,9 +5,11 @@ titleColor: "#ffffff"
 heroImage:
   image: /img/tcs-header.png
   alt: "Light blue hero image with animated computer and code"
-description:
-  Share the love with your friends and family and they’ll receive 10% off* their
-  first recurring coding class or camp registration.
+seo:
+  title: The Coding Space Rewards Program
+  description: >-
+    Share the love with your friends and family and they’ll receive 10% off* their
+    first recurring coding class or camp registration.
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -40,13 +42,13 @@ pageBuilder:
 
 
 
-      2. Start earning: When your friend signs up for their first recurring
+      1. Start earning: When your friend signs up for their first recurring
       class or camp, you’ll automatically receive a $100 credit, available for
       use on your next class registration.
 
 
 
-      3. Rinse and repeat!
+      1. Rinse and repeat!
 
 
 

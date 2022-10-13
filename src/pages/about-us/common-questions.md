@@ -2,10 +2,13 @@
 templateKey: about-us
 title: Common Questions
 titleColor: "#ffffff"
+seo:
+  title: Common Questions
+  description: >
+    We answer some of the most common questions from parents like you.
 heroImage:
   image: /img/tcs-header.png
   alt: "Light blue hero image with animated computer and code"
-description: "We answer some of the most common questions from parents like you. "
 pageBuilder:
   - type: textOnly
     textAlign: center

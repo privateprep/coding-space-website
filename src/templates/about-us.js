@@ -1,24 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
+import Seo from "../components/seo";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { AboutUsTemplate } from "./template_exports/about-us-template.js";
 
 const AboutUs = ({ data }) => {
   const { markdownRemark: page } = data;
+  const {
+    frontmatter: { seo },
+  } = page;
   return (
     <Layout>
+      <Seo title={seo.title} description={seo.description} />
       <AboutUsTemplate
-        description={page.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | About Us">
-            <title>{`${page.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${page.frontmatter.description}`}
-            />
-          </Helmet>
+          <Helmet titleTemplate="%s | About Us" />
         }
         title={page.frontmatter.title}
         titleColor={page.frontmatter.titleColor}
@@ -45,6 +43,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         titleColor
+        seo {
+          title
+          description
+        }
         heroImage {
           alt
           image {

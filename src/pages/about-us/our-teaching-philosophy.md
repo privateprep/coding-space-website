@@ -2,8 +2,11 @@
 templateKey: about-us
 title: Our Teaching Philosophy
 titleColor: "#264548"
-description: The Coding Space teaching philosophy is derived from our dedication
-  to student-centered learning and Socratic-based teaching methods.
+seo:
+  title: Our Teaching Philosophy
+  description: >
+    The Coding Space teaching philosophy is derived from our dedication
+    to student-centered learning and Socratic-based teaching methods.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -29,7 +32,7 @@ pageBuilder:
       ### **Project-Based Learning**
 
 
-      In our classrooms, students learn entirely through creating projects. Projects allow students to work at their own pace on building critical thinking and problem solving skills while simultaneously picking up the hard skills of coding. 
+      In our classrooms, students learn entirely through creating projects. Projects allow students to work at their own pace on building critical thinking and problem solving skills while simultaneously picking up the hard skills of coding.
 
 
       Students create games in Scratch, progress to websites in HTML, CSS, and JavaScript, as well as work in many other tools and languages depending on what keeps them both engaged and challenged. They create projects not by using tutorials, but rather by learning to think critically and create their own solutions to problems

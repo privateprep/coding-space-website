@@ -1,9 +1,12 @@
 ---
 templateKey: about-us
 title: How The Coding Space is Different
-description: "The Coding Space is about more than just first-class coding
-  education, it’s about helping kids build the skills that will serve them
-  throughout life. "
+seo:
+  title: How The Coding Space is Different
+  description: >
+    The Coding Space is about more than just first-class coding
+    education, it’s about helping kids build the skills that will serve them
+    throughout life.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code

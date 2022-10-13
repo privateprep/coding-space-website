@@ -2,9 +2,12 @@
 templateKey: about-us
 title: Scholarship Program
 titleColor: "#ffffff"
-description: We believe that everyone has a right to equitable education in a
-  safe and inclusive learning environment and are committed to increasing access
-  to our high-quality coding programs.
+seo:
+  title: Scholarship Program
+  description: >-
+    We believe that everyone has a right to equitable education in a
+    safe and inclusive learning environment and are committed to increasing access
+    to our high-quality coding programs.
 heroImage:
   image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
