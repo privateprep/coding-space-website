@@ -9,7 +9,9 @@ seo:
     leaders.
 banner:
   removalDate: 2022-10-11T14:22:05.966Z
-  mdContent: ""
+  mdContent: D﻿on't Miss Our School Holiday Mini Camp on Monday, October 24th!
+    [Register
+    now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
