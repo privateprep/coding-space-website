@@ -80,6 +80,9 @@ pageBuilder:
 
 
       Our weekly virtual group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far, all while experiencing our small student to teacher ratio ensuring personalized attention when they need it.
+
+
+      **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom (version 5.11 or above). Computers must have audio, video, and ability to screenshare.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
