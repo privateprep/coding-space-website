@@ -5,10 +5,10 @@ titleColor: "#264548"
 seo:
   title: About Us
   description: >
-    The Coding Space—an afterschool program where students would learn
-    how to tackle challenges independently through learning to code. They
-    envisioned unconventional coding classes where students could control the pace
-    of their learning while developing intellectual confidence, a growth mindset,
+    The Coding Space—an afterschool program where students would learn how to
+    tackle challenges independently through learning to code. They envisioned
+    unconventional coding classes where students could control the pace of their
+    learning while developing intellectual confidence, a growth mindset,
     self-expression, and computational thinking skills.
 heroImage:
   image: /img/tcs-header.png
@@ -40,7 +40,7 @@ pageBuilder:
       In 2019, [Private Prep](https://privateprep.com/), a leading test prep and tutoring company, acquired The Coding Space adding infrastructure support through human resources, technology, financial services, and more. As a part of the [Corduroy Education Collective](https://www.corduroyeducation.com/about) family of brands, The Coding Space continues to focus on what it does best: creating a student-centered environment where children are architects of their own learning, and coding helps make that possible.
   - type: styledChecks
     bgColor: "#9de2dd"
-    fgColor: "#264548"
+    fgColor: "#eec11a"
     textColor: "#2a2a2a"
     mediaPosition: column
     list:
@@ -93,11 +93,11 @@ pageBuilder:
     bgColor: "#faf6ee"
     mdContent: We go above and beyond to ensure an engaging coding experience. From
       creating a positive, supportive, and collaborative learning environment in
-      each class to a commitment to a 4:1 student-to-teacher ratio, we are
-      invested in cultivating a space for growth, one which fosters curiosity,
-      agency, and self-expression. Our team is made up of passionate experts who
-      value making a personal connection with each student, supporting them
-      through tough spots and celebrating their achievements along the way.
+      each class to small student-to-teacher ratios, we are invested in
+      cultivating a space for growth, one which fosters curiosity, agency, and
+      self-expression. Our team is made up of passionate experts who value
+      making a personal connection with each student, supporting them through
+      tough spots and celebrating their achievements along the way.
     heading: Experiential Excellence
   - type: headerAndMarkDownBlock
     buttons:
@@ -113,7 +113,7 @@ pageBuilder:
       approach to coding education nurtures the skills young people need to
       power through adversity—from creativity to critical thinking—and tackle
       problems beyond the classroom. We teach lessons to last a lifetime.
-    heading: Values-Driven
+    heading: Mission-Driven
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
