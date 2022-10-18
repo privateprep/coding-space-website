@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2022-10-11T14:22:05.966Z
+  removalDate: 2022-10-31T17:09:56.618Z
   mdContent: D﻿on't Miss Our School Holiday Mini Camp on Monday, October 24th!
     [Register
     now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
