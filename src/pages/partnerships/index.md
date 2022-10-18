@@ -33,8 +33,7 @@ pageBuilder:
         content: " "
       - title: Appropriate for kids of all skill levels
         content: " "
-      - title: Designed to support learning with our signature 4:1 student-to-teacher
-          ratio
+      - title: Designed to support learning with our small student-to-teacher ratios
         content: " "
       - title: Staffed by professional, engaging, and highly trained instructors
         content: " "
