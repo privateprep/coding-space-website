@@ -13,18 +13,22 @@ featuredImage:
 tags:
   - CodingCareerSpotlight
 ---
-At The Coding Space, we champion a coding education not just for the computational literacy it offers but for the broad range of complementary skills it fosters – and chief among these critical skills is writing & communication. Writers who understand programming are a perfect fit for the field of technical writing!
+If you’ve ever watched a NASCAR race on TV, you’ve seen race engineers hard at work. You know, the guys who huddle around screens trackside, with serious expressions and massive headphones? They are the Spock to the race car driver’s Kirk, the left-brains behind the whole gutsy operation. If you love coding, and you ALSO love spark plugs and showrooms, you might have a bright future as a race engineer.
 
-## WHAT IS A TECHNICAL WRITER?
+## WHAT IS A RACE ENGINEER?
 
-A technical writer is a professional writer who can communicate complex information in a clear, concise, readable way for a broad audience. Not all inventors or engineers or doctors are good communicators – so after they’ve developed their product, they need someone else to explain that product’s benefits to the general public, translating technical jargon into accessible language. Technical writers are hired to work on all manner of technical documentation, from instruction manuals to tutorials to press releases to web pages to reference guides.
+Race engineers work with race cars, analyzing data to achieve the best performance from both vehicle and driver. Unlike some of the more hands-on jobs on a racing team, a race engineer’s work is highly analytical, focusing on things like cause and effect data processing. You won’t find a race engineer getting their hands dirty during race day. They’ll be glued to a screen with their eyes on the live data feeds.
 
-## WHAT SKILLS DO TECHNICAL WRITERS NEED?
+After the race, the race engineer is responsible for gathering data from the driver and the car's various sensors and relaying that data to the factory, enabling the factory to make the correct adjustments to the car to increase performance.
 
-Technical writers need excellent communication and writing skills, obviously, but they also need a certain level of expertise in technical fields, like engineering or computer science, in order to be able to translate from jargon to plain speech. Finally, technical writers should be great researchers and lifelong learners – skills that will allow them to fill in any content gaps in their knowledge of a specific subject.
+## WHAT SKILLS DO RACE ENGINEERS NEED?
 
-## HOW DOES CODING EXPERTISE HELP TECHNICAL WRITERS?
+Race engineers need lots of skills: they need strong communication skills so that they can act as the bridge between the factory and the racing team. They need good people skills, so that they can conduct themselves well in front of the media at races. They need to remain calm under pressure, so that they can stay focused and even-keeled trackside.
 
-Not every technical writing job requires an understanding of code, but a growing number of them do! Software engineers and cryptocurrency experts frequently need help writing user interface text, software release notes, and more. For technical writers to stay competitive in an increasingly code-able world, they should have basic familiarity with the primary coding languages.
+They also need an engineering degree – usually mechanical engineering or electrical engineering, among others. Most importantly, though, race engineers need to be knowledgeable about math, physics, data analysis, and computer science.
+
+## HOW DOES CODING EXPERTISE HELP RACE ENGINEERS?
+
+Surprise! The world of professional car racing, like the rest of the world, is an increasingly digital one. Race engineers code and utilize software to connect to the sensors and recorders on the car, configure dashboard displays, set alarms, and more. Race engineers also need to be able to pull data from the car’s systems after every race and analyze it with the factory to determine how best to improve the car’s speed and overall performance.
 
 Keep an eye out in the coming weeks and months for more blogs in the Coding Career Spotlight series. You might be surprised to learn about all of the professional paths that open up with a coding education!
