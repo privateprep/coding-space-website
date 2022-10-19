@@ -63,13 +63,13 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Creepy Density Tower
+      ## Sweet Potato Clock
 
 
-      *Ages: 11-14*
+      *Ages: 9-13*
 
 
-      Concoct a gooey tiered potion to tangibly demonstrate the properties of density in this creepy [liquid layers](https://www.science-sparks.com/creepy-density/) challenge!
+      A [giving-season twist](https://study.com/academy/lesson/how-to-make-a-potato-clock-science-project.html) on a classic at-home STEM experiment! Learn about electrochemistry and alternative power.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
