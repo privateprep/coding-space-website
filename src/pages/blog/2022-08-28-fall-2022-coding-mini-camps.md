@@ -7,7 +7,7 @@ date: 2022-09-01T15:42:23.490Z
 description: Spend your school holidays coding with us!
 featuredPost: true
 featuredImage:
-  image: /img/fall-2022-mini-camps-1-.png
+  image: /img/fall-2022-mini-camps-oct-2022-update-.png
   alt: Mini Camp Schedule
 pageBuilder:
   - type: buttons
