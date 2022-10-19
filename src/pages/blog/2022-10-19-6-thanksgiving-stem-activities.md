@@ -15,13 +15,13 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Scary Slime
+      ## Dancing Corn
 
 
       *Ages: 4-8*
 
 
-      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
+      With a few ingredients from your kitchen, you can make corn dance in a [magical chemistry experiment.](https://littlebinsforlittlehands.com/dancing-corn-thanksgiving-science-activity/)
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -97,4 +97,4 @@ pageBuilder:
 tags:
   - Halloween
 ---
-Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
+Take advantage of the season with a healthy dose of Fall and Thanksgiving themed STEM festivity! If you’re looking for innovative ways to keep learning alive during your Thanksgiving break, plus add a little fun, then keep reading.
