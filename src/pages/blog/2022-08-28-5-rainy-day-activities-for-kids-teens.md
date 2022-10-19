@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-09-01T16:47:51.051Z
 description: Chill out or burn off steam with these engaging after-school activities
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/img_7066.jpg
   alt: Kid coding at long table
