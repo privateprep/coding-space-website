@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
-title: "Coding Career Spotlight: Technical Writer"
+title: "Coding Career Spotlight: Race Engineer"
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-10-01T15:08:40.325Z
+date: 2022-11-01T15:08:40.325Z
 description: |
-  Bridging the gap between the public & the technical world
+  Speed fueled by the power of code
 featuredPost: false
 featuredImage:
-  image: /img/tcs-career-spotlight-tech-writer.png
-  alt: Technical Writer
+  image: /img/coding-career-spotlight-race-engineer.png
+  alt: Race Engineer
 tags:
   - CodingCareerSpotlight
 ---
