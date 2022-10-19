@@ -25,7 +25,8 @@ The Coding Space offers a wide variety of fun mini-camps at our in-person locati
 
 * **September 26:** Rosh Hashanah Mini-Camp
 * **October 5:** Yom Kippur Mini-Camp
-* **October 10:** Indigenous Peoples Day Mini-Camp
 * **October 24:** Diwali Mini-Camp
+* **November 8:** Election Day Mini-Camp
+* **November 11:** Veterans Day Mini-Camp
 * **December 20-23 & December 27-30:** Winter Break Mini-Camp
 * **January 16:** Dr. Martin Luther King Jr. Day Mini-Camp
