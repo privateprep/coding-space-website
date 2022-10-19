@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-09-01T16:12:34.447Z
 description: Breaking down the parts of your machine
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/img_3014.jpg
   alt: Girls taking apart computer
