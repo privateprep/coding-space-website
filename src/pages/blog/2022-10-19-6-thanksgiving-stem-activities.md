@@ -75,26 +75,21 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Bath Bombs
+      ## Cranberry Invisible Ink
 
 
-      *Ages: 14-17*
+      *Ages: 3-16*
 
 
-      Self care? More like self-SCARE. Mix up a [Halloween bath bomb](https://helloglow.co/halloween-bath-bombs/) with your teenager using turmeric, baking soda, and more.
+      Who knew cranberries could make your tummy AND your mind happy? Use extra cranberry sauce to craft invisible ink. Is it magic? Nope! It’s just [science](https://www.kiwico.com/diy/stem/crazy-chemistry/cranberry-invisible-messages).
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
-    mdContent: >-
-      ## Ghost Rockets
-
-
-      *Ages: 14-17*
-
-
-      Use a spin on the old mentos-and-Diet-Coke trick to make [flying ghost rockets](https://www.growingajeweledrose.com/2013/09/ghost-rockets-halloween-activity.html)! You can even run several “trials” of this experiment, varying the ingredients to see how the flight patterns are affected.
+    mdContent: PS. When Thanksgiving break comes to a close, don’t forget to keep
+      the STEM fun rolling by signing up for one of our [fall coding
+      classes](https://www.thecodingspace.com/classes).
 tags:
-  - Halloween
+  - Thanksgiving
 ---
 Take advantage of the season with a healthy dose of Fall and Thanksgiving themed STEM festivity! If you’re looking for innovative ways to keep learning alive during your Thanksgiving break, plus add a little fun, then keep reading.
