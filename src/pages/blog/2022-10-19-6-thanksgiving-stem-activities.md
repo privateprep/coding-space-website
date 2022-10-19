@@ -51,13 +51,13 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Bone Bridge
+      ## Solubility Turkeys
 
 
-      *Ages: 11-14*
+      *Ages: 4-8*
 
 
-      An engineering challenge with a [scary twist](https://www.youtube.com/watch?v=GucNGwQTGfM)? You don’t say! Get your young maker thinking about bridge design this Halloween season.
+      With coffee filters, clothespins, and a few basic craft supplies, not only will you have [adorable decorative turkeys](https://littlebinsforlittlehands.com/coffee-filter-turkey/) – you’ll also be giving your child a lesson in solubility!
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
