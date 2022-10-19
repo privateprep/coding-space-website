@@ -27,25 +27,25 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Frankenworms
+      ## Iroquois Wampum Coding
 
 
-      *Ages: 4-8*
+      *Ages: 4-10*
 
 
-      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
+      Teach the basics of coding with the help of Indigenous techniques! In this [coding activity](https://stemgeek.com/native-american-stem-activities/), kids use beads to represent letters of the alphabet and create coded messages.
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Volcano
+      ## Cranberry Structures
 
 
-      *Ages: 5-11*
+      *Ages: 4-8*
 
 
-      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
+      Before you turn those cranberries into sauce, try this [engineering challenge](https://www.mcstemacademy.org/simple-fun-cranberry-structures/) with your kids first.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
