@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-09-01T15:42:23.490Z
 description: Spend your school holidays coding with us!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/fall-2022-mini-camps-1-.png
   alt: Mini Camp Schedule
