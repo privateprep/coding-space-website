@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2022-10-31T17:09:56.618Z
-  mdContent: D﻿on't Miss Our School Holiday Mini Camp on Monday, October 24th!
-    [Register
+  mdContent: D﻿on't Miss Our Election Day & Veterans Day School Holiday Mini Camps
+    in November! [Register
     now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
