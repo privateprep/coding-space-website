@@ -21,6 +21,8 @@ details:
   skills:
     - Scratch
     - JavaScript
+    - HTML
+    - CSS
   sellingPoints:
     - Text-Based Coding
     - Game Design
