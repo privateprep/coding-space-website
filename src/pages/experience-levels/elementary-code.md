@@ -16,8 +16,8 @@ details:
   age: Ages 8-11
   gender:
     - Co-ed.
-  byline: "  "
-  experience: First-time through Advanced
+  byline: "  First-time through Advanced"
+  experience: Ages 8-11
   skills:
     - Core Coding Concepts
     - Game Design
