@@ -21,7 +21,8 @@ details:
   skills:
     - Core Coding Concepts
     - Game Design
-    - Scratch & JavaScript
+    - Scratch
+    - JavaScript
   sellingPoints:
     - Making Games and Stories
     - Being Challenged
