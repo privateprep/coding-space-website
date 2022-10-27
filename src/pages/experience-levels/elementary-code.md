@@ -19,7 +19,7 @@ details:
   byline: "  "
   experience: First-time through Advanced
   skills:
-    - Core Programming Concepts
+    - Core Coding Concepts
     - Game Design
     - Scratch & JavaScript
   sellingPoints:
