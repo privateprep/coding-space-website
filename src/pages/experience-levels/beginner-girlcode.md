@@ -10,32 +10,28 @@ seo:
 categoryIds:
   - 47
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=47
+display: true
 thumbnail: /img/girl-code-group.jpg
 details:
   age: Ages 8+
   gender:
     - GirlCode
-  byline: Intro to Scratch
-  experience: First-Time or Beginner Coders
+  byline: For New Coders
+  experience: Ages 8+
   skills:
     - Scratch
-    - Events & Loops
-    - Variables & Conditional Logic
+    - Core Coding Concepts
+    - Game Design
   sellingPoints:
-    - Inclusive Environment
-    - Peer Support
-    - Mentorship
-    - Intellectual Confidence
+    - Support & Mentorship
+    - Computer Science Fundamentals
+    - Creative Exploration
+    - Block-Based Coding
   mdContent: >-
     Our welcoming and inclusive GirlCode program utilizes the same curriculum as
     our co-ed Beginner class while fostering a safe and supportive
     female-identifying space for our GirlCoders to develop their computational
     and critical thinking skills, intellectual confidence, and passion for STEM.
 
-    Students can jump into this class with little or no prior programming
-    knowledge. As they progress through this course, they’ll learn essential
-    programming constructs and develop a computational thought process that will
-    prepare them for more advanced material. When they’re ready, students will
-    transition into text-based programming through WoofJS, our JavaScript
-    learning platform.
+    Students can jump into this class with little or no prior programming knowledge. As they progress through this course, they’ll learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material. When they’re ready, students will transition into text-based programming through WoofJS, our JavaScript learning platform.
 ---
