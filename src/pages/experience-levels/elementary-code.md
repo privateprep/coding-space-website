@@ -8,8 +8,8 @@ seo:
     will learn to code in Scratch, JavaScript, and more. The class is open to
     beginners through advanced coders. "
 categoryIds:
-  - 147
-courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=147
+  - 148
+courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=148
 display: true
 thumbnail: /img/slice-10-2-.png
 details:
