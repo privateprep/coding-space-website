@@ -17,7 +17,7 @@ details:
   age: Ages 8+
   gender:
     - Co-ed.
-  byline: HTML, CSS, JavaScript, Python
+  byline: For coders with experience in text-based languages
   experience: Ages 8+
   skills:
     - JavaScript
