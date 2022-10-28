@@ -24,9 +24,8 @@ details:
     - Scratch
     - JavaScript
   sellingPoints:
-    - Making Games and Stories
-    - Being Challenged
-    - Collaborating with Peers
+    - Game Design
+    - Collaboration
   mdContent: In our Elementary Code classes, students ages 8-11 will learn to code
     in Scratch and JavaScript working independently on projects of their own
     creation. First time coders will build games, stories, and animations in
