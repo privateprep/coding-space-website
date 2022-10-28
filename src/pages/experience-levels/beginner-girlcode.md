@@ -23,9 +23,9 @@ details:
     - Core Coding Concepts
     - Game Design
   sellingPoints:
-    - Support & Mentorship
+    - Inclusive Environment
     - Computer Science Fundamentals
-    - Creative Exploration
+    - Creative Coding
     - Block-Based Coding
   mdContent: >-
     Our welcoming and inclusive GirlCode program utilizes the same curriculum as
