@@ -25,7 +25,7 @@ details:
     - Game Design
   sellingPoints:
     - Computer Science Fundamentals
-    - Creative Exploration
+    - Creative Coding
     - Block-Based Coding
   mdContent: "In our Beginner course, we use Scratch challenge projects as our
     core curriculum. By starting in Scratch, a block-based coding language, we
