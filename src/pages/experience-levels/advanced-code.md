@@ -27,7 +27,6 @@ details:
   sellingPoints:
     - Building Websites & Apps
     - Self-Directed Learning
-    - Language Exploration
   mdContent: In our Advanced course, students will learn JavaScript, the language
     of the web, through creating advanced projects in WoofJS, our JavaScript
     learning platform, and web-based games, animations, and applications in
