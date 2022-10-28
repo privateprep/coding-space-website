@@ -15,11 +15,11 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=113
 display: true
 thumbnail: /img/faceless-teens-studying.jpeg
 details:
-  age: Ages 13-17
+  age: "  "
   gender:
     - Co-ed.
   byline: Monday - Friday, Two-Week Intensive
-  experience: Ages 13-17
+  experience: Ages 14-17
   skills:
     - HTML
     - CSS
