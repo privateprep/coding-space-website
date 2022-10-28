@@ -30,6 +30,6 @@ details:
     transition from block-based coding languages. More advanced coders will
     tackle web development in HTML, CSS, and JavaScript. As students continue to
     advance, they’ll explore other professional languages including Python as
-    well as learn to integrate key programming components such as API’s and
+    well as learn to integrate key software components such as API’s and
     databases.
 ---
