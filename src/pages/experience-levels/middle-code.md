@@ -14,7 +14,7 @@ thumbnail: /img/slice-15-.png
 details:
   age: Ages 8+
   gender:
-    - GirlCode
+    - Co-ed.
   byline: First-time through Advanced
   experience: Ages 11-14
   skills:
