@@ -19,12 +19,13 @@ details:
   age: Ages 8+
   gender:
     - GirlCode
-  byline: Scratch, JavaScript, HTML, CSS
+  byline: First-time through Advanced
   experience: Ages 8+
   skills:
-    - Daily Coding Practice
-    - STEM Electives
-    - Field Trips
+    - Scratch
+    - JavaScript
+    - HTML
+    - CSS
   sellingPoints:
     - Camp Games & Activities
     - STEM Exploration
