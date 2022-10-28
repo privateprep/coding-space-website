@@ -13,7 +13,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=104
 display: true
 thumbnail: /img/collaborative-group-space.jpg
 details:
-  age: Ages 8+
+  age: "  "
   gender:
     - Co-ed.
   byline: Some Experience Required
