@@ -17,16 +17,19 @@ details:
   age: Ages 8+
   gender:
     - Co-ed.
-  byline: Monday through Friday, 1 & 2 Week Options Available
-  experience: First-Time Through Advanced
+  byline: First-Time Through Advanced
+  experience: Ages 8+
   skills:
-    - Daily Coding Practice
-    - STEM Electives
-    - Field Trips
+    - Scratch
+    - JavaScript
+    - HTML
+    - CSS
+    - Python
   sellingPoints:
     - Camp Games & Activities
     - STEM Exploration
     - Immersive Experience
+    - Field Trips
   mdContent: Our summer camp is back and better than ever! Held from June to
     August, our in-person camps combine project-based coding, STEM exploration,
     epic team challenges, field trips, and more. Choose an option that fits your
