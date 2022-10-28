@@ -29,6 +29,7 @@ details:
     - Text-Based Coding
     - Immersive Experience
     - Field Trips
+    - Pair Programming
   mdContent: The Coding Space Academy is a two-week in-person coding intensive for
     rising 9th, 10th, 11th, and 12th graders. In this rigorous pre-college
     program, coding novices and experienced programmers alike will pick up the
