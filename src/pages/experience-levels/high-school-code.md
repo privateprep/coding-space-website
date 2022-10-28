@@ -13,11 +13,11 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=49
 display: true
 thumbnail: /img/teenage-boy-on-computer-1.jpg
 details:
-  age: Ages 13-17
+  age: "  "
   gender:
     - Co-ed.
   byline: For Mature Coders
-  experience: Ages 13-17
+  experience: Ages 14-17
   skills:
     - JavaScript
     - HTML
