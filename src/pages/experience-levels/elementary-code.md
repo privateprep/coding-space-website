@@ -13,7 +13,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=148
 display: true
 thumbnail: /img/slice-10-2-.png
 details:
-  age: Ages 8-11
+  age: "  "
   gender:
     - Co-ed.
   byline: "  First-time through Advanced"
@@ -21,11 +21,13 @@ details:
   skills:
     - Core Coding Concepts
     - Game Design
+    - Animation
     - Scratch
     - JavaScript
   sellingPoints:
-    - Game Design
-    - Collaboration
+    - Making Games
+    - Block-Based Coding
+    - Creative Coding
   mdContent: In our Elementary Code classes, students ages 8-11 will learn to code
     in Scratch and JavaScript working independently on projects of their own
     creation. First time coders will build games, stories, and animations in
