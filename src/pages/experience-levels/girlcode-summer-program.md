@@ -19,8 +19,8 @@ details:
   age: Ages 8+
   gender:
     - GirlCode
-  byline: Monday through Friday, 1 & 2 Week Options Available
-  experience: First-time through Advanced
+  byline: Scratch, JavaScript, HTML, CSS
+  experience: Ages 8+
   skills:
     - Daily Coding Practice
     - STEM Electives
