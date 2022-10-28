@@ -25,7 +25,8 @@ details:
     - Python
   sellingPoints:
     - Inclusive Environment
-    - Building Websites & Apps
+    - Building Websites
+    - Making Apps
     - Self-Directed Learning
   mdContent: >-
     Our welcoming and inclusive GirlCode program utilizes the same curriculum as
