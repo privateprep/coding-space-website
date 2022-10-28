@@ -12,7 +12,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=149
 display: true
 thumbnail: /img/slice-15-.png
 details:
-  age: Ages 8+
+  age: "  "
   gender:
     - Co-ed.
   byline: First-time through Advanced
