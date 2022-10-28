@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: Middle Code
+title: Middle School Code
 titleColor: "#264548"
 seo:
   title: Middle School Code
