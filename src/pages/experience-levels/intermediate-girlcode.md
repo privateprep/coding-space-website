@@ -23,10 +23,13 @@ details:
     - JavaScript
     - HTML
     - CSS
-  sellingPoints:
-    - Text-Based Coding
     - Game Design
     - Web Design
+  sellingPoints:
+    - Inclusive Environment
+    - Text-Based Coding
+    - Making Games
+    - Building Websites
   mdContent: In our Intermediate course, students will create advanced projects in
     Scratch, a block-based coding language, and move onto text-based programming
     in WoofJS, our JavaScript learning platform. WoofJS was developed by The
