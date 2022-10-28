@@ -25,7 +25,8 @@ details:
     - CSS
     - Python
   sellingPoints:
-    - Building Websites & Apps
+    - Building Websites
+    - Making Apps
     - Self-Directed Learning
   mdContent: In our Advanced course, students will learn JavaScript, the language
     of the web, through creating advanced projects in WoofJS, our JavaScript
