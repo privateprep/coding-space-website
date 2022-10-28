@@ -25,9 +25,8 @@ details:
     - Python
   sellingPoints:
     - Inclusive Environment
-    - Peer Support
-    - Mentorship
-    - Intellectual Confidence
+    - Building Websites & Apps
+    - Self-Directed Learning
   mdContent: >-
     Our welcoming and inclusive GirlCode program utilizes the same curriculum as
     our co-ed Advanced class while fostering a safe and supportive
