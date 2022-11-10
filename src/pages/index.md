@@ -9,9 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2022-11-10T14:43:54.208Z
-  mdContent: D﻿on't Miss Our Election Day & Veterans Day School Holiday Mini Camps
-    in November! [Register
-    now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
