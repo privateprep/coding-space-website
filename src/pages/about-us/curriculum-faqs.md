@@ -21,7 +21,7 @@ pageBuilder:
       image: /img/img_6825-1-.jpg
     mediaPosition: right
     bgColor: "#ffffff"
-    fgColor: "#faf6ee"
+    fgColor: "#f6c924"
     mdContent: >-
       ## The Coding Space Curriculum
 
