@@ -14,7 +14,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=45
 display: true
 thumbnail: /img/white-board.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - Co-ed.
   byline: For coders with experience in text-based languages
