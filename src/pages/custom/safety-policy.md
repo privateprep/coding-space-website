@@ -10,22 +10,14 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
+  - type: textOnly
+    textAlign: center
     bgColor: "#faf6ee"
-    image:
-      image: /img/covid-in-person-camp.jpeg
-      alt: In-person classes with kids 6ft apart wearing masks
-    mediaPosition: right
+    textColor: "#264548"
     mdContent: The Coding Space continues to monitor Covid-19 safety concerns and
       follow guidance from the Centers for Disease Control and Prevention (CDC)
       and bodies of government. We will communicate with our community through
       email as new information or guidance emerges.
-    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
