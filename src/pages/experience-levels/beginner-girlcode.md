@@ -13,11 +13,11 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=47
 display: true
 thumbnail: /img/girl-code-group.jpg
 details:
-  age: Ages 8-14
+  age: "  "
   gender:
     - GirlCode
   byline: For New Coders
-  experience: Ages 8+
+  experience: Ages 8-14
   skills:
     - Scratch
     - Core Coding Concepts
