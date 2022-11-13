@@ -21,7 +21,7 @@ hero:
       - title: Fall Coding Classes
         content: /classes
       - title: School Holiday Camps
-        content: /blog/2022-08-28-fall-2022-coding-mini-camps
+        content: /experience-levels/school-holiday-mini-camps
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
