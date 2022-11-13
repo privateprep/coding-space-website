@@ -14,7 +14,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=92
 display: true
 thumbnail: /img/img_7178.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - Co-ed.
   byline: Learn to code on a day off from school
