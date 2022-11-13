@@ -16,7 +16,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=111
 display: false
 thumbnail: /img/accomplished.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - GirlCode
   byline: First-time through Advanced
