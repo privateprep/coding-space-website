@@ -14,11 +14,11 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=95
 display: false
 thumbnail: /img/kids-around-a-computer.jpg
 details:
-  age: Ages 8-14
+  age: "  "
   gender:
     - Co-ed.
   byline: First-Time Through Advanced
-  experience: Ages 8+
+  experience: Ages 8-14
   skills:
     - Scratch
     - JavaScript
