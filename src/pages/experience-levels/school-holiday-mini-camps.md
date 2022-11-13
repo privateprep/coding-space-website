@@ -14,11 +14,11 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=92
 display: true
 thumbnail: /img/img_7178.jpg
 details:
-  age: Ages 8-14
+  age: "  "
   gender:
     - Co-ed.
   byline: Learn to code on a day off from school
-  experience: Ages 8+
+  experience: Ages 8-14
   skills:
     - Scratch
     - JavaScript
