@@ -2,7 +2,7 @@
 templateKey: custom-page
 title: Safety Policy
 titleColor: "#264548"
-description: The Coding Space continues to monitor the COVID-19 pandemic and
+description: The Coding Space continues to monitor Covid-19 safety concerns and
   follow guidance from the Centers for Disease Control and Prevention (CDC) and
   bodies of government. We will communicate with our community through email as
   new information or guidance emerges.
@@ -21,10 +21,10 @@ pageBuilder:
       image: /img/covid-in-person-camp.jpeg
       alt: In-person classes with kids 6ft apart wearing masks
     mediaPosition: right
-    mdContent: The Coding Space continues to monitor COVID-19 cand follow guidance
-      from the Centers for Disease Control and Prevention (CDC) and bodies of
-      government. We will communicate with our community through email as new
-      information or guidance emerges.
+    mdContent: The Coding Space continues to monitor Covid-19 safety concerns and
+      follow guidance from the Centers for Disease Control and Prevention (CDC)
+      and bodies of government. We will communicate with our community through
+      email as new information or guidance emerges.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: left
@@ -37,7 +37,7 @@ pageBuilder:
       **Are students required to be vaccinated?**
 
 
-      > Yes. Students ages 5 and older must be fully vaccinated.
+      > Yes. Students ages 5 and older must be fully vaccinated ﻿to attend in-person classes.
 
 
       **Are all employees fully vaccinated?**
@@ -49,7 +49,7 @@ pageBuilder:
       **My child has Covid-19. When can they return to class?**
 
 
-      > If your child tests positive for COVID-19, please do not have them come to class for 5 days. If they do not have symptoms, Day 0 is the day they were tested (not the day they received the positive test result). If they have symptoms, Day 0 is the day of symptom onset, regardless of when they tested positive. They may come to class after Day 5 if they have been fever free for 24 hours and their symptoms have improved if they had symptoms. A mask should be worn to class through Day 10. If they receive two sequential negative antigen tests 48 hours apart, they may remove their mask sooner than day 10 days.
+      > If your child tests positive for Covid-19, please do not have them come to class for 5 days. If they do not have symptoms, Day 0 is the day they were tested (not the day they received the positive test result). If they have symptoms, Day 0 is the day of symptom onset, regardless of when they tested positive. They may come to class after Day 5 if they have been fever free for 24 hours and their symptoms have improved if they had symptoms. A mask should be worn to class through Day 10. If they receive two sequential negative antigen tests 48 hours apart, they may remove their mask sooner than day 10 days.
 
 
       **Will there be remote learning for students who need to isolate due to Covid-19?**
@@ -61,7 +61,7 @@ pageBuilder:
       **Will there be remote learning for students if classes are canceled due to Covid?**
 
 
-      > If we make the decision to temporarily close in-person sessions due to rising Covid cases, virtual classes with the same schedule will replace in person until we reopen.
+      > If we make the decision to temporarily close in-person sessions due to rising Covid cases, virtual classes with the same schedule will replace in-person classes until we reopen.
 
 
       **Face Masks**
