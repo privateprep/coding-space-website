@@ -14,7 +14,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=46
 display: true
 thumbnail: /img/sisters-doing-their-homework-orig.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - Co-ed.
   byline: For newer coders
