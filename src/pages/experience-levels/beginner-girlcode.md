@@ -13,7 +13,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=47
 display: true
 thumbnail: /img/girl-code-group.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - GirlCode
   byline: For New Coders
