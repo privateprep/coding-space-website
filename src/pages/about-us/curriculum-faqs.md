@@ -8,7 +8,7 @@ seo:
     The Coding Space teaches kids how to code in Scratch, JavaScript, and more.
     Learn more about our customized curriculum.
 heroImage:
-  image: /img/img_6825-1-.jpg
+  image: /img/tcs-header.png
   alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: textAndImageBlock
@@ -18,7 +18,7 @@ pageBuilder:
       textColor: "#264548"
     image:
       alt: The Coding Space curriculum
-      image: /img/img-6960-1-.jpg
+      image: /img/img_6825-1-.jpg
     mediaPosition: right
     bgColor: "#ffffff"
     fgColor: "#faf6ee"
