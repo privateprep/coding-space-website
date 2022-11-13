@@ -13,7 +13,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=105
 display: true
 thumbnail: /img/girlcode-three-around-computer.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - GirlCode
   byline: Some Experience Required
