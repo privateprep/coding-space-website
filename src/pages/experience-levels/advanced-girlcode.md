@@ -13,7 +13,7 @@ courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=48
 display: true
 thumbnail: /img/coder.jpg
 details:
-  age: Ages 8+
+  age: Ages 8-14
   gender:
     - GirlCode
   byline: For coders with experience in text-based languages
