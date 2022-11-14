@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2022-11-10T14:43:54.208Z
+  removalDate: 2022-11-18T22:13:48.890Z
   mdContent: D﻿on't miss a special GirlCode event on Wednesday, November 16th from
     6:00-7:30pm at our Upper East Side location. [RSVP
     here](https://www.eventbrite.com/e/free-coding-event-for-girls-girlcode-1-tickets-445460914587)
