@@ -9,9 +9,9 @@ seo:
     leaders.
 banner:
   removalDate: 2022-11-10T14:43:54.208Z
-  mdContent: D﻿on't miss our GirlCode +1 event on Wednesday, November 16th from
-    6:00-7:30pm at our Upper East Side location! [RSVP
-    here](https://www.eventbrite.com/e/free-coding-event-for-girls-girlcode-1-tickets-445460914587).
+  mdContent: D﻿on't miss a special GirlCode event on Wednesday, November 16th from
+    6:00-7:30pm at our Upper East Side location. [RSVP
+    here](https://www.eventbrite.com/e/free-coding-event-for-girls-girlcode-1-tickets-445460914587)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
