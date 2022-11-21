@@ -18,10 +18,10 @@ hero:
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
-      - title: Fall Coding Classes
+      - title: Spring Classes
         content: /classes
-      - title: School Holiday Camps
-        content: /experience-levels/school-holiday-mini-camps
+      - title: Winter Break Camp
+        content: /experience-levels/school-holiday-mini-camps/?semesters[]=Winter%20Camps%202022
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
