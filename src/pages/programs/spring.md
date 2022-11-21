@@ -80,11 +80,11 @@ pageBuilder:
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: "## Looking for something else?"
   - type: buttons
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     fgColor: "#eec11a"
     textColor: "#ffffff"
     list:
