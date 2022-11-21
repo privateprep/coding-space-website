@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Spring
+title: Spring 2023 Coding Classes
 titleColor: "#264548"
 seo:
   title: Spring
@@ -16,10 +16,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: |-
-      # 2023 Classes Online and In-Person
-
-      ## January  30 - June 10
+    mdContent: "## January  30 - June 10"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -28,13 +25,13 @@ pageBuilder:
     mediaPosition: right
     textColor: "#264548"
     textAlign: center
-    bgColor: "#ffffff"
-    heading: Head Back to The Coding Space This Spring
-    mdContent: >-
-      ### Join Our Community of Coders
-
-
-      This spring, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you! Here’s what we’re offering this spring.
+    bgColor: "#eec11a"
+    heading: Let Coding Grow On You
+    mdContent: This spring, we’re excited to welcome you back to The Coding Space.
+      Whether you’re joining us at one of our in-person locations or meeting up
+      with classmates for virtual lessons, we’re looking forward to laughing,
+      learning, and—of course—coding with you! Here’s what we’re offering this
+      spring.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
