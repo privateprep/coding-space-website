@@ -39,48 +39,22 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Learn More
-          content: /programs/in-person-classes
+          content: /locations
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/covid-in-person-camp.jpeg
+      image: /img/img_0028-2-.jpg
       alt: Students learning to code
     mediaPosition: right
     mdContent: >-
-      ## In-Person Coding Classes
+      ## Group Coding Classes
 
 
-      **Build Friendships and Life Skills in a Supportive Setting**
+      **Build Friendships and Coding Skills in a Supportive Setting**
 
 
-      Our weekly after-school coding classes offer unique coding challenges and STEM-based activities. Teachers utilize the Socratic teaching method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes are offered in person or online for ages 6-17. Students will tackle unique coding challenges and progress over the course of a semester, building problem solving and critical thinking skills as they tackle unique coding challenges.
     fgColor: "#9de2dd"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#ffffff"
-      list:
-        - title: Learn More
-          content: /locations/online
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/young-girl-learning-on-computer.jpeg
-      alt: Young girl learning on a tablet
-    mediaPosition: left
-    mdContent: >-
-      ## Online Coding Classes
-
-
-      **Explore the Unknown, Even From Home**
-
-
-      Our weekly virtual group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far, all while experiencing our small student to teacher ratio ensuring personalized attention when they need it.
-
-
-      **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom. **Computers must have audio, video, and ability to screenshare.**
-    fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
