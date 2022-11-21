@@ -3,7 +3,7 @@ templateKey: programs
 title: Spring 2023 Coding Classes
 titleColor: "#264548"
 seo:
-  title: Spring
+  title: Spring Coding Classes
   description: >
     Whether you’re joining us at one of our in-person locations or meeting up
     with classmates for virtual lessons, we’re looking forward to laughing,
