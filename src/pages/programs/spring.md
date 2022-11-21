@@ -57,17 +57,17 @@ pageBuilder:
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
-      bgColor: "#ffffff"
+      bgColor: ""
       fgColor: "#eec11a"
       textColor: "#ffffff"
       list:
         - title: Learn More
           content: /programs/private-lessons-and-small-groups
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: ""
     image:
       image: /img/slice-9-2-.png
-      alt: Accessibility name
+      alt: Two students coding on a computer
     mediaPosition: right
     mdContent: >-
       ## Private Lessons and Small Groups
