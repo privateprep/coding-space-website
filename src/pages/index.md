@@ -19,7 +19,7 @@ hero:
     textColor: "#264548"
     list:
       - title: Spring Classes
-        content: /classes
+        content: /locations
       - title: Winter Break Camp
         content: /experience-levels/school-holiday-mini-camps/?semesters[]=Winter%20Camps%202022
 mainpitch:
