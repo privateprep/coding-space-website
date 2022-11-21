@@ -19,13 +19,13 @@ pageBuilder:
     mdContent: "## January  30 - June 10"
   - type: headerAndMarkDownBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#9de2dd"
       fgColor: "#9de2dd"
       textColor: "#264548"
     mediaPosition: right
     textColor: "#264548"
     textAlign: center
-    bgColor: "#eec11a"
+    bgColor: "#faf6ee"
     heading: Let Coding Grow On You
     mdContent: This spring, we’re excited to welcome you back to The Coding Space.
       Whether you’re joining us at one of our in-person locations or meeting up
@@ -34,14 +34,14 @@ pageBuilder:
       spring.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#9de2dd"
       fgColor: "#f6c924"
       textColor: "#ffffff"
       list:
         - title: Learn More
           content: /locations
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     image:
       image: /img/img_0028-2-.jpg
       alt: Students learning to code
@@ -54,7 +54,7 @@ pageBuilder:
 
 
       Our weekly after-school coding classes are offered in person or online for ages 6-17. Students will tackle unique coding challenges and progress over the course of a semester, building problem solving and critical thinking skills as they tackle unique coding challenges.
-    fgColor: "#9de2dd"
+    fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
@@ -80,11 +80,11 @@ pageBuilder:
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: "## Looking for something else?"
   - type: buttons
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#ffffff"
     list:
