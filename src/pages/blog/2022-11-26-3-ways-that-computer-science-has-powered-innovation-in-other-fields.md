@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-12-01T15:35:18.197Z
 description: "Computer Science is EVERYWHERE! Happy #CSEdWeek."
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/csedweek-2022.jpg
   alt: Kids coding in fall-themed room
