@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-10-01T15:11:36.363Z
 description: Traditional and unexpected paths to STEM success
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/img_0335.jpg
   alt: Accessibility name
