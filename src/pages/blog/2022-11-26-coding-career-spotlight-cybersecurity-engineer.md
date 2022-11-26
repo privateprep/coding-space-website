@@ -14,20 +14,16 @@ tags:
 ---
 Black Mirror. War Games. Ocean’s 8. The Imitation Game. Cybersecurity is all over Hollywood — and understandably so, because it’s a downright thrilling field. But cybersecurity doesn’t just happen in movies. It’s also a fast-moving and ever-growing professional sector in the real world!
 
-## WHAT IS A RACE ENGINEER?
+## WHAT IS A CYBERSECURITY ENGINEER?
 
-Race engineers work with race cars, analyzing data to achieve the best performance from both vehicle and driver. Unlike some of the more hands-on jobs on a racing team, a race engineer’s work is highly analytical, focusing on things like cause and effect data processing. You won’t find a race engineer getting their hands dirty during race day. They’ll be glued to a screen with their eyes on the live data feeds.
+Cybersecurity engineers — sometimes called information security engineers, data security engineers, or web security engineers — protect devices, services, and networks from malicious digital attacks. They also regularly test security systems to ensure they’re functioning properly. Cybersecurity engineers are the first line of defense against data breaches, safeguarding organizational data, sensitive and confidential information, financial information, and the reputation of their organization as a whole.
 
-After the race, the race engineer is responsible for gathering data from the driver and the car's various sensors and relaying that data to the factory, enabling the factory to make the correct adjustments to the car to increase performance.
+## WHAT SKILLS DO CYBERSECURITY ENGINEERS NEED?
 
-## WHAT SKILLS DO RACE ENGINEERS NEED?
+Cybersecurity jobs are skill-intensive, requiring a high degree of training and experience. They need at least a bachelor’s degree in computer science or a related field — and some employers prefer applicants with master’s degrees. Cybersecurity engineers need to be experts in networking: they need to understand routing protocols, [Virtual Private Networks](https://en.wikipedia.org/wiki/Virtual_private_network) (VPN), [](https://en.wikipedia.org/wiki/Domain_Name_System) and encryption techniques, just to name a few. Because cybersecurity work is largely centered on protecting data, they also need extensive knowledge about how data is structured and stored. Finally, in order to diagnose an operating system’s problems, cybersecurity engineers need to understand the vulnerabilities and idiosyncrasies of individual operating systems.
 
-Race engineers need lots of skills: they need strong communication skills so that they can act as the bridge between the factory and the racing team. They need good people skills, so that they can conduct themselves well in front of the media at races. They need to remain calm under pressure, so that they can stay focused and even-keeled trackside.
+## HOW DOES CODING EXPERTISE HELP CYBERSECURITY ENGINEERS?
 
-They also need an engineering degree – usually mechanical engineering or electrical engineering, among others. Most importantly, though, race engineers need to be knowledgeable about math, physics, data analysis, and computer science.
-
-## HOW DOES CODING EXPERTISE HELP RACE ENGINEERS?
-
-Surprise! The world of professional car racing, like the rest of the world, is an increasingly digital one. Race engineers code and utilize software to connect to the sensors and recorders on the car, configure dashboard displays, set alarms, and more. Race engineers also need to be able to pull data from the car’s systems after every race and analyze it with the factory to determine how best to improve the car’s speed and overall performance.
+In addition to soft skills like communication, problem-solving, and speed of learning, proficiency in cyber programming languages like C/C++, Java, Python, Go, and Ruby, is a huge advantage for potential cybersecurity professionals.
 
 Keep an eye out in the coming weeks and months for more blogs in the Coding Career Spotlight series. You might be surprised to learn about all of the professional paths that open up with a coding education!
