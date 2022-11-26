@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-10-01T15:02:31.456Z
 description: Celebrate Halloween with scary STEM fun!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/halloween-stem-activities.png
   alt: Halloween STEM tile
