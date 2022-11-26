@@ -41,7 +41,7 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: CS has helped unlock mysteries in math and medicine, it’s been used
+    mdContent: CS has helped unlock mysteries in math and medicine; it’s been used
       to create art. CS built your phone, the internet, your favorite games,
       movies, and tv shows. CS helped us eradicate diseases and enables us to
       explore the depth of space. CS helps us imagine ancient civilizations and
