@@ -12,64 +12,64 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Scary Slime
+      ## KiwiCo Tinker Crates
 
 
-      *Ages: 4-8*
+      *Ages: 0-18*
 
 
-      This [hands-on activity](https://www.education.com/activity/article/spooky-slime/) is perfect for tactile learners, and it can also provide a welcome break from the overwhelm of Halloween candy. Get (manageably) messy and get creative with sparkles, slime, glitter, and googly eyes as you concoct supernatural slime!
+      [Tinker Crates](https://www.kiwico.com/tinker) aren’t just another science kit. In every box, they create “low threshold, high ceiling” projects, so they’re accessible and fun for all types of learners. Not to mention, they provide fun ways to expose bright, curious kids to STEM concepts that they otherwise wouldn’t encounter in school for years!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Frankenworms
+      ## Switcheroo Coding Crew
 
 
-      *Ages: 4-8*
+      *Ages: 3-4*
 
 
-      This simple [experiment](https://www.playdoughtoplato.com/kids-science-dancing-frankenworms/) uses baking soda and vinegar to make gummy worms come alive and dance right in front of your eyes! It’s a particularly big hit with kids who love creepy-crawlies.
+      With simple buttons sized for little hands, the [Switcheroo Coding Crew](https://www.thetoyinsider.com/toys/switcheroo-coding-crew/) help preschoolers learn early programming concepts without a moment of screen time. Design endless coding challenges with the included interactive town playset.
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Volcano
+      ## Dash & Dot, Programmable Robots
 
 
-      *Ages: 5-11*
+      *Ages: 5-14*
 
 
-      Have an explosive Halloween with this cool at-home [chemistry experiment](https://thestemlaboratory.com/pumpkin-volcano/)! We recommend stocking up on a few pumpkins – your kids will want to run this experiment again and again.
+      BB-8 better watch its back, because it’s got some cute competition. [Dash and Dot](https://www.makewonder.com/), the programmable robots, are award-winning Toys of the Year and are beloved by kids and teachers around the world. Kids can program these smart bots to move, sing, dance, flash their lights, respond to voices, make sounds, and even tell a story.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Bone Bridge
+      ## Snap Circuits
 
 
-      *Ages: 11-14*
+      *Ages: 5-14*
 
 
-      An engineering challenge with a [scary twist](https://www.youtube.com/watch?v=GucNGwQTGfM)? You don’t say! Get your young maker thinking about bridge design this Halloween season.
+      [Snap Circuits](https://www.elenco.com/snap-circuits-2/) teach basic engineering, electronics and circuitry concepts by using building components with snaps to assemble electronic circuits on a simple “rows-and-columns” base grid. Future engineers can build a huge variety of projects like radios, digital voice recorders, burglar alarms, doorbells and other awesome circuitry.
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Creepy Density Tower
+      ## Osmo Coding Starter Kit
 
 
-      *Ages: 11-14*
+      *Ages: 5-7*
 
 
-      Concoct a gooey tiered potion to tangibly demonstrate the properties of density in this creepy [liquid layers](https://www.science-sparks.com/creepy-density/) challenge!
+      With the [Osmo Coding Starter Kit](https://www.thetoyinsider.com/toys/osmo-coding-starter-kit/), kids learn basic to complex coding concepts by manipulating physical game pieces to create music, solve puzzles, and more in three app-based games.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -97,4 +97,4 @@ pageBuilder:
 tags:
   - Halloween
 ---
-Halloween is a perfect time of year for kids to embrace their inner mad scientists. Check out these ten ideas for ways to fill your home or classroom with skeletal, creepy-crawly, ghastly and ghoulish STEM fun.
+Anyone who has ever watched a toddler methodically take apart a Tupperware drawer should know that many children are natural-born engineers. As parents, teachers, and caretakers, we get to nurture their creativity — and clean up the mess afterward. Wrap up a few of these STEM toys for your future scientist to craft, tinker with, dismantle, or program. Hopefully, they'll thank you for the early encouragement when they're older.
