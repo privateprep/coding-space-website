@@ -15,81 +15,39 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Corn
+      ## CS +Music
 
 
-      *Ages: 4-8*
-
-
-      With a few ingredients from your kitchen, you can make corn dance in a [magical chemistry experiment.](https://littlebinsforlittlehands.com/dancing-corn-thanksgiving-science-activity/)
+      As the Beatles were walking Abbey Road and the Rolling Stones were licking their way to chart-topping heights, brilliant innovations in computer science (like sampling, sequencing, and digital drum kits) surfaced that gave rise to new genres like hip-hop and EDM while altering the trajectory of music itself. For example, the development of [Musical Instrument Digital Interface](https://blog.landr.com/what-is-midi/) (MIDI) made it possible for any musician with a computer to become their own producer. Prior to MIDI, the recording process required a sound booth, session musicians, mixers and other expensive features. But with the trusty MIDI, a single musician can sing, accompany themselves, and mix multiple tracks together to produce a polished recording using only a computer, a mic, and digital recording software.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Iroquois Wampum Coding
+      ## CS + Literature
 
 
-      *Ages: 4-10*
-
-
-      Teach the basics of coding with the help of Indigenous techniques! In this [coding activity](https://stemgeek.com/native-american-stem-activities/), kids use beads to represent letters of the alphabet and create coded messages.
+      Computer science has come to the rescue of priceless, aging texts that are often browned, splotchy, or cut off at the margins. Enthusiastic readers are frustrated by the “[black dot problem](https://www.sciencedaily.com/releases/2015/12/151223164854.htm)”, where, over centuries of translations, illegible characters have been replaced by black dots — so the word "love," for example, might show up as "lo•e." Now, thanks to language modeling and machine learning, computers can evaluate nearby characters and make replacement suggestions for black dots, which drastically reduces time and labor and is producing extremely high-quality transcriptions of aging literary treasures!
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Cranberry Structures
+      ## CS + Medicine
 
 
-      *Ages: 4-8*
-
-
-      Before you turn those cranberries into sauce, try this [engineering challenge](https://www.mcstemacademy.org/simple-fun-cranberry-structures/) with your kids first.
+      Development of new medicines, medical equipment manufacturing, and even how diseases are identified have seen massive improvements in recent years due to computer science. Even more exciting, computer technology (and especially CS-gathered data from the [Human Genome Project](https://www.genome.gov/human-genome-project)) has given rise to the promising field of personalized medicine, which uses an individual’s genetic profile to guide decisions made in regard to the prevention, diagnosis, and treatment of disease.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## Solubility Turkeys
-
-
-      *Ages: 4-8*
-
-
-      With coffee filters, clothespins, and a few basic craft supplies, not only will you have [adorable decorative turkeys](https://littlebinsforlittlehands.com/coffee-filter-turkey/) – you’ll also be giving your child a lesson in solubility!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: >-
-      ## Sweet Potato Clock
-
-
-      *Ages: 9-13*
-
-
-      A [giving-season twist](https://study.com/academy/lesson/how-to-make-a-potato-clock-science-project.html) on a classic at-home STEM experiment! Learn about electrochemistry and alternative power.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## Cranberry Invisible Ink
-
-
-      *Ages: 3-16*
-
-
-      Who knew cranberries could make your tummy AND your mind happy? Use extra cranberry sauce to craft invisible ink. Is it magic? Nope! It’s just [science](https://www.kiwico.com/diy/stem/crazy-chemistry/cranberry-invisible-messages).
-  - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
-    textColor: "#264548"
-    mdContent: PS. When Thanksgiving break comes to a close, don’t forget to keep
-      the STEM fun rolling by signing up for one of our [fall coding
-      classes](https://www.thecodingspace.com/classes).
+    mdContent: CS has helped unlock mysteries in math and medicine, it’s been used
+      to create art. CS built your phone, the internet, your favorite games,
+      movies, and tv shows. CS helped us eradicate diseases and enables us to
+      explore the depth of space. CS helps us imagine ancient civilizations and
+      build the cities of the future. CS is everywhere, and we’re discovering
+      new uses for it every day.
 tags:
-  - Thanksgiving
+  - CSEdWeek
 ---
 Happy Computer Science Education Week! This year’s theme is #CSEverywhere, honoring the impact of computer science in a boggling array of industries, career paths, subjects, and everyday activities. In honor of #CSEdWeek 2022, we’ve gathered 3 surprising ways that computer science has catalyzed innovation EVERYWHERE.
