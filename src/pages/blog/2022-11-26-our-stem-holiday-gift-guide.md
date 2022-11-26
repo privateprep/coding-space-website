@@ -75,26 +75,50 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Pumpkin Bath Bombs
+      ## Sphero Bolt Coding Robot
 
 
-      *Ages: 14-17*
+      *Ages: 7-18*
 
 
-      Self care? More like self-SCARE. Mix up a [Halloween bath bomb](https://helloglow.co/halloween-bath-bombs/) with your teenager using turmeric, baking soda, and more.
+      [Sphero](https://sphero.com/collections/all/products/sphero-bolt) is a tiny robot with a big personality. It comes with many different sensors, and can be programmed entirely by your child using either straightforward block-coding language or Javascript. Introduce your child to coding, robotics, and engineering with a spherical buddy!
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Ghost Rockets
+      ## VR Science Experiments
 
 
-      *Ages: 14-17*
+      *Ages: 8-12*
 
 
-      Use a spin on the old mentos-and-Diet-Coke trick to make [flying ghost rockets](https://www.growingajeweledrose.com/2013/09/ghost-rockets-halloween-activity.html)! You can even run several “trials” of this experiment, varying the ingredients to see how the flight patterns are affected.
+      [Abacus Brands](https://www.abacusbrands.com/collections/all#) has invented toys that teach STEM through Virtual Reality! Using a simple set of VR goggles, kids can explore the solar system, learn the science of cooking, or even get a lesson from everyone’s favorite TV scientist, Bill Nye.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Architect Electronic Smart House
+
+
+      *Ages: 8-15*
+
+
+      With the [Architect Electronic Smart House](https://fatbraintoys.com/toy_companies/smartlab/architech_electronic_smart_house.cfm), kids can design, build, and electrify! After building a custom structure with snap-together baseboards and wall/floor panels, your child can make their dream home come to life with wires, switches, lights, noisemakers, and more.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Trial Coding Class at The Coding Space
+
+
+      *Ages: 6-17*
+
+
+      Gift a [trial coding class](https://www.thecodingspace.com/sign_up/classes/1770?trial_class=true) at The Coding Space to your curious coder. Our coding classes bring students together each week to make progress on individual projects, dive into hands-on activities, and explore opportunities for self-expression. [The Coding Space](https://www.thecodingspace.com/) is the leading provider of coding education in NYC and has been recognized in Time Out, Nickelodeon, Good Morning America, and more.
 tags:
-  - Halloween
+  - Holidays
 ---
 Anyone who has ever watched a toddler methodically take apart a Tupperware drawer should know that many children are natural-born engineers. As parents, teachers, and caretakers, we get to nurture their creativity — and clean up the mess afterward. Wrap up a few of these STEM toys for your future scientist to craft, tinker with, dismantle, or program. Hopefully, they'll thank you for the early encouragement when they're older.
