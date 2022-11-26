@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Our STEM Holiday Gift Guide
 titleColor: "#264548"
-bgColor: "#eec11a"
+bgColor: "#9de2dd"
 date: 2022-12-01T15:40:10.601Z
 description: Handpicked gifts to inspire a love of coding
 featuredPost: true
