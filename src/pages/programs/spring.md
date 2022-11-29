@@ -53,7 +53,7 @@ pageBuilder:
       **Build Friendships and Coding Skills in a Supportive Setting**
 
 
-      Our weekly after-school coding classes are offered in person or online for ages 6-17. Students will tackle unique coding challenges and progress over the course of a semester, building problem solving and critical thinking skills as they tackle unique coding challenges.
+      Our weekly after-school coding classes are offered in person or online for ages 6-17. Students will tackle unique coding challenges and progress over the course of a semester, building problem solving and critical thinking skills along the way.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
