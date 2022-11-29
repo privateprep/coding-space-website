@@ -26,11 +26,11 @@ details:
   sellingPoints:
     - Open-Ended Projects
     - Pair Programming
-  mdContent: s will take a deep dive into programming in our High School
-    accelerator program. They’ll start off with instructional support on a
-    sequence of challenge projects. Midway through the course, students will
-    choose open-ended projects that combine the skills they’ve learned to work
-    on for the duration of the semester. They’ll be encouraged to pair up with
-    other students, providing an authentic team setting for students to
-    collaborate and pair-program on software projects of their creation
+  mdContent: Students will work in several languages depending on their
+    experience. Beginners will learn JavaScript, the language of the web,
+    through creating projects in WoofJS, our JavaScript learning platform.
+    Intermediate coders will learn to build web-based games and applications in
+    JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into
+    advanced JavaScript or work in Python, Java, or another text-based language
+    of their choosing.
 ---
