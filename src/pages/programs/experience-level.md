@@ -26,18 +26,10 @@ pageBuilder:
       ## **Experience Levels**
 
 
-      Whether your child is new to coding or already building their own games
-      and websites, our coding classes will promote their growth within a safe,
-      supportive environment. By challenging students at their individual level
-      to create projects as unique as they are, we underscore the power of
-      personalized learning. 
+      Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
 
 
-      While our classes are tailored to each of the four experience levels
-      below, our student-centered approach creates a fully personalized
-      education experience, allowing students to be challenged at their
-      individual level and pace. No matter where they’ve started, we’re here to
-      help them get where they want to go.
+      While our classes are tailored to each of the four experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
@@ -52,12 +44,7 @@ pageBuilder:
           #### Ages 6-8, co-ed
 
 
-          For young and first-time coders, we focus on fostering a welcoming and
-          creative learning environment where students will develop a fluency
-          with technology and start forming crucial computational thinking
-          patterns. Students learn through specially curated activities in
-          Code.org and ScratchJr, and advance into building animations and games
-          in Scratch, a block-based programming language developed by MIT.
+          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop a fluency with technology and start forming crucial computational thinking patterns. Students learn through specially curated activities in Code.org and ScratchJr, and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
@@ -83,14 +70,13 @@ pageBuilder:
         textColor: "#264548"
         heading: "Students will:"
         mdContent: >-
-
+          
 
           * build logical thinking skills through block-based programming
 
           * create cool games and animations
 
-          * refine their computational thinking skills to tackle more complex
-          problems
+          * refine their computational thinking skills to tackle more complex problems
     rightComponent:
       - type: textOnly
         textAlign: left
@@ -103,17 +89,7 @@ pageBuilder:
           #### Ages 8-14, co-ed
 
 
-          In our Beginner course, we use Scratch challenge projects as our core
-          curriculum. By starting in Scratch, a block-based coding language, we
-          skip over the small syntactic details of text-based languages and cut
-          directly to the difficult part of coding: formulating one’s ideas into
-          a logical sequence of steps. Students can jump into this class with no
-          prior programming knowledge and in just a few hours build a
-          foundational understanding of core computer science concepts through
-          building games and animations. As they progress through this course,
-          they’ll continue to learn essential programming constructs and develop
-          a computational thought process that will prepare them for more
-          advanced material.
+          In our Beginner course, we use Scratch challenge projects as our core curriculum. By starting in Scratch, a block-based coding language, we skip over the small syntactic details of text-based languages and cut directly to the difficult part of coding: formulating one’s ideas into a logical sequence of steps. Students can jump into this class with no prior programming knowledge and in just a few hours build a foundational understanding of core computer science concepts through building games and animations. As they progress through this course, they’ll continue to learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
@@ -135,20 +111,14 @@ pageBuilder:
           #### Ages 8-14, co-ed
 
 
-          In our Intermediate course, students will create advanced projects in
-          Scratch, a block-based coding language and move onto text-based
-          programming in WoofJS, our JavaScript learning platform. WoofJS was
-          developed by The Coding Space to allow students to leverage their
-          existing Scratch knowledge and transition naturally into using HTML,
-          CSS, and JavaScript to make web-based projects. Students should come
-          in with an advanced understanding of Scratch.
+          In our Intermediate course, students will create advanced projects in Scratch, a block-based coding language and move onto text-based programming in WoofJS, our JavaScript learning platform. WoofJS was developed by The Coding Space to allow students to leverage their existing Scratch knowledge and transition naturally into using HTML, CSS, and JavaScript to make web-based projects. Students should come in with an advanced understanding of Scratch.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#264548"
         fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: |-
-
+          
 
           * create projects in Scratch and WoofJS
           * take a deeper dive into computer science concepts
@@ -185,15 +155,7 @@ pageBuilder:
           #### Ages 8-14, co-ed
 
 
-          In our Advanced course, students will learn JavaScript, the language
-          of the web, through creating advanced projects in WoofJS, our
-          JavaScript learning platform, and web-based games, animations, and
-          applications in JavaScript, HTML, and CSS. As students grow their
-          skills, they’ll rely less and less on our curricular guide rails and
-          move towards self-directed learning where they’ll work with front-end
-          and back-end technologies, experimenting with new languages like
-          Python or Java to bring their ideas to fruition. Students should come
-          in with experience in JavaScript or other text-based languages.
+          In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages like Python or Java to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
@@ -215,21 +177,14 @@ pageBuilder:
           **Ages 14-17, co-ed**
 
 
-          In our Teen Code course, students will work in several languages
-          depending on their experience. Beginners will learn JavaScript, the
-          language of the web, through creating projects in WoofJS, our
-          JavaScript learning platform. Intermediate coders will learn to build
-          web-based games and applications in JavaScript, HTML, and CSS. More
-          advanced coders will take a deeper dive into advanced JavaScript or
-          work in Python, Java, or another text-based language of their
-          choosing.
+          In our Teen Code course, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
         fgColor: "#264548"
         textColor: "#faf6ee"
         mdContent: |-
-
+          
 
           * Code in JavaScript, Python, and more
           * Use databases and APIs to build websites, games,  and apps
@@ -240,8 +195,8 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
-      - title: Join the Waitlist
-        content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
+      - title: Sign Up
+        content: /experience-levels/high-school-code/?class_location_ids%5B%5D=1
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
@@ -261,8 +216,7 @@ pageBuilder:
       image: /img/20190711-img_9252-1-.jpg
       alt: Find The Perfect Fit
     mediaPosition: right
-    mdContent:
-      Still unsure where your child should begin? Visit our classes page where
-      you can check your child's experience, interests, and skills.
+    mdContent: Still unsure where your child should begin? Visit our classes page
+      where you can check your child's experience, interests, and skills.
     fgColor: "#264548"
 ---
