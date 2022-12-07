@@ -15,25 +15,25 @@ pageBuilder:
     bgColor: "#264548"
     textColor: "#faf6ee"
     mdContent: |-
-      ## MASS METEOR
+      ## GIPHY SEARCH ENGINE
 
-      Use your lasers to clear space debris!
+      Find the perfect gif!
   - type: iframe
     bgColor: "#264548"
-    content: https://scratch.mit.edu/projects/664780801/embed
+    content: https://codepen.io/something_cool/full/bGKGxLR/embed
     ratio: ratio1x1
-    title: Mass Meteor
+    title: Giphy Search engine
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: |-
-      ## FEED MAMA HEN
+      ## OWL DODGE
 
-      Gather the seeds and give them to mom!
+      Don't touch the bats!
   - type: iframe
     bgColor: "#faf6ee"
-    content: https://scratch.mit.edu/projects/682518063/embed
+    content: https://scratch.mit.edu/projects/630887029/embed
     ratio: ratio1x1
     title: Feed Mama Hen
   - type: textOnly
@@ -52,4 +52,4 @@ pageBuilder:
 tags:
   - ScratchWeek
 ---
-This year, May 16-20 is Scratch Week — a week set aside to celebrate Scratch, a block-based visual programming language that we use in all of our beginner classes! We love how Scratch provides a free coding platform for kids, allowing young coders to practice critical thinking, problem solving, and all kinds of technical programming skills. Check out three of our favorite recent TCS projects written in Scratch!
+This year, the second week of December is Computer Science Education Week — an annual call to action to inspire students to learn computer science and advocate for STEM equity! We're celebrating by doing a round-up of our coders' favorite projects, coded in Scratch, WoofJS, CodePen, and more. Scroll down to see what our coders have been dreaming up in our classes!
