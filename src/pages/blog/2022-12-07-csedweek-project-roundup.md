@@ -41,15 +41,41 @@ pageBuilder:
     bgColor: "#264548"
     textColor: "#faf6ee"
     mdContent: |-
-      ## THE TALE OF SUPER GOAT
+      ## CATCH THE APPLE
 
-      Watch and listen as Super Goat defeats his arch-nemesis!
+      Click the apple before it touches the ground!
   - type: iframe
     bgColor: "#264548"
-    content: https://scratch.mit.edu/projects/676100585/embed
+    content: https://woofjs.com/full.html#catch-the-apple-halloween1234/embed
     ratio: ratio1x1
-    title: The Tale of Super Goat
+    title: Catch the Apple!
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: |-
+      ## SPACE SHOOTER
+
+      Pew-pew the space monsters and protect your ship!
+  - type: iframe
+    bgColor: "#faf6ee"
+    content: https://scratch.mit.edu/projects/764460309/embed
+    ratio: ratio1x1
+    title: Space Shooter
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: |-
+      ## HUNGRY CRAB
+
+      Play a crustacean and gobble up tasty fish!
+  - type: iframe
+    bgColor: "#264548"
+    content: https://woofjs.com/full.html#hungry-crab-----------------heheeheehhehehehehehee/embed
+    ratio: ratio1x1
+    title: Hungry Crab
 tags:
-  - ScratchWeek
+  - CSEdWeek
 ---
 This year, the second week of December is Computer Science Education Week — an annual call to action to inspire students to learn computer science and advocate for STEM equity! We're celebrating by doing a round-up of our coders' favorite projects, coded in Scratch, WoofJS, CodePen, and more. Scroll down to see what our coders have been dreaming up in our classes!
