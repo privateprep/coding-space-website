@@ -41,10 +41,11 @@ pageBuilder:
     textAlign: center
     bgColor: "#264548"
     textColor: "#faf6ee"
-    mdContent: |-
+    mdContent: >-
       ## HUNGRY CRAB
 
-      Play a crustacean and gobble up tasty fish!
+
+      Play a crustacean and gobble up tasty fish using your arrow keys! Click anywhere on the game screen to start playing.
   - type: iframe
     bgColor: "#264548"
     content: https://woofjs.com/full.html#hungry-crab-----------------heheeheehhehehehehehee/embed
@@ -54,10 +55,11 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: |-
+    mdContent: >-
       ## SPACE SHOOTER
 
-      Pew-pew the space monsters and protect your ship!
+
+      Pew-pew the space monsters and protect your ship! Use you mouse to point and shoot.
   - type: iframe
     bgColor: "#faf6ee"
     content: https://scratch.mit.edu/projects/764460309/embed
