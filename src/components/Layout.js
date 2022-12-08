@@ -96,12 +96,7 @@ const TemplateWrapper = ({ children }) => {
       title: "Contact Us",
       path: "/contact-us",
       subMenu: [],
-    },
-    {
-      title: "COVID Safety",
-      path: "/safety-policy/",
-      subMenu: [],
-    },
+    }
   ];
   const { title, description } = useSiteMetadata();
 
