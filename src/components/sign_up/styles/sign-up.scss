@@ -164,12 +164,6 @@
   font-style: italic;
 }
 
-.vaccine-card {
-  @include card;
-  background-color: var(--accent);
-  margin: 1rem;
-}
-
 .SignUp__container__form__actions button:first-of-type {
   order: 2;
 }

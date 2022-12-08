@@ -59,14 +59,6 @@ const requiredPhoneNumber = Yup.string()
   .required("Required");
 
 export const overviewFields = [
-  {
-    name: "vaccinated",
-    type: "hidden",
-    initialValue: "",
-    validator: Yup.mixed()
-      .oneOf(["yes"], "Vaccination required.")
-      .required("Please answer this question."),
-  },
   { name: "class_type_id", type: "hidden", initialValue: "" },
   { name: "price_shown_to_customer", type: "hidden", initialValue: "" },
   { name: "enrollment_type", type: "hidden", initialValue: "" },
