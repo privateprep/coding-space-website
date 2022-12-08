@@ -27,41 +27,16 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: |-
+    mdContent: >-
       ## OWL DODGE
 
-      Don't touch the bats!
+
+      Don't touch the bats! Use the arrow keys to get to the red edge of the screen.
   - type: iframe
     bgColor: "#faf6ee"
     content: https://scratch.mit.edu/projects/630887029/embed
     ratio: ratio1x1
     title: Feed Mama Hen
-  - type: textOnly
-    textAlign: center
-    bgColor: "#264548"
-    textColor: "#faf6ee"
-    mdContent: |-
-      ## CATCH THE APPLE
-
-      Click the apple before it touches the ground!
-  - type: iframe
-    bgColor: "#264548"
-    content: https://woofjs.com/full.html#catch-the-apple-halloween1234/embed
-    ratio: ratio1x1
-    title: Catch the Apple!
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: |-
-      ## SPACE SHOOTER
-
-      Pew-pew the space monsters and protect your ship!
-  - type: iframe
-    bgColor: "#faf6ee"
-    content: https://scratch.mit.edu/projects/764460309/embed
-    ratio: ratio1x1
-    title: Space Shooter
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
@@ -75,6 +50,19 @@ pageBuilder:
     content: https://woofjs.com/full.html#hungry-crab-----------------heheeheehhehehehehehee/embed
     ratio: ratio1x1
     title: Hungry Crab
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: |-
+      ## SPACE SHOOTER
+
+      Pew-pew the space monsters and protect your ship!
+  - type: iframe
+    bgColor: "#faf6ee"
+    content: https://scratch.mit.edu/projects/764460309/embed
+    ratio: ratio1x1
+    title: Space Shooter
 tags:
   - CSEdWeek
 ---
