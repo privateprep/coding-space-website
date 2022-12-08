@@ -11,7 +11,6 @@ import Wizard from "./Wizard";
 
 import PromoField from "./PromoField";
 import RewardsField from "./RewardsField";
-import FormikRadioButtonGroup from "./FormikRadioButtonGroup";
 
 import * as api from "./api";
 
@@ -20,7 +19,7 @@ const OverviewPage = ({
   enrollmentType,
   classTypeId,
   isTrialClass,
-  parentState: { setFieldValue, setSubmitting, values },
+  parentState: { setFieldValue, values },
 }) => {
   let startingPrice = !!overview ? Number(overview.base_price) : NaN;
   const [basePrice, setBasePrice] = useState(startingPrice);
@@ -41,24 +40,6 @@ const OverviewPage = ({
       setFieldValue("applied_rewards_amount", "");
     },
     [setFieldValue]
-  );
-
-  // set vaccinated status if online
-  useEffect(() => {
-    if (!!isOnline) setFieldValue("vaccinated", "yes");
-  }, [isOnline, setFieldValue]);
-
-  const customCheckVaccination = useCallback(
-    e => {
-      setFieldValue("vaccinated", e.target.value);
-      const value = e.target.value;
-      if (isOnline || value === "yes") {
-        setSubmitting(false);
-      } else if (e.target.value === "no") {
-        setSubmitting(true);
-      }
-    },
-    [isOnline, setFieldValue, setSubmitting]
   );
 
   const applyPromo = useCallback(
@@ -249,42 +230,6 @@ const OverviewPage = ({
                 </p>
               )}
             </div>
-            {!isOnline && (
-              <div className="vaccine-card">
-                <p>
-                  To maximize the safety of in-person classes, all students and
-                  instructors are required to be vaccinated.
-                </p>
-                <label htmlFor="vaccinated">
-                  Is your child fully vaccinated (2 doses) against COVID-19?
-                </label>
-                <FormikRadioButtonGroup
-                  name="vaccinated"
-                  options={[
-                    { label: "Yes", id: "yes" },
-                    {
-                      label: "No",
-                      id: "no",
-                    },
-                  ]}
-                  customOnChange={customCheckVaccination}
-                ></FormikRadioButtonGroup>
-                {values.vaccinated === "no" && (
-                  <p className="alert">
-                    <strong>
-                      All students must be vaccinated to attend in-person class.
-                      Please visit our{" "}
-                      <a href="/locations/online">online offerings here</a> or
-                      email us at{" "}
-                      <a href="mailto:admissions@thecodingspace.com">
-                        admissions@thecodingspace.com
-                      </a>{" "}
-                      with any detailed questions.
-                    </strong>
-                  </p>
-                )}
-              </div>
-            )}
             <div className="overview-page__row">
               <ul className="details">
                 <li>
