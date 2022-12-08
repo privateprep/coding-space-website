@@ -14,7 +14,6 @@ import {
   overviewFields,
   trialField,
   studentFields,
-  covidStudentFields,
   parentFields,
   billingFields,
   termFields,
@@ -37,7 +36,6 @@ const initialValues = isTrialClass => {
   const sharedFields = [
     overviewFields,
     studentFields,
-    covidStudentFields,
     parentFields,
     billingFields,
     termFields,
@@ -211,9 +209,9 @@ const SignUp = ({ classTypeId, location: { search } }) => {
         title="Student Profile"
         fields={
           isOnline
-            ? covidStudentFields
-            : filterFields(covidStudentFields, ["device_type"])
-        } // swap me with studentFields after covid
+            ? studentFields
+            : filterFields(studentFields, ["device_type"])
+        }
         onSubmit={"nextPage"}
         submitText={"Next »"}
       />
