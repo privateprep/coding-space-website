@@ -17,7 +17,7 @@ details:
   gender:
     - Co-ed.
   byline: For Mature Coders
-  experience: Ages 14-17
+  experience: Ages 13-17
   skills:
     - JavaScript
     - HTML
