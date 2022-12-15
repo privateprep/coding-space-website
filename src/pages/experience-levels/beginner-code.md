@@ -18,7 +18,7 @@ details:
   gender:
     - Co-ed.
   byline: For newer coders
-  experience: Ages 8-14
+  experience: Ages 8-13
   skills:
     - Scratch
     - Core Coding Concepts
