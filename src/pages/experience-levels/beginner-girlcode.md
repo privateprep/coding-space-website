@@ -17,7 +17,7 @@ details:
   gender:
     - GirlCode
   byline: For New Coders
-  experience: Ages 8-14
+  experience: Ages 8-13
   skills:
     - Scratch
     - Core Coding Concepts
