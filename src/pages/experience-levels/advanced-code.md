@@ -18,7 +18,7 @@ details:
   gender:
     - Co-ed.
   byline: For coders with experience in text-based languages
-  experience: Ages 8-14
+  experience: Ages 8-13
   skills:
     - JavaScript
     - HTML
