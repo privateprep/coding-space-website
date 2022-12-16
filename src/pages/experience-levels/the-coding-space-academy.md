@@ -19,7 +19,7 @@ details:
   gender:
     - Co-ed.
   byline: Monday - Friday, Two-Week Intensive
-  experience: Ages 14-17
+  experience: Ages 13-17
   skills:
     - HTML
     - CSS
