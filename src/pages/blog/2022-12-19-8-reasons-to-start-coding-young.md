@@ -60,13 +60,10 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Cranberry Invisible Ink
+      ## 6. Coding sparks creativity
 
 
-      *Ages: 3-16*
-
-
-      Who knew cranberries could make your tummy AND your mind happy? Use extra cranberry sauce to craft invisible ink. Is it magic? Nope! It’s just [science](https://www.kiwico.com/diy/stem/crazy-chemistry/cranberry-invisible-messages).
+      Coding nurtures creativity by teaching kids that they can start with nothing and finish with something amazing. In the non-digital world, creativity can be limited by materials, like ingredients when we cook or the size of the canvas when we paint. But coding takes place in the virtual world, where the only restriction is the child’s imagination.
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
