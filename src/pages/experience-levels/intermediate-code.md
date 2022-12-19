@@ -17,7 +17,7 @@ details:
   gender:
     - Co-ed.
   byline: Some Experience Required
-  experience: Ages 8-14
+  experience: Ages 8-13
   skills:
     - Scratch
     - JavaScript
