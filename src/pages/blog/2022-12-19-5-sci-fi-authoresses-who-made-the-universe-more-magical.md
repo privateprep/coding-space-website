@@ -68,13 +68,19 @@ pageBuilder:
 
       Margaret Atwood is probably most famous for her novel *The Handmaid’s Tale*, but many of her other novels have predicted the future in their own ways. For example, in *Oryx & Crake*, she imagines a world in which scientists can engineer bioluminescence in organisms — a technique that currently proliferates among researchers studying gene expression and more — as well as some technology that is currently in the making, like “smart clothes” (shirts that can display your email!)
   - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
+    textAlign: center
+    bgColor: "#eec11a"
     textColor: "#264548"
-    mdContent: Want to learn more about the many Hispanics who have advanced
-      technology across the globe? Check out the official
-      [website](https://www.hispanicheritagemonth.gov/) of Hispanic Heritage
-      Month!
+    mdContent: "![NK Jemisin](/img/sci-fi-day-2023.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#eec11a"
+    textColor: "#264548"
+    mdContent: >-
+      ## NK Jemisin
+
+
+      Because NK Jemisin is a contemporary powerhouse in the science fiction world, the stuff of her novels still seems like magic to readers — but not for long. We’re positive that the richly detailed, visionary world of her celebrated *Broken Earth* trilogy (which incidentally warns against technological hubris) has plentiful details that are already inspiring today’s brightest STEM minds, from floating crystal obelisks to the genetic ability to sense ecological disasters.
 tags: []
 ---
 Did you know that the creator of the cell phone—[Martin Cooper](https://research.asu.edu/science-fiction-shaping-future)—says he got the idea from Star Trek? Or that the inventor of the helicopter cites science fiction author and legend Jules Verne as his inspiration?
