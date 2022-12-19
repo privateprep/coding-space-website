@@ -86,7 +86,7 @@ pageBuilder:
           ## **Beginner** Code
 
 
-          #### Ages 8-14, co-ed
+          #### Ages 8-13, co-ed
 
 
           In our Beginner course, we use Scratch challenge projects as our core curriculum. By starting in Scratch, a block-based coding language, we skip over the small syntactic details of text-based languages and cut directly to the difficult part of coding: formulating one’s ideas into a logical sequence of steps. Students can jump into this class with no prior programming knowledge and in just a few hours build a foundational understanding of core computer science concepts through building games and animations. As they progress through this course, they’ll continue to learn essential programming constructs and develop a computational thought process that will prepare them for more advanced material.
@@ -96,7 +96,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?experiences[]=First-Time%20or%20Beginner%20Coders
+        content: /classes?sellingPoints[]=Block-Based%20Coding
   - type: sideBySide
     bgColor: "#264548"
     leftComponent:
@@ -108,7 +108,7 @@ pageBuilder:
           ## **Intermediate**
 
 
-          #### Ages 8-14, co-ed
+          #### Ages 8-13, co-ed
 
 
           In our Intermediate course, students will create advanced projects in Scratch, a block-based coding language and move onto text-based programming in WoofJS, our JavaScript learning platform. WoofJS was developed by The Coding Space to allow students to leverage their existing Scratch knowledge and transition naturally into using HTML, CSS, and JavaScript to make web-based projects. Students should come in with an advanced understanding of Scratch.
@@ -152,7 +152,7 @@ pageBuilder:
           ## **Advanced Code**
 
 
-          #### Ages 8-14, co-ed
+          #### Ages 8-13, co-ed
 
 
           In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages like Python or Java to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
@@ -162,7 +162,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?experiences[]=Advanced
+        content: /classes?sellingPoints[]=Self-Directed%20Learning
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
@@ -174,7 +174,7 @@ pageBuilder:
           # Teen Code
 
 
-          **Ages 14-17, co-ed**
+          **Ages 13-17, co-ed**
 
 
           In our Teen Code course, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
