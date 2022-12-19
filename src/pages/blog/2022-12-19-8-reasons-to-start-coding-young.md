@@ -12,16 +12,13 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Dancing Corn
+      ## 1. Coding boosts problem-solving skills
 
 
-      *Ages: 4-8*
-
-
-      With a few ingredients from your kitchen, you can make corn dance in a [magical chemistry experiment.](https://littlebinsforlittlehands.com/dancing-corn-thanksgiving-science-activity/)
+      Coders are constantly asked to solve tricky problems, learning to tackle complex or novel challenges in creative, efficient ways. The process of coding requires young STEM-heads to break issues down into more manageable sub-problems, then progress through an iterative process of identifying, prioritizing, and implementing solutions. Because of all this, kids start honing their problem-solving skills as soon as they take on their first coding challenge.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
