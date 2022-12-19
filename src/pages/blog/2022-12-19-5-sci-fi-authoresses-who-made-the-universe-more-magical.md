@@ -15,16 +15,16 @@ pageBuilder:
     textAlign: center
     bgColor: "#eec11a"
     textColor: "#264548"
-    mdContent: "![Guillermo Gonzalez Camarena](/img/hhm-2022-2.png)"
+    mdContent: "![Mary Shelley](/img/sci-fi-day-2023-mary-shelley.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## The color television
+      ## Mary Shelley
 
 
-      Ever wondered how color first appeared on television screens? Well, the answer involves the "[Chromoscopic Adapter](https://artsandculture.google.com/story/the-original-patent-for-color-television-explained/uQJyulIPRfmyJw)" for television devices, created by the Mexican engineer [Guillermo González Camarena](https://en.wikipedia.org/wiki/Guillermo_Gonz%C3%A1lez_Camarena) in 1940. This simple, ingenious adaptor allowed for the transmission and reception of color images, and it was compatible with any of the black and white television sets of the time. In 1963, Camarena saw his invention succeed with the first color television broadcast. And in 1979, NASA [used the mechanism](https://twitter.com/uspto/status/1040691737449168898?s=20) to transmit images from [Jupiter](https://voyager.jpl.nasa.gov/mission/science/jupiter/)!
+      Considered by many to be the founder of science fiction, Mary Shelley is widely known for penning the monster masterpiece *Frankenstein*. In that novel, she details the use of electricity to animate a lifeless creature. This plot feature was partially inspired by Shelley’s interest in experiments in galvanism (electrical resuscitation); her novel popularized those scientific efforts, which (much later) led to the invention of the defibrillator.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -75,8 +75,7 @@ pageBuilder:
       technology across the globe? Check out the official
       [website](https://www.hispanicheritagemonth.gov/) of Hispanic Heritage
       Month!
-tags:
-  - HispanicHeritageMonth
+tags: []
 ---
 Did you know that the creator of the cell phone—[Martin Cooper](https://research.asu.edu/science-fiction-shaping-future)—says he got the idea from Star Trek? Or that the inventor of the helicopter cites science fiction author and legend Jules Verne as his inspiration?
 
