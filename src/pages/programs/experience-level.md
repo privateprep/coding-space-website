@@ -130,7 +130,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?experiences[]=Some%20Experience%20Required
+        content: /classes?skills[]=Web%20Design
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
