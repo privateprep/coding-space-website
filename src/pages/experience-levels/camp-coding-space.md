@@ -18,7 +18,7 @@ details:
   gender:
     - Co-ed.
   byline: First-Time Through Advanced
-  experience: Ages 8-14
+  experience: Ages 8-13
   skills:
     - Scratch
     - JavaScript
