@@ -57,16 +57,16 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Luis von Ahn](/img/hhm-2022-5.png)"
+    mdContent: "![Margaret Atwood](/img/margaret-atwood.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## CAPTCHA codes
+      ## Margaret Atwood
 
 
-      You know when you’re making a purchase or entering a website, and that website gives you some crazy jumbled letters to transcribe? Those crazy letter and number codes are called [CAPTCHA](https://captcha.org/), and they are essentially a way to check if the person trying to register is a live human being as opposed to a computer program attempting to spam the site. CAPTCHA stands for “Completely Automated Public Turing test to tell Computers and Humans Apart” and was invented in 2000 in part by Guatemalan computer science professor [Luis Von Ahn](https://en.wikipedia.org/wiki/Luis_von_Ahn). Von Ahn is also the CEO and co-founder of [Duolingo](https://www.duolingo.com/)!
+      Margaret Atwood is probably most famous for her novel *The Handmaid’s Tale*, but many of her other novels have predicted the future in their own ways. For example, in *Oryx & Crake*, she imagines a world in which scientists can engineer bioluminescence in organisms — a technique that currently proliferates among researchers studying gene expression and more — as well as some technology that is currently in the making, like “smart clothes” (shirts that can display your email!)
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
