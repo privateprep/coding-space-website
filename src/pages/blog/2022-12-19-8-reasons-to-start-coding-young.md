@@ -24,25 +24,19 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Iroquois Wampum Coding
+      ## 2. Coding improves computational thinking
 
 
-      *Ages: 4-10*
-
-
-      Teach the basics of coding with the help of Indigenous techniques! In this [coding activity](https://stemgeek.com/native-american-stem-activities/), kids use beads to represent letters of the alphabet and create coded messages.
+      Most kids are never taught the underlying logical principles of math, or shown math’s broader applicability in the wide, wonderful world. So, to them, math can seem boring, overly abstract, and unrelatable. One of the great things about coding is that, while kids don’t need to be math experts to get started, they will naturally learn mathematical principles as they code — a mindset we like to call “computational thinking.” Coding allows kids to interact with and visualize the abstract principles of math, instead of just engaging with dry, intimidating digits on paper.
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Cranberry Structures
+      ## 3. Coding teaches communication skills
 
 
-      *Ages: 4-8*
-
-
-      Before you turn those cranberries into sauce, try this [engineering challenge](https://www.mcstemacademy.org/simple-fun-cranberry-structures/) with your kids first.
+      Because computers can only understand direct, simple instructions, tinkering with code naturally develops your ability to express yourself clearly & concisely. In fact, learning to code has many of the cognitive benefits of learning a new language!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
