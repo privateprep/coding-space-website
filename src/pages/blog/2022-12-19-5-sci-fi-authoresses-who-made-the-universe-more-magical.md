@@ -81,6 +81,13 @@ pageBuilder:
 
 
       Because NK Jemisin is a contemporary powerhouse in the science fiction world, the stuff of her novels still seems like magic to readers — but not for long. We’re positive that the richly detailed, visionary world of her celebrated *Broken Earth* trilogy (which incidentally warns against technological hubris) has plentiful details that are already inspiring today’s brightest STEM minds, from floating crystal obelisks to the genetic ability to sense ecological disasters.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: Want to know more about the link between literature and STEM? Check
+      out our blog on the [benefits of reading for
+      coders](https://www.thecodingspace.com/blog/2022-08-01-reading-a-novel-approach-to-code/).
 tags: []
 ---
 Did you know that the creator of the cell phone—[Martin Cooper](https://research.asu.edu/science-fiction-shaping-future)—says he got the idea from Star Trek? Or that the inventor of the helicopter cites science fiction author and legend Jules Verne as his inspiration?
