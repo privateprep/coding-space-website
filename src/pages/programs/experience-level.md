@@ -196,7 +196,7 @@ pageBuilder:
     textColor: "#faf6ee"
     list:
       - title: Sign Up
-        content: /experience-levels/high-school-code/?class_location_ids%5B%5D=1
+        content: /experience-levels/high-school-code
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
