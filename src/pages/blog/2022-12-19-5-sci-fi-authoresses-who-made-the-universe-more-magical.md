@@ -43,16 +43,16 @@ pageBuilder:
     textAlign: center
     bgColor: "#eec11a"
     textColor: "#264548"
-    mdContent: "![Manuel Garcia](/img/hhm-2022-4.png)"
+    mdContent: "![Octavia Butler](/img/sci-fi-day-2023-butler.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## The laryngoscope
+      ## Octavia Butler
 
 
-      If you’ve ever taken a voice lesson or had a bad cough that wouldn’t go away, you may have undergone a [laryngoscopy](https://www.webmd.com/oral-health/what-is-laryngoscopy) – and you have Spanish singer & voice teacher [Manuel García](https://www.entandaudiologynews.com/features/ent-features/post/manuel-patricio-rodriguez-garcia-1805-1906-the-inventor-of-the-laryngoscope-and-world-renowned-singing-teacher) to thank for inventing the tech that makes a laryngoscopy possible! In 1854, García’s invention used mirrors and external light to make it possible for doctors to view a functioning human voice box in action.
+      A multiple recipient of the Hugo Award, Nebula Award, and MacArthur Genius Grant, Octavia Butler’s *Parable of the Sower* and *Parable of the Talents* have been widely recognized for their eerie prescience in predicting contemporary social, ecological, and technological movements — including global warming, the massive influence of tech conglomerates, and the rise of populism in government.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
