@@ -42,25 +42,19 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Solubility Turkeys
+      ## 4. Coding builts grit
 
 
-      *Ages: 4-8*
-
-
-      With coffee filters, clothespins, and a few basic craft supplies, not only will you have [adorable decorative turkeys](https://littlebinsforlittlehands.com/coffee-filter-turkey/) – you’ll also be giving your child a lesson in solubility!
+      Grit is the strongest indicator of which kids will succeed in their education and professional careers, and coding is an excellent way to help your child develop grit. When kids start tackling coding tasks, they will inevitably fail — over and over again. But our coding teachers help young coders stick to it, developing resilience of spirit and mind in the face of hardship. After all, you can’t complain, whine, or negotiate your way out of a problem with a computer: instead, you have to use logic, creativity, and deductive reasoning. Coding builds grit and confidence, because it teaches kids that most problems can be solved if they just keep trying!
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Sweet Potato Clock
+      ## 5. Coding encourages brain development
 
 
-      *Ages: 9-13*
-
-
-      A [giving-season twist](https://study.com/academy/lesson/how-to-make-a-potato-clock-science-project.html) on a classic at-home STEM experiment! Learn about electrochemistry and alternative power.
+      You can't train a brain in a day, or even over the 4 years of high school. The ideas a child most successfully integrates are those from their early, and ongoing, encounters, when their brain is most “plastic”. Put simply, our brains build increasingly complex structures on top of existing, simpler structures. Exposure to programming at an early age builds these first structures, improving the brain's natural tendency for language and logic and providing a higher platform for future knowledge.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
