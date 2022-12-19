@@ -66,13 +66,34 @@ pageBuilder:
       Coding nurtures creativity by teaching kids that they can start with nothing and finish with something amazing. In the non-digital world, creativity can be limited by materials, like ingredients when we cook or the size of the canvas when we paint. But coding takes place in the virtual world, where the only restriction is the child’s imagination.
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: PS. When Thanksgiving break comes to a close, don’t forget to keep
-      the STEM fun rolling by signing up for one of our [fall coding
-      classes](https://www.thecodingspace.com/classes).
-tags:
-  - Thanksgiving
+    mdContent: >-
+      ## 7. Coding teaches digital literacy
+
+
+      The ability to understand and engage with technology is a necessity for navigating an increasingly digitized society. In other words, kids need to be digitally literate. Generally speaking, “digital literacy” refers to a person’s ability to understand and engage with technology in a thoughtful, meaningful way. Kids who are digitally literate know how to find, consume, create, and share digital content. They also understand the basics of Internet safety such as creating strong passwords, using privacy settings, and knowing what to share or not on social media. By learning to code at a young age, kids will come to intuitively understand the inner workings of digital applications, which will help them grasp the importance of safety, privacy, and critical thinking about digital content.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## 8. Coding benefits future career prospects
+
+
+      The Bureau of Labor Statistics reports that job openings for software developers are slated to [grow 21 percent between 2018 and 2028](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) — that’s more than four times the average rate for all careers. But even kids who aren’t interested in becoming full-time developers can still benefit professionally from learning a coding language or two. Programming savvy is valuable, regardless of your child’s educational background or job interest. In some cases, it may even be the capability that ultimately [boosts them above their job market competitors](https://careerbuzz.prosky.co/articles/how-relevant-programming-can-be-to-your-resume-and-interests)!
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: Even if your child doesn’t want to go into coding as an adult,
+      establishing a practice of coding early in life will help them build
+      highly-transferable cognitive skills. Of course, it's never too late to
+      benefit from learning to code, but those who start as young children have
+      a big head-start! Ready to get your child’s coding journey off the ground?
+      [Sign up](https://www.thecodingspace.com/classes) for one of our top-tier
+      coding programs today.
+tags: []
 ---
 In our increasingly digital world, lots of parents want their kids to become computer-literate — and why shouldn’t they? The question is, when should they start learning?
 
