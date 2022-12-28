@@ -3,13 +3,13 @@ templateKey: programs
 title: Summer
 titleColor: "#264548"
 seo:
-  title: Summer
+  title: Summer Coding Camps for Kids
   description: >
-    Beginning in June, these in person or live Zoom classes balance
-    project-based coding education with hands-on activities and opportunities to
-    create and explore at home. Students will make new friends near and far, all
-    while experiencing our signature 4:1 student to teacher ratio ensuring
-    personalized attention when they need it.
+    Beginning in June, our camps an classes balance project-based coding with
+    hands-on activities and opportunities to explore various STEM fields.
+    Students will make new friends and learn a ton, all while experiencing our
+    small student-to-teacher ratio ensuring personalized attention when they
+    need it.
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -19,7 +19,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      # 2022 Summer Offerings
+      # 2023 Summer Offerings
 
 
       ## June - August
@@ -47,7 +47,7 @@ pageBuilder:
       ### Learn to Code in Our Immersive Camps
 
 
-      Our in-person summer camp is back and better than ever! Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
+      Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -83,7 +83,7 @@ pageBuilder:
       alt: Summer Classes
     mediaPosition: right
     mdContent: >-
-      ## Summer Coding Classes For Kids
+      ## Summer Coding Classes 
 
 
       #### Evenings & Weekends All Summer Long
