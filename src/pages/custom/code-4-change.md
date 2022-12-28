@@ -13,22 +13,23 @@ pageBuilder:
     textAlign: center
     bgColor: ""
     textColor: "#264548"
-    mdContent: "## Registration is Open!"
+    mdContent: |-
+      ## C﻿ode 4 Change 2023
+
+      ### Stay tuned for more information in February!
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Register Now
-        content: https://code4change.thecodingspace.com/
+      - title: Get Notified
+        content: https://forms.gle/oSA4fcMrvdJ82GWw7
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
       fgColor: "#f6c924"
       textColor: "#264548"
-      list:
-        - title: Join the Challenge
-          content: https://code4change.thecodingspace.com/
+      list: []
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
@@ -65,11 +66,10 @@ pageBuilder:
           visuals, easy-to-follow instructions, simple rules, and an
           approachable pace.
       - title: When is Code 4 Change happening?
-        mdContent: "Code 4 Change: Build a Better World kicks off officially on Monday,
-          April 4th, but kids are invited to begin coding their projects as soon
-          as they sign up. Coders will have four weeks to code their projects
-          before turning them in by Thursday, May 5th. Voting begins Friday, May
-          6th."
+        mdContent: "Code 4 Change: Build a Better World kicks off officially in
+          May,  but kids are invited to begin coding their projects as soon as
+          they sign up. Coders will have four official weeks to code their
+          projects before turning them in for voting."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
@@ -94,13 +94,15 @@ pageBuilder:
 
           That’s why we’re empowering our students to put their ideas into action. How can we use code to distribute food to the hungry? To stop future pandemics? To support the pursuit of racial equity? Whether it’s on a local or global level, kids will have the chance to program prototypes of their creative solutions to real issues facing our world.
       - title: How will projects be judged?
-        mdContent: All completed projects will be hosted on the TCS website. Voting
-          opens on Friday, May 6th when participants will have the opportunity
-          to vote for Coders’ Choice. The TCS team will reveal this winner, as
-          well as winners in several technical categories chosen by our TCS
-          instructors, during a live virtual event on Monday, May 9th.
+        mdContent: All completed projects will be hosted on the TCS website. Everyone
+          will have the opportunity to vote for Coders’ Choice. The TCS team
+          will reveal this winner, as well as winners in several technical
+          categories chosen by our TCS instructors, during a live virtual event
+          in June.
       - title: How can kids get involved?
-        mdContent: Participating coders can [sign up
+        mdContent: Participating coders come back to this website to sign up in
+          February. Fill out the form at the top of our page to get notified
+          when registration opens![sign up
           here](https://code4change.thecodingspace.com) between Monday, February
           21st and Sunday, April 3rd.
       - title: How can parents help support their C4C coders?
@@ -126,13 +128,13 @@ pageBuilder:
         fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: >-
-          **February 21st - Registration Opens**
+          **March - Registration Opens**
 
 
-          Participants will have four weeks to work on their projects. Group projects are also encouraged.
+          Participants will have four official weeks to work on their projects but can start right away! Group projects are also encouraged.
 
 
-          **April 3rd - Registration Closes**
+          **April - Registration Closes**
 
 
           If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
@@ -142,19 +144,19 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#ffffff"
         mdContent: >-
-          **May 5th - Project Due**
+          **May - Projects Due**
 
 
           Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
 
 
-          **May 6th - Time to Vote**
+          **June - Time to Vote**
 
 
-          Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. Voting is open through May 7th.
+          Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. 
 
 
-          **May 9th - Watch the Finale**
+          **June - Watch the Finale**
 
 
           Winners will be announced live during a special virtual event!
@@ -235,7 +237,7 @@ pageBuilder:
       ### Prizes
 
 
-      Winners will be announced during a live virtual event on May 9th and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
+      Winners will be announced during a live virtual event in June and each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog. W﻿inners also will be awarded an official Code 4 Change certificate!
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
@@ -278,7 +280,7 @@ pageBuilder:
       All WoofJS projects are public. Just click the fullscreen button, then copy the URL in your browser’s bar. It will look like this one: <https://woofjs.com/full.html#c4cexample>
 
 
-      #### Codepen and Glitch
+      #### Other Platforms
 
 
       Just make sure to link to the public version of your project. If you have trouble figuring out how to do this, please just contact us at support@thecodingspace.com
