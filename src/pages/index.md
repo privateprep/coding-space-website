@@ -20,8 +20,8 @@ hero:
     list:
       - title: Spring Classes
         content: /programs/spring
-      - title: Winter Break Camp
-        content: /experience-levels/school-holiday-mini-camps/?semesters[]=Winter%20Camps%202022
+      - title: Summer Programs
+        content: /programs/summer/
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
