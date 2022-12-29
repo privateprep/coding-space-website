@@ -145,7 +145,7 @@ pageBuilder:
       ## Scholarships Available
 
 
-      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs.
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
