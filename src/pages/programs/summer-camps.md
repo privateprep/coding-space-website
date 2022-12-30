@@ -99,7 +99,7 @@ pageBuilder:
 
           **Drop Off:** 9:00 AM
 
-          **Pickup:** 3:30 PM
+          **Pickup:** 3:00 PM
 
           **Laptops:** Provided
 
@@ -117,7 +117,7 @@ pageBuilder:
 
           **Drop Off:** 9:00 AM
 
-          **Pickup:** 3:30 PM
+          **Pickup:** 3:00 PM
 
           **Laptops:** Provided
 
