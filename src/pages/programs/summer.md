@@ -32,7 +32,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Sign up
+        - title: Learn More
           content: /programs/summer-camps/
     textColor: "#264548"
     bgColor: "#faf6ee"
@@ -55,8 +55,8 @@ pageBuilder:
       fgColor: "#264548"
       textColor: "#faf6ee"
       list:
-        - title: Join the Waitlist
-          content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
+        - title: Learn More
+          content: /programs/the-coding-space-academy/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -75,7 +75,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Sign Up
-          content: /classes/?semesters[]=Summer%20Classes%202022
+          content: /locations
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
