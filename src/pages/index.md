@@ -90,18 +90,20 @@ differentiators:
       We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
-    name: Marta
-    age: 10
-    interests: "Interests: Coding!"
+    name: Hugo
+    age: 12
+    interests: "Interests: Basketball"
     image:
       image: /img/smily_face.svg
-      alt: Placeholder image for Marta
-    className: Intermediate Code
-    classUrl: /experience-levels/intermediate-code/
+      alt: Placeholder image for Hugo
+    className: Advanced Code
+    classUrl: /experience-levels/advanced-code/
   project:
-    description: Watch & listen as Super Goat defeats his arch nemesis!
-    title: The Tale of Super Goat
-    content: https://scratch.mit.edu/projects/676100585/embed
+    description: "Find that regular old Wordle isn't presenting much of a challenge
+      these days? Try this beast mode Wordle, coded by superstar Hugo in
+      JavaScript, that uses extra-hard words to stump even Wordle whizzes! "
+    title: Beast Mode Wordle
+    content: https://hugo-nelsons-wordle.xdpoppon.repl.co/
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
