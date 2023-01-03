@@ -18,19 +18,9 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      Our weekly group online coding classes for kids and teens balance screen
-      time with hands-on activities and opportunities to create and explore,
-      even in your own house. Students learn to code, while making new friends
-      near and far, all while experiencing a 4:1 student-to-ratio and
-      self-paced, project-based learning in Scratch, JavaScript, and more. 
-
-
-      Equipment:
-
-
-      Macs and Windows computers preferred. Sorry, no iPads. Computers must have working audio/video with ability to screen share.
-
-
-      Interested in private online lessons? [Contact us today](https://thecodingspace.com/contact-us).
+    mdContent: Our weekly group online coding classes for kids and teens balance
+      screen time with hands-on activities and opportunities to create and
+      explore, even in your own house. Students learn to code, while making new
+      friends near and far, all while experiencing a 4:1 student-to-ratio and
+      self-paced, project-based learning in Scratch, JavaScript, and more.
 ---
