@@ -20,7 +20,7 @@ pageBuilder:
     textColor: "#264548"
     mdContent: Our weekly group online coding classes for kids and teens balance
       screen time with hands-on activities and opportunities to create and
-      explore, even in your own house. Students learn to code, while making new
+      explore, even in your own house. Students learn to code while making new
       friends near and far, all while experiencing a 4:1 student-to-ratio and
       self-paced, project-based learning in Scratch, JavaScript, and more.
 ---
