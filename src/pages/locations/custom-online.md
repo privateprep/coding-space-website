@@ -16,7 +16,7 @@ contactInfo:
 pageBuilder:
   - type: textOnly
     textAlign: left
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: Our weekly group online coding classes for kids and teens balance
       screen time with hands-on activities and opportunities to create and
