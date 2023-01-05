@@ -52,11 +52,15 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: We at TCS build our curricula on our conviction that coding isn’t
-      just about writing lines & lines of code — it’s about learning to think
-      differently. It’s about honing your ability to shape vague concepts into
-      concrete steps towards solving a problem. Coding is good for your
+    mdContent: >-
+      We at The Coding Space build our curricula on our conviction that coding
+      isn’t just about writing lines & lines of code — it’s about learning to
+      think differently. It’s about honing your ability to shape vague concepts
+      into concrete steps towards solving a problem. Coding is good for your
       confidence, good for your future, and good for your brain!
+
+
+      Interested in leveraging the brainy benefits of coding for you or your child? Sign up for our [coding offerings](https://www.thecodingspace.com/classes) today.
 tags: []
 ---
 Happy World Brain Day! Today is all about promoting brain health, and we at TCS have just the ticket. That’s right: coding! But it isn’t only us who think so. Apple founder Steve Jobs himself said that “Programming teaches you how to think.”
