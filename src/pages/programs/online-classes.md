@@ -49,4 +49,36 @@ pageBuilder:
     mdContent: "## What Families Are Saying About The Coding Space"
   - type: sideBySide
     bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          “The Coding Space has opened up a whole new world for our daughter,
+          which was especially needed during this time when she couldn’t see
+          friends in person. Her Coding Space classes are the highlight of her
+          week and it’s so incredible to watch her progress.”
+
+
+          —Jill, NYC
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          “I was impressed by how much one-on-one feedback James received from
+          his teachers. I really liked the fact that the teachers didn't tell
+          him what to do, but rather encouraged him to problem solve on his
+          own.”
+
+
+          —Tricia, NYC
+
+
+          "The Coding Space is fun to me because they let me make up my own ideas, have fun doing the activities, and then share! I like the feedback that others share with me too! It's a place with a message of fun to me."
+
+
+          —Ellery, age 8
 ---
