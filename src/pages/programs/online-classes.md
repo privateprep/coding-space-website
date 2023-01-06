@@ -39,7 +39,14 @@ pageBuilder:
       * Learn to code!
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
-      * Balance screen time with hands-on activities.
+      * Balance screen time with shands-on activities.
       * Discover and define their personal passions.
       * Make friends and explore opportunities for teamwork.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## What Families Are Saying About The Coding Space"
+  - type: sideBySide
+    bgColor: "#faf6ee"
 ---
