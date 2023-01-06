@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Online Coding Classes for Kids and Teens
+title: Online Coding Classes
 titleColor: "#264548"
 seo:
   title: Online Coding Classes for Kids and Teens
@@ -20,8 +20,12 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/tcs-journey-infographic-rocket-.png
-      alt: Accessibility name
+      image: /img/shutterstock_1901713105-1-.jpg
+      alt: Online coding class
     mediaPosition: right
-    mdContent: "## T﻿he Coding Space Journey"
+    mdContent: >-
+      ## L﻿earn to code from anywhere
+
+
+      I﻿n our online coding classes, kids and teens learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, our teachers don't lecture; instead they ask targeted questions that lead students to figuring out solutions on their own. Using multiple screensharing and other specialized Zoom features, teachers are able to see every line of code students write and guide them along the way, providing a personalized and supportive environment in a 4:1 student-to-teacher setting.
 ---
