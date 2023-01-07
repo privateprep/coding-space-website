@@ -17,6 +17,9 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
+      list:
+        - title: Get Started
+          content: /locations/online
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -27,7 +30,7 @@ pageBuilder:
       ## L﻿earn to code from anywhere
 
 
-      I﻿n our online coding classes, kids and teens learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, our teachers never lecture; instead they ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects. Using multiple screensharing and other specialized Zoom features, teachers are able to see every line of code students write and guide them along the way, providing a personalized and supportive environment in a 4:1 student-to-teacher setting.
+      I﻿n our online coding classes, kids and teens learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, our teachers never lecture; instead they ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects. T﻿he Coding Space has been recognized in Time Out, Nickelodeon, Good Morning America, and more.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: left
