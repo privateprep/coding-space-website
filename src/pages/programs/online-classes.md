@@ -47,7 +47,7 @@ pageBuilder:
       * Make friends and explore opportunities for teamwork.
   - type: textOnly
     textAlign: center
-    bgColor: "#eec11a"
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: "## What Families Are Saying About The Coding Space"
   - type: sideBySide
@@ -90,4 +90,19 @@ pageBuilder:
 
 
           —Ellery, age 8
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: |-
+      ## Have questions?
+
+      Get in touch with our team to get your questions answered.
+  - type: buttons
+    bgColor: "#264548"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Get in Touch
+        content: /contact-us
 ---
