@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2022-11-18T22:13:48.890Z
-  mdContent: ""
+  mdContent: Don't miss our school holiday camps on Jan. 16th & Feb. 20-24! [Learn
+    more here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
