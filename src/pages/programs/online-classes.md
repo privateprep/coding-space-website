@@ -45,6 +45,13 @@ pageBuilder:
       * Balance screen time with hands-on activities.
       * Discover and define their personal passions.
       * Make friends and explore opportunities for teamwork.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Our Teaching Philosophy
+        content: /about-us/our-teaching-philosophy/
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
