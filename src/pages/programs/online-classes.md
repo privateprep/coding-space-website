@@ -50,7 +50,7 @@ pageBuilder:
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Our Teaching Philosophy
+      - title: About Our Classes
         content: /about-us/our-teaching-philosophy/
   - type: textOnly
     textAlign: center
