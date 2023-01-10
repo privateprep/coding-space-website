@@ -88,16 +88,4 @@ pageBuilder:
 
 
       Review our [Common Questions](/about-us/common-questions) or [reach out to us](/contact-us)!
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/tcs-journey-infographic-rocket-.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: "## O﻿ur Curriculum Journey"
 ---
