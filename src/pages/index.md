@@ -8,9 +8,9 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-01-17T13:44:33.088Z
-  mdContent: Don't miss our school holiday camps on Jan. 16th & Feb. 20-24! [Learn
-    more here](/experience-levels/school-holiday-mini-camps/).
+  removalDate: 2023-02-27T13:44:33.088Z
+  mdContent: Don't miss our school holiday camp on Feb. 20-24! [Learn more
+    here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
