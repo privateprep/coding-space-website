@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: GirlCode Program
+title: The GirlCode Program
 titleColor: "#264548"
 seo:
   title: GirlCode Program
@@ -17,7 +17,7 @@ pageBuilder:
     leftComponent:
       - type: textOnly
         textAlign: center
-        bgColor: "#faf6ee"
+        bgColor: "#eec11a"
         textColor: "#264548"
         mdContent: "## N﻿evertheless, She Coded"
     rightComponent:
@@ -35,13 +35,13 @@ pageBuilder:
           **Community**
 
 
-          Our all girls classes provide a great learning environment for GirlCoders to learn to code, create, and problem solve.
+          Our female-identifying classes provide a great learning environment for GirlCoders to learn to code, create, and problem solve.
 
 
           **Computational Thinking**
 
 
-          Through coding we foster ​growth mindset, grit, and computational thinking. Campers develop a newfound problem solving stamina they've never seen before.
+          Through coding we foster ​a growth mindset, grit, and computational thinking. GirlCoders develop a newfound problem solving stamina they've never seen before.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -61,6 +61,22 @@ pageBuilder:
 
 
       The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/girlcode-three-around-computer.jpg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## W﻿hy GirlCode?
+
+
+      Only 26% of tech jobs are held by women. Male dominated coding classes could be an intimidating way to start learning to code. By creating a welcoming and inclusive environment for girls to learn to code, we can help change the gender gap in tech
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -111,13 +127,11 @@ pageBuilder:
       ## Scholarships Available
 
 
-
-
-      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs. Our scholarship program accounts for 25 percent of the students we teach. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through at-cost and pro-bono services.
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs.
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
-    textColor: "#eec11a"
+    textColor: "#faf6ee"
     list:
       - title: Apply For A Scholarship
         content: /about-us/scholarship-program
