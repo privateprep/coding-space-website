@@ -12,6 +12,36 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
+  - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "## N﻿evertheless, She Coded"
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          **Confidence**
+
+
+          Coding is a great medium for self-expression, creativity, and fostering intellectual confidence.
+
+
+          **Community**
+
+
+          Our all girls classes provide a great learning environment for GirlCoders to learn to code, create, and problem solve.
+
+
+          **Computational Thinking**
+
+
+          Through coding we foster ​growth mindset, grit, and computational thinking. Campers develop a newfound problem solving stamina they've never seen before.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
