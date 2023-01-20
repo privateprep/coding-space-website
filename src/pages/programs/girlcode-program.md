@@ -3,14 +3,14 @@ templateKey: programs
 title: The GirlCode Program
 titleColor: "#264548"
 seo:
-  title: GirlCode Program
-  description: >
-    The Coding Space is committed to being a part of the solution by providing
-    mentorship, opportunities for growth, and equitable access to girls, women,
-    transgender people, gender non-conforming people, and non-binary people.
+  title: The GirlCode Program
+  description: Our welcoming and inclusive GirlCode program provides a safe and
+    supportive space for female-identifying coders to develop their
+    computational and critical thinking skills, intellectual confidence, and
+    passion for STEM.
 heroImage:
   image: /img/tcs-header.png
-  alt: Accessibility name
+  alt: Header IMage
 pageBuilder:
   - type: textAndImageBlock
     buttons:
@@ -31,6 +31,7 @@ pageBuilder:
 
 
       The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
+    fgColor: "#9de2dd"
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
@@ -79,26 +80,25 @@ pageBuilder:
       Only 26% of tech jobs are held by women. Male-dominated coding classes can be an intimidating way to start learning to code. By creating a welcoming and inclusive environment for girls to learn to code, we can help change the gender gap in tech.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Sign Up
+        - title: Learn More
           content: /classes?genders[]=GirlCode
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/GirlCode-around-a-table.jpg
       alt: GirlCode
     mediaPosition: right
-    mdContent: >-
+    mdContent: |-
       ## Choose Your Class Type
-
 
       ### Experience Levels and Formats For Every Fit
 
-
-      Ready to sign up for a GirlCode Class or Camp? Every seasonal class and camp program we offer includes a GirlCode option. Check out our Programs page to learn more and register.
+      Ready to sign up for a GirlCode Class or Camp? See what's available.
+    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
