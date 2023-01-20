@@ -18,7 +18,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/img_2768-1-.jpg
       alt: GirlCode Students
@@ -33,7 +33,7 @@ pageBuilder:
       The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
     fgColor: "#9de2dd"
   - type: sideBySide
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     leftComponent:
       - type: textOnly
         textAlign: center
@@ -68,7 +68,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     image:
       image: /img/girlcode-three-around-computer.jpg
       alt: Accessibility name
