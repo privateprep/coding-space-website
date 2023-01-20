@@ -12,8 +12,27 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: sideBySide
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
+    image:
+      image: /img/img_2768-1-.jpg
+      alt: GirlCode Students
+    mediaPosition: right
+    mdContent: >-
+      ## Bridging the Gender Gap in Tech
+
+
+      Recent research suggests that nearly 65 percent of today’s kindergartners will land in jobs that don’t yet exist, likely in the technology, science, and math industries. Yet, as of 2015, [only 18 percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/) of graduates with a computer science degree identified as female. Now more than ever, we need to close the gender gap in tech by creating opportunities for inclusivity.
+
+
+      The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
+  - type: sideBySide
+    bgColor: "#9de2dd"
     leftComponent:
       - type: textOnly
         textAlign: center
@@ -42,25 +61,6 @@ pageBuilder:
 
 
           Through coding we foster ​a growth mindset, grit, and computational thinking. GirlCoders develop a newfound problem solving stamina they've never seen before.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/img_2768-1-.jpg
-      alt: GirlCode Students
-    mediaPosition: right
-    mdContent: >-
-      ## Bridging the Gender Gap in Tech
-
-
-      Recent research suggests that nearly 65 percent of today’s kindergartners will land in jobs that don’t yet exist, likely in the technology, science, and math industries. Yet, as of 2015, [only 18 percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/) of graduates with a computer science degree identified as female. Now more than ever, we need to close the gender gap in tech by creating opportunities for inclusivity.
-
-
-      The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
