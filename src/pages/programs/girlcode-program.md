@@ -76,7 +76,7 @@ pageBuilder:
       ## W﻿hy GirlCode?
 
 
-      Only 26% of tech jobs are held by women. Male dominated coding classes could be an intimidating way to start learning to code. By creating a welcoming and inclusive environment for girls to learn to code, we can help change the gender gap in tech
+      Only 26% of tech jobs are held by women. Male-dominated coding classes can be an intimidating way to start learning to code. By creating a welcoming and inclusive environment for girls to learn to code, we can help change the gender gap in tech.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
