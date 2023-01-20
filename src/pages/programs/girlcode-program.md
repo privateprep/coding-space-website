@@ -48,7 +48,7 @@ pageBuilder:
           **Confidence**
 
 
-          Coding is a great medium for self-expression, creativity, and fostering intellectual confidence.
+          Coding is a medium for self-expression, creativity, and fostering intellectual confidence.
 
 
           **Community**
