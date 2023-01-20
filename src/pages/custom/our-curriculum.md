@@ -7,12 +7,18 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: textOnly
-    textAlign: center
+  - type: sideBySide
     bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: |-
-      ## The Coding Space Journey
-
-      ![](/img/tcs-journey-infographic-rocket-.png)
+    leftComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "## The Coding Space Journey"
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: "![](/img/tcs-journey-infographic-rocket-.png)"
 ---
