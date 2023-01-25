@@ -69,25 +69,27 @@ pageBuilder:
       For the graphics in Jurassic Park, Aladdin, Beauty and the Beast, and more, we have electrical engineer and computer graphics designer [Marc Regis Hannah](https://www.thehistorymakers.org/biography/marc-hannah-41) to thank. In 1982 Hannah co-founded Silicon Graphics, Inc., eventually becoming the company’s principal scientist. His computer graphics technology has been used in major motion films as well as commercials, the intro for Monday Night Football, and by George Lucas’s visual effects studio, Industrial Light & Magic.
   - type: textOnly
     textAlign: center
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![NK Jemisin](/img/sci-fi-day-2023.png)"
+    mdContent: "![Lisa Gelobter](/img/lisa-gelobter.png)"
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## NK Jemisin
+      ## Lisa Gelobter
 
 
-      Because NK Jemisin is a contemporary powerhouse in the science fiction world, the stuff of her novels still seems like magic to readers — but not for long. We’re positive that the richly detailed, visionary world of her celebrated *Broken Earth* trilogy (which incidentally warns against technological hubris) has plentiful details that are already inspiring today’s brightest STEM minds, from floating crystal obelisks to the genetic ability to sense ecological disasters.
+      Lisa Gelobter graduated from Brown at the age of 20 with a computer science degree and a concentration in artificial intelligence and machine learning. After working as the Chief Digital Officer for BET Networks and launching Hulu (Hulu!), Gelobter also served as the Chief Digital Service Officer for the U.S. Department of Education during the administration of President Barack Obama. Never one to rest on her laurels, in 2016, Gelobter founded and became the Chief Executive Officer of tEQuitable, a company that provides an independent, confidential platform to address issues of bias, harassment, and discrimination in the workplace.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: Want to know more about the link between literature and STEM? Check
-      out our blog on the [benefits of reading for
-      coders](https://www.thecodingspace.com/blog/2022-08-01-reading-a-novel-approach-to-code/).
+    mdContent: All of these STEM game-changers have left (or are still leaving) an
+      indelible mark on history. Their legacies persist through their inventions
+      and improvements, still used in today’s tech. Want to learn more about The
+      Coding Space’s commitment to racial equity? Check out our [Social
+      Impact](https://www.thecodingspace.com/about-us/social-impact/) page.
 tags: []
 ---
 Happy Black History Month! Now is not only a time to reflect on the achievements of Black individuals and communities, but also a time to recognize the ongoing struggle for racial equality and social justice. From the earliest days of recorded history, Black scientists, inventors, and mathematicians have been at the forefront of scientific discovery and technological innovation, but their accomplishments have often been erased or dismissed. In order to do our part to engage with the rich history of Black people and to appreciate the massive contributions Black communities have made, we’re spotlighting five pioneering Black innovators who’ve shaped today’s technological landscape and whose legacy continues to inspire future generations of scientists and technologists.
