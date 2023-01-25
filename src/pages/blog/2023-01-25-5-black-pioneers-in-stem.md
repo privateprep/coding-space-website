@@ -8,7 +8,7 @@ description: |
   Celebrating a STEM-tastic Black History Month
 featuredPost: true
 featuredImage:
-  image: /img/sci-fi-day-2023.png
+  image: /img/valerie-thomas.png
   alt: NK Jemisin
 pageBuilder:
   - type: textOnly
