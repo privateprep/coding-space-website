@@ -57,16 +57,16 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Margaret Atwood](/img/margaret-atwood.jpg)"
+    mdContent: "![Marc Regis Hannah](/img/marc-regis-hannah.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Margaret Atwood
+      ## Marc Regis Hannah
 
 
-      Margaret Atwood is probably most famous for her novel *The Handmaid’s Tale*, but many of her other novels have predicted the future in their own ways. For example, in *Oryx & Crake*, she imagines a world in which scientists can engineer bioluminescence in organisms — a technique that currently proliferates among researchers studying gene expression and more — as well as some technology that is currently in the making, like “smart clothes” (shirts that can display your email!)
+      For the graphics in Jurassic Park, Aladdin, Beauty and the Beast, and more, we have electrical engineer and computer graphics designer [Marc Regis Hannah](https://www.thehistorymakers.org/biography/marc-hannah-41) to thank. In 1982 Hannah co-founded Silicon Graphics, Inc., eventually becoming the company’s principal scientist. His computer graphics technology has been used in major motion films as well as commercials, the intro for Monday Night Football, and by George Lucas’s visual effects studio, Industrial Light & Magic.
   - type: textOnly
     textAlign: center
     bgColor: "#eec11a"
