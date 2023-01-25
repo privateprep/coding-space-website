@@ -13,18 +13,18 @@ featuredImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Mary Shelley](/img/sci-fi-day-2023-mary-shelley.png)"
+    mdContent: "![Granville Road](/img/granville-woods.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Mary Shelley
+      ## Granville Woods
 
 
-      Considered by many to be the founder of science fiction, Mary Shelley is widely known for penning the monster masterpiece *Frankenstein*. In that novel, she details the use of electricity to animate a lifeless creature. This plot feature was partially inspired by Shelley’s interest in experiments in galvanism (electrical resuscitation); her novel popularized those scientific efforts, which (much later) led to the invention of the defibrillator.
+      Born in Columbus, Ohio, Granville Woods was a great inventor, specifically known for his 15 different appliances for the electric railways. He was most known for inventing the [multiplex “induction telegraph,”](https://airespring.com/unsung-heroes-of-telecom-granville-t-woods/) which allowed for voice communication through telegraph wires and prevented many train accidents. He became known as “Black Edison” because Thomas Edison tried to sue Woods after he invented the multiplex telegraph. The lawsuit failed, so Edison tried to make Woods a partner, but he refused. Woods held nearly 60 patents at the time of his death.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
