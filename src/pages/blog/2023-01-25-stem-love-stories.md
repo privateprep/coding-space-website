@@ -9,7 +9,7 @@ description: |
 featuredPost: true
 featuredImage:
   image: /img/stem-love-stories-cover.png
-  alt: NK Jemisin
+  alt: Marie & Pierre Curie
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -92,4 +92,8 @@ pageBuilder:
       Impact](https://www.thecodingspace.com/about-us/social-impact/) page.
 tags: []
 ---
-Happy Black History Month! Now is not only a time to reflect on the achievements of Black individuals and communities, but also a time to recognize the ongoing struggle for racial equality and social justice. From the earliest days of recorded history, Black scientists, inventors, and mathematicians have been at the forefront of scientific discovery and technological innovation, but their accomplishments have often been erased or dismissed. In order to do our part to engage with the rich history of Black people and to appreciate the massive contributions Black communities have made, we’re spotlighting five pioneering Black innovators who’ve shaped today’s technological landscape and whose legacy continues to inspire future generations of scientists and technologists.
+*"Science is not only a discipline of reason but, also, one of romance and passion." — Stephen Hawking*
+
+It’s Valentine’s Day, and let’s be honest — sometimes, being a STEM lover on Valentine’s Day can seem…well..uncool?
+
+Hollywood and society at large love to depict scientists, mathematicians, and coders as cold, aloof, robotic, and critical. There’s a lot of emphasis on the brain and barely any attention devoted to the heart. But that isn’t how STEM professionals are in real life! They aren’t heartless automatons. In honor of Valentine’s Day, we’ve gathered a few of our favorite STEM love stories: people who loved each other to the point of invention.
