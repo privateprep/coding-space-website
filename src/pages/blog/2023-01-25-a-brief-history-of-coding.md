@@ -103,6 +103,23 @@ pageBuilder:
 
       The 1980s are often referred to as the golden age of development for coding — and with good reason! Throughout the 80s, the world witnessed the invention of groundbreaking coding languages like C++ and PERL, languages that power modern tools like Google Chrome, Adobe, and Amazon. And of course, in the late 80s, the Internet came roaring onto the scene, along with web-based programming languages such as HTML.
     fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/ai-machine-learning.png
+      alt: AI machine learning
+    mediaPosition: right
+    mdContent: >-
+      ## The future: AI, machine learning, and more
+
+
+      In the future, coding might look much more like a conversation. Developments in artificial intelligence and machine learning could mean everyone from software engineers to businesspeople can increasingly use AI tools to program without needing to spend months perfecting complicated coding languages like Python or C++. Of course, even with AI tools assisting coders, a fundamental understanding of the principles of code will still be a big advantage!
+    fgColor: "#eec11a"
 tags: []
 ---
 Coding might seem like a modern phenomenon, but it has roots in computing processes that date back to the 1800s, WW1, and even ancient Sumeria.
