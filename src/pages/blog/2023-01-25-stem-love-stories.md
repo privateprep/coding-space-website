@@ -52,54 +52,27 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Skip Ellis](/img/skip-ellis.png)"
+    mdContent: "![Caroline & William Halstead](/img/caroline-william-halstead.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Clarence "Skip" Ellis
+      ## Caroline & William Halstead
 
 
-      [Clarence “Skip” Ellis](https://cs.illinois.edu/news/memory-clarence-skip-ellis-1943-2014) was the first African-American to earn a Ph.D. in computer science. He had a long career at major tech companies like Bell Telephone Laboratories, IBM, Xerox, and more. At the Palo Alto Research Center, Ellis spearheaded a group that invented Officetalk: the first office system to use icons and ethernet to allow people to collaborate from a distance. Ellis was also a real pioneer in the field of operational transformation, which is found in modern collaborative apps like Google Docs. For all of these accomplishments, Ellis is (sometimes, cheekily) known as the Father of Remote Work.
+      Caroline and William Halsted were two medical professionals who worked together at Johns Hopkins Hospital in the 1890s: Caroline as a nurse, William as a surgeon. One day, William noticed that his wife’s hands were chapped and red when she came back from surgery, as a result of the harsh chemicals used as disinfectants at the time.
+
+
+      And so, William invented rubber gloves – for Caroline. Though he had only his wife’s comfort and safety in mind at the time, rubber gloves also proved to be a powerful weapon against infection in the operating room. As playwright Sarah Ruhl writes, “the difference between inspired medicine and uninspired medicine is love.”
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Marc Regis Hannah](/img/marc-regis-hannah.png)"
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## Marc Regis Hannah
-
-
-      For the graphics in Jurassic Park, Aladdin, Beauty and the Beast, and more, we have electrical engineer and computer graphics designer [Marc Regis Hannah](https://www.thehistorymakers.org/biography/marc-hannah-41) to thank. In 1982 Hannah co-founded Silicon Graphics, Inc., eventually becoming the company’s principal scientist. His computer graphics technology has been used in major motion films as well as commercials, the intro for Monday Night Football, and by George Lucas’s visual effects studio, Industrial Light & Magic.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: "![Lisa Gelobter](/img/lisa-gelobter.png)"
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## Lisa Gelobter
-
-
-      Lisa Gelobter graduated from Brown at the age of 20 with a computer science degree and a concentration in artificial intelligence and machine learning. After working as the Chief Digital Officer for BET Networks and launching Hulu (Hulu!), Gelobter also served as the Chief Digital Service Officer for the U.S. Department of Education during the administration of President Barack Obama. Never one to rest on her laurels, in 2016, Gelobter founded and became the Chief Executive Officer of tEQuitable, a company that provides an independent, confidential platform to address issues of bias, harassment, and discrimination in the workplace.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: All of these STEM game-changers have left (or are still leaving) an
-      indelible mark on history. Their legacies persist through their inventions
-      and improvements, still used in today’s tech. Want to learn more about The
-      Coding Space’s commitment to racial equity? Check out our [Social
-      Impact](https://www.thecodingspace.com/about-us/social-impact/) page.
-tags: []
+    mdContent: Ready to start your love affair with coding? Sign up for our [coding
+      classes](https://www.thecodingspace.com/classes) today.
+tags:
+  - ValentinesDay
 ---
 *"Science is not only a discipline of reason but, also, one of romance and passion." — Stephen Hawking*
 
