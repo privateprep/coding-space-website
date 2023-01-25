@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2022-12-07T14:26:34.271Z
 description: Happy Computer Science Education Week!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/csed-week-2022-project-roundup.png
   alt: CSEdWeek 2022
