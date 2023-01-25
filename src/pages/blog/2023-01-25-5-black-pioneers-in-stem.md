@@ -90,6 +90,7 @@ pageBuilder:
       and improvements, still used in today’s tech. Want to learn more about The
       Coding Space’s commitment to racial equity? Check out our [Social
       Impact](https://www.thecodingspace.com/about-us/social-impact/) page.
-tags: []
+tags:
+  - BlackHistoryMonth
 ---
 Happy Black History Month! Now is not only a time to reflect on the achievements of Black individuals and communities, but also a time to recognize the ongoing struggle for racial equality and social justice. From the earliest days of recorded history, Black scientists, inventors, and mathematicians have been at the forefront of scientific discovery and technological innovation, but their accomplishments have often been erased or dismissed. In order to do our part to engage with the rich history of Black people and to appreciate the massive contributions Black communities have made, we’re spotlighting five pioneering Black innovators who’ve shaped today’s technological landscape and whose legacy continues to inspire future generations of scientists and technologists.
