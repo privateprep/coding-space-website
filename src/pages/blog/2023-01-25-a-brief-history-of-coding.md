@@ -69,6 +69,23 @@ pageBuilder:
       known as the “Advanced Computing Engine,” which was arguably the first
       computer language used and launched the beginning of the modern
       programming world.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/modern-programming-languages.png
+      alt: FORTRAN team
+    mediaPosition: right
+    mdContent: >-
+      ## Development of modern programming languages
+
+
+      The 1950s saw an explosion of modern coding languages that are still in use today. FORTRAN, generally a common feature of the world’s fastest supercomputers, was developed by a team at IBM in 1954. Another coding language that burst into being during this period was ALGOL, which is said to be the mother language of many modern-day languages including C++, Python, and JavaScript.
+    fgColor: "#eec11a"
 tags: []
 ---
 Coding might seem like a modern phenomenon, but it has roots in computing processes that date back to the 1800s, WW1, and even ancient Sumeria.
