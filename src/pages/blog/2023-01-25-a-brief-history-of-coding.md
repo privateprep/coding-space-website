@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-02-01T20:45:29.621Z
 description: An epic saga covering thousands of years of discovery!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/history-of-coding.png
   alt: A history of coding
