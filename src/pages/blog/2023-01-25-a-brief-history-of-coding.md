@@ -86,6 +86,23 @@ pageBuilder:
 
       The 1950s saw an explosion of modern coding languages that are still in use today. FORTRAN, generally a common feature of the world’s fastest supercomputers, was developed by a team at IBM in 1954. Another coding language that burst into being during this period was ALGOL, which is said to be the mother language of many modern-day languages including C++, Python, and JavaScript.
     fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/golden-age-of-development.png
+      alt: Golden Age of Development
+    mediaPosition: right
+    mdContent: >-
+      ## Golden age of development
+
+
+      The 1980s are often referred to as the golden age of development for coding — and with good reason! Throughout the 80s, the world witnessed the invention of groundbreaking coding languages like C++ and PERL, languages that power modern tools like Google Chrome, Adobe, and Amazon. And of course, in the late 80s, the Internet came roaring onto the scene, along with web-based programming languages such as HTML.
+    fgColor: "#eec11a"
 tags: []
 ---
 Coding might seem like a modern phenomenon, but it has roots in computing processes that date back to the 1800s, WW1, and even ancient Sumeria.
