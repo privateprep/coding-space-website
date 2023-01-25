@@ -18,7 +18,7 @@ pageBuilder:
     mdContent: "![Granville Road](/img/granville-woods.png)"
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
       ## Granville Woods
@@ -41,18 +41,18 @@ pageBuilder:
       Valerie Thomas had a strong interest in technology early on but didn’t receive support for it until she attended Morgan State University. She was one of only two women in her class to major in physics. She excelled at school and landed a job as a mathematical/data analyst for NASA. She worked at NASA from 1964 to 1995, conducting large-scale experiments, developing computer data systems, and most notably, spearheading the development of the first satellite to send images from space, “[Landsat](https://lemelson.mit.edu/resources/valerie-thomas).” The technology she developed is still used by NASA today.
   - type: textOnly
     textAlign: center
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Octavia Butler](/img/sci-fi-day-2023-butler.png)"
+    mdContent: "![Skip Ellis](/img/skip-ellis.png)"
   - type: textOnly
     textAlign: left
-    bgColor: "#eec11a"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Octavia Butler
+      ## Clarence "Skip" Ellis
 
 
-      A multiple recipient of the Hugo Award, Nebula Award, and MacArthur Genius Grant, Octavia Butler’s *Parable of the Sower* and *Parable of the Talents* have been widely recognized for their eerie prescience in predicting contemporary social, ecological, and technological movements — including global warming, the massive influence of tech conglomerates, and the rise of populism in government.
+      [Clarence “Skip” Ellis](https://cs.illinois.edu/news/memory-clarence-skip-ellis-1943-2014) was the first African-American to earn a Ph.D. in computer science. He had a long career at major tech companies like Bell Telephone Laboratories, IBM, Xerox, and more. At the Palo Alto Research Center, Ellis spearheaded a group that invented Officetalk: the first office system to use icons and ethernet to allow people to collaborate from a distance. Ellis was also a real pioneer in the field of operational transformation, which is found in modern collaborative apps like Google Docs. For all of these accomplishments, Ellis is (sometimes, cheekily) known as the Father of Remote Work.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
