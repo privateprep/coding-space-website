@@ -35,16 +35,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Valerie Thomas](/img/valerie-thomas.png)"
+    mdContent: "![Jerome & Isabella Karle](/img/jerome-isabella-karl.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Valerie Thomas
+      ## **Jerome & Isabella Karle**
 
 
-      Valerie Thomas had a strong interest in technology early on but didn’t receive support for it until she attended Morgan State University. She was one of only two women in her class to major in physics. She excelled at school and landed a job as a mathematical/data analyst for NASA. She worked at NASA from 1964 to 1995, conducting large-scale experiments, developing computer data systems, and most notably, spearheading the development of the first satellite to send images from space, “[Landsat](https://lemelson.mit.edu/resources/valerie-thomas).” The technology she developed is still used by NASA today.
+      Picture this: an enemies-to-lovers tale about two lab partners who are forced to work together and find more chemistry than they bargained for.
+
+
+      In 1940, Jerome & Isabella met on their first day of physical chemistry at the University of Michigan. Though they were assigned as lab partners, they were immediate academic rivals, competing for the top grade in the class. But, in addition to covalent bonds, they found themselves nursing a romantic bond — they got married and moved to DC, where they started work on X-ray crystallography together at the US Naval Research Laboratory. While Jerome developed equations to determine how atoms were arranged inside complex molecules, Isabella worked on practical experiments to test Jerome’s equations. Together, they created the [direct method](http://pd.chem.ucl.ac.uk/pdnn/solve1/direct.htm) for determining molecular structures.
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
