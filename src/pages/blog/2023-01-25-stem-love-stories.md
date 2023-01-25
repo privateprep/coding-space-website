@@ -15,16 +15,22 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Granville Road](/img/granville-woods.png)"
+    mdContent: "![Marie & Pierre Curie](/img/pierre-marie-curie.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Granville Woods
+      ## Marie & Pierre Curie
 
 
-      Born in Columbus, Ohio, Granville Woods was a great inventor, specifically known for his 15 different appliances for the electric railways. He was most known for inventing the [multiplex “induction telegraph,”](https://airespring.com/unsung-heroes-of-telecom-granville-t-woods/) which allowed for voice communication through telegraph wires and prevented many train accidents. He became known as “Black Edison” because Thomas Edison tried to sue Woods after he invented the multiplex telegraph. The lawsuit failed, so Edison tried to make Woods a partner, but he refused. Woods held nearly 60 patents at the time of his death.
+      There was a time when Pierre Curie thought love was nothing but a distraction from scientific work. Then he met Marie Sklowdoska.
+
+
+      In 1894, Marie was hard at work in Paris investigating the magnetic properties of certain steels. Her hunt for a larger lab space led her to meet Pierre, who (grudgingly) allowed her to use a piezoelectric device that he’d invented to further her work.
+
+
+      The two fell in love over their mutual passion for science; but when Pierre proposed, Marie refused him (gasp!) because she wanted to return home to Poland. Marie did go home, but when she was denied a position at Krakow University because she was a woman, she returned to Paris, and Pierre & Marie became spouses & scientific partners. As a married couple, they collaborated on Marie’s new work investigating radioactive elements. In 1903, they won the Nobel Prize in Physics for their discovery of polonium and radium.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
