@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2022-12-01T15:40:10.601Z
 description: Handpicked gifts to inspire a love of coding
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/stem-holiday-gift-guide-2022-5-.png
   alt: STEM Holiday Tile
