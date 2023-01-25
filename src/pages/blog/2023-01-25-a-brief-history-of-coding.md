@@ -120,6 +120,13 @@ pageBuilder:
 
       In the future, coding might look much more like a conversation. Developments in artificial intelligence and machine learning could mean everyone from software engineers to businesspeople can increasingly use AI tools to program without needing to spend months perfecting complicated coding languages like Python or C++. Of course, even with AI tools assisting coders, a fundamental understanding of the principles of code will still be a big advantage!
     fgColor: "#eec11a"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: Want to prepare your child to make their contribution to the history
+      of coding? Sign up for our [coding
+      classes](https://www.thecodingspace.com/classes) today.
 tags: []
 ---
 Coding might seem like a modern phenomenon, but it has roots in computing processes that date back to the 1800s, WW1, and even ancient Sumeria.
