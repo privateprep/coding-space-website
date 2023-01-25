@@ -29,16 +29,16 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Madeleine L'Engle](/img/sci-fi-day-2023-l-engle.png)"
+    mdContent: "![Valerie Thomas](/img/valerie-thomas.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Madeleine L'Engle
+      ## Valerie Thomas
 
 
-      In Madeleine L’Engle’s acclaimed novel *A Wrinkle in Time*, the eponymous wrinkle is a “tesseract” — a type of wormhole in the fifth dimension that allows instantaneous travel across space and time. At the time of that novel’s publication, the idea of a fifth dimension basically only existed in the realm of science fiction. But breakthroughs in physics in the past few decades (including superstring theory) now have scientists arguing that there are probably more than four dimensions, just as L’Engle imagined!
+      Valerie Thomas had a strong interest in technology early on but didn’t receive support for it until she attended Morgan State University. She was one of only two women in her class to major in physics. She excelled at school and landed a job as a mathematical/data analyst for NASA. She worked at NASA from 1964 to 1995, conducting large-scale experiments, developing computer data systems, and most notably, spearheading the development of the first satellite to send images from space, “[Landsat](https://lemelson.mit.edu/resources/valerie-thomas).” The technology she developed is still used by NASA today.
   - type: textOnly
     textAlign: center
     bgColor: "#eec11a"
