@@ -92,4 +92,4 @@ pageBuilder:
 tags:
   - Thanksgiving
 ---
-Take advantage of the season with a healthy dose of Fall and Thanksgiving themed STEM festivity! If you’re looking for innovative ways to keep learning alive during your Thanksgiving break, plus add a little fun, then keep reading.
+Coding might seem like a modern phenomenon, but it has roots in computing processes that date back to the 1800s, WW1, and even ancient Sumeria.
