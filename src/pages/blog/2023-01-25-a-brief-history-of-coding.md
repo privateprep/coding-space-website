@@ -7,8 +7,8 @@ date: 2023-02-01T20:45:29.621Z
 description: An epic saga covering thousands of years of discovery!
 featuredPost: true
 featuredImage:
-  image: /img/thanksgiving-stem-activities.png
-  alt: Kids coding in fall-themed room
+  image: /img/history-of-coding.png
+  alt: A history of coding
 pageBuilder:
   - type: textAndImageBlock
     buttons:
