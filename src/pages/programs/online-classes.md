@@ -19,7 +19,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Get Started
-          content: /locations/online
+          content: https://share.hsforms.com/1UiY3mjTGSnaH0UrCEAm-cQ8nqsg
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
