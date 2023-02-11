@@ -30,8 +30,14 @@ pageBuilder:
       ## L﻿earn to code from anywhere
 
 
-      I﻿n our online coding classes, kids and teens, ages 6-17, learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, we don't teach through lecture or follow-along instructions. Instead we ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects.  T﻿he Coding Space has been recognized in Time Out, Nickelodeon, Good Morning America, and more.
+      I﻿n our online coding classes, kids and teens, ages 6-17, learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, we don't teach through lecture or follow-along instructions. Instead we ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects.
     fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Featured in Time Out, Good Morning America, Nickelodeon, and the
+      New York Times.](/img/featured-in.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
