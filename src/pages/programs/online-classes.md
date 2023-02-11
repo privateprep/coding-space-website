@@ -14,14 +14,14 @@ heroImage:
 pageBuilder:
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
         - title: Get Started
           content: https://share.hsforms.com/1UiY3mjTGSnaH0UrCEAm-cQ8nqsg
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/shutterstock_1901713105-1-.jpg
       alt: Online coding class
@@ -31,7 +31,7 @@ pageBuilder:
 
 
       I﻿n our online coding classes, kids and teens, ages 6-17, learn to code in Scratch, JavaScript, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, we don't teach through lecture or follow-along instructions. Instead we ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects.
-    fgColor: "#9de2dd"
+    fgColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
