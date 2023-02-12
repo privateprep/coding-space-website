@@ -38,7 +38,7 @@ pageBuilder:
       New York Times.](/img/featured-in.png)"
   - type: textOnly
     textAlign: center
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
       ## Available Times
@@ -46,8 +46,8 @@ pageBuilder:
 
       C﻿hoose from the following times. Lessons are available Monday through Sunday.
   - type: buttons
-    bgColor: "#ffffff"
-    fgColor: "#ffffff"
+    bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
     textColor: "#264548"
     list:
       - title: 12:00 PM ET / 9:00 AM PT
@@ -68,21 +68,33 @@ pageBuilder:
         content: /sign_up/classes/2129?trial_class=true
       - title: 9:00 PM PT / 6:00 PM PT
         content: /sign_up/classes/2130?trial_class=true
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
     textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/shutterstock_1906365397.jpg
+      alt: Online coding student showing dad his work
+    mediaPosition: right
     mdContent: |-
       ## Your coder will...
 
       * Learn to code!
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
-      * Balance screen time with hands-on activities.
       * Discover and define their personal passions.
-      * Make friends and explore opportunities for teamwork.
+
+      ## You will...
+
+      * R﻿eceive detailed summaries after each lesson
+      * B﻿e supported by a team of dedicated educators
+      * B﻿e amazed by your child's accomplishments!
+    fgColor: "#9de2dd"
   - type: buttons
-    bgColor: "#9de2dd"
+    bgColor: "#ffffff"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
@@ -148,28 +160,4 @@ pageBuilder:
     list:
       - title: Get in Touch
         content: /contact-us
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/shutterstock_1906365397.jpg
-      alt: Online student
-    mediaPosition: right
-    mdContent: |-
-      ## Your coder will...
-
-      * Learn to code!
-      * Be challenged at their individual level.
-      * Build grit, a growth mindset, and computational thinking skills.
-      * Discover and define their personal passions.
-
-      ## You will...
-
-      * R﻿eceive detailed summaries after each lesson
-      * B﻿e supported by a team of dedicated educators
-      * B﻿e amazed by your child's accomplishments!
 ---
