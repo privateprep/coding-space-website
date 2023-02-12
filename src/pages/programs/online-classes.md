@@ -40,19 +40,27 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: "## Available Times"
+    mdContent: >-
+      ## Available Times
+
+
+      C﻿hoose from the following times. Lessons are available Monday through Sunday.
   - type: buttons
     bgColor: "#ffffff"
     fgColor: "#ffffff"
     textColor: "#264548"
     list:
-      - title: 6:00 ET / 3:00 PT
+      - title: 9:00 AM ET / 12:00 PM PT
+        content: /sign_up/classes/2131?trial_class=true
+      - title: 10:00 AM ET / 1:00 PM PT
+        content: /sign_up/classes/2132?trial_class=true
+      - title: 6:00 PM ET / 3:00 PM PT
         content: /sign_up/classes/2127?trial_class=true
-      - title: 7:00 ET / 4:00 PT
+      - title: 7:00 PM ET / 4:00 PM PT
         content: /sign_up/classes/2128?trial_class=true
-      - title: 8:00 ET / 5:00 PT
+      - title: 8:00 PM ET / 5:00 PM PT
         content: /sign_up/classes/2129?trial_class=true
-      - title: 9:00 PT / 6:00 PT
+      - title: 9:00 PM PT / 6:00 PM PT
         content: /sign_up/classes/2130?trial_class=true
   - type: textOnly
     textAlign: left
