@@ -11,14 +11,31 @@ pageBuilder:
     bgColor: "#faf6ee"
     leftComponent:
       - type: textOnly
-        textAlign: center
+        textAlign: left
         bgColor: "#faf6ee"
         textColor: "#264548"
-        mdContent: "## The Coding Space Journey"
+        mdContent: >-
+          ## The Coding Space Journey
+
+
+          Our customized curriculum was created to inspire your child to achieve their maximum potential through multiple years of coding with us.
+
+
+          Our student-centered approach combines project-based learning with unique platforms like WoofJS to create a personalized education experience, allowing students to be challenged at their individual level and pace. 
+
+
+          The cornerstone of our curriculum begins with [Scratch](https://www.thecodingspace.com/blog/2022-02-04-celebrating-scratch-during-scratchweek), a block-based programming language built by MIT. Students ages 6-8 will take a few pre-cursor classes to prepare them for Scratch's open-ended platform and post-Scratch students will learn in WoofJS, a platform we build to transition students out of block-based programming to learn JavaScript. Once students are ready, they'll graduate to programing in a full web environment, learning HTML and CSS while building up their JavaScript skills. 
+
+
+          After completing our web curriculum, students move into self-directed learning where they can tackle other languages and platforms such as Python or Java.
+
+
+          **T﻿ypical Journey for a Coding Space student:**
     rightComponent:
       - type: textOnly
         textAlign: center
         bgColor: "#faf6ee"
         textColor: "#264548"
-        mdContent: "![](/img/tcs-journey-infographic-rocket-.png)"
+        mdContent: "![The Coding Space
+          Journey](/img/tcs-journey-infographic-rocket-1-23-.png)"
 ---
