@@ -50,14 +50,16 @@ pageBuilder:
     fgColor: "#ffffff"
     textColor: "#264548"
     list:
-      - title: 9:00 AM ET / 12:00 PM PT
-        content: /sign_up/classes/2131?trial_class=true
-      - title: 10:00 AM ET / 1:00 PM PT
-        content: /sign_up/classes/2132?trial_class=true
-      - title: 11:00 AM ET / 2:00 PM PT
-        content: /sign_up/classes/2133?trial_class=true
       - title: 12:00 PM ET / 3:00 PM PT
+        content: /sign_up/classes/2131?trial_class=true
+      - title: 1:00 PM ET / 10:00 AM PT
+        content: /sign_up/classes/2132?trial_class=true
+      - title: 2:00 PM ET / 11:00 AM PT
+        content: /sign_up/classes/2133?trial_class=true
+      - title: 3:00 PM ET / 12:00 PM PT
         content: /sign_up/classes/2134?trial_class=true
+      - title: "4:00 PM ET / 1:00 PM ET "
+        content: /sign_up/classes/2135?trial_class=true
       - title: 6:00 PM ET / 3:00 PM PT
         content: /sign_up/classes/2127?trial_class=true
       - title: 7:00 PM ET / 4:00 PM PT
