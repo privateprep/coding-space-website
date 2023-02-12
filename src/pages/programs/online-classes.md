@@ -17,9 +17,7 @@ pageBuilder:
       bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
-      list:
-        - title: Get Started
-          content: https://share.hsforms.com/1UiY3mjTGSnaH0UrCEAm-cQ8nqsg
+      list: []
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
@@ -38,6 +36,24 @@ pageBuilder:
     textColor: "#264548"
     mdContent: "![Featured in Time Out, Good Morning America, Nickelodeon, and the
       New York Times.](/img/featured-in.png)"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: "## Available Times"
+  - type: buttons
+    bgColor: "#ffffff"
+    fgColor: "#ffffff"
+    textColor: "#264548"
+    list:
+      - title: 6:00 ET / 3:00 PT
+        content: "#"
+      - title: 7:00 ET / 4:00 PT
+        content: "#"
+      - title: 8:00 ET / 5:00 PT
+        content: "#"
+      - title: 9:00 PT / 6:00 PT
+        content: "#"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
