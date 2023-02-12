@@ -47,7 +47,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: 6:00 ET / 3:00 PT
-        content: "#"
+        content: /sign_up/classes/2127?trial_class=true
       - title: 7:00 ET / 4:00 PT
         content: "#"
       - title: 8:00 ET / 5:00 PT
