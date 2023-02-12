@@ -28,7 +28,7 @@ pageBuilder:
       ## L﻿earn to code from anywhere
 
 
-      I﻿n our online coding lessons, kids and teens ages 6-17 learn to code in Scratch, JavaScript, Python, and more, while building key critical thinking and problem solving skills. Unlike virtually all other online classes, The Coding Space doesn't teach through lecture or follow-along instructions. Instead we ask targeted questions that lead students to figuring out solutions on their own as they code a wide variety of projects and develop their inner critical voice.
+      I﻿n our online coding lessons, kids and teens ages 6-17 learn to code in Scratch, JavaScript, Python, and more, while building key critical thinking and problem solving skills. Our customized curriculum was created to inspire your child to achieve their maximum potential. This student-centered approach combines project-based learning with platforms like WoofJS, a JavaScript learning environment created by The Coding Space, allowing students to be challenged at their individual level and pace.
     fgColor: "#264548"
   - type: textOnly
     textAlign: center
