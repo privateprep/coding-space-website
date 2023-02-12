@@ -146,4 +146,28 @@ pageBuilder:
     list:
       - title: Get in Touch
         content: /contact-us
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/shutterstock_1906365397.jpg
+      alt: Online student
+    mediaPosition: right
+    mdContent: |-
+      ## Your coder will...
+
+      * Learn to code!
+      * Be challenged at their individual level.
+      * Build grit, a growth mindset, and computational thinking skills.
+      * Discover and define their personal passions.
+
+      ## You will...
+
+      * R﻿eceive detailed summaries after each lesson
+      * B﻿e supported by a team of dedicated educators
+      * B﻿e amazed by your child's accomplishments!
 ---
