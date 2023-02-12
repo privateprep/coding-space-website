@@ -54,6 +54,10 @@ pageBuilder:
         content: /sign_up/classes/2131?trial_class=true
       - title: 10:00 AM ET / 1:00 PM PT
         content: /sign_up/classes/2132?trial_class=true
+      - title: 11:00 AM ET / 2:00 PM PT
+        content: /sign_up/classes/2133?trial_class=true
+      - title: 12:00 PM ET / 3:00 PM PT
+        content: /sign_up/classes/2134?trial_class=true
       - title: 6:00 PM ET / 3:00 PM PT
         content: /sign_up/classes/2127?trial_class=true
       - title: 7:00 PM ET / 4:00 PM PT
