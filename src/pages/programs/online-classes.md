@@ -82,16 +82,16 @@ pageBuilder:
     mdContent: |-
       ## Your coder will...
 
-      * Learn to code!
+      * Learn to code through 1-on-1 instruction.
       * Be challenged at their individual level.
       * Build grit, a growth mindset, and computational thinking skills.
       * Discover and define their personal passions.
 
       ## You will...
 
-      * R﻿eceive detailed summaries after each lesson
-      * B﻿e supported by a team of dedicated educators
-      * B﻿e amazed by your child's accomplishments!
+      * Receive detailed summaries after each lesson.
+      * Be supported by a team of dedicated educators.
+      * Be amazed by your child's accomplishments!
     fgColor: "#9de2dd"
   - type: buttons
     bgColor: "#ffffff"
