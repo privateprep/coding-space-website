@@ -49,11 +49,11 @@ pageBuilder:
       - title: 6:00 ET / 3:00 PT
         content: /sign_up/classes/2127?trial_class=true
       - title: 7:00 ET / 4:00 PT
-        content: "#"
+        content: /sign_up/classes/2128?trial_class=true
       - title: 8:00 ET / 5:00 PT
-        content: "#"
+        content: /sign_up/classes/2129?trial_class=true
       - title: 9:00 PT / 6:00 PT
-        content: "#"
+        content: /sign_up/classes/2130?trial_class=true
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
