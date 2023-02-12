@@ -31,6 +31,23 @@ pageBuilder:
 
 
           **T﻿ypical Journey for a Coding Space student:**
+
+
+          * G﻿rade 1 - Young Beginner
+
+          * G﻿rade 2 - Young Beginner or Beginner
+
+          * G﻿rade 3 - Beginner or Intermediate
+
+          * G﻿rade 4 - Intermediate
+
+          * G﻿rade 5 - Intermediate or Advanced
+
+          * G﻿rade 6 - Intermediate or Advanced
+
+          * G﻿rade 7 - Advanced
+
+          * G﻿rade 8 - Teen Code
     rightComponent:
       - type: textOnly
         textAlign: center
