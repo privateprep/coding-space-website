@@ -50,7 +50,7 @@ pageBuilder:
     fgColor: "#ffffff"
     textColor: "#264548"
     list:
-      - title: 12:00 PM ET / 3:00 PM PT
+      - title: 12:00 PM ET / 9:00 AM PT
         content: /sign_up/classes/2131?trial_class=true
       - title: 1:00 PM ET / 10:00 AM PT
         content: /sign_up/classes/2132?trial_class=true
