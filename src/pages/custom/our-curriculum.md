@@ -8,7 +8,7 @@ heroImage:
   alt: Accessibility name
 pageBuilder:
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     leftComponent:
       - type: textOnly
         textAlign: left
@@ -33,13 +33,13 @@ pageBuilder:
           **T﻿ypical Journey for a Coding Space student:**
 
 
-          * G﻿rade 1 - Young Beginner
+          * 1
 
           * G﻿rade 2 - Young Beginner or Beginner
 
           * G﻿rade 3 - Beginner or Intermediate
 
-          * G﻿rade 4 - Intermediate
+          * G﻿rade 4 - Beginner or Intermediate
 
           * G﻿rade 5 - Intermediate or Advanced
 
@@ -51,7 +51,7 @@ pageBuilder:
     rightComponent:
       - type: textOnly
         textAlign: center
-        bgColor: "#faf6ee"
+        bgColor: "#eec11a"
         textColor: "#264548"
         mdContent: "![The Coding Space
           Journey](/img/tcs-journey-infographic-rocket-1-23-.png)"
