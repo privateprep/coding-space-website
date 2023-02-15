@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Six Trans Programmers Who Shattered the Lavender Ceiling
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2022-03-01T18:00:17.982Z
+date: 2023-03-01T18:00:17.982Z
 description: Celebrating International Transgender Day of Visibility
 featuredPost: false
 featuredImage:
