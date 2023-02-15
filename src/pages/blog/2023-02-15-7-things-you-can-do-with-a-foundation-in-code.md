@@ -9,96 +9,38 @@ featuredPost: false
 featuredImage:
   image: /img/img_6870.jpg
   alt: 7 Things You Can Do With a Foundation in Code
-pageBuilder:
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## 1. Coding boosts problem-solving skills
-
-
-      Coders are constantly asked to solve tricky problems, learning to tackle complex or novel challenges in creative, efficient ways. The process of coding requires young STEM-heads to break issues down into more manageable sub-problems, then progress through an iterative process of identifying, prioritizing, and implementing solutions. Because of all this, kids start honing their problem-solving skills as soon as they take on their first coding challenge.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## 2. Coding improves computational thinking
-
-
-      Most kids are never taught the underlying logical principles of math, or shown math’s broader applicability in the wide, wonderful world. So, to them, math can seem boring, overly abstract, and unrelatable. One of the great things about coding is that, while kids don’t need to be math experts to get started, they will naturally learn mathematical principles as they code — a mindset we like to call “computational thinking.” Coding allows kids to interact with and visualize the abstract principles of math, instead of just engaging with dry, intimidating digits on paper.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## 3. Coding teaches communication skills
-
-
-      Because computers can only understand direct, simple instructions, tinkering with code naturally develops your ability to express yourself clearly & concisely. In fact, learning to code has many of the cognitive benefits of learning a new language!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## 4. Coding builts grit
-
-
-      Grit is the strongest indicator of which kids will succeed in their education and professional careers, and coding is an excellent way to help your child develop grit. When kids start tackling coding tasks, they will inevitably fail — over and over again. But our coding teachers help young coders stick to it, developing resilience of spirit and mind in the face of hardship. After all, you can’t complain, whine, or negotiate your way out of a problem with a computer: instead, you have to use logic, creativity, and deductive reasoning. Coding builds grit and confidence, because it teaches kids that most problems can be solved if they just keep trying!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## 5. Coding encourages brain development
-
-
-      You can't train a brain in a day, or even over the 4 years of high school. The ideas a child most successfully integrates are those from their early, and ongoing, encounters, when their brain is most “plastic”. Put simply, our brains build increasingly complex structures on top of existing, simpler structures. Exposure to programming at an early age builds these first structures, improving the brain's natural tendency for language and logic and providing a higher platform for future knowledge.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## 6. Coding sparks creativity
-
-
-      Coding nurtures creativity by teaching kids that they can start with nothing and finish with something amazing. In the non-digital world, creativity can be limited by materials, like ingredients when we cook or the size of the canvas when we paint. But coding takes place in the virtual world, where the only restriction is the child’s imagination.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## 7. Coding teaches digital literacy
-
-
-      The ability to understand and engage with technology is a necessity for navigating an increasingly digitized society. In other words, kids need to be digitally literate. Generally speaking, “digital literacy” refers to a person’s ability to understand and engage with technology in a thoughtful, meaningful way. Kids who are digitally literate know how to find, consume, create, and share digital content. They also understand the basics of Internet safety such as creating strong passwords, using privacy settings, and knowing what to share or not on social media. By learning to code at a young age, kids will come to intuitively understand the inner workings of digital applications, which will help them grasp the importance of safety, privacy, and critical thinking about digital content.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## 8. Coding benefits future career prospects
-
-
-      The Bureau of Labor Statistics reports that job openings for software developers are slated to [grow 21 percent between 2018 and 2028](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) — that’s more than four times the average rate for all careers. But even kids who aren’t interested in becoming full-time developers can still benefit professionally from learning a coding language or two. Programming savvy is valuable, regardless of your child’s educational background or job interest. In some cases, it may even be the capability that ultimately [boosts them above their job market competitors](https://careerbuzz.prosky.co/articles/how-relevant-programming-can-be-to-your-resume-and-interests)!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: Even if your child doesn’t want to go into coding as an adult,
-      establishing a practice of coding early in life will help them build
-      highly-transferable cognitive skills. Of course, it's never too late to
-      benefit from learning to code, but those who start as young children have
-      a big head-start! Ready to get your child’s coding journey off the ground?
-      [Sign up](https://www.thecodingspace.com/classes) for one of our top-tier
-      coding programs today.
+pageBuilder: []
 tags: []
 ---
-In our increasingly digital world, lots of parents want their kids to become computer-literate — and why shouldn’t they? The question is, when should they start learning?
+## 1. Web developer
 
-According to [Harvard](https://developingchild.harvard.edu/resources/inbrief-science-of-ecd/), the younger the better.
+Web developers create and maintain websites. They might work in a wide variety of industries spanning tech, publishing, management consulting, advertising, or be self employed. Back-end web developers create the website’s structure, write code, and verify the code works, while front-end web developers work on the visual part of the website, designing the layout of each page, integrating graphics, and use HTML and JavaScript to enhance the site. Full-stack web developers do it all!
 
-As it turns out, most professional programmers started learning their trade early in life. According to Stack Overflow’s 2020 Developers survey, over 54 percent of professional developers had written their first line of code by the time they turned 16. And while it might seem intuitive to start your child coding in high school, kids can start coding at a much younger age, sometimes as early as four years old.
 
-Like learning any language, we seem to pick up and integrate what we learn with the greatest ease and fluency at an early age. Not to mention, learning to code as a kid positively affects brain processes, and the results spill over into other aspects of life.
+
+## 2. Tech Writer
+
+A technical writer is a professional writer who can communicate complex information in a clear, concise, readable way for a broad audience. Not all inventors or engineers or doctors are good communicators – so after they’ve developed their product, they need someone else to explain that product’s benefits to the general public, translating technical jargon into accessible language. Software engineers and cryptocurrency experts frequently need help writing user interface text, software release notes, and more. For technical writers to stay competitive in an increasingly code-able world, they should have basic familiarity with the primary coding languages. To learn more about becoming a technical writer, check out our [career spotlight](https://www.thecodingspace.com/blog/2023-02-15-coding-career-spotlight-technical-writer/)!
+
+## 3. Software Developer
+
+Software developers use programming and design knowledge to—well—build software! Typically, they meet with a client with a need for a specific piece of software, and then they build, test and deploy that software based on the client’s specifications. Because software is involved across virtually every industry to power that field’s devices and applications, you can find software developers working in business, technology, defense, healthcare, aerospace, manufacturing, and more.
+
+## 4. Entrepreneurship
+
+Technology has ushered in the century of the entrepreneur. Thanks to the power of the Internet, founders and CEOs can reach a global audience in minutes. But anyone starting a business in a tech-driven economy like ours will need to understand the code that drives their business. Entrepreneurs who know how to code will make for far better supervisors, because they’ll have a clearer grasp of how their business’s programming method runs, why specific computer languages are preferred, and which languages will users to implement their concepts. Familiarity with the major coding languages such as HTML, CSS, Javascript, Python, and Ruby will empower entrepreneurs to make decisions that will improve their business. 
+
+## 5. Cybersecurity Engineers
+
+Cybersecurity engineers protect devices, services, and networks from malicious digital attacks. They also regularly test security systems to ensure they’re functioning properly. Cybersecurity engineers are the first line of defense against data breaches, safeguarding organizational data, sensitive and confidential information, financial information, and the reputation of their organization as a whole. In addition to soft skills like communication, problem-solving, and speed of learning, proficiency in cyber programming languages like C/C++, Java, Python, Go, and Ruby, is a huge advantage for potential cybersecurity professionals. To learn more about a career in cybersecurity, check out our [blog](https://www.thecodingspace.com/blog/2022-11-26-coding-career-spotlight-cybersecurity-engineer/).
+
+## 6. Mobile App Developer
+
+Smartphones and tablets are increasingly becoming the computer of choice for more and more people. Mobile app developers write the code that power the applications and software for smartphones and other mobile devices. Instead of building for a larger PC screen, these developers are dealing with extremely small screens, typically writing programs using either C, C++, Python, or Java. 
+
+## 7. Entertainment
+
+Coding is in the arts and entertainment industry too! Artists and entertainers may not think of coding as a skill that they need to launch successful careers, but a foundation in code is a boon to all. For example, visual artists and illustrators can use a degree in coding to propel themselves into the world of animation. Not only do these artists need to have visual creativity and inspiration, they also need the technical skills to make that inspiration visible using animation software. Gamers, on the other hand, can launch exciting careers as game developers with some coding knowledge. In order to both imagine entire playable worlds and translate those worlds into language that a computer can understand, game developers need a range of exciting skills: coding proficiency, physics knowledge (how fast should the player’s avatar drop when they jump off a castle wall?!), excellent communication and collaboration skills, and familiarity with gaming engines like Unity or Unreal. To learn more about a career in animation, click [here](https://www.thecodingspace.com/blog/2022-08-01-coding-career-spotlight-animation/); to learn more about game development, click [here](https://www.thecodingspace.com/blog/2022-08-28-coding-career-spotlight-video-game-developer/).
+
+\
+This is by no means an exhaustive list; an understanding of code can propel you into infinitely many exciting career paths, including VR/AR development, audio programming, race car engineering, and much much more. Ready to equip yourself with the skills you need to have a positively fantastic career? Sign up for our coding classes [today](https://www.thecodingspace.com/classes).
