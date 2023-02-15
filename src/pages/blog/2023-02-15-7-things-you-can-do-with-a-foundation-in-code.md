@@ -16,8 +16,6 @@ tags: []
 
 Web developers create and maintain websites. They might work in a wide variety of industries spanning tech, publishing, management consulting, advertising, or be self employed. Back-end web developers create the website’s structure, write code, and verify the code works, while front-end web developers work on the visual part of the website, designing the layout of each page, integrating graphics, and use HTML and JavaScript to enhance the site. Full-stack web developers do it all!
 
-
-
 ## 2. Tech Writer
 
 A technical writer is a professional writer who can communicate complex information in a clear, concise, readable way for a broad audience. Not all inventors or engineers or doctors are good communicators – so after they’ve developed their product, they need someone else to explain that product’s benefits to the general public, translating technical jargon into accessible language. Software engineers and cryptocurrency experts frequently need help writing user interface text, software release notes, and more. For technical writers to stay competitive in an increasingly code-able world, they should have basic familiarity with the primary coding languages. To learn more about becoming a technical writer, check out our [career spotlight](https://www.thecodingspace.com/blog/2023-02-15-coding-career-spotlight-technical-writer/)!
@@ -28,7 +26,7 @@ Software developers use programming and design knowledge to—well—build softw
 
 ## 4. Entrepreneurship
 
-Technology has ushered in the century of the entrepreneur. Thanks to the power of the Internet, founders and CEOs can reach a global audience in minutes. But anyone starting a business in a tech-driven economy like ours will need to understand the code that drives their business. Entrepreneurs who know how to code will make for far better supervisors, because they’ll have a clearer grasp of how their business’s programming method runs, why specific computer languages are preferred, and which languages will users to implement their concepts. Familiarity with the major coding languages such as HTML, CSS, Javascript, Python, and Ruby will empower entrepreneurs to make decisions that will improve their business. 
+Technology has ushered in the century of the entrepreneur. Thanks to the power of the Internet, founders and CEOs can reach a global audience in minutes. But anyone starting a business in a tech-driven economy like ours will need to understand the code that drives their business. Entrepreneurs who know how to code will make for far better supervisors, because they’ll have a clearer grasp of how their business’s programming method runs, why specific computer languages are preferred, and which languages will allow users to implement their concepts. Familiarity with the major coding languages such as HTML, CSS, Javascript, Python, and Ruby will empower entrepreneurs to make decisions that will improve their business. 
 
 ## 5. Cybersecurity Engineers
 
