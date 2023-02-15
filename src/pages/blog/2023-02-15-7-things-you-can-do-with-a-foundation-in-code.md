@@ -7,7 +7,7 @@ date: 2023-03-01T18:41:45.417Z
 description: Oh the places you’ll code!
 featuredPost: false
 featuredImage:
-  image: /img/img_6870.jpg
+  image: /img/img-7012-2-.jpg
   alt: 7 Things You Can Do With a Foundation in Code
 pageBuilder: []
 tags: []
