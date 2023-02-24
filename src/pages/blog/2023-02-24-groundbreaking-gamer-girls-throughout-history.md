@@ -107,16 +107,22 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Lisa Gelobter](/img/lisa-gelobter.png)"
+    mdContent: "![Danielle Bunten Berry](/img/1-dbb.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Lisa Gelobter
+      ## Danielle Bunten Berry
 
 
-      Lisa Gelobter graduated from Brown at the age of 20 with a computer science degree and a concentration in artificial intelligence and machine learning. After working as the Chief Digital Officer for BET Networks and launching Hulu (Hulu!), Gelobter also served as the Chief Digital Service Officer for the U.S. Department of Education during the administration of President Barack Obama. Never one to rest on her laurels, in 2016, Gelobter founded and became the Chief Executive Officer of tEQuitable, a company that provides an independent, confidential platform to address issues of bias, harassment, and discrimination in the workplace.
+      **Company:** Atari
+
+
+      **Games:** M.U.L.E.
+
+
+      Bunten Berry was a pioneer game developer who created one of the first successful multiplayer games on the Atari platform. Decades before blockbuster multiplayer games like League of Legends came to dominate gaming, Bunten Berry designed the groundbreaking multiplayer game [M.U.L.E](https://en.wikipedia.org/wiki/M.U.L.E.). M.U.L.E. sold 30,000 copies across various computer platforms and, over the years, it has emerged as one of the greatest influences on the genre's greatest designers. Ahead of her time in more ways than one, Bunten Berry insisted that the future of gaming was interconnectedness, and her vision has proved incredibly prescient. In 1998, she was awarded the [Lifetime Achievement Award](https://www.gamechoiceawards.com/archive/lifetime) by the Computer Game Developers Association. In 2007, the Academy of Interactive Arts & Sciences chose Berry as the 10th inductee into its [Hall of Fame](https://www.interactive.org/special_awards/).
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
