@@ -67,16 +67,22 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Skip Ellis](/img/skip-ellis.png)"
+    mdContent: "![Dona Bailey](/img/dona-bailey.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Clarence "Skip" Ellis
+      ## Dona Bailey
 
 
-      [Clarence “Skip” Ellis](https://cs.illinois.edu/news/memory-clarence-skip-ellis-1943-2014) was the first African-American to earn a Ph.D. in computer science. He had a long career at major tech companies like Bell Telephone Laboratories, IBM, Xerox, and more. At the Palo Alto Research Center, Ellis spearheaded a group that invented Officetalk: the first office system to use icons and ethernet to allow people to collaborate from a distance. Ellis was also a real pioneer in the field of operational transformation, which is found in modern collaborative apps like Google Docs. For all of these accomplishments, Ellis is (sometimes, cheekily) known as the Father of Remote Work.
+      **Company:** Atari
+
+
+      **Game:** Centipede
+
+
+      Dona Bailey is yet another “first” — the first woman to create an arcade game! When she accepted a position at [Atari](https://www.atariwomen.org/stories/dona-bailey/) in 1980, she was the only female game designer at the company. While there, she created the classic arcade hit​ Centipede — one of the most commercially successful arcade games during the arcade golden age. She is especially well-known for insisting on excellent visuals in the game; she meticulously wrote additional code to populate the screen with colorful mushrooms and random spiders that crawl across the screen, enhancing the game’s immersive quality.In 2013, Bailey was awarded the Women in Gaming Lifetime Achievement Award.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
