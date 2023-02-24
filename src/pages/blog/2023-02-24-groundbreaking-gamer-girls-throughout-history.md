@@ -45,16 +45,24 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Valerie Thomas](/img/valerie-thomas.png)"
+    mdContent: "![Carol Shaw](/img/carol-shaw.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Valerie Thomas
+      ## Carol Shaw
 
 
-      Valerie Thomas had a strong interest in technology early on but didn’t receive support for it until she attended Morgan State University. She was one of only two women in her class to major in physics. She excelled at school and landed a job as a mathematical/data analyst for NASA. She worked at NASA from 1964 to 1995, conducting large-scale experiments, developing computer data systems, and most notably, spearheading the development of the first satellite to send images from space, “[Landsat](https://lemelson.mit.edu/resources/valerie-thomas).” The technology she developed is still used by NASA today.
+      **Companies:** Atari & Activision
+
+
+      **Games:** 3D Tic-Tac-Toe, Othello, Video Checkers, Super Breakout, River Raid, and Happy Trails
+
+
+      \
+
+      Shaw was one of the very first women to design and program video games and is often considered to be the first \*professional\* female video game designer. Working at Atari and Activision over an astounding career that spanned decades, she designed skillful, innovative games that left the industry flabbergasted. She's most well-known for River Raid, which sold over a million copies and established top-down shooters as a lucrative and popular genre of their own. Even today, River Raid is recognized as a masterpiece of its time, an astonishing amount of programming skill crammed into a 4KB game that offered endless hours of entertainment. In 2017, Shaw won the Industry Icon Award for her massive impact on the gaming industry.
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
