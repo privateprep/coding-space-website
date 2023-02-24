@@ -163,6 +163,13 @@ pageBuilder:
 
 
       Both of these women are fully deserving of their own entries in this list, but they have been such frequent collaborators that it seemed right to keep the dream team together! Tabata and Kyokguku are video game producers and directors at Nintendo, and their fingerprints are all over many of the games that dominate the contemporary gaming landscape: The Legend of Zelda, Animal Crossing, Super Smash Bros Ultimate…the list goes on! We can’t wait to see all of the games that these two dream up in the decades to come.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: Interested in learning more about women who are making their mark on
+      STEM fields? Check out our blog on [groundbreaking apps created by
+      women](https://www.thecodingspace.com/blog/2022-03-01-10-apps-by-women/).
 tags:
   - WomensHistoryMonth
 ---
