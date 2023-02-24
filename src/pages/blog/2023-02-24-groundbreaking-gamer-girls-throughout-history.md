@@ -132,11 +132,17 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: All of these STEM game-changers have left (or are still leaving) an
-      indelible mark on history. Their legacies persist through their inventions
-      and improvements, still used in today’s tech. Want to learn more about The
-      Coding Space’s commitment to racial equity? Check out our [Social
-      Impact](https://www.thecodingspace.com/about-us/social-impact/) page.
+    mdContent: >-
+      ## **Roberta Williams**
+
+
+      **Company:** Sierra
+
+
+      **Games:** Mystery House, King’s Quest series, Phantasmagoria, Space Quest, and more!
+
+
+      In 1980, Roberta Williams, a soft-spoken housewife with little coding or design experience created Mystery House, the first-ever computer game with graphics. While she couldn’t have known it then, Williams’ kitchen-table hobby would found the graphic adventure genre and become the origin of graphic design in computing and tech. Before Williams, adventure games were walls of text—innovating in leaps and bounds, she added graphics, music, and even voice actors to her games, completely disrupting the gaming industry. Williams and her husband, a programmer at IBM, formed the company [Sierra](https://www.sierragames.com/) and became the dominating force in computer games. By the time Williams retired in 1996, she was credited with more than 30 top computer games. For their massive influence on the video game industry, she and her husband received the Industry Icon Award in 2014.
 tags:
   - WomensHistoryMonth
 ---
