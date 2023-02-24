@@ -87,16 +87,22 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Marc Regis Hannah](/img/muriel-tramis.png)"
+    mdContent: "![Muriel Tramis](/img/muriel-tramis.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Marc Regis Hannah
+      ## Muriel Tramis
 
 
-      For the graphics in Jurassic Park, Aladdin, Beauty and the Beast, and more, we have electrical engineer and computer graphics designer [Marc Regis Hannah](https://www.thehistorymakers.org/biography/marc-hannah-41) to thank. In 1982 Hannah co-founded Silicon Graphics, Inc., eventually becoming the company’s principal scientist. His computer graphics technology has been used in major motion films as well as commercials, the intro for Monday Night Football, and by George Lucas’s visual effects studio, Industrial Light & Magic.
+      **Company:** Coktel Vision
+
+
+      **Games:** Freedom, Gobliiins, Lost in Time, Mewilo
+
+
+      After working as an engineer for an aerospace company, Muriel Tramis returned to her first love: games. She found a job at a video game start-up and began designing rich puzzle-adventure games that became wildly commercially successful. Unlike other popular video games of the time (think Super Mario Bros), Tramis’s games push back against the idea that video games, as a medium, can only encompass light, silly fare for kids. Her games grapple with powerful historical questions — for example, Freedom is about enslaved people fighting against their masters. Now considered a visionary, Tramis’s work recognized the potential of gaming to incorporate the kinds of themes that were, at the time, reserved for more “serious” mediums like film and literature. If it weren’t for Tramis busting open the genre, we might not have recent gaming sensations like Last of Us!
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
