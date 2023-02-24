@@ -87,7 +87,7 @@ pageBuilder:
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Marc Regis Hannah](/img/marc-regis-hannah.png)"
+    mdContent: "![Marc Regis Hannah](/img/muriel-tramis.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
