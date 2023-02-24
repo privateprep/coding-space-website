@@ -124,6 +124,11 @@ pageBuilder:
 
       Bunten Berry was a pioneer game developer who created one of the first successful multiplayer games on the Atari platform. Decades before blockbuster multiplayer games like League of Legends came to dominate gaming, Bunten Berry designed the groundbreaking multiplayer game [M.U.L.E](https://en.wikipedia.org/wiki/M.U.L.E.). M.U.L.E. sold 30,000 copies across various computer platforms and, over the years, it has emerged as one of the greatest influences on the genre's greatest designers. Ahead of her time in more ways than one, Bunten Berry insisted that the future of gaming was interconnectedness, and her vision has proved incredibly prescient. In 1998, she was awarded the [Lifetime Achievement Award](https://www.gamechoiceawards.com/archive/lifetime) by the Computer Game Developers Association. In 2007, the Academy of Interactive Arts & Sciences chose Berry as the 10th inductee into its [Hall of Fame](https://www.interactive.org/special_awards/).
   - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Roberta Williams](/img/roberta-williams.png)"
+  - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
