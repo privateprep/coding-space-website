@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-02-27T13:44:33.088Z
+  removalDate: 2023-04-21T14:35:49.919Z
   mdContent: Don't Miss Our Spring Break Camps in March and April! [Learn more
     here](/experience-levels/school-holiday-mini-camps/).
 hero:
