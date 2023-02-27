@@ -9,7 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2023-02-27T13:44:33.088Z
-  mdContent: Don't miss our school holiday camp on Feb. 20-24! [Learn more
+  mdContent: Don't Miss Our Spring Break Camps in March and April! [Learn more
     here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
