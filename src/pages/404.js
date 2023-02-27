@@ -5,18 +5,13 @@ import "./404.scss";
 import rocket from "../img/rocket.png";
 import HoneyBadger from "../utils/honeybadger";
 
-const NotFoundPage = ({ location }) => {
+const NotFoundPage = () => {
   const starContainer = createRef();
   useEffect(() => {
     for (let i = 0; i < 100; i++) {
       starContainer.current.innerHTML += `<div class="star"></div>`;
     }
   });
-
-  const url = location.href ? location.href : "";
-  useEffect(() => {
-    HoneyBadger.notify({ name: "Error: 404 missing page", message: url });
-  }, [location, url]);
 
   return (
     <Layout>
