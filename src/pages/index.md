@@ -2,7 +2,7 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: Coding for Kids | Coding Classes for Kids & Teens
+  title: Coding Classes for Kids & Teens | Coding for Kids
   description: >
     We offer coding classes for kids and teens in a caring, inclusive space for
     students to have fun, be challenged, and grow as thinkers, learners, and
