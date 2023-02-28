@@ -120,46 +120,6 @@ pageBuilder:
     mdContent: "## Coders of all ages and skill levels are invited to participate,
       both inside and outside of our classes. Participants can work individually
       or in teams. Participation is free and open to all."
-  - type: sideBySide
-    bgColor: "#ffffff"
-    leftComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        mdContent: >-
-          **March - Registration Opens**
-
-
-          Participants will have four official weeks to work on their projects but can start right away! Group projects are also encouraged.
-
-
-          **April - Registration Closes**
-
-
-          If you miss the deadline, you may still be able to participate, just [contact us here](/contact-us).
-    rightComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#264548"
-        textColor: "#ffffff"
-        mdContent: >-
-          **May - Projects Due**
-
-
-          Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
-
-
-          **June - Time to Vote**
-
-
-          Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. 
-
-
-          **June - Watch the Finale**
-
-
-          Winners will be announced live during a special virtual event!
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -296,4 +256,31 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: boxWithLogo
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      *﻿*April 17 - C4C Launch**
+
+
+      T﻿he Code 4 Change challenge officially launches!
+
+
+      *﻿*May 19 - Projects Due**
+
+
+      Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
+
+
+      **May 24 - Time to Vote**
+
+
+      Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. 
+
+
+      **June 2 - Watch the Finale**
+
+
+      Winners will be announced live during a special virtual event!
 ---
