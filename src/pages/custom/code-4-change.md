@@ -86,13 +86,7 @@ pageBuilder:
           they sign up."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
-          they have access to a computer and the internet. TCS students will
-          have the opportunity to work on their projects during class, but we
-          love when students work on their projects at home (parental decisions
-          about screen time permitting), so you may find them bringing it up in
-          conversation with you as they work or even asking for your help.
-          Global issues affect all of us, so working together to find solutions
-          is expected and encouraged.
+          they have access to a computer and the internet.
       - title: Why Build a Better World?
         mdContent: >-
           It’s no secret that coding is becoming a critical skill for success.
