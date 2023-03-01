@@ -143,22 +143,22 @@ pageBuilder:
       What global issue are you passionate about solving? Below you’ll find the 17 Sustainable Development Goals created by the UN. We encourage you to [visit their website](https://sdgs.un.org/goals) to learn more about each issue. Then, consider your passions: are you dedicated to protecting wildlife and the environment? Making sure people have enough to eat and the resources they need to thrive? Once you’ve decided on your project, start thinking about how you would solve it and how you can explore that solution in a game, project, or presentation.
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: "## Wondering what's possible? Here are a few sample project designs
       created by previous Code 4 Change participants."
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     leftComponent:
       - type: iframe
-        bgColor: "#faf6ee"
+        bgColor: "#9de2dd"
         content: https://scratch.mit.edu/projects/171209549/embed
         ratio: ratio1x1
         title: Clean Water For All
     rightComponent:
       - type: textOnly
         textAlign: center
-        bgColor: "#faf6ee"
+        bgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: >-
           > ## Scratch
@@ -168,7 +168,7 @@ pageBuilder:
 
           [View Project](https://scratch.mit.edu/projects/171209549)
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     leftComponent:
       - type: textOnly
         textAlign: center
@@ -187,6 +187,33 @@ pageBuilder:
         content: https://woofjs.com/full.html#games_for_change
         ratio: ratio1x1
         title: Recycle game
+  - type: boxWithLogo
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      **April 17 - C4C Launch**
+
+
+      T﻿he Code 4 Change challenge officially launches!
+
+
+      **May 19 - Projects Due**
+
+
+      Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
+
+
+      **May 24 - Time to Vote**
+
+
+      Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. 
+
+
+      **June 2 - Watch the Finale**
+
+
+      Winners will be announced live during a special virtual event!
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -261,31 +288,4 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: boxWithLogo
-    bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      *﻿*April 17 - C4C Launch**
-
-
-      T﻿he Code 4 Change challenge officially launches!
-
-
-      *﻿*May 19 - Projects Due**
-
-
-      Come back to this site and upload your work! Make sure to follow our sharing instructions carefully.
-
-
-      **May 24 - Time to Vote**
-
-
-      Come back to this page to try out other coders' projects and cast your vote for Coders' Choice. 
-
-
-      **June 2 - Watch the Finale**
-
-
-      Winners will be announced live during a special virtual event!
 ---
