@@ -16,13 +16,13 @@ pageBuilder:
     mdContent: |-
       ## C﻿ode 4 Change 2023
 
-      ### Stay tuned for more information in February!
+      ### Sign up for The Code 4 Change Challenge!
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Get Notified
+      - title: Register Now
         content: https://forms.gle/oSA4fcMrvdJ82GWw7
   - type: textAndImageBlock
     buttons:
