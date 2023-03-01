@@ -23,7 +23,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Register Now
-        content: https://forms.gle/oSA4fcMrvdJ82GWw7
+        content: https://code4change.thecodingspace.com
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
