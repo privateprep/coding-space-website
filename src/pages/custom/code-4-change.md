@@ -109,9 +109,7 @@ pageBuilder:
           in June.
       - title: How can kids get involved?
         mdContent: Fill out the form at the top of our page to starting your Code 4
-          Change journey!![sign up
-          here](https://code4change.thecodingspace.com) between Monday, February
-          21st and Sunday, April 3rd.
+          Change journey!
       - title: How can parents help support their C4C coders?
         mdContent: We encourage you to explore the [Sustainable Development
           Goals](https://sdgs.un.org/goals) with your children and to engage in
