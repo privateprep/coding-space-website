@@ -43,7 +43,7 @@ pageBuilder:
       Coding truly is a superpower. It can help make us safer, more sustainable, and more equitable. Used for good, it can truly help us create a stronger world for everyone.
 
 
-      This spring, Code 4 Change: Build a Better World asks our coders to use their powers for good in addressing a global issue. Drawing on the [UN’s 17 Sustainable Development Goals](https://sdgs.un.org/goals), coders will tap into their innovation, creativity, and resourcefulness to develop creative, tech-based solutions to real world problems like hunger, poverty, equality, and more. Get involved today!
+      This spring, Code 4 Change: Build a Better World asks our coders to use their powers for good in addressing a global issue. Drawing on the [UN’s Sustainable Development Goals](https://sdgs.un.org/goals), coders will tap into their innovation, creativity, and resourcefulness to develop creative, tech-based solutions to real world problems like hunger, poverty, equality, and more. Get involved today!
     fgColor: "#9de2dd"
   - type: accordion
     bgColor: "#faf6ee"
@@ -53,23 +53,37 @@ pageBuilder:
     list:
       - title: Who is invited to participate?
         mdContent: Coders of all skill levels are encouraged to sign up. This event is
-          free and open to the general public and kids of all ages. Coders who
-          are signed up for TCS spring classes will have the added benefit of
-          class time to work on their project as well as personalized support
-          from our instructors.
+          free and open to the general public and kids of all ages.
       - title: What will kids be making?
-        mdContent: Kids will be asked to choose one of the [UN’s 17 Sustainable
-          Development Goals](https://sdgs.un.org/goals) to focus on. They will
-          then create a project, game, or presentation of their choice using a
-          programming language like Scratch, WoofJS, or another to propose a
-          solution to this issue. We recommend that coders include clear
-          visuals, easy-to-follow instructions, simple rules, and an
-          approachable pace.
+        mdContent: >-
+          Kids will be asked to choose one of these Sustainable Development
+          Goals to focus on:
+
+
+          S﻿DG #2: [Zero Hunger](https://sdgs.un.org/goals/goal2)
+
+
+          S﻿DG #6: [Clean Water and Sanitation](https://sdgs.un.org/goals/goal6)
+
+
+          S﻿DG #12: [Responsible Consumption](https://sdgs.un.org/goals/goal12) 
+
+
+          SDG #13: [Climate Action](https://sdgs.un.org/goals/goal13)
+
+
+          SDG #14: [Life Below Water](https://sdgs.un.org/goals/goal14)
+
+
+          SDG #15: [Life on Land](https://sdgs.un.org/goals/goal15)\
+
+          \
+
+          They will then create a project, game, or presentation of their choice using a programming language like Scratch, WoofJS, or another to propose a solution to this issue. We recommend that coders include clear visuals, easy-to-follow instructions, simple rules, and an approachable pace.
       - title: When is Code 4 Change happening?
         mdContent: "Code 4 Change: Build a Better World kicks off officially in
-          May,  but kids are invited to begin coding their projects as soon as
-          they sign up. Coders will have four official weeks to code their
-          projects before turning them in for voting."
+          April,  but kids are invited to begin coding their projects as soon as
+          they sign up."
       - title: "Where does C4C: Build a Better World happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. TCS students will
@@ -100,9 +114,8 @@ pageBuilder:
           categories chosen by our TCS instructors, during a live virtual event
           in June.
       - title: How can kids get involved?
-        mdContent: Participating coders come back to this website to sign up in
-          February. Fill out the form at the top of our page to get notified
-          when registration opens![sign up
+        mdContent: Fill out the form at the top of our page to starting your Code 4
+          Change journey!![sign up
           here](https://code4change.thecodingspace.com) between Monday, February
           21st and Sunday, April 3rd.
       - title: How can parents help support their C4C coders?
