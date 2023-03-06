@@ -6,7 +6,7 @@ bgColor: "#f6c924"
 date: 2023-03-01T22:18:17.879Z
 description: |
   Celebrating Women’s History Month: Gamer Edition!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/mabel-addis.png
   alt: Mabel Addis Mergardt
