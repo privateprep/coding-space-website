@@ -6,7 +6,7 @@ bgColor: "#9de2dd"
 date: 2023-02-01T21:20:59.546Z
 description: |
   Happy Valentine’s Day from The Coding Space!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/stem-love-stories-cover.png
   alt: Marie & Pierre Curie
