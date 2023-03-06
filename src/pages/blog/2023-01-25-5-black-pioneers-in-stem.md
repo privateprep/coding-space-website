@@ -6,7 +6,7 @@ bgColor: "#9de2dd"
 date: 2023-02-01T20:29:29.884Z
 description: |
   Celebrating a STEM-tastic Black History Month
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/valerie-thomas.png
   alt: NK Jemisin
