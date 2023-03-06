@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-03-01T18:41:45.417Z
 description: Oh the places you’ll code!
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img-7012-2-.jpg
   alt: 7 Things You Can Do With a Foundation in Code
