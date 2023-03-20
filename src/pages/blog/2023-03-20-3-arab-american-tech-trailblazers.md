@@ -15,32 +15,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Mabel Addis Mergardt](/img/mabel-addis.png)"
+    mdContent: "![Rana el Kaliouby](/img/rana-el-kaliouby.jpeg)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Mabel Addis Mergardt
+      ## Rana el Kaliouby
 
 
-      **Company:** Atari
+      *Founder of Affectiva & Emotional Recognition Tech Pioneer*
 
 
-      **Game:** The Sumerian Game
-
-
-      For most of her life, Addis was a teacher dedicated to her love of history: she wrote historical articles and books and cultivated a love of history in the young minds she encountered. Then, in the 1960s, she was elected to work with IBM to create an educational game for her students.
-
-
-      \
-
-      What resulted was a text-based strategy game called [The Sumerian Game](https://en.wikipedia.org/wiki/The_Sumerian_Game), the first-ever video game created for a computer, making Addis the first person (not the first woman — the first PERSON!) to write a computer video game. It’s important that we mention the date here — The Sumerian Game was released in 1964. 1964! That’s almost a full decade before either Pong or The Oregon Trail came onto the scene — both games that are often, erroneously, cited as the first computer video games.
-
-
-      \
-
-      Addis poured her historical passion and expertise into The Sumerian Game, setting it in Lagash a Mesopotamian city in the year 3500 BC, and casting the player as the ruler, who must decide how much grain to feed their people, what to do about rat infestations, and how much of their city’s funds to dedicate to land expansion. The first players of Addis’s groundbreaking game? Her students, of course!
+      [Rana el Kaliouby](https://ranaelkaliouby.com/) is an Egyptian-American computer scientist, AI thought leader, angel investor, and entrepreneur working to humanize technology. While she was completing her doctoral research at the University of Cambridge, she struggled to connect with her loved ones in video calls back home. So, after earning her doctorate, el Kaliouby joined the Affective Computing group at MIT, where she helped develop an “emotional hearing aid” and a pair of glasses that could read emotions and social cues. These tools comprised the Emotional-Social Intelligence Prosthesis, wearable tech for people with autism who have trouble identifying other people’s emotions. In 2009, el Kaliouby co-founded Affectiva, a company that develops pioneering emotional recognition technology. She is also an executive fellow at the Harvard Business School and author of Girl Decoded: A Scientist’s Quest to Reclaim Our Humanity by Bringing Emotional Intelligence to Technology.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
