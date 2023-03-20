@@ -49,22 +49,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Dona Bailey](/img/dona-bailey.png)"
+    mdContent: "![Taher Elgamal](/img/taher-elgamal.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Dona Bailey
+      ## Taher Elgamal
 
 
-      **Company:** Atari
+      *The Architect of Internet Security*
 
 
-      **Game:** Centipede
-
-
-      Dona Bailey is yet another “first” — the first woman to create an arcade game! When she accepted a position at [Atari](https://www.atariwomen.org/stories/dona-bailey/) in 1980, she was the only female game designer at the company. While there, she created the classic arcade hit​ Centipede — one of the most commercially successful arcade games during the arcade golden age. She is especially well-known for insisting on excellent visuals in the game; she meticulously wrote additional code to populate the screen with colorful mushrooms and random spiders that crawl across the screen, enhancing the game’s immersive quality.In 2013, Bailey was awarded the Women in Gaming Lifetime Achievement Award.
+      The topic of online privacy and security is dominating the airwaves now, but that wasn’t always the case. However, thanks to early tech visionaries like Egyptian-American Taher Elgamal, developments in internet security and cryptography are rapidly advancing. Elgamal began his pioneering work in the 1980s, before truly anyone else was considering security algorithms. His paper “[A Public Key Cryptosystem and a Signature Scheme based on Discrete Logarithms](https://link.springer.com/chapter/10.1007/3-540-39568-7_2),” published in 1984, formed the bases of the Digital Signature Algorithm (DSA) and the Advanced Encryption Standard. Additionally, Elgamal was the driving force behind the Secure Sockets Layer (SSL), a protocol that keeps online communications (like email!) secure.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
