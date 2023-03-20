@@ -32,24 +32,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Carol Shaw](/img/carol-shaw.png)"
+    mdContent: "![Tony Fadell](/img/tony-fadell.webp)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Carol Shaw
+      ## Tony Fadell
 
 
-      **Companies:** Atari & Activision
+      *Father of the iPod*
 
 
-      **Games:** 3D Tic-Tac-Toe, Othello, Video Checkers, Super Breakout, River Raid, and Happy Trails
-
-
-      \
-
-      Shaw was one of the very first women to design and program video games and is often considered to be the first \*professional\* female video game designer. Working at Atari and Activision over an astounding career that spanned decades, she designed skillful, innovative games that left the industry flabbergasted. She's most well-known for River Raid, which sold over a million copies and established top-down shooters as a lucrative and popular genre of their own. Even today, River Raid is recognized as a masterpiece of its time, an astonishing amount of programming skill crammed into a 4KB game that offered endless hours of entertainment. In 2017, Shaw won the Industry Icon Award for her massive impact on the gaming industry.
+      When Apple was on the verge of collapse in 2001, they called Arab American inventor [Tony Fadell](https://www.buildc.com/meet-tony). Apple CEO Steve Jobs had imagined a product that could save his company — a personal music player that could put 1000 songs in your pocket. But there was no design, no team, no prototype, and no real traction for the idea. Undeterred, Fadell assembled a team and got to work. The result was the iPod, which launched in November 2001 and revolutionized the entire industry. Fadell oversaw the first 18 iterations of the iPod before Jobs gave him his next assignment: to create a new version of the iPod that also had the capabilities of a mobile phone. You guessed it — the result was the first iPhone, the invention of which was spearheaded by Fadell. After leaving Apple, Fadell has continued inventing and building game-changing personal tech, like the Nest thermostat.
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
