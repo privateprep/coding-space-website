@@ -8,8 +8,8 @@ description: |
   Happy Arab American Heritage Month!
 featuredPost: false
 featuredImage:
-  image: /img/mabel-addis.png
-  alt: Mabel Addis Mergardt
+  image: /img/rana-el-kaliouby.jpeg
+  alt: Rana el Kaliouby
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -173,6 +173,4 @@ pageBuilder:
 tags:
   - ArabAmericanHeritageMonth
 ---
-If you’ve believed up to this point that video games are primarily the purview of gamer dudes, we don’t blame you. Video gaming IS (and has historically been) a male-dominated industry. That being said, the history of video gaming is probably less bro-heavy than you’ve been led to believe.
-
-It’s unfortunate, but true: the many women who shaped the video game industry often go unacknowledged, hidden from popular narratives by male-centric scholarship and harmful “lone genius” myths. This year, for Women’s History Month, we’re aiming to set the record straight by shedding light on some of the most iconic, most influential, and most overlooked gamer girls throughout history.
+Though their work is often overlooked, Arab American inventors have made major contributions to American technology. So this month, for Arab American Heritage Month, we’re saying it loud and clear: throughout history, America’s progress in science and tech has been MASSIVELY boosted by the innovations of Arab-American makers and visionaries! Here are just three of our favorite Arab-American tech trailblazers.
