@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Digital Easter Eggs
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2022-04-02T18:10:48.270Z
+date: 2023-04-02T18:10:48.270Z
 description: Ears looking at you, code lovers!
 featuredPost: false
 featuredImage:
