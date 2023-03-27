@@ -19,7 +19,7 @@ hero:
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Winter/Spring Classes
+      - title: Spring Classes
         content: /programs/spring
       - title: Summer Programs
         content: /programs/summer/
