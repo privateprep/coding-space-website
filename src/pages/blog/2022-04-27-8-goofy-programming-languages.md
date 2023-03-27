@@ -80,17 +80,15 @@ pageBuilder:
 
 
       [Velato](https://esolangs.org/wiki/Velato#:~:text=Velato%20is%20an%20esoteric%20programming,necessarily%20sound%20like%20random%20notes.) is a melodious coding language created by Daniel Temkin that uses MIDI files as the source code, with the commands determined by the pitch and order of notes. Check out the “Hello World” code to see what it looks like in practice!
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
+  - type: textOnly
+    textAlign: center
     bgColor: "#faf6ee"
-    image:
-      image: /img/arnoldc.png
-      alt: ArnoldC
-    mediaPosition: right
+    textColor: "#264548"
+    mdContent: "![](/img/arnoldc-code-only-.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
     mdContent: >-
       ## ARNOLDC
 
