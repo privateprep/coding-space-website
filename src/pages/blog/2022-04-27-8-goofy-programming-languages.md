@@ -94,17 +94,15 @@ pageBuilder:
 
 
       [ArnoldC](https://github.com/lhartikk/ArnoldC) is a programming language consisting exclusively of (get this) one-liners from movies starring Arnold Schwarzenegger — especially classics such as Terminator, Predator and Total Recall. [ArnoldC](https://github.com/lhartikk/ArnoldC) was created by Lauri Hartikka, who started by swapping out standard commands for an equivalent Arnold one-liner. For example, the standard commands “False” and “True” become “I LIED” and “NO PROBLEMO”, and “Return” becomes “I’LL BE BACK” Here’s what the (frankly hilarious) "Hello World!" code looks like.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/chef.png
-      alt: Chef
-    mediaPosition: right
+    mdContent: "![](/img/chef-code-only-.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: >-
       ## CHEF
 
