@@ -43,6 +43,15 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: "![](/img/remorse.png)"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## REMORSE CODE
+
+
+      Developed by Ryan Kusnery, [ReMorse](https://web.archive.org/web/20080403122701/https://members.tripod.com/rkusnery/remorse.html) is a programming language that was made to look like Morse code. There are only four instructions: dot (.), dotty (. followed by a space), dash (-) and dasher (- followed by a space).
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
