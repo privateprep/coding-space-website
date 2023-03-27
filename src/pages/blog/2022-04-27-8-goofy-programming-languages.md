@@ -44,7 +44,7 @@ pageBuilder:
     textColor: "#264548"
     mdContent: "![](/img/remorse.png)"
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
@@ -52,6 +52,20 @@ pageBuilder:
 
 
       Developed by Ryan Kusnery, [ReMorse](https://web.archive.org/web/20080403122701/https://members.tripod.com/rkusnery/remorse.html) is a programming language that was made to look like Morse code. There are only four instructions: dot (.), dotty (. followed by a space), dash (-) and dasher (- followed by a space).
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![](/img/taxi.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## TAXI
+
+
+      [Taxi](https://bigzaphod.github.io/Taxi/) is a coding language that looks like directions on a roadmap, replacing traditional coding elements like varialbes, classes, and functions with places, cities, and directions.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -157,6 +171,11 @@ pageBuilder:
       languages. Click
       [here](https://www.thecodingspace.com/about-us/our-teaching-philosophy) to
       learn more about our teaching philosophy.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![](/img/velato-code-only-.png)"
 tags: []
 ---
 Have you ever wondered how programming languages come to life? Most functional languages, like the ones we teach at The Coding Space, began as solutions to coding problems. But sometimes, a programming language creator doesn’t want to inhabit such a utilitarian mindset — they want to express their creativity, inject some humor into their work, or show off their niche trivia knowledge.
