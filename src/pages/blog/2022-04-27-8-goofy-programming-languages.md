@@ -108,33 +108,29 @@ pageBuilder:
 
 
       [Chef](https://www.dangermouse.net/esoteric/chef.html), created by David Morgan-Mar, is a programming language that looks like a recipe. The extra twist in this coding language is that, in order for the code to be valid, the recipes have to work both as code AND as functional recipes that make for delicious meals for cooks with different tastes and budgets. Chef is the perfect language for coders looking for an extra scoop of challenge in their coding fun.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
     textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/chicken.png
-      alt: Chicken
-    mediaPosition: right
+    mdContent: "![](/img/chicken-code-only-.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
     mdContent: >-
       ## CHICKEN
 
 
       [Chicken](https://en.wikipedia.org/wiki/Chicken_(Scheme_implementation)#:~:text=Chicken%20(stylized%20as%20CHICKEN)%20is,many%20extensions%20to%20the%20standard.) is a programming language consisting of only one word: chicken. It was created by Swedish programmer Torbjörn Söderstedt, who was inspired to create it after reading Doug Zongker’s parody of incomprehensible scientific papers. Here is the [paper](https://isotropic.org/papers/chicken.pdf) that inspired the language, and check out the image to the right for, believe it or not, an excerpt from the “Hello World” code.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/ook.png
-      alt: Ook!
-    mediaPosition: right
+    mdContent: "![](/img/ook-code-only-.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: >-
       ## OOK!
 
