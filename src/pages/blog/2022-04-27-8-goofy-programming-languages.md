@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: 8 Goofy Programming Languages
+title: 11 Goofy Programming Languages
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-04-27T22:19:32.304Z
+date: 2023-05-01T19:30:20.596Z
 description: Peek inside the codes that make us <lol>
 featuredPost: false
 featuredImage:
-  image: /img/weird-programming-langugages.png
+  image: /img/weird-programming-languages-2023.png
   alt: Weirdest Programming Languages
 pageBuilder:
   - type: textAndImageBlock
