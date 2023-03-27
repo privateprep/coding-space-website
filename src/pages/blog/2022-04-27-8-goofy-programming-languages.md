@@ -10,6 +10,20 @@ featuredImage:
   image: /img/weird-programming-languages-2023.png
   alt: Weirdest Programming Languages
 pageBuilder:
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "![](/img/lolcode.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## LOLCODE
+
+
+      [LOLCODE](http://lolcode.org/) was created in 2007 by Adam Lindsay, researcher at Lancaster University. It’s a language comprised entirely of meme-ified “lolspeak”. It may not be the most functional coding language, but what LOLCODE lacks in usefulness, it more than makes up for in hilarity and cuteness. Take a look at the “Hello World!” code!
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
