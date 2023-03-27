@@ -66,6 +66,20 @@ pageBuilder:
 
 
       [Taxi](https://bigzaphod.github.io/Taxi/) is a coding language that looks like directions on a roadmap, replacing traditional coding elements like varialbes, classes, and functions with places, cities, and directions.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "![](/img/velato-code-only-.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## VELATO
+
+
+      [Velato](https://esolangs.org/wiki/Velato#:~:text=Velato%20is%20an%20esoteric%20programming,necessarily%20sound%20like%20random%20notes.) is a melodious coding language created by Daniel Temkin that uses MIDI files as the source code, with the commands determined by the pitch and order of notes. Check out the “Hello World” code to see what it looks like in practice!
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -146,22 +160,6 @@ pageBuilder:
 
 
       In Juraj Borza’s programming language [Omgrofl](https://github.com/OlegSmelov/omgrofl-interpreter) (“oh my god rolling on the floor laughing”’), all of the commands are made up of internet acronyms — “lol”, “brb”, “kthx”, etc. Here’s what the source code for “Hello World!” looks like.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/velato.png
-      alt: Velato
-    mediaPosition: right
-    mdContent: >-
-      ## VELATO
-
-
-      [Velato](https://esolangs.org/wiki/Velato#:~:text=Velato%20is%20an%20esoteric%20programming,necessarily%20sound%20like%20random%20notes.) is a melodious coding language created by Daniel Temkin that uses MIDI files as the source code, with the commands determined by the pitch and order of notes. Check out the “Hello World” code to see what it looks like in practice!
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -171,11 +169,6 @@ pageBuilder:
       languages. Click
       [here](https://www.thecodingspace.com/about-us/our-teaching-philosophy) to
       learn more about our teaching philosophy.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: "![](/img/velato-code-only-.png)"
 tags: []
 ---
 Have you ever wondered how programming languages come to life? Most functional languages, like the ones we teach at The Coding Space, began as solutions to coding problems. But sometimes, a programming language creator doesn’t want to inhabit such a utilitarian mindset — they want to express their creativity, inject some humor into their work, or show off their niche trivia knowledge.
