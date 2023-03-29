@@ -50,7 +50,9 @@ const CourseOffering = ({
       </div>
       <div className="overview">
         <h3 className="overview__name">{classTypeName}</h3>
-        {!!isCamp && <h4 className="overview__weekdays">Monday - Friday</h4>}
+        {!!isCamp && sessionCount > 4 && (
+          <h4 className="overview__weekdays">Monday - Friday</h4>
+        )}
         <h4 className="overview__time">{scheduledTimeRange}</h4>
         <h4 className="overview__dates">{dateRange}</h4>
       </div>

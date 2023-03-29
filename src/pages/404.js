@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import "./404.scss";
 import rocket from "../img/rocket.png";
-import HoneyBadger from "../utils/honeybadger";
 
 const NotFoundPage = () => {
   const starContainer = createRef();
