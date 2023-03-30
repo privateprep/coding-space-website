@@ -60,16 +60,16 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#faf6ee"
         heading: Your child will...
-        mdContent: >-
-          * Learn to code in Scratch, JavaScript, and more!
+        mdContent: |-
+          Learn to code in Scratch, JavaScript, and more!
 
-          * Build grit, a growth mindset, and computational thinking skills.
+          Build grit, a growth mindset, and computational thinking skills.
 
-          * Discover and define their personal passions.
+          Discover and define their personal passions.
 
-          * C﻿ode projects and design products that they can take home with them.
+          C﻿ode projects and design products that they can take home with them.
 
-          * Make new friends and have a blast.
+          Make new friends and have a blast.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
