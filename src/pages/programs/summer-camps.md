@@ -23,7 +23,7 @@ pageBuilder:
     bgColor: "#ffffff"
     image:
       image: /img/microsoft-field-trip.jpg
-      alt: Kids sitting around a table coding
+      alt: Students on a field trip to Microsoft
     mediaPosition: left
     mdContent: >-
       ## Welcome to Camp Coding Space, the most stellar coding camp in the
@@ -38,7 +38,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     leftComponent:
       - type: styledChecks
-        bgColor: "#faf6ee"
+        bgColor: "#9de2dd"
         fgColor: "#9de2dd"
         textColor: "#264548"
         mediaPosition: column
@@ -136,58 +136,6 @@ pageBuilder:
           **Lunch:** Bring Your Own
 
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
-  - type: sideBySide
-    bgColor: "#ffffff"
-    leftComponent:
-      - type: styledChecks
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        mediaPosition: column
-        list:
-          - title: Warm Up Activities
-            content: We'll kick-off each day with fun new ways of getting to know each other
-              through activities like Theme Day or Cool Hidden Talents.
-          - title: Project-Based Coding
-            content: We challenge our students to create projects as unique as they are.
-              Students receive individualized attention and curriculum
-              customization through experienced teachers and a small
-              student-to-teacher ratios. Using the Socratic method, our teachers
-              ask questions aimed at helping students discover their own
-              solutions to problems. Whether your child is new to coding or
-              already building their own websites and projects, students
-              progress through our curriculum at the pace that’s right for them.
-          - title: Hands-On Activities
-            content: "Time to stretch, express, and play. Students take a break from their
-              screens and discover the opportunities to create and explore that
-              exist all around them. Centered in the world of STEM, these
-              activities range from cryptography to engineering to science
-              experiments, and much more. "
-    rightComponent:
-      - type: styledChecks
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        mediaPosition: column
-        list:
-          - title: STEM Challenges
-            content: Campers will build their engineering grit and teamwork skills by
-              collaborating on daily STEM challenges, like building the
-              strongest bridge or tallest tower, making a light blink in
-              Arduino, inventing a Rube Goldberg machine to solve a problem, and
-              more!
-          - title: " Field Trips"
-            content: >-
-              During each two-week session, campers go on field trips to nearby
-              tech companies. Past field trips have included trips to Google,
-              Etsy, and Microsoft.*
-
-
-              *Please note: Field trips are available on the second week of every two-week package. Field trip schedules are expected to be released in April.
-          - title: Reflection
-            content: >
-              Each day ends with a reflection on the day's work, lessons
-              learned, and future goals.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
