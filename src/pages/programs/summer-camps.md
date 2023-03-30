@@ -3,14 +3,14 @@ templateKey: programs
 title: "  "
 titleColor: "#264548"
 seo:
-  title: Coding Camp for Kids
+  title: Coding Camp for Kids | Camp Coding Space
   description: >
     Held Monday through Friday throughout the summer on the Upper East Side in
     NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM
     exploration, team-building activities, exciting field trips, and more to
     create an unforgettable summer experience.
 heroImage:
-  image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-.png
+  image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-1-.png
   alt: Accessibility name
 pageBuilder:
   - type: textAndImageBlock
@@ -28,10 +28,11 @@ pageBuilder:
       alt: Kids sitting around a table coding
     mediaPosition: left
     mdContent: >-
-      ## Learn to Code in Our Immersive Camps
+      ## Welcome to Camp Coding Space, the most stellar coding camp in the
+      galaxy!
 
 
-      Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
+      Our summer coding camp features **field trips to tech companies**
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
