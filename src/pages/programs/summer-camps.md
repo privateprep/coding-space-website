@@ -4,22 +4,20 @@ title: "  "
 titleColor: "#264548"
 seo:
   title: Coding Camp for Kids | Camp Coding Space
-  description: >
-    Held Monday through Friday throughout the summer on the Upper East Side in
-    NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM
-    exploration, team-building activities, exciting field trips, and more to
-    create an unforgettable summer experience.
+  description: Our summer coding camp features field trips to tech companies,
+    project-based coding, plenty of outdoor fun, and robotics and STEAM
+    exploration at The Lift-Off-Lab. Don't miss it!
 heroImage:
   image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-1-.png
   alt: Accessibility name
 pageBuilder:
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
+      bgColor: "#ffffff"
+      fgColor: "#eec11a"
       textColor: "#264548"
       list:
-        - title: Sign up
+        - title: Register Now
           content: /experience-levels/camp-coding-space/
     textColor: "#264548"
     bgColor: "#faf6ee"
@@ -32,7 +30,9 @@ pageBuilder:
       galaxy!
 
 
-      Our summer coding camp features **field trips to tech companies**
+      Our summer coding camp features **field trips to tech companies**, so that our young STEM lovers can see where the magic happens, **project-based coding** to launch their coding skills into orbit, and plenty of **outdoor fun** to get their minds and bodies moving. This summer we're excited to introduce **The Lift-Off Lab** into the lineup that will inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent.
+
+       Learn more and register below!
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
