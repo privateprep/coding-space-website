@@ -5,8 +5,8 @@ titleColor: "#264548"
 seo:
   title: Coding Camp for Kids | Camp Coding Space
   description: Our summer coding camp features field trips to tech companies,
-    project-based coding, plenty of outdoor fun, and robotics and STEAM
-    exploration at The Lift-Off-Lab. Don't miss it!
+    project-based coding, plenty of outdoor fun, and tech exploration at The
+    Lift-Off-Lab. Don't miss it!
 heroImage:
   image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-1-.png
   alt: Accessibility name
@@ -20,9 +20,9 @@ pageBuilder:
         - title: Register Now
           content: /experience-levels/camp-coding-space/
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
-      image: /img/GirlCode-around-a-table.jpg
+      image: /img/microsoft-field-trip.jpg
       alt: Kids sitting around a table coding
     mediaPosition: left
     mdContent: >-
