@@ -54,5 +54,5 @@ pageBuilder:
         bgColor: "#eec11a"
         textColor: "#264548"
         mdContent: "![The Coding Space
-          Journey](/img/tcs-journey-infographic-rocket-1-23-.png)"
+          Journey](/img/tcs-journey-infographic-rocket-3-30-23-2-.png)"
 ---
