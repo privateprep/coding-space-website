@@ -34,6 +34,42 @@ pageBuilder:
 
        Learn more and register below!
     fgColor: "#9de2dd"
+  - type: sideBySide
+    bgColor: "#9de2dd"
+    leftComponent:
+      - type: styledChecks
+        bgColor: "#faf6ee"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        mediaPosition: column
+        list:
+          - title: Expert Instructors in a 4:1 Ratio
+            content: "  "
+          - title: Personalized Curriculum That Challenges Each Camper at Their Individual
+              Level
+            content: "  "
+          - title: Exciting Field Trips to Tech Companies Like Microsoft & Samsung
+            content: "  "
+          - title: Screen Break Activities & Outdoor Games in the Park
+            content: "  "
+          - title: Introduction to Robotics, Circuitry, and more
+            content: "  "
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#9de2dd"
+        fgColor: "#264548"
+        textColor: "#faf6ee"
+        heading: Your child will...
+        mdContent: >-
+          * Learn to code in Scratch, JavaScript, and more!
+
+          * Build grit, a growth mindset, and computational thinking skills.
+
+          * Discover and define their personal passions.
+
+          * C﻿ode projects and design products that they can take home with them.
+
+          * Make new friends and have a blast.
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
@@ -54,31 +90,6 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-  - type: sideBySide
-    bgColor: "#9de2dd"
-    leftComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: '![Girls learning in a group with
-          computers](/img/group-of-kids-around-computer.jpg "Girls learning in a
-          group with computers")'
-    rightComponent:
-      - type: boxWithLogo
-        bgColor: "#9de2dd"
-        fgColor: "#264548"
-        textColor: "#faf6ee"
-        heading: Your child will...
-        mdContent: |-
-          
-
-          * Learn to code!
-          * Be challenged at their individual level.
-          * Build grit, a growth mindset, and computational thinking skills.
-          * Balance screen time with hands-on activities, games, and more.
-          * Discover and define their personal passions.
-          * Make new friends near and far.
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
