@@ -81,7 +81,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/girlcode-three-around-computer.jpg
+      image: /img/GirlCode-around-a-table.jpg
       alt: Kids working on on a computer in a group
     mediaPosition: right
     mdContent: >-
