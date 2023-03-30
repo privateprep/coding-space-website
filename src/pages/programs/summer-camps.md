@@ -35,10 +35,10 @@ pageBuilder:
        Learn more and register below!
     fgColor: "#9de2dd"
   - type: sideBySide
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     leftComponent:
       - type: styledChecks
-        bgColor: "#9de2dd"
+        bgColor: "#faf6ee"
         fgColor: "#9de2dd"
         textColor: "#264548"
         mediaPosition: column
@@ -56,7 +56,7 @@ pageBuilder:
             content: "  "
     rightComponent:
       - type: boxWithLogo
-        bgColor: "#9de2dd"
+        bgColor: "#faf6ee"
         fgColor: "#264548"
         textColor: "#faf6ee"
         heading: Your child will...
@@ -72,16 +72,16 @@ pageBuilder:
           Make new friends and have a blast.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#ffffff"
-      fgColor: "#9de2dd"
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
       textColor: "#264548"
       list:
         - title: Learn More
           content: /about-us/our-teaching-philosophy
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     image:
-      image: /img/hands_on.jpeg
+      image: /img/girlcode-three-around-computer.jpg
       alt: Kids working on on a computer in a group
     mediaPosition: right
     mdContent: >-
@@ -138,8 +138,8 @@ pageBuilder:
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
   - type: textOnly
     textAlign: center
-    bgColor: "#264548"
-    textColor: "#ffffff"
+    bgColor: "#9de2dd"
+    textColor: "#264548"
     mdContent: >-
       ##  Scholarships Available
 
