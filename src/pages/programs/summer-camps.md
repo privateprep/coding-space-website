@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Camp Coding Space
+title: "  "
 titleColor: "#264548"
 seo:
   title: Coding Camp for Kids
@@ -10,7 +10,7 @@ seo:
     exploration, team-building activities, exciting field trips, and more to
     create an unforgettable summer experience.
 heroImage:
-  image: /img/tcs-header.png
+  image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-.png
   alt: Accessibility name
 pageBuilder:
   - type: textAndImageBlock
