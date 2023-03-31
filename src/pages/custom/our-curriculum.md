@@ -21,38 +21,42 @@ pageBuilder:
           Our customized curriculum was created to inspire your child to achieve their maximum potential through multiple years of coding with us.
 
 
-          Our student-centered approach combines project-based learning with unique platforms like WoofJS to create a personalized education experience, allowing students to be challenged at their individual level and pace. 
+          Our student-centered approach combines project-based learning with unique platforms like WoofJS to create a personalized education experience, allowing students to be challenged at their individual level and pace.
 
 
-          T﻿hrough out their journey, students will gain continued exposure to computer science principles.
+          Through out their journey, students will gain continued exposure to computer science principles.
 
 
-          ### **T﻿ypical Journey for a Coding Space student:**
+          ### **Typical Journey for a Coding Space student:**
 
 
           * Grade 1 - Young Beginner
 
-          * G﻿rade 2 - Young Beginner or Beginner
+          * Grade 2 - Young Beginner or Beginner
 
-          * G﻿rade 3 - Beginner or Intermediate
+          * Grade 3 - Beginner or Intermediate
 
-          * G﻿rade 4 - Beginner or Intermediate
+          * Grade 4 - Beginner or Intermediate
 
-          * G﻿rade 5 - Intermediate or Advanced
+          * Grade 5 - Intermediate or Advanced
 
-          * G﻿rade 6 - Intermediate or Advanced
+          * Grade 6 - Intermediate or Advanced
 
-          * G﻿rade 7 - Intermediate or Advanced
+          * Grade 7 - Intermediate or Advanced
 
-          * G﻿rade 8 - Advanced or Teen Code
+          * Grade 8 - Advanced or Teen Code
     rightComponent:
       - type: textOnly
         textAlign: center
         bgColor: "#eec11a"
         textColor: "#264548"
+        mediaPosition: "dummy content"
+        list:
+          - title: "dummy content"
+          - content: "dummy content"
         mdContent: "![The Coding Space Journey](/img/tcs-journey-infographic-rocket.png)"
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
@@ -62,27 +66,27 @@ pageBuilder:
       The cornerstone of our curriculum begins with [Scratch](https://www.thecodingspace.com/blog/2022-02-04-celebrating-scratch-during-scratchweek), a block-based programming language built by MIT. Students ages 8-10 will likely start here. Students under the age of 8 will likely start in Code.org, a pre-cursor to Scratch, completing several projects there before advancing to Scratch.
 
 
-      #### **S﻿kills Covered**
+      #### **Skills Covered**
 
 
-      * S﻿equential Evaluation
+      * Sequential Evaluation
 
-      * E﻿vents
+      * Events
 
-      * V﻿ariables 
+      * Variables
 
-      * L﻿oops
+      * Loops
 
-      * C﻿onditional Statements
+      * Conditional Statements
 
 
       ### **Intermediate through Advanced**
 
 
-      S﻿tudents will begin working in [WoofJS](https://woofjs.com), our JavaScript learning platform, in the Intermediate class. 
+      Students will begin working in [WoofJS](https://woofjs.com), our JavaScript learning platform, in the Intermediate class.
 
 
-      #### **S﻿kills Covered**
+      #### **Skills Covered**
 
 
       * Syntax
@@ -99,19 +103,19 @@ pageBuilder:
       ### **Advanced through Teen Code**
 
 
-      S﻿tudents will begin working in Front End Web Development. After learning how webpages are built and advancing their JavaScript knowledge to make them interactive, they'll delve further into using APIs to send and receive data and libraries and frameworks to bring their programs to the next level. Advanced programmers also will get the chance to build databases and explore backend development through Node.js or Python.
+      Students will begin working in Front End Web Development. After learning how webpages are built and advancing their JavaScript knowledge to make them interactive, they'll delve further into using APIs to send and receive data and libraries and frameworks to bring their programs to the next level. Advanced programmers also will get the chance to build databases and explore backend development through Node.js or Python.
 
 
-      #### **S﻿kills Covered**
+      #### **Skills Covered**
 
 
-      * H﻿TML Tags
+      * HTML Tags
 
       * CSS Styling
 
-      * D﻿ocument Object Model (DOM)
+      * Document Object Model (DOM)
 
-      * A﻿PI Calls
+      * API Calls
 
-      * D﻿atabases
+      * Databases
 ---
