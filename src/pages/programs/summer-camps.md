@@ -62,7 +62,7 @@ pageBuilder:
         heading: Your child will...
         mdContent: >-
           Learn to code in Scratch, JavaScript, and additional languages where
-          applicable.
+          applicable. 
 
 
           Build grit, a growth mindset, and computational thinking skills.
@@ -71,7 +71,7 @@ pageBuilder:
           Discover and define their personal passions.
 
 
-          C﻿ode projects and design products that they can take home with them.
+          C﻿ode projects and build products that they can take home with them.
 
 
           Make new friends and have a blast.
