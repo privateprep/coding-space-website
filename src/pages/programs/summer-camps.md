@@ -87,7 +87,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "## L﻿ocations"
+    mdContent: "## Camp Coding Space Locations"
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
