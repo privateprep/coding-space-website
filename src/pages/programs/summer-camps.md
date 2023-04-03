@@ -128,9 +128,12 @@ pageBuilder:
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
       textColor: "#264548"
+      list:
+        - title: Sign Up for Camp
+          content: /programs/summer-camps/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -166,6 +169,10 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
