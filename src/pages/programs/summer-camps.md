@@ -176,8 +176,8 @@ pageBuilder:
 
       We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high quality coding programs.
   - type: buttons
-    bgColor: "#264548"
-    fgColor: "#9de2dd"
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
     textColor: "#264548"
     list:
       - title: Apply for a Scholarship
