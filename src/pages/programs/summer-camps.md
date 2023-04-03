@@ -173,22 +173,6 @@ pageBuilder:
     bgColor: "#faf6ee"
     fgColor: "#264548"
     textColor: "#264548"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ##  Scholarships Available
-
-
-      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high quality coding programs.
-  - type: buttons
-    bgColor: "#9de2dd"
-    fgColor: "#eec11a"
-    textColor: "#264548"
-    list:
-      - title: Apply for a Scholarship
-        content: /about-us/scholarship-program/
   - type: reviews
     textColor: "#EDC034"
     fgColor: "#ffffff"
@@ -212,12 +196,28 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
+      ##  Scholarships Available
+
+
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high quality coding programs.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Apply for a Scholarship
+        content: /about-us/scholarship-program/
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: >-
       ## Have a question?
 
 
       Be sure to check out our [Common Questions](/about-us/common-questions/). If you still don’t see what you need, reach out to us.
   - type: buttons
-    bgColor: "#9de2dd"
+    bgColor: "#ffffff"
     fgColor: "#264548"
     textColor: "#ffffff"
     list:
