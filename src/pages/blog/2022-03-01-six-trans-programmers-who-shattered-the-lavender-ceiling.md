@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2023-03-01T18:00:17.982Z
 description: Celebrating International Transgender Day of Visibility
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/tcs-trans-blog-photos.png
   alt: Transgender Day of Visibility
