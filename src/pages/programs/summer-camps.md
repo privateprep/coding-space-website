@@ -133,7 +133,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Sign Up for Camp
-          content: /programs/summer-camps/
+          content: /experience-levels/camp-coding-space/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
