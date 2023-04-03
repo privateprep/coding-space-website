@@ -45,14 +45,14 @@ pageBuilder:
         list:
           - title: Expert Instructors in a 4:1 Ratio
             content: "  "
-          - title: Personalized Curriculum That Challenges Each Camper at Their Individual
-              Level
+          - title: Personalized Coding Curriculum That Challenges Each Camper at Their
+              Individual Level
             content: "  "
           - title: Exciting Field Trips to Tech Companies Like Microsoft & Samsung
             content: "  "
           - title: Screen Break Activities & Outdoor Games in the Park
             content: "  "
-          - title: Introduction to Robotics, Circuitry, and more
+          - title: Introduction to Robotics, Circuitry, 3D Modeling, and More
             content: "  "
     rightComponent:
       - type: boxWithLogo
@@ -61,7 +61,7 @@ pageBuilder:
         textColor: "#faf6ee"
         heading: Your child will...
         mdContent: |-
-          Learn to code in Scratch, JavaScript, and more!
+          Learn to code in Scratch, JavaScript, and more.
 
           Build grit, a growth mindset, and computational thinking skills.
 
