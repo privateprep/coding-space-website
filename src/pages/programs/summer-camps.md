@@ -75,26 +75,6 @@ pageBuilder:
 
 
           Make new friends and have a blast.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /about-us/our-teaching-philosophy
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/GirlCode-around-a-table.jpg
-      alt: Kids working on on a computer in a group
-    mediaPosition: right
-    mdContent: >-
-      ## Not Your Typical Coding Camp
-
-
-      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
-    fgColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
@@ -103,6 +83,11 @@ pageBuilder:
       ## A Day at Camp Coding Space
 
       ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## L﻿ocations"
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -141,6 +126,45 @@ pageBuilder:
           **Lunch:** Bring Your Own
 
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/campers-using-arduino.jpg
+      alt: Campers making projects in Arduino
+    mediaPosition: right
+    mdContent: >-
+      ## T﻿he Lift-Off Lab
+
+
+      Introducing The Lift-Off Lab - the ultimate destination for kids who want to explore their passions and develop their skills in a supportive and engaging environment. Designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, our camp afternoons will give campers the opportunity to explore robotics, circuitry, animation, 3D modeling, and more. Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions such as how their invention could be used for good or how AI and machine learning could influence what they create.
+
+
+      At The Coding Space we believe that creativity, innovation, and collaboration are essential skills for the future. That's why we're dedicated to providing a space where young people can develop these skills and explore their interests in fun and engaging ways all summer long.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#ffffff"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /about-us/our-teaching-philosophy
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/GirlCode-around-a-table.jpg
+      alt: Kids working on on a computer in a group
+    mediaPosition: right
+    mdContent: >-
+      ## Not Your Typical Coding Camp
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
+    fgColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
