@@ -145,6 +145,7 @@ pageBuilder:
 
 
       At The Coding Space we believe that creativity, innovation, and collaboration are essential skills for the future. That's why we're dedicated to providing a space where young people can develop these skills and explore their interests in fun and engaging ways all summer long.
+    fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
