@@ -1,15 +1,13 @@
 ---
 templateKey: programs
-title: Summer
+title: Summer 2023
 titleColor: "#264548"
 seo:
-  title: Summer Coding Camps for Kids
-  description: >
-    Beginning in June, our camps an classes balance project-based coding with
-    hands-on activities and opportunities to explore various STEM fields.
-    Students will make new friends and learn a ton, all while experiencing our
-    small student-to-teacher ratio ensuring personalized attention when they
-    need it.
+  title: Summer Coding Camps & Classes for Kids & Teens
+  description: "Join The Coding Space for exciting opportunities to keep coding
+    and learning all summer long. From Camp Coding Space (ages 8-13) to The
+    Coding Space Academy (ages 13-17) to online and in-person weekly coding
+    classes, we've got just the right option for you. "
 heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
@@ -18,14 +16,10 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: >-
-      # 2023 Summer Offerings
-
-
-      ## June - August
-
-
-      Beginning in June, your child can join The Coding Space for exciting opportunities to keep learning all summer long. Choose from in-person summer camp options or attend classes in-person or online, for ultimate flexibility.  All of our summer offerings ensure students will make new friends and have a blast, all while experiencing our small student to teacher ratios ensuring personalized attention when they need it.
+    mdContent: Join The Coding Space for exciting opportunities to keep coding and
+      learning all summer long. From Camp Coding Space (ages 8-13) to The Coding
+      Space Academy (ages 13-17) to weekly coding classes (ages 6-13), we've got
+      just the right option for you.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -79,7 +73,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/covid-in-person-camp.jpeg
+      image: /img/img-6960-1-.jpg
       alt: Summer Classes
     mediaPosition: right
     mdContent: >-
