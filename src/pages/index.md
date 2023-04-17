@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2023-04-21T14:35:49.919Z
-  mdContent: Don't Miss Our Spring Break Camps in March and April! [Learn more
-    here](/experience-levels/school-holiday-mini-camps/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
