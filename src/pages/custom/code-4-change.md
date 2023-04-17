@@ -13,10 +13,11 @@ pageBuilder:
     textAlign: center
     bgColor: ""
     textColor: "#264548"
-    mdContent: |-
-      ## C﻿ode 4 Change 2023
+    mdContent: >-
+      ## C﻿ode 4 Change 2023 Has Officially Launched!
 
-      ### Sign up for The Code 4 Change Challenge!
+
+      I﻿t's not too late to sign up. Register any time to receive weekly guidance on your projects and submission details. Projects are due May 19th!
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
