@@ -61,8 +61,8 @@ pageBuilder:
         textColor: "#faf6ee"
         heading: Your child will...
         mdContent: >-
-          Learn to code in Scratch, JavaScript, and additional languages where
-          applicable. 
+          Learn to code in Scratch, JavaScript, and additional languages
+          depending on experience.
 
 
           Build grit, a growth mindset, and computational thinking skills.
