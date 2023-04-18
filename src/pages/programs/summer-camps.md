@@ -164,7 +164,7 @@ pageBuilder:
       ## T﻿he Lift-Off Lab
 
 
-      Designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab will give campers the opportunity to explore robotics, circuitry, animation, 3D modeling, and more on camp afternoons. Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions like how their invention could be used for good or how AI and machine learning could influence what they create.
+      Designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab gives campers the opportunity to explore robotics, circuitry, animation, 3D modeling, and more on camp afternoons. Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions like how their invention could be used for good or how AI and machine learning could influence what they create.
 
 
       At The Coding Space we believe that creativity, innovation, and collaboration are essential skills for the future. That's why we're dedicated to providing a space where young people can develop these skills and explore their interests in fun and engaging ways all summer long.
