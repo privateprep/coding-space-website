@@ -83,6 +83,8 @@ pageBuilder:
       ## A Day at Camp Coding Space
 
       ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
+
+      N﻿ote: Field Trips occur on the second week of every two-week package. 
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
