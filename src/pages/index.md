@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-09-16T18:02:25.431Z
+  removalDate: 2023-09-10T18:02:25.431Z
   mdContent: C﻿atch us at Pier 57 on the second Saturday of the month! [Learn
     more](https://www.eventbrite.com/e/family-code-at-pier-57-tickets-624391861867).
 hero:
