@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2023-04-21T14:35:49.919Z
-  mdContent: ""
+  mdContent: C﻿atch us at Pier 57 on the second Saturday of the month! [Learn
+    more](https://www.eventbrite.com/e/family-code-at-pier-57-tickets-624391861867).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
