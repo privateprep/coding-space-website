@@ -8,7 +8,7 @@ description: Join us for our free coding offerings in the community!
 featuredPost: false
 featuredImage:
   image: /img/pier-57.jpeg
-  alt: Earth Day
+  alt: Pier 57
 pageBuilder: []
 tags:
   - EarthDay
