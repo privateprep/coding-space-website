@@ -77,7 +77,21 @@ pageBuilder:
 
 
       For Dr. Hester, coupling computer science with sustainability is deeply motivated by his cultural heritage. As a Native Hawaiian, Dr. Hester understands how Native peoples’ expertise about their home landscapes far exceeds the expertise of people with a doctoral education. In his lab, Dr. Hester champions engaging technology to address issues that Indigenous people care deeply about, thereby broadening participation in STEM.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: AA & NH/PI Heritage Month is the perfect time to celebrate the
+      resilience, brilliance, and grit of the AA & NH/PI community in STEM. At
+      TCS, we believe that coding has the power to be a great social equalizer
+      and that everyone benefits when we create more opportunities for students
+      from all walks of life to develop this skill. Through our coding
+      curriculum, we hope to encourage and empower a diverse generation of
+      future leaders in STEM. Looking for more AA & NH/PI STEM icons? Check out
+      our [blog
+      post](https://www.thecodingspace.com/blog/2022-04-27-saluting-asian-american-native-hawaiian-and-pacific-islander-pioneers-in-stem/)
+      from AA & NH/PI Month 2022.
 tags:
   - AANHPIMonth
 ---
-Though their work is often overlooked, Arab American inventors have made major contributions to American technology. So this month, for Arab American Heritage Month, we’re saying it loud and clear: throughout history, America’s progress in science and tech has been MASSIVELY boosted by the innovations of Arab-American makers and visionaries! Here are just three of our favorite Arab-American tech trailblazers.
+Happy Asian American, Native Hawaiian, and Pacific Islander Month! Below, we've gathered a few of the brilliant AA & NH/PI pioneers launching American science & tech into the future.
