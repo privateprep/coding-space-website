@@ -8,8 +8,8 @@ description: |
   Happy AA & NH/PI Month!
 featuredPost: false
 featuredImage:
-  image: /img/rana-el-kaliouby.jpeg
-  alt: Rana el Kaliouby
+  image: /img/fei-fei-li.jpg
+  alt: Fei Fei Li
 pageBuilder:
   - type: textOnly
     textAlign: center
