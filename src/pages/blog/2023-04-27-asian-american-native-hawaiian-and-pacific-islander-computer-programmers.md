@@ -41,30 +41,42 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Tony Fadell
+      ## Dr. Fei Fei Li
 
 
-      *Father of the iPod*
+      *AI Research Pioneer*
 
 
-      When Apple was on the verge of collapse in 2001, they called Arab American inventor [Tony Fadell](https://www.buildc.com/meet-tony). Apple CEO Steve Jobs had imagined a product that could save his company — a personal music player that could put 1000 songs in your pocket. But there was no design, no team, no prototype, and no real traction for the idea. Undeterred, Fadell assembled a team and got to work. The result was the iPod, which launched in November 2001 and revolutionized the entire industry. Fadell oversaw the first 18 iterations of the iPod before Jobs gave him his next assignment: to create a new version of the iPod that also had the capabilities of a mobile phone. You guessed it — the result was the first iPhone, the invention of which was spearheaded by Fadell. After leaving Apple, Fadell has continued inventing and building game-changing personal tech, like the Nest thermostat.
+      Dr. Fei Fei Li is broadly considered one of the top minds in artificial intelligence. 
+
+
+      In 2006, as a newly-minted computer science professor at University of Illinois Urbana-Champaign, Li watched her colleagues across academia and the AI industry hammering away at the same concept: a better algorithm would make better decisions. But she realized a limitation to this approach—the best algorithm wouldn’t work well if the data it learned from didn’t reflect the real world. Her solution? Build a better dataset.
+
+
+      Li and her team embarked on an unprecedented challenge: to map out the entire world of objects. What resulted was [ImageNet](https://www.image-net.org/), a massive visual object recognition database that acted as the catalyst for the AI boom we’re witnessing today.
+
+
+      Currently, Li teaches computer science at Stanford University and serves as Co-Director of Stanford’s Human-Centered AI Institute. During one brief sabbatical from Stanford, she was Vice President at Google and served as Chief Scientist of AI/ML at Google Cloud. Li is also the co-founder of [AI4ALL](https://ai-4-all.org/), a nonprofit dedicated to boosting diversity and inclusion in AI.
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Taher Elgamal](/img/taher-elgamal.jpg)"
+    mdContent: "![Josiah Hester](/img/4-josiah.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Taher Elgamal
+      ## Dr. Josiah Hester
 
 
-      *The Architect of Internet Security*
+      *First Native Hawaiian Tenure-Track Computer Science Professor*
 
 
-      The topic of online privacy and security is dominating the airwaves now, but that wasn’t always the case. However, thanks to early tech visionaries like Egyptian-American Taher Elgamal, developments in internet security and cryptography are rapidly advancing. Elgamal began his pioneering work in the 1980s, before truly anyone else was considering security algorithms. His paper “[A Public Key Cryptosystem and a Signature Scheme based on Discrete Logarithms](https://link.springer.com/chapter/10.1007/3-540-39568-7_2),” published in 1984, formed the bases of the Digital Signature Algorithm (DSA) and the Advanced Encryption Standard. Additionally, Elgamal was the driving force behind the Secure Sockets Layer (SSL), a protocol that keeps online communications (like email!) secure.
+      Dr. Hester’s lab at Northwestern is called the [Ka Mamoa](http://kamoamoa.eecs.northwestern.edu/) lab. The name comes from the [mamoa](http://kamoamoa.eecs.northwestern.edu/about/),  a small indentation at the rear of ancient Hawaiian canoes, where the spirit sits to provide guidance on voyages. Dr. Hester chose this name because he considers it the role of scientists to function as a guide for society, especially when tackling global-scale challenges, such as climate change, where often the direction is unknown and the destination far off. In his lab, Dr. Hester and his team are focused on building smart electronic devices to support applications across health care, environmental stewardship, and space exploration: smart face masks that monitor respiration and mask fit, soil-powered sensors for smart cities, and [even a battery-free Game Boy](http://news.northwestern.edu/stories/2020/09/battery-free-game-boy-runs-forever/). 
+
+
+      For Dr. Hester, coupling computer science with sustainability is deeply motivated by his cultural heritage. As a Native Hawaiian, Dr. Hester understands how Native peoples’ expertise about their home landscapes far exceeds the expertise of people with a doctoral education. In his lab, Dr. Hester champions engaging technology to address issues that Indigenous people care deeply about, thereby broadening participation in STEM.
 tags:
   - AANHPIMonth
 ---
