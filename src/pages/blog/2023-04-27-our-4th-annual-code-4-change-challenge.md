@@ -8,8 +8,8 @@ description: Our coders are hard at work on their humanitarian projects. Tune in
   to see the awards ceremony on June 2nd!
 featuredPost: false
 featuredImage:
-  image: /img/google-2023.jpg
-  alt: "The Coding Space campers at Google HQ "
+  image: /img/img_9873-1-.jpg
+  alt: Coder with their UN Sustainable Development Goal
 pageBuilder:
   - type: textOnly
     textAlign: left
