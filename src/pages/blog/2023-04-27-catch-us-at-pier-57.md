@@ -13,7 +13,7 @@ pageBuilder: []
 tags:
   - EarthDay
 ---
-The Coding Space is excited to offer free coding classes to kids and families at [Pier 57](https://pier57nyc.com/) on the second Saturday of the month. 
+The Coding Space is excited to offer free coding classes to kids and families at [Pier 57](https://pier57nyc.com/) on the second Saturday of the month from 1-3PM!
 
 \
 Developed by [Google](https://blog.google/inside-google/life-at-google/pier-57-new-york-opens-to-public/) in partnership with Hudson River Park Trust, Jamestown, The James Beard Foundation, RXR, YoungWoo & Associates and Baupost Group, Pier 57 is a new culinary, recreational, and educational destination that celebrates the vitality of New York City and its diverse local community. And now, with The Coding Space's partnership, it is also a place for families to learn and explore coding together.
