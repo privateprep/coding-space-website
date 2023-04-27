@@ -15,24 +15,27 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Rana el Kaliouby](/img/rana-el-kaliouby.jpeg)"
+    mdContent: "![Ajay Bhatt](/img/ajay-bhatt.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Rana el Kaliouby
+      ## Ajay Bhatt
 
 
-      *Founder of Affectiva & Emotional Recognition Tech Pioneer*
+      *Co-Inventor of USB Technology*
 
 
-      [Rana el Kaliouby](https://ranaelkaliouby.com/) is an Egyptian-American computer scientist, AI thought leader, angel investor, and entrepreneur working to humanize technology. While she was completing her doctoral research at the University of Cambridge, she struggled to connect with her loved ones in video calls back home. So, after earning her doctorate, el Kaliouby joined the Affective Computing group at MIT, where she helped develop an “emotional hearing aid” and a pair of glasses that could read emotions and social cues. These tools comprised the Emotional-Social Intelligence Prosthesis, wearable tech for people with autism who have trouble identifying other people’s emotions. In 2009, el Kaliouby co-founded Affectiva, a company that develops pioneering emotional recognition technology. She is also an executive fellow at the Harvard Business School and author of Girl Decoded: A Scientist’s Quest to Reclaim Our Humanity by Bringing Emotional Intelligence to Technology.
+      In today’s world, where tech is increasingly connected by Bluetooth and WiFi and wires are fast disappearing, it’s easy to forget the key technologies that got us here. But even for those of us who have the most cutting-edge tech, it’s difficult to avoid the USB.
+
+
+      The idea for the USB was born in 1994, [when Ajay Bhatt,](http://www.cnn.com/2010/TECH/02/04/ajay.bhatt.usb.inventor/index.html) an Indian-born computer architect working for Intel, found himself frustrated by his daughter’s difficulty in connecting a printer to the family computer. Then and there, Bhatt decided that data transfers like the one his daughter needed should be no more difficult than plugging a cord into a wall outlet. After pitching the idea for USB tech to his colleagues at Intel, Bhatt put together a team of experts from Intel and other companies to design a new way of connecting computers. USB transformed how people used computers, becoming one of the most successful, enduring connection technologies in history.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Tony Fadell](/img/tony-fadell.webp)"
+    mdContent: "![Fei Fei Li](/img/fei-fei-li.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
