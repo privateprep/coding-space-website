@@ -3,11 +3,11 @@ templateKey: blog-post
 title: Jewish American Heritage Month
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-04-27T21:51:37.211Z
+date: 2023-05-01T21:51:37.211Z
 description: Honoring Jewish American Coders Throughout History
 featuredPost: false
 featuredImage:
-  image: /img/tcs-jah-month-5.48.40-pm.png
+  image: /img/barbara-liskov.png
   alt: Jewish American Heritage Month
 pageBuilder:
   - type: textAndImageBlock
