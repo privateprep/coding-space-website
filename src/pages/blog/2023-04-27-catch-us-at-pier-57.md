@@ -11,7 +11,7 @@ featuredImage:
   alt: Pier 57
 pageBuilder: []
 tags:
-  - EarthDay
+  - CommunityPrograms
 ---
 The Coding Space is excited to offer free coding classes to kids and families at [Pier 57](https://pier57nyc.com/) on the second Saturday of the month from 1-3PM!
 
