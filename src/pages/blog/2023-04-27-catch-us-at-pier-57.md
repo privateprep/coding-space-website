@@ -9,7 +9,14 @@ featuredPost: false
 featuredImage:
   image: /img/pier-57.jpeg
   alt: Pier 57
-pageBuilder: []
+pageBuilder:
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Register for our family coding classes at Pier 57
+        content: https://www.eventbrite.com/e/family-code-at-pier-57-tickets-622688677597
 tags:
   - CommunityPrograms
 ---
@@ -22,4 +29,4 @@ Developed by [Google](https://blog.google/inside-google/life-at-google/pier-57-n
 As a community of coders and educators, we’re passionate about teaching kids the skills they need to thrive in the digital world. Our partnership with Pier 57 is a fantastic opportunity for kids and families in the New York area to start or continue on their coding journey, and we’re thrilled to be able to make coding education more accessible and inclusive in the city we call home.
 
 \
-If you're interested in attending a free family code class at Pier 57, you can register for upcoming events [here](https://www.eventbrite.com/e/family-code-at-pier-57-tickets-622688677597). The classes are held on weekends, so they're perfect for families who are looking for fun and educational activities to do together!
+If you're interested in attending a free family code class at Pier 57, you can register for upcoming events below. The classes are held on weekends, so they're perfect for families who are looking for fun and educational activities to do together!
