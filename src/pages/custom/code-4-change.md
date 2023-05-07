@@ -25,6 +25,8 @@ pageBuilder:
     list:
       - title: Register Now
         content: https://code4change.thecodingspace.com
+      - title: Submit Your Project
+        content: https://code4change.thecodingspace.com/submit
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
