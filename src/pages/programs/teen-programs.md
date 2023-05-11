@@ -98,8 +98,8 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
-        - title: Join the Waitlist
-          content: https://docs.google.com/forms/d/e/1FAIpQLSeu3Newp2iNeU-9XHNVcLdOEs8N9B9oPTYjTikCmRBHWQ1Bdg/viewform
+        - title: Contact Us to Apply
+          content: /contact-us
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
