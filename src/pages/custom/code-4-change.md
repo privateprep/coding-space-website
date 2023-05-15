@@ -13,18 +13,15 @@ pageBuilder:
     textAlign: center
     bgColor: ""
     textColor: "#264548"
-    mdContent: >-
+    mdContent: |-
       ## C﻿ode 4 Change 2023 Has Officially Launched!
 
-
-      I﻿t's not too late to sign up. Register any time to receive weekly guidance on your projects and submission details. Projects are due May 19th!
+      Projects are due May 19th! Click the button below to submit your project.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Register Now
-        content: https://code4change.thecodingspace.com
       - title: Submit Your Project
         content: https://code4change.thecodingspace.com/submit
   - type: textAndImageBlock
