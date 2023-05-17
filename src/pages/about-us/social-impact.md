@@ -58,7 +58,7 @@ pageBuilder:
       ## C﻿ode 4 Change
 
 
-      O﻿ur annual Code 4 Change initiative encourages young coders to dream big and imagine solutions to real-world problems through code. Prizes are donated to philanthropic organizations that address the UN's Sustainable Development Goals.
+      O﻿ur annual Code 4 Change Challenge encourages young coders to dream big and imagine solutions to real-world problems through code. Prizes are donated to philanthropic organizations that address the UN's Sustainable Development Goals.
 
 
       [L﻿earn More](/code-4-change)
