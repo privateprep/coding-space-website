@@ -22,7 +22,8 @@ pageBuilder:
     heading: Creating Educational Equity
     mdContent: >-
       The Coding Space is committed to being anti-racist advocates, champions of
-      women+, and change makers in our community. 
+      women+, and change makers in our community through education and
+      opportunity.
 
 
       ## S﻿cholarships
