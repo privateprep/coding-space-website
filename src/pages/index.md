@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: C﻿atch us at Pier 57 on the second Saturday of the month! [Learn
-    more](https://www.eventbrite.com/e/family-code-at-pier-57-tickets-624391861867).
+  mdContent: D﻿on't Miss Our Field Trips to Google This Summer! [Learn
+    more](https://www.thecodingspace.com/blog/2023-04-27-explore-google-hq-with-camp-coding-space/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
