@@ -19,12 +19,8 @@ hero:
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Spring Classes
-        content: /programs/spring
       - title: Summer Programs
         content: /programs/summer/
-      - title: Code 4 Change
-        content: /code-4-change
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
