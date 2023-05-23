@@ -6,7 +6,7 @@ bgColor: "#9de2dd"
 date: 2023-04-01T17:37:15.005Z
 description: |
   Happy Arab American Heritage Month!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/rana-el-kaliouby.jpeg
   alt: Rana el Kaliouby
