@@ -6,7 +6,7 @@ bgColor: "#eec11a"
 date: 2023-04-27T02:03:18.344Z
 description: Sign up for Camp Coding Space, and experience the future of tech at
   Google's NYC Headquarters.
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/google-2023.jpg
   alt: "The Coding Space campers at Google HQ "
