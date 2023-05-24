@@ -13,17 +13,37 @@ pageBuilder:
     textAlign: center
     bgColor: ""
     textColor: "#264548"
-    mdContent: |-
-      ## C﻿ode 4 Change 2023 Has Officially Launched!
+    mdContent: >-
+      ## V﻿ote for Code 4 Change!
 
-      Projects are due May 19th! Click the button below to submit your project.
+
+      Three cheers for our creative coders! Our Spring 2023 Code 4 Change participants have completed and submitted their programming projects, and now, it’s time to vote. 
+
+
+      **Here’s how to vote:**
+
+
+      Check out the student projects through the button below. Your job is to explore the projects and then vote for the one that you think best showcases particularly impressive coding skills, sustainable solutions, and educational value. Meanwhile, our team of mentors will be selecting winners in a number of categories, including Most Informative, Most Imaginative, and more.
+
+
+      Voting is open to everyone through Wednesday, May 31st, so feel free to share this link with family and friends and encourage them to visit and vote, too.
+
+       **Why vote? Because there are prizes at stake...**
+
+      Each category winner will receive a donation of $50 to support a select philanthropic organization embodying the spirit of Code 4 Change. All projects will be featured on the TCS website and winning projects will be showcased in a special blog.
+
+
+      **Winners will be revealed on Friday, June 2nd!**
+
+
+      Tune in on [Instagram](https://www.instagram.com/thecodingspace) on Friday, June 2nd starting at 6:30pm EST when we reveal the winners live. If you're in the NYC area, we'd love to celebrate in person! Join us as we broadcast from our Upper East Side classroom. Doors open at 6:00pm. [RSVP here.](https://docs.google.com/forms/d/e/1FAIpQLSesog2zPQzwzrPEKB4uh3GShY9Pv72ZP_e8hzqSvlApCFbPbg/viewform)
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Submit Your Project
-        content: https://code4change.thecodingspace.com/submit
+      - title: Cast Your Vote
+        content: https://code4change.thecodingspace.com
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
