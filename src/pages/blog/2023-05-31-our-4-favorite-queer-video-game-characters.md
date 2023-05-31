@@ -38,6 +38,20 @@ pageBuilder:
 
 
       The Last of Us immerses players in a post-apocalyptic world, in which a fungal infection has swept the globe, colonizing people’s minds in a manner reminiscent of a zombie plague and bringing modern infrastructure crumbling to the ground. Ellie is a fiercely beloved character by all who’ve played the game; she’s a resilient, vulnerable, ruthless, loyal, precocious young woman who also has two queer love interests over the course of the franchise. In HBO’s sensational TV adaptation of the game, viewers witnessed Ellie’s first kiss with Riley, her childhood sweetheart and a fellow orphan in post-zombie-apocalypse America. As an amazing bonus, The Last of Us also features middle-aged queer couple Bill and Frank, who were brought to life in the HBO series by Murray Bartlett and Nick Offerman.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "![Zagreus Hades](/img/zagreus.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## 3. Zagreus in Hades
+
+
+      In Hades, players embody Zagreus, the rogeuish Prince of the Underworld, as he romps through the many levels of hell, trying to escape the clutches of his dad. It’s a ridiculously fun dungeon-crawler, striking the perfect balance between strategy and story, featuring a colorful cast of characters from Greek mythology. There’s tons of gut-clenching, high-octane combat, but the heart of the gameplay lies in advancing relationships, as Zag fights to reunite Achilles with his life-long partner, Patroclus, or Orpheus with his long-lost muse Eurydice. And did we mention? Zagreus is a pansexual prince, a snarky god whose romantic history is as queer and vibrant as the denizens of Olympus.
 tags:
   - PrideMonth
 ---
