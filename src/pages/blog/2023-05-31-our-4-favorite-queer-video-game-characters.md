@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Our 4 Favorite Queer Video Game Characters
 titleColor: "#264548"
-bgColor: "#9de2dd"
+bgColor: "#eec11a"
 date: 2023-06-01T15:45:50.676Z
 description: The best of the gaymerverse
 featuredPost: true
@@ -10,120 +10,27 @@ featuredImage:
   image: /img/barbara-liskov.png
   alt: Pride Month 2023
 pageBuilder:
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/1.png
-      alt: Shafi Goldwasser
-    mediaPosition: right
-    mdContent: >-
-      # Shafi Goldwasser
-
-
-      ### CRYPTOGRAPHER & WINNER OF THE TURING PRIZE
-
-
-      Shafira Goldwasser is an Israeli-American computer scientist and winner of the [Turing Award](https://amturing.acm.org/award_winners/goldwasser_8627889.cfm) in 2012. By all accounts, Shafi Goldwasser has revolutionized cryptography; her findings have prompted the creation of entire subfields of computer science. In 1982, she co-authored a paper that is widely credited with turning encryption from an art to a science and allowing better data security in the Internet age. She followed this with another game-changing paper in 1985 on zero-knowledge interactive proofs, which are the basis for the now-common security questions that allow internet users to retrieve lost passwords. In addition to her Turing Award, the highest honor in computer science, Goldwasser is also the recipient of two [Gödel Prizes](https://sigact.org/prizes/g%C3%B6del.html), the [ACM Grace Murray Hopper Award](https://awards.acm.org/award_winners/goldwasser_8627889) (1996), the [ACM Athena Award](https://awards.acm.org/award_winners/goldwasser_8627889) (2008), and the [Suffrage Science Award](https://www.suffragescience.org/) (2016). Goldwasser currently works at [UC Berkeley](https://simons.berkeley.edu/people/shafi-goldwasser) as the Director of the Simons Institute for the Theory of Computing and the C. Lester Hogan Professor in Electrical Engineering and Computer Sciences.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
+  - type: textOnly
+    textAlign: center
     bgColor: "#9de2dd"
-    image:
-      image: /img/bob-kahn.png
-      alt: Bob Kahn
-    mediaPosition: left
-    mdContent: >-
-      # Bob Kahn
-
-
-      ### INVENTOR OF TCP/IP
-
-
-      Known as one of the “Fathers of the Internet,” Dr. Robert Kahn created Transmission Control Protocol/Internet Protocol — commonly known as TCP/IP — which is still the standard of communication for computers to this day. Many of the things we think about computers doing – sending emails, watching Netflix, or Googling directions – involve computers communicating. These computers may be from different companies or may be located in different parts of the world, and the people and programs using them may speak different human and computer languages. To facilitate communication, computers need an agreed-upon set of rules (like Morse Code on a telegraph or “10-4” on a radio). That set of rules — known as a protocol — is TCP/IP, and it was invented by Jewish-American computer engineer Bob Kahn. In brief, Kahn designed the software code that is used to transmit data over the Internet, creating a digital revolution that has transformed global commerce, communication, and entertainment. Among his numerous awards, Dr Kahn received the [Presidential Medal of Freedom](https://georgewbush-whitehouse.archives.gov/government/cerf-kahn-bio.html) in 2005 and the [National Medal of Technology](https://www.uspto.gov/learning-and-resources/ip-programs-and-awards/national-medal-technology-and-innovation-nmti) in 1997.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/barbara-liskov.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      # Barbara Liskov
-
-
-      ### THE ARCHITECT OF MODERN ALGORITHMS
-
-
-      Barbara Liskov pioneered the modern approach to writing code. When she was still a young professor at MIT, she led the team that created the first programming language that did not rely on “goto” statements. The language, CLU (short for “cluster”), relied on an approach she invented — data abstraction — that organized code into modules. Every important programming language used today, including Java and C++, is a descendant of CLU. In 2008, [Liskov won the Turing Award](http://amturing.acm.org/award_winners/liskov_1108679.cfm) for her contributions to programming language and system design.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/john-von-neu.png
-      alt: Accessibility name
-    mediaPosition: left
-    mdContent: >-
-      # John von Neumann
-
-
-      ### THE FATHER OF THE MODERN COMPUTER
-
-
-      John von Neumann, who is widely regarded as one of the foremost mathematicians of his time, pioneered Game Theory and was one of the conceptual inventors of the stored-program digital computer. Among his many accomplishments, the Hungarian-born American mathematician was the originator of the basic principle of computer design known as the "[von Neumann architecture](https://www.computerscience.gcse.guru/theory/von-neumann-architecture)." Von Neumann computers are the ancestors of today's desktop and laptop PCs.
-
-
-      The principal feature of a von Neumann computer is that the program and any data are both stored together, usually in a slow-to-access storage medium such as a hard disk, and transferred as required to a faster storage medium (RAM) for execution or processing by a central processing unit (CPU). When von Neumann proposed this architecture in 1945, it was a radical idea. Today, practically all computers work this way.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/len-adelman.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      # Leonard Adelman
-
-
-      ### THE FOUNDING FATHER OF DNA COMPUTING
-
-
-      Without doubt, Leonard Adleman’s most famous work is his contribution to the RSA algorithm — the most widely-used contemporary encryption method, with applications throughout the Internet to secure on-line transactions. In recent years, however, Adleman has focused on the interface between biology and computation; for this work, he has been named the “Father of DNA Computation”. Adelman noticed that, like a computer, DNA can store information and proteins can modify that information. He hypothesized that, theoretically, DNA should be able to compute anything that is computable by silicon-based computers. In a jaw-dropping experiment, Adleman used DNA to solve an instance of the [Sharp Satisfiability Problem](https://en.wikipedia.org/wiki/Sharp-SAT), one of the central problems of computer science.
+    mdContent: "![The Sims](/img/the-sims.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "We at TCS are a community of coding nerds, so we’ve focused here on
-      the amazing contributions of Jewish Americans in the tech sector. But
-      while it’s undeniable that Jewish American coders have shaped modern
-      computing, it’s also important to acknowledge that the contributions of
-      the Jewish American community range far and wide: a Hall of Fame packed
-      with Nobel Prize winners, dramatists, musicians, artists, business
-      leaders, movie moguls, educators,  journalists, and educators who have
-      enriched and advanced American society. To learn more about Jewish
-      American Heritage Month, click
-      [here](https://www.whitehouse.gov/briefing-room/presidential-actions/2021\
-      /04/30/a-proclamation-on-jewish-american-heritage-month-2021/)!"
+    mdContent: >-
+      ## 1. Anyone in The Sims
+
+
+      When The Sims — a wildly popular life-simulation game — was first developed, its designers decided to remove same-sex romantic interactions as an option between characters. But that message never got to Patrick J Barrett III, a gay programmer working on the game a few years later. As a result, at a live expo in 1999, a roomful of journalists witnessed a lesbian wedding occurring on The Sims. The developers of the game anxiously awaited punishment from studio executives, but it never came — and so, The Sims became one of the first video games to portray queerness. Now, The Sims has become a deliberately queer and trans-inclusive game: players can choose their pronouns and design characters that reflect a wide range of gender expressions, catering to one of the most diverse player communities in video games.
 tags:
   - PrideMonth
 ---
-This month, we’re celebrating more than just the return of warm weather here at TCS — we’re also celebrating Jewish American Heritage Month! JAHM is a welcome opportunity to honor the generations of Jewish Americans who have helped form the fabric of American culture, American society, and American tech. Scroll down to learn about five Jewish American STEM legends who have made invaluable contributions to the advancement of computing technology.
+Everybody plays video games.
+
+Well, maybe not everybody. But certainly most! One recent study found that [66%](https://dataprot.net/statistics/gamer-demographics/) of Americans from all backgrounds reported playing video games. And in that massive pie slice of the American gaming world, a [huge portion](https://www.nbcnews.com/nbc-out/out-pop-culture/hbos-last-us-adaptation-milestone-lgbtq-gamers-rcna67082) of those gamers are queer. Until quite recently, though, the diversity of the gamer population was not reflected in games themselves, which generally starred white, gun-slinging heterosexual men.
+
+But things are changing, and queer folks are becoming more visible in the gaming industry, which is amazing news for players of marginalized gender identities. From the safety of their home screens, queer players can transform through their game avatars, expressing themselves in ways that might not yet feel safe in public. Slowly, games are giving players more options to create characters that reflect them, expanding binary gender selection and allowing for nuanced gender expression, helping gamers explore their queerness in safe, virtual spaces.
+
+This Pride Month, we’ve gathered four of our favorite queer video game characters to honor the progress that the gaming industry has made in queer representation. We can’t wait to see the fantastic queer characters that await us in this year’s game releases!
