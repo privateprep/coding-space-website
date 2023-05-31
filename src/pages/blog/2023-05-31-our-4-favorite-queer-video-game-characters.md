@@ -7,7 +7,7 @@ date: 2023-06-01T15:45:50.676Z
 description: The best of the gaymerverse
 featuredPost: true
 featuredImage:
-  image: /img/barbara-liskov.png
+  image: /img/the-last-of-us.png
   alt: Pride Month 2023
 pageBuilder:
   - type: textOnly
