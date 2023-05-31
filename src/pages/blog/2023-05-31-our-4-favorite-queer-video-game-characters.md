@@ -24,6 +24,20 @@ pageBuilder:
 
 
       When The Sims — a wildly popular life-simulation game — was first developed, its designers decided to remove same-sex romantic interactions as an option between characters. But that message never got to Patrick J Barrett III, a gay programmer working on the game a few years later. As a result, at a live expo in 1999, a roomful of journalists witnessed a lesbian wedding occurring on The Sims. The developers of the game anxiously awaited punishment from studio executives, but it never came — and so, The Sims became one of the first video games to portray queerness. Now, The Sims has become a deliberately queer and trans-inclusive game: players can choose their pronouns and design characters that reflect a wide range of gender expressions, catering to one of the most diverse player communities in video games.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Ellie The Last of Us](/img/the-last-of-us.png)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## 2. Ellie in The Last of Us
+
+
+      The Last of Us immerses players in a post-apocalyptic world, in which a fungal infection has swept the globe, colonizing people’s minds in a manner reminiscent of a zombie plague and bringing modern infrastructure crumbling to the ground. Ellie is a fiercely beloved character by all who’ve played the game; she’s a resilient, vulnerable, ruthless, loyal, precocious young woman who also has two queer love interests over the course of the franchise. In HBO’s sensational TV adaptation of the game, viewers witnessed Ellie’s first kiss with Riley, her childhood sweetheart and a fellow orphan in post-zombie-apocalypse America. As an amazing bonus, The Last of Us also features middle-aged queer couple Bill and Frank, who were brought to life in the HBO series by Murray Bartlett and Nick Offerman.
 tags:
   - PrideMonth
 ---
