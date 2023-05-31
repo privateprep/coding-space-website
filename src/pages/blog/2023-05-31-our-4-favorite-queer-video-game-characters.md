@@ -66,6 +66,13 @@ pageBuilder:
 
 
       One of the first mainstream games with a trans protagonist, Tell Me Why is a narrative adventure game set in small-town Alaska and follows twins Alyson and Tyler as they reunite after a decade apart. When the twins come together to sell their childhood home, they realize that they do not share the same memories of their past, and they must work to solve the mystery of their troubled childhood. Alyson and Tyler are connected by a supernatural tie called “The Bond”, which allows them to share emotions, thoughts, and memories. The player can make [choices](https://tell-me-why.fandom.com/wiki/Consequences_Statistics) throughout the game that strengthen or weaken “The Bond”. In creating Tyler, the trans protagonist of the game, the developers meticulously researched the trans experience with the help of multiple trans creators and consultants. The quality of their work — and the number of trans gamers who have seen themselves reflected in Tyler — is a testament to the value of collaborating with designers with diverse lived experiences in creating gripping storylines.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: Want more queer coder content? Check out our blog post on [queer
+      pioneers of computer
+      science](https://www.thecodingspace.com/blog/2022-05-27-10-queer-pioneers-of-computer-science/).
 tags:
   - PrideMonth
 ---
