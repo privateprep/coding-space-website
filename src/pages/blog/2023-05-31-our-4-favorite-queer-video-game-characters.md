@@ -52,6 +52,20 @@ pageBuilder:
 
 
       In Hades, players embody Zagreus, the rogeuish Prince of the Underworld, as he romps through the many levels of hell, trying to escape the clutches of his dad. It’s a ridiculously fun dungeon-crawler, striking the perfect balance between strategy and story, featuring a colorful cast of characters from Greek mythology. There’s tons of gut-clenching, high-octane combat, but the heart of the gameplay lies in advancing relationships, as Zag fights to reunite Achilles with his life-long partner, Patroclus, or Orpheus with his long-lost muse Eurydice. And did we mention? Zagreus is a pansexual prince, a snarky god whose romantic history is as queer and vibrant as the denizens of Olympus.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![Tyler Ronan Tell Me Why](/img/tyler-ronan.jpg)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## 4. Tyler Ronan in Tell Me Why
+
+
+      One of the first mainstream games with a trans protagonist, Tell Me Why is a narrative adventure game set in small-town Alaska and follows twins Alyson and Tyler as they reunite after a decade apart. When the twins come together to sell their childhood home, they realize that they do not share the same memories of their past, and they must work to solve the mystery of their troubled childhood. Alyson and Tyler are connected by a supernatural tie called “The Bond”, which allows them to share emotions, thoughts, and memories. The player can make [choices](https://tell-me-why.fandom.com/wiki/Consequences_Statistics) throughout the game that strengthen or weaken “The Bond”. In creating Tyler, the trans protagonist of the game, the developers meticulously researched the trans experience with the help of multiple trans creators and consultants. The quality of their work — and the number of trans gamers who have seen themselves reflected in Tyler — is a testament to the value of collaborating with designers with diverse lived experiences in creating gripping storylines.
 tags:
   - PrideMonth
 ---
