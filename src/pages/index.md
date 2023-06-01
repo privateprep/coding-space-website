@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: D﻿on't Miss Our Field Trips to Google This Summer! [Learn
-    more](https://www.thecodingspace.com/blog/2023-04-27-explore-google-hq-with-camp-coding-space/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
