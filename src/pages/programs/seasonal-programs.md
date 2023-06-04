@@ -34,9 +34,9 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#fff"
     list:
-      - title: Fall 2022
+      - title: Fall 2023
         content: /programs/fall
-      - title: Spring 2023
+      - title: Spring 2024
         content: /programs/spring
       - title: Summer 2023
         content: /programs/summer
