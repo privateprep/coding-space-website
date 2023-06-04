@@ -34,11 +34,11 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#fff"
     list:
-      - title: Fall 2023
+      - title: Fall
         content: /programs/fall
-      - title: Spring 2024
+      - title: Spring
         content: /programs/spring
-      - title: Summer 2023
+      - title: Summer
         content: /programs/summer
   - type: textOnly
     textAlign: center
