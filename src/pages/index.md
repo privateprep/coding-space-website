@@ -15,11 +15,13 @@ hero:
   subheading: ​​An after-school and summer coding program where kids and teens
     learn to code while developing critical thinking skills.
   buttons:
-    fgColor: "#eec11a"
+    fgColor: "#9de2dd"
     textColor: "#264548"
     list:
       - title: Summer Programs
         content: /programs/summer/
+      - title: Fall Classes
+        content: /locations
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
