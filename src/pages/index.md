@@ -9,7 +9,9 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: ""
+  mdContent: Sign up for camp the week of June 26th and take a field trip to
+    Google! [Register
+    here](https://www.thecodingspace.com/experience-levels/camp-coding-space/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
