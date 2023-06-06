@@ -26,7 +26,7 @@ pageBuilder:
       **Google**
 
 
-      Campers who sign up for camp during the week of June 26th or the week of August 7th will visit Google's NYC headquarters! The field trip will include.
+      Campers who sign up for camp during the week of June 26th or the week of August 7th will visit Google's NYC headquarters! The field trip will include:
 
 
       * A tour of [Google’s new campus](https://www.cnbc.com/2022/04/21/google-opens-hudson-river-campus-to-attract-more-new-york-talent.html) 
@@ -43,6 +43,15 @@ pageBuilder:
 
 
       Check out [this video](https://www.instagram.com/reel/Cg_5gCDgZis/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==) from our visit to Etsy last year, where we toured their sustainable living building, spoke with nine Etsy engineers, and spent time tinkering in their makerspace.
+
+
+      **Samsung**
+
+
+      Young coders who sign up for camp during the week of July 24th will get to experience the digital dreamscape that is Samsung 837, an experiential tech wonderland in the Meatpacking District featuring a living lab, a VR tunnel, digital art installations, and three floors of dynamic, immersive programming powered by state-of-the-art technology.
+
+
+      Check out our [blog](https://www.thecodingspace.com/blog/2022-07-27-the-coding-space-samsung-837/) about our visit to Samsung 837 last year, plus the [recap video](https://www.instagram.com/reel/CghcY_wgjkz/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==) from our day in the Samsung Metaverse!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
