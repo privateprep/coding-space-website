@@ -63,6 +63,8 @@ pageBuilder:
       Introducing The Lift-Off Lab — the ultimate destination for kids who want to explore their passions and develop their skills in a supportive and engaging environment. Held on camp afternoons and designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab will give campers the opportunity to explore...
 
 
+      * Robotics
+
       * Circuitry
 
       * Animation
