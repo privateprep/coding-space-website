@@ -29,8 +29,6 @@ pageBuilder:
       * [See Elsa's Project: Sustain the People](https://scratch.mit.edu/projects/838718354)
 
 
-
-
       ## **Best Sound Design**
 
 
@@ -56,9 +54,7 @@ pageBuilder:
       * [See Madison's Project: Water the Plants](https://scratch.mit.edu/projects/831091190)
 
 
-      ## \
-
-      **Most Imaginative**
+      ## **Most Imaginative**
 
 
       **Joss, "Treetopia"**\
@@ -83,9 +79,7 @@ pageBuilder:
       * [See Preston's Project: Save our Sanitation and Clean Water!](https://scratch.mit.edu/projects/836786488)
 
 
-      ## \
-
-      **Most Informative**
+      ## **Most Informative**
 
 
       **Liv, "Hunger Project"**\
