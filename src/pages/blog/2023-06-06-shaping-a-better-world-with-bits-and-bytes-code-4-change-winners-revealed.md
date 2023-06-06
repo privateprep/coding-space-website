@@ -101,30 +101,24 @@ pageBuilder:
       ## **Coders' Choice**
 
 
-      Eden, Clean Up the Earth
-
+      **Eden, "Clean Up the Earth"**\
 
       Charity: No Kid Hungry
 
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​mF5ySFi8FUkaPnVW1GQM](https://code4change.thecodingspace.com/mF5ySFi8FUkaPnVW1GQM)
+      * [Meet Eden](https://code4change.thecodingspace.com/mF5ySFi8FUkaPnVW1GQM)
+
+      * [See Eden's Project: Clean Up the Earth](https://scratch.mit.edu/projects/837423481)
 
 
-      Project URL: [https://scratch.mit.edu/​projects/837423481](https://scratch.mit.edu/projects/837423481)
-
-
-
-
-      **Donation Breakdown**
+      ## **Donation Breakdown**
 
 
       $200 to No Kid Hungry\
 
-      $50 to Ocean Conservancy
+      $50 to Ocean Conservancy\
 
-
-      $50 to Charity: Water
-
+      $50 to CharityWater\
 
       $50 to World Food Programme
 tags:
