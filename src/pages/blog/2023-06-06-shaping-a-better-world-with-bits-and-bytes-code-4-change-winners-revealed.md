@@ -51,40 +51,39 @@ pageBuilder:
       Charity: No Kid Hungry
 
 
-      Charity: No Kid Hungry\
+      * [Meet Madison](https://code4change.thecodingspace.com/qkW8hOUzCMTfyDmyJzCp)
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​qkW8hOUzCMTfyDmyJzCp](https://code4change.thecodingspace.com/qkW8hOUzCMTfyDmyJzCp)\
-
-      Project URL: [https://scratch.mit.edu/​projects/831091190](https://scratch.mit.edu/projects/831091190)\
-
-      \
-
-      **Most Imaginative**Joss, TreeTopia
+      * [See Madison's Project: Water the Plants](https://scratch.mit.edu/projects/831091190)
 
 
-      Charity: No Kid Hungry
+      ## \
+
+      **Most Imaginative**
 
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​EZsqh2VPj9CL9UIrYeuq](https://code4change.thecodingspace.com/EZsqh2VPj9CL9UIrYeuq)
-
-
-      Project URL: [https://arcade.makecode.com/​S31613-92356-18282-20435](https://arcade.makecode.com/S31613-92356-18282-20435)
-
-
-      \
-
-      Preston, save our sanitation and clean water!
-
+      **Joss, "Treetopia"**\
 
       Charity: No Kid Hungry
 
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​7n7ND3xhrOse4sT50tNS](https://code4change.thecodingspace.com/7n7ND3xhrOse4sT50tNS)
+      * [Meet Joss](https://code4change.thecodingspace.com/EZsqh2VPj9CL9UIrYeuq)
 
+      * [See Joss's Project: Treetopia](https://arcade.makecode.com/S31613-92356-18282-20435)
 
-      Project URL: [https://scratch.mit.edu/​projects/836786488](https://scratch.mit.edu/projects/836786488)\
 
       \
+
+      **Preston, "Save our Sanitation and Clean Water!"**\
+
+      Charity: No Kid Hungry
+
+
+      * [Meet Preston](https://code4change.thecodingspace.com/7n7ND3xhrOse4sT50tNS)
+
+      * [See Preston's Project: Save our Sanitation and Clean Water!](https://scratch.mit.edu/projects/836786488)
+
+
+      ## \
 
       **Most Informative**
 
