@@ -16,21 +16,122 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      **There are 17 different goals, but for this project we’re focusing on
-      these 6:**
+      ## **Best Visual Design**
 
 
-      * Goal 2: Zero Hunger
+      **Elsa, Sustain the People**\
 
-      * Goal 6: Clean Water and Sanitation
+      Charity: Ocean Conservancy
 
-      * Goal 12: Responsible Consumption
 
-      * Goal 13: Climate Action
+      Coder Profile: [https://code4change.​thecodingspace.com/​4EJqV3J2LqY7jKYIRdCg](https://code4change.thecodingspace.com/4EJqV3J2LqY7jKYIRdCg)
 
-      * Goal 14: Life Below Water
 
-      * Goal 15: Life on Land
+      Project URL: [https://scratch.mit.edu/​projects/838718354](https://scratch.mit.edu/projects/838718354)
+
+
+
+
+      **Best Sound Design**
+
+
+      Calina Chen, Recycle
+
+
+      Charity: CharityWater\
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​cPOzsH2DqhGWbOH0ZKvU](https://code4change.thecodingspace.com/cPOzsH2DqhGWbOH0ZKvU)
+
+
+      Project URL: [https://scratch.mit.edu/​projects/852183810](https://scratch.mit.edu/projects/852183810)
+
+
+      \
+
+      Madison, Water the Plants
+
+
+      Charity: No Kid Hungry\
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​qkW8hOUzCMTfyDmyJzCp](https://code4change.thecodingspace.com/qkW8hOUzCMTfyDmyJzCp)\
+
+      Project URL: [https://scratch.mit.edu/​projects/831091190](https://scratch.mit.edu/projects/831091190)\
+
+      \
+
+      **Most Imaginative**Joss, TreeTopia
+
+
+      Charity: No Kid Hungry
+
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​EZsqh2VPj9CL9UIrYeuq](https://code4change.thecodingspace.com/EZsqh2VPj9CL9UIrYeuq)
+
+
+      Project URL: [https://arcade.makecode.com/​S31613-92356-18282-20435](https://arcade.makecode.com/S31613-92356-18282-20435)
+
+
+      \
+
+      Preston, save our sanitation and clean water!
+
+
+      Charity: No Kid Hungry
+
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​7n7ND3xhrOse4sT50tNS](https://code4change.thecodingspace.com/7n7ND3xhrOse4sT50tNS)
+
+
+      Project URL: [https://scratch.mit.edu/​projects/836786488](https://scratch.mit.edu/projects/836786488)\
+
+      \
+
+      **Most Informative**
+
+
+      Liv, Hunger Project
+
+
+      Charity: World Food Programme
+
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​QgZ5tawsRCe4eHXjQ1OH](https://code4change.thecodingspace.com/QgZ5tawsRCe4eHXjQ1OH)
+
+
+      Project URL: [https://codepen.io/​something_cool/full/OJBJaNe](https://codepen.io/something_cool/full/OJBJaNe)
+
+
+
+
+      **Coders' Choice**
+
+
+      Eden, Clean Up the Earth
+
+
+      Charity: No Kid Hungry
+
+
+      Coder Profile: [https://code4change.​thecodingspace.com/​mF5ySFi8FUkaPnVW1GQM](https://code4change.thecodingspace.com/mF5ySFi8FUkaPnVW1GQM)
+
+
+      Project URL: [https://scratch.mit.edu/​projects/837423481](https://scratch.mit.edu/projects/837423481)
+
+
+
+
+      **Donation Breakdown**
+
+
+      $200 to No Kid Hungry\
+
+      $50 to Ocean Conservancy
+
+
+      $50 to Charity: Water
+
+
+      $50 to World Food Programme
 tags:
   - Code4Change
 ---
