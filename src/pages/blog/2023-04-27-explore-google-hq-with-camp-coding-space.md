@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Camp Coding Space 2023: Google and Samsung and AI, oh my!"
+title: "Camp Coding Space 2023: Google, Samsung, Etsy, and AI Robotics."
 titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2023-04-27T02:03:18.344Z
@@ -40,6 +40,9 @@ pageBuilder:
 
 
       Camp Coding Space will be heading off to Etsy's famous Brooklyn headquarters during the week of July 10th, where they'll dive into the tech side of e-commerce and hear from the nation’s top computer scientists blending artistry and tech.
+
+
+      Check out [this video](https://www.instagram.com/reel/Cg_5gCDgZis/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==) from our visit to Etsy last year, where we toured their sustainable living building, spoke with nine Etsy engineers, and spent time tinkering in their makerspace.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
