@@ -88,21 +88,17 @@ pageBuilder:
       **Most Informative**
 
 
-      Liv, Hunger Project
-
+      **Liv, "Hunger Project"**\
 
       Charity: World Food Programme
 
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​QgZ5tawsRCe4eHXjQ1OH](https://code4change.thecodingspace.com/QgZ5tawsRCe4eHXjQ1OH)
+      * [Meet Liv](https://code4change.thecodingspace.com/QgZ5tawsRCe4eHXjQ1OH)
+
+      * [See Liv's Project: Hunger Project](https://codepen.io/something_cool/full/OJBJaNe)
 
 
-      Project URL: [https://codepen.io/​something_cool/full/OJBJaNe](https://codepen.io/something_cool/full/OJBJaNe)
-
-
-
-
-      **Coders' Choice**
+      ## **Coders' Choice**
 
 
       Eden, Clean Up the Earth
