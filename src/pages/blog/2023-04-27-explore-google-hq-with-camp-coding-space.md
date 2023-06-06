@@ -77,21 +77,23 @@ pageBuilder:
       Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions such as how their invention could be used for good or how AI and machine learning could influence what they create.
   - type: textOnly
     textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: |-
+      # Daily Camp Schedule
+
+      * Project-based coding
+      * Lunch
+      * Outdoor fun & team challenges in the park
+      * The Lift-Off Lab
+      * Snack & daily reflection
+  - type: textOnly
+    textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      Every summer The Coding Space offers unique opportunities to visit tech
-      spaces to experience new technology, meet experts in the field, view
-      unique workspaces, and gain exposure to what it’s like to work in the
-      industry. We’re thrilled to offer a trip to Google as part of our amazing
-      line-up of activities. In addition to field trips, our camp days include
-      project-based coding, outdoor fun, and a whole host of STEM activities
-      through our Lift-Off Lab where campers will have the opportunity to
-      explore robotics, circuitry, animation, 3D modeling, and
-      more. [](https://www.thecodingspace.com/programs/summer-camps/)
-
-
-      [Secure your spot in Camp Coding Space today](https://www.thecodingspace.com/programs/summer-camps/), and give your child the gift of the Google experience!
+    mdContent: "[Secure your spot in Camp Coding Space
+      today](https://www.thecodingspace.com/programs/summer-camps/), and give
+      your child the gift of the Camp Coding Space experience!"
 tags:
   - Summer
 ---
