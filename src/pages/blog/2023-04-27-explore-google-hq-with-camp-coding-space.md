@@ -57,6 +57,29 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
+      # The Lift-Off Lab
+
+
+      Introducing The Lift-Off Lab — the ultimate destination for kids who want to explore their passions and develop their skills in a supportive and engaging environment. Held on camp afternoons and designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab will give campers the opportunity to explore...
+
+
+      * Circuitry
+
+      * Animation
+
+      * 3-D Modeling
+
+      * Bringing their inventions to life with AI and machine learning
+
+      * ...and much, much more!
+
+
+      Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions such as how their invention could be used for good or how machine learning could influence what they create.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
       Every summer The Coding Space offers unique opportunities to visit tech
       spaces to experience new technology, meet experts in the field, view
       unique workspaces, and gain exposure to what it’s like to work in the
