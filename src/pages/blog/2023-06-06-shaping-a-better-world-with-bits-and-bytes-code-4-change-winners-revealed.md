@@ -115,9 +115,16 @@ pageBuilder:
       $50 to CharityWater\
 
       $50 to World Food Programme
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: See all of the 2023 Code 4 Change projects!
+        content: https://code4change.thecodingspace.com/
 tags:
   - Code4Change
 ---
 🎉🌍 Drumroll, please! 🌍🎉
 
-We are bursting with excitement as we announce the incredible winners of our awe-inspiring Code 4 Change challenge! It's been unforgettable to witness the boundless creativity and altruistic spirit of our young coders who fearlessly embraced the challenge to tackle global problems with tech. These brilliant minds have proven that age is no limit to making a difference. Grab your celebratory confetti cannons and get ready to meet our amazing young changemakers, as we unveil the winners of Code 4 Change 2023 and applaud their extraordinary tech-based solutions that are shaping a brighter future for our beautiful planet!
+We are bursting with excitement to announce the incredible winners of our Code 4 Change challenge! It's been unforgettable to witness the boundless creativity and altruistic spirit of our young coders who fearlessly embraced the challenge to tackle global problems with tech. These brilliant minds have proven that age is no limit to making a difference. Grab your celebratory confetti cannons and get ready to meet our amazing young changemakers, as we unveil the winners of Code 4 Change 2023 and applaud their extraordinary tech-based solutions that are shaping a brighter future for our beautiful planet!
