@@ -19,36 +19,36 @@ pageBuilder:
       ## **Best Visual Design**
 
 
-      **Elsa, Sustain the People**\
+      **Elsa, "Sustain the People"**\
 
       Charity: Ocean Conservancy
 
 
-      Coder Profile: [https://code4change.​thecodingspace.com/​4EJqV3J2LqY7jKYIRdCg](https://code4change.thecodingspace.com/4EJqV3J2LqY7jKYIRdCg)
+      * [Meet Elsa](https://code4change.thecodingspace.com/4EJqV3J2LqY7jKYIRdCg)
+
+      * [See Elsa's Project: Sustain the People](https://scratch.mit.edu/projects/838718354)
 
 
-      Project URL: [https://scratch.mit.edu/​projects/838718354](https://scratch.mit.edu/projects/838718354)
 
 
+      ## **Best Sound Design**
 
 
-      **Best Sound Design**
+      **Calina, "Recycle"**\
+
+      Charity: CharityWater
 
 
-      Calina Chen, Recycle
+      * [Meet Calina](https://code4change.thecodingspace.com/cPOzsH2DqhGWbOH0ZKvU)
 
-
-      Charity: CharityWater\
-
-      Coder Profile: [https://code4change.​thecodingspace.com/​cPOzsH2DqhGWbOH0ZKvU](https://code4change.thecodingspace.com/cPOzsH2DqhGWbOH0ZKvU)
-
-
-      Project URL: [https://scratch.mit.edu/​projects/852183810](https://scratch.mit.edu/projects/852183810)
+      * [See Calina's Project: Recycle](https://scratch.mit.edu/projects/852080217)
 
 
       \
 
-      Madison, Water the Plants
+      **Madison, "Water the Plants"**\
+
+      Charity: No Kid Hungry
 
 
       Charity: No Kid Hungry\
