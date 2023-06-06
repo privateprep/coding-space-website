@@ -89,6 +89,8 @@ pageBuilder:
 tags:
   - Code4Change
 ---
-The Coding Space is excited to kick off our 4th annual [Code 4 Change Challenge](https://www.thecodingspace.com/code-4-change/)! The UN Sustainable Development Goals were created by the United Nations in 2015 and are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere.
+🎉🌍 Drumroll, please! 🌍🎉
 
-![Coder with their UN Sustainable Development Goal](/img/img_9873-1-.jpg)
+We are bursting with excitement as we announce the incredible winners of our awe-inspiring Code 4 Change challenge! It's been unforgettable to witness the boundless creativity and altruistic spirit of our young coders who fearlessly embraced the challenge to tackle global problems with tech. These brilliant minds have proven that age is no limit to making a difference. Grab your celebratory confetti cannons and get ready to meet our amazing young changemakers, as we unveil the winners of Code 4 Change 2023 and applaud their extraordinary tech-based solutions that are shaping a brighter future for our beautiful planet!
+
+![Coder with their UN Sustainable Development Goal]()
