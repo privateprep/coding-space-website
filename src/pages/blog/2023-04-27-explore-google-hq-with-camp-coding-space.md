@@ -74,7 +74,7 @@ pageBuilder:
       * ...and much, much more!
 
 
-      Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions such as how their invention could be used for good or how machine learning could influence what they create.
+      Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions such as how their invention could be used for good or how AI and machine learning could influence what they create.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
