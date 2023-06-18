@@ -89,6 +89,12 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
+    mdContent: "![Field trips to Google, Etsy, Samsung, and
+      Hungryroot](/img/2023-field-trip-schedule.png)"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
     mdContent: "## Camp Coding Space Locations"
   - type: sideBySide
     bgColor: "#faf6ee"
