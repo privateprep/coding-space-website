@@ -30,8 +30,27 @@ details:
     - STEM Exploration
     - Immersive Experience
     - Field Trips
-  mdContent: Our summer camp is back and better than ever! Held from June to
-    August, our in-person camps combine project-based coding, STEM exploration,
-    epic team challenges, field trips, and more. Choose an option that fits your
-    schedule and give your child a summer adventure they'll never forget!
+  mdContent: >-
+    Our summer camp is back and better than ever! Held from June to August, our
+    in-person camps combine project-based coding, STEM exploration, epic team
+    challenges, field trips, and more. Choose an option that fits your schedule
+    and give your child a summer adventure they'll never forget!
+
+
+    **F﻿ield Trip Schedule**
+
+
+    J﻿une 26: Google
+
+
+    J﻿uly 13: Etsy
+
+
+    J﻿uly 27: Samsung
+
+
+    A﻿ugust 10: Google
+
+
+    A﻿ugust 24: Hungryroot
 ---
