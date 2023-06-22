@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: Sign up for camp the week of June 26th and take a field trip to
-    Google! [Register
+  mdContent: Sign up for camp the week of July 24 and take a field trip to
+    Samsung! [Register
     here](https://www.thecodingspace.com/experience-levels/camp-coding-space/).
 hero:
   heading: The Coding Space
