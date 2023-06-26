@@ -9,7 +9,7 @@ seo:
     and critical thinking skills, intellectual confidence, and passion for STEM.
   title: GirlCode
 categoryIds:
-  - 150
+  - 153
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=153
 display: true
 thumbnail: /img/girlcode-around-a-table.webp
