@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Coding Books for Kids
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-07-01T17:51:25.697Z
+date: 2023-07-03T17:51:25.697Z
 description: Summer reads to inspire a love of code
 featuredPost: false
 featuredImage:
