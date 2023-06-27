@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 3 Brainy Benefits of Coding
 titleColor: "#264548"
 bgColor: "#eec11a"
-date: 2022-07-01T19:55:54.073Z
+date: 2023-07-03T19:55:54.073Z
 description: Learning to code is a no-brainer!
 featuredPost: false
 featuredImage:
