@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Coding Our Way to the Moon & Back
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2022-07-01T19:38:28.851Z
+date: 2023-07-03T19:38:28.851Z
 description: Happy Apollo 11 Day!
 featuredPost: false
 featuredImage:
