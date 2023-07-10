@@ -19,7 +19,7 @@ pageBuilder:
     mdContent: |-
       # Fall Classes Online and In-Person
 
-      ## September - January
+      ## September 11- January 27
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -46,8 +46,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/covid-in-person-camp.jpeg
-      alt: COVID safe classroom of students learning to code
+      image: /img/img-7947-1-.jpg
+      alt: Students coding in a classroom
     mediaPosition: right
     mdContent: >-
       ## In-Person Coding Classes
@@ -70,7 +70,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     image:
       image: /img/young-girl-learning-on-computer.jpeg
-      alt: Young girl learning on a tablet
+      alt: Student learning on a tablet
     mediaPosition: left
     mdContent: >-
       ## Online Coding Classes
@@ -79,7 +79,7 @@ pageBuilder:
       **Explore the Unknown, Even From Home**
 
 
-      Our weekly online group classes balance screen time with hands-on activities and opportunities to create and explore, even in your own house. Students make new friends near and far while receiving personalized attention when they need it.
+      I﻿n our weekly online group classes, students learn to code while receiving personalized attention when they need it.
 
 
       **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom (version 5.11 or above).
