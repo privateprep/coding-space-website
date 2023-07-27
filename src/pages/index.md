@@ -9,9 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: Sign up for camp the week of July 24 and take a field trip to
-    Samsung! [Register
-    here](https://www.thecodingspace.com/experience-levels/camp-coding-space/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
