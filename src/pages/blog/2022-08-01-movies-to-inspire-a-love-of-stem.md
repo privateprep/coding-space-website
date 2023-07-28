@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Movies to Inspire a Love of STEM
 titleColor: "#264548"
 bgColor: "#eec11a"
-date: 2022-08-01T11:32:57.956Z
+date: 2023-08-01T13:32:05.645Z
 description: “So, yes, they let women do some things at NASA, and it’s not
   because we wear skirts. It’s because we wear glasses.” – Katherine Johnson,
   Hidden Figures
