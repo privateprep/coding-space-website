@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Reading: A Novel Approach to Code"
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2022-08-02T01:10:40.169Z
+date: 2023-08-02T01:10:40.169Z
 description: How reading books can make you a better coder
 featuredPost: false
 featuredImage:
