@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 5 Reasons to Supplement Your Child’s Education with Coding
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2022-08-01T17:28:52.711Z
+date: 2023-08-01T17:28:52.711Z
 description: Coding + school = a match made in Heaven
 featuredPost: true
 featuredImage:
