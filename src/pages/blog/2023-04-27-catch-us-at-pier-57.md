@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2023-04-27T02:00:20.481Z
 description: Join us for our free coding offerings in the community!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/pier-57.jpeg
   alt: Pier 57
