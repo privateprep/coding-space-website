@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2023-04-27T02:03:18.344Z
 description: Sign up for Camp Coding Space, and experience the future of tech!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/google-2023.jpg
   alt: "The Coding Space campers at Google HQ "
