@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-02-01T20:40:51.454Z
 description: The definitive answer to parents’ most burning question in 2023
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/are-coding-classes-worth-it-1-.png
   alt: Are coding classes worth it
