@@ -6,7 +6,7 @@ bgColor: "#eec11a"
 date: 2023-04-27T02:12:44.636Z
 description: Our coders are hard at work on their humanitarian projects. Tune in
   to see the awards ceremony on June 2nd!
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/img_9873-1-.jpg
   alt: Coder with their UN Sustainable Development Goal
