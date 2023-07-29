@@ -6,7 +6,7 @@ bgColor: "#eec11a"
 date: 2023-06-06T13:23:58.458Z
 description: Announcing the victorious visionaries of Code 4 Change, our
   humanitarian coding challenge
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/img_6568.jpg
   alt: Code 4 Change winner Calina with their project
