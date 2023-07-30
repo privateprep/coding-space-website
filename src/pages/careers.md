@@ -63,7 +63,7 @@ openings:
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdPJ-cqmcafFLYxLqdKlo8vKvTC0aBiU28JfNerRB2XatMYxw/viewform
   - details:
       postingDate: 2023-07-30T18:48:09.828Z
-      removalDate: 2023-07-30T18:48:10.050Z
+      removalDate: 2025-06-30T18:48:10.050Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLScZQq0cTWCp_Az28qgRa5TDfuurU6c3RsnCPiW8Xu7mUdFEXw/viewform
     info:
       title: Classroom Manager (Part-Time)
