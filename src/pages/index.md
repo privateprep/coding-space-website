@@ -18,8 +18,6 @@ hero:
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
-      - title: Summer Programs
-        content: /programs/summer/
       - title: Fall Classes
         content: /locations
 mainpitch:
