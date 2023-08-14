@@ -27,7 +27,7 @@ pageBuilder:
       ## Code With Us
 
 
-      Our fun and educational camps combine project-based coding, STEM exploration, hands-on activities, epic team challenges, and more. Whether your child is joining us virtually or at one of our coding centers, they’re sure to have an unforgettable experience.
+      Our fun and educational camps combine project-based coding, STEM exploration, hands-on activities, epic team challenges, and more.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
