@@ -33,8 +33,10 @@ pageBuilder:
       fgColor: "#f6c924"
       textColor: "#ffffff"
       list:
-        - title: Sign Up
-          content: /locations
+        - title: Upper East Side
+          content: /locations/upper-east-side
+        - title: Park Slope
+          content: /locations/park-slope
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
