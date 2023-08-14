@@ -21,16 +21,36 @@ pageBuilder:
     mediaPosition: right
     textColor: "#264548"
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     heading: Experience the Fun of Camp All Year Long
     mdContent: >-
       ## Code With Us
 
 
-      Our fun and educational camps combine project-based coding, STEM
-      exploration, hands-on activities, epic team challenges, and more. Whether
-      your child is joining us virtually or at one of our coding centers,
-      they’re sure to have an unforgettable experience.
+      Our fun and educational camps combine project-based coding, STEM exploration, hands-on activities, epic team challenges, and more. Whether your child is joining us virtually or at one of our coding centers, they’re sure to have an unforgettable experience.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /experience-levels/school-holiday-mini-camps/
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/collaborative-group-space.jpg
+      alt: Kids coding at camp
+    mediaPosition: left
+    fgColor: "#9de2dd"
+    mdContent: >-
+      ## School Break Camps
+
+
+      ### Continue Learning on Days Off from School
+
+
+      Our school break camps are held throughout the year so that your child can continue learning while school is out! Packed with coding challenges, STEM exploration, and team activities, your child is sure to have a great time while continuing to wear their thinking hats!
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -53,35 +73,7 @@ pageBuilder:
       ### Explore the Unknown at Camp Coding Space
 
 
-      Held Monday through Friday throughout the summer,  Camp Coding Space
-      brings kids together to explore coding challenges, STEM subjects, and fun
-      and educational screen-free activities.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /experience-levels/school-holiday-mini-camps/
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/collaborative-group-space.jpg
-      alt: Kids coding at camp
-    mediaPosition: left
-    fgColor: "#9de2dd"
-    mdContent: >-
-      ## Mini Camps and Special Events
-
-
-      ### Check Out Our Byte-Size Coding Camps
-
-
-      Don’t miss our mini coding camps, offered virtually or in person
-      throughout the year. Often coinciding with school and federal holidays
-      like Presidents’ Day, Winter Break, and more, these camps pack a big
-      punch, bringing engagement and education to days off from school.
+      Held Monday through Friday throughout the summer,  Camp Coding Space brings kids together to explore coding challenges, STEM subjects, and fun and educational screen-free activities.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
