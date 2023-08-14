@@ -23,7 +23,6 @@ details:
     - JavaScript
     - HTML
     - CSS
-    - Python
   sellingPoints:
     - Building Websites
     - Making Apps
