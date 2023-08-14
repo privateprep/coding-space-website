@@ -22,7 +22,6 @@ details:
     - JavaScript
     - HTML
     - CSS
-    - Python
   sellingPoints:
     - Open-Ended Projects
     - Pair Programming
