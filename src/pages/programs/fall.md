@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Fall
+title: Fall Coding Classes
 titleColor: "#264548"
 seo:
   title: Fall
@@ -12,14 +12,6 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: textOnly
-    textAlign: center
-    bgColor: "#ffffff"
-    textColor: "#264548"
-    mdContent: |-
-      # Fall Classes Online and In-Person
-
-      ## September 11- January 27
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#faf6ee"
@@ -29,12 +21,12 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#ffffff"
-    heading: Head Back to The Coding Space This Fall
+    heading: September 11, 2023 - January 27, 2024
     mdContent: >-
-      ### Join Our Community of Coders
+      ## Fall in Love with Coding at The Coding Space
 
 
-      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Here’s what we’re offering this fall:
+      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Read below for what we’re offering this fall
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -53,10 +45,13 @@ pageBuilder:
       ## In-Person Coding Classes
 
 
-      **Build Friendships and Life Skills in a Supportive Setting**
+      **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive Learning Environment**
 
 
-      Our weekly after-school coding classes offer unique coding challenges in Scratch, JavaScript, and more in a small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes on the Upper East Side in Manhattan and in Park Slope, Brooklyn offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+
+
+      **[Inquire](/contact) about after school pick-up!**
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -79,7 +74,7 @@ pageBuilder:
       **Explore the Unknown, Even From Home**
 
 
-      I﻿n our weekly online group classes, students learn to code while receiving personalized attention when they need it.
+      I﻿n our weekly online group classes, students learn to code while making friends near and far. These live classes are taught over Zoom in a 4:1 student-to-teacher ratio ensuring students receive personalized attention when they need it.
 
 
       **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom (version 5.11 or above).
@@ -105,7 +100,7 @@ pageBuilder:
       **A Build-Your-Own Learning Experience**
 
 
-      Looking for a way for your child to learn with friends from afar? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a personalized class experience for your child.
+      Looking for a way for your child to learn at home with friends? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a personalized class experience for your child.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
