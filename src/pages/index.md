@@ -15,11 +15,13 @@ hero:
   subheading: ​​An after-school and summer coding program where kids and teens
     learn to code while developing critical thinking skills.
   buttons:
-    fgColor: "#9de2dd"
+    fgColor: "#f6c924"
     textColor: "#264548"
     list:
       - title: Fall Coding Classes
         content: /locations
+      - title: School Break Camps
+        content: /programs/camps-at-the-coding-space
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
