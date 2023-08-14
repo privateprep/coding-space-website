@@ -18,7 +18,7 @@ hero:
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
-      - title: Fall Classes
+      - title: Fall Coding Classes
         content: /locations
 mainpitch:
   title: Where Kids Learn to Code
