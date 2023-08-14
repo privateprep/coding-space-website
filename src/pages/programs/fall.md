@@ -26,7 +26,7 @@ pageBuilder:
       ## Fall in Love with Coding at The Coding Space
 
 
-      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Read below for what we’re offering this fall
+      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Learn more about what we're offering this fall below.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -51,7 +51,7 @@ pageBuilder:
       Our weekly after-school coding classes on the Upper East Side in Manhattan and in Park Slope, Brooklyn offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
 
 
-      **[Inquire](/contact) about after school pick-up!**
+      **A﻿fter school pick-up available!**
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
