@@ -56,7 +56,8 @@ openings:
       type:
         - hourly
       locations:
-        - online
+        - NYC
+        - Brooklyn
     details:
       postingDate: 2023-07-30T16:35:55.454Z
       removalDate: 2025-06-30T15:39:43.806Z
