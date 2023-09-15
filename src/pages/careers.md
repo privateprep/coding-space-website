@@ -59,7 +59,7 @@ openings:
         - NYC
         - Brooklyn
     details:
-      postingDate: 2023-09-05T16:35:55.454Z
+      postingDate: 2023-09-11T16:35:55.454Z
       removalDate: 2025-09-11T15:39:43.806Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdPJ-cqmcafFLYxLqdKlo8vKvTC0aBiU28JfNerRB2XatMYxw/viewform
 ---
