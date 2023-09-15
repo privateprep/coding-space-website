@@ -28,7 +28,9 @@ team:
     mdContent: >-
       ## Melissa Vogt
 
-      #### Manager of Business Development & Client Relations
+
+      #### Director of Business Development & Client Relations
+
 
       Originally from Austin, Texas, Melissa holds her BFA from Sam Houston State University. Prior to working at The Coding Space, she served as Director of Operations for a private music school in Manhattan. She is passionate about education and cultivating creativity. In her free time, she enjoys performing in local plays and musicals, cooking new recipes, and traveling.
 
