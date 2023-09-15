@@ -62,20 +62,4 @@ openings:
       postingDate: 2023-07-30T16:35:55.454Z
       removalDate: 2025-06-30T15:39:43.806Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdPJ-cqmcafFLYxLqdKlo8vKvTC0aBiU28JfNerRB2XatMYxw/viewform
-  - details:
-      postingDate: 2023-07-30T18:48:09.828Z
-      removalDate: 2025-06-30T18:48:10.050Z
-      applyLink: https://docs.google.com/forms/d/e/1FAIpQLScZQq0cTWCp_Az28qgRa5TDfuurU6c3RsnCPiW8Xu7mUdFEXw/viewform
-    info:
-      title: Classroom Manager (Part-Time)
-      description: >
-        The Coding Space is now hiring a dynamic and experienced part-time
-        Classroom Manager for our locations on the Upper East Side in Manhattan
-        and in Park Slope, Brooklyn. We are looking for someone who thrives in a
-        collaborative, team-focused environment.
-      type:
-        - part-time
-      locations:
-        - NYC
-        - Brooklyn
 ---
