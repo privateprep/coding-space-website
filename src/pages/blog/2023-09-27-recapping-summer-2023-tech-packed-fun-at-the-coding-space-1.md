@@ -9,7 +9,7 @@ description: Extend the excitement of our successful summer camp into the school
   buzzing with creativity and curiosity during school breaks, our camps offer a
   mix of coding challenges, captivating STEM explorations, and collaborative
   team activities.
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/coding-camp.jpg
   alt: Accessibility name
