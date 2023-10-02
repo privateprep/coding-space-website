@@ -109,6 +109,6 @@ pageBuilder:
     textColor: "#ffffff"
     list:
       - title: View Schedule
-        content: /programs/camps-at-the-coding-space/
+        content: /experience-levels/school-holiday-mini-camps/
 ---
 The summer of 2023 at The Coding Space was a blast! From June to August, young tech enthusiasts gathered to dive into the world of coding and STEM.
