@@ -17,10 +17,10 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: "#faf6ee"
     image:
       image: /img/stemoween-2023-1080-×-1080-px-400-×-300-px-.png
-      alt: Accessibility name
+      alt: Coding Space Camper Coding a Project
     mediaPosition: right
     mdContent: E﻿ach morning they tackled projects in Scratch, JavaScript, Python,
       and more, showing off their creativity and dedication.
@@ -32,16 +32,28 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/img_0892.jpg
+      image: /img/lift-off-lab-activity-1-.png
+      alt: Coding Space Campers Building a Self-Driving Car
+    mediaPosition: right
+    mdContent: In the afternoons, our hub of engineering and STEM excitement—the
+      Lift Off Lab—buzzed with activity. Campers eagerly tackled STEM
+      challenges, delving into the realms of robotics and engineering. They
+      constructed alarm devices, designed autonomous vehicles, and prototyped
+      Mars hovercrafts.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/tcs-academy.jpg
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      In the afternoons, our hub of engineering and STEM excitement—the Lift Off
-      Lab—buzzed with activity. Campers eagerly tackled STEM challenges, delving
-      into the realms of robotics and engineering. They constructed alarm
-      devices, designed autonomous vehicles, and prototyped Mars hovercrafts. On
-      top of these challenges, we added a dash of outdoor adventure, ensuring a
-      well-rounded and exhilarating camp experience. 
+      On top of these challenges, we added a dash of outdoor adventure, ensuring
+      a well-rounded and exhilarating camp experience. 
 
 
       But we didn't stop at the camp. Field trips to Google, Etsy, Hungryroot, and Samsung gave campers a taste of the real tech world. And for the high schoolers, we introduced The Coding Space Academy, a thrilling two-week program that concluded with a spectacular capstone project showcase.
