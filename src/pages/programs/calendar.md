@@ -53,7 +53,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/copy-of-tile-carousel-1-5-.png
+      image: /img/lift-off-lab-activity-2-.png
       alt: The Lift Off Lab Series
     mediaPosition: right
     mdContent: >-
