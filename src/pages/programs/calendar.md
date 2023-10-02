@@ -53,7 +53,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/lift-off-lab-activity-2-.png
+      image: /img/liff-off-lab-activity.png
       alt: The Lift Off Lab Series
     mediaPosition: right
     mdContent: >-
