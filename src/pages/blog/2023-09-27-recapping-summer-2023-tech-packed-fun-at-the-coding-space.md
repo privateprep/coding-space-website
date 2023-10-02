@@ -4,11 +4,10 @@ title: "Recapping Summer 2023: Tech-Packed Fun at The Coding Space!"
 titleColor: "#264548"
 bgColor: "#ffffff"
 date: 2023-09-27T18:54:43.828Z
-description: The summer of 2023 at The Coding Space was a blast! From June to
-  August, young tech enthusiasts gathered to dive into the world of coding.
+description: "The summer of 2023 at The Coding Space was a blast! "
 featuredPost: true
 featuredImage:
-  image: /img/img_0814.jpg
+  image: /img/google-field-trip-1.jpg
   alt: Summer camp field trip to Google
 pageBuilder:
   - type: textAndImageBlock
@@ -23,7 +22,7 @@ pageBuilder:
       alt: Coding Space Camper Coding a Project
     mediaPosition: right
     mdContent: E﻿ach morning they tackled projects in Scratch, JavaScript, Python,
-      and more, showing off their creativity and dedication.
+      and more, showing off their creativity, grit, and dedication.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -35,7 +34,7 @@ pageBuilder:
     image:
       image: /img/lift-off-lab-activity-1-.png
       alt: Coding Space Campers Building a Self-Driving Car
-    mediaPosition: right
+    mediaPosition: left
     mdContent: In the afternoons, our hub of engineering and STEM excitement—The
       Lift Off Lab—buzzed with activity. Campers eagerly tackled STEM
       challenges, delving into the realms of robotics and engineering. They
@@ -54,7 +53,8 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: On top of these challenges, we added a dash of outdoor adventure,
-      ensuring a well-rounded and exhilarating camp experience.
+      ensuring a well-rounded and invigorating camp experience.
+    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -63,17 +63,34 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
+      image: /img/google-field-trip.jpg
+      alt: Coding Space Field Trip to Google
+    mediaPosition: left
+    mdContent: But we didn't stop at the camp. Field trips to Google, Etsy,
+      Hungryroot, and Samsung gave campers a taste of the real tech world.
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
       image: /img/tcs-academy.jpg
-      alt: Accessibility name
+      alt: The Coding Space Academy in Central Park
     mediaPosition: right
-    mdContent: >-
-      But we didn't stop at the camp. Field trips to Google, Etsy, Hungryroot,
-      and Samsung gave campers a taste of the real tech world. And for the high
-      schoolers, we introduced The Coding Space Academy, a thrilling two-week
-      program that concluded with a spectacular capstone project showcase.
-
-
-      Big thanks to all the kids, families, and counselors who made this summer memorable. We're already looking forward to next year for more coding fun!
+    mdContent: And for the high schoolers, we introduced The Coding Space Academy, a
+      thrilling two-week program that concluded with a spectacular capstone
+      project showcase.
+    fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: Big thanks to all the kids, families, and counselors who made this
+      summer memorable. We're already looking forward to next year for more
+      coding fun!
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -86,9 +103,9 @@ pageBuilder:
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
-    textColor: "#ffffff"
+    textColor: "#faf6ee"
     list:
       - title: View Schedule
-        content: /experience-levels/school-holiday-mini-camps/
+        content: "#"
 ---
-Learn more about what our campers were up to this past summer.
+From June to August, young tech enthusiasts gathered to dive into the world of coding.
