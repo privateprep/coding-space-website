@@ -27,7 +27,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: RSVP
-          content: "#"
+          content: https://docs.google.com/forms/d/e/1FAIpQLSfJW6wLkpT8NexAz-Es5e2uF4N4DoJUC3N3epC3Stg3ewQTIA/viewform
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -50,7 +50,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/img-7916.jpg
+      image: /img/copy-of-tile-carousel-1-4-.png
       alt: The Lift Off Lab Series
     mediaPosition: right
     mdContent: >-
@@ -81,7 +81,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img-7672.jpg
+      image: /img/copy-of-tile-carousel-1-2-.png
       alt: AI Workshop
     mediaPosition: right
     mdContent: >-
