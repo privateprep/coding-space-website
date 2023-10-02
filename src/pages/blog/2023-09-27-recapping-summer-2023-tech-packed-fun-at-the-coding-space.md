@@ -19,7 +19,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/img-7943.jpg
+      image: /img/stemoween-2023-1080-×-1080-px-400-×-300-px-.png
       alt: Accessibility name
     mediaPosition: right
     mdContent: E﻿ach morning they tackled projects in Scratch, JavaScript, Python,
