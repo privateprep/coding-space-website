@@ -4,7 +4,10 @@ title: "Recapping Summer 2023: Tech-Packed Fun at The Coding Space!"
 titleColor: "#264548"
 bgColor: "#ffffff"
 date: 2023-09-27T18:54:43.828Z
-description: "The summer of 2023 at The Coding Space was a blast! "
+description: >
+  Summer may be over and fall classes underway, but we wanted to take a minute
+  to reflect on the fun we had at camp this past summer and the incredible
+  campers who joined us each week.
 featuredPost: true
 featuredImage:
   image: /img/google-field-trip-1.jpg
@@ -108,4 +111,4 @@ pageBuilder:
       - title: View Schedule
         content: "#"
 ---
-From June to August, young tech enthusiasts gathered to dive into the world of coding.
+The summer of 2023 at The Coding Space was a blast! From June to August, young tech enthusiasts gathered to dive into the world of coding and STEM.
