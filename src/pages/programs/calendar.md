@@ -9,7 +9,7 @@ seo:
     and unique learning opportunities
 heroImage:
   image: /img/tcs-header.png
-  alt: Accessibility name
+  alt: Header
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -38,7 +38,10 @@ pageBuilder:
       ## STEMoween: A STEM Halloween Extravaganza
 
 
-      Mark your calendars this October because we're bringing the spookiness to STEM! Visit us at our Park Slope location on Saturday, October 21st from 12:15pm-2:15pm or on the Upper East Side on Halloween evening and get ready for LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime. And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬 \[FREE]
+      Mark your calendars this October because we're bringing the spookiness to STEM with LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime! And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬 \[FREE]
+
+
+      Click RSVP for dates and locations.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -88,7 +91,7 @@ pageBuilder:
       ## Future Chat: AI Chatbot Workshop for Young Innovators
 
 
-      Come dive into the realm of artificial intelligence! We'll show your child how to build their very own chatbot using Scratch and the magic of Natural Language Processing (NLP). Who knows, their chatbot might just become the talk of the digital town! 🚀🤖💬
+      Come dive into the realm of artificial intelligence by building your very own chatbot! We'll show your child how using Scratch and the magic of Natural Language Processing (NLP). Who knows, their chatbot might just become the talk of the digital town! 🚀🤖💬
 
 
       **L﻿ocation:** 201 E. 83rd Street
