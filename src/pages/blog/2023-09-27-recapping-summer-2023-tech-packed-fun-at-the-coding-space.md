@@ -24,22 +24,24 @@ pageBuilder:
     mediaPosition: right
     mdContent: E﻿ach morning they tackled projects in Scratch, JavaScript, Python,
       and more, showing off their creativity and dedication.
+    fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     image:
       image: /img/lift-off-lab-activity-1-.png
       alt: Coding Space Campers Building a Self-Driving Car
     mediaPosition: right
-    mdContent: In the afternoons, our hub of engineering and STEM excitement—the
+    mdContent: In the afternoons, our hub of engineering and STEM excitement—The
       Lift Off Lab—buzzed with activity. Campers eagerly tackled STEM
       challenges, delving into the realms of robotics and engineering. They
       constructed alarm devices, designed autonomous vehicles, and prototyped
       Mars hovercrafts.
+    fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -48,15 +50,27 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
+      image: /img/summer-camp-activity.png
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: On top of these challenges, we added a dash of outdoor adventure,
+      ensuring a well-rounded and exhilarating camp experience.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
       image: /img/tcs-academy.jpg
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      On top of these challenges, we added a dash of outdoor adventure, ensuring
-      a well-rounded and exhilarating camp experience. 
-
-
-      But we didn't stop at the camp. Field trips to Google, Etsy, Hungryroot, and Samsung gave campers a taste of the real tech world. And for the high schoolers, we introduced The Coding Space Academy, a thrilling two-week program that concluded with a spectacular capstone project showcase.
+      But we didn't stop at the camp. Field trips to Google, Etsy, Hungryroot,
+      and Samsung gave campers a taste of the real tech world. And for the high
+      schoolers, we introduced The Coding Space Academy, a thrilling two-week
+      program that concluded with a spectacular capstone project showcase.
 
 
       Big thanks to all the kids, families, and counselors who made this summer memorable. We're already looking forward to next year for more coding fun!
@@ -72,7 +86,7 @@ pageBuilder:
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
-    textColor: "#faf6ee"
+    textColor: "#ffffff"
     list:
       - title: View Schedule
         content: /experience-levels/school-holiday-mini-camps/
