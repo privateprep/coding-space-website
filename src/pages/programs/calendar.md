@@ -38,5 +38,5 @@ pageBuilder:
       ## STEMoween: A STEM Halloween Extravaganza
 
 
-      Mark your calendars this October because we're bringing the spookiness to STEM. Visit us on Saturday, October 21st in Park Slope or on Halloween evening on the Upper East Side and get ready for LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime. And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬
+      Mark your calendars this October because we're bringing the spookiness to STEM! Visit us at our Park Slope location on Saturday, October 21st from 12:15pm-2:15pm or on the Upper East Side on Halloween evening and get ready for LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime. And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬
 ---
