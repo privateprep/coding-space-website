@@ -31,8 +31,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/halloween-stem-activities.webp
-      alt: Halloween
+      image: /img/stemoween-2023-1080-×-1080-px-.png
+      alt: STEMoween
     mediaPosition: right
     mdContent: >-
       ## STEMoween: A STEM Halloween Extravaganza
