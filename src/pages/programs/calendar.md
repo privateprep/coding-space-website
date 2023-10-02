@@ -19,27 +19,24 @@ pageBuilder:
       ## **What’s Happening at The Coding Space**
 
 
-      In addition to our seasonal programs, The Coding Space offers a wide
-      variety of fun mini camps, one-time events, and unique learning
-      opportunities, often coinciding with school and federal holidays like
-      Presidents’ Day, Veterans’ Day, and more. Check out our planned events and
-      calendar to see what’s coming up and how your child can get involved.
-  - type: iframe
-    bgColor: "#faf6ee"
-    content: https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23fbf6ee&ctz=America%2FNew_York&src=dGhlY29kaW5nc3BhY2VjYWxlbmRhckBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&showTabs=0
-    ratio: ratio4x3
-    title: Events Calendar
-  - type: headerAndMarkDownBlock
+      In addition to our seasonal programs, The Coding Space offers a wide variety of fun and educational camps, workshops, and events. See what’s coming up and how your child can get involved.
+  - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
+      fgColor: "#eec11a"
       textColor: "#264548"
+      list:
+        - title: RSVP
+          content: "#"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/halloween-stem-activities.webp
+      alt: Halloween
     mediaPosition: right
-    textColor: "#ffffff"
-    textAlign: center
-    bgColor: "#264548"
-    mdContent:
-      Check out our Private Lessons and Small Groups page or our Partnerships
-      page.
-    heading: "Looking to Create Your Own Special Event? "
+    mdContent: >-
+      ## STEMoween: A STEM Halloween Extravaganza
+
+
+      Mark your calendars this October because we're bringing the spookiness to STEM. Visit us on Saturday, October 21st in Park Slope or on Halloween evening on the Upper East Side and get ready for LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime. And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬
 ---
