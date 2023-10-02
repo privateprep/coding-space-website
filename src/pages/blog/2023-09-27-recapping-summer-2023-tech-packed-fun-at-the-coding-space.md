@@ -65,4 +65,4 @@ pageBuilder:
       - title: View Schedule
         content: /experience-levels/school-holiday-mini-camps/
 ---
-Scroll down to learn more about what our campers were up to this past summer.
+Learn more about what our campers were up to this past summer.
