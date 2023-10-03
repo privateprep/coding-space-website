@@ -1,6 +1,6 @@
 ---
 templateKey: location-page
-title: Port Washington
+title: Long Island
 seo:
   title: Long Island
   description: |
