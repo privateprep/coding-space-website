@@ -1,9 +1,9 @@
 ---
 templateKey: location-page
-title: Long Island
+title: Port Washington
 seo:
   title: Long Island
-  description: >
+  description: |
     Learn coding in-person with us at Upper East Side!
 classLocationId: 18
 banner:
