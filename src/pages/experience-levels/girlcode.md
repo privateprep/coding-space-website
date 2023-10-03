@@ -18,7 +18,7 @@ details:
   gender:
     - GirlCode
   byline: First Time through Advanced
-  experience: 8-13
+  experience: Ages 8-13
   skills:
     - Scratch
     - JavaScript
