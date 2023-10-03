@@ -37,6 +37,8 @@ pageBuilder:
           content: /locations/upper-east-side
         - title: Park Slope
           content: /locations/park-slope
+        - title: Long Island
+          content: /locations/long-island
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -51,9 +53,6 @@ pageBuilder:
 
 
       Our weekly after-school coding classes on the Upper East Side in Manhattan and in Park Slope, Brooklyn offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
-
-
-      **A﻿fter school pick-up  is available!** [Contact us](/contact-us) to ask about pick up from your school.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
