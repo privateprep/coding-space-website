@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-09-10T18:02:25.431Z
+  removalDate: 2023-10-10T18:02:25.431Z
   mdContent: D﻿on't miss our School Break Camp on Monday, October 9th! [Sign up
     here](/experience-levels/school-holiday-mini-camps).
 hero:
