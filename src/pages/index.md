@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2023-09-10T18:02:25.431Z
-  mdContent: ""
+  mdContent: D﻿on't miss our School Break Camp on Monday, October 9th! [Sign up
+    here](/experience-levels/school-holiday-mini-camps).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
