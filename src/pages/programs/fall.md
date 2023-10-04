@@ -52,7 +52,7 @@ pageBuilder:
       **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive Learning Environment**
 
 
-      Our weekly after-school coding classes on the Upper East Side in Manhattan and in Park Slope, Brooklyn offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
