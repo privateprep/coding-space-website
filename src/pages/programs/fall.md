@@ -3,7 +3,7 @@ templateKey: programs
 title: Fall Coding Classes
 titleColor: "#264548"
 seo:
-  title: Fall
+  title: Fall Coding Classes
   description: >
     Whether you’re joining us at one of our in-person locations or meeting up
     with classmates for virtual lessons, we’re looking forward to laughing,
