@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Calendar
+title: The Coding Space Calendar
 titleColor: "#264548"
 seo:
   title: Calendar
