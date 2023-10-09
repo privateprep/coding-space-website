@@ -23,8 +23,8 @@ pageBuilder:
       image: /img/stemoween-2023-1080-×-1080-px-400-×-300-px-.png
       alt: Coding Space Camper Coding a Project
     mediaPosition: right
-    mdContent: E﻿ach morning they tackled projects in Scratch, JavaScript, Python,
-      and more, showing off their creativity, grit, and dedication.
+    mdContent: E﻿ach morning campers tackled projects in Scratch, JavaScript,
+      Python, and more, showing off their creativity, grit, and dedication.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
