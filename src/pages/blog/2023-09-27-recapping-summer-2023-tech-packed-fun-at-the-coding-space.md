@@ -97,11 +97,12 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: "#### Extend the excitement of our successful summer camp into the
-      school year with our engaging School Break Camps! Designed to keep your
-      child's mind buzzing with creativity and curiosity during school breaks,
-      our camps offer a mix of coding challenges, captivating STEM explorations,
-      and collaborative team activities."
+    mdContent: >-
+      #### Extend the excitement of our successful summer camp into the school
+      year with our engaging School Break Camps! 
+
+
+      Designed to keep your child's mind buzzing with creativity and curiosity during school breaks, our camps offer a mix of coding challenges, captivating STEM explorations, and collaborative team activities.
   - type: buttons
     bgColor: "#ffffff"
     fgColor: "#264548"
