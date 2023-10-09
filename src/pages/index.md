@@ -8,9 +8,9 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-10-10T18:02:25.431Z
+  removalDate: 2023-11-01T18:02:25.431Z
   mdContent: Get ready for spine-tingling STEM excitement this October! [Join us
-    for STEMoween](/programs/calendar)![](/programs/calendar)
+    for STEMoween](/programs/calendar)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
