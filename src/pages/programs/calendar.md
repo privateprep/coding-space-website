@@ -26,8 +26,10 @@ pageBuilder:
       fgColor: "#eec11a"
       textColor: "#264548"
       list:
-        - title: RSVP
-          content: https://docs.google.com/forms/d/e/1FAIpQLSfJW6wLkpT8NexAz-Es5e2uF4N4DoJUC3N3epC3Stg3ewQTIA/viewform
+        - title: Park Slope Event
+          content: https://www.eventbrite.com/e/stemoween-park-slope-tickets-732185144477
+        - title: Upper East Side Event
+          content: https://www.eventbrite.com/e/stemoween-upper-east-side-tickets-732144693487
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -38,10 +40,10 @@ pageBuilder:
       ## STEMoween: A STEM Halloween Extravaganza
 
 
-      Mark your calendars this October because we're bringing the spookiness to STEM with LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime! And of course, nerds and smarties will be our candy of choice because we're all about that brainy sweetness! 🎃🧪🍬 \[FREE]
+      Get ready for spine-tingling STEM excitement this October! Mark your calendars because we're bringing the spookiness to STEM with not one but two epic events. Join us on October 21st in Park Slope and Halloween night on the Upper East Side for a thrilling adventure filled with LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime! 🧙‍♀️ And what's our candy of choice? Nerds and smarties, of course, because we're all about that brainy sweetness! 🧠 
 
 
-      Click RSVP for dates and locations.
+      R﻿SVP below for this free event!
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
