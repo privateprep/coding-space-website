@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2023-11-01T18:02:25.431Z
-  mdContent: Get ready for spine-tingling STEM excitement this October! [Join us
-    for STEMoween](/programs/calendar)
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
