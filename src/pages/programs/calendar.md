@@ -22,30 +22,6 @@ pageBuilder:
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Park Slope Event
-          content: https://www.eventbrite.com/e/stemoween-park-slope-tickets-732185144477
-        - title: Upper East Side Event
-          content: https://www.eventbrite.com/e/stemoween-upper-east-side-tickets-732144693487
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/stemoween-2023-1080-×-1080-px-.png
-      alt: STEMoween
-    mediaPosition: right
-    mdContent: >-
-      ## STEMoween: A STEM Halloween Extravaganza
-
-
-      Get ready for spine-tingling STEM excitement this October! Mark your calendars because we're bringing the spookiness to STEM with not one but two epic events. Join us on October 21st in Park Slope and Halloween night on the Upper East Side for a thrilling adventure filled with LED Jack-o'-lanterns, candy chemistry, and Witch's Brew Slime! 🧙‍♀️ And what's our candy of choice? Nerds and smarties, of course, because we're all about that brainy sweetness! 🧠 
-
-
-      R﻿SVP below for this free event!
-  - type: textAndImageBlock
-    buttons:
       bgColor: "#9de2dd"
       fgColor: "#264548"
       textColor: "#faf6ee"
