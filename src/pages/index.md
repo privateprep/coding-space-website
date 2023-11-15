@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2023-11-01T18:02:25.431Z
+  removalDate: 2023-11-19T19:02:25.431Z
   mdContent: Don't miss our Robotics Workshop on Saturday, November 18th! [Learn
     more](https://thecodingspace.com/programs/calendar).
 hero:
