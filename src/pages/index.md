@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2023-11-01T18:02:25.431Z
-  mdContent: ""
+  mdContent: Don't miss our Robotics Workshop on Saturday, November 18th! [Learn
+    more](https://thecodingspace.com/programs/calendar).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
