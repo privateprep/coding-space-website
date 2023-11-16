@@ -19,9 +19,9 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Fall Coding Classes
+      - title: Spring Coding Classes
         content: /locations
-      - title: School Break Camps
+      - title: Winter Break Camp
         content: /programs/camps-at-the-coding-space
 mainpitch:
   title: Where Kids Learn to Code
