@@ -22,37 +22,6 @@ pageBuilder:
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#264548"
-      textColor: "#faf6ee"
-      list:
-        - title: Register Now
-          content: https://www.thecodingspace.com/sign_up/classes/2580
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/lift-off-lab-activity-2.png
-      alt: The Lift Off Lab Series
-    mediaPosition: right
-    mdContent: >-
-      ## T﻿he Lift-Off Lab Series: Robo-Maze Mission
-
-
-      Get ready to blast off into our exciting "Lift Off Lab" workshop series! Kids, gear up to roll up your sleeves and build some awesome creations. Our inaugural activity? Constructing a robot that's up to the challenge of navigating a tricky maze. It's hands-on learning and fun all rolled into one!
-
-
-      **L﻿ocation:** 201 E. 83rd Street
-
-
-      **D﻿ate:** Saturday, November 18th 
-
-
-      **Time:** 2:30pm-4:00pm
-
-
-      **A﻿ges**: 7+
-  - type: textAndImageBlock
-    buttons:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
