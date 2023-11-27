@@ -27,6 +27,9 @@ pageBuilder:
 
 
       Beyond her technical achievements, Hopper devoted herself to increasing diversity in tech. She mentored young women entering the field and worked to make programming languages more accessible to beginners. Hopper brought humanity and compassion to a male-dominated arena.
+
+
+      Hopper believed in the potential of computers. “I think we consistently…underestimate what we can do with computers if we really try,” she once said.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
