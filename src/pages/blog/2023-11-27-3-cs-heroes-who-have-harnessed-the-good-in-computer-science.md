@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 3 CS Heroes Who Have Harnessed the Good in Computer Science
 titleColor: "#264548"
 bgColor: "#f6c924"
-date: 2023-12-04T19:15:56.178Z
+date: 2023-12-03T19:15:56.178Z
 description: "Computer Science is a superpower! Happy #CSEdWeek."
 featuredPost: false
 featuredImage:
