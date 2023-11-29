@@ -4,10 +4,10 @@ title: Our STEM Holiday Gift Guide
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-11-28T15:40:10.601Z
-description: Handpicked gifts to inspire a love of coding
+description: Handpicked gifts to inspire a love of STEM
 featuredPost: false
 featuredImage:
-  image: /img/stem-holiday-gift-guide-2022-5-.png
+  image: /img/stem-holiday-gift-guide-2023.png
   alt: STEM Holiday Tile
 pageBuilder:
   - type: textOnly
@@ -15,25 +15,28 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## KiwiCo Tinker Crates
+      ## Turing Tumble
 
 
-      *Ages: 0-18*
+      *Ages: 8+*
 
 
-      [Tinker Crates](https://www.kiwico.com/tinker) aren’t just another science kit. In every box, they create “low threshold, high ceiling” projects, so they’re accessible and fun for all types of learners. Not to mention, they provide fun ways to expose bright, curious kids to STEM concepts that they otherwise wouldn’t encounter in school for years!
+      [Turing Tumble](https://store.upperstory.com/products/turing-tumble) is a new type of game where players build mechanical computers powered by marbles to solve logic puzzles. Use ramps, crossovers, bits, interceptors, gears, and gear bits to build marble-powered computers that can generate patterns, do logic, count, add, subtract, multiply, divide, and much, much more.
+
+
+      See how simple switches, connected together in clever ways, can do incredibly smart things. Discover how computers work!
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Switcheroo Coding Crew
+      ## G﻿oCube
 
 
-      *Ages: 3-4*
+      *Ages: 8+*
 
 
-      With simple buttons sized for little hands, the [Switcheroo Coding Crew](https://www.thetoyinsider.com/toys/switcheroo-coding-crew/) help preschoolers learn early programming concepts without a moment of screen time. Design endless coding challenges with the included interactive town playset.
+      [GoCube](https://www.amazon.com/GoCube-Connected-Smart-Rubiks-Puzzle/dp/B07W7TGWDR?asc_source=verso&asc_campaign=5bea0c51798a4365ec16fdca%7CjHML6y7adswSFJzs3MDToq&asc_refurl=https%3A%2F%2Fwww.wired.com%2Fgallery%2Fbest-stem-toys-for-kids%2F&ascsubtag=5bea0c51798a4365ec16fdca&tag=w050b-20) is a smart Bluetooth-enabled Rubik's cube that brings a new and engaging twist to the classic puzzle. Quickly charge, connect, and let the app take you through exciting lessons, games, online competitions, and mental exercises with friends and cubers from all over the world. Master the cube and track your progress in real time!
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -63,13 +66,13 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Osmo Coding Starter Kit
+      ## Cody Block
 
 
-      *Ages: 5-7*
+      *Ages: 3-12*
 
 
-      With the [Osmo Coding Starter Kit](https://www.thetoyinsider.com/toys/osmo-coding-starter-kit/), kids learn basic to complex coding concepts by manipulating physical game pieces to create music, solve puzzles, and more in three app-based games.
+      [Cody Block](https://qubs.toys/products/cody-block) provides a hands-on, fun-filled journey into the realms of computational thinking and basic coding principles. Blending traditional wooden toys and modern technology, Cody is more than just a toy—it's a launchpad for the curious young minds.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -117,8 +120,8 @@ pageBuilder:
       *Ages: 6-17*
 
 
-      Gift a [trial coding class](https://www.thecodingspace.com/sign_up/classes/1770?trial_class=true) at The Coding Space to your curious coder. Our coding classes bring students together each week to make progress on individual projects, dive into hands-on activities, and explore opportunities for self-expression. [The Coding Space](https://www.thecodingspace.com/) is the leading provider of coding education in NYC and has been recognized in Time Out, Nickelodeon, Good Morning America, and more.
+      Gift a [trial coding class](/classes) at The Coding Space to your curious coder. Our coding classes bring students together each week to make progress on individual projects, dive into hands-on activities, and explore opportunities for self-expression. [The Coding Space](https://www.thecodingspace.com/) is the leading provider of coding education in NYC and has been recognized in Time Out, Nickelodeon, Good Morning America, and more.
 tags:
   - Holidays
 ---
-Anyone who has ever watched a toddler methodically take apart a Tupperware drawer should know that many children are natural-born engineers. As parents, teachers, and caretakers, we get to nurture their creativity — and clean up the mess afterward. Wrap up a few of these STEM toys for your future scientist to craft, tinker with, dismantle, or program. Hopefully, they'll thank you for the early encouragement when they're older.
+Explore our handpicked selection of STEM gifts to inspire your child's imagination this holiday season! From building robots to solving puzzles, these toys are perfect for young explorers eager to dive into science, technology, engineering, and math. More than playthings, they're tools for learning and innovation.
