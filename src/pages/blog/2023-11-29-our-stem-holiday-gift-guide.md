@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Our STEM Holiday 2023 Gift Guide
+title: Our 2023 STEM Holiday Gift Guide
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-11-29T00:48:08.394Z
