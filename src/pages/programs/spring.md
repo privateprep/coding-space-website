@@ -26,8 +26,8 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#faf6ee"
-    heading: Let Coding Grow On You
-    mdContent: This spring, we’re excited to welcome you back to The Coding Space.
+    heading: Code the Future
+    mdContent: This spring, we’re excited to welcome you to The Coding Space.
       Whether you’re joining us at one of our in-person locations or meeting up
       with classmates for virtual lessons, we’re looking forward to laughing,
       learning, and—of course—coding with you! Here’s what we’re offering this
