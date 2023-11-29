@@ -18,7 +18,7 @@ pageBuilder:
       - title: View Spring Schedule
         content: https://www.thecodingspace.com/locations/
 tags:
-  - Fall
+  - Spring
   - Announcements
 ---
 Dear Families,
