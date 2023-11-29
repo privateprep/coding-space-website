@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Our STEM Holiday Gift Guide
+title: Our 2022 STEM Holiday Gift Guide
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2023-11-28T15:40:10.601Z
@@ -10,33 +10,6 @@ featuredImage:
   image: /img/stem-holiday-gift-guide-2023.png
   alt: STEM Holiday Tile
 pageBuilder:
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## Turing Tumble
-
-
-      *Ages: 8+*
-
-
-      [Turing Tumble](https://store.upperstory.com/products/turing-tumble) is a new type of game where players build mechanical computers powered by marbles to solve logic puzzles. Use ramps, crossovers, bits, interceptors, gears, and gear bits to build marble-powered computers that can generate patterns, do logic, count, add, subtract, multiply, divide, and much, much more.
-
-
-      See how simple switches, connected together in clever ways, can do incredibly smart things. Discover how computers work!
-  - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## G﻿oCube
-
-
-      *Ages: 8+*
-
-
-      [GoCube](https://www.amazon.com/GoCube-Connected-Smart-Rubiks-Puzzle/dp/B07W7TGWDR?asc_source=verso&asc_campaign=5bea0c51798a4365ec16fdca%7CjHML6y7adswSFJzs3MDToq&asc_refurl=https%3A%2F%2Fwww.wired.com%2Fgallery%2Fbest-stem-toys-for-kids%2F&ascsubtag=5bea0c51798a4365ec16fdca&tag=w050b-20) is a smart Bluetooth-enabled Rubik's cube that brings a new and engaging twist to the classic puzzle. Quickly charge, connect, and let the app take you through exciting lessons, games, online competitions, and mental exercises with friends and cubers from all over the world. Master the cube and track your progress in real time!
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -61,18 +34,6 @@ pageBuilder:
 
 
       [Snap Circuits](https://www.elenco.com/snap-circuits-2/) teach basic engineering, electronics and circuitry concepts by using building components with snaps to assemble electronic circuits on a simple “rows-and-columns” base grid. Future engineers can build a huge variety of projects like radios, digital voice recorders, burglar alarms, doorbells and other awesome circuitry.
-  - type: textOnly
-    textAlign: left
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## Cody Block
-
-
-      *Ages: 3-12*
-
-
-      [Cody Block](https://qubs.toys/products/cody-block) provides a hands-on, fun-filled journey into the realms of computational thinking and basic coding principles. Blending traditional wooden toys and modern technology, Cody is more than just a toy—it's a launchpad for the curious young minds.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
