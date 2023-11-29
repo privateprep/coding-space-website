@@ -29,7 +29,9 @@ Understanding and mastering AI, along with other complex technological subjects,
 
 This spring, The Coding Space is excited to enhance our curriculum with a new Python module for advanced learners. After mastering Scratch and WoofJS in our beginner and intermediate courses, students can progress to Python in the Advanced class. This addition is particularly significant given Python's extensive application in AI and data science – fields that are shaping our future. The curriculum will include algorithms, data handling, and leveraging AI tools for code analysis and research.  Consistent with our ethos of encouraging independent problem-solving, we see these AI tools as a streamlined approach to online research. (Details on our AI tools policy are available [here](https://thecodingspace.com/custom/teaching-with-ai).)
 
-We invite you to join us this spring for an enriching journey into the world of computing. Let's prepare our children not just to be navigators but leaders in the digital age. Get ready to code the future at The Coding Space!
+We invite you to join us this spring for an enriching journey into the world of computing. Let's prepare our children not just to be navigators but leaders in the digital age. 
+
+Get ready to code the future at The Coding Space!
 
 Warmly,
 
