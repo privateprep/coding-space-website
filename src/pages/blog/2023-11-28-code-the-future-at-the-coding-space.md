@@ -11,7 +11,7 @@ featuredImage:
   alt: TCS logo of rocket
 pageBuilder:
   - type: buttons
-    bgColor: "#faf6ee"
+    bgColor: ""
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
