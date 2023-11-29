@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Spring 2023 Coding Classes
+title: Spring 2024 Coding Classes
 titleColor: "#264548"
 seo:
   title: Spring Coding Classes
@@ -16,7 +16,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: "## January  30 - June 10"
+    mdContent: "## January  29 - June 15"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#9de2dd"
