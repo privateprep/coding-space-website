@@ -178,7 +178,7 @@ pageBuilder:
           In the Python segment, students will transition to this versatile language, known for  its extensive application in AI and data science  – fields that are shaping our future.
 
 
-          They'll start by building simple yet engaging games like Rock, Scissors, Paper and Guess the Number, which are perfect for understanding Python's basics. But it doesn't end there. The course dives into graphical game development using Pygame, allowing students to create more visually engaging and complex games. They'll also tackle real-world problems using algorithms, manage data and files efficiently, and explore the realms of object-oriented programming. A highlight is using algorithms to build a smart Sudoku game, demonstrating how Python can be used for intelligent problem-solving. 
+          They'll start by building simple yet engaging games like Rock, Scissors, Paper and Guess the Number, which are perfect for understanding Python's basics. But it doesn't end there. The course dives into graphical game development using Pygame, allowing students to create more visually engaging and complex games. They'll also tackle real-world problems using algorithms, manage data and files efficiently, and explore the realms of object-oriented programming. 
 
 
           **Your Journey to Advanced Skills**
