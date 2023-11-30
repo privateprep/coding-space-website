@@ -20,20 +20,24 @@ details:
   byline: For coders with experience in text-based languages
   experience: Ages 10-13
   skills:
+    - Python
     - JavaScript
     - HTML
     - CSS
   sellingPoints:
-    - Building Websites
-    - Making Apps
-    - Self-Directed Learning
-  mdContent: In our Advanced course, students will learn JavaScript, the language
-    of the web, through creating advanced projects in WoofJS, our JavaScript
-    learning platform, and web-based games, animations, and applications in
-    JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less
-    and less on our curricular guide rails and move towards self-directed
-    learning where they’ll work with front-end and back-end technologies,
-    experimenting with new languages and platforms including Python to bring
-    their ideas to fruition. Students should come in with experience in
-    JavaScript or other text-based languages.
+    - Learn Python
+    - Advance in JavaScript
+    - Solve Algorithms
+    - Work with Data
+  mdContent: In our Advanced course, students embark on an exciting journey
+    through the worlds of JavaScript and Python, two cornerstone languages in
+    modern programming. They'll unleash their creativity in JavaScript by
+    building interactive web applications, such as calculators and quizzes, and
+    delve into game development with HTML Canvas. This exploration paves the way
+    for understanding how dynamic web content works. In our Python module,
+    they'll develop their skills by creating engaging games and tackling
+    projects that lay the groundwork for future pursuits in AI and data science.
+    Through these experiences, students will master vital programming concepts,
+    including algorithms, data handling, and object-oriented programming,
+    equipping them with the tools to bring innovative ideas to life.
 ---
