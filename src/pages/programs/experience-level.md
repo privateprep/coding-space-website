@@ -139,23 +139,52 @@ pageBuilder:
         fgColor: "#f6c924"
         textColor: "#264548"
         heading: "Students will:"
-        mdContent: |-
-          * learn JavaScript, HTML, CSS
-          * build web-based games, animations, and applications
-          * explore other languages like Python & Java
+        mdContent: >-
+          * **Learn Python:** Embark on an exciting journey into coding, from
+          basics to advanced concepts.
+
+          * **Advance in JavaScript:** Transform their understanding of web interactivity and design.
+
+          * **Solve Algorithms:** Develop critical thinking and problem-solving skills in a fun, engaging way.
+
+          * **Work with Data:** Unlock the potential of data manipulation and analysis, setting a foundation for future tech careers.
     rightComponent:
       - type: textOnly
         textAlign: left
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          ## **Advanced Code**
+          ## **Advanced Code: Dive Deep into the World of Advanced Programming**
 
 
-          #### Ages 8-13, co-ed
+          #### Ages 10-13, co-ed
 
 
-          In our Advanced course, students will learn JavaScript, the language of the web, through creating advanced projects in WoofJS, our JavaScript learning platform, and web-based games, animations, and applications in JavaScript, HTML, and CSS. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages like Python or Java to bring their ideas to fruition. Students should come in with experience in JavaScript or other text-based languages.
+          In our Advanced course, students embark on an exciting journey through the worlds of JavaScript and Python, two cornerstone languages in modern programming. 
+
+
+          ### **JavaScript Module: Crafting Interactive Web Experiences**
+
+
+          In our Advanced course, students will delve into the intricacies of JavaScript, one of today's most influential programming languages. They'll start by creating mini web applications, such as calculators and quizzes, gaining practical experience in applying their coding skills. This module takes creativity further by exploring the HTML Canvas, where students can unleash their imagination in game development.
+
+
+          As they advance, the course introduces complex aspects of web development. Students will integrate APIs and databases, skills crucial for modern web applications. This hands-on experience is not just about coding; it's about connecting the dots in the vast web ecosystem.
+
+
+          ### Python Module: Building Your Child's CS Muscles
+
+
+          In the Python segment, students will transition to this versatile language, known for  its extensive application in AI and data science  – fields that are shaping our future.
+
+
+          They'll start by building simple yet engaging games like Rock, Scissors, Paper and Guess the Number, which are perfect for understanding Python's basics. But it doesn't end there. The course dives into graphical game development using Pygame, allowing students to create more visually engaging and complex games. They'll also tackle real-world problems using algorithms, manage data and files efficiently, and explore the realms of object-oriented programming. A highlight is using algorithms to build a smart Sudoku game, demonstrating how Python can be used for intelligent problem-solving. 
+
+
+          **Your Journey to Advanced Skills**
+
+
+          Students will emerge from this course with a profound understanding of how to harness the power of code to bring ideas to life. We require that students come with a background in JavaScript, Python, or a similar text-based language. This ensures they are ready for the transformative journey that our Advanced Programming course offers, setting them on a path to become skilled, creative, and versatile programmers and thinkers.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
