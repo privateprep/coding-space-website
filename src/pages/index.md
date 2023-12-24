@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-01-05T19:02:25.431Z
-  mdContent: Don't miss our W﻿inter Break Camp from January 2nd-5th on the Upper
-    East Side! [Register
+  mdContent: Don't miss our W﻿inter Break Camp, January 2nd-5th on the Upper East
+    Side! [Register
     now](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/?class_location_ids[]=1).
 hero:
   heading: The Coding Space
