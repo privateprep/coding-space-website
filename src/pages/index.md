@@ -20,7 +20,7 @@ hero:
     list:
       - title: Spring Coding Classes
         content: /locations
-      - title: Winter Break Camp
+      - title: School Break Camps
         content: /experience-levels/school-holiday-mini-camps/
 mainpitch:
   title: Where Kids Learn to Code
