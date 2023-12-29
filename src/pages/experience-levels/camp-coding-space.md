@@ -22,6 +22,7 @@ details:
   skills:
     - Scratch
     - JavaScript
+    - Python
   sellingPoints:
     - Camp Games & Activities
     - STEM Exploration
