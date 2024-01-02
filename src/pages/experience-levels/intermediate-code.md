@@ -25,7 +25,7 @@ details:
     - CSS
     - Game Design
   sellingPoints:
-    - Text-Based Coding
+    - Introduction to Text-Based Coding
     - Making Games
   mdContent: In our Intermediate course, students will create advanced projects in
     Scratch, a block-based coding language, and move onto text-based programming
