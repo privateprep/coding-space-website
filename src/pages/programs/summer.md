@@ -31,7 +31,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img_2952.jpg
+      image: /img/img-8029.jpg
       alt: Summer Camp
     mediaPosition: left
     mdContent: >-
@@ -57,7 +57,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/shutterstock_1066424816.jpg
+      image: /img/img_0892.jpg
       alt: Two teenagers coding
     mediaPosition: left
     mdContent: >-
@@ -68,6 +68,7 @@ pageBuilder:
 
 
       Join our two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
+    fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
