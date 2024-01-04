@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Summer 2023
+title: Summer 2024
 titleColor: "#264548"
 seo:
   title: Summer Coding Camps & Classes for Kids & Teens
@@ -73,9 +73,7 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
-      list:
-        - title: Sign Up
-          content: /locations
+      list: []
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -86,7 +84,9 @@ pageBuilder:
       ## Summer Coding Classes
 
 
-      #### A﻿ges 6-13
+      #### A﻿ges 6-13\
+
+      R﻿egistration opening soon
 
 
       #### Evenings & Weekends All Summer Long
