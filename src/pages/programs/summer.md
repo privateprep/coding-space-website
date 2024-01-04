@@ -85,7 +85,7 @@ pageBuilder:
       ## Summer Coding Classes
 
 
-      #### A﻿ges 6-13\
+      #### A﻿ges 6-13
 
       R﻿egistration opening soon
 
