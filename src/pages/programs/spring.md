@@ -26,34 +26,40 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#faf6ee"
-    heading: Code the Future
-    mdContent: This spring, we’re excited to welcome you to The Coding Space.
-      Whether you’re joining us at one of our in-person locations or meeting up
-      with classmates for virtual lessons, we’re looking forward to laughing,
-      learning, and—of course—coding with you! Here’s what we’re offering this
-      spring.
+    heading: Code the Future This Spring
+    mdContent: We’re excited to welcome you to The Coding Space. Whether you’re
+      joining us at one of our in-person locations or meeting up with classmates
+      for virtual lessons, we’re looking forward to learning, growing, and—of
+      course—coding with you! Here’s what we’re offering this spring.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
       fgColor: "#f6c924"
       textColor: "#ffffff"
       list:
-        - title: Learn More
-          content: /locations
+        - title: Upper East Side
+          content: /locations/upper-east-side
+        - title: Park Slope
+          content: /locations/park-slope
+        - title: Port Washington
+          content: /locations/long-island
+        - title: Online
+          content: /locations/online
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/img_0028-2-.jpg
+      image: /img/img-7943.jpg
       alt: Students learning to code
     mediaPosition: right
     mdContent: >-
       ## Group Coding Classes
 
 
-      **Build Friendships and Coding Skills in a Supportive Setting**
+      **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive Learning Environment**\
 
+      \
 
-      Our weekly after-school coding classes are offered in person or online for ages 6-17. Students will tackle unique coding challenges and progress over the course of a semester, building problem solving and critical thinking skills along the way.
+      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
