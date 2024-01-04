@@ -35,7 +35,7 @@ pageBuilder:
       alt: AI Workshop
     mediaPosition: right
     mdContent: >-
-      ## Future Chat: AI Chatbot Workshop for Young Innovators
+      ## Scratch GPT: AI Chatbot Workshop for Young Innovators
 
 
       Come dive into the realm of artificial intelligence by building your very own chatbot! We'll show your child how using Scratch and the magic of Natural Language Processing (NLP). Who knows, their chatbot might just become the talk of the digital town! 🚀🤖💬
@@ -44,10 +44,10 @@ pageBuilder:
       **L﻿ocation:** 201 E. 83rd Street
 
 
-      **D﻿ate:** Monday, December 11th
+      **D﻿ate:** Saturday, February 10th
 
 
-      **Time:** 4:30pm-6pm
+      **Time:** 2:30pm-4:30pm
 
 
       **A﻿ges**: 7+
