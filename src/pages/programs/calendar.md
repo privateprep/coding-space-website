@@ -27,7 +27,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Register
-          content: https://www.thecodingspace.com/sign_up/classes/2579
+          content: /sign_up/classes/2850
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
