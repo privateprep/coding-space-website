@@ -31,7 +31,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/copy-of-tile-carousel-1-2-.png
+      image: /img/future-chat-ai-workshop.png
       alt: AI Workshop
     mediaPosition: right
     mdContent: >-
