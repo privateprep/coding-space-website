@@ -49,7 +49,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/img-7943.jpg
+      image: /img/img_6870.jpg
       alt: Students learning to code
     mediaPosition: right
     mdContent: >-
