@@ -59,7 +59,7 @@ pageBuilder:
 
       \
 
-      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes in Manhattan, Brooklyn, Long Island, and Online offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
