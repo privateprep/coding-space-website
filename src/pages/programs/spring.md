@@ -27,10 +27,11 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     heading: Code the Future This Spring
-    mdContent: We’re excited to welcome you to The Coding Space. Whether you’re
-      joining us at one of our in-person locations or meeting up with classmates
-      for virtual lessons, we’re looking forward to learning, growing, and—of
-      course—coding with you! Here’s what we’re offering this spring.
+    mdContent: We’re excited to welcome you to The Coding Space where anything is
+      possible. Whether you’re joining us at one of our in-person locations or
+      meeting up with classmates for virtual lessons, we’re looking forward to
+      learning, growing, and—of course—coding with you! Here’s what we’re
+      offering this spring
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
