@@ -21,10 +21,10 @@ details:
   byline: Monday - Friday, Two-Week Intensive
   experience: Ages 13-17
   skills:
+    - Python
+    - JavaScript
     - HTML
     - CSS
-    - JavaScript
-    - Python
   sellingPoints:
     - Text-Based Coding
     - Immersive Experience
