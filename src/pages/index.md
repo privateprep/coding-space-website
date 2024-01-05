@@ -13,8 +13,8 @@ banner:
     [Sign up here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
-  subheading: ​​An after-school and summer coding program where kids and teens
-    learn to code while developing critical thinking skills.
+  subheading: ​​An after-school and summer STEM program where kids and teens learn
+    to code while developing critical thinking skills.
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
@@ -24,7 +24,7 @@ hero:
       - title: Summer Programs
         content: /summer
 mainpitch:
-  title: Where Kids Learn to Code
+  title: Where Kids Learn to Think Critically
   description: >-
     We offer in-person and online coding classes and camps for kids and teens in
     a caring, inclusive space for students to have fun, be challenged, and grow
@@ -53,7 +53,7 @@ differentiators:
       ## Student-Centered Learning
 
 
-      Our project-based, self-paced coding curriculum in Scratch, JavaScript, and more lets kids code games, animations, and apps as unique as they are.
+      Our project-based, self-paced coding curriculum in Scratch, JavaScript, Python, and more lets kids code games, animations, and apps as unique as they are.
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
