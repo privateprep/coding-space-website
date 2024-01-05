@@ -78,7 +78,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img-6960-1-.jpg
+      image: /img/img-7938.png
       alt: Summer Classes
     mediaPosition: right
     mdContent: >-
