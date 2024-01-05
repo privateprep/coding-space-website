@@ -92,11 +92,9 @@ pageBuilder:
       - fgColor: "#264548"
         title: What's after WoofJS?
         textColor: "#264548"
-        mdContent: In our Advanced Classes, students can explore their creativity
-          through coding. As they transition out of WoofJS, they’ll build
-          web-based projects using HTML/CSS and JavaScript. From there, they can
-          dive deeper into the JavaScript language or experiment with other
-          languages and frameworks.
+        mdContent: In our Advanced Classes, students transition out of WoofJS and start
+          building web-based projects using HTML/CSS and JavaScript and/or begin
+          learning Python.
       - fgColor: "#264548"
         title: What projects will my child make?
         textColor: "#264548"
@@ -123,33 +121,20 @@ pageBuilder:
           what “real” programming is. Fortunately, there is a simple criteria to
           determine if something is a “real” programming language. A programming
           language is “Turing Complete” if it can simulate any other programming
-          language. At The Coding Space, we teach two Turing Complete
-          programming languages: Scratch and JavaScript, and two non-Turing
-          Complete languages: HTML and CSS. In other words, Scratch is “real”
-          programming—it has variables, loops, boolean logic, objects,
+          language. At The Coding Space, we teach three Turing Complete
+          programming languages: Scratch, JavaScript, and Python, and two
+          non-Turing Complete languages: HTML and CSS. In other words, Scratch
+          is “real” programming—it has variables, loops, boolean logic, objects,
           message-passing, conditional branching, etc.—making it a foundational
           tool for our coders."
-      - fgColor: "#264548"
-        title: Do you teach Python?
-        textColor: "#264548"
-        mdContent: >-
-          While some of our teachers have knowledge of Python and may be able to
-          help students with it as an independent study, Python does not have an
-          official place in The Coding Space curriculum.
-
-
-          In its place, we teach JavaScript which is very similar to Python. However, it has one huge plus: it is the language of the web. As such, JavaScript is by far the most popular programming language [\[StackOverflow, 2019]](https://insights.stackoverflow.com/survey/2019). 
-
-
-          JavaScript is wonderfully versatile. You can code in JavaScript on any device that can access the web, including phones, tablets, and Chromebooks. You can share your code via a simple link without requiring viewers to install software. JavaScript is designed for visual creations, such as websites, animations, and games. There are no core computer science concepts that students learn in Python that they don’t learn in JavaScript. And, with the largest and most active developer community, it continues to advance very quickly.
       - fgColor: "#264548"
         title: What will my child be able to do after this course?
         textColor: "#264548"
         mdContent: All of our classes are self-paced, so there are no predetermined
           final projects or skills at the end of our courses. Generally
-          speaking, your student will be able to build complex Scratch and
-          JavaScript applications, from Flappy Bird to Instagram and anything in
-          between. Because our courses are project-based but not
+          speaking, your student will be able to build complex Scratch,
+          JavaScript, and Python applications, from Flappy Bird to Instagram and
+          anything in between. Because our courses are project-based but not
           tutorial-driven, after your child completes a Coding Space project,
           they will have the ability to create their own projects at home.
     fgColor: "#9de2dd"
