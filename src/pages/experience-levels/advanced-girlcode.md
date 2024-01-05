@@ -22,6 +22,7 @@ details:
     - HTML
     - CSS
     - JavaScript
+    - Python
   sellingPoints:
     - Inclusive Environment
     - Building Websites
