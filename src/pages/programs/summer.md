@@ -33,7 +33,7 @@ pageBuilder:
     image:
       image: /img/img-8029.jpg
       alt: Summer Camp
-    mediaPosition: left
+    mediaPosition: right
     mdContent: >-
       ## Camp Coding Space
 
@@ -67,7 +67,7 @@ pageBuilder:
       #### A﻿ges 13-17
 
 
-      Join our two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
+      Join our two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
