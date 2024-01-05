@@ -8,8 +8,9 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-01-05T19:02:25.431Z
-  mdContent: ""
+  removalDate: 2024-03-01T00:41:25.439Z
+  mdContent: D﻿on't miss our Martin Luther King Jr. and Presidents' Day Camps!
+    [Sign up here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
@@ -20,8 +21,8 @@ hero:
     list:
       - title: Spring Coding Classes
         content: /locations
-      - title: School Break Camps
-        content: /experience-levels/school-holiday-mini-camps/
+      - title: Summer Programs
+        content: /summer
 mainpitch:
   title: Where Kids Learn to Code
   description: >-
