@@ -4,11 +4,11 @@ title: Common Questions
 titleColor: "#ffffff"
 seo:
   title: Common Questions
-  description: >
+  description: |
     We answer some of the most common questions from parents like you.
 heroImage:
   image: /img/tcs-header.png
-  alt: "Light blue hero image with animated computer and code"
+  alt: Light blue hero image with animated computer and code
 pageBuilder:
   - type: textOnly
     textAlign: center
@@ -23,8 +23,7 @@ pageBuilder:
       - fgColor: "#264548"
         title: Where do you offer classes?
         textColor: "#264548"
-        mdContent: You can view our class locations
-          [here.](/locations)
+        mdContent: You can view our class locations [here.](/locations)
       - fgColor: "#264548"
         title: How old does my child have to be?
         textColor: "#264548"
@@ -83,9 +82,9 @@ pageBuilder:
         title: What will my child learn?
         textColor: "#264548"
         mdContent: >-
-          On the face of it, your child will learn how to make
-          increasingly-complex Scratch and JavaScript applications, but behind
-          the scenes they will be growing so much more than that.
+          On the face of it, your child will learn how to make increasingly
+          complex Scratch, JavaScript, and Python programs, but behind the
+          scenes they will be growing so much more than that.
 
 
           At Coding Space, our goal is to teach critical thinking, problem solving, and to instill a life-long love of learning, building, creating, and growing. We help students develop grit and intellectual confidence, two character strengths that will aid students greatly in other STEM (science, technology, engineering, and math) subjects. Our students learn the thought patterns and mindsets of programmers, including modeling, debugging, sequential thinking, top-down design, the design processes, test-driven development, and more. Learn more about our curriculum [here.](/about-us/curriculum-faqs)
@@ -105,7 +104,7 @@ pageBuilder:
         textColor: "#264548"
         mdContent: We teach coding using the Socratic Method, allowing our students to
           discover the solution independently. To read more about what makes our
-          Approach different, go here.
+          Approach different, go [here](/about-us/our-teaching-philosophy).
     fgColor: "#9de2dd"
     textColor: "#264548"
   - type: textOnly
