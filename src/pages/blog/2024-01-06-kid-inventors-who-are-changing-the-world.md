@@ -79,6 +79,23 @@ pageBuilder:
     textColor: "#264548"
     mdContent: "![Anna Du](/img/anna-du.jpeg)"
   - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "![Louis Braille](/img/braille.jpg)"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## Louis Braille
+
+
+      In 1824, Louis Braille, at the mere age of 15, profoundly changed the lives of visually impaired individuals by inventing the Braille system. Blinded in an accident as a child, Braille's own experiences fueled his determination to create a tactile reading and writing method. Inspired by the military's "night writing" system, Braille adapted and simplified it, creating a six-dot matrix that represented letters and numbers. Each character's unique arrangement of raised dots could be easily recognized by touch. 
+
+
+      This invention granted access to literature and education for people with visual impairments as well as enhanced communication and independence. Braille's lasting impact, stemming from his innovation and empathy at a young age, continues to be celebrated worldwide as a pivotal advancement in accessibility.
+  - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
@@ -90,6 +107,6 @@ pageBuilder:
 
 
 tags:
-  - BlackHistoryMonth
+  - KidInventorsDay
 ---
 To celebrate Kid Inventors Day on January 17th, we put together a list of incredible kid inventors who are making a true difference in people's lives.
