@@ -28,7 +28,7 @@ pageBuilder:
       ## Gitanjali Rao ##
 
 
-      Motivated by the water crisis in Flint, Michigan in 2017, Colorado resident Gitanjali Rao created a compact device to test for lead contamination in water. Her device, called Tethys, used a a disposable cardboard cartridge to mix water samples with a chemical solution, sensors to read the information, and Bluetooth to display the result on a mobile app. For her groundbreaking invention, Gitanjali was named America's Top Young Scientist among other honors.
+      Motivated by the water crisis in Flint, Michigan in 2017, 12-year-old Colorado resident Gitanjali Rao created a compact device to test for lead contamination in water. Her device, called Tethys, used a a disposable cardboard cartridge to mix water samples with a chemical solution, sensors to read the information, and Bluetooth to display the result on a mobile app. For her groundbreaking invention, Gitanjali was named America's Top Young Scientist among other honors.
 
 
       A﻿nd Gitanjali hasn't stopped there. In 2019 she invented a tool to diagnose prescription opioid addiction at an early stage, and in 2020, she was crowned Times Kid of the Year. Her project at the time? An app called Kindly that is able to detect cyberbullying based on artificial intelligence technology. She's also an author and dedicated researcher, with plans to delve further into biological engineering and entrepreneurship as a student at MIT.
