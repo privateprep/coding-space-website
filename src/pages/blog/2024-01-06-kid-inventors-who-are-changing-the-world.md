@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2024-01-17T21:45:12.376Z
 description: >+
-  Even at a young age, kids have amazingly creative ideas. Some can even solve
+  Even at a young age, kids have amazingly creative ideas. Sometimes they solve
   real-world problems. From designing devices to clean the oceans to creating
   apps to help Alzheimer's patients, these talented child inventors are an
   inspiration to us all. 
