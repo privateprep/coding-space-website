@@ -36,7 +36,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: "![Gitanjali Rao](/img/gitanjali_rao_by_sharif_hamza.jpg)"
+    mdContent: "![Kenneth Shinozuka](/img/edu-yi-kenneth-shinozuka-square.jpg)"
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -54,10 +54,10 @@ pageBuilder:
 
       Having completed his studies at Harvard, Kenneth is now pursuing his Ph.D. at Oxford, where he's engaged in neuroscience research within the Department of Psychiatry, focusing on Alzheimer’s Disease pathology. He is also the Founder and CEO of SensaRx, a startup based in New York City that has a line of wearable sensor products designed for detecting bed-wandering and preventing falls.
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Kenneth Shinozuka](/img/edu-yi-kenneth-shinozuka-square.jpg)"
+    mdContent: "![Anna Du](/img/anna-du.jpeg)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -74,18 +74,13 @@ pageBuilder:
 
       Anna authored a book titled "Microplastics and Me" in 2020. The book provides a detailed account of her journey from becoming concerned about environmental issues to developing award-winning solutions. Writing primarily for her peers, Anna aims to raise awareness about microplastic pollution and motivate others, especially the younger generation, to care for the environment.
   - type: textOnly
-    textAlign: left
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: "![Anna Du](/img/anna-du.jpeg)"
-  - type: textOnly
     textAlign: center
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: "![Ryan Honary](/img/ryan-honary.png)"
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
       ## Ryan Honary
@@ -97,7 +92,7 @@ pageBuilder:
       Now, in collaboration with the Irvine Ranch Conservancy, Ryan is getting the chance to test his sensor network on a larger scale, potentially revolutionizing wildfire prevention. The system, a self-contained wireless network, communicates vital data to predict and alert of fire outbreaks. As Ryan's innovative technology moves from theory to real-world application, it's clear that his efforts could significantly impact environmental conservation and safety, reflecting a bright future for technological solutions to natural world challenges.
   - type: textOnly
     textAlign: left
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >+
       These young individuals are brilliant examples of how age doesn't define
