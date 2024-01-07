@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Kid Inventors Who Are Changing the World
+title: Kid Inventors Shaping Yesterday and Today
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2024-01-17T21:45:12.376Z
@@ -109,4 +109,10 @@ pageBuilder:
 tags:
   - KidInventorsDay
 ---
-To celebrate Kid Inventors Day on January 17th, we put together a list of incredible kid inventors who are making a true difference in people's lives.
+To honor Kid Inventors Day on January 17th, we've compiled a list of remarkable young inventors who have demonstrated the the impact of having a great idea and the determination to see it through.
+
+
+
+
+
+
