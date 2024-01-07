@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Kid Inventors Shaping Yesterday and Today
+title: "Shaping the Future: 4 Kid Inventors Who Are an Inspiration to Us All"
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2024-01-17T21:45:12.376Z
@@ -82,19 +82,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Louis Braille](/img/braille.jpg)"
+    mdContent: "![Ryan Honary](/img/ryan-honary.png)"
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## Louis Braille
+      ## Ryan Honary
 
 
-      In 1824, Louis Braille, at the mere age of 15, profoundly changed the lives of visually impaired individuals by inventing the Braille system. Blinded in an accident as a child, Braille's own experiences fueled his determination to create a tactile reading and writing method. Inspired by the military's "night writing" system, Braille adapted and simplified it, creating a six-dot matrix that represented letters and numbers. Each character's unique arrangement of raised dots could be easily recognized by touch. 
+      Since witnessing the destruction of the 2018 Camp Fire in Paradise, California when he was in fifth grade, Ryan Honary has been on a mission to create a technological solution for early wildfire detection. His impressive artificial intelligence-driven system, named "SensoRY AI," has been developed through years of dedication and has earned numerous awards and grants. 
 
 
-      This invention granted access to literature and education for people with visual impairments as well as enhanced communication and independence. Braille's lasting impact, stemming from his innovation and empathy at a young age, continues to be celebrated worldwide as a pivotal advancement in accessibility.
+      Now, in collaboration with the Irvine Ranch Conservancy, Ryan is getting the chance to test his sensor network on a larger scale, potentially revolutionizing wildfire prevention. The system, a self-contained wireless network, communicates vital data to predict and alert of fire outbreaks. As Ryan's innovative technology moves from theory to real-world application, it's clear that his efforts could significantly impact environmental conservation and safety, reflecting a bright future for technological solutions to natural world challenges.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
