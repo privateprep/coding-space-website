@@ -5,12 +5,11 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2024-01-06T20:02:34.442Z
 description: >
-  The world is increasingly driven by technology, and at the heart of this
-  technological revolution is coding. Aspiring programmers often wonder about
-  the relationship between coding and math. Is coding math? Does one need to be
-  good at math to be a good coder? This blog post explores the intricate
-  relationship between programming and mathematics, shedding light on how the
-  two disciplines intersect and influence each other.
+  Aspiring programmers often wonder about the relationship between coding and
+  math. Is coding math? Does one need to be good at math to be a good coder?
+  Read below to explore the intricate relationship between programming and
+  mathematics, shedding light on how the two disciplines intersect and influence
+  each other.
 featuredPost: false
 featuredImage:
   image: /img/is-coding-math-1-.png
