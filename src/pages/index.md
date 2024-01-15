@@ -91,20 +91,19 @@ differentiators:
       We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
-    name: Hugo
-    age: 12
-    interests: "Interests: Basketball"
+    name: Liv
+    age: 11
+    interests: " "
     image:
       image: /img/smily_face.svg
-      alt: Placeholder image for Hugo
+      alt: Placeholder image for Liv
     className: Advanced Code
     classUrl: /experience-levels/advanced-code/
   project:
-    description: "Find that regular old Wordle isn't presenting much of a challenge
-      these days? Try this beast mode Wordle, coded by superstar Hugo in
-      JavaScript, that uses extra-hard words to stump even Wordle whizzes! "
-    title: Beast Mode Wordle
-    content: https://hugo-nelsons-wordle.xdpoppon.repl.co/
+    description: A 2023 Code 4 Change award winner, this project uses HTML, CSS, and
+      JavaScript to address the UN Sustainable Development Goal of Zero Hunger.
+    title: World Hunger Project
+    content: https://codepen.io/something_cool/full/OJBJaNe
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
