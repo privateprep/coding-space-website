@@ -18,12 +18,13 @@ details:
   gender:
     - Co-ed.
   byline: Learn to code on a day off from school
-  experience: Ages 7-13
+  experience: Ages 8-13
   skills:
     - Scratch
     - JavaScript
     - HTML
     - CSS
+    - Python
   sellingPoints:
     - Camp Games & Activities
     - STEM Exploration
