@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-03-01T00:41:25.439Z
-  mdContent: D﻿on't miss our Martin Luther King Jr. and Presidents' Day Camps!
-    [Sign up here](/experience-levels/school-holiday-mini-camps/).
+  mdContent: D﻿on't miss our Presidents' Day and Spring Break Camps! [Sign up
+    here](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer STEM program where kids and teens learn
