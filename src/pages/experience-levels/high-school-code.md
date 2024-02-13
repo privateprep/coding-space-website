@@ -30,11 +30,11 @@ details:
     Students will work in several languages depending on their experience.
     Beginners will learn JavaScript, the language of the web, through creating
     projects in WoofJS, our JavaScript learning platform. Intermediate coders
-    will learn to build web-based games and applications in JavaScript, HTML,
-    and CSS. More advanced coders will take a deeper dive into advanced
-    JavaScript or work in Python, Java, or another text-based language of their
-    choosing.
+    will take a deeper dive into  JavaScript or work in Python.
 
 
-    J﻿oin the waitlist by registering below.
+    J﻿oin the waitlist by registering below. We will open the class with 3 or more students. Classes run weekly until 6/8 with the following days off: 3/23, 3/30, 5/25. 
+
+
+    P﻿rice: $90 per 1.5 hour session
 ---
