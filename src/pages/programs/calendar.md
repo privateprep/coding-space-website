@@ -20,35 +20,4 @@ pageBuilder:
 
 
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Register
-          content: /sign_up/classes/2850
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/future-chat-ai-workshop.png
-      alt: AI Workshop
-    mediaPosition: right
-    mdContent: >-
-      ## Scratch GPT: AI Chatbot Workshop for Young Innovators
-
-
-      Come dive into the realm of artificial intelligence by building your very own chatbot! We'll show your child how using Scratch and the magic of Natural Language Processing (NLP). Who knows, their chatbot might just become the talk of the digital town! 🚀🤖💬
-
-
-      **L﻿ocation:** 201 E. 83rd Street
-
-
-      **D﻿ate:** Saturday, February 10th
-
-
-      **Time:** 2:30pm-4:30pm
-
-
-      **A﻿ges**: 7+
 ---
