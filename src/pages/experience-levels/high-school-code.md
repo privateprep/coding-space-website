@@ -16,7 +16,7 @@ details:
   age: "  "
   gender:
     - Co-ed.
-  byline: For Mature Coders
+  byline: For High Schoolers
   experience: Ages 13-17
   skills:
     - JavaScript
@@ -26,11 +26,15 @@ details:
   sellingPoints:
     - Open-Ended Projects
     - Pair Programming
-  mdContent: Students will work in several languages depending on their
-    experience. Beginners will learn JavaScript, the language of the web,
-    through creating projects in WoofJS, our JavaScript learning platform.
-    Intermediate coders will learn to build web-based games and applications in
-    JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into
-    advanced JavaScript or work in Python, Java, or another text-based language
-    of their choosing.
+  mdContent: >-
+    Students will work in several languages depending on their experience.
+    Beginners will learn JavaScript, the language of the web, through creating
+    projects in WoofJS, our JavaScript learning platform. Intermediate coders
+    will learn to build web-based games and applications in JavaScript, HTML,
+    and CSS. More advanced coders will take a deeper dive into advanced
+    JavaScript or work in Python, Java, or another text-based language of their
+    choosing.
+
+
+    J﻿oin the waitlist by registering below.
 ---
