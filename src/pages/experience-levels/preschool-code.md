@@ -19,7 +19,7 @@ details:
   gender:
     - Co-ed.
   byline: For play-based learning
-  experience: 3-5
+  experience: Ages 3-5
   skills:
     - Critical Thinking
     - Problem-Solving
