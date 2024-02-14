@@ -20,7 +20,7 @@ hero:
     textColor: "#264548"
     list:
       - title: Spring Coding Classes
-        content: /locations
+        content: /classes
       - title: Summer Programs
         content: /summer
 mainpitch:
