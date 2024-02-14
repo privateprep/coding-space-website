@@ -10,8 +10,9 @@ seo:
     that preschoolers not only gain early coding skills but also develop
     critical problem-solving abilities, setting the stage for a seamless
     transition to more advanced coding platforms as they grow.
-categoryIds: []
-courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=47
+categoryIds:
+  - 156
+courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=156
 display: true
 thumbnail: /img/preschool.png
 details:
