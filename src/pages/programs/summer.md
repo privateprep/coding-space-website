@@ -74,7 +74,9 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
-      list: []
+      list:
+        - title: View Class Schedule
+          content: /classes
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -86,8 +88,6 @@ pageBuilder:
 
 
       #### A﻿ges 6-13
-
-      R﻿egistration opening soon
 
 
       #### Evenings & Weekends All Summer Long
