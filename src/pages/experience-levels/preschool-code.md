@@ -27,10 +27,14 @@ details:
   sellingPoints:
     - Introduction to Coding
     - STEM
-  mdContent: Combining hands-on activities with byte-sized digital exercises,
-    preschool coders will learn foundational coding concepts such as sequencing,
-    pattern recognition, and logical thinking. This innovative approach ensures
-    that preschoolers not only gain early coding skills but also develop
-    critical problem-solving abilities, setting the stage for a seamless
-    transition to more advanced coding platforms as they grow.
+  mdContent: >-
+    Combining hands-on activities with byte-sized digital exercises, preschool
+    coders will learn foundational coding concepts such as sequencing, pattern
+    recognition, and logical thinking. This innovative approach ensures that
+    preschoolers not only gain early coding skills but also develop critical
+    problem-solving abilities, setting the stage for a seamless transition to
+    more advanced coding platforms as they grow.
+
+
+    **N﻿ote: This is not a drop-off class. Adult participation is required.**
 ---
