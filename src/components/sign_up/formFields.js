@@ -107,16 +107,7 @@ export const studentFields = [
         const parsedBirthdate = DateTime.fromJSDate(value);
         const age = today.diff(parsedBirthdate).as("years");
 
-        if (age < 5) {
-          return this.createError({
-            message: "Too young, are you sure that you entered correctly?",
-          });
-        } else if (age < 5.75) {
-          return this.createError({
-            message:
-              "Typically the youngest we accept is 6, please reach out if you think your child is an exception.",
-          });
-        } else if (age > 50) {
+        if (age > 50) {
           return this.createError({
             message:
               "This program is meant for kids, but we appreciate your youthful spirit!",
