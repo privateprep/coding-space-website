@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: School Holiday Camp
+title: School Holiday Camps
 titleColor: "#264548"
 seo:
   title: School Holiday Mini Camps
