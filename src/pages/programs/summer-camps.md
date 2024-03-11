@@ -87,10 +87,15 @@ pageBuilder:
       N﻿ote: Field Trips occur on the second week of every two-week package. 
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: "![Field trips to Google, Etsy, Samsung, and
       Hungryroot](/img/2023-field-trip-schedule.png)"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: T﻿he 2024 field trip schedule is expected to be posted in May 2024.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
