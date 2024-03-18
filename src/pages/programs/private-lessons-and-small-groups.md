@@ -22,9 +22,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     heading: Personalized Learning Experiences
-    mdContent:
-      Looking for a way for your child to learn with friends near and far? Or
-      get dedicated help from an instructor in a one-on-one setting? Our
+    mdContent: Looking for a way for your child to learn with friends near and far?
+      Or get dedicated help from an instructor in a one-on-one setting? Our
       teachers are here to help.
   - type: textAndImageBlock
     buttons:
@@ -47,9 +46,7 @@ pageBuilder:
       ### One-on-One With a TCS Teacher
 
 
-      Whether your child is a complete beginner or already building applications
-      in JavaScript and Python, our experienced instructors can provide
-      personalized support in person or online.
+      Whether your child is a complete beginner or already building applications in JavaScript and Python, our experienced instructors can provide personalized support in person or online.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -71,15 +68,7 @@ pageBuilder:
       ### Learn to Code With Friends
 
 
-      Looking to form a recurring group lesson for your child and their friends?
-      Our small group coding classes provide our signature 4:1
-      student-to-teacher ratio and personalized attention. Available in person
-      and online.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#264548"
-    textColor: "#faf6ee"
-    mdContent: "## **Looking for something else?**"
+      Looking to form a recurring group lesson for your child and their friends? Our small group coding classes provide our signature 4:1 student-to-teacher ratio and personalized attention. Available in person and online.
   - type: buttons
     bgColor: "#264548"
     fgColor: "#faf6ee"
@@ -87,4 +76,14 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: iframe
+    bgColor: "#faf6ee"
+    content: https://share.hsforms.com/1UiY3mjTGSnaH0UrCEAm-cQ8nqsg
+    ratio: ratio1x1
+    title: Request a Lesson Form
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: "## **Looking for something else?**"
 ---
