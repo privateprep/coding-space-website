@@ -76,11 +76,6 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: iframe
-    bgColor: "#faf6ee"
-    content: https://share.hsforms.com/1UiY3mjTGSnaH0UrCEAm-cQ8nqsg
-    ratio: ratio1x1
-    title: Request a Lesson Form
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
