@@ -23,6 +23,8 @@ hero:
         content: /classes
       - title: Summer Programs
         content: /summer
+      - title: Private Lessons
+        content: /programs/private-lessons-and-small-groups/
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >-
