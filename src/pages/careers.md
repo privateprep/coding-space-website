@@ -58,8 +58,9 @@ openings:
       locations:
         - NYC
         - Brooklyn
+        - Long Island
     details:
-      postingDate: 2024-03-04T17:35:55.454Z
+      postingDate: 2024-03-20T16:35:55.454Z
       removalDate: 2025-09-11T15:39:43.806Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdPJ-cqmcafFLYxLqdKlo8vKvTC0aBiU28JfNerRB2XatMYxw/viewform
 ---
