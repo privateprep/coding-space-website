@@ -71,7 +71,7 @@ openings:
         will last them a lifetime. "
       locations:
         - NYC
-      title: Camp Counselors
+      title: Camp Counselor
       type:
         - hourly
 ---
