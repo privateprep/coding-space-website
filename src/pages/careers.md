@@ -47,20 +47,17 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - info:
-      title: After-School Coding Teacher (Part-Time)
-      description: >
-        Do you love working with kids? Do you want to make a change in the
-        education system? Whether you are a coding expert or an aspiring coder,
-        we provide training and mentorship to help you become an awesome Coding
-        Teacher.
+      title: Camp Director, Upper East Side
+      description: "Do you love working with kids? Do you have a background in
+        computer science and a passion for STEM? This summer, you can combine
+        the fun of a summer camp and the joy of helping teach kids skills that
+        will last them a lifetime. "
       type:
         - hourly
       locations:
         - NYC
-        - Brooklyn
-        - Long Island
     details:
-      postingDate: 2024-03-20T16:35:55.454Z
-      removalDate: 2025-09-11T15:39:43.806Z
-      applyLink: https://docs.google.com/forms/d/e/1FAIpQLSdPJ-cqmcafFLYxLqdKlo8vKvTC0aBiU28JfNerRB2XatMYxw/viewform
+      postingDate: 2024-04-09T16:35:55.454Z
+      removalDate: 2024-06-17T15:39:43.806Z
+      applyLink: https://forms.gle/S6z1NCSRzGVmX67R8
 ---
