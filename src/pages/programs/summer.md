@@ -16,10 +16,14 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: Join The Coding Space for exciting opportunities to keep coding and
-      learning all summer long. From Camp Coding Space (ages 8-13) to The Coding
-      Space Academy (ages 13-17) to weekly coding classes (ages 6-13), we've got
-      just the right option for you.
+    mdContent: >-
+      **L﻿ooking for Spring Break Camp? [Go
+      here](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).**
+      \
+
+      \
+
+      Join The Coding Space for exciting opportunities to keep coding and learning all summer long. From Camp Coding Space (ages 8-13) to The Coding Space Academy (ages 13-17) to weekly coding classes (ages 6-13), we've got just the right option for you.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
