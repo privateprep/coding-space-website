@@ -32,12 +32,12 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Get More Information
-          content: /contact-us
+          content: https://lessons.thecodingspace.com
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
       image: /img/teenage-girl-on-zoom.jpg
-      alt: Accessibility name
+      alt: Student coding online
     mediaPosition: left
     mdContent: >-
       ## Private Lessons
@@ -54,7 +54,7 @@ pageBuilder:
       textColor: "#faf6ee"
       list:
         - title: Start Building Your Group
-          content: /contact-us
+          content: https://lessons.thecodingspace.com
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
@@ -69,6 +69,11 @@ pageBuilder:
 
 
       Looking to form a recurring group lesson for your child and their friends? Our small group coding classes provide our signature 4:1 student-to-teacher ratio and personalized attention. Available in person and online.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#264548"
+    textColor: "#faf6ee"
+    mdContent: "## **Looking for something else?**"
   - type: buttons
     bgColor: "#264548"
     fgColor: "#faf6ee"
@@ -76,9 +81,4 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: textOnly
-    textAlign: center
-    bgColor: "#264548"
-    textColor: "#faf6ee"
-    mdContent: "## **Looking for something else?**"
 ---
