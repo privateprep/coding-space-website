@@ -30,7 +30,7 @@ pageBuilder:
       galaxy!
 
 
-      Our summer coding camp features **field trips to tech companies**, so that our young STEM lovers can see where the magic happens, **project-based coding** to launch their coding skills into orbit, and plenty of **outdoor fun** to get their minds and bodies moving. This summer we're excited to introduce **The Lift-Off Lab** into the lineup that will inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent.
+      Our summer coding camp features **field trips to tech companies**, so that our young STEM lovers can see where the magic happens, **project-based coding** to launch their coding skills into orbit, and plenty of **outdoor fun** to get their minds and bodies moving. In the afternoons, they'll experience **The Lift-Off Lab** where they'll be inspired to use their ingenuity, creativity, and leadership skills to build, create, and invent.
 
        Learn more and register below!
     fgColor: "#9de2dd"
@@ -60,19 +60,14 @@ pageBuilder:
         fgColor: "#264548"
         textColor: "#faf6ee"
         heading: Your child will...
-        mdContent: >-
-          Learn to code in Scratch, JavaScript, and additional languages
-          depending on experience.
-
+        mdContent: |-
+          Learn to code in Scratch, JavaScript, and Python.
 
           Build grit, a growth mindset, and computational thinking skills.
 
-
           Discover and define their personal passions.
 
-
           C﻿ode projects and build products that they can take home with them.
-
 
           Make new friends and have a blast.
   - type: textOnly
@@ -97,6 +92,7 @@ pageBuilder:
     textColor: "#264548"
     mdContent: T﻿he 2024 field trip schedule is expected to be posted in May 2024.
       Field trips occur at our Upper East Side and Park Slope locations only.
+      Field trips are subject to change based on vendor availability.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -140,6 +136,23 @@ pageBuilder:
           **Lunch:** Bring Your Own
 
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        heading: Long Island
+        mdContent: |-
+          **Location:** 110 Main Street, Port Washington, NY
+
+          **Drop Off:** 9:00 AM
+
+          **Pickup:** 3:00 PM
+
+          **Laptops:** Provided
+
+          **Lunch:** Bring Your Own
+
+          **Outdoor time:** 12:30 PM-1:30 PM in nearby park
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
