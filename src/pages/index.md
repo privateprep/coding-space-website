@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2024-04-30T16:18:17.869Z
-  mdContent: D﻿on't miss our Spring Break Camps! [Sign up
-    here](/experience-levels/school-holiday-mini-camps/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer STEM program where kids and teens learn
