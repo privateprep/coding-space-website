@@ -183,7 +183,7 @@ pageBuilder:
       ### Prizes
 
 
-      A﻿ll participants in our Code 4 Change Challenge will be featured in our website and social and receive a special Code 4 Change Challenge Certificate. For every participant, we will donate $1 to The Nature Conservancy (up to $200).
+      A﻿ll participants in our Code 4 Change Challenge will be featured on our website and social media and receive a special Code 4 Change Certificate. For every participant, we will donate $1 to The Nature Conservancy (up to $250).
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
