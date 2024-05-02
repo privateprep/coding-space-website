@@ -25,10 +25,13 @@ pageBuilder:
       ## Challenge: Protect Our Planet
 
 
-      Coding truly is a superpower. It can help make us safer, more sustainable, and more equitable. Used for good, it can truly help us create a stronger world for everyone.
+      Coding truly is a superpower. It can help make us safer, more sustainable, and more equitable. Used for good, it can truly help us create a better world for everyone.
 
 
-      The Code 4 Change Challenge asks our coders to use their powers for good in addressing a global issue. Drawing on the [UN’s Sustainable Development Goals](https://sdgs.un.org/goals), coders will tap into their innovation, creativity, and resourcefulness to develop creative, tech-based solutions to real world problems. Get involved today!
+      This year's Code 4 Change Challenge asks our coders to use their powers to help protect our planet. Drawing on key [UN Sustainable Development Goals](https://sdgs.un.org/goals), coders will tap into their innovation, creativity, and resourcefulness to develop creative, tech-based solutions. 
+
+
+      Follow [our instructions here](https://coding.space/launchpad/007e74ca-cb1a-48be-976e-1ee4e76bd7ed) to research, plan, and create. When you're ready, submit your project via the link below. If you're in the NYC area, visit us on May 13th for a workshop so we can create a better world together! (RSVP below.)
     fgColor: "#9de2dd"
   - type: buttons
     bgColor: "#ffffff"
@@ -53,9 +56,6 @@ pageBuilder:
           This year, we're asking kids to choose a Sustainable Development Goal
           from the list below to brainstorm solutions for protecting our
           planet: 
-
-
-          S﻿DG #2: [Zero Hunger](https://sdgs.un.org/goals/goal2)
 
 
           S﻿DG #6: [Clean Water and Sanitation](https://sdgs.un.org/goals/goal6)
