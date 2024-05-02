@@ -31,7 +31,7 @@ pageBuilder:
       This year's Code 4 Change Challenge asks our coders to use their powers to help protect our planet. Drawing on key [UN Sustainable Development Goals](https://sdgs.un.org/goals), coders will tap into their innovation, creativity, and resourcefulness to develop creative, tech-based solutions. 
 
 
-      Follow [our instructions here](https://coding.space/launchpad/007e74ca-cb1a-48be-976e-1ee4e76bd7ed) to research, plan, and create. When you're ready, submit your project via the link below. If you're in the NYC area, visit us on May 13th for a workshop so we can create a better world together! (RSVP below.)
+      Follow [our instructions here](https://coding.space/launchpad/007e74ca-cb1a-48be-976e-1ee4e76bd7ed) to research, plan, and create. When you're ready, submit your project via the link below. If you're in the NYC area, visit us on May 13th for a workshop so we can create a better world together! (RSVP below.) Projects are due by June 7, 2024!
     fgColor: "#9de2dd"
   - type: buttons
     bgColor: "#ffffff"
