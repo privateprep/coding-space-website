@@ -83,7 +83,7 @@ pageBuilder:
           your project anytime until June 7, 2024 to have your project featured
           on our website and social and receive a special Code 4 Change
           Challenge certificate. For every participant, we'll donate $1 to The
-          Nature Conservancy!"
+          Nature Conservancy! (Up to $250)"
       - title: "Where does C4C: Protect Our Planet happen?"
         mdContent: This challenge is entirely virtual, so kids can participate wherever
           they have access to a computer and the internet. We are also holding
