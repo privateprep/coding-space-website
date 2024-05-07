@@ -68,7 +68,7 @@ pageBuilder:
           After this point, we are no longer able to provide refunds. However, we can accommodate rescheduling. Class cancellations must be made 24 hrs in advance of the scheduled class to be eligible for rescheduling. We want to make sure our teachers have time to prepare, and know what to expect from class to class, week to week. It makes for a better learning experience for our awesome students! 
 
 
-          For scheduling make-ups, we require 3 days notice (i.e. for a Monday make-up, the request must be made by 4 pm on Friday). In addition, make-ups that are scheduled aren’t eligible for rescheduling a second time. Make-ups can't be rolled over to a future semester.  
+          For scheduling make-ups, we require 3 days notice (i.e. for a Monday make-up, the request must be made by 4 pm on Friday). In addition, make-ups that are scheduled aren’t eligible for rescheduling a second time. Make-ups can't be rolled over to a future semester. A maximum of 3 make up classes can be scheduled per semester.
 
 
           **Summer Camp Refund Policy:**
