@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-04-30T16:18:17.869Z
+  removalDate: 2024-06-07T14:47:32.974Z
   mdContent: J﻿oin the Code 4 Change Challenge! Learn more
     [here](https://thecodingspace.com/code4change).
 hero:
