@@ -74,7 +74,7 @@ pageBuilder:
           **Summer Camp Refund Policy:**
 
 
-          We know sometimes plans change and things are more uncertain than usual right now. Cancellations made up to two weeks before the start date of your session are eligible for a full refund. Cancellations that are requested up to one week in advance are eligible for a 100% credit that can be used for a future summer or after-school session. We will not issue refunds or credits for cancellations requested less than a week in advance of the scheduled camp session date.
+          Cancellations made up to two weeks before the start date of your session are eligible for a full refund. Cancellations that are requested up to one week in advance are eligible for a 100% credit that can be used for a future summer or after-school session. We will not issue refunds or credits for cancellations requested less than a week in advance of the scheduled camp session date.
 
 
           Changes to dates can be made free of cost up to one week before the start date of your original camp session. No changes will be possible less than a week in advance of your original session’s start date.
