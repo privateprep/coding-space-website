@@ -17,7 +17,7 @@ details:
   gender:
     - GirlCode
   byline: For coders with experience in text-based languages
-  experience: Ages 8-13
+  experience: Ages 10-13
   skills:
     - HTML
     - CSS
@@ -34,5 +34,5 @@ details:
     female-identifying space for our GirlCoders to develop their computational
     and critical thinking skills, intellectual confidence, and passion for STEM.
 
-    Students should come in with an advanced understanding of Scratch and/or experience with JavaScript or other text-based languages. They will be placed in advanced Scratch, WoofJS, or Web depending on the experience they bring in and advance towards building web-based games, animations, and applications. As students grow their skills, they’ll rely less and less on our curricular guide rails and move towards self-directed learning where they’ll work with front-end and back-end technologies, experimenting with new languages and platforms to bring their ideas to fruition.
+    In our Advanced course, students embark on an exciting journey through the worlds of JavaScript and Python, two cornerstone languages in modern programming. They'll unleash their creativity in JavaScript by building interactive web applications, such as calculators and quizzes, and delve into game development with HTML Canvas. This exploration paves the way for understanding how dynamic web content works. In our Python module, they'll develop their skills by creating engaging games and tackling projects that lay the groundwork for future pursuits in AI and data science. Through these experiences, students will master vital programming concepts, including algorithms, data handling, and object-oriented programming, equipping them with the tools to bring innovative ideas to life.
 ---
