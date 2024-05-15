@@ -90,9 +90,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: T﻿he 2024 field trip schedule is expected to be posted in May 2024.
-      Field trips occur at our Upper East Side and Park Slope locations only.
-      Field trips are subject to change based on vendor availability.
+    mdContent: Field trips occur at our Upper East Side and Park Slope locations
+      only. Field trips are subject to change based on vendor availability.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
