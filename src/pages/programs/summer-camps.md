@@ -78,8 +78,6 @@ pageBuilder:
       ## A Day at Camp Coding Space
 
       ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
-
-      N﻿ote: Field Trips occur on the second week of every two-week package. 
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -90,8 +88,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: Field trips occur at our Upper East Side and Park Slope locations
-      only. Field trips are subject to change based on vendor availability.
+    mdContent: Field trips occur at our Upper East Side and Park Slope locations only.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
