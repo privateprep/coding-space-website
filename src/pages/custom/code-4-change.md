@@ -38,8 +38,6 @@ pageBuilder:
     fgColor: "#264548"
     textColor: "#9de2dd"
     list:
-      - title: Attend Our May 13th Workshop
-        content: https://forms.gle/oznjoc8mkH1A6RX76
       - title: Submit Your Project (Deadline June 7th)
         content: https://forms.gle/MB7HpmZuZaTjnu3V9
   - type: accordion
