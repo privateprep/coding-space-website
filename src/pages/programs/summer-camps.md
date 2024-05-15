@@ -84,8 +84,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Field trips to Google, Etsy, Samsung, and
-      Hungryroot](/img/2023-field-trip-schedule.png)"
+    mdContent: "![Field trips to Google, Etsy, GUMBO, and
+      Hungryroot](/img/2024-field-trip-schedule.png)"
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
