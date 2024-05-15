@@ -48,7 +48,7 @@ pageBuilder:
           - title: Personalized Coding Curriculum That Challenges Each Camper at Their
               Individual Level
             content: "  "
-          - title: Exciting Field Trips to Tech Companies Like Microsoft & Samsung
+          - title: Exciting Field Trips to Tech Companies Like Google & Etsy
             content: "  "
           - title: Screen Break Activities & Outdoor Games in the Park
             content: "  "
