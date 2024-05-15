@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 3 Tech-Centric Ways to Promote Sustainability
 titleColor: "#264548"
 bgColor: "#faf6ee"
-date: 2023-04-01T18:31:06.565Z
+date: 2024-05-02T01:49:58.163Z
 description: Coding against climate change
 featuredPost: false
 featuredImage:
