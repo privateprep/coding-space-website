@@ -36,7 +36,7 @@ pageBuilder:
       ### Learn to Code in Our Immersive Camps
 
 
-      Held Monday through Friday throughout the summer on the Upper East Side in NYC and Park Slope, Brooklyn, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
+      Held Monday through Friday throughout the summer on the Upper East Side in NYC, Park Slope, Brooklyn, and Port Washington, Long Island, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
