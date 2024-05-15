@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 8 Reasons to Start Coding Young
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2023-01-01T19:14:06.551Z
+date: 2023-05-01T18:14:06.551Z
 description: "Coding: it’s not just for grown-ups!"
 featuredPost: false
 featuredImage:
