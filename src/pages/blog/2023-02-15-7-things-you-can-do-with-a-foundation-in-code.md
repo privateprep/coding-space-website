@@ -3,7 +3,7 @@ templateKey: blog-post
 title: 7 Things You Can Do With a Foundation in Code
 titleColor: "#264548"
 bgColor: "#9de2dd"
-date: 2023-03-01T18:41:45.417Z
+date: 2024-05-01T17:41:45.417Z
 description: Oh the places you’ll code!
 featuredPost: false
 featuredImage:
