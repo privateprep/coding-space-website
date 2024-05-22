@@ -157,7 +157,7 @@ pageBuilder:
         textAlign: center
         bgColor: "#faf6ee"
         textColor: "#264548"
-        mdContent: L﻿earn more now!
+        mdContent: J﻿oin us today!
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
