@@ -152,6 +152,12 @@ pageBuilder:
 
           **Outdoor time:** 12:30 PM-1:30 PM in Blumenfeld Family Park
         heading: Long Island
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: L﻿earn more now!
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
