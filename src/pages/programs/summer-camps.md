@@ -139,26 +139,6 @@ pageBuilder:
         bgColor: "#faf6ee"
         fgColor: "#9de2dd"
         textColor: "#264548"
-        heading: Long Island
-        mdContent: |-
-          **Location:** 110 Main Street, Port Washington, NY 11050
-
-          **Drop Off:** 9:00 AM
-
-          **Pickup:** 3:00 PM
-
-          **Laptops:** Provided
-
-          **Lunch:** Bring Your Own
-
-          **Outdoor time:** 12:30 PM-1:30 PM in Blumenfeld Family Park
-  - type: sideBySide
-    bgColor: "#faf6ee"
-    leftComponent:
-      - type: boxWithLogo
-        bgColor: "#faf6ee"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
         mdContent: |-
           **Location:** 110 Main Street, Port Washington, NY 11050
 
