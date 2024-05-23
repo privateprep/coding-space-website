@@ -52,7 +52,7 @@ pageBuilder:
             content: "  "
           - title: Screen Break Activities & Outdoor Games in the Park
             content: "  "
-          - title: Introduction to Robotics, Circuitry, 3D Modeling, and More
+          - title: Introduction to Robotics, Circuitry, AI, and More
             content: "  "
     rightComponent:
       - type: boxWithLogo
