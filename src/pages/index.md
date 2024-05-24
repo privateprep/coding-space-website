@@ -19,8 +19,6 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Spring Coding Classes
-        content: /classes
       - title: Summer Programs
         content: /summer
       - title: Private Lessons
