@@ -23,6 +23,8 @@ hero:
         content: /summer
       - title: Private Lessons
         content: /programs/private-lessons-and-small-groups/
+      - title: June 6th & 7th School Break Camp
+        content: /experience-levels/school-holiday-mini-camps/
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >-
