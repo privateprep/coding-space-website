@@ -18,7 +18,7 @@ details:
   gender:
     - Co-ed.
   byline: For coders with experience in text-based languages
-  experience: Ages 10-13
+  experience: Ages 11-13
   skills:
     - Python
     - JavaScript
