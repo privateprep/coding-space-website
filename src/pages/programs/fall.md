@@ -21,9 +21,9 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#ffffff"
-    heading: September 11, 2023 - January 27, 2024
+    heading: September 9, 2024 - February 1, 2025
     mdContent: >-
-      ## Fall in Love with Coding at The Coding Space
+      ## Harvest New Skills This Fall at The Coding Space
 
 
       This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! Learn more about what we're offering this fall below.
