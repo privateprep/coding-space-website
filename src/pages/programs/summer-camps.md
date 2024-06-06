@@ -22,7 +22,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/google-group-photo.png
+      image: /img/google-field-trip.jpg
       alt: Students on a field trip to Microsoft
     mediaPosition: left
     mdContent: >-
