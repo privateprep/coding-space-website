@@ -45,33 +45,5 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem-solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-openings:
-  - info:
-      title: Camp Director, Upper East Side
-      description: "Do you love working with kids? Do you have a background in
-        computer science and a passion for STEM? This summer, you can combine
-        the fun of a summer camp and the joy of helping teach kids skills that
-        will last them a lifetime. "
-      type:
-        - hourly
-      locations:
-        - NYC
-    details:
-      postingDate: 2024-04-09T16:35:55.454Z
-      removalDate: 2024-06-17T15:39:43.806Z
-      applyLink: https://forms.gle/S6z1NCSRzGVmX67R8
-  - details:
-      postingDate: 2024-04-09T18:30:25.410Z
-      removalDate: 2024-06-24T18:30:48.236Z
-      applyLink: https://forms.gle/dkp449pDw5AWjau7A
-    info:
-      description: "Do you love working with kids? Do you have a background in
-        computer science and a passion for STEM? This summer, you can combine
-        the fun of a summer camp and the joy of helping teach kids skills that
-        will last them a lifetime. "
-      locations:
-        - NYC
-      title: Camp Counselor
-      type:
-        - hourly
+openings: []
 ---
