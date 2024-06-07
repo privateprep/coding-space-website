@@ -21,7 +21,7 @@ pageBuilder:
     textColor: "#264548"
     textAlign: center
     bgColor: "#ffffff"
-    heading: September 9 2024 - February 1, 2025
+    heading: September 9, 2024 - February 1, 2025
     mdContent: >-
       ## Harvest New Skills This Fall at The Coding Space
 
