@@ -45,5 +45,20 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem-solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-openings: []
+openings:
+  - details:
+      postingDate: 2024-06-07T15:28:36.505Z
+      removalDate: 2024-06-07T15:28:36.637Z
+      applyLink: https://docs.google.com/forms/d/e/1FAIpQLSeNeqEuWvmH7_uZKBfO3hLa5S6Fu6crNHuOiQ2JXjr9pcJqLQ/viewform
+    info:
+      title: After School Coding Teacher Fall 2024-2025
+      locations:
+        - NYC
+        - Brooklyn
+      description: Do you love working with kids? Do you want to make a change in the
+        education system? Whether you are a coding expert or an aspiring coder,
+        we provide training and mentorship to help you become an awesome Coding
+        Teacher.
+      type:
+        - part-time
 ---
