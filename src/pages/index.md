@@ -19,10 +19,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: June 6th & 7th Camp
-        content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Programs
         content: /summer
+      - title: Fall Classes
+        content: /fall
       - title: Private Lessons
         content: /programs/private-lessons-and-small-groups/
 mainpitch:
