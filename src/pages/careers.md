@@ -48,7 +48,7 @@ pageBuilder:
 openings:
   - details:
       postingDate: 2024-06-07T15:28:36.505Z
-      removalDate: 2024-06-07T15:28:36.637Z
+      removalDate: 2024-09-01T15:28:36.637Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSeNeqEuWvmH7_uZKBfO3hLa5S6Fu6crNHuOiQ2JXjr9pcJqLQ/viewform
     info:
       title: After School Coding Teacher Fall 2024-2025
