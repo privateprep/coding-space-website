@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2024-06-07T14:47:32.974Z
-  mdContent: J﻿oin the Code 4 Change Challenge. Learn more
-    [here](https://thecodingspace.com/code4change)
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer STEM program where kids and teens learn
