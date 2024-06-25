@@ -9,9 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-06-07T14:47:32.974Z
-  mdContent: Join us at our Summer Camp Open House on Saturday, June 15th! [Learn
-    more
-    here](https://docs.google.com/forms/d/e/1FAIpQLSc5g1XPa6jshKQlJQF-91AvRJU4w3eyosIXms0Un_9Q82Be8w/viewform).
+  mdContent: D﻿on't miss our summer camp field trips to Google, Etsy, Lyft, and
+    more! [Learn more here](https://thecodingspace.com/summer).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer STEM program where kids and teens learn
