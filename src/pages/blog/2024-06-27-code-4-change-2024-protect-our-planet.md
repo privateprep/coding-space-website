@@ -8,7 +8,7 @@ description: "We believe that coders have the power to change the world. This
   belief is the core of our Code 4 Change initiative, an annual challenge that
   ask coders of all ages to use their powers for good and apply tech-based
   solutions to real-world problems. "
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/1200x400-code-4-change-logos.png
   alt: Child working at their desk
