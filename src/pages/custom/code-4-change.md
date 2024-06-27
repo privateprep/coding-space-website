@@ -37,9 +37,7 @@ pageBuilder:
     bgColor: "#ffffff"
     fgColor: "#264548"
     textColor: "#9de2dd"
-    list:
-      - title: Submit Your Project (Deadline June 7th)
-        content: https://forms.gle/MB7HpmZuZaTjnu3V9
+    list: []
   - type: accordion
     bgColor: "#faf6ee"
     fgColor: "#9de2dd"
