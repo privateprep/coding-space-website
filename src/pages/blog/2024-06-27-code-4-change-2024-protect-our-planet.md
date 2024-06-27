@@ -10,7 +10,7 @@ description: "We believe that coders have the power to change the world. This
   solutions to real-world problems. "
 featuredPost: false
 featuredImage:
-  image: /img/girl-doing-class-at-home.jpg
+  image: /img/1200x400-code-4-change-logos.png
   alt: Child working at their desk
 pageBuilder:
   - type: sideBySide
