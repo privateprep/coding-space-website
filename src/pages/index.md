@@ -12,8 +12,8 @@ banner:
   mdContent: ""
 hero:
   heading: The Coding Space
-  subheading: ​​An after-school and summer STEM program where kids and teens learn
-    to code while developing critical thinking skills.
+  subheading: ​​An after-school and summer coding program where kids and teens
+    learn to code while developing critical thinking skills.
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
