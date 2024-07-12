@@ -12,9 +12,7 @@ import "./styles/location.scss";
 const LocationPage = ({ data }) => {
   const activeLocation = data.classLocation;
   const { customInfo = {} } = data;
-  const {
-    frontmatter: { seo },
-  } = customInfo;
+  const seo = customInfo?.frontmatter?.seo || { title: "", description: "" };
   // mimic transformation in LocationsPanel
   const experienceLevels = data.experienceLevelQuery.experienceLevels.map(
     levelNode => {
