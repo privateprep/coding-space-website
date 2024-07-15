@@ -110,7 +110,7 @@ pageBuilder:
     leftComponent:
       - type: iframe
         bgColor: "#faf6ee"
-        content: https://codepen.io/coco-brinberg/pen/RwmPMjm/
+        content: https://codepen.io/Codingspace/full/eYwpvaz/
         ratio: ratio1x1
         title: Coco's Water Sanitation Game
     rightComponent:
@@ -122,7 +122,7 @@ pageBuilder:
           ## Coco's Water Sanitation Game
 
 
-          L﻿yla, 10
+          Coco, 10
 
 
           **About the Project:** For my Code for Change project, I made a game to show what it would be like to live in a world of dirty water and would show its causes and effects. This project shows many examples to this problem and is in an educational game format! Enjoy!\
