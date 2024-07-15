@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Spring 2024 Coding Classes
+title: Spring 2025 Coding Classes
 titleColor: "#264548"
 seo:
   title: Spring Coding Classes
@@ -16,7 +16,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: "## January  29 - June 15"
+    mdContent: "## Spring 2025 Dates Coming Soon"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#9de2dd"
@@ -27,11 +27,14 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     heading: Code the Future This Spring
-    mdContent: We’re excited to welcome you to The Coding Space where anything is
+    mdContent: >-
+      We’re excited to welcome you to The Coding Space where anything is
       possible. Whether you’re joining us at one of our in-person locations or
       meeting up with classmates for virtual lessons, we’re looking forward to
-      learning, growing, and—of course—coding with you! Here’s what we’re
-      offering this spring
+      learning, growing, and—of course—coding with you! 
+
+
+      T﻿he spring semester runs from February to June, but students are welcome to join at any time. Learn more about what we're offering this spring below.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
