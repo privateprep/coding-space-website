@@ -47,7 +47,7 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - details:
-      postingDate: 2024-06-07T15:28:36.505Z
+      postingDate: 2024-07-18T15:28:36.505Z
       removalDate: 2024-09-01T15:28:36.637Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSeNeqEuWvmH7_uZKBfO3hLa5S6Fu6crNHuOiQ2JXjr9pcJqLQ/viewform
     info:
