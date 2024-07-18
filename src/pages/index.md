@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-06-17T14:47:32.974Z
+  removalDate: 2024-09-01T14:47:32.974Z
   mdContent: Don't miss our field trip to Google on Thursday, August 1st! [Join us
     this summer](https://www.thecodingspace.com/programs/summer/).
 hero:
