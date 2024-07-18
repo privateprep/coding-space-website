@@ -28,8 +28,18 @@ details:
     - STEM Exploration
     - Immersive Experience
     - Field Trips
-  mdContent: Held from June to August, our in-person camps combine project-based
-    coding, STEM exploration, epic team challenges, field trips, and more.
-    Choose an option that fits your schedule and give your child a summer
-    adventure they'll never forget!
+  mdContent: >-
+    Held from June to August, our in-person camps combine project-based coding,
+    STEM exploration, epic team challenges, field trips, and more. Choose an
+    option that fits your schedule and give your child a summer adventure
+    they'll never forget!
+
+
+    **U﻿pcoming Field Trips**
+
+
+    A﻿ugust 1st: Google (Park Slope Week 4, UES Week 6)
+
+
+    A﻿ugust 15th: GUMBO (Park Slope Week 6, UES Week 8)
 ---
