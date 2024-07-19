@@ -37,7 +37,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     image:
       image: /img/two-girls-coding-scratch.png
-      alt: Group of three student's working with a circuits.
+      alt: Group of two students coding.
     mediaPosition: right
     mdContent: >-
       ## Not Your Typical Coding Class
