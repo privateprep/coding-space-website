@@ -9,8 +9,9 @@ seo:
     leaders.
 banner:
   removalDate: 2024-09-01T14:47:32.974Z
-  mdContent: Don't miss our field trip to Google on Thursday, August 1st! [Join us
-    this summer](https://www.thecodingspace.com/programs/summer/).
+  mdContent: Don't miss our field trip to Google on Thursday, August 1st! Join us
+    at [Camp Coding
+    Space](https://www.thecodingspace.com/programs/summer-camps/).[](https://www.thecodingspace.com/programs/summer/)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
