@@ -36,7 +36,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/hands_on.jpeg
+      image: /img/two-girls-coding-scratch.png
       alt: Group of three student's working with a circuits.
     mediaPosition: right
     mdContent: >-
@@ -59,6 +59,22 @@ openings:
         education system? Whether you are a coding expert or an aspiring coder,
         we provide training and mentorship to help you become an awesome Coding
         Teacher.
+      type:
+        - part-time
+  - details:
+      postingDate: 2024-07-19T14:37:05.476Z
+      removalDate: 2024-09-01T14:37:05.597Z
+      applyLink: https://docs.google.com/forms/d/e/1FAIpQLScPztuxW7VLZI6sxACwDn9qFejBJrO8Eh1Lfb0btsCl4crPXA/viewform
+    info:
+      title: Lead STEM Instructor
+      description: Do you love working with kids and everything STEM? Do you have
+        experience with 3D printing and robotics? Are you passionate about
+        curriculum design for student-centered learning? If this describes you,
+        you could be our next Lead STEM Instructor with the exciting mission to
+        expand our STEM programming for the 2024-2025 school year.
+      locations:
+        - NYC
+        - Brooklyn
       type:
         - part-time
 ---
