@@ -56,8 +56,8 @@ openings:
         - NYC
         - Brooklyn
       description: Do you love working with kids? Do you want to make a change in the
-        education system? Whether you are a coding expert or an aspiring coder,
-        we provide training and mentorship to help you become an awesome Coding
+        education system? Whether you are a coding expert or just starting, we
+        provide training and mentorship to help you become an awesome Coding
         Teacher.
       type:
         - part-time
