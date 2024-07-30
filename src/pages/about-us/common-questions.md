@@ -45,7 +45,7 @@ pageBuilder:
       - fgColor: "#264548"
         title: Does my child need to bring a computer?
         textColor: "#264548"
-        mdContent: We provide computers for students whey they are physically in person
+        mdContent: We provide computers for students when they are physically in person
           in classes. However, some students choose to bring their own computers
           because they are more comfortable working on them. This can change
           based on location, so please check with the instructor.
