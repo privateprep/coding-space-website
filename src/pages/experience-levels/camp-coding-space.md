@@ -41,5 +41,5 @@ details:
     A﻿ugust 1st: Google (Park Slope Week 4, UES Week 6)
 
 
-    A﻿ugust 15th: GUMBO (Park Slope Week 6, UES Week 8)
+    A﻿ugust 16th: GUMBO (Park Slope Week 6, UES Week 8)
 ---
