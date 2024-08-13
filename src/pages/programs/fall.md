@@ -26,10 +26,10 @@ pageBuilder:
       ## Harvest New Skills This Fall at The Coding Space
 
 
-      This fall, we’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and--of course--coding with you! 
+      We’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you! 
 
 
-      T﻿he fall semester runs from September to January, but students are welcome to join at any time. Learn more about what we're offering this fall below.
+      T﻿he fall semester runs from September 9th through February 1st, but students are welcome to join at any time. Learn more about what we're offering this fall below
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -52,10 +52,10 @@ pageBuilder:
       ## In-Person Coding Classes
 
 
-      **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive Learning Environment**
+      **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive & Challenging Learning Environment**
 
 
-      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, Python, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises customized learning and personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
