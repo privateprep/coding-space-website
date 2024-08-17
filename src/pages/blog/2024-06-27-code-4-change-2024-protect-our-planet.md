@@ -18,7 +18,7 @@ pageBuilder:
     leftComponent:
       - type: iframe
         bgColor: "#ffffff"
-        content: https://scratch.mit.edu/projects/1017186581/embed/
+        content: https://scratch.mit.edu/projects/1052882823/embed
         ratio: ratio1x1
         title: Food Machine
     rightComponent:
