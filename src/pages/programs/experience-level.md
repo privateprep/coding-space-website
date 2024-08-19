@@ -17,7 +17,7 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/img_4127-2-.jpeg
       alt: Kids coding together on the computer
@@ -57,6 +57,13 @@ pageBuilder:
 
 
           Combining hands-on activities with byte-sized digital exercises, preschool-aged coders will learn foundational coding concepts such as sequencing, pattern recognition, and logical thinking. This innovative approach ensures that our young learners not only gain early coding skills but also develop critical problem-solving abilities, setting the stage for a seamless transition to more advanced coding platforms as they grow.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
+    list:
+      - title: Sign Up
+        content: /experience-levels/preschool-code
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
