@@ -31,6 +31,33 @@ pageBuilder:
 
       While our classes are tailored to each of the four experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
   - type: sideBySide
+    bgColor: "#faf6ee"
+    leftComponent:
+      - type: boxWithLogo
+        bgColor: "#faf6ee"
+        fgColor: "#9de2dd"
+        textColor: "#264548"
+        heading: Students will
+        mdContent: >-
+          
+
+          * Receive an introduction to coding
+
+          * Engage in a variety of STEM activities that get them thinking like an engineer
+    rightComponent:
+      - type: textOnly
+        textAlign: center
+        bgColor: "#faf6ee"
+        textColor: "#264548"
+        mdContent: >-
+          ## **E﻿arly Engineers**
+
+
+          #### Ages 3-5
+
+
+          Combining hands-on activities with byte-sized digital exercises, preschool-aged coders will learn foundational coding concepts such as sequencing, pattern recognition, and logical thinking. This innovative approach ensures that our young learners not only gain early coding skills but also develop critical problem-solving abilities, setting the stage for a seamless transition to more advanced coding platforms as they grow.
+  - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
       - type: textOnly
