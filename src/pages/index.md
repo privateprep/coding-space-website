@@ -18,8 +18,6 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Summer Programs
-        content: /summer
       - title: Fall Classes
         content: /fall
       - title: Private Lessons
