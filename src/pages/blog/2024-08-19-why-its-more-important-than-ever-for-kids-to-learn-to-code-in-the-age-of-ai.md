@@ -13,7 +13,7 @@ featuredImage:
   image: /img/coding.png
   alt: Student coding
 ---
-Recently, TeachAI and the Computer Science Teachers Association (CSTA) released guidance on the future of computer science education in the age of AI. They emphasized a principle we at The Coding Space know to be true: while AI can enhance learning, it cannot replace the skills and attitudes acquired when we learn to code. Moreover, as AI continues to evolve, understanding foundational coding concepts is more important than ever to be able to evaluate and modify what AI produces.
+Recently, TeachAI and the Computer Science Teachers Association (CSTA) released guidance on the future of computer science education in the age of AI. They emphasized a principle we at The Coding Space know to be true: while AI can enhance learning, it cannot replace the skills and attitudes we gain when we learn to code ourselves. Moreover, understanding foundational coding concepts is more important than ever to be able to evaluate and modify what AI tools produce. 
 
 J﻿ust as learning to make sense of numbers is important to understanding math or being able to read is essential  for literacy, making sense of code is crucial to understanding the logic and structure that underpin the digital tools we use every day. This foundational knowledge helps us navigate and understand the increasingly tech-driven world around us. 
 
