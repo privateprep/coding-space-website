@@ -131,6 +131,4 @@ pageBuilder:
 
           **S﻿ustainable Development Goal:** Clean Water and Sanitation
 ---
-Three cheers for our creative coders! Our Code 4 Change 2024 participants have completed and submitted their awe-inspiring programming projects.[](https://code4change.thecodingspace.com/)\
-[​\
-​](https://www.facebook.com/thecodingspace)We hope you’ll join us in acknowledging and celebrating their hard work and creativity in devising solutions to problems facing our planet. Their generosity of spirit sets an excellent example for us all.
+[​](https://www.facebook.com/thecodingspace)We hope you’ll join us in acknowledging and celebrating our coders' hard work and creativity in devising solutions to problems facing our planet. For each submission, The Coding Space made a donation to The Nature Conservancy, supporting the preservation of our natural world.
