@@ -12,21 +12,18 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: headerAndMarkDownBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    mediaPosition: right
-    textColor: "#264548"
-    textAlign: center
+  - type: textOnly
+    textAlign: left
     bgColor: "#ffffff"
-    heading: September 9, 2024 - February 1, 2025
+    textColor: "#264548"
     mdContent: >-
-      ## Harvest New Skills This Fall at The Coding Space
+      ### September 9, 2024 - February 1, 2025
 
 
-      We’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you! 
+      #### Harvest New Skills This Fall at The Coding Space
+
+
+      We’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you!
 
 
       T﻿he fall semester runs from September 9th through February 1st, but students are welcome to join at any time. Learn more about what we're offering this fall below
@@ -118,4 +115,22 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: headerAndMarkDownBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    mediaPosition: right
+    textColor: "#264548"
+    textAlign: center
+    bgColor: "#ffffff"
+    heading: September 9, 2024 - February 1, 2025
+    mdContent: >-
+      ## Harvest New Skills This Fall at The Coding Space
+
+
+      We’re excited to welcome you back to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you! 
+
+
+      T﻿he fall semester runs from September 9th through February 1st, but students are welcome to join at any time. Learn more about what we're offering this fall below
 ---
