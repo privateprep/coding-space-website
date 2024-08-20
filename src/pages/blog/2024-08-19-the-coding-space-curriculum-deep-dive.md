@@ -10,7 +10,7 @@ featuredImage:
   image: /img/img_2250.jpeg
   alt: Example of TCS Untutorials in Action
 ---
-At The Coding Space, our mission is to empower people to tackle challenges independently through learning to code. In doing so, we aim to develop their problem-solving, critical thinking, learning skills, confidence, attitudes, and mindsets. Below are a few tactics we use to accomplish our mission. 
+At The Coding Space, our mission is to empower people to tackle challenges independently through learning to code. In doing so, we aim to develop their problem-solving, critical thinking, learning skills, confidence, attitudes, and mindsets. Below are a few key tools and tactics we use to accomplish our mission. 
 
 ### The project-based, “learning-by-making” classroom
 
