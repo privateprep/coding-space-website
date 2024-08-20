@@ -16,11 +16,7 @@ At The Coding Space, our mission is to empower people to tackle challenges indep
 
 *“Learning is most effective when part of an activity the learner experiences as constructing a meaningful product.” - Seymour Papert*
 
-Most traditional schooling is pre-loaded in nature. Textbooks start from first principles and build their way up to more complex concepts. While this is a very logical way to present material, it isolates students from a meaningful context to apply their learning.
-
-At The Coding Space, we take the opposite tactic, presenting students with problems that they can only solve by self-discovering new concepts and methods that will directly help them with their immediate challenges. Our project-based, “learning-by-making” classroom style provides a space for students to develop and practice real-life learning strategies by building meaningful projects.
-
-In this way, learning is highly motivated, relevant, and memorable. Most important, it gives students the confidence that they can learn as they go. This way, we don’t need to worry about teaching our children everything they need to know. We can rest assured that they’re in a position where they can find what they need to know when they need to know it.
+The Coding Space's project-based, “learning-by-making” classroom style provides a space for students to develop and practice real-life learning strategies by building meaningful projects. In this way, learning is highly motivated, relevant, and memorable. Most important, it gives students the confidence that they can learn as they go. 
 
 Our “learning-by-making” system reinforces in students that there are no wrong answers, but only stepping stones towards better ones.  While working on their projects, students must try many different things out in order to figure out what works.  Often times, it’s impossible to make something work perfectly on the first try.  Instead of teaching students that there is only one right answer for each question and that a second attempt equates with failure, we train our students to fearlessly iterate and tinker with their problems.  If their first attempt doesn’t work, no problem.  It just means they’re one step closer to finding something that does.
 
