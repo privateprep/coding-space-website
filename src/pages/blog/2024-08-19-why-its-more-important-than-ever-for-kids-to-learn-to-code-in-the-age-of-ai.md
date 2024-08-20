@@ -20,7 +20,7 @@ J﻿ust as learning to make sense of numbers is important to understanding math 
 
 AI technologies, such as LLMs and chatbots, are built on complex algorithms and vast amounts of data. By learning to code, we gain insight into how these systems operate. By understanding code, we also learn to integrate AI tools effectively, learning to evaluate, modify, and position what they produce into a larger infrastructure.
 
-Furthermore, learning to code isn't just about producing a game or an app, and mastering the syntax of a programming language is almost beside the point. Learning to code requires building problem-solving and critical thinking muscles that will set the stage for a deeper understanding of computer science, enhance knowledge of other disciplines, and develop attitudes and mindsets that can impact many different facets of life. 
+Furthermore, learning to code isn't just about producing a game or an app, and mastering the syntax of a programming language is almost beside the point. More importantly, learning to code requires developing problem-solving and critical thinking muscles that will set the stage for a deeper understanding of computer science, enhance knowledge of other disciplines, and shape attitudes, mindsets, and thought processes that can impact many different facets of life. 
 
 Coding requires us to approach complex problems logically and to break them down into steps. It requires the use of mental modeling (designing thinking, systems thinking, symbolic thinking, functional thinking), helps us build grit and analytical skills when we can't get our code to work, and allows us to express ourselves through our own unique creations. Coding is a creative process as much as it is a technical one. 
 
