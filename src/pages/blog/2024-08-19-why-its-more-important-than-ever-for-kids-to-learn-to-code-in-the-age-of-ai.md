@@ -8,9 +8,9 @@ description: "Recently, TeachAI and the Computer Science Teachers Association
   (CSTA) released guidance on the future of computer science education in the
   age of AI. They emphasized a principle we at The Coding Space know to be true:
   while AI can enhance learning, it cannot replace the skills and attitudes we
-  gain when we learn to code ourselves. Moreover, understanding foundational
-  coding concepts is more important than ever to be able to evaluate and modify
-  what AI tools produce."
+  gain when we learn to code ourselves. Moreover, understanding code is more
+  important than ever so that we are able to evaluate and modify what AI tools
+  produce."
 featuredPost: false
 featuredImage:
   image: /img/coding.png
@@ -18,10 +18,10 @@ featuredImage:
 ---
 J﻿ust as learning to make sense of numbers is important to understanding math or being able to read is essential  for literacy, making sense of code is crucial to understanding the logic and structure that underpin the digital tools we use every day. This foundational knowledge helps us navigate and understand the increasingly tech-driven world around us. 
 
-AI technologies, such as LLMs and chatbots, are built on complex algorithms and vast amounts of data. By learning to code, we gain insight into how these systems operate. By understanding code, we can learn to integrate AI tools effectively and learn to evaluate, modify, and situate what they produce into a larger infrastructure.
+AI technologies, such as LLMs and chatbots, are built on complex algorithms and vast amounts of data. By learning to code, we gain insight into how these systems operate. By understanding code, we can learn to integrate AI tools effectively and learn to evaluate, modify, and position what they produce into a larger infrastructure.
 
 Furthermore, learning to code isn't just about producing a game or an app, and learning the syntax of one programming language over the other is almost beside the point. Learning to code requires building problem-solving and critical thinking muscles that will set the stage for further study of computer science, enhance knowledge of other disciplines, and develop attitudes and mindsets that can impact many different facets of life. 
 
 Coding requires us to approach complex problems logically and to break them down into steps. It requires the use of mental modeling (designing thinking, systems thinking, symbolic thinking, functional thinking), helps us build grit and analytical skills when we can't get our code to work, and allows us to express ourselves through our own unique creations. 
 
-Coding is a creative process as much as it is a technical one. While aspects of it have changed and will continue to change (we’ve gone from assembly language to block-based games in Scratch), this essential point remains the same: learning to code is a means to many powerful ends.
+Coding is a creative process as much as it is a technical one. While aspects of it have changed and will continue to change (consider programming’s evolution from assembly language to block-based games in Scratch), this essential point remains the same: learning to code is a means to many powerful ends.
