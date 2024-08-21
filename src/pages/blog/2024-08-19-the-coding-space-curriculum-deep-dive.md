@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2024-08-19T20:06:54.667Z
 description: Understanding Project-Based Learning, Untutorials, and Creative Projects
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/img_2250.jpeg
   alt: Example of TCS Untutorials in Action
