@@ -11,7 +11,7 @@ description: "Recently, TeachAI and the Computer Science Teachers Association
   gain when we learn to code ourselves. Moreover, understanding code is more
   important than ever so that we are able to evaluate and modify what AI tools
   produce."
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/coding.png
   alt: Student coding
