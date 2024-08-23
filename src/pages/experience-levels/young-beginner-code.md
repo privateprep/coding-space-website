@@ -26,9 +26,9 @@ details:
     - Introduction to Coding
     - Computer Science Fundamentals
   mdContent: For young and first-time coders, we focus on fostering a welcoming
-    and creative learning environment where students will develop a fluency with
-    technology and start formulating crucial computational thinking patterns.
-    Students learn through specially curated activities in Code.org and advance
-    into building animations and games in Scratch, a block-based programming
-    language developed by MIT.
+    and creative learning environment where students will develop digital
+    literacy and start formulating crucial computational thinking patterns.
+    Students learn through specially curated activities in Code.org and
+    additional platforms as needed and advance into building animations and
+    games in Scratch, a block-based programming language developed by MIT.
 ---
