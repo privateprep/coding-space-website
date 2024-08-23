@@ -22,6 +22,8 @@ hero:
         content: /fall
       - title: Private Lessons
         content: /programs/private-lessons-and-small-groups/
+      - title: School Holiday Camps
+        content: /experience-levels/school-holiday-mini-camps/
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >-
