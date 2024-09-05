@@ -21,9 +21,7 @@ details:
   skills:
     - Scratch
     - JavaScript
-    - HTML
-    - CSS
-    - Game Design
+    - Intermediate
   sellingPoints:
     - Introduction to Text-Based Coding
     - Making Games
