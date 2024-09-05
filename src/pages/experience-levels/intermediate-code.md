@@ -29,7 +29,7 @@ details:
     Scratch, a block-based coding language, and move onto text-based programming
     in WoofJS, our JavaScript learning platform. WoofJS was developed by The
     Coding Space to allow students to leverage their existing Scratch knowledge
-    and transition naturally into using HTML, CSS, and JavaScript to make
-    web-based projects. Students should come in with an advanced understanding
-    of Scratch or a text-based language.
+    and transition naturally into using JavaScript to make advanced projects.
+    Students should come in with an advanced understanding of Scratch or a
+    text-based language.
 ---
