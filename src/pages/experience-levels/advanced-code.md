@@ -22,8 +22,7 @@ details:
   skills:
     - Python
     - JavaScript
-    - HTML
-    - CSS
+    - Advanced
   sellingPoints:
     - Learn Python
     - Advance in JavaScript
