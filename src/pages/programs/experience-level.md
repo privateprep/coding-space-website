@@ -164,7 +164,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?skills[]=Web%20Design
+        content: /experience-levels/intermediate/
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
