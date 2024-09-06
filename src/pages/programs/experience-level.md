@@ -164,7 +164,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /experience-levels/intermediate/
+        content: /experience-levels/intermediate-code/
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
