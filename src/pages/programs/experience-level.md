@@ -78,7 +78,7 @@ pageBuilder:
           #### Ages 6-8, co-ed
 
 
-          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop a fluency with technology and start forming crucial computational thinking patterns. Students learn through specially curated activities in Code.org and ScratchJr, and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
+          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop digital literacy and start formulating crucial computational thinking patterns. Students learn through specially curated activities in Code.org and additional platforms as needed and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
@@ -87,7 +87,7 @@ pageBuilder:
         heading: Students will
         mdContent: |-
           * start forming computational thinking patterns
-          * develop digital literacy
+          * develop a fluency with technology
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
@@ -145,7 +145,7 @@ pageBuilder:
           #### Ages 8-13, co-ed
 
 
-          In our Intermediate course, students will create advanced projects in Scratch, a block-based coding language and move onto text-based programming in WoofJS, our JavaScript learning platform. WoofJS was developed by The Coding Space to allow students to leverage their existing Scratch knowledge and transition naturally into using HTML, CSS, and JavaScript to make web-based projects. Students should come in with an advanced understanding of Scratch.
+          In our Intermediate course, students will create advanced projects in Scratch, a block-based coding language and move onto text-based programming in WoofJS, our JavaScript learning platform. WoofJS was developed by The Coding Space to allow students to leverage their existing Scratch knowledge and transition naturally into using JavaScript to make advanced projects. Students should come in with an advanced understanding of Scratch.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#264548"
