@@ -225,7 +225,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Sign Up
-        content: /classes?sellingPoints[]=Self-Directed%20Learning
+        content: /experience-levels/advanced-code/
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
