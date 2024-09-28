@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-09-01T14:47:32.974Z
+  removalDate: 2024-10-05T18:59:41.938Z
   mdContent: D﻿on't Miss Our School Holiday Camp on Oct. 3 & 4. [Register
     here!](https://www.thecodingspace.com/sign_up/classes/3336)
 hero:
