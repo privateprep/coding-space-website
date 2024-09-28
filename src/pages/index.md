@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-09-01T14:47:32.974Z
-  mdContent: ""
+  mdContent: D﻿on't Miss Our School Holiday Camp on Oct. 3 & 4. [Register
+    here!](https://www.thecodingspace.com/sign_up/classes/3336)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
