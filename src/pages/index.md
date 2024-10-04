@@ -8,9 +8,10 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-10-05T18:59:41.938Z
+  removalDate: 2024-10-06T16:43:35.599Z
   mdContent: D﻿on't Miss Our Open House in Port Washington on Saturday, October
-    5th. [](https://www.thecodingspace.com/sign_up/classes/3336)
+    5th. [RSVP
+    here](https://docs.google.com/forms/d/e/1FAIpQLSds_wgt73lxLO59tTkA9akJJcZia_wzTHsDkf28Ib6z7XDBGA/viewform).[](https://www.thecodingspace.com/sign_up/classes/3336)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
