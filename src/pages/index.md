@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-10-05T18:59:41.938Z
-  mdContent: D﻿on't Miss Our School Holiday Camp on Oct. 3 & 4. [Register
-    here!](https://www.thecodingspace.com/sign_up/classes/3336)
+  mdContent: D﻿on't Miss Our Open House in Port Washington on Saturday, October
+    5th. [](https://www.thecodingspace.com/sign_up/classes/3336)
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
