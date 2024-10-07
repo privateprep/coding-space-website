@@ -20,4 +20,44 @@ pageBuilder:
 
 
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/pumpkin.png
+      alt: Enchanted Pumpkins
+    mediaPosition: right
+    mdContent: >-
+      ## **Enchanted Pumpkins: A Halloween STEM Workshop for Kids!**
+
+
+      🎃 **Date**: October 26\
+
+      ⏰ **Time**: 2:30 PM - 4:00 PM\
+
+      💡 **Cost**: $75 ($35 for TCS Members*)\
+
+      👥 **Ages**: 8-13\
+
+      📍 **Location**: 201 E. 83rd Street, New York, NY 10028
+
+
+      Get ready for a magical Halloween adventure at our Enchanted Pumpkins Workshop! In this exciting hands-on session, your child will bring their very own pumpkin to life using Arduino technology. With glowing lights and spooky sounds that respond to movement, these pumpkins are no ordinary decorations!
+
+
+      Kids will learn the basics of circuits and coding while having a blast creating their very own high-tech Halloween masterpiece. They’ll also get to decorate their pumpkins with stickers, markers, and more for a truly personal touch.
+
+
+      By the end of the session, each child will leave with their very own pumpkin friend and a newfound understanding of electronics and programming.
+
+
+      **👻 Space is limited—**sign up now and let your child experience the magic of coding and creativity this Halloween!\
+
+      \
+
+      *﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes but interested? [Browse our offerings here](https://thecodingspace.com/classes).
 ---
