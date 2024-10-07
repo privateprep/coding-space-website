@@ -29,7 +29,7 @@ pageBuilder:
     bgColor: "#faf6ee"
     image:
       image: /img/thanksgiving-stem-activities.png
-      alt: Accessibility name
+      alt: School Break Camp
     mediaPosition: right
     mdContent: >-
       ## **Indigenous People's Day Camp**
@@ -50,7 +50,7 @@ pageBuilder:
 
       \
 
-      [R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3337)
+      **[R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3337)**
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -86,11 +86,12 @@ pageBuilder:
       By the end of the session, each child will leave with their very own pumpkin friend and a newfound understanding of electronics and programming.
 
 
-      **👻 Space is limited—**sign up now and let your child experience the magic of coding and creativity this Halloween!\
+      👻 **Space is limited**—sign up now and let your child experience the magic of coding and creativity this Halloween!\
 
       \
 
-      [R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3452)\
+      **[R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3452)**
 
-      *﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes but interested? [Browse our offerings here](https://thecodingspace.com/classes).
+
+      \*﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes but interested? [Browse our offerings here](https://thecodingspace.com/classes).
 ---
