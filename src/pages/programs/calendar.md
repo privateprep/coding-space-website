@@ -28,6 +28,37 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
+      image: /img/thanksgiving-stem-activities.png
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## **Indigenous People's Day Camp**
+
+
+      📅 **Date**: October 14\
+
+      ⏰ **Time**: 9:00 AM - 3:00 PM\
+
+      💡 **Cost**: $240\
+
+      👥 **Ages**: 8-13\
+
+      📍 **Location**: 201 E. 83rd Street, New York, NY 10028
+
+
+      Our school holiday camps combine project-based coding, STEM exploration, hands-on activities, and more. Your child is sure to have an unforgettable experience on their day off from school.\
+
+      \
+
+      [R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3337)
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
       image: /img/pumpkin.png
       alt: Enchanted Pumpkins
     mediaPosition: right
