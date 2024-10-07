@@ -93,5 +93,5 @@ pageBuilder:
       **[R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3452)**
 
 
-      \*﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes but interested? [Browse our offerings here](https://thecodingspace.com/classes).
+      \*﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes? [Browse our offerings here](https://thecodingspace.com/classes).
 ---
