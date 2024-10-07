@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-10-06T16:43:35.599Z
+  removalDate: 2024-10-16T23:56:02.433Z
   mdContent: "**U﻿pcoming Events:** Indigenous Peoples Day Camp (Oct. 14th) and
     Enchanted Pumpkins Halloween Workshop (Oct. 26th). [Learn more
     here](https://www.thecodingspace.com/programs/calendar/)!"
