@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: The Coding Space Calendar
+title: Upcoming Events
 titleColor: "#264548"
 seo:
   title: Calendar
