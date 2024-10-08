@@ -46,7 +46,28 @@ pageBuilder:
       📍 **Location**: 201 E. 83rd Street, New York, NY 10028
 
 
-      Our school holiday camps combine project-based coding, STEM exploration, hands-on activities, and more. Your child is sure to have an unforgettable experience on their day off from school.\
+      Our school holiday camps combine project-based coding, STEM exploration, hands-on activities, and more. Your child is sure to have an unforgettable experience on their day off from school.
+
+
+      **Camp Schedule**
+
+
+      **9:00-9:15 AM EDT:** Warm-Up Activity
+
+
+      **9:15-11:30 AM EDT:** Project-Based Coding
+
+
+      **11:30 AM-12:30 PM EDT:** Lunch
+
+
+      **12:30-1:30 PM EDT:** Outdoor Activities (Weather Permitting)
+
+
+      **1:30-2:30 PM EDT:** STEM Exploration
+
+
+      **2:30-3:00 PM EDT:** Snack & Reflection\
 
       \
 
