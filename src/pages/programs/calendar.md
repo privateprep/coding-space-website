@@ -70,7 +70,7 @@ pageBuilder:
 
       ⏰ **Time**: 2:30 PM - 4:00 PM\
 
-      💡 **Cost**: $75 ($35 for TCS Members*)\
+      💡 **Cost**: $75 / $35 for TCS Members*\
 
       👥 **Ages**: 8-13\
 
