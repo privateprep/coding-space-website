@@ -32,7 +32,7 @@ pageBuilder:
       alt: School Break Camp
     mediaPosition: right
     mdContent: >-
-      ## **Indigenous Peoples Day Camp**
+      ## **School Holiday Camp (Indigenous Peoples Day Camp)**
 
 
       📅 **Date**: October 14\
