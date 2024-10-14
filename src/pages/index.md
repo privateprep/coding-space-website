@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-10-16T23:56:02.433Z
-  mdContent: "**U﻿pcoming Events:** Indigenous Peoples Day Camp (Oct. 14th) and
-    Enchanted Pumpkins Halloween Workshop (Oct. 26th). [Learn more
+  mdContent: "**U﻿pcoming Events:** Oct. 26th Enchanted Pumpkins Workshop and
+    November School Holiday Camps. [Learn more
     here](https://www.thecodingspace.com/programs/calendar/)!"
 hero:
   heading: The Coding Space
