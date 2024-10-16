@@ -49,10 +49,10 @@ pageBuilder:
       Get ready for a magical Halloween adventure at our Enchanted Pumpkins Workshop! In this exciting hands-on session, your child will bring their very own pumpkin to life using Arduino technology. With glowing lights and spooky sounds that respond to movement, these pumpkins are no ordinary decorations!
 
 
-      Kids will learn the basics of circuits and coding while having a blast creating their very own high-tech Halloween masterpiece. They’ll also get to decorate their pumpkins with stickers, markers, and more for a truly personal touch.
+      Kids will learn the basics of circuits and coding while having a blast creating a high-tech Halloween masterpiece. They’ll also get to decorate their pumpkins with stickers, markers, and more for a truly personal touch.
 
 
-      By the end of the session, each child will leave with their very own pumpkin friend and a newfound understanding of electronics and programming.
+      Y﻿our child will leave the session with their new pumpkin friend, a newfound understanding of electronics and programming, and an exciting start to their Halloween!
 
 
       👻 **Space is limited**—sign up now and let your child experience the magic of coding and creativity this Halloween!\
