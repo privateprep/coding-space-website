@@ -63,6 +63,13 @@ pageBuilder:
 
 
       \*﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes? [Browse our offerings here](https://thecodingspace.com/classes).
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Register Now
+        content: https://www.thecodingspace.com/sign_up/classes/3452
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -108,9 +115,12 @@ pageBuilder:
       **1:30-2:30 PM EDT:** STEM Exploration
 
 
-      **2:30-3:00 PM EDT:** Snack & Reflection\
-
-      \
-
-      **[R﻿egister Now](https://www.thecodingspace.com/sign_up/classes/3337)**
+      **2:30-3:00 PM EDT:** Snack & Reflection
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Register Now
+        content: https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/
 ---
