@@ -99,7 +99,7 @@ featuredProject:
     interests: " "
     image:
       image: /img/smily_face.svg
-      alt: Placeholder image for Liv
+      alt: Happy face
     className: Advanced Code
     classUrl: /experience-levels/advanced-code/
   project:
