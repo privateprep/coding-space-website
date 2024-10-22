@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-10-16T23:56:02.433Z
+  removalDate: 2024-11-02T23:56:02.433Z
   mdContent: "**U﻿pcoming Events:** Oct. 26th Enchanted Pumpkins Workshop and
     November School Holiday Camps. [Learn more
     here](https://www.thecodingspace.com/programs/calendar/)!"
