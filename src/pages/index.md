@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2024-11-02T23:56:02.433Z
-  mdContent: "**U﻿pcoming Events:** Oct. 26th Enchanted Pumpkins Workshop and
-    November School Holiday Camps. [Learn more
+  mdContent: "**U﻿pcoming Events:** Veterans Day School Holiday Camp. [Learn more
     here](https://www.thecodingspace.com/programs/calendar/)!"
 hero:
   heading: The Coding Space
