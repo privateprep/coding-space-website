@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-11-02T23:56:02.433Z
+  removalDate: 2024-11-13T21:41:47.388Z
   mdContent: "**U﻿pcoming Events:** Veterans Day School Holiday Camp. [Learn more
     here](https://www.thecodingspace.com/programs/calendar/)!"
 hero:
