@@ -36,48 +36,30 @@ pageBuilder:
     bgColor: "#faf6ee"
     image:
       image: /img/thanksgiving-stem-activities.png
-      alt: School Break Camp
+      alt: Workshop
     mediaPosition: right
     mdContent: >-
-      ## **School Holiday Camp (Veterans Day)**
+      ## **Glowing with Thanks: Build a Touch-Activated Gratitude Wall**
 
 
-      📅 **Date**: Nov. 11\
+      📅 **Date**: Sat., Nov. 23\
 
-      ⏰ **Time**: 9:00 AM - 3:00 PM\
+      ⏰ **Time**: 2:30 PM - 4:00 PM\
 
       👥 **Ages**: 8-13\
 
       📍 **Location**: Upper East Side 
 
 
-      Our school holiday camps combine project-based coding, STEM exploration, hands-on activities, and more. Your child is sure to have an unforgettable experience on their day off from school.
+      In this workshop, students will explore the basics of programming and electrical circuits by creating a collaborative Gratitude Wall. They'll dive into cause and effect in programming, experiment with electronic components, and learn about conductivity, open and closed circuits, and parallel circuits. Using copper tape, students will craft paper circuits to light up LEDs, turning their notes of gratitude into interactive, glowing expressions. 
 
 
-      **Camp Schedule**
-
-
-      **9:00-9:15 AM EDT:** Warm-Up Activity
-
-
-      **9:15-11:30 AM EDT:** Project-Based Coding
-
-
-      **11:30 AM-12:30 PM EDT:** Lunch
-
-
-      **12:30-1:30 PM EDT:** Outdoor Activities (Weather Permitting)
-
-
-      **1:30-2:30 PM EDT:** STEM Exploration
-
-
-      **2:30-3:00 PM EDT:** Snack & Reflection
+      This workshop emphasizes creative problem-solving and design thinking, merging art and technology to build a touch-responsive message display, encouraging students to reflect on the power of gratitude in a connected world.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
       - title: Register Now
-        content: https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/
+        content: https://www.thecodingspace.com/sign_up/classes/3478
 ---
