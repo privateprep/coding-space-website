@@ -46,6 +46,8 @@ pageBuilder:
 
       ⏰ **Time**: 2:30 PM - 4:00 PM\
 
+      💡 **Cost**: $75 / $35 for TCS Members*\
+
       👥 **Ages**: 8-13\
 
       📍 **Location**: Upper East Side 
@@ -54,7 +56,11 @@ pageBuilder:
       In this workshop, students will explore the basics of programming and electrical circuits by creating a collaborative Gratitude Wall. They'll dive into cause and effect in programming, experiment with electronic components, and learn about conductivity, open and closed circuits, and parallel circuits. Using copper tape, students will craft paper circuits to light up LEDs, turning their notes of gratitude into interactive, glowing expressions. 
 
 
-      This workshop emphasizes creative problem-solving and design thinking, merging art and technology to build a touch-responsive message display, encouraging students to reflect on the power of gratitude in a connected world.
+      This workshop emphasizes creative problem-solving and design thinking, merging art and technology to build a touch-responsive message display, encouraging students to reflect on the power of gratitude in a connected world.\
+
+      \
+
+      *﻿TCS members are families currently enrolled in a semester-long class. If you are a TCS member and would like to register, email admissions@thecodingspace.com for your special code. Not enrolled in our classes? [Browse our offerings here](https://thecodingspace.com/classes).
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
