@@ -35,7 +35,7 @@ pageBuilder:
       ## **Glowing with Thanks: Build a Touch-Activated Gratitude Wall**
 
 
-      📅 **Date**: Sat., Nov. 23\
+      📅 **Date**: Saturday, November 23rd\
 
       ⏰ **Time**: 2:30 PM - 4:00 PM\
 
