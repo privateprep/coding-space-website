@@ -20,13 +20,6 @@ pageBuilder:
 
 
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#eec11a"
-    textColor: "#264548"
-    list:
-      - title: Register Now
-        content: https://www.thecodingspace.com/sign_up/classes/3452
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
