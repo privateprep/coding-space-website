@@ -28,8 +28,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/thanksgiving-stem-activities.png
-      alt: Workshop
+      image: /img/original-gratitude-board.png
+      alt: Gratitude Workshop
     mediaPosition: right
     mdContent: >-
       ## **Glowing with Thanks: Build a Touch-Activated Gratitude Wall**
