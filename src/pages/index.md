@@ -9,7 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2025-09-06T20:41:47.388Z
-  mdContent: ""
+  mdContent: U﻿pcoming Events
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
