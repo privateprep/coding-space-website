@@ -16,7 +16,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: "## Spring 2025 Dates Coming Soon"
+    mdContent: "## S﻿tarting February 3rd"
   - type: headerAndMarkDownBlock
     buttons:
       bgColor: "#9de2dd"
