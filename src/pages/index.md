@@ -8,8 +8,8 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-11-30T21:41:47.388Z
-  mdContent: U﻿pcoming Events
+  removalDate: 2024-11-27T23:10:59.528Z
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
