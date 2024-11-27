@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2024-11-26T21:41:47.388Z
-  mdContent: "**U﻿pcoming Events:** Don't Miss our Gratitude Workshop on November
-    23rd! [Learn more here](https://www.thecodingspace.com/programs/calendar/)"
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
