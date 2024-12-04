@@ -18,12 +18,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Fall Classes
+      - title: Fall Classes (Dec-Jan)
         content: /fall
-      - title: Private Lessons
-        content: /programs/private-lessons-and-small-groups/
-      - title: School Holiday Camps
-        content: /experience-levels/school-holiday-mini-camps/
+      - title: Spring Classes (Feb-June)
+        content: /spring
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >-
