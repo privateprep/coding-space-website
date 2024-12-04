@@ -44,7 +44,7 @@ pageBuilder:
       # Teen Code
 
 
-      ### Recommended for ages 14-17, co-ed
+      ### Recommended for ages 13-17, co-ed
 
 
       In our Teen Code course held September through June, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
