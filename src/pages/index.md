@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-12-05T19:29:07.219Z
+  removalDate: 2024-12-05T21:16:30.974Z
   mdContent: ""
 hero:
   heading: The Coding Space
