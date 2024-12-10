@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: Our 2022 STEM Holiday Gift Guide
+title: Our 2024 STEM Holiday Gift Guide
 titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2024-12-10T21:34:05.920Z
 description: Handpicked gifts to inspire a love of STEM
 featuredPost: false
 featuredImage:
-  image: /img/stem-holiday-gift-guide-2023.png
+  image: /img/stem-holiday-gift-guide-2024.png
   alt: STEM Holiday Tile
 pageBuilder:
   - type: textOnly
@@ -21,7 +21,7 @@ pageBuilder:
       *Ages: 4-7*
 
 
-      Move over, toy cars—there’s a new speedster on the block! [Sphero Indi](https://sphero.com/products/indi-student-kit?gad_source=1&gclid=CjwKCAiA6t-6BhA3EiwAltRFGL0Pdj5N2dmXO1nye0xVgH_iAY0GdCMNb9dbcJ7SZkLnXY67KP8S4hoCk1wQAvD_BwE&hsa_acc=1322242190&hsa_ad=720298555656&hsa_cam=13173525528&hsa_grp=125298490929&hsa_kw=sphero+indi&hsa_mt=p&hsa_net=adwords&hsa_src=g&hsa_tgt=kwd-1275787664843&hsa_ver=3&utm_campaign=Search+-+indi+-+%28Branded%29&utm_medium=ppc&utm_source=adwords&utm_term=sphero+indi) is the perfect introduction to STEM and coding for little learners. This charming robot teaches problem-solving, creativity, and computational thinking without the need for screens. Kids can design obstacle courses and program Indi’s path using color-coded tiles, unlocking hours of hands-on exploration. With Indi, young minds can drive into a world of endless learning and fun.
+      Move over, toy cars—there’s a new speedster on the block! [Sphero Indi](https://www.amazon.com/Sphero-Indi-Student-Kit-Fundamentals/dp/B09DG6TB41/ref=sr_1_1?crid=1ZGUMBQ8UN7DC&dib=eyJ2IjoiMSJ9.kB2vOVSB0KQtPtLNVlE98uCAR_V-3Po4qJ-pVt-ceT3MY-jdu6P8YXnHAWwrGia9vTTTEXXxAibHBPLEb9wUYApUHaOEiJuz50jXnGpyOAduKCZHzvDKXNdTwKcUj0lxer3UroSqphLdLZwzo7hNWghGtKHFc4LXa4_NTL4BmmJjZXOPDBUfBUoJu0-LMPXsQdPAsX3VDMBriJVpxZNEj6h88nQsE8NHdYSeMXMosaVQWCfWUNKUv4gocr6GlcT3CRsaXOnJnW7VUMEjZO6Z9Nz2UaMxEQ3SKdUvfhTVWO7VfCz8eAsmg1r_6A2p-incXfaP78UvUUxiLbrabZSiL0ZltTQkwKP7DlMsW5Slpys.BWtp9xRLE3h1A9YxmrkwkVmfyfzjzpLwcpstrc_cRsk&dib_tag=se&keywords=sphero%2Bindi&qid=1733869211&s=toys-and-games&sprefix=sphero%2Bindi%2Ctoys-and-games%2C138&sr=1-1&th=1) is the perfect introduction to STEM and coding for little learners. This charming robot teaches problem-solving, creativity, and computational thinking without the need for screens. Kids can design obstacle courses and program Indi’s path using color-coded tiles, unlocking hours of hands-on exploration. With Indi, young minds can drive into a world of endless learning and fun.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
