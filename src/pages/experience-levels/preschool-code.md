@@ -37,5 +37,8 @@ details:
     and success in STEM.
 
 
+    I﻿nterested in a different time? [Contact us](/contact-us).
+
+
     **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site throughout the session.**
 ---
