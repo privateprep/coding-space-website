@@ -7,8 +7,8 @@ date: 2024-12-12T16:53:15.844Z
 description: >-
   This fall, our Early Engineers class is taking off—literally and figuratively!
   Designed for preschool-aged learners, this engaging program introduces
-  foundational coding and engineering concepts through screen-free, hands-on
-  activities. Young engineers are not only having fun but also building
+  foundational computer science and engineering concepts through screen-free,
+  hands-on activities. Young engineers are not only having fun but also building
   essential skills like critical thinking and problem-solving that will last a
   lifetime.
 
@@ -42,4 +42,4 @@ At such a formative age, every new skill is a stepping stone to greater cognitiv
 
 Our Early Engineers class is the perfect introduction to the exciting world of STEM. Whether your child is building a rocket, programming a robot, or solving a circuit puzzle, they’ll be developing skills that prepare them for future success.
 
-Are you ready to give your preschooler a head start in engineering and computer science? Click the link in our bio to learn more about the class and sign up today!
+Are you ready to give your preschooler a head start in engineering and computer science? [Click here to sign up today](https://www.thecodingspace.com/experience-levels/preschool-code/)!
