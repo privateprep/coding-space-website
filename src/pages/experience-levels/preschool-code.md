@@ -28,13 +28,14 @@ details:
     - Introduction to Coding
     - STEM
   mdContent: >-
-    Combining hands-on activities with byte-sized digital exercises,
-    preschool-aged coders will learn foundational coding concepts such as
-    sequencing, pattern recognition, and logical thinking. This innovative
-    approach ensures that our young learners not only gain early coding skills
-    but also develop critical problem-solving abilities, setting the stage for a
-    seamless transition to more advanced coding platforms as they grow.
+    Designed for preschool-aged learners, this engaging program introduces
+    foundational computer science and engineering concepts through screen-free,
+    hands-on activities. From building rockets to exploring foundational coding
+    concepts with playful tools, young learners practice pattern recognition,
+    logical thinking, problem-solving, and even early engineering principle.
+    These core skills set the stage for a lifetime of innovation, creativity,
+    and success in STEM.
 
 
-    **N﻿ote: This is not a drop-off class. Adult participation is required.**
+    **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site throughout the session.**
 ---
