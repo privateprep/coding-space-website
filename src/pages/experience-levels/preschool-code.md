@@ -37,7 +37,7 @@ details:
     and success in STEM.
 
 
-    I﻿nterested in a different time? [Contact us](/contact-us).
+    I﻿nterested in a different day or time? Email us at admissions@thecodingspace.com.
 
 
     **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site throughout the session.**
