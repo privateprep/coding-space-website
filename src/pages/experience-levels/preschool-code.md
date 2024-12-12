@@ -26,7 +26,7 @@ details:
     - Problem-Solving
   sellingPoints:
     - Introduction to Coding
-    - STEM
+    - Early STEM
   mdContent: >-
     Designed for preschool-aged learners, this engaging program introduces
     foundational computer science and engineering concepts through screen-free,
