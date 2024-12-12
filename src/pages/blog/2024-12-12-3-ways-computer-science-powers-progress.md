@@ -7,8 +7,8 @@ date: 2024-12-12T17:23:03.011Z
 description: "Computer Science is the Key to Innovation! Happy #CSEdWeek."
 featuredPost: false
 featuredImage:
-  image: /img/csedweek-2022.jpg
-  alt: Kids coding in fall-themed room
+  image: /img/untitled-design-1-.png
+  alt: "Kids coding "
 pageBuilder:
   - type: textOnly
     textAlign: left
