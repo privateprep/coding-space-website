@@ -17,7 +17,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ### F﻿ebruary 3, 2025 - June 7, 2025
+      ### F﻿ebruary - June 2025
 
 
       #### Join Us This Spring
@@ -26,25 +26,7 @@ pageBuilder:
       We’re excited to welcome you to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you!
 
 
-      T﻿he spring semester runs from February 3rd through June 7th, but students are welcome to join at any time. Learn more about what we're offering this spring below.
-  - type: headerAndMarkDownBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    mediaPosition: right
-    textColor: "#264548"
-    textAlign: center
-    bgColor: "#faf6ee"
-    heading: Code the Future This Spring
-    mdContent: >-
-      We’re excited to welcome you to The Coding Space where anything is
-      possible. Whether you’re joining us at one of our in-person locations or
-      meeting up with classmates for virtual lessons, we’re looking forward to
-      learning, growing, and—of course—coding with you! 
-
-
-      T﻿he spring semester runs from February to June, but students are welcome to join at any time. Learn more about what we're offering this spring below.
+      T﻿he spring semester starts February 3rd, but students are welcome to join at any time. Learn more about what we're offering this spring below.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
