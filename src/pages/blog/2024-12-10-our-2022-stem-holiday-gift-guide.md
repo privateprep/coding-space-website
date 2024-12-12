@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#9de2dd"
 date: 2024-12-10T21:34:05.920Z
 description: Handpicked gifts to inspire a love of STEM
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/stem-holiday-gift-guide-2024.png
   alt: STEM Holiday Tile
