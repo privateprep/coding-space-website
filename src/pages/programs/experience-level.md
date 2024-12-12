@@ -38,12 +38,10 @@ pageBuilder:
         fgColor: "#9de2dd"
         textColor: "#264548"
         heading: Students will
-        mdContent: >-
-          
-
+        mdContent: |-
           * Receive an introduction to coding
-
-          * Engage in a variety of STEM activities that get them thinking like an engineer
+          * Engage in a variety of STEM activities 
+          * L﻿earn to think like an engineer!
     rightComponent:
       - type: textOnly
         textAlign: center
@@ -56,7 +54,7 @@ pageBuilder:
           #### Ages 3-5
 
 
-          Combining hands-on activities with byte-sized digital exercises, preschool-aged coders will learn foundational coding concepts such as sequencing, pattern recognition, and logical thinking. This innovative approach ensures that our young learners not only gain early coding skills but also develop critical problem-solving abilities, setting the stage for a seamless transition to more advanced coding platforms as they grow.
+          Designed for preschool-aged learners, this engaging program introduces foundational computer science and engineering concepts through screen-free, hands-on activities. From building rockets to exploring foundational coding concepts with playful tools, young learners practice pattern recognition, logical thinking, problem-solving, and even early engineering principles. These core skills set the stage for a lifetime of innovation, creativity, and success in STEM and beyond.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#faf6ee"
@@ -87,7 +85,7 @@ pageBuilder:
         heading: Students will
         mdContent: |-
           * start forming computational thinking patterns
-          * develop a fluency with technology
+          * b﻿uild computer literacy
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
@@ -188,7 +186,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          ## **Advanced Code: Dive Deep into the World of Advanced Programming**
+          ## **Advanced** 
 
 
           #### Ages 10-13, co-ed
