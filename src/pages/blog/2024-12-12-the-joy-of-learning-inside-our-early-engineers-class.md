@@ -18,6 +18,8 @@ featuredPost: true
 featuredImage:
   image: /img/early-engineers.png
   alt: Early Engineers Class
+tags:
+  - ClassSpotlight
 ---
 ### **Hands-On Learning Activities That Inspire**
 
