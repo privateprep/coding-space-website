@@ -18,7 +18,7 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Fall Classes (Dec-Jan)
+      - title: Fall Classes (Jan)
         content: /fall
       - title: Spring Classes (Feb-June)
         content: /spring
