@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Summer 2024
+title: Summer 2025
 titleColor: "#264548"
 seo:
   title: Summer Coding Camps & Classes for Kids & Teens
@@ -36,7 +36,7 @@ pageBuilder:
       ### Learn to Code in Our Immersive Camps
 
 
-      Held Monday through Friday throughout the summer on the Upper East Side in NYC, Park Slope, Brooklyn, and Port Washington, Long Island, our camps combine project-based coding, STEM exploration, team-building activities, exciting field trips, and more to create an unforgettable summer experience.
+      Held Monday through Friday throughout the summer on the Upper East Side in NYC, Park Slope, Brooklyn, and Port Washington, Long Island, our camps combine project-based coding, tech challenges, outdoor time, exciting field trips, and more to create an unforgettable summer experience.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
