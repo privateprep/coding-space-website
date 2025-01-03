@@ -94,6 +94,26 @@ pageBuilder:
           C﻿ode projects and build products that they can take home with them.
 
           Make new friends and have a blast.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /about-us/our-teaching-philosophy
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/GirlCode-around-a-table.jpg
+      alt: Kids working on on a computer in a group
+    mediaPosition: right
+    mdContent: >-
+      ## Not Your Typical Coding Camp
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
+    fgColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
@@ -108,13 +128,13 @@ pageBuilder:
       fgColor: "#9de2dd"
       textColor: "#264548"
     textColor: "#264548"
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     image:
       image: /img/2024-field-trips.png
       alt: 2024 Field Trip Schedule
     mediaPosition: right
     mdContent: >-
-      ## **Tech Expeditions: See Innovation in Action!**
+      ## **Tech Expeditions: See Innovation in Action**
 
 
       At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to top tech companies and innovation hubs. Through these field trips, kids discover real-world applications of their skills, connect with professionals shaping the future of STEM, and see how technology is used to solve all sorts of challenges.
@@ -126,20 +146,20 @@ pageBuilder:
       Field trips take place on the second week of every two-week package. Our 2025 summer field trip schedule is expected to be released in May 2025!
   - type: textAndImageBlock
     buttons:
-      bgColor: "#ffffff"
+      bgColor: "#9de2dd"
       fgColor: "#eec11a"
       textColor: "#264548"
       list:
         - title: Sign Up for Camp
           content: /experience-levels/camp-coding-space/
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     image:
       image: /img/campers-using-arduino.jpg
       alt: Campers making projects in Arduino
     mediaPosition: right
     mdContent: >-
-      ## **I﻿ntroducing the Tech Olympics: Innovate, Collaborate, Create!**
+      ## **I﻿ntroducing the Tech Olympics: Innovate, Collaborate, Create**
 
 
       Camp Coding Space’s Tech Olympics empowers kids to solve real-world challenges through hands-on activities in coding, robotics, and engineering. Each day features creative projects like designing mini-games, programming robots, building interactive circuits, and exploring AI.
@@ -152,14 +172,14 @@ pageBuilder:
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: "## Camp Coding Space Locations"
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     leftComponent:
       - type: boxWithLogo
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         fgColor: "#9de2dd"
         textColor: "#264548"
         heading: Upper East Side
@@ -177,7 +197,7 @@ pageBuilder:
           **Outdoor time:** 12:30 PM-1:30 PM in Central or Nearby Park
     rightComponent:
       - type: boxWithLogo
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         fgColor: "#264548"
         textColor: "#ffffff"
         heading: Park Slope
@@ -194,10 +214,10 @@ pageBuilder:
 
           **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
   - type: sideBySide
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     leftComponent:
       - type: boxWithLogo
-        bgColor: "#faf6ee"
+        bgColor: "#ffffff"
         fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: |-
@@ -219,26 +239,6 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: J﻿oin us today!
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /about-us/our-teaching-philosophy
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/GirlCode-around-a-table.jpg
-      alt: Kids working on on a computer in a group
-    mediaPosition: right
-    mdContent: >-
-      ## Not Your Typical Coding Camp
-
-
-      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
-    fgColor: "#264548"
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
