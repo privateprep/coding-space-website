@@ -130,7 +130,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/2024-field-trips.png
+      image: /img/2024-field-trips-2-.png
       alt: 2024 Field Trip Schedule
     mediaPosition: right
     mdContent: >-
