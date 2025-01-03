@@ -52,17 +52,24 @@ pageBuilder:
         textColor: "#264548"
         mediaPosition: column
         list:
-          - title: Expert Instructors in a 4:1 Ratio
-            content: "  "
-          - title: Personalized Coding Curriculum That Challenges Each Camper at Their
-              Individual Level
-            content: "  "
-          - title: Exciting Field Trips to Tech Companies Like Google & Etsy
-            content: "  "
-          - title: Screen Break Activities & Outdoor Games in the Park
-            content: "  "
-          - title: Introduction to Robotics, Circuitry, AI, and More
-            content: "  "
+          - title: Personalized Coding Curriculum
+            content: Each camper tackles projects tailored to their individual skill level
+              and interests, ensuring growth and engagement.
+          - title: Expert Instructors
+            content: With a 4:1 camper-to-instructor ratio, every child gets the attention
+              they need to succeed.
+          - title: Teamwork and Social Impact
+            content: Through our Tech Olympics, campers collaborate on projects that
+              leverage technology for social good.
+          - title: Exciting Field Trips
+            content: Explore real-world applications of coding, robotics, and AI through
+              inspiring outings.
+          - title: Screen Break Activities & Outdoor Fun
+            content: Campers enjoy time in the park or playground with games and activities
+              to balance their tech learning.
+          - title: Weekly Progress Reports
+            content: Parents stay in the loop with updates on their child’s achievements and
+              growth.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#faf6ee"
@@ -97,7 +104,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: Field trips occur at our Upper East Side and Park Slope locations only.
+    mdContent: Our 2025 summer field trip schedule is expected to be released in May 2025!
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
