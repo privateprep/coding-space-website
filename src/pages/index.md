@@ -22,6 +22,8 @@ hero:
         content: /fall
       - title: Spring Classes (Feb-June)
         content: /spring
+      - title: Summer Programs
+        content: https://thecodingspace.com/summer
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >-
