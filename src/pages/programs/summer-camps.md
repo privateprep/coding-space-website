@@ -101,7 +101,7 @@ pageBuilder:
     mdContent: |-
       ## A Day at Camp Coding Space
 
-      ![TCS camp schedule](/img/summer-camp-schedule.png "TCS camp schedule")
+      ![TCS camp schedule](/img/project-based-coding-1-.png "TCS camp schedule")
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
