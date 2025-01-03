@@ -66,9 +66,9 @@ pageBuilder:
           - title: Teamwork and Social Impact
             content: Through our Tech Olympics, campers collaborate on projects that
               leverage technology for social good.
-          - title: Exciting Field Trips
+          - title: Tech Expeditions
             content: Explore real-world applications of coding, robotics, and AI through
-              inspiring outings.
+              inspiring field trips.
           - title: Screen Break Activities & Outdoor Fun
             content: Campers enjoy time in the park or playground with games and activities
               to balance their tech learning.
@@ -101,11 +101,18 @@ pageBuilder:
     mdContent: |-
       ## A Day at Camp Coding Space
 
-      ![TCS camp schedule](/img/project-based-coding-1-.png "TCS camp schedule")
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
+      ![TCS camp schedule](/img/tcs-summer-schedule.png "TCS camp schedule")
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
     textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/2024-field-trips.png
+      alt: Accessibility name
+    mediaPosition: right
     mdContent: >-
       ## **Tech Expeditions: See Innovation in Action!**
 
