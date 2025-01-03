@@ -22,7 +22,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/photo.png
+      image: /img/untitled-design-5-.png
       alt: Students exploring magnetics at camp
     mediaPosition: left
     mdContent: >-
