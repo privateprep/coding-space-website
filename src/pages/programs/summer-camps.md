@@ -43,6 +43,11 @@ pageBuilder:
 
       Learn more and register today!
     fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## What Makes Camp Coding Space Exceptional?"
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -70,6 +75,9 @@ pageBuilder:
           - title: Weekly Progress Reports
             content: Parents stay in the loop with updates on their child’s achievements and
               growth.
+          - title: Project Showcase
+            content: Campers share their favorite projects every Friday at 2:30 PM in a
+              special showcase. Parents and guardians are welcome to attend!
     rightComponent:
       - type: boxWithLogo
         bgColor: "#faf6ee"
@@ -104,7 +112,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: Our 2025 summer field trip schedule is expected to be released in May 2025!
+    mdContent: Our 2025 summer field trip schedule is expected to be released in May
+      2025! Field trips take place on the second week of every two-week package.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -209,7 +218,7 @@ pageBuilder:
       alt: Campers making projects in Arduino
     mediaPosition: right
     mdContent: >-
-      ## T﻿he Lift-Off Lab
+      ## T﻿he Tech Olympics
 
 
       Designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab gives campers the opportunity to explore robotics, circuitry, animation, 3D modeling, and more on camp afternoons. Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions like how their invention could be used for good or how AI and machine learning could influence what they create.
