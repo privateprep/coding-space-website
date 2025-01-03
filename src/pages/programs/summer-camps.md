@@ -111,28 +111,19 @@ pageBuilder:
     bgColor: "#9de2dd"
     image:
       image: /img/2024-field-trips.png
-      alt: Accessibility name
+      alt: 2024 Field Trip Schedule
     mediaPosition: right
     mdContent: >-
       ## **Tech Expeditions: See Innovation in Action!**
 
 
-      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to top tech companies and innovation hubs. Campers get an exclusive behind-the-scenes look at how cutting-edge technologies are created and meet professionals shaping the future of STEM.
-
-
-      Through these field trips, kids discover real-world applications of their skills, connect with industry leaders, and see how technology is used to solve global challenges—from sustainability to accessibility.
+      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to top tech companies and innovation hubs. Through these field trips, kids discover real-world applications of their skills, connect with professionals shaping the future of STEM, and see how technology is used to solve all sorts of challenges.
 
 
       It’s a chance to dream big, learn from the best, and see how their ideas can change the world!
 
 
-      Our 2025 summer field trip schedule is expected to be released in May 2025! Field trips take place on the second week of every two-week package.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: "![Field trips to Google, Etsy, GUMBO, and
-      Hungryroot](/img/2024-field-trip-schedule.png)"
+      Field trips take place on the second week of every two-week package. Our 2025 summer field trip schedule is expected to be released in May 2025!
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
