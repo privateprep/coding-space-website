@@ -22,17 +22,26 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/google-field-trip.jpg
-      alt: Students on a field trip to Microsoft
+      image: /img/photo.png
+      alt: Students exploring magnetics at camp
     mediaPosition: left
     mdContent: >-
-      ## Welcome to Camp Coding Space, the most stellar coding camp in the
-      galaxy!
+      ## Welcome to Camp Coding Space, Where Imagination Meets Innovation!
 
 
-      Our summer coding camp features **field trips to tech companies**, so that our young STEM lovers can see where the magic happens, **project-based coding** to launch their coding skills into orbit, and plenty of **outdoor fun** to get their minds and bodies moving. In the afternoons, they'll experience **The Lift-Off Lab** where they'll be inspired to use their ingenuity, creativity, and leadership skills to build, create, and invent.
+      Get ready for a summer of discovery and growth at The Coding Space! Our young tech enthusiasts will dive into the exciting world of coding, creating games, animations, and apps while sharpening their problem-solving skills.
 
-       Learn more and register below!
+
+      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle challenges for social good using electronics, robotics, programming, AI, eand more.
+
+
+      Beyond coding, campers will enjoy outdoor fun in the park, engaging group games, and exciting field trips that bring STEM and technology to life in the real world.
+
+
+      We can't wait for a summer filled with epic learning adventures and unforgettable fun!
+
+
+      Learn more and register today!
     fgColor: "#9de2dd"
   - type: sideBySide
     bgColor: "#faf6ee"
