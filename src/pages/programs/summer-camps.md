@@ -106,14 +106,52 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "![Field trips to Google, Etsy, GUMBO, and
-      Hungryroot](/img/2024-field-trip-schedule.png)"
+    mdContent: >-
+      ## **Tech Expeditions: See Innovation in Action!**
+
+
+      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to top tech companies and innovation hubs. Campers get an exclusive behind-the-scenes look at how cutting-edge technologies are created and meet professionals shaping the future of STEM.
+
+
+      Through these field trips, kids discover real-world applications of their skills, connect with industry leaders, and see how technology is used to solve global challenges—from sustainability to accessibility.
+
+
+      It’s a chance to dream big, learn from the best, and see how their ideas can change the world!
+
+
+      Our 2025 summer field trip schedule is expected to be released in May 2025! Field trips take place on the second week of every two-week package.
   - type: textOnly
     textAlign: center
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: Our 2025 summer field trip schedule is expected to be released in May
-      2025! Field trips take place on the second week of every two-week package.
+    mdContent: "![Field trips to Google, Etsy, GUMBO, and
+      Hungryroot](/img/2024-field-trip-schedule.png)"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#ffffff"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Sign Up for Camp
+          content: /experience-levels/camp-coding-space/
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/campers-using-arduino.jpg
+      alt: Campers making projects in Arduino
+    mediaPosition: right
+    mdContent: >-
+      ## **I﻿ntroducing the Tech Olympics: Innovate, Collaborate, Create!**
+
+
+      Camp Coding Space’s Tech Olympics empowers kids to solve real-world challenges through hands-on activities in coding, robotics, and engineering. Each day features creative projects like designing mini-games, programming robots, building interactive circuits, and exploring AI.
+
+
+      Campers not only develop technical skills but also build teamwork, problem-solving, and ethical thinking—all while tackling activities that inspire social impact, like designing sustainable solutions or creating assistive technologies.
+
+
+      Join us to spark innovation and make a difference!
+    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
@@ -203,29 +241,6 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#ffffff"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Sign Up for Camp
-          content: /experience-levels/camp-coding-space/
-    textColor: "#264548"
-    bgColor: "#ffffff"
-    image:
-      image: /img/campers-using-arduino.jpg
-      alt: Campers making projects in Arduino
-    mediaPosition: right
-    mdContent: >-
-      ## T﻿he Tech Olympics
-
-
-      Designed to inspire young innovators to use their ingenuity, creativity, and leadership skills to build, create, and invent, The Lift-Off Lab gives campers the opportunity to explore robotics, circuitry, animation, 3D modeling, and more on camp afternoons. Our experienced instructors will guide campers through the engineering design process, providing support and guidance every step of the way, as well as engage them in important real-world discussions like how their invention could be used for good or how AI and machine learning could influence what they create.
-
-
-      At The Coding Space we believe that creativity, innovation, and collaboration are essential skills for the future. That's why we're dedicated to providing a space where young people can develop these skills and explore their interests in fun and engaging ways all summer long.
-    fgColor: "#9de2dd"
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
@@ -236,18 +251,36 @@ pageBuilder:
     bgColor: "#faf6ee"
     heading: What Families Are Saying About The Coding Space
     list:
-      - title: My son loved every minute of camp. The counselors were super fun,
-          patient, and the program was smart and engaging. The camp also does a
-          tech pre-check the day before to ensure the best experience.
-        content: Kerri, NYC
-      - title: The Coding Space is fun to me because they let me make up my own ideas,
-          have fun doing the activities, and then share! It's a place with a
-          message of fun to me.
-        content: Ellery, Brooklyn
+      - title: Easily the best coding camp in NYC - actually teaches coding with
+          engaged, hands-on instruction, rather than throwing kids in a computer
+          lab to fend for themselves all day as many other camps do. Staff are
+          friendly and attentive, and booking - even last-minute - is easy and
+          efficient. My camper learned a ton of new skills and had a lot of fun
+          doing it. Thanks for a great summer!
+        content: Michael, NYC Parent
+      - title: “I love coding camp! My favorite part was visiting Samsung and Apple. I
+          felt like a professional coder.”
+        content: Mylo, Brooklyn Camper
       - title: I was impressed by how much one-on-one feedback James received. I really
           liked the fact that the camp counselors didn't tell him what to do,
           but rather encouraged him to problem solve on his own.
         content: Tricia, NYC
+      - title: We are with The Coding Space for the 3rd year and it's been a great
+          journey into coding together! Kids start with Scratch (building blocks
+          of coding), then move onto WoofJS (JavaScript) and after that start
+          coding on Python. They build valuable skills that empower them in
+          their further educational and working life, I can't be happier with
+          the Coding Space!
+        content: Elena, NYC Parent
+      - title: Attending The Coding Space again was an incredible experience! I love the
+          activities as well as the instructors who are knowledgeable,
+          supportive and kind. I gained valuable skills in coding that I feel
+          confident in. The collaborative environment made learning enjoyable
+          and effective. I highly recommend this camp to anyone looking to
+          enhance their coding skills and connect with a community of
+          like-minded individuals. It was truly a transformative and fun
+          experience!
+        content: Bryce, NYC Camper
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
