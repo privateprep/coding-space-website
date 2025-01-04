@@ -152,5 +152,5 @@ pageBuilder:
     textColor: "#faf6ee"
     list:
       - title: Apply for a Scholarship
-        content: /scholarship
+        content: /about-us/scholarship-program/
 ---
