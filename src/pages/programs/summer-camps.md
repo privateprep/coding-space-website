@@ -22,7 +22,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/camp-images.png
+      image: /img/untitled-design-7-.png
       alt: Students coding at camp
     mediaPosition: left
     mdContent: >-
