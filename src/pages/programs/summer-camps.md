@@ -8,8 +8,8 @@ seo:
     project-based coding, plenty of outdoor fun, and tech exploration at The
     Lift-Off-Lab. Don't miss it!
 heroImage:
-  image: /img/summer-camp-2023-postcards.pdf-1600-×-400-px-1-.png
-  alt: Accessibility name
+  image: /img/camp-coding-space.png
+  alt: Camp Coding Space
 pageBuilder:
   - type: textAndImageBlock
     buttons:
