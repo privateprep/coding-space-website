@@ -24,19 +24,11 @@ details:
     - JavaScript
     - Python
   sellingPoints:
-    - Camp Games & Activities
-    - STEM Exploration
-    - Immersive Experience
+    - Learn to Code
+    - Innovate with Tech
     - Field Trips
-  mdContent: >-
-    Held from June to August, our in-person camps combine project-based coding,
-    STEM exploration, epic team challenges, field trips, and more. Choose an
-    option that fits your schedule and give your child a summer adventure
-    they'll never forget!
-
-
-    **U﻿pcoming Field Trips**
-
-
-    A﻿ugust 16th: GUMBO (Park Slope Week 6, UES Week 8)
+  mdContent: Held from June to August, our in-person camps combine project-based
+    coding, tech exploration, epic team challenges, field trips, and more.
+    Choose an option that fits your schedule and give your child a summer
+    adventure they'll never forget!
 ---
