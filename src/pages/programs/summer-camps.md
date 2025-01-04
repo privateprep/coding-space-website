@@ -238,7 +238,7 @@ pageBuilder:
         textAlign: center
         bgColor: "#faf6ee"
         textColor: "#264548"
-        mdContent: J﻿oin us today!
+        mdContent: "![Outdoor time at summer camp](/img/untitled-design-6-.png)"
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
