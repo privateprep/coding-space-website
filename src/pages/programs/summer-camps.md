@@ -293,6 +293,22 @@ pageBuilder:
         content: Norma, NYC Parent
   - type: textOnly
     textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Scholarships Available
+
+
+      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs.
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: ""
+    list:
+      - title: Apply for a Scholarship
+        content: "#"
+  - type: textOnly
+    textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
