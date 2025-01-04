@@ -22,8 +22,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/untitled-design-5-.png
-      alt: Students exploring magnetics at camp
+      image: /img/camp-images.png
+      alt: Students coding at camp
     mediaPosition: left
     mdContent: >-
       ## Welcome to Camp Coding Space, Where Imagination Meets Innovation!
