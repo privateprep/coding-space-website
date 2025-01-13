@@ -126,16 +126,6 @@ export const studentFields = [
     validator: requiredString,
   },
   {
-    name: "student_racial_identity",
-    hint: "The Coding Space is committed to racial justice and educational equity. This data will primarily be used for internal purposes. We will release a report stripped of all individually identifying data on an annual basis.",
-    label:
-      "What race/ethnicity best describes your child? Write all that apply.",
-    type: "custom-radio",
-    initialValue: "",
-    options: [],
-    validator: requiredString,
-  },
-  {
     name: "student_school_name",
     label: "School Name",
     type: "text",
