@@ -18,10 +18,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Fall Classes (Jan)
-        content: /fall
-      - title: Spring Classes (Feb-June)
+      - title: "Spring Classes "
         content: /spring
+      - title: School Holiday Camps
+        content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Programs
         content: https://thecodingspace.com/summer
 mainpitch:
