@@ -37,20 +37,6 @@ team:
 
       Melissa is thrilled about the chance to expand opportunities with the company, as well as help both the current and incoming students!
   - image:
-      image: /img/aspen.jpeg
-      alt: Aspen Meineke's Headshot
-    mdContent: >-
-      ## Aspen Meineke
-
-
-      #### Program Director
-
-
-      Aspen is a passionate educator originally from San Antonio, Texas. She received a Bachelor’s Degree in Mechanical Engineering at the University of Texas at San Antonio and while in college mentored a robotics club for elementary students. It was here she found her passion for making STEM education and coding accessible to all students. Prior to working at The Coding Space, Aspen worked in the non-profit sector bringing STEM education programming to low income students.
-
-
-      As the Program Director for The Coding Space, Aspen is excited to continue building programs for students that help them build confidence in their coding skills and themselves.
-  - image:
       image: /img/photo_head_shot_pelle_hall.jpg
       alt: Accessibility name
     mdContent: >-
