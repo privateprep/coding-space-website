@@ -9,7 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2024-12-09T19:10:31.240Z
-  mdContent: ""
+  mdContent: J﻿oin Us on a Day Off from School! [View Holiday Camp
+    Schedule](/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
