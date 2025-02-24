@@ -51,7 +51,7 @@ openings:
       removalDate: 2025-05-14T15:45:19.108Z
       applyLink: https://docs.google.com/forms/d/e/1FAIpQLSev_AJ1PvLkpFXSOnfObU2mMz9P7IKnXu25TS49824qogp7vQ/viewform
     info:
-      title: After School Coding Teacher Fall 2024-2025
+      title: After School Coding Teacher 2025
       locations:
         - NYC
         - Brooklyn
