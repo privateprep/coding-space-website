@@ -32,7 +32,7 @@ details:
     foundational computer science and engineering concepts through screen-free,
     hands-on activities. From building rockets to exploring foundational coding
     concepts with playful tools, young learners practice pattern recognition,
-    logical thinking, problem-solving, and even early engineering principle.
+    logical thinking, problem-solving, and even early engineering principles.
     These core skills set the stage for a lifetime of innovation, creativity,
     and success in STEM.
 
