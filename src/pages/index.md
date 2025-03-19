@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2024-12-09T19:10:31.240Z
+  removalDate: 2025-04-12T18:10:31.240Z
   mdContent: J﻿oin Us at Our Summer Camp Open House! [RSVP
     Here](https://docs.google.com/forms/d/e/1FAIpQLSfEys3prk86ZNRgL4xA01_nGIa2_v8V4J27yxhZnPD-kHemnA/viewform?usp=sharing).
 hero:
@@ -21,7 +21,7 @@ hero:
     list:
       - title: "Spring Classes "
         content: /spring
-      - title: School Holiday Camps
+      - title: Spring Break Camp
         content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Programs
         content: https://thecodingspace.com/summer
