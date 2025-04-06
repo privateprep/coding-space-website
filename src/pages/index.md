@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2025-04-12T18:10:31.240Z
-  mdContent: J﻿oin Us at Our Summer Camp Open House! [RSVP
-    Here](https://docs.google.com/forms/d/e/1FAIpQLSfEys3prk86ZNRgL4xA01_nGIa2_v8V4J27yxhZnPD-kHemnA/viewform?usp=sharing).
+  mdContent: D﻿on't Miss April Spring Break Camp! [Register
+    here](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
