@@ -168,7 +168,7 @@ pageBuilder:
       Campers not only develop technical skills but also build teamwork, problem-solving, and new ways of thinking, including tackling activites that inspire social impact, like designing sustainable solutions or creating assistive technologies.
 
 
-      Join us to spark innovation and make a difference!
+      Join us to spark innovation and develop future changemakers!
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
