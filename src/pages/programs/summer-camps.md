@@ -26,22 +26,22 @@ pageBuilder:
       alt: Students coding at camp
     mediaPosition: left
     mdContent: >-
-      ## Welcome to Camp Coding Space, Where Imagination Meets Innovation!
+      ## Welcome to Camp Coding Space, Where Imagination Meets Innovation
 
 
       Get ready for a summer of discovery and growth at The Coding Space! Our young tech enthusiasts will dive into the exciting world of coding, creating games, animations, and apps while sharpening their problem-solving skills.
 
 
-      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle challenges using electronics, robotics, programming, AI, and more.
+      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle fun and creative challenges using electronics, robotics, programming, AI, and more.
 
 
-      Beyond coding, campers will enjoy outdoor fun in the park, engaging group games, and exciting field trips that bring STEM and technology to life in the real world.
+      Beyond hands-on coding and tech, campers will enjoy outdoor fun in the park, engaging group games, and exciting field trips that bring STEM and technology to life in the real world.
 
 
       We can't wait for a summer filled with epic learning adventures and unforgettable fun!
 
 
-      Learn more and register today!
+      Learn more and register today.
     fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
