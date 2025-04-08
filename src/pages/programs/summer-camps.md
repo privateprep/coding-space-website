@@ -32,7 +32,7 @@ pageBuilder:
       Get ready for a summer of discovery and growth at The Coding Space! Our young tech enthusiasts will dive into the exciting world of coding, creating games, animations, and apps while sharpening their problem-solving skills.
 
 
-      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle challenges for social good using electronics, robotics, programming, AI, and more.
+      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle challenges using electronics, robotics, programming, AI, and more.
 
 
       Beyond coding, campers will enjoy outdoor fun in the park, engaging group games, and exciting field trips that bring STEM and technology to life in the real world.
@@ -165,7 +165,7 @@ pageBuilder:
       Camp Coding Space’s Tech Olympics empowers kids to solve real-world challenges through hands-on activities in coding, robotics, and engineering. Each day features creative projects like designing mini-games, programming robots, building interactive circuits, and exploring AI.
 
 
-      Campers not only develop technical skills but also build teamwork, problem-solving, and ethical thinking—all while tackling activities that inspire social impact, like designing sustainable solutions or creating assistive technologies.
+      Campers not only develop technical skills but also build teamwork, problem-solving, and new ways of thinking, including tackling activites that inspire social impact, like designing sustainable solutions or creating assistive technologies.
 
 
       Join us to spark innovation and make a difference!
