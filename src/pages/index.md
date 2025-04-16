@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2025-04-12T18:10:31.240Z
-  mdContent: D﻿on't Miss April Spring Break Camp! [Register
-    here](https://www.thecodingspace.com/experience-levels/school-holiday-mini-camps/).
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An after-school and summer coding program where kids and teens
