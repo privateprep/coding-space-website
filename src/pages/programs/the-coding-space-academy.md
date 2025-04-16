@@ -99,7 +99,7 @@ pageBuilder:
 
           * Launch their individual capstone project.
 
-          * Embark on a field trip to a tech company like Google, Microsoft, and Meta to explore what it’s like to work as an engineer.
+          * Embark on a field trip to a tech company to explore what it’s like to work as an engineer.
 
           * Attend optional after-class office hours to ask project-specific questions, troubleshoot, and fix bugs.
 
