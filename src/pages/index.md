@@ -20,8 +20,6 @@ hero:
     list:
       - title: "Spring Classes "
         content: /spring
-      - title: Spring Break Camp
-        content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Programs
         content: https://thecodingspace.com/summer
 mainpitch:
