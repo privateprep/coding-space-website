@@ -86,7 +86,7 @@ pageBuilder:
 
           * Brainstorm their Week 2 project with their mentor and select their coding language of choice.
 
-          * Visit a local college campus, talk with computer science professors and majors, and learn what it’s like to be a computer science scholar.
+          * Visit a local college campus and learn what it’s like to be a computer science scholar.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
