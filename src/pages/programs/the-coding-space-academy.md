@@ -115,7 +115,7 @@ pageBuilder:
     textAlign: center
     bgColor: "#264548"
     textColor: "#264548"
-    mdContent: "![](/img/screen-shot-2022-04-27-at-11.58.28-am.png)"
+    mdContent: "![](/img/hands-on-activities.png)"
   - type: textAndImageBlock
     buttons:
       bgColor: "#ffffff"
