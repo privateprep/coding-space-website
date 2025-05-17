@@ -130,7 +130,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/2025-field-trip-schedule-1080-x-1080-px-.png
+      image: /img/2025-field-trip-schedule-1080-x-1080-px-750-x-350-px-.png
       alt: 2025 Field Trip Schedule
     mediaPosition: right
     mdContent: >-
