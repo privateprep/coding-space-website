@@ -137,13 +137,15 @@ pageBuilder:
       ## **Tech Expeditions: See Innovation in Action**
 
 
-      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to top tech companies and innovation hubs. Through these field trips, kids discover real-world applications of their skills, connect with professionals shaping the future of STEM, and see how technology is used to solve all sorts of challenges.
+      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to leading tech companies, hands-on science museums, and interactive innovation hubs. Each two-week session includes a special field trip where campers explore real-world technology in action, from cutting-edge startups like Hungryroot, to interactive STEM experiences at MoMath and NYSCI, and the world-changing tech labs of Google.\
 
+      \
 
-      It’s a chance to dream big, learn from the best, and see how their ideas can change the world!
+      Through these immersive experiences, kids discover how technology shapes the world, meet the people driving innovation, and see firsthand how their own ideas can make an impact.\
 
+      \
 
-      Field trips take place on the second week of every two-week package. Our 2025 summer field trip schedule is expected to be released in May 2025!
+      Field trips take place during the second week of each two-week package.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
