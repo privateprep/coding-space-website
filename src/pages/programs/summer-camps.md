@@ -63,9 +63,9 @@ pageBuilder:
           - title: Expert Instructors
             content: With a 4:1 camper-to-instructor ratio, every child gets the attention
               they need to succeed.
-          - title: Teamwork and Social Impact
+          - title: Teamwork and Real-World Impact
             content: Through our Tech Olympics, campers collaborate on projects that
-              leverage technology for social good.
+              demonstrate how technology can solve real-world challenges.
           - title: Tech Expeditions
             content: Explore real-world applications of coding, robotics, and AI through
               inspiring field trips.
