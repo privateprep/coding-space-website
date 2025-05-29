@@ -26,7 +26,7 @@ pageBuilder:
       We’re excited to welcome you to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you!
 
 
-      T﻿he fall semester runs from September 9th through February 1st, but students are welcome to join at any time. Learn more about what we're offering this fall below
+      T﻿he fall semester runs from September 8th through January 31st, but students are welcome to join at any time. Learn more about what we're offering this fall below.
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
