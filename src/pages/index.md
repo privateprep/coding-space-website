@@ -19,8 +19,8 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: "Spring Classes "
-        content: /spring
+      - title: "Fall Classes "
+        content: /fall
       - title: Summer Programs
         content: https://thecodingspace.com/summer
 mainpitch:
