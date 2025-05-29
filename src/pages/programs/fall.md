@@ -20,7 +20,7 @@ pageBuilder:
       ### September 8, 2024 - January 31, 2025
 
 
-      #### Harvest New Skills This Fall at The Coding Space
+      #### Future-Focused. Code-Ready. This Fall at The Coding Space.
 
 
       We’re excited to welcome you to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you!
