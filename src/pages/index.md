@@ -25,12 +25,18 @@ hero:
         content: https://thecodingspace.com/summer
 mainpitch:
   title: Where Kids Learn to Think Critically
-  description: >-
-    We offer in-person and online coding classes and camps for kids and teens in
-    a caring, inclusive space for students to have fun, be challenged, and grow
-    as thinkers, learners, and leaders.
+  description: >+
+    We offer in-person and online classes and camps for kids and teens in a
+    caring, inclusive space for students to have fun, be challenged, and grow as
+    thinkers, learners, and leaders. Through hands-on projects like coding
+    games, animations, and interactive stories, as well as exploring
+    foundational concepts in artificial intelligence, data, algorithms, and
+    logic, students build creativity, confidence, and computational thinking.
+    They develop not just technical skills, but the mindset of thoughtful,
+    adaptable problem solvers.
 
-    In our online and in-person coding spaces, students learn to code through the development of computational thinking skills, intellectual confidence, self-expression, and independence.
+
+
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
