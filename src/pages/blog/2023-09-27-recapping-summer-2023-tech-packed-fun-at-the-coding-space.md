@@ -7,7 +7,7 @@ date: 2023-09-27T18:54:43.828Z
 description: The summer of 2023 at The Coding Space was a blast! From June to
   August, young tech enthusiasts gathered to dive into the world of coding and
   STEM.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/google-field-trip-1.jpg
   alt: Summer camp field trip to Google
