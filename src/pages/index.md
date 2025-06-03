@@ -13,8 +13,8 @@ banner:
     camps](/experience-levels/school-holiday-mini-camps/) in June!
 hero:
   heading: The Coding Space
-  subheading: ​​An after-school and summer coding program where kids and teens
-    learn to code while developing critical thinking skills.
+  subheading: ​​An enrichment program where where students learn to think like
+    problem solvers by exploring coding, AI, and core computer science concepts.
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
