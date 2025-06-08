@@ -18,10 +18,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: "Fall Classes "
-        content: /fall
       - title: Summer Programs
         content: https://thecodingspace.com/summer
+      - title: "Fall Classes "
+        content: /fall
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >+
