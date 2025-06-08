@@ -9,8 +9,7 @@ seo:
     leaders.
 banner:
   removalDate: 2025-06-25T18:10:31.240Z
-  mdContent: C﻿an't wait for summer? Join our [school break
-    camps](/experience-levels/school-holiday-mini-camps/) in June!
+  mdContent: ""
 hero:
   heading: The Coding Space
   subheading: ​​An enrichment program where where students learn to think like
