@@ -82,6 +82,11 @@ const CheckoutForm = props => {
     }
   };
 
+  const basePrice = parseFloat(props.parentState.values.price_shown_to_customer);
+  const creditCardFee = basePrice * 0.03;
+  const totalWithFee = basePrice + creditCardFee;
+  const displayPrice = props.isCreditCard ? totalWithFee : basePrice;
+
   return (
     <div className="card-checkout">
       <div>
@@ -94,7 +99,7 @@ const CheckoutForm = props => {
         disabled={isSubmitting}
         style={{ display: "flex", justifyContent: "center" }}
       >
-        Purchase for {`$${props.parentState.values.price_shown_to_customer}`}{" "}
+        Purchase for {`$${displayPrice.toFixed(2)}`}{" "}
         {isSubmitting && <ThreeDotLoader />}
       </button>
       <small>

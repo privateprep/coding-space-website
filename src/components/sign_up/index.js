@@ -53,7 +53,14 @@ const initialValues = isTrialClass => {
 const confirmationPageSubmitText = values => {
   if (values.price_shown_to_customer === "0.00") return "Confirm Signup";
 
-  return "Proceed to Checkout";
+  const basePrice = parseFloat(values.price_shown_to_customer);
+  const creditCardFee = basePrice * 0.03;
+  const totalWithFee = basePrice + creditCardFee;
+
+  return {
+    credit: `Proceed to Checkout (Credit Card) - $${totalWithFee.toFixed(2)} (includes 3% fee)`,
+    debit: `Proceed to Checkout (Debit Card) - $${basePrice.toFixed(2)}`
+  };
 };
 
 const SignUp = ({ classTypeId, location: { search } }) => {
@@ -67,6 +74,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
   const isTrialClass = search.includes("trial_class=true");
   const pageTitle = isTrialClass ? "Try A Class" : "Sign Up";
   const enrollmentType = isTrialClass ? "trial_class" : "all";
+  const [isCreditCard, setIsCreditCard] = useState(false);
 
   useEffect(() => {
     if (!overview) {
@@ -124,11 +132,18 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     }
   }, [overview, classTypeId, isTrialClass, enrollmentType]);
 
+  const handlePaymentMethod = (isCredit) => {
+    setIsCreditCard(isCredit);
+  };
+
   const signupSubmit = async (values, bag) => {
-    setSubmitError(undefined); // clear old error
+    setSubmitError(undefined);
 
     try {
-      const res = await signupForClass(values);
+      const res = await signupForClass({
+        ...values,
+        is_credit_card: isCreditCard
+      });
       setAdsTracking(res.adsTracking);
       if (res.nextStep === "collect_payment") {
         setPaymentIntent(res.paymentIntent);
@@ -141,12 +156,12 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       bag.setSubmitting(false);
     } catch (error) {
       if (error.status === 422) {
-        bag.setErrors(error.errors); // set errors in Formik
-        setSubmitError(error); // shown in message
+        bag.setErrors(error.errors);
+        setSubmitError(error);
         bag.setSubmitting(false);
-        return Promise.reject("handledFormError"); // prevent Wizard.next page turn
+        return Promise.reject("handledFormError");
       } else {
-        throw error; // unhandled error, let HB know
+        throw error;
       }
     }
   };
@@ -242,11 +257,14 @@ const SignUp = ({ classTypeId, location: { search } }) => {
         overview={overview}
         isTrialClass={isTrialClass}
         onSubmit={signupSubmit}
-        setSubmitTextFromValues={confirmationPageSubmitText}
+        setIsCreditCard={setIsCreditCard}
+        isCreditCard={isCreditCard}
+        submitText={null}
       />
       <CheckoutPage
         title="Checkout"
         paymentIntent={paymentIntent}
+        isCreditCard={isCreditCard}
         stripePublicKey={stripePublicKey}
         onSuccessRedirect={onSuccessRedirect}
         hideWizardActions
