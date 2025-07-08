@@ -37,8 +37,10 @@ pageBuilder:
           content: /locations/upper-east-side
         - title: Park Slope
           content: /locations/park-slope
-        - title: Long Island
+        - title: Port Washington
           content: /locations/long-island
+        - title: Scarsdale
+          content: /locations/westchester
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
