@@ -17,7 +17,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ### September 8, 2024 - January 31, 2025
+      ### September 8, 2025 - January 31, 2026
 
 
       #### Future-Focused. Code-Ready. This Fall at The Coding Space.
@@ -39,7 +39,7 @@ pageBuilder:
           content: /locations/park-slope
         - title: Port Washington
           content: /locations/long-island
-        - title: Scarsdale
+        - title: New! Scarsdale
           content: /locations/westchester
     textColor: "#264548"
     bgColor: "#faf6ee"
