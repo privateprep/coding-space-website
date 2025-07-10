@@ -51,10 +51,12 @@ openings:
       removalDate: 2025-09-01T15:45:19.108Z
       applyLink: https://forms.gle/v6Q948srpNUxvun38
     info:
-      title: After School Coding Teacher 2025
+      title: After School Coding Teacher 2025-2026
       locations:
         - NYC
         - Brooklyn
+        - Westchester
+        - Long Island
       description: Do you love working with kids? Do you want to make a change in the
         education system? Whether you are a coding expert or just starting, we
         provide training and mentorship to help you become an awesome Coding
