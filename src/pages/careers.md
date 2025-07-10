@@ -47,9 +47,9 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - details:
-      postingDate: 2025-02-24T18:41:16.183Z
-      removalDate: 2025-05-14T15:45:19.108Z
-      applyLink: https://docs.google.com/forms/d/e/1FAIpQLSev_AJ1PvLkpFXSOnfObU2mMz9P7IKnXu25TS49824qogp7vQ/viewform
+      postingDate: 2025-07-10T16:58:50.396Z
+      removalDate: 2025-09-01T15:45:19.108Z
+      applyLink: https://forms.gle/v6Q948srpNUxvun38
     info:
       title: After School Coding Teacher 2025
       locations:
@@ -59,22 +59,6 @@ openings:
         education system? Whether you are a coding expert or just starting, we
         provide training and mentorship to help you become an awesome Coding
         Teacher.
-      type:
-        - part-time
-  - details:
-      postingDate: 2024-07-19T14:37:05.476Z
-      removalDate: 2024-09-04T14:37:05.597Z
-      applyLink: https://docs.google.com/forms/d/e/1FAIpQLScPztuxW7VLZI6sxACwDn9qFejBJrO8Eh1Lfb0btsCl4crPXA/viewform
-    info:
-      title: Lead STEM Instructor
-      description: Do you love working with kids and everything STEM? Do you have
-        experience with 3D printing and robotics? Are you passionate about
-        curriculum design for student-centered learning? If this describes you,
-        you could be our next Lead STEM Instructor with the exciting mission to
-        expand our STEM programming for the 2024-2025 school year.
-      locations:
-        - NYC
-        - Brooklyn
       type:
         - part-time
 ---
