@@ -14,7 +14,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/covid-in-person-camp.jpeg
+      image: /img/slice-10-2-.png
       alt: Safely learning during COVID.
     mediaPosition: left
     mdContent: >-
