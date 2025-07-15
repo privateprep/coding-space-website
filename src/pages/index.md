@@ -11,7 +11,7 @@ banner:
   removalDate: 2025-08-23T18:10:31.240Z
   mdContent: We're launching in Scarsdale this fall! Join us for free coding & AI
     workshops on August 16. [Register
-    here](https://www.eventbrite.com/manage/events/1492292219199).
+    here](https://www.eventbrite.com/e/free-coding-workshops-in-scarsdale-join-us-to-celebrate-our-fall-launch-tickets-1492292219199?aff=oddtdtcreator).
 hero:
   heading: The Coding Space
   subheading: ​​An enrichment program where where students learn to think like
