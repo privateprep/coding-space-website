@@ -8,8 +8,10 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2025-06-01T18:10:31.240Z
-  mdContent: ""
+  removalDate: 2025-08-23T18:10:31.240Z
+  mdContent: We're launching in Scarsdale this fall! Join us for free coding & AI
+    workshops on August 16. [Register
+    here](https://www.eventbrite.com/manage/events/1492292219199).
 hero:
   heading: The Coding Space
   subheading: ​​An enrichment program where where students learn to think like
