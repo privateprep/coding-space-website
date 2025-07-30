@@ -124,14 +124,27 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     }
   }, [overview, classTypeId, isTrialClass, enrollmentType]);
 
-  const signupSubmit = async (values, bag) => {
-    setSubmitError(undefined); // clear old error
+  const onSuccessRedirect = () => {
+    navigate(`/thank_you`, {
+      replace: true,
+      state: { adsTracking: adsTracking },
+    });
+  };
+
+  const handleCheckoutSuccess = (adsTrackingData) => {
+    setAdsTracking(adsTrackingData);
+    onSuccessRedirect();
+  };
+
+  const handleConfirmationSubmit = async (values, bag) => {
+    setSubmitError(undefined);
 
     try {
       const res = await signupForClass(values);
       setAdsTracking(res.adsTracking);
+
       if (res.nextStep === "collect_payment") {
-        setPaymentIntent(res.paymentIntent);
+        // Only get the Stripe public key, don't create payment intent yet
         setStripePublicKey(res.stripePublicKey);
       } else if (res.nextStep === "send_confirmation") {
         onSuccessRedirect();
@@ -141,22 +154,33 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       bag.setSubmitting(false);
     } catch (error) {
       if (error.status === 422) {
-        bag.setErrors(error.errors); // set errors in Formik
-        setSubmitError(error); // shown in message
+        bag.setErrors(error.errors);
+        setSubmitError(error);
         bag.setSubmitting(false);
-        return Promise.reject("handledFormError"); // prevent Wizard.next page turn
+        return Promise.reject("handledFormError");
       } else {
-        throw error; // unhandled error, let HB know
+        throw error;
       }
     }
   };
 
-  const onSuccessRedirect = () => {
-    navigate(`/thank_you`, {
-      replace: true,
-      state: { adsTracking: adsTracking },
-    });
-  };
+  // Get Stripe public key on component mount
+  useEffect(() => {
+    const getStripeKey = async () => {
+      try {
+        // Call a simple endpoint to get the Stripe public key
+        const response = await fetch(`${process.env.DASHBOARD_BASE_URL}/services/stripe/public_key`);
+        const data = await response.json();
+        setStripePublicKey(data.public_key);
+      } catch (error) {
+        console.error('Failed to get Stripe public key:', error);
+      }
+    };
+
+    if (!stripePublicKey) {
+      getStripeKey();
+    }
+  }, [stripePublicKey]);
 
   if (!!fetchError) {
     return (
@@ -241,14 +265,13 @@ const SignUp = ({ classTypeId, location: { search } }) => {
         submitError={submitError}
         overview={overview}
         isTrialClass={isTrialClass}
-        onSubmit={signupSubmit}
+        onSubmit={handleConfirmationSubmit}
         setSubmitTextFromValues={confirmationPageSubmitText}
       />
       <CheckoutPage
         title="Checkout"
-        paymentIntent={paymentIntent}
         stripePublicKey={stripePublicKey}
-        onSuccessRedirect={onSuccessRedirect}
+        onSuccessRedirect={handleCheckoutSuccess}
         hideWizardActions
       />
     </Wizard>
