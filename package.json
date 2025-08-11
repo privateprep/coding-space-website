@@ -61,17 +61,10 @@
     "build": "yarn run clean && NODE_OPTIONS=--openssl-legacy-provider gatsby build",
     "develop": "yarn run clean && NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
     "format": "prettier --trailing-comma es5 --arrowParens avoid --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
-    "@storybook/addon-actions": "^6.3.8",
-    "@storybook/addon-essentials": "^6.3.8",
-    "@storybook/addon-links": "^6.3.8",
-    "@storybook/preset-scss": "^1.0.3",
-    "@storybook/react": "^6.3.8",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.1.1",
     "prettier": "^2.0.5",
