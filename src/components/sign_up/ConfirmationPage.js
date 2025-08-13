@@ -57,6 +57,9 @@ const ConfirmationPage = ({
           <li>
             <strong>Price </strong>
             {`$${values.price_shown_to_customer}`}
+            {values.price_shown_to_customer !== "0.00" && (
+              <span> (3% credit card fee may apply)</span>
+            )}
           </li>
           <li>
             <strong>Refund Policy </strong> View our policy{" "}
