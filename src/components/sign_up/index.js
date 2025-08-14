@@ -143,6 +143,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       const res = await signupForClass(values);
       setAdsTracking(res.adsTracking);
 
+      console.log(res.nextStep);
       if (res.nextStep === "collect_payment") {
         // Only get the Stripe public key, don't create payment intent yet
         setStripePublicKey(res.stripePublicKey);
