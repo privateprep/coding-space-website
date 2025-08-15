@@ -143,7 +143,6 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       const res = await signupForClass(values);
       setAdsTracking(res.adsTracking);
 
-      console.log(res.nextStep);
       if (res.nextStep === "collect_payment") {
         // Only get the Stripe public key, don't create payment intent yet
         setStripePublicKey(res.stripePublicKey);
@@ -242,14 +241,14 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       />
       <FormPage
         title="Parent Details"
-        subtitle="Please use the same name as will appear on the credit card during checkout."
+        subtitle="Please use the same name as will appear on the card during checkout."
         fields={parentFields}
         onSubmit={"nextPage"}
         submitText={"Next »"}
       />
       <FormPage
         title="Billing Details"
-        subtitle="These fields should match the address on the credit card that will be used."
+        subtitle="These fields should match the address on the card that will be used."
         fields={billingFields}
         onSubmit={"nextPage"}
         submitText={"Next »"}
@@ -262,7 +261,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       />
       <ConfirmationPage
         title="Confirm"
-        subtitle="Please take a second to double check the following:"
+        subtitle="Please take a second to double check the following. Payments using a credit card will incur a 3% processing fee. To avoid this fee you can use a debit card, which will remain as a no-fee option."
         submitError={submitError}
         overview={overview}
         isTrialClass={isTrialClass}
