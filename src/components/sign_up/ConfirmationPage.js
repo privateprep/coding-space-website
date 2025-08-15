@@ -22,7 +22,7 @@ const ConfirmationPage = ({
             <strong>Parent Name </strong>
             {`${values.parent_first} ${values.parent_last}`}
             <p className="hint">
-              Should match the credit card that will be used in the next step.
+              Should match the card that will be used in the next step.
             </p>
           </li>
           <li>
@@ -38,7 +38,7 @@ const ConfirmationPage = ({
               !!values.address2 ? ` ${values.address2}` : ""
             } ${values.city} ${values.state}, ${values.zip_code}`}
             <p className="hint">
-              Should match the credit card that will be used in the next step.
+              Should match the card that will be used in the next step.
             </p>
           </li>
           <li>
