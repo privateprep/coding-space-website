@@ -160,6 +160,9 @@ const CheckoutForm = props => {
 
   return (
     <div className="card-checkout">
+      <div className="payment-reminder">
+        <p>Please note that payments using a credit card will incur a 3% processing fee. To avoid this fee you can use a debit card, which will remain as a no-fee option.</p>
+      </div>
       <div>
         Card details
         <CardElement onChange={handleCardChange} />
@@ -174,7 +177,7 @@ const CheckoutForm = props => {
           </div>
           {isCreditCard && baseAmount > 0 && (
             <div className="payment-row fee-row">
-              <span>Credit Card Fee (3%):</span>
+              <span>Credit Card Fee (3%): </span>
               <span>${feeAmount}</span>
             </div>
           )}
