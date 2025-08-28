@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2024-12-12T17:23:03.011Z
 description: "Computer Science is the Key to Innovation! Happy #CSEdWeek."
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/untitled-design-1-.png
   alt: "Kids coding "
