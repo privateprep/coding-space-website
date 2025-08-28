@@ -7,7 +7,7 @@ date: 2023-08-01T13:32:05.645Z
 description: “So, yes, they let women do some things at NASA, and it’s not
   because we wear skirts. It’s because we wear glasses.” – Katherine Johnson,
   Hidden Figures
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/stem-movies.png
   alt: STEM Movies
