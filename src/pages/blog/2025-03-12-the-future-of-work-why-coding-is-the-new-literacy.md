@@ -10,7 +10,7 @@ description: In today’s world, technology is woven into nearly every aspect of
   evolves, coding is becoming just as fundamental as reading and writing—an
   essential skill for navigating the future of work, especially in an era shaped
   by artificial intelligence.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/untitled-design-9-.png
   alt: A student coding
