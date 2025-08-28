@@ -14,7 +14,7 @@ description: >-
 
 
   Our Early Engineers class focuses on making learning exciting and accessible for children as young as three. Here’s a look at what your little learners can expect.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/early-engineers.png
   alt: Early Engineers Class
