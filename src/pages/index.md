@@ -19,10 +19,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Summer Programs
-        content: https://thecodingspace.com/summer
       - title: "Fall Classes "
         content: /fall
+      - title: School Holiday Camps
+        content: /experience-levels/school-holiday-mini-camps/
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >+
