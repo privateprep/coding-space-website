@@ -50,6 +50,6 @@ Now, more people can *start* without coding, but those who can code have superpo
 
 So, is coding dead? Not at all. It’s more alive—and more accessible—than ever. What’s dying is the idea that coding is only for a select few. The future belongs to those who can think computationally, whether they’re writing code themselves, guiding AI, or orchestrating no-code tools.
 
-In other words: coding isn’t dead. It’s just getting started.
+In other words: coding is just getting started.
 
 👉 Want your child to gain these future-ready skills? At [The Coding Space](https://www.thecodingspace.com?utm_source=chatgpt.com), we teach kids not just how to code, but how to *think like problem-solvers*. Our project-based classes make coding fun, creative, and empowering—because the next generation of innovators starts here.
