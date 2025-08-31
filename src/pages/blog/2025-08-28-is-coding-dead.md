@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Is Coding Dead?
+title: How Coding Is Evolving in the Age of AI
 titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2025-08-28T17:41:32.494Z
