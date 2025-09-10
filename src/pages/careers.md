@@ -47,8 +47,8 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - details:
-      postingDate: 2025-07-10T16:58:50.396Z
-      removalDate: 2025-09-01T15:45:19.108Z
+      postingDate: 2025-09-10T15:02:07.261Z
+      removalDate: 2025-12-31T16:02:16.796Z
       applyLink: https://forms.gle/v6Q948srpNUxvun38
     info:
       title: After School Coding Teacher 2025-2026
