@@ -69,7 +69,14 @@ openings:
       applyLink: https://forms.gle/uUZaXSzoE5iCVkWN7
     info:
       title: Program Manger
-      description: ""
+      description: >-
+        Compensation: $67,000 + benefits
+
+
+        We're seeking a full-time Program Manager to join our NY Metro area team and help lead our growing network of in-person and online coding programs. This is an in-person role that includes regular travel to our locations in Manhattan, Brooklyn, the Bronx, Scarsdale, and Port Washington.
+
+
+        As Program Manager, you'll own key aspects of teacher management, program quality, and class operations. You'll be instrumental in maintaining our high standards while continuously improving our programs.
       type:
         - full-time
       locations:
