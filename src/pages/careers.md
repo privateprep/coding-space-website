@@ -63,4 +63,15 @@ openings:
         Teacher.
       type:
         - part-time
+  - details:
+      postingDate: 2025-09-16T18:23:29.413Z
+      removalDate: 2025-10-31T18:24:45.159Z
+      applyLink: https://forms.gle/uUZaXSzoE5iCVkWN7
+    info:
+      title: Program Manger
+      description: ""
+      type:
+        - full-time
+      locations:
+        - NYC
 ---
