@@ -57,10 +57,14 @@ openings:
         - Brooklyn
         - Westchester
         - Long Island
-      description: Do you love working with kids? Do you want to make a change in the
+      description: >
+        Do you love working with kids? Do you want to make a change in the
         education system? Whether you are a coding expert or just starting, we
         provide training and mentorship to help you become an awesome Coding
         Teacher.
+
+
+        Compensation: $25/hr-$35/hr starting rate
       type:
         - part-time
   - details:
@@ -69,14 +73,18 @@ openings:
       applyLink: https://forms.gle/uUZaXSzoE5iCVkWN7
     info:
       title: Program Manger
-      description: >-
-        Compensation: $67,000 + benefits
-
-
-        We're seeking a full-time Program Manager to join our NY Metro area team and help lead our growing network of in-person and online coding programs. This is an in-person role that includes regular travel to our locations in Manhattan, Brooklyn, the Bronx, Scarsdale, and Port Washington.
+      description: >
+        We're seeking a full-time Program Manager to join our NY Metro area team
+        and help lead our growing network of in-person and online coding
+        programs. This is an in-person role that includes regular travel to our
+        locations in Manhattan, Brooklyn, the Bronx, Scarsdale, and Port
+        Washington.
 
 
         As Program Manager, you'll own key aspects of teacher management, program quality, and class operations. You'll be instrumental in maintaining our high standards while continuously improving our programs.
+
+
+        Compensation: $67,000 + benefits
       type:
         - full-time
       locations:
