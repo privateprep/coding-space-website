@@ -164,11 +164,9 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     }
   };
 
-  // Get Stripe public key on component mount
   useEffect(() => {
     const getStripeKey = async () => {
       try {
-        // Call a simple endpoint to get the Stripe public key
         const response = await fetch(`${process.env.DASHBOARD_BASE_URL}/services/stripe/public_key`);
         const data = await response.json();
         setStripePublicKey(data.public_key);
