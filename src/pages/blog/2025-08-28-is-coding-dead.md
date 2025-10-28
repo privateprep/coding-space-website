@@ -13,11 +13,11 @@ featuredImage:
   image: /img/girl-computer-home-sofa-woman-work-teen-student-e-learning-communication-laptop-internet-couch-online_t20_ojmlne.jpg
   alt: Accessibility name
 ---
-## The Big Picture
+### The Big Picture
 
 Coding isn’t just about typing commands. It's about thinking critically, solving problems, and bringing ideas to life with the help of powerful new tools. Just as calculators didn’t replace math and Photoshop didn’t replace art, AI won’t replace coding. It’s simply transforming what it means to be a creator.
 
-## Why People Think Coding is Changing
+### Why People Think Coding is Changing
 
 1. **AI-powered development tools** – Products like GitHub Copilot can generate code on demand, reducing the need to handwrite every line.
 2. **No-code/low-code platforms** – Tools like Webflow, Bubble, and Zapier allow people with little technical training to build apps, websites, and automations.
@@ -25,7 +25,7 @@ Coding isn’t just about typing commands. It's about thinking critically, solvi
 
 From the outside, it might seem like coding is “doing itself.” But in reality, these tools are *removing barriers* and opening doors for more people to create.
 
-## Why Coding Skills Still Matter
+### Why Coding Skills Still Matter
 
 Even with AI and no-code tools, coding knowledge is a superpower:
 
