@@ -15,9 +15,7 @@ hero:
   heading: The Coding Space
   subheading: >
     Empowering kids and teens to learn coding, explore AI, and think like
-    innovators. In our inclusive, project-based classes and camps, students
-    build real skills, tackle creative challenges, and develop the
-    problem-solving mindset that drives lifelong learning.
+    innovators. 
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
