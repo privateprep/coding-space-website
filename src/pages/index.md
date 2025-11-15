@@ -13,8 +13,11 @@ banner:
     here](https://www.thecodingspace.com/locations/westchester).
 hero:
   heading: The Coding Space
-  subheading: ​​An enrichment program where students learn to think like problem
-    solvers by exploring coding, AI, and core computer science concepts.
+  subheading: >
+    Empowering kids and teens to learn coding, explore AI, and think like
+    innovators. In our inclusive, project-based classes and camps, students
+    build real skills, tackle creative challenges, and develop the
+    problem-solving mindset that drives lifelong learning.
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
