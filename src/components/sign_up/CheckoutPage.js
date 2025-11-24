@@ -137,8 +137,30 @@ const CheckoutForm = props => {
 
       const res = await signupForClass(signupParams);
 
-      if (res.nextStep === "send_confirmation") {
-        // Backend has created payment intent and processed payment
+      if (res.nextStep === "requires_action" && res.paymentIntent) {
+        // Handle 3DS authentication
+        const { error: confirmError } = await stripe.confirmCardPayment(
+          res.paymentIntent.client_secret
+        );
+
+        if (confirmError) {
+          setCardError(confirmError);
+          setIsSubmitting(false);
+          return;
+        }
+
+        // After successful 3DS, verify payment completed and then redirect
+        const { paymentIntent } = await stripe.retrievePaymentIntent(
+          res.paymentIntent.client_secret
+        );
+
+        if (paymentIntent.status === 'succeeded') {
+          props.onSuccessRedirect(res.adsTracking);
+        } else {
+          setCardError({ message: "Payment authentication failed. Please try again." });
+          setIsSubmitting(false);
+        }
+      } else if (res.nextStep === "send_confirmation") {
         props.onSuccessRedirect(res.adsTracking);
       } else {
         throw new Error("Next step unknown!");
