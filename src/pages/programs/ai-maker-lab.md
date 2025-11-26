@@ -25,7 +25,10 @@ pageBuilder:
       **Where coding, creativity, and artificial intelligence come together.**
 
 
-      Middle schoolers are already using AI. Now they'll learn how it actually works. In AI Maker Lab, students explore the building blocks of artificial intelligence through hands-on coding projects, simple machine-learning tools, generative AI art and music, and even real-world data from micro:bit sensors. 
+      Middle schoolers are already using AI, but do they understand how it works, how to create with it, and how to use it responsibly?
+
+
+      AI Maker Lab is an innovative new offering for middle schoolers to combine coding with AI tools, building their own portfolio of creative yet thoughtful projects. Students will train simple machine learning models, use AI-generated art or music in their games, and experiment with physical hardware, like micro:bits, to see how AI is trained from real-world data. 
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
