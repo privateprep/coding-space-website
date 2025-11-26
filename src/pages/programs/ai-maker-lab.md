@@ -44,7 +44,7 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Upper East Side
-        content: https://www.thecodingspace.com/sign_up/classes/4386
+        content: /sign_up/classes/4386
       - title: Park Slope
-        content: https://dashboard.privateprep.com/class_types/4385
+        content: /sign_up/classes/4385
 ---
