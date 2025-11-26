@@ -22,6 +22,8 @@ hero:
     list:
       - title: "Fall Classes "
         content: /fall
+      - title: Spring Classes
+        content: /spring
       - title: School Holiday Camps
         content: /experience-levels/school-holiday-mini-camps/
 mainpitch:
