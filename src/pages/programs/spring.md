@@ -17,7 +17,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ### F﻿ebruary - June 2025
+      ### F﻿ebruary - June 2026
 
 
       #### Join Us This Spring
