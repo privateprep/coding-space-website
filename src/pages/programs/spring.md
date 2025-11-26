@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Spring 2026 Coding Classes
+title: Spring 2026 Classes
 titleColor: "#264548"
 seo:
   title: Spring Coding Classes
@@ -10,7 +10,7 @@ seo:
     learning, and—of course, coding with you!
 heroImage:
   image: /img/tcs-header.png
-  alt: Accessibility name
+  alt: Spring 2026
 pageBuilder:
   - type: textOnly
     textAlign: center
