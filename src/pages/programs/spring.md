@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Spring 2025 Coding Classes
+title: Spring 2026 Coding Classes
 titleColor: "#264548"
 seo:
   title: Spring Coding Classes
@@ -26,7 +26,7 @@ pageBuilder:
       We’re excited to welcome you to The Coding Space. Whether you’re joining us at one of our in-person locations or meeting up with classmates for virtual lessons, we’re looking forward to laughing, learning, and—of course—coding with you!
 
 
-      T﻿he spring semester starts February 3rd, but students are welcome to join at any time. Learn more about what we're offering this spring below.
+      T﻿he spring semester starts February 2nd, but students are welcome to join at any time. Learn more about what we're offering this spring below.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -39,6 +39,8 @@ pageBuilder:
           content: /locations/park-slope
         - title: Port Washington
           content: /locations/long-island
+        - title: Scarsdale
+          content: /locations/westchester
         - title: Online
           content: /locations/online
     textColor: "#264548"
@@ -48,14 +50,17 @@ pageBuilder:
       alt: Students learning to code
     mediaPosition: right
     mdContent: >-
-      ## Group Coding Classes
+      ## Group Classes
 
 
-      **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive Learning Environment**\
+      **Build Cutting-Edge Skills in a Supportive Learning Environment**\
 
       \
 
-      Our weekly after-school coding classes in Manhattan, Brooklyn, Long Island, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly after-school and Saturday classes in Manhattan, Brooklyn, Long Island, Westchester, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises personalized attention and individual growth. 
+
+
+      Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
