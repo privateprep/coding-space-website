@@ -15,7 +15,7 @@ heroImage:
   alt: Accessibility name
 pageBuilder:
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
