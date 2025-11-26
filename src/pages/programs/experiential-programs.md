@@ -15,18 +15,16 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ## Join Our Community of Coders
+      ## Join Our Community of Learners
 
 
-      ### Unique Learning Experiences That Foster Friendship
+      ### Unique Learning Experiences That Foster Critical Thinking, Problem Solving, and Collaboration
 
 
-
-
-      From supportive, female-identifying coding environments to our STEM Leadership and High School Accelerator programs, our GirlCode and teen programs meet student needs inside the classroom and beyond, creating a community of coders and friendships that last.
+      From supportive, female-identifying coding environments to AI Maker Lab, our programs meet student needs inside the classroom and beyond, creating a community of coders and friendships that last.ee
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
