@@ -9,7 +9,7 @@ description: If you've asked yourself, "How does ChatGPT actually know all this
   Claude, and Gemini, feels sudden and magical. But underneath the magic is a
   very real (and surprisingly understandable) story about data, math, and a
   breakthrough idea from a few years ago.
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/how-llms-work.png
   alt: How LLMs work
