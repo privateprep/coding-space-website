@@ -102,17 +102,16 @@ featuredProject:
   studentProfile:
     name: The Coding Spae Team
     age: 10
-    interests: " Coding, Tech, Learning New Things"
+    interests: "Interests: Coding, Tech, Learning New Things"
     image:
-      image: /img/smily_face.svg
-      alt: Happy face
+      image: /img/tcs-logo.png
+      alt: The Coding Space Logo
     className: Spring registration is now open!
     classUrl: /classes
   project:
     description: "  "
-    title: "  Happy Holidays!"
-    content: "  https://scritch.dev/play#948383248480912614785276819742059420382048\
-      50250991"
+    title: "  Happy Holidays from The Coding Space!"
+    content: https://scratch.mit.edu/projects/1249191762/embed
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
