@@ -19,7 +19,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ![](/img/tcs-digital-banners-1200-x-400-px-1-.png)
+      ![AI Maker Studio](/img/tcs-digital-banners-1200-x-400-px-1-.png)
 
 
       ***AI Maker Lab: Where coding, creativity, and artificial intelligence come together.***
