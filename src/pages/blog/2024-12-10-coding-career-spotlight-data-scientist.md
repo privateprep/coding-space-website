@@ -6,7 +6,7 @@ bgColor: "#9de2dd"
 date: 2024-12-10T21:00:35.413Z
 description: |
   Decode the World: Build Insights with Code
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/career-spotlight.png
   alt: Data Scientist
