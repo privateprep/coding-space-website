@@ -103,22 +103,46 @@ pageBuilder:
         bgColor: "#eec11a"
         textColor: "#264548"
         mdContent: "## **Students Will Gain**"
-  - type: textOnly
-    textAlign: left
+  - type: sideBySide
     bgColor: "#ffffff"
-    textColor: "#264548"
-    mdContent: |-
-      ## I﻿nside the Student Journey
+    rightComponent:
+      - type: boxWithLogo
+        bgColor: "#ffffff"
+        fgColor: "#eec11a"
+        textColor: "#264548"
+        mdContent: |-
+          ✔︎ **A foundational understanding of how AI works**\
+          ✔︎ **Practice training models with real data**\
+          ✔︎ **Coding confidence through hands-on games and projects**\
+          ✔︎ **Experience building AI-enhanced creations**\
+          ✔︎ **Knowledge of AI ethics, safety, and bias**\
+          ✔︎ **A portfolio they can share with family or schools**\
+        heading: Students Will Gain
+    leftComponent:
+      - type: textOnly
+        textAlign: left
+        bgColor: "#ffffff"
+        textColor: "#264548"
+        mdContent: >-
+          ## I﻿nside the Student Journey
 
-      **Weeks 1-3: How AI Learns**\
-      Training models, understanding patterns, exploring bias
 
-      **Weeks 4-6: Creative AI (Art, Music, & Game Development)**\
-      Generating assets, building creative games
+          **Weeks 1-3: How AI Learns**\
 
-      **Weeks 7-10: AI + Physical Computing**\
-      micro:bit sensors, data collection, smart device prototypes
+          Training models, understanding patterns, exploring bias
 
-      **Weeks 11-15: Agents, Ethics & Final Projects**\
-      Building AI agents, discussing responsible AI, creating a showcase project
+
+          **Weeks 4-6: Creative AI (Art, Music, & Game Development)**\
+
+          Generating assets, building creative games
+
+
+          **Weeks 7-10: AI + Physical Computing**\
+
+          micro:bit sensors, data collection, smart device prototypes
+
+
+          **Weeks 11-15: Agents, Ethics & Final Projects**\
+
+          Building AI agents, discussing responsible AI, creating a showcase project
 ---
