@@ -103,4 +103,22 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: "## **Students Will Gain**"
+  - type: textOnly
+    textAlign: left
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: |-
+      ## I﻿nside the Student Journey
+
+      **Weeks 1-3: How AI Learns**\
+      Training models, understanding patterns, exploring bias
+
+      **Weeks 4-6: Creative AI (Art, Music, & Game Development)**\
+      Generating assets, building creative games
+
+      **Weeks 7-10: AI + Physical Computing**\
+      micro:bit sensors, data collection, smart device prototypes
+
+      **Weeks 11-15: Agents, Ethics & Final Projects**\
+      Building AI agents, discussing responsible AI, creating a showcase project
 ---
