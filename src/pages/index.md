@@ -9,8 +9,8 @@ seo:
     leaders.
 banner:
   removalDate: 2025-12-19T19:10:31.240Z
-  mdContent: We're launching in Scarsdale this fall! [Register
-    here](https://www.thecodingspace.com/locations/westchester).
+  mdContent: "New Course for Middle Schoolers: AI Maker Lab. [Learn more
+    here](/ai-maker-lab)."
 hero:
   heading: The Coding Space
   subheading: >
