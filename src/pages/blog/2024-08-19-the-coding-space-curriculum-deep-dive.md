@@ -1,20 +1,24 @@
 ---
 templateKey: blog-post
-title: The Coding Space Curriculum Deep Dive 
+title: Understanding Project-Based Learning, Untutorials, and Creative Projects
 titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2024-08-19T20:06:54.667Z
-description: Understanding Project-Based Learning, Untutorials, and Creative Projects
+description: >
+  At The Coding Space, our mission is to empower kids and teens to learn coding,
+  explore AI, and think like innovators. In doing so, we aim to develop their
+  problem-solving, critical thinking, learning skills, confidence, attitudes,
+  and mindsets. Below are a few key tools and tactics we use to accomplish our
+  mission. 
 featuredPost: true
 featuredImage:
   image: /img/img_2250.jpeg
   alt: Example of TCS Untutorials in Action
 ---
-At The Coding Space, our mission is to empower people to tackle challenges independently through learning to code. In doing so, we aim to develop their problem-solving, critical thinking, learning skills, confidence, attitudes, and mindsets. Below are a few key tools and tactics we use to accomplish our mission. 
 
 ### The project-based, “learning-by-making” classroom
 
-*“Learning is most effective when part of an activity the learner experiences as constructing a meaningful product.” - Seymour Papert*
+*“Learning is most effective when part of an activity the learner experiences as constructing a meaningful product.” -Seymour Papert*
 
 The Coding Space's project-based, “learning-by-making” classroom style provides a space for students to develop and practice real-life learning strategies by building meaningful projects. In this way, learning is highly motivated, relevant, and memorable. Most important, it gives students the confidence that they can learn as they go. 
 
@@ -26,7 +30,7 @@ Our project-based model also teaches that there are no hard lines between differ
 
 ### Untutorials
 
-*“The goal of a flying instructor is to impart enough in dual mode to enable the student to fly alone successfully in solo mode.” - T. A. Dwyer*
+*“The goal of a flying instructor is to impart enough in dual mode to enable the student to fly alone successfully in solo mode.” -T. A. Dwyer*
 
 At The Coding Space, our ultimate goal is to create self-sufficient learners, critical thinkers, and problem-solvers. However, our classes offer a variety of scaffolds, or temporary instructional support, that allow students to develop their skills in “dual mode” with the eventual goal of graduating them to “solo mode,” where they need less and less of our curricular guide rails.
 
@@ -36,7 +40,7 @@ This is an example of one of our beginner [untutorials](https://coding.space/lau
 
 ### Creative projects
 
-*“The best time to learn anything is when whatever is to be learned is immediately useful to us.” - Goodwin Watson*
+*“The best time to learn anything is when whatever is to be learned is immediately useful to us.” -Goodwin Watson*
 
 After a number of untutorials in “dual mode,” students are given the opportunity to participate in Creative Projects in “solo mode.” These are open-ended projects that allow students to combine all the skills they’ve learned throughout a sequence of untutorials. Creative projects allow students to practice what they’ve learned and reinforce their knowledge, and most importantly, express themselves!
 
