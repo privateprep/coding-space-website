@@ -32,6 +32,18 @@ pageBuilder:
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
+
+
+      **Registration Is Open at These Locations**
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#264548"
+    list:
+      - title: Upper East Side
+        content: https://www.thecodingspace.com/sign_up/classes/4386
+      - title: Park Slope
+        content: https://www.thecodingspace.com/sign_up/classes/4385
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
