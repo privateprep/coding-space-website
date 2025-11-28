@@ -36,9 +36,9 @@ pageBuilder:
 
       **Registration Is Open at These Locations**
   - type: buttons
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     fgColor: "#264548"
-    textColor: "#264548"
+    textColor: "#eec11a"
     list:
       - title: Upper East Side
         content: https://www.thecodingspace.com/sign_up/classes/4386
