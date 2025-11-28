@@ -22,13 +22,13 @@ pageBuilder:
       ![](/img/the-coding-space-psp-banner-4-.png)
 
 
-      ***Where coding, creativity, and artificial intelligence come together.***
+      ***AI Maker Lab: Where coding, creativity, and artificial intelligence come together.***
 
 
       Middle schoolers are already using AI, but do they understand how it works, how to create with it, and how to use it responsibly?
 
 
-      **AI Maker Lab** gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects. 
+      AI Maker Lab gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects. 
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
@@ -120,4 +120,32 @@ pageBuilder:
           **Weeks 11-15: Agents, Ethics & Final Projects**\
 
           Building AI agents, discussing responsible AI, creating a showcase project
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/hands_on.jpeg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## Not Your Typical Class
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code and create with tech while growing as thinkers, learners, and leaders.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "### H﻿ave Questions?"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#eec11a"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
