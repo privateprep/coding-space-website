@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: Understanding Project-Based Learning, Untutorials, and Creative Projects
+title: "Our Curriculum Pillars: Project-Based Learning, Untutorials, and
+  Creative Projects"
 titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2024-08-19T20:06:54.667Z
