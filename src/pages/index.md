@@ -48,21 +48,13 @@ mainpitch:
         content: /classes
 differentiators:
   - image:
-      image: /img/as-seen-on.png
-      alt: The Coding Space featured on Nickelodeon!
-    mdContent: >-
-      ## Recognized Among the Best Coding Classes for Kids
-
-
-      We've been featured in [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), and [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), as seen on Good Morning America and Nickelodeon!
-  - image:
       image: /img/slice-9-2-.png
       alt: Kids collaborating on coding projects
     mdContent: >-
       ## Student-Centered Learning
 
 
-      Our project-based, self-paced coding curriculum in Scratch, JavaScript, Python, and more lets kids code games, animations, and apps as unique as they are.
+      Our project-based, self-paced curriculum in Scratch, JavaScript, Python, and more lets kids create games, animations, and apps as unique as they are.
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
@@ -79,9 +71,7 @@ differentiators:
       ## Skills For Life
 
 
-      Our supportive space fosters a growth mindset, grit, and the freedom to make mistakes, empowering students
-
-      to grow past their comfort zones.
+      Our supportive space fosters a growth mindset, grit, and the freedom to make mistakes, empowering students to grow past their comfort zones.
   - image:
       image: /img/white-board.jpg
       alt: Instructor showing code logic on a white board to a student
@@ -89,7 +79,15 @@ differentiators:
       ## Expert Teachers
 
 
-      Our ongoing training in Socratic-based teaching and computer science education means students learn from teachers in the know.
+      Our instructors receive continuous training in effective educational strategies, from using the Socratic Method to supporting students' social-emotional growth. This means your child learns from teachers who know how to guide, encourage, and challenge every student with care.
+  - image:
+      image: /img/as-seen-on.png
+      alt: The Coding Space featured on Nickelodeon!
+    mdContent: >-
+      ## Recognized Among the Best Coding Classes for Kids
+
+
+      We've been featured in [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), and [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), as seen on Good Morning America and Nickelodeon!
   - image:
       image: /img/field_trips.jpg
       alt: Group of Coding Space students go on a field trip to Google office in NYC
