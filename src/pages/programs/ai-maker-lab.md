@@ -18,8 +18,8 @@ pageBuilder:
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: >
-      ![](/img/the-coding-space-psp-banner-1200-x-400-px-.png)
+    mdContent: >-
+      ![](/img/the-coding-space-psp-banner-4-.png)
 
 
       ***Where coding, creativity, and artificial intelligence come together.***
