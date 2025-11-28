@@ -15,10 +15,10 @@ heroImage:
   alt: Accessibility name
 pageBuilder:
   - type: textOnly
-    textAlign: left
+    textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
-    mdContent: >-
+    mdContent: >
       ![](/img/the-coding-space-psp-banner-1200-x-400-px-.png)
 
 
@@ -32,11 +32,13 @@ pageBuilder:
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
-
-
-      **Registration Is Open at These Locations**
+  - type: textOnly
+    textAlign: center
+    bgColor: "#eec11a"
+    textColor: "#264548"
+    mdContent: "**Registration Is Open at These Locations**"
   - type: buttons
-    bgColor: "#ffffff"
+    bgColor: "#eec11a"
     fgColor: "#264548"
     textColor: "#eec11a"
     list:
@@ -52,7 +54,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/untitled-design-24-.png
+      image: /img/student-making.png
       alt: Student creating a project
     mediaPosition: right
     mdContent: >-
@@ -76,33 +78,6 @@ pageBuilder:
 
 
       All while learning *why* AI behaves the way it does and *how* to use it responsibly.
-  - type: sideBySide
-    bgColor: "#9de2dd"
-    rightComponent:
-      - type: styledChecks
-        bgColor: "#9de2dd"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        mediaPosition: column
-        list:
-          - title: A foundational understanding of how AI works
-            content: "  "
-          - title: Practice training models with real data
-            content: "   "
-          - title: Coding confidence through hands-on games and projects
-            content: "  "
-          - title: Experience building AI-enhanced creations
-            content: "  "
-          - title: Knowledge of AI ethics, safety, and bias
-            content: "  "
-          - title: A portfolio they can share with family or schools
-            content: "  "
-    leftComponent:
-      - type: textOnly
-        textAlign: left
-        bgColor: "#eec11a"
-        textColor: "#264548"
-        mdContent: "## **Students Will Gain**"
   - type: sideBySide
     bgColor: "#ffffff"
     rightComponent:
