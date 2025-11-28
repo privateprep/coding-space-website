@@ -100,19 +100,19 @@ differentiators:
       We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
-    name: Liv
-    age: 11
-    interests: " "
+    name: The Coding Spae Team
+    age: 10
+    interests: " Coding, Tech, Learning New Things"
     image:
       image: /img/smily_face.svg
       alt: Happy face
-    className: Advanced Code
-    classUrl: /experience-levels/advanced-code/
+    className: Spring registration is now open!
+    classUrl: /classes
   project:
-    description: A 2023 Code 4 Change award winner, this project uses HTML, CSS, and
-      JavaScript to address the UN Sustainable Development Goal of Zero Hunger.
-    title: World Hunger Project
-    content: https://codepen.io/something_cool/full/OJBJaNe
+    description: "  "
+    title: "  Happy Holidays!"
+    content: "  https://scritch.dev/play#948383248480912614785276819742059420382048\
+      50250991"
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
