@@ -11,7 +11,7 @@ description: In today’s digital age, screen time is one of the biggest concern
   after-school and summer coding program, we help kids shift from passive
   consumption to active creation, giving them the skills to not just use
   technology, but to build with it.
-featuredPost: true
+featuredPost: false
 featuredImage:
   image: /img/untitled-design-8-.png
   alt: Accessibility name
