@@ -19,7 +19,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ![](/img/the-coding-space-psp-banner-3-.png)
+      ![](/img/the-coding-space-psp-banner-1200-x-400-px-.png)
 
 
       ***Where coding, creativity, and artificial intelligence come together.***
@@ -52,7 +52,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/untitled-design-23-.png
+      image: /img/untitled-design-24-.png
       alt: Student creating a project
     mediaPosition: right
     mdContent: >-
@@ -100,7 +100,7 @@ pageBuilder:
     leftComponent:
       - type: textOnly
         textAlign: left
-        bgColor: "#faf6ee"
+        bgColor: "#eec11a"
         textColor: "#264548"
         mdContent: "## **Students Will Gain**"
   - type: textOnly
