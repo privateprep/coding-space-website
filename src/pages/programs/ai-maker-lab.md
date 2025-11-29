@@ -91,7 +91,7 @@ pageBuilder:
           ✔︎ **Coding confidence through hands-on games and projects**\
           ✔︎ **Experience building AI-enhanced creations**\
           ✔︎ **Knowledge of AI ethics, safety, and bias**\
-          ✔︎ **A portfolio they can share with family or schools**\
+          ✔︎ **A portfolio they can share with family or schools**
         heading: Students Will Gain
     leftComponent:
       - type: textOnly
@@ -132,7 +132,7 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      ## Not Your Typical Class
+      ## Not Your Typical Learning Environment
 
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code and create with tech while growing as thinkers, learners, and leaders.
