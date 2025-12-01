@@ -114,8 +114,6 @@ const CheckoutForm = props => {
         billing_details: billingDetails,
       });
 
-      console.log('paymentMethod in handleSubmit', paymentMethod)
-
       if (paymentMethodError) {
         setCardError(paymentMethodError);
         setIsSubmitting(false);
@@ -151,7 +149,29 @@ const CheckoutForm = props => {
 
       const result = await res.json();
 
-      if (result.nextStep === "send_confirmation") {
+
+      if (result.nextStep === "requires_action" && result.paymentIntent) {
+        const { error: confirmError } = await stripe.confirmCardPayment(
+          result.paymentIntent.client_secret
+        );
+
+        if (confirmError) {
+          setCardError(confirmError);
+          setIsSubmitting(false);
+          return;
+        }
+
+        const { paymentIntent } = await stripe.retrievePaymentIntent(
+          result.paymentIntent.client_secret
+        );
+
+        if (paymentIntent.status === 'succeeded') {
+          props.onSuccessRedirect(result.adsTracking);
+        } else {
+          setCardError({ message: "Payment authentication failed. Please try again." });
+          setIsSubmitting(false);
+        }
+      } else if (result.nextStep === "send_confirmation") {
         props.onSuccessRedirect(result.adsTracking);
       } else {
         throw new Error("Next step unknown!");
@@ -247,9 +267,6 @@ class CollectRetrievedPayment extends Component {
       const response = await GET(
         `${process.env.DASHBOARD_BASE_URL}/services/class_signups/${this.props.paymentId}/retrieve`
       );
-
-      console.log('response', response);
-      console.log('response.stripe_public_key', response.stripePublicKey)
       this.setState({
         isLoading: false,
         clientInfo: response.clientInfo || {},
