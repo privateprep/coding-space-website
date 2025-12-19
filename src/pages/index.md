@@ -10,7 +10,7 @@ seo:
 banner:
   removalDate: 2026-01-31T22:46:16.996Z
   mdContent: "New Course for Middle Schoolers: AI Maker Lab. [Learn more
-    here](/programs/ai-maker-lab)."
+    here](/programs/ai-maker-lab)"
 hero:
   heading: The Coding Space
   subheading: >
