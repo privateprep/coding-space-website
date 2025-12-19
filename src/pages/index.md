@@ -98,7 +98,7 @@ differentiators:
       We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
-    name: The Coding Spae Team
+    name: The Coding Space Team
     age: 10
     interests: "Interests: Coding, Tech, Learning New Things"
     image:
