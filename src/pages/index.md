@@ -8,7 +8,7 @@ seo:
     students to have fun, be challenged, and grow as thinkers, learners, and
     leaders.
 banner:
-  removalDate: 2025-12-19T19:10:31.240Z
+  removalDate: 2026-01-31T22:46:16.996Z
   mdContent: "New Course for Middle Schoolers: AI Maker Lab. [Learn more
     here](/programs/ai-maker-lab)."
 hero:
