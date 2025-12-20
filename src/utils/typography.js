@@ -4,12 +4,12 @@ import "./global.css";
 import Typography from "typography";
 import Wordpress2016 from "typography-theme-wordpress-2016";
 
-Wordpress2016.headerFontFamily = ["Futura", "Futura Std", "sans-serif"];
-Wordpress2016.bodyFontFamily = ["Proxima Nova", "Arial", "sans-serif"];
+Wordpress2016.headerFontFamily = ["Montserrat", "Arial", "sans-serif"];
+Wordpress2016.bodyFontFamily = ["Montserrat", "Arial", "sans-serif"];
 
 Wordpress2016.overrideThemeStyles = () => ({
   h1: {
-    fontFamily: "Futura, Futura Std, sans-serif",
+    fontFamily: "Montserrat, Arial, sans-serif",
   },
   a: {
     color: "var(--textLink)",
