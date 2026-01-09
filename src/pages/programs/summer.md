@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Summer 2025
+title: Summer 2026
 titleColor: "#264548"
 seo:
   title: Summer Coding Camps & Classes for Kids & Teens
@@ -33,10 +33,10 @@ pageBuilder:
       #### A﻿ges 8-13
 
 
-      ### Learn to Code in Our Immersive Camps
+      #### A Smart, Engaging Summer That Kids Love
 
 
-      Held Monday through Friday throughout the summer on the Upper East Side in NYC, Park Slope, Brooklyn, and Port Washington, Long Island, our camps combine project-based coding, tech challenges, outdoor time, exciting field trips, and more to create an unforgettable summer experience.
+      Camp Coding Space offers a meaningful summer experience that's as educational as it is fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps are designed to keep kids learning, growing, and excited to come back each day.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -59,7 +59,7 @@ pageBuilder:
       #### A﻿ges 13-17
 
 
-      Join our two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
+      Join our two-week in-person coding intensive for rising 9th-12th graders. In this rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
