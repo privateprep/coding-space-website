@@ -26,7 +26,7 @@ details:
   sellingPoints:
     - Learn to Code
     - Innovate with Tech
-    - Field Trips
+    - Outdoor Time
   mdContent: Held from June to August, our in-person camps combine project-based
     coding, tech exploration, epic team challenges, field trips, and more.
     Choose an option that fits your schedule and give your child a summer
