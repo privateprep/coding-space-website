@@ -47,8 +47,8 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - details:
-      postingDate: 2025-09-10T15:02:07.261Z
-      removalDate: 2025-12-31T16:02:16.796Z
+      postingDate: 2026-01-09T16:02:07.261Z
+      removalDate: 2026-06-30T15:02:16.796Z
       applyLink: https://forms.gle/v6Q948srpNUxvun38
     info:
       title: After School Coding Teacher 2025-2026
@@ -67,26 +67,4 @@ openings:
         Compensation: $25/hr-$35/hr starting rate
       type:
         - part-time
-  - details:
-      postingDate: 2025-09-16T18:23:29.413Z
-      removalDate: 2025-10-31T18:24:45.159Z
-      applyLink: https://forms.gle/uUZaXSzoE5iCVkWN7
-    info:
-      title: Program Manger
-      description: >
-        We're seeking a full-time Program Manager to join our NY Metro area team
-        and help lead our growing network of in-person and online coding
-        programs. This is an in-person role that includes regular travel to our
-        locations in Manhattan, Brooklyn, the Bronx, Scarsdale, and Port
-        Washington.
-
-
-        As Program Manager, you'll own key aspects of teacher management, program quality, and class operations. You'll be instrumental in maintaining our high standards while continuously improving our programs.
-
-
-        Compensation: $67,000 + benefits
-      type:
-        - full-time
-      locations:
-        - NYC
 ---
