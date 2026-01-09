@@ -26,74 +26,66 @@ pageBuilder:
       alt: Students coding at camp
     mediaPosition: left
     mdContent: >-
-      ## Welcome to Camp Coding Space, Where Imagination Meets Innovation
+      ## A Summer of Learning, Creativity, and Confidence
 
 
-      Get ready for a summer of discovery and growth at The Coding Space! Our young tech enthusiasts will dive into the exciting world of coding, creating games, animations, and apps while sharpening their problem-solving skills.
+      Camp Coding Space gives kids the opportunity to build real technology skills while having a summer they’re excited about. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps combine hands-on learning, collaboration, and movement in a fun, supportive environment.
 
 
-      They'll also develop teamwork and collaboration through our Tech Olympics, where they'll tackle fun and creative challenges using electronics, robotics, programming, AI, and more.
-
-
-      Beyond hands-on coding and tech, campers will enjoy outdoor fun in the park, engaging group games, and exciting field trips that bring STEM and technology to life in the real world.
-
-
-      We can't wait for a summer filled with epic learning adventures and unforgettable fun!
-
-
-      Learn more and register today.
+      Each day is thoughtfully designed to keep students engaged, curious, and motivated, while helping them develop skills that last far beyond the summer.
     fgColor: "#9de2dd"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: "## What Makes Camp Coding Space Exceptional?"
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
-      - type: styledChecks
+      - type: textOnly
+        textAlign: left
         bgColor: "#faf6ee"
-        fgColor: "#9de2dd"
         textColor: "#264548"
-        mediaPosition: column
-        list:
-          - title: Personalized Coding Curriculum
-            content: Each camper tackles projects tailored to their individual skill level
-              and interests, ensuring growth and engagement.
-          - title: Expert Instructors
-            content: With a 4:1 camper-to-instructor ratio, every child gets the attention
-              they need to succeed.
-          - title: Teamwork and Real-World Impact
-            content: Through our Tech Olympics, campers collaborate on projects that
-              demonstrate how technology can solve real-world challenges.
-          - title: Tech Expeditions
-            content: Explore real-world applications of coding, robotics, and AI through
-              inspiring field trips.
-          - title: Screen Break Activities & Outdoor Fun
-            content: Campers enjoy time in the park or playground with games and activities
-              to balance their tech learning.
-          - title: Weekly Progress Reports
-            content: Parents stay in the loop with updates on their child’s achievements and
-              growth.
-          - title: Project Showcase
-            content: Campers share their favorite projects every Friday at 2:30 PM in a
-              special showcase. Parents and guardians are welcome to attend!
+        mdContent: >-
+          ### Morning: Core Coding & Problem-Solving
+
+
+          In the mornings, campers focus on project-based coding that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
+
+
+          Campers learn how to:
+
+
+          * Break down complex problems
+
+          * Think critically and creatively
+
+          * Build, test, and improve their own programs
+
+          * Collaborate with peers and share ideas
+
+
+          Our experienced instructors make learning approachable and engaging, helping students gain confidence as they build real skills.
     rightComponent:
-      - type: boxWithLogo
-        bgColor: "#faf6ee"
-        fgColor: "#264548"
-        textColor: "#faf6ee"
-        heading: Your child will...
-        mdContent: |-
-          Learn to code in Scratch, JavaScript, and Python.
+      - type: textOnly
+        textAlign: left
+        bgColor: "#9de2dd"
+        textColor: "#264548"
+        mdContent: >-
+          ### Afternoon: Tech Pathways
 
-          Build grit, a growth mindset, and computational thinking skills.
 
-          Discover and define their personal passions.
+          In the afternoons, campers choose a Tech Pathway, allowing them to explore an area that genuinely excites them through extended, hands-on projects. These pathways give students time to go deeper, experiment, and discover new interests, all while continuing to build core tech skills. 
 
-          C﻿ode projects and build products that they can take home with them.
 
-          Make new friends and have a blast.
+          **Tech Pathways include:**
+
+
+          * **Artificial Intelligence:** Learn how AI works and create simple intelligent systems through guided projects.
+
+          * **Game Design:** Design and build interactive games while learning logic, storytelling, and user experience.
+
+          * **Robotics:** Program robots and solve real-world challenges using sensors, code, and creative thinking.
+
+          * **Digital Art:** Combine creativity and technology through visual design, animation, and interactive media. 
+
+
+          Each pathway emphasizes creativity, exploration, and problem-solving, ensuring students stay engaged while learning advanced concepts in an accessible way.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -114,64 +106,6 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#ffffff"
-    textColor: "#264548"
-    mdContent: |-
-      ## A Day at Camp Coding Space
-
-      ![TCS camp schedule](/img/tcs-summer-schedule.png "TCS camp schedule")
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/2025-field-trip-schedule-1080-x-1080-px-750-x-350-px-.png
-      alt: 2025 Field Trip Schedule
-    mediaPosition: right
-    mdContent: >-
-      ## **Tech Expeditions: See Innovation in Action**
-
-
-      At Camp Coding Space, our Tech Expeditions take learning beyond the classroom with inspiring visits to leading tech companies, hands-on science museums, and interactive innovation hubs. Each two-week session includes a special field trip where campers explore real-world technology in action, from cutting-edge startups like Hungryroot, to interactive STEM experiences at MoMath and NYSCI, and the world-changing tech labs of Google.\
-
-      \
-
-      Through these immersive experiences, kids discover how technology shapes the world, meet the people driving innovation, and see firsthand how their own ideas can make an impact.\
-
-      \
-
-      Field trips take place during the second week of each two-week package.
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Sign Up for Camp
-          content: /experience-levels/camp-coding-space/
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/campers-using-arduino.jpg
-      alt: Campers making projects in Arduino
-    mediaPosition: right
-    mdContent: >-
-      ## **I﻿ntroducing the Tech Olympics: Innovate, Collaborate, Create**
-
-
-      Camp Coding Space’s Tech Olympics empowers kids to solve real-world challenges through hands-on activities in coding, robotics, and engineering. Each day features creative projects like designing mini-games, programming robots, building interactive circuits, and exploring AI.
-
-
-      Campers not only develop technical skills but also build teamwork, problem-solving, and new ways of thinking, including tackling activites that inspire social impact, like designing sustainable solutions or creating assistive technologies.
-
-
-      Join us to spark innovation and develop future changemakers!
-    fgColor: "#9de2dd"
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
