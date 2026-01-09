@@ -64,7 +64,7 @@ pageBuilder:
     rightComponent:
       - type: textOnly
         textAlign: left
-        bgColor: "#9de2dd"
+        bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
           ### Afternoon: Tech Pathways
