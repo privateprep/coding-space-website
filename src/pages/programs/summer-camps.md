@@ -34,6 +34,54 @@ pageBuilder:
 
       Each day is thoughtfully designed to keep students engaged, curious, and motivated, while helping them develop skills that last far beyond the summer.
     fgColor: "#9de2dd"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ### Morning: Core Coding & Problem-Solving
+
+
+      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
+
+
+      Campers learn how to:
+
+
+      * Break down complex problems
+
+      * Think critically and creatively
+
+      * Build, test, and improve their own programs
+
+      * Collaborate with peers and share ideas
+
+
+      Our experienced instructors make learning approachable and engaging, helping students gain confidence as they build real skills.
+
+
+      - - -
+
+
+      ### Afternoon: Tech Pathways
+
+
+      In the afternoons, campers choose a **Tech Pathway**, allowing them to explore an area that genuinely excites them through extended, hands-on projects. These pathways give students time to go deeper, experiment, and discover new interests—all while continuing to build core tech skills.
+
+
+      **Tech Pathways include:**
+
+
+      * **Artificial Intelligence Pathway**\
+        Learn how AI works and create simple intelligent systems through guided projects.
+      * **Game Design Pathway**\
+        Design and build interactive games while learning logic, storytelling, and user experience.
+      * **Robotics Pathway**\
+        Program robots and solve real-world challenges using sensors, code, and creative thinking.
+      * **Digital Art Pathway**\
+        Combine creativity and technology through visual design, animation, and interactive media.
+
+      Each pathway emphasizes **creativity, exploration, and problem-solving**, ensuring students stay engaged while learning advanced concepts in an accessible way.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
