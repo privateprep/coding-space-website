@@ -66,7 +66,8 @@ export const pageQuery = graphql`
           }
           image {
             alt
-            image {
+            image
+            imageFile {
               childImageSharp {
                 gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }

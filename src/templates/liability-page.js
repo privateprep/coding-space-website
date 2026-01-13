@@ -54,7 +54,8 @@ export const pageQuery = graphql`
             heading
             image {
               alt
-              image {
+              image
+              imageFile {
                 childImageSharp {
                   gatsbyImageData(
                     height: 500
