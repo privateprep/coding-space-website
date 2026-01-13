@@ -20,6 +20,115 @@ require("dotenv").config({
 const fetch = require("cross-fetch");
 const dashboardBaseUrl = process.env.DASHBOARD_BASE_URL;
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      pageBuilder: [PageBuilderBlock]
+    }
+
+    type PageBuilderBlock {
+      type: String
+      heading: String
+      title: String
+      content: String
+      mdContent: String
+      textAlign: String
+      textColor: String
+      bgColor: String
+      fgColor: String
+      mediaPosition: String
+      ratio: String
+      buttons: PageBuilderButtons
+      image: PageBuilderImage
+      list: [PageBuilderListItem]
+      leftComponent: [PageBuilderBlock]
+      rightComponent: [PageBuilderBlock]
+    }
+
+    type PageBuilderButtons {
+      bgColor: String
+      fgColor: String
+      textColor: String
+      list: [PageBuilderButtonItem]
+    }
+
+    type PageBuilderButtonItem {
+      title: String
+      content: String
+    }
+
+    type PageBuilderImage {
+      alt: String
+      image: String
+      imageFile: File
+    }
+
+    type PageBuilderListItem {
+      title: String
+      content: String
+      mdContent: String
+      bgColor: String
+      fgColor: String
+      textColor: String
+      textAlign: String
+      image: PageBuilderImage
+    }
+  `);
+};
+
+exports.createResolvers = ({ createResolvers }) => {
+  createResolvers({
+    PageBuilderImage: {
+      imageFile: {
+        type: "File",
+        async resolve(source, args, context) {
+          if (!source || !source.image) {
+            return null;
+          }
+
+          if (typeof source.image === "object" && source.image.internal) {
+            return source.image;
+          }
+
+          if (typeof source.image !== "string") {
+            return null;
+          }
+
+          if (source.image.startsWith("http")) {
+            return null;
+          }
+
+          const normalizedPath = source.image.replace(/^\/+/, "");
+          const candidatePaths = [
+            path.resolve(process.cwd(), "static", normalizedPath),
+            path.resolve(process.cwd(), normalizedPath),
+          ];
+
+          for (const absolutePath of candidatePaths) {
+            const fileNode = await context.nodeModel.runQuery({
+              query: {
+                filter: {
+                  absolutePath: { eq: absolutePath },
+                },
+              },
+              type: "File",
+              firstOnly: true,
+            });
+
+            if (fileNode) {
+              return fileNode;
+            }
+          }
+
+          return null;
+        },
+      },
+    },
+  });
+};
+
 const GET = url => {
   const headers = {
     Accept: "application/json",

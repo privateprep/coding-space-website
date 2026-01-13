@@ -6,14 +6,19 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   const {
     alt = "",
     image,
+    imageFile,
     wrapperStyle,
     imgStyle = { width: "100%" },
     url,
   } = imageInfo;
-  if (!!image?.childImageSharp?.gatsbyImageData && image?.extension === "png") {
+  const resolvedImage = imageFile ?? image;
+  if (
+    !!resolvedImage?.childImageSharp?.gatsbyImageData &&
+    resolvedImage?.extension === "png"
+  ) {
     return (
       <GatsbyImage
-        image={image.childImageSharp.gatsbyImageData}
+        image={resolvedImage.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
         imgStyle={imgStyle}
         alt={alt}
@@ -21,10 +26,10 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     );
   }
 
-  if (!!image?.childImageSharp?.gatsbyImageData) {
+  if (!!resolvedImage?.childImageSharp?.gatsbyImageData) {
     return (
       <GatsbyImage
-        image={image.childImageSharp.gatsbyImageData}
+        image={resolvedImage.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
         imgStyle={imgStyle}
         alt={alt}
@@ -32,10 +37,10 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     );
   }
 
-  if (!!image?.childImageSharp?.gatsbyImageData) {
+  if (!!resolvedImage?.childImageSharp?.gatsbyImageData) {
     return (
       <GatsbyImage
-        image={image.childImageSharp.gatsbyImageData}
+        image={resolvedImage.childImageSharp.gatsbyImageData}
         style={wrapperStyle}
         imgStyle={imgStyle}
         alt={alt}
@@ -43,11 +48,13 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     );
   }
 
-  if (!!image && typeof image === "string")
-    return <img style={wrapperStyle} src={image} alt={alt} />;
+  if (!!resolvedImage && typeof resolvedImage === "string")
+    return <img style={wrapperStyle} src={resolvedImage} alt={alt} />;
 
-  if (!!image?.publicURL)
-    return <img style={wrapperStyle} src={image.publicURL} alt={alt} />;
+  if (!!resolvedImage?.publicURL)
+    return (
+      <img style={wrapperStyle} src={resolvedImage.publicURL} alt={alt} />
+    );
 
   // URL provided by getAsset for CMS preview.
   if (!!url) return <img style={wrapperStyle} src={url} alt={alt} />;
@@ -59,7 +66,8 @@ PreviewCompatibleImage.propTypes = {
   imageInfo: PropTypes.shape({
     alt: PropTypes.string,
     childImageSharp: PropTypes.object,
-    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]).isRequired,
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    imageFile: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     imgStyle: PropTypes.object,
     wrapperStyle: PropTypes.object,
   }).isRequired,

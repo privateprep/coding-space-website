@@ -60,7 +60,8 @@ export const pageQuery = graphql`
           heading
           image {
             alt
-            image {
+            image
+            imageFile {
               childImageSharp {
                 gatsbyImageData(quality: 100, layout: CONSTRAINED)
               }
