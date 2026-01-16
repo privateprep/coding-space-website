@@ -24,8 +24,8 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
-      image: /img/img_2785.jpg
-      alt: Accessibility name
+      image: /img/screenshot-2026-01-15-at-3.22.48-pm.png
+      alt: TCS Academy Capstone Project
     mediaPosition: right
     mdContent: >-
       ## Welcome to The Coding Space Academy
