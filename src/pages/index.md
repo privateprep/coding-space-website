@@ -20,12 +20,12 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: "Fall Classes "
-        content: /fall
       - title: Spring Classes
         content: /spring
       - title: School Holiday Camps
         content: /experience-levels/school-holiday-mini-camps/
+      - title: Summer Camp
+        content: /summer
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >+
