@@ -49,7 +49,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/img_0892.jpg
+      image: /img/screenshot-2026-01-15-at-3.22.48-pm-1-.png
       alt: Two teenagers coding
     mediaPosition: left
     mdContent: >-
@@ -72,7 +72,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img-7938.png
+      image: /img/camp-images.png
       alt: Summer Classes
     mediaPosition: right
     mdContent: >-
