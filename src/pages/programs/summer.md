@@ -23,7 +23,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img-8029.jpg
+      image: /img/untitled-design-5-.png
       alt: Summer Camp
     mediaPosition: right
     mdContent: >-
