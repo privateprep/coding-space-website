@@ -99,12 +99,25 @@ exports.createResolvers = ({ createResolvers }) => {
           if (source.image.startsWith("http")) {
             return null;
           }
-
-          const normalizedPath = source.image.replace(/^\/+/, "");
-          const candidatePaths = [
+          const trimmedPath = source.image.replace(/^\/+/, "");
+          const withoutTraversal = trimmedPath.replace(
+            /^(?:\.\.\/|\.\.\\)+/g,
+            ""
+          );
+          const staticMatch = withoutTraversal.match(/static[\\/](.+)$/);
+          const normalizedPath = staticMatch
+            ? staticMatch[1]
+            : withoutTraversal.replace(/^[\\/]+/, "");
+          const candidatePaths = new Set([
             path.resolve(process.cwd(), "static", normalizedPath),
             path.resolve(process.cwd(), normalizedPath),
-          ];
+          ]);
+
+          if (!normalizedPath.startsWith("img/")) {
+            candidatePaths.add(
+              path.resolve(process.cwd(), "static", "img", normalizedPath)
+            );
+          }
 
           for (const absolutePath of candidatePaths) {
             const fileNode = await context.nodeModel.runQuery({
