@@ -2,11 +2,12 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: Coding Classes for Kids & Teens | Coding for Kids
+  title: Coding & Artificial Intelligence Classes for Kids & Teens | Coding & AI
+    for Kids
   description: >
-    We offer coding classes for kids and teens in a caring, inclusive space for
-    students to have fun, be challenged, and grow as thinkers, learners, and
-    leaders.
+    We offer coding & artificial intelligence classes for kids and teens in a
+    caring, inclusive space for students to have fun, be challenged, and grow as
+    thinkers, learners, and leaders.
 banner:
   removalDate: 2026-01-31T22:46:16.996Z
   mdContent: "New Course for Middle Schoolers: AI Maker Lab! [Learn more
@@ -29,10 +30,10 @@ hero:
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >+
-    We offer in-person and online classes and camps for kids and teens in a
-    caring, inclusive space for students to have fun, be challenged, and grow as
-    thinkers, learners, and leaders. Through hands-on projects like coding
-    games, animations, and interactive stories, as well as exploring
+    We offer in-person and online classes and camps for kids ages 3-17 in a
+    caring, inclusive space designed for students to have fun, be challenged,
+    and grow as thinkers, learners, and leaders. Through hands-on projects like
+    coding games, animations, and interactive stories, as well as exploring
     foundational concepts in artificial intelligence, data, algorithms, and
     logic, students build creativity, confidence, and computational thinking.
     They develop not just technical skills, but the mindset of thoughtful,
