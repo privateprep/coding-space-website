@@ -9,7 +9,7 @@ seo:
     caring, inclusive space for students to have fun, be challenged, and grow as
     thinkers, learners, and leaders.
 banner:
-  removalDate: 2026-01-31T22:46:16.996Z
+  removalDate: 2026-06-29T18:42:52.582Z
   mdContent: "New Course for Middle Schoolers: AI Maker Lab! [Learn more
     here](/programs/ai-maker-lab)"
 hero:
