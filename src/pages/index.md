@@ -2,12 +2,11 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: Coding & Artificial Intelligence Classes for Kids & Teens | Coding & AI
-    for Kids
+  title: Coding Classes for Kids | AI Classes for Kids | The Coding Space
   description: >
-    We offer coding & artificial intelligence classes for kids and teens in a
-    caring, inclusive space for students to have fun, be challenged, and grow as
-    thinkers, learners, and leaders.
+    We offer coding and AI classes for kids and teens in a caring, inclusive
+    space for students to have fun, be challenged, and grow as thinkers,
+    learners, and leaders.
 banner:
   removalDate: 2026-06-29T18:42:52.582Z
   mdContent: "New Course for Middle Schoolers: AI Maker Lab! [Learn more
