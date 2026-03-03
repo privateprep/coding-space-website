@@ -29,8 +29,8 @@ hero:
 mainpitch:
   title: Where Kids Learn to Think Critically
   description: >+
-    We offer in-person and online classes and camps for kids ages 3-17 in a
-    caring, inclusive space designed for students to have fun, be challenged,
+    We offer in-person and online coding classes and camps for kids and teens in
+    a caring, inclusive space designed for students to have fun, be challenged,
     and grow as thinkers, learners, and leaders. Through hands-on projects like
     coding games, animations, and interactive stories, as well as exploring
     foundational concepts in artificial intelligence, data, algorithms, and
