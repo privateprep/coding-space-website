@@ -43,13 +43,9 @@ pageBuilder:
 
       **When & Where**\
 
-      Sunday, April 26th\
+      Sunday, April 26th, 3:30-5:00 PM\
 
-      3:30-5:00 PM\
-
-      2﻿01 E. 83rd St\
-
-      Upper East Side
+      2﻿01 E. 83rd St, Upper East Side 
 
 
       **About the Workshop**\
