@@ -77,5 +77,5 @@ pageBuilder:
     textColor: "#264548"
     list:
       - title: Register Now
-        content: "#"
+        content: https://www.thecodingspace.com/sign_up/classes/4571
 ---
