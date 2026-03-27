@@ -98,7 +98,7 @@ differentiators:
       We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
-    name: The Coding Space Team
+    name: Chris
     age: 10
     interests: "Interests: Coding, Tech, Learning New Things"
     image:
@@ -108,8 +108,8 @@ featuredProject:
     classUrl: /classes
   project:
     description: "  "
-    title: "  Happy Holidays from The Coding Space!"
-    content: https://scratch.mit.edu/projects/1249191762/embed
+    title: Space Battle
+    content: https://scritch.dev/play#56080772817107421451859900314529190391059539141119
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
