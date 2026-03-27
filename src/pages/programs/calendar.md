@@ -43,7 +43,7 @@ pageBuilder:
 
       **When & Where**\
 
-      Sunday, April 25 \
+      Sunday, April 26th\
 
       3:30-5:00 PM\
 
@@ -60,7 +60,7 @@ pageBuilder:
       Instead of sitting on the sidelines, parents and kids work side by side to create something real. Using simple AI tools, you’ll go from idea → prompt → working app in under 90 minutes.
 
 
-      No coding experience needed—just creativity, collaboration, and a willingness to try something new.
+      No coding experience needed, just creativity, collaboration, and a willingness to try something new.
 
 
       **What You’ll Leave With**
