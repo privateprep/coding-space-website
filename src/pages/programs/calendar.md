@@ -25,7 +25,7 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Family Vibe Coding Jam: Build an App
+      ## Family Vibe Coding Jam
 
 
       **Turn your ideas into a real app—together.**
