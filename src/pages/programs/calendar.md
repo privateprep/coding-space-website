@@ -20,4 +20,62 @@ pageBuilder:
 
 
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Family Vibe Coding Jam: Build an App
+
+
+      **Turn your ideas into a real app—together.**
+
+
+      **Who**\
+
+      Parents and kids (ages 8+)—no coding experience needed
+
+
+      **What**\
+
+      A fun, hands-on workshop where you and your child build an app together using AI. Start with an idea, learn simple prompting techniques, and watch your project come to life in real time.
+
+
+      **When & Where**\
+
+      Sunday, April 25 \
+
+      3:30-5:00 PM\
+
+      2﻿01 E. 83rd St\
+
+      Upper East Side
+
+
+      **About the Workshop**\
+
+      If your child has big ideas—and you’re a little curious too—this workshop is for you.
+
+
+      Instead of sitting on the sidelines, parents and kids work side by side to create something real. Using simple AI tools, you’ll go from idea → prompt → working app in under 90 minutes.
+
+
+      No coding experience needed—just creativity, collaboration, and a willingness to try something new.
+
+
+      **What You’ll Leave With**
+
+
+      * A working app you built together
+
+      * A simple understanding of how AI can turn ideas into real projects
+
+      * A shared experience that's fun (and a little magical)
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Register Now
+        content: "#"
 ---
