@@ -28,12 +28,12 @@ pageBuilder:
       ## Family Vibe Coding Jam
 
 
-      **Turn your ideas into a real app—together.**
+      **Turn your ideas into a real app together!**
 
 
       **Who**\
 
-      Parents and kids (ages 8+)—no coding experience needed
+      Parents and kids (ages 8+), no coding experience needed
 
 
       **What**\
