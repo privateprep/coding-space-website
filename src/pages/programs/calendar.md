@@ -22,7 +22,7 @@ pageBuilder:
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
   - type: textOnly
     textAlign: left
-    bgColor: "#faf6ee"
+    bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
       ## Family Vibe Coding Jam: Build an App
