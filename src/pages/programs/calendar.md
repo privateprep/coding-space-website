@@ -59,7 +59,7 @@ pageBuilder:
       No coding experience needed, just creativity, collaboration, and a willingness to try something new.
 
 
-      **What You’ll Leave With**
+      **What You’ll Leave** 
 
 
       * A working app you built together
@@ -67,6 +67,12 @@ pageBuilder:
       * A simple understanding of how AI can turn ideas into real projects
 
       * A shared experience that's fun (and a little magical)
+
+
+      **P﻿rice**
+
+
+      $﻿25 per family (on one laptop)
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
