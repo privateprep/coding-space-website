@@ -43,9 +43,15 @@ pageBuilder:
 
       **When & Where**\
 
-      Sunday, April 26th, 3:30-5:00 PM\
+      \
 
-      2﻿01 E. 83rd St, Upper East Side 
+      **Choose among 3 special events!**\
+
+      Sunday, April 26 > [Register](https://www.thecodingspace.com/sign_up/classes/4571)S﻿unday, May 10 (*Mother's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4575)S﻿unday, June 21 *(Father's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4576)\
+
+      **Time:** 3:30-5:00 PM\
+
+      **L﻿ocation:** 2﻿01 E. 83rd St, Upper East Side 
 
 
       **About the Workshop**\
@@ -72,12 +78,5 @@ pageBuilder:
       **P﻿rice**
 
 
-      $﻿25 per family (on one laptop)
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#eec11a"
-    textColor: "#264548"
-    list:
-      - title: Register Now
-        content: https://www.thecodingspace.com/sign_up/classes/4571
+      $﻿25 per family (*one laptop per family*)
 ---
