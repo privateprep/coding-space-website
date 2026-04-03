@@ -45,9 +45,18 @@ pageBuilder:
 
       \
 
-      **Choose among 3 special events!**\
+      **Choose among 3 special events!**
 
-      Sunday, April 26 > [Register](https://www.thecodingspace.com/sign_up/classes/4571)S﻿unday, May 10 (*Mother's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4575)S﻿unday, June 21 *(Father's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4576)\
+
+      Sunday, April 26 > [Register](https://www.thecodingspace.com/sign_up/classes/4571)
+
+
+      S﻿unday, May 10 (*Mother's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4575)
+
+
+      S﻿unday, June 21 *(Father's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4576)\
+
+      \
 
       **Time:** 3:30-5:00 PM\
 
