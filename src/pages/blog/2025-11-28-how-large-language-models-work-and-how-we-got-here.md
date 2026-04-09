@@ -94,30 +94,17 @@ By predicting the next word with incredible accuracy, a model can:
 
 It's not consciousness or opinion, just extremely good pattern recognition.
 
-#### **Where We Are Now**
+#### **Why This Matters**
 
-Today's large language models are the result of:
-
-* Decades of research in computer science
-* Breakthroughs in neural networks
-* A new architecture (transformers)
-* Massive computing power
-* Huge datasets
-* Careful alignment and safety work
-
-The systems kids interact with today are far more capable than the early versions from just a few years ago. And new models continue to push the boundaries of what’s possible.
-
-#### **Why This Matters for Kids**
-
-Understanding how AI works, at least at a high level, helps kids:
+Understanding how AI works, at least at a high level, helps us:
 
 * Become informed digital citizens
 * Use AI safely and responsibly
 * Think critically about technology
 * Understand what AI can *and cannot* do
-* See themselves as creators, not just consumers
+* See ourselves as creators, not just consumers, of technology
 
-That's exactly why The Coding Space is building programs like **[AI Maker Lab](https://thecodingspace.com/ai-maker-lab)**: to help young people understand the tech they're already using and create with it in thoughtful, ethical ways.
+That's exactly why The Coding Space is building programs like **[AI Maker Lab](https://thecodingspace.com/ai-maker-lab)**: to help young people understand the tech that is shaping our future and create with it in thoughtful, ethical ways.
 
 #### **The Big Picture**
 
