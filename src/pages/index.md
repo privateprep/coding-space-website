@@ -2,7 +2,7 @@
 heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
-  title: Coding Classes for Kids | AI Classes for Kids | The Coding Space
+  title: Coding Classes for Kids & Teebs | AI Classes for Kids & Teens
   description: >
     We offer coding and AI classes for kids and teens in a caring, inclusive
     space for students to have fun, be challenged, and grow as thinkers,
