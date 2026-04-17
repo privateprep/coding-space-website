@@ -22,8 +22,6 @@ hero:
     list:
       - title: Spring & Summer Classes
         content: /our-coding-classes
-      - title: School Holiday Camps
-        content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Camp
         content: /summer
 mainpitch:
