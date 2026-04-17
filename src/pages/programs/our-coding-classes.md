@@ -13,32 +13,33 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
-  - type: sideBySide
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
     bgColor: "#faf6ee"
-    leftComponent:
-      - type: textOnly
-        textAlign: left
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          ## Your Child’s Coding Journey Starts Here
+    image:
+      image: /img/student-coding.webp
+      alt: Student coding
+    mediaPosition: right
+    mdContent: >-
+      
+
+      ## Your Child’s Coding Journey Starts Here
 
 
-          Our weekly after-school and Saturday classes in Manhattan, Brooklyn, Long Island, Westchester, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more.  Our signature project-based curriculum and small student-to-teacher ratio promises personalized attention and individual growth.
+      Our weekly after-school and Saturday classes in Manhattan, Brooklyn, Long Island, Westchester, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more.  Our signature project-based curriculum and small student-to-teacher ratio promises personalized attention and individual growth.
 
 
-          Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
 
 
-          * Intellectual confidence
+      * Intellectual confidence
 
-          * Creativity
+      * Creativity
 
-          * Problem-Solving
-    rightComponent:
-      - type: textOnly
-        textAlign: right
-        bgColor: "#264548"
-        textColor: "#264548"
-        mdContent: "![](/img/student-coding.webp)"
+      * Problem-Solving
+    fgColor: "#eec11a"
 ---
