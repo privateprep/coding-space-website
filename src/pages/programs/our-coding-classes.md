@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Our Coding Classes
+title: Classes
 titleColor: "#264548"
 seo:
   title: Coding Classes for Kids
@@ -71,6 +71,9 @@ pageBuilder:
       \
 
       Join our fall, spring, and summer sessions to explore coding through self-paced, project-based learning.
+
+
+      C﻿lick a box to register.
   - type: customLinkBoxes
     bgColor: "#faf6ee"
     list:
