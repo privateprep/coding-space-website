@@ -60,4 +60,65 @@ pageBuilder:
         content: /locations/westchester
       - title: Online
         content: /locations/online
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Year-Round Classes
+
+
+      \
+
+      Join our fall, spring, and summer sessions to explore coding through self-paced, project-based learning.
+  - type: customLinkBoxes
+    bgColor: "#faf6ee"
+    list:
+      - bgColor: "#faf6ee"
+        fgColor: "#cccccc"
+        content: "#"
+        textAlign: center
+        textColor: "#faf6ee"
+        mdContent: |-
+          ## Fall Session
+
+          ###### September-January
+
+          Registration opens in June!
+      - bgColor: "#faf6ee"
+        fgColor: "#eec11a"
+        content: /classes?semesters[]=Spring%20Classes%202026
+        textAlign: center
+        textColor: "#264548"
+        mdContent: >-
+          ## Spring Session
+
+
+          ###### February-June
+
+
+          Spring classes are in session! We have rolling admission so your child can join now.
+      - bgColor: "#faf6ee"
+        fgColor: "#eec11a"
+        content: https://www.thecodingspace.com/classes?semesters[]=Summer%20Classes%202026
+        textAlign: center
+        textColor: "#264548"
+        mdContent: |-
+          ## Summer Session
+
+          ###### June-August
+
+          Summer classes start in June! Enrollment is now open.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "## Looking for something else?"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
