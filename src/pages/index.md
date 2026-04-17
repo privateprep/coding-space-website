@@ -20,8 +20,8 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Spring Classes
-        content: /spring
+      - title: Spring & Summer Classes
+        content: /our-coding-classes
       - title: School Holiday Camps
         content: /experience-levels/school-holiday-mini-camps/
       - title: Summer Camp
