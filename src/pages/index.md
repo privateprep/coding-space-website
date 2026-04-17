@@ -21,7 +21,7 @@ hero:
     textColor: "#264548"
     list:
       - title: Spring & Summer Classes
-        content: /our-coding-classes
+        content: /programs/our-coding-classes
       - title: Summer Camp
         content: /summer
 mainpitch:
