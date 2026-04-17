@@ -25,8 +25,6 @@ pageBuilder:
       alt: Student coding
     mediaPosition: right
     mdContent: >-
-      
-
       ## Your Child’s Coding Journey Starts Here
 
 
@@ -42,4 +40,24 @@ pageBuilder:
 
       * Problem-Solving
     fgColor: "#eec11a"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: "## 5﻿ Ways to Join"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Upper  East Side
+        content: /locations/upper-east-side
+      - title: Park Slope
+        content: /locations/park-slope
+      - title: Port Washington
+        content: locations/long-island
+      - title: Scarsdale
+        content: /locations/westchester
+      - title: Online
+        content: /locations/online
 ---
