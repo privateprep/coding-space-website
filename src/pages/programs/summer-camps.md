@@ -113,17 +113,17 @@ pageBuilder:
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: "## O﻿ur Locations"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: |-
       ## A Day at Camp Coding Space
 
       ![](/img/heading.png)
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## O﻿ur Locations"
   - type: customLinkBoxes
     bgColor: "#faf6ee"
     list:
