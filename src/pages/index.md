@@ -9,8 +9,8 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2026-06-29T18:42:52.582Z
-  mdContent: "New Course for Middle Schoolers: AI Maker Lab! [Learn more
-    here](/programs/ai-maker-lab)"
+  mdContent: D﻿on't Miss Our Vibe Coding Workshop on April 26th! [Learn more
+    here](http://thecodingspace.com/programs/calendar).
 hero:
   heading: The Coding Space
   subheading: >
