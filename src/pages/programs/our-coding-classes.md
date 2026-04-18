@@ -58,7 +58,7 @@ pageBuilder:
       - title: Park Slope
         content: /locations/park-slope
       - title: Port Washington
-        content: locations/long-island
+        content: /locations/long-island
       - title: Scarsdale
         content: /locations/westchester
       - title: Online
