@@ -41,6 +41,13 @@ pageBuilder:
       * Solve problems
 
       * Build real, working applications
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: Register Now
+        content: /sign_up/classes/4593
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
@@ -129,10 +136,22 @@ pageBuilder:
       * **AI Maker Lab (Middle School)**
       * **Advanced Coding, AI & Computer Science Programs**
   - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
     textColor: "#264548"
     list:
       - title: Register Now
-        content: /programs/ai-maker-lab
+        content: /sign_up/classes/4593
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: Q﻿uestions? Contact Us Today
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#faf6ee"
+    textColor: "#264548"
+    list:
+      - title: Contact Us
+        content: /contact-us
 ---
