@@ -12,6 +12,14 @@ heroImage:
   image: /img/tcs-header.png
   alt: Accessibility name
 pageBuilder:
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: |-
+      ## G﻿ive Your Child a Summer They Won't Forget!
+
+      #### E﻿xplore our Summer Programs
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
