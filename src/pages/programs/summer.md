@@ -97,6 +97,36 @@ pageBuilder:
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/kid-on-the-computer-backside.jpg
+      alt: Student receiving a private coding lesson
+    mediaPosition: left
+    mdContent: >-
+      ## Private lessons
+
+
+      #### A﻿ges 6-17
+
+
+      #### A Flexible Option for Summer and Year-Round
+
+
+      Looking for a way for your child to learn with friends near and far? Or get dedicated help from an instructor in a one-on-one setting? Our virtual and in-person private lessons and small group classes provide students with targeted support from our experienced instructors. You can start and stop anytime.
+    fgColor: "#eec11a"
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#9de2dd"
+    list:
+      - title: Contact Us
+        content: /contact-us
+  - type: textAndImageBlock
+    buttons:
       bgColor: "#264548"
       fgColor: "#eec11a"
       textColor: "#264548"
@@ -107,8 +137,8 @@ pageBuilder:
     bgColor: "#264548"
     image:
       image: /img/img_3005-2-.jpg
-      alt: Accessibility name
-    mediaPosition: left
+      alt: Campers having fun
+    mediaPosition: right
     mdContent: >-
       ## Not Your Typical Coding Experience
 
@@ -147,21 +177,4 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/kid-on-the-computer-backside.jpg
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: |-
-      ## Summer Coding Classes
-
-      #### A﻿ges 6-13
-
-      #### Evenings & Weekends All Summer Long
 ---
