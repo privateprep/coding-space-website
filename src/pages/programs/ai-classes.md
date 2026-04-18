@@ -53,39 +53,13 @@ pageBuilder:
 
       Students build skills that go far beyond the classroom, including critical thinking, independence, and technical confidence.
   - type: textOnly
-    textAlign: left
+    textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
-    mdContent: >-
-      ## AI Maker Lab for Middle School Students
-
-
-      Our **AI Maker Lab** introduces middle schoolers to the fundamentals of artificial intelligence through fun, interactive projects.
-
-
-      ### What students learn:
-
-
-      * How AI works (machine learning basics)
-
-      * Build simple AI-powered programs
-
-      * Explore real-world uses of AI
-
-      * Strengthen problem-solving skills
-
-
-      Students learn by doing, building projects, experimenting, and collaborating with peers in a supportive environment.
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#eec11a"
-    list:
-      - title: Learn More
-        content: /programs/ai-maker-lab/
+    mdContent: "## O﻿ur AI Programs"
   - type: textOnly
     textAlign: left
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
       ## Vibe Coding: Build Apps with AI (Ages 8+)
@@ -111,12 +85,43 @@ pageBuilder:
 
       By the end of the program, each student leaves with a fully functional app they built themselves.
   - type: buttons
-    bgColor: "#9de2dd"
+    bgColor: "#faf6ee"
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
       - title: Learn More
         content: /vibe-coding-classes
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      ## AI Maker Lab for Middle School Students
+
+
+      Our AI Maker Lab introduces middle schoolers to the fundamentals of artificial intelligence through fun, interactive projects.
+
+
+      ### What students learn:
+
+
+      * How AI works (machine learning basics)
+
+      * Build simple AI-powered programs
+
+      * Explore real-world uses of AI
+
+      * Strengthen problem-solving skills
+
+
+      Students learn by doing, building projects, experimenting, and collaborating with peers in a supportive environment.
+  - type: buttons
+    bgColor: "#9de2dd"
+    fgColor: "#264548"
+    textColor: "#eec11a"
+    list:
+      - title: Learn More
+        content: /programs/ai-maker-lab/
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -150,7 +155,7 @@ pageBuilder:
         content: /classes/?experiences[]=Ages%2013-17&experiences[]=Ages%2010-13
   - type: textOnly
     textAlign: left
-    bgColor: "#ffffff"
+    bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
       ## A Unique Learning Experience
