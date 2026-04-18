@@ -49,7 +49,7 @@ pageBuilder:
       - title: Register Now
         content: /sign_up/classes/4593
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
@@ -70,7 +70,7 @@ pageBuilder:
 
       This process helps students develop real design thinking while giving a students a real project they can share with friends & family!
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: |-
@@ -89,7 +89,7 @@ pageBuilder:
       * **Technical Confidence**\
         Gain independence using modern tools
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
