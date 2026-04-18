@@ -90,7 +90,7 @@ pageBuilder:
     textColor: "#faf6ee"
     list:
       - title: Learn More
-        content: /vibe-coding-classes
+        content: /programs/vibe-coding-classes
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
