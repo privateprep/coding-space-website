@@ -20,7 +20,7 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
-      image: /img/img-7672.jpg
+      image: /img/ai-classes.png
       alt: "Kids Coding "
     mediaPosition: right
     mdContent: >-
