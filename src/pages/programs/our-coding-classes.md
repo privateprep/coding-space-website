@@ -88,7 +88,7 @@ pageBuilder:
         mdContent: |-
           ## Fall Session
 
-          ###### September-January
+          #### September-January
 
           Registration opens in June!
       - bgColor: "#faf6ee"
@@ -100,7 +100,7 @@ pageBuilder:
           ## Spring Session
 
 
-          ###### February-June
+          #### February-June
 
 
           Spring classes are in session! We have rolling admission so your child can join now.
@@ -112,7 +112,7 @@ pageBuilder:
         mdContent: |-
           ## Summer Session
 
-          ###### June-August
+          #### June-August
 
           Summer classes start in June! Enrollment is now open.
   - type: textOnly
