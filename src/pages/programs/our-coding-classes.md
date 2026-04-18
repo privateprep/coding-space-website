@@ -34,11 +34,14 @@ pageBuilder:
       Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
 
 
+      Y﻿our child will develop:
+
+
       * Intellectual confidence
 
       * Creativity
 
-      * Problem-Solving
+      * Problem-Solving & Critical Thinking
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
