@@ -34,14 +34,63 @@ pageBuilder:
 
       Each day is thoughtfully designed to keep students engaged, curious, and motivated, while helping them develop skills that last far beyond the summer.
     fgColor: "#9de2dd"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
     textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/is-coding-math-1-.png
+      alt: Accessibility name
+    mediaPosition: right
     mdContent: >-
-      - - -
+      ### Morning: Core Coding & Problem-Solving
 
 
+      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
+
+
+      Campers learn how to:
+
+
+      * Break down complex problems
+
+      * Think critically and creatively
+
+      * Build, test, and improve their own programs
+
+      * Collaborate with peers and share ideas
+    fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/white-board.jpg
+      alt: Accessibility name
+    mediaPosition: left
+    mdContent: Our experienced instructors make learning approachable and engaging,
+      helping students gain confidence as they build real skills. Using
+      Socratic-based teaching, they guide students by asking questions and help
+      students develop their inner critical voice.
+    fgColor: "#264548"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/campers-using-arduino.jpg
+      alt: Robotics pathway
+    mediaPosition: right
+    mdContent: >-
       ### Afternoon: Tech Pathways
 
 
@@ -61,6 +110,41 @@ pageBuilder:
         Combine creativity and technology through visual design, animation, and interactive media.
 
       Each pathway emphasizes **creativity, exploration, and problem-solving**, ensuring students stay engaged while learning advanced concepts in an accessible way.
+    fgColor: "#eec11a"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "## O﻿ur Locations"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: |-
+      ## A Day at Camp Coding Space
+
+      ![](/img/heading.png)
+  - type: customLinkBoxes
+    bgColor: "#faf6ee"
+    list:
+      - bgColor: "#faf6ee"
+        fgColor: "#f6c924"
+        content: /experience-levels/camp-coding-space/?class_location_ids[]=1
+        textAlign: center
+        textColor: "#264548"
+        mdContent: Upper East Side
+      - bgColor: "#eec11a"
+        fgColor: "#eec11a"
+        content: /experience-levels/camp-coding-space/?class_location_ids[]=3
+        textAlign: center
+        textColor: "#264548"
+        mdContent: Park Slope
+      - bgColor: "#faf6ee"
+        fgColor: "#eec11a"
+        content: /experience-levels/camp-coding-space/?class_location_ids[]=18
+        textAlign: center
+        textColor: "#264548"
+        mdContent: P﻿ort Washington
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -81,75 +165,6 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#ffffff"
-    textColor: "#264548"
-    mdContent: "## Camp Coding Space Locations"
-  - type: sideBySide
-    bgColor: "#ffffff"
-    leftComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        heading: Upper East Side
-        mdContent: |-
-          **Location:** 201 E 83rd Street, New York, NY 10028
-
-          **Drop Off:** 9:00 AM
-
-          **Pickup:** 3:00 PM
-
-          **Laptops:** Provided
-
-          **Lunch:** Bring Your Own
-
-          **Outdoor time:** 12:30 PM-1:30 PM in Central or Nearby Park
-    rightComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#264548"
-        textColor: "#ffffff"
-        heading: Park Slope
-        mdContent: |-
-          **Location:** 461 6th Street, Brooklyn, NY 11215
-
-          **Drop Off:** 9:00 AM
-
-          **Pickup:** 3:00 PM
-
-          **Laptops:** Provided
-
-          **Lunch:** Bring Your Own
-
-          **Outdoor time:** 12:30 PM-1:30 PM in Prospect Park
-  - type: sideBySide
-    bgColor: "#ffffff"
-    leftComponent:
-      - type: boxWithLogo
-        bgColor: "#ffffff"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        mdContent: |-
-          **Location:** 110 Main Street, Port Washington, NY 11050
-
-          **Drop Off:** 9:00 AM
-
-          **Pickup:** 3:00 PM
-
-          **Laptops:** Provided
-
-          **Lunch:** Bring Your Own
-
-          **Outdoor time:** 12:30 PM-1:30 PM in Blumenfeld Family Park
-        heading: Long Island
-    rightComponent:
-      - type: textOnly
-        textAlign: center
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: "![Outdoor time at summer camp](/img/untitled-design-6-.png)"
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
@@ -234,33 +249,4 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/is-coding-math-1-.png
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      ### Morning: Core Coding & Problem-Solving
-
-
-      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
-
-
-      Campers learn how to:
-
-
-      * Break down complex problems
-
-      * Think critically and creatively
-
-      * Build, test, and improve their own programs
-
-      * Collaborate with peers and share ideas
-    fgColor: "#eec11a"
 ---
