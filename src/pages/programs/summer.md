@@ -76,7 +76,7 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: View Class Schedule
-          content: /classes
+          content: /classes/?semesters[]=Summer%20Classes%202026
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
