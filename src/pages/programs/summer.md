@@ -147,4 +147,21 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/kid-on-the-computer-backside.jpg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: |-
+      ## Summer Coding Classes
+
+      #### A﻿ges 6-13
+
+      #### Evenings & Weekends All Summer Long
 ---
