@@ -39,27 +39,6 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ### Morning: Core Coding & Problem-Solving
-
-
-      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
-
-
-      Campers learn how to:
-
-
-      * Break down complex problems
-
-      * Think critically and creatively
-
-      * Build, test, and improve their own programs
-
-      * Collaborate with peers and share ideas
-
-
-      Our experienced instructors make learning approachable and engaging, helping students gain confidence as they build real skills.
-
-
       - - -
 
 
@@ -255,4 +234,33 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/is-coding-math-1-.png
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ### Morning: Core Coding & Problem-Solving
+
+
+      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
+
+
+      Campers learn how to:
+
+
+      * Break down complex problems
+
+      * Think critically and creatively
+
+      * Build, test, and improve their own programs
+
+      * Collaborate with peers and share ideas
+    fgColor: "#eec11a"
 ---
