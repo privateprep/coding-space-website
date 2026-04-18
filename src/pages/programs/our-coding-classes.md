@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Classes
+title: Our Classes
 titleColor: "#264548"
 seo:
   title: Coding Classes for Kids
@@ -28,7 +28,7 @@ pageBuilder:
       ## Your Child’s Coding Journey Starts Here
 
 
-      Our weekly after-school and Saturday classes in Manhattan, Brooklyn, Long Island, Westchester, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more.  Our signature project-based curriculum and small student-to-teacher ratio promises personalized attention and individual growth.
+      Our weekly after-school, Saturday, and Summer classes in Manhattan, Brooklyn, Long Island, Westchester, and Online offer unique coding challenges in Scratch, JavaScript, Python, and more.  Our signature project-based curriculum and small student-to-teacher ratio promises personalized attention and individual growth. 
 
 
       Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
