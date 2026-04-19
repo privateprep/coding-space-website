@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: GirlCode
+title: GirlCode (All Levels)
 titleColor: "#264548"
 seo:
   description: Our welcoming and inclusive GirlCode program utilizes the same
