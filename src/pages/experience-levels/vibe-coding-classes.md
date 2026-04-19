@@ -18,9 +18,10 @@ details:
   byline: Build Apps with AI
   experience: Ages 8+
   skills:
-    - AI Literacy
-    - Prompt Engineering
-    - Design Thinking
+    - AI & Machine Learning
+    - Web Development
+    - Creative Design
+    - Problem-Solving & Logic
   sellingPoints:
     - Build Real Apps
     - Create with AI
