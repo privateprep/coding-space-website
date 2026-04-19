@@ -10,7 +10,7 @@ seo:
     learn how AI systems are built, trained, and applied by creating their own
     models and interactive experiences.
 categoryIds: []
-courseOfferingEndpoint: "193"
+courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=193
 display: true
 thumbnail: /img/student-making.png
 details:
