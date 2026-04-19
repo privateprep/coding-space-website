@@ -21,15 +21,13 @@ details:
   experience: Ages 11-14
   skills:
     - AI Literacy
-    - AI Fundamentals & Model Training
+    - AI Fundamentals
     - Creative AI
-    - Ethical Thinking & Responsible AI Use
+    - AI Ethics
   sellingPoints:
-    - Hands-on AI creation
-    - Combines coding
-    - creativity
-    - and real-world tech
-    - Builds a portfolio of unique AI projects
+    - Hands-on AI Creation
+    - Build an AI portfolio
+    - Develop Responsible AI Use
   mdContent: >-
     In our AI Maker Lab, students explore the exciting world of artificial
     intelligence through hands-on projects that combine coding, creativity, and
