@@ -20,8 +20,9 @@ details:
   byline: Intro to Coding
   experience: Ages 6-8
   skills:
-    - Scratch
-    - Introductory Platforms
+    - Coding Fundamentals
+    - Problem-Solving & Logic
+    - Creative Design
   sellingPoints:
     - Introduction to Coding
     - Computer Science Fundamentals
