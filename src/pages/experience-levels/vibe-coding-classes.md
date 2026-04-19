@@ -19,10 +19,11 @@ details:
   experience: Ages 8+
   skills:
     - AI Literacy
-    - Prompt Engineering Basics
+    - Prompt Engineering
     - Design Thinking
   sellingPoints:
     - Build Real Apps
+    - Create with AI
     - No Coding Experience Required
   mdContent: >-
     In our Vibe Coding classes, students use AI tools and prompts to design and
