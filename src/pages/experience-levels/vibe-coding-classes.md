@@ -1,6 +1,6 @@
 ---
 templateKey: experience-levels
-title: Vibe Coding Classes
+title: Vibe Code
 titleColor: "#264548"
 seo:
   title: "Vibe Coding: Build Apps with AI"
