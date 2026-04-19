@@ -20,14 +20,14 @@ details:
   byline: For coders with experience in text-based languages
   experience: Ages 10-13
   skills:
-    - Python
-    - JavaScript
-    - Advanced
+    - JavaScript & Python proficiency
+    - Intro to data science & data analysis
+    - AI & ML Skills
+    - Algorithms & Problem-solving
   sellingPoints:
-    - Learn Python
-    - Advance in JavaScript
-    - Solve Algorithms
-    - Work with Data
+    - Build real-world apps and AI projects
+    - Learn data science fundamentals
+    - Prepare for future tech fields
   mdContent: >-
     In our Advanced course, students embark on an exciting journey through
     JavaScript and Python, two cornerstone languages in modern programming.
