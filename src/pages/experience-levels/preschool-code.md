@@ -22,8 +22,8 @@ details:
   byline: For play-based learning
   experience: Ages 3-5
   skills:
-    - Critical Thinking
-    - Problem-Solving
+    - Problem-Solving & Logic
+    - Creative Design
   sellingPoints:
     - Introduction to Coding
     - Early STEM
