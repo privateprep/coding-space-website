@@ -20,10 +20,10 @@ details:
   byline: For Middle Schoolers
   experience: Ages 11-14
   skills:
-    - AI Literacy
-    - AI Fundamentals
-    - Creative AI
-    - AI Ethics
+    - AI & Machine Learning
+    - Data Science
+    - Creative Design
+    - Problem-Solving & Logic
   sellingPoints:
     - Hands-on AI Creation
     - Build an AI portfolio
