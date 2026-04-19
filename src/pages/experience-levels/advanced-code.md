@@ -22,8 +22,8 @@ details:
   skills:
     - JavaScript & Python
     - Intro to data science
-    - AI & ML Skills
-    - Algorithms & Problem-solving
+    - AI
+    - Algorithms
   sellingPoints:
     - Build real-world apps and AI projects
     - Learn data science fundamentals
