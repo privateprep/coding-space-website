@@ -23,7 +23,7 @@ details:
     - Web Development
     - Data Science
     - AI & Machine Learning
-    - Problem-Solving & Logic
+    - Problem-Solving
     - Coding Fundamentals
   sellingPoints:
     - Build real-world apps and AI projects
