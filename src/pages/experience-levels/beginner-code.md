@@ -20,9 +20,9 @@ details:
   byline: For newer coders
   experience: Ages 8-13
   skills:
-    - Scratch
-    - Core Coding Concepts
-    - Game Design
+    - Coding Fundamentals
+    - Game Development
+    - Problem-Solving & Logic
   sellingPoints:
     - Computer Science Fundamentals
     - Creative Coding
