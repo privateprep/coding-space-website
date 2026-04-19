@@ -19,9 +19,11 @@ details:
   byline: Some Experience Required
   experience: Ages 8-13
   skills:
-    - Scratch
-    - JavaScript
-    - Intermediate
+    - Coding Fundamentals
+    - Game Development
+    - Web Development
+    - AI & Machine Learning (intro)
+    - Problem-Solving & Logic
   sellingPoints:
     - Introduction to Text-Based Coding
     - Making Games
