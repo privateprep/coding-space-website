@@ -20,8 +20,8 @@ details:
   byline: For coders with experience in text-based languages
   experience: Ages 10-13
   skills:
-    - JavaScript & Python proficiency
-    - Intro to data science & data analysis
+    - JavaScript & Python
+    - Intro to data science
     - AI & ML Skills
     - Algorithms & Problem-solving
   sellingPoints:
