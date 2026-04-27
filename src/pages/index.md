@@ -9,7 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2026-06-29T18:42:52.582Z
-  mdContent: D﻿on't Miss Our Vibe Coding Workshop on April 26th! [Learn more
+  mdContent: D﻿on't Miss Our Vibe Coding Workshop on Sunday, May 10th! [Learn more
     here](http://thecodingspace.com/programs/calendar).
 hero:
   heading: The Coding Space
