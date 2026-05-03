@@ -4,9 +4,8 @@ title: "  "
 titleColor: "#264548"
 seo:
   title: Coding Camp for Kids | Camp Coding Space
-  description: Our summer coding camp features field trips to tech companies,
-    project-based coding, plenty of outdoor fun, and tech exploration at The
-    Lift-Off-Lab. Don't miss it!
+  description: Camp Coding Space gives kids the opportunity to build real
+    technology skills while having a summer they’re excited about.
 heroImage:
   image: /img/camp-coding-space.png
   alt: Camp Coding Space
