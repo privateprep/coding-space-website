@@ -28,7 +28,7 @@ details:
     - Innovate with Tech
     - Outdoor Time
   mdContent: Held from June to August, our in-person camps combine project-based
-    coding, tech exploration, epic team challenges, field trips, and more.
-    Choose an option that fits your schedule and give your child a summer
-    adventure they'll never forget!
+    coding, tech exploration, epic team challenges, and more. Choose an option
+    that fits your schedule and give your child a summer adventure they'll never
+    forget!
 ---
