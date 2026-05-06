@@ -7,7 +7,8 @@ seo:
   description: In our Vibe Coding classes, students use AI tools and prompts to
     design and build their own web-based apps, regardless of prior coding
     experience.
-categoryIds: []
+categoryIds:
+  - 194
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=194
 display: true
 thumbnail: /img/ai-classes.png
