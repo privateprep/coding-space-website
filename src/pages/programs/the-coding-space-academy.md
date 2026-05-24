@@ -31,7 +31,7 @@ pageBuilder:
       ## Welcome to The Coding Space Academy
 
 
-      The Coding Space Academy is a two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this brand new rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
+      The Coding Space Academy is a two-week in-person coding intensive for rising 9th, 10th, 11th, and 12th graders. In this rigorous pre-college program, coding novices and experienced programmers alike will pick up the hard skills of coding, dive into the professional and collegiate world of computer science, test their limits, make friends, and be treated like the young adults that they are — all in an immersive boot camp setting.
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
