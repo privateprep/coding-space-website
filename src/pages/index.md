@@ -79,18 +79,18 @@ differentiators:
       Experienced educators who understand both coding and child development
 featuredProject:
   studentProfile:
-    name: Chris
+    name: Chloe
     age: 10
     interests: "Interests: Coding, Tech, Learning New Things"
     image:
       image: /img/tcs-logo.png
       alt: The Coding Space Logo
-    className: Spring registration is now open!
+    className: Spring 2026
     classUrl: /classes
   project:
     description: "  "
-    title: Space Battle
-    content: https://scritch.dev/play#56080772817107421451859900314529190391059539141119
+    title: Platformer
+    content: https://scritch.dev/play#32854105960743636071304693542895631193996483925452
     ratio: ratio4x3
 title: Coding Space Landing Page
 reviews:
