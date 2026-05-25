@@ -12,10 +12,12 @@ banner:
   mdContent: D﻿on't Miss Our Parent/Child Vibe Coding Workshop on Sunday, June
     21st! [Learn more here](http://thecodingspace.com/programs/calendar).
 hero:
-  heading: The Coding Space
-  subheading: >
-    Empowering kids and teens to learn coding, explore AI, and think like
-    innovators. 
+  heading: Where kids learn to think critically
+  subheading: >+
+    Through coding, AI, and project-based learning, students develop the
+    critical thinking skills to solve real problems and grow past their comfort
+    zones.
+
   buttons:
     fgColor: "#f6c924"
     textColor: "#264548"
@@ -25,7 +27,7 @@ hero:
       - title: Summer Camp
         content: /summer
 mainpitch:
-  title: Where Kids Learn to Think Critically
+  title: Building life skills through thoughtful education
   description: >+
     We offer in-person and online coding classes and camps for kids and teens in
     a caring, inclusive space designed for students to have fun, be challenged,
@@ -52,48 +54,31 @@ differentiators:
       ## Student-Centered Learning
 
 
-      Our project-based, self-paced curriculum in Scratch, JavaScript, Python, and more lets kids create games, animations, and apps as unique as they are.
+      Every child learns at their own pace with personalized guidance and support
   - image:
       image: /img/hands_on.jpeg
       alt: An instructor and two students gather around a computer with electronics
         hooked up to study circuits.
     mdContent: >-
-      ## Learn by Doing
+      ## Project-Based Approach
 
 
-      Our teachers never lecture. We believe in asking questions to help students solve problems.
+      Students build real projects that matter to them, driving deeper engagement
   - image:
       image: /img/girl-code-vert.jpg
       alt: A young girl in coding classes in the appearance of a superhero.
     mdContent: >-
-      ## Skills For Life
+      ## Critical Thinking Skills
 
 
-      Our supportive space fosters a growth mindset, grit, and the freedom to make mistakes, empowering students to grow past their comfort zones.
+      Learn to break down problems, think creatively, and grow past comfort zones
   - image:
       image: /img/white-board.jpg
       alt: Instructor showing code logic on a white board to a student
-    mdContent: >-
-      ## Expert Teachers
+    mdContent: |-
+      ## Expert Instruction
 
-
-      Our instructors receive continuous training in effective educational strategies, from using the Socratic Method to supporting students' social-emotional growth. This means your child learns from teachers who know how to guide, encourage, and challenge every student with care.
-  - image:
-      image: /img/as-seen-on.png
-      alt: The Coding Space featured on Nickelodeon!
-    mdContent: >-
-      ## Recognized Among the Best Coding Classes for Kids
-
-
-      We've been featured in [Time Out](https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), and [Tiny Beans](https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), as seen on Good Morning America and Nickelodeon!
-  - image:
-      image: /img/field_trips.jpg
-      alt: Group of Coding Space students go on a field trip to Google office in NYC
-    mdContent: >-
-      ## Personalized Experiences
-
-
-      We partner with students and parents at every step, from accessible tech support to progress reports.
+      Experienced educators who understand both coding and child development
 featuredProject:
   studentProfile:
     name: Chris
