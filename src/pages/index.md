@@ -29,14 +29,12 @@ hero:
 mainpitch:
   title: Building life skills through thoughtful education
   description: >+
-    We offer in-person and online coding classes and camps for kids and teens in
-    a caring, inclusive space designed for students to have fun, be challenged,
-    and grow as thinkers, learners, and leaders. Through hands-on projects like
-    coding games, animations, and interactive stories, as well as exploring
-    foundational concepts in artificial intelligence, data, algorithms, and
-    logic, students build creativity, confidence, and computational thinking.
-    They develop not just technical skills, but the mindset of thoughtful,
-    adaptable problem solvers.
+    We offer in-person and online coding classes and camps where kids and teens
+    learn by building - creating games, animations, interactive stories, and
+    exploring ideas in AI, data, algorithms, and logic. Students develop
+    technical skills alongside creativity, confidence, and critical thinking.
+    More than learning to code, they learn how to solve problems, think
+    independently, and bring their ideas to life.
 
 
 
