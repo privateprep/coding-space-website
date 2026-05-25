@@ -77,6 +77,22 @@ differentiators:
       ## Expert Instruction
 
       Experienced educators who understand both coding and child development
+  - image:
+      image: /img/nick-news.png
+      alt: Accessibility name
+    mdContent: >-
+      ## Recognized Among the Best Coding Classes for Kids
+
+
+      We've been featured in [Time Out](https://web.archive.org/web/20260502023613mp_/https://www.timeout.com/kids/the-best-coding-for-kids-classes), [Mommy Poppins](https://web.archive.org/web/20260502023613mp_/https://mommypoppins.com/coding-nyc-kids-scratch-computer-programming-classes-programs), and [Tiny Beans](https://web.archive.org/web/20260502023613mp_/https://tinybeans.com/new-york/coding-classes-for-kids-nyc/), as seen on Good Morning America and Nickelodeon!
+  - image:
+      image: /img/field_trips.jpg
+      alt: Accessibility name
+    mdContent: >-
+      ## Personalized Experiences
+
+
+      We partner with students and parents at every step, from accessible tech support to progress reports.
 featuredProject:
   studentProfile:
     name: Chloe
