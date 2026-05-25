@@ -27,7 +27,7 @@ hero:
       - title: Summer Camp
         content: /summer
 mainpitch:
-  title: Building life skills through thoughtful education
+  title: Building confidence, creativity, and problem-solving through technology
   description: >+
     We offer in-person and online coding classes and camps where kids and teens
     learn by building - creating games, animations, interactive stories, and
