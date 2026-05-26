@@ -113,7 +113,7 @@ pageBuilder:
       Whether your school already has a STEM program or is looking to expand technology offerings, we can build a program that fits your needs.
 
 
-      ### **Partnership Options Include**
+      ### Partnership Options Include
 
 
       * After-school coding programs
@@ -126,10 +126,8 @@ pageBuilder:
 
       * Summer learning programs
 
-      * PTA fundraising partnerships
 
-
-      ### **What Makes Our Programs Different**
+      ### What Makes Our Programs Different
 
 
       ✓ Students learn through building real projects
@@ -145,6 +143,13 @@ pageBuilder:
 
 
       ✓ Modern curriculum that includes both computer science fundamentals and AI literacy
+  - type: buttons
+    bgColor: "#ffffff"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Contact Us
+        content: /contact-us
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
@@ -154,13 +159,6 @@ pageBuilder:
 
 
       ![Schools and Orgs We Work With](/img/screen-shot-2022-02-02-at-10.47.41-am.png)
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#faf6ee"
-    list:
-      - title: Contact Us
-        content: /contact-us
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
