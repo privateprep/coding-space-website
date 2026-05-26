@@ -11,13 +11,13 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
       ## Prepare Students for the Future of Technology
 
 
-      *Project-based computer science, coding, and AI literacy programs for schools, camps, and community organizations.*
+      *Project-based computer science, coding, and AI literacy programs for schools, camps, and educational organizations.*
 
 
       At The Coding Space, students build real coding skills while developing creativity, confidence, computational thinking, and responsible technology use through engaging hands-on experiences.
@@ -25,51 +25,18 @@ pageBuilder:
 
       **Bring Coding & AI to Your School**
   - type: buttons
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     fgColor: "#9de2dd"
     textColor: "#264548"
     list:
       - title: Schedule a Partnership Call
         content: /contact-us
   - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: >-
-      ## Flexible Programs for Schools & Organizations
-
-
-      We partner with schools, camps, PTAs, nonprofits, corporations, and community organizations to deliver engaging STEM enrichment programs for students of all experience levels.
-
-
-      Our partnership offerings range from one-time workshops and STEM events to full-semester coding and computer science programs. Every partnership is customized to fit your students, schedule, and goals.
-  - type: styledChecks
-    bgColor: "#9de2dd"
-    fgColor: "#eec11a"
-    textColor: "#264548"
-    mediaPosition: column
-    list:
-      - title: Flexible scheduling options
-        content: " "
-      - title: Programs for beginner to advanced students
-        content: " "
-      - title: Small student-to-instructor ratios
-        content: " "
-      - title: Experienced, highly trained instructors
-        content: " "
-      - title: Project-based, hands-on learning
-        content: " "
-      - title: Age-appropriate coding and AI literacy curriculum
-        content: " "
-  - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## W﻿hy AI Literacy Matters
-
-
-      ### Helping Students Navigate an AI-Powered World
+      ## Helping Students Navigate an AI-Powered World
 
 
       Artificial intelligence is rapidly changing how students learn, create, and interact with technology. Today's students need more than passive technology use; they need to understand how technology works and how to use it thoughtfully and responsibly.
@@ -92,6 +59,20 @@ pageBuilder:
 
 
       We believe students should grow up as creators of technology, not just consumers of it.
+  - type: styledChecks
+    bgColor: "#9de2dd"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    mediaPosition: column
+    list:
+      - title: Computer science fundamentals
+        content: " "
+      - title: Age-appropriate coding and AI literacy curriculum
+        content: " "
+      - title: Computational thinking
+        content: " "
+      - title: Project-based, hands-on learning
+        content: " "
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -136,7 +117,7 @@ pageBuilder:
       ✓ Curriculum designed for all learning styles and experience levels
 
 
-      ✓ Supportive learning environments that encourage curiosity and experimentation
+      ✓ Small student-to-teacher ratio and inquiry-based learning environments that encourage curiosity and experimentation
 
 
       ✓ Coding instruction that balances creativity with technical skill-building
@@ -159,40 +140,6 @@ pageBuilder:
 
 
       ![Schools and Orgs We Work With](/img/screen-shot-2022-02-02-at-10.47.41-am.png)
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#264548"
-      textColor: "#faf6ee"
-      list:
-        - title: Contact Us
-          content: /contact-us
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/img-2436-1-.jpg
-      alt: TradeZero
-    mediaPosition: left
-    mdContent: >-
-      ## Community Partnerships
-
-
-      We are proud to partner with community centers, nonprofits, libraries, and local organizations to expand access to STEM education.
-
-
-      Together, we create engaging technology experiences that introduce students to coding, computer science, and emerging technologies in approachable and exciting ways.
-
-
-      Programs can be customized for:
-
-
-      * Community events
-
-      * Weekend workshops
-
-      * Family programming
-
-      * Ongoing enrichment classes
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -220,20 +167,12 @@ pageBuilder:
       Corporate partnerships help bring engaging technology education to students who may not otherwise have access while creating meaningful community impact opportunities for your organization.
 
 
-      ### **Partnership Opportunities Include**
+      ### Partnership Opportunities Include
 
 
       * Sponsoring coding and AI programs at local schools
 
       * Funding scholarships for students
-
-      * Supporting STEM access initiatives
-
-      * Hosting employee family coding events
-
-      * Bring Your Child to Work Day workshops
-
-      * Community technology activations
 
       * Co-branded educational initiatives
 
@@ -241,16 +180,11 @@ pageBuilder:
       ### Brand Visibility Opportunities
 
 
-      Depending on the partnership, sponsors may receive:
-
-
       * Recognition on event and program materials
 
       * Co-branded workshops and initiatives
 
       * Visibility with participating schools and families
-
-      * Featured partnership spotlights on our website and social media
 
       * Employee engagement opportunities
 
@@ -263,7 +197,7 @@ pageBuilder:
       ### Example Partnership
 
 
-      Curious to see our partnerships in action? Explore how we partnered with TradeZero to provide free coding classes to a Title I school in Brooklyn.
+      Curious to see our partnerships in action? [Explore how we partnered with TradeZero](/blog/2022-02-08-community-partner-spotlight-tradezero/) to provide free coding classes to a Title I school in Brooklyn.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
@@ -299,51 +233,4 @@ pageBuilder:
     list:
       - title: Contact Us
         content: /contact-us
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## Special Events & Custom Workshops
-
-
-      We offer customizable workshops and events for organizations, schools, and families looking to bring engaging STEM experiences to their communities.
-
-
-      Popular events include:
-
-
-      * Girl Scout workshops
-
-      * Intro to AI workshops
-
-      * Parent-child coding experiences
-
-      * Bring Your Child to Work Day
-
-
-      Every event is tailored to your audience, schedule, and goals.
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#faf6ee"
-    list:
-      - title: Contact Us
-        content: /contact-us
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: "## Ready to Team Up?"
-  - type: buttons
-    bgColor: "#9de2dd"
-    fgColor: "#eec11a"
-    textColor: "#264548"
-    list:
-      - title: Contact Us
-        content: /contact-us
-  - type: accordion
-    bgColor: "#faf6ee"
-    fgColor: "#9de2dd"
-    textColor: "#264548"
 ---
