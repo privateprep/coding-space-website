@@ -35,20 +35,31 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: "## Every Partnership Event is…"
+    mdContent: >-
+      ## Flexible Programs for Schools & Organizations
+
+
+      We partner with schools, camps, PTAs, nonprofits, corporations, and community organizations to deliver engaging STEM enrichment programs for students of all experience levels.
+
+
+      Our partnership offerings range from one-time workshops and STEM events to full-semester coding and computer science programs. Every partnership is customized to fit your students, schedule, and goals.
   - type: styledChecks
     bgColor: "#9de2dd"
     fgColor: "#eec11a"
     textColor: "#264548"
     mediaPosition: column
     list:
-      - title: Customizable with dates and times that suit your schedule
+      - title: Flexible scheduling options
         content: " "
-      - title: Appropriate for kids of all skill levels
+      - title: Programs for beginner to advanced students
         content: " "
-      - title: Designed to support learning with our small student-to-teacher ratios
+      - title: Small student-to-instructor ratios
         content: " "
-      - title: Staffed by professional, engaging, and highly trained instructors
+      - title: Experienced, highly trained instructors
+        content: " "
+      - title: Project-based, hands-on learning
+        content: " "
+      - title: Age-appropriate coding and AI literacy curriculum
         content: " "
   - type: textOnly
     textAlign: center
