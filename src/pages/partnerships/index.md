@@ -62,6 +62,90 @@ pageBuilder:
       - title: Age-appropriate coding and AI literacy curriculum
         content: " "
   - type: textOnly
+    textAlign: left
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## W﻿hy AI Literacy Matters
+
+
+      ### Helping Students Navigate an AI-Powered World
+
+
+      Artificial intelligence is rapidly changing how students learn, create, and interact with technology. Today's students need more than passive technology use; they need to understand how technology works and how to use it thoughtfully and responsibly.
+
+
+      Our programs introduce students to:
+
+
+      * Computer science fundamentals
+
+      * Coding and computational thinking
+
+      * AI literacy and responsible AI use
+
+      * Creative problem-solving
+
+      * Game design and digital creation
+
+      * Confidence with emerging technology
+
+
+      We believe students should grow up as creators of technology, not just consumers of it.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+    textColor: "#264548"
+    bgColor: "#ffffff"
+    image:
+      image: /img/hands_on.jpeg
+      alt: Accessibility name
+    mediaPosition: right
+    mdContent: >-
+      ## School Partnerships
+
+
+      We partner with public schools, private schools, charter schools, and PTAs to bring high-quality coding, computer science, and AI literacy programs directly to students.
+
+
+      Whether your school already has a STEM program or is looking to expand technology offerings, we can build a program that fits your needs.
+
+
+      ### **Partnership Options Include**
+
+
+      * After-school coding programs
+
+      * In-school enrichment classes
+
+      * STEM and technology electives
+
+      * AI literacy workshops
+
+      * Summer learning programs
+
+      * PTA fundraising partnerships
+
+
+      ### **What Makes Our Programs Different**
+
+
+      ✓ Students learn through building real projects
+
+
+      ✓ Curriculum designed for all learning styles and experience levels
+
+
+      ✓ Supportive learning environments that encourage curiosity and experimentation
+
+
+      ✓ Coding instruction that balances creativity with technical skill-building
+
+
+      ✓ Modern curriculum that includes both computer science fundamentals and AI literacy
+  - type: textOnly
     textAlign: center
     bgColor: "#264548"
     textColor: "#faf6ee"
@@ -70,37 +154,6 @@ pageBuilder:
 
 
       ![Schools and Orgs We Work With](/img/screen-shot-2022-02-02-at-10.47.41-am.png)
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/hands_on.jpeg
-      alt: Accessibility name
-    mediaPosition: right
-    mdContent: >-
-      ## Schools
-
-
-      We currently partner with a variety of schools to bring project-based coding classes in both after-school and in-school formats. All of our teachers go through intensive training on the use of the Socratic Method, the ins and outs of our Scratch- and JavaScript-based coding curriculum, and classroom techniques that foster an environment conducive to learning at all paces and styles.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      #### Whether your school has a robust STEM program or would like to start
-      introducing STEM to the student body, we have an option to suit your
-      needs.
-
-
-      * Host an event for your student body during the school day to celebrate a STEM holiday such as Hour of Code or Women in Tech Week or Code 4 Change. This is a great first step to expose your students to coding.
-
-      * PTA Give Back Program serves as a PTA fundraiser and connects students with opportunities to code during school breaks.
-
-      * Host an in-school or after-school class for students to more fully explore their interest in coding and take their skills to the next level.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
