@@ -14,10 +14,23 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ##  Partner With The Coding Space
+      ## Prepare Students for the Future of Technology
 
 
-      Looking for a way to bring The Coding Space to your school or organization? You’ve come to the right place. We’re passionate about partnering with organizations to help kids develop critical thinking skills, confidence, and self-expression through coding education. Our class and camp partnerships range from full, interactive semesters to personalized private lessons and customized group events. From fun hands-on activities to cool STEM explorations and coding challenges, these classes and workshops are fun, educational, and a great way to engage families within your organization.
+      *Project-based computer science, coding, and AI literacy programs for schools, camps, and community organizations.*
+
+
+      At The Coding Space, students build real coding skills while developing creativity, confidence, computational thinking, and responsible technology use through engaging hands-on experiences.
+
+
+      **Bring Coding & AI to Your School**
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#9de2dd"
+    textColor: "#264548"
+    list:
+      - title: Schedule a Partnership Call
+        content: /contact-us
   - type: textOnly
     textAlign: center
     bgColor: "#9de2dd"
