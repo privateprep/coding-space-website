@@ -211,32 +211,59 @@ pageBuilder:
       ## Corporate Partnerships
 
 
-      We partner with companies and organizations that want to support equitable access to high-quality STEM and computer science education.
+      ### *Sponsor Future-Ready STEM & AI Education*
 
 
-      Through sponsored programs, workshops, and scholarship initiatives, we help bring coding and AI literacy opportunities to students who may not otherwise have access.
+      We partner with companies that want to expand access to high-quality computer science, coding, and AI literacy education through sponsored school and community programs.
 
 
-      Our long-term mission is to expand access to engaging, future-ready technology education for students from all backgrounds.
+      Corporate partnerships help bring engaging technology education to students who may not otherwise have access while creating meaningful community impact opportunities for your organization.
 
 
-      ### Partnership Opportunities
+      ### **Partnership Opportunities Include**
 
 
-      * Sponsored school programs
+      * Sponsoring coding and AI programs at local schools
 
-      * Employee family events
+      * Funding scholarships for students
+
+      * Supporting STEM access initiatives
+
+      * Hosting employee family coding events
 
       * Bring Your Child to Work Day workshops
 
-      * Scholarship funding initiatives
+      * Community technology activations
 
-      * Community STEM activations
-
-      * Corporate volunteer opportunities
+      * Co-branded educational initiatives
 
 
-      Curious to see our partnerships in action? [Explore how we partnered with TradeZero](/blog/2022-02-08-community-partner-spotlight-tradezero/) to provide free coding classes to a Title I school in Brooklyn.
+      ### Brand Visibility Opportunities
+
+
+      Depending on the partnership, sponsors may receive:
+
+
+      * Recognition on event and program materials
+
+      * Co-branded workshops and initiatives
+
+      * Visibility with participating schools and families
+
+      * Featured partnership spotlights on our website and social media
+
+      * Employee engagement opportunities
+
+      * Community impact storytelling and reporting
+
+
+      We work closely with partners to create programs that align with both community needs and company goals.
+
+
+      ### Example Partnership
+
+
+      Curious to see our partnerships in action? Explore how we partnered with TradeZero to provide free coding classes to a Title I school in Brooklyn.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
@@ -245,7 +272,26 @@ pageBuilder:
       ## Camp Partnerships
 
 
-      We have a proven track record of successfully partnering with day and summer camps. From an in-person STEM corner at your day camp to a virtual coding elective at sleepaway camp, we’re here to provide campers with a special summer of coding fun.
+      We have extensive experience partnering with day camps and summer camps to bring engaging coding and STEM experiences to campers.
+
+
+      From in-person STEM enrichment to curriculum licensing, our partnerships are designed to make technology education fun, interactive, and accessible.
+
+
+      Camp partnership options include:
+
+
+      * Weekly coding electives
+
+      * STEM activity stations
+
+      * Game design workshops
+
+      * AI and coding mini camps
+
+      * Virtual technology programs
+
+      * C﻿urriculum licensing
   - type: buttons
     bgColor: "#264548"
     fgColor: "#9de2dd"
@@ -258,10 +304,25 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Special Events
+      ## Special Events & Custom Workshops
 
 
-      From Bring Your Child to Work Day and Girl Scout Troop events, to birthday parties or parent-child coding events, our workshops and mini camps are totally customizable and suited for any event where your child wants to have fun and learn something, too.
+      We offer customizable workshops and events for organizations, schools, and families looking to bring engaging STEM experiences to their communities.
+
+
+      Popular events include:
+
+
+      * Girl Scout workshops
+
+      * Intro to AI workshops
+
+      * Parent-child coding experiences
+
+      * Bring Your Child to Work Day
+
+
+      Every event is tailored to your audience, schedule, and goals.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
