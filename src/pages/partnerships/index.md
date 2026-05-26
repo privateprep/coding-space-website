@@ -174,10 +174,25 @@ pageBuilder:
       alt: TradeZero
     mediaPosition: left
     mdContent: >-
-      ## **Community Partnerships**
+      ## Community Partnerships
 
 
-      We are committed members of our communities and partner with a range of organizations including community centers, PTAs, and nonprofits to bring our custom coding classes to the public.
+      We are proud to partner with community centers, nonprofits, libraries, and local organizations to expand access to STEM education.
+
+
+      Together, we create engaging technology experiences that introduce students to coding, computer science, and emerging technologies in approachable and exciting ways.
+
+
+      Programs can be customized for:
+
+
+      * Community events
+
+      * Weekend workshops
+
+      * Family programming
+
+      * Ongoing enrichment classes
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
@@ -193,13 +208,35 @@ pageBuilder:
       alt: Accessibility name
     mediaPosition: right
     mdContent: >-
-      **Corporate Partnerships**
+      ## Corporate Partnerships
 
 
-      We believe that everyone has a right to equitable education in a safe and inclusive learning environment and are committed to increasing access to our high-quality coding programs through corporate partnerships so that underrepresented children everywhere can surpass societal limitations and thrive. Our long-term goal as we work towards educational equity is to reach 50 percent of our students through scholarships and corporate partnerships.
+      We partner with companies and organizations that want to support equitable access to high-quality STEM and computer science education.
 
 
-      Curious to see our partnerships in action? Check out [a recent partnership with TradeZero](/blog/2022-02-08-community-partner-spotlight-tradezero/) to provide free coding classes to a Title I school in Brooklyn.
+      Through sponsored programs, workshops, and scholarship initiatives, we help bring coding and AI literacy opportunities to students who may not otherwise have access.
+
+
+      Our long-term mission is to expand access to engaging, future-ready technology education for students from all backgrounds.
+
+
+      ### Partnership Opportunities
+
+
+      * Sponsored school programs
+
+      * Employee family events
+
+      * Bring Your Child to Work Day workshops
+
+      * Scholarship funding initiatives
+
+      * Community STEM activations
+
+      * Corporate volunteer opportunities
+
+
+      Curious to see our partnerships in action? [Explore how we partnered with TradeZero](/blog/2022-02-08-community-partner-spotlight-tradezero/) to provide free coding classes to a Title I school in Brooklyn.
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
