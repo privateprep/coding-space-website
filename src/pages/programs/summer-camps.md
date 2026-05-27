@@ -28,7 +28,7 @@ pageBuilder:
       ## A Summer of Learning, Creativity, and Confidence
 
 
-      Camp Coding Space gives kids the opportunity to build real technology skills while having a summer they’re excited about. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps combine hands-on learning, collaboration, and movement in a fun, supportive environment.
+      Camp Coding Space gives kids the opportunity to build real technology skills while having a summer they’re excited about. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps combine hands-on learning and collaboration in a fun, supportive environment.
 
 
       Each day is thoughtfully designed to keep students engaged, curious, and motivated, while helping them develop skills that last far beyond the summer.
@@ -48,10 +48,7 @@ pageBuilder:
       ### Morning: Core Coding & Problem-Solving
 
 
-      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. Lessons are interactive and age-appropriate, guiding students through the process of turning ideas into working projects.
-
-
-      Campers learn how to:
+      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. As campers complete projects, they learn how to:
 
 
       * Break down complex problems
