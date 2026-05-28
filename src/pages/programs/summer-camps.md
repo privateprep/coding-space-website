@@ -178,9 +178,6 @@ pageBuilder:
           efficient. My camper learned a ton of new skills and had a lot of fun
           doing it. Thanks for a great summer!
         content: Michael, NYC Parent
-      - title: “I love coding camp! My favorite part was visiting Samsung and Apple. I
-          felt like a professional coder.”
-        content: Mylo, Brooklyn Camper
       - title: I was impressed by how much one-on-one feedback James received. I really
           liked the fact that the camp counselors didn't tell him what to do,
           but rather encouraged him to problem solve on his own.
@@ -204,14 +201,13 @@ pageBuilder:
       - title: I can't say enough good things about The Coding Space! My ten-year-old
           had an absolutely fantastic time during their two-week camp. From
           coding projects to STEM activities, every part of the program was
-          engaging and well-organized. The field trip was a highlight, adding an
-          extra layer of excitement to the experience.  The camp counselors were
-          incredible—both fun and professional, creating an environment where my
-          son felt excited and motivated every day. He was thrilled to be there,
-          and it was clear that he was fully engaged throughout the entire
-          camp.  If you’re looking for a camp that combines education with
-          enjoyment in a supportive and dynamic setting, The Coding Space is the
-          place to be. Highly recommend!,
+          engaging and well-organized. The camp counselors were incredible—both
+          fun and professional, creating an environment where my son felt
+          excited and motivated every day. He was thrilled to be there, and it
+          was clear that he was fully engaged throughout the entire camp.  If
+          you’re looking for a camp that combines education with enjoyment in a
+          supportive and dynamic setting, The Coding Space is the place to be.
+          Highly recommend!,
         content: Norma, NYC Parent
   - type: textOnly
     textAlign: center
