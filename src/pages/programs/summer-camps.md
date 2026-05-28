@@ -91,6 +91,14 @@ pageBuilder:
 
       * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects, connecting directly to the programming skills they're developing each morning.
     fgColor: "#eec11a"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#ffffff"
+    textColor: "#264548"
+    mdContent: |-
+      ##  A Day at Camp Coding Space
+
+      ![](/img/heading.webp)
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
@@ -111,14 +119,6 @@ pageBuilder:
 
       At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
     fgColor: "#264548"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#ffffff"
-    textColor: "#264548"
-    mdContent: |-
-      ##  A Day at Camp Coding Space
-
-      ![](/img/heading.webp)
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
