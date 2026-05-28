@@ -31,7 +31,10 @@ pageBuilder:
       ### *Hands-on coding. Independent thinking. Real projects kids are proud of.*
 
 
-      Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have — hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island.
+      Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have: hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps have a 4:1 camper-to-instructor ratio so every student gets the individual attention they need to grow.
+
+
+      I﻿n addition to coding, campers enjoy daily outdoor time and group activities because the friendships you make while building things together are part of what makes the summer memorable.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -60,10 +63,7 @@ pageBuilder:
 
       * Think critically and communicate their thinking
 
-      * Collaborate with peers and give feedback
-
-
-      With a 4:1 camper-to-instructor ratio, every student gets the individual attention they need to grow.
+      * Collaborate with peers
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -158,6 +158,10 @@ pageBuilder:
     bgColor: "#faf6ee"
     heading: What Families Are Saying About The Coding Space
     list:
+      - title: I was impressed by how much one-on-one feedback James received. I really
+          liked the fact that the camp counselors didn't tell him what to do,
+          but rather encouraged him to problem solve on his own.
+        content: Tricia, NYC Parent
       - title: Easily the best coding camp in NYC - actually teaches coding with
           engaged, hands-on instruction, rather than throwing kids in a computer
           lab to fend for themselves all day as many other camps do. Staff are
@@ -165,10 +169,6 @@ pageBuilder:
           efficient. My camper learned a ton of new skills and had a lot of fun
           doing it. Thanks for a great summer!
         content: Michael, NYC Parent
-      - title: I was impressed by how much one-on-one feedback James received. I really
-          liked the fact that the camp counselors didn't tell him what to do,
-          but rather encouraged him to problem solve on his own.
-        content: Tricia, NYC Parent
       - title: We are with The Coding Space for the 3rd year and it's been a great
           journey into coding together! Kids start with Scratch (building blocks
           of coding), then move onto WoofJS (JavaScript) and after that start
