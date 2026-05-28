@@ -5,7 +5,7 @@ titleColor: "#264548"
 bgColor: "#eec11a"
 date: 2022-09-01T19:38:40.357Z
 description: There's no wrong way to get started
-featuredPost: false
+featuredPost: true
 featuredImage:
   image: /img/GirlCode-around-a-table.jpg
   alt: Accessibility name
@@ -18,7 +18,7 @@ pageBuilder:
       ## Young Beginner Code
 
 
-      Young Beginner Code is built specifically for ages 6-8. If your young coder has no coding experience, we’ll likely start them out in code.org, a platform that introduces them to key concepts such as sequence, events, and loops; or ScratchJr, a precursor to Scratch, MIT’s introductory language designed for children. If your child has experience in Scratch already, we’ll likely start them there. Young Beginner classes are 90 minutes and include an offline activity to allow students to take a step back from the screen and reinforce concepts in a different way.
+      Young Beginner Code is built specifically for ages 6-8. If your young coder has no coding experience, we’ll likely start them out in code.org, a platform that introduces them to key concepts such as sequence, events, and loops; or ScratchJr, a precursor to Scratch, MIT’s introductory language designed for children. If your child has experience in Scratch already, we’ll likely start them there. Young Beginner classes are 90 minutes and may include an offline activity to allow students to take a step back from the screen and reinforce concepts in a different way.
 
 
       Browse our Young Beginner classes [here](https://www.thecodingspace.com/experience-levels/young-beginner-code/).
