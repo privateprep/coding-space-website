@@ -58,7 +58,7 @@ pageBuilder:
 
       * Build, test, and improve their own programs
 
-      * Think critically and defend their decisions
+      * Think critically and communicate their thinking
 
       * Collaborate with peers and give feedback
 
