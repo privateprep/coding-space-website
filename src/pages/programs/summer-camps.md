@@ -31,7 +31,7 @@ pageBuilder:
       ### *Hands-on coding. Independent thinking. Real projects kids are proud of.*
 
 
-      Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have: hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps have a 4:1 camper-to-instructor ratio so every student gets the individual attention they need to grow. I﻿n addition to coding, campers enjoy daily outdoor time and group activities because the friendships you make while building things together are part of what makes the summer memorable.
+      Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have: hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps have a 4:1 camper-to-instructor ratio so every student gets the individual attention they need to grow. I﻿n addition to coding, campers enjoy daily outdoor time and group activities. Because the friendships you make while building things together are part of what makes the summer memorable.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -77,19 +77,19 @@ pageBuilder:
       ### Afternoon: Tech Pathways
 
 
-      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects.
+      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects. Campyers can choose the same pathway all week or try different pathways each day.
 
 
       **Tech Pathways include:**
 
 
-      * **Game Design:** Master the craft behind great games — level design, mechanics, and user experience. Campers apply these concepts directly to code games of their own design.
+      * **Game Design:** Master the craft behind great games — level design, mechanics, and user experience. Campers apply these concepts directly to games of their own design.
 
       * **Robotics:** Bring code off the screen and into the physical world. Campers program robots to solve challenges, seeing firsthand how the logic they write in the morning controls real hardware.
 
       * **D﻿igital Art:** Create everything you see on screen. Campers design sprites, animate characters, and build backdrops that plug directly into their morning coding projects — because a great game needs great visuals.
 
-      * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects in Scratch and Python, connecting directly to the programming skills they're developing each morning.
+      * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects, connecting directly to the programming skills they're developing each morning.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
