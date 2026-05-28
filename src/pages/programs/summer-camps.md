@@ -77,7 +77,7 @@ pageBuilder:
       ### Afternoon: Tech Pathways
 
 
-      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects. Campers can choose the same pathway all week or try different pathways each day. They may also continue to work on their coding projects in the afternoons.
+      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects. Campers can choose the same pathway all week or try different pathways each day. They may also continue to work on their coding projects in the afternoons. We believe in student-centered learning and will guide each student along a path that is appropriate for them.
 
 
       **Tech Pathways include:**
