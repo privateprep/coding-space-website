@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: "  Camp Coding Space"
+title: "  Camp Coding Space | Ages 8-13"
 titleColor: "#264548"
 seo:
   title: Coding Camp for Kids | Camp Coding Space
