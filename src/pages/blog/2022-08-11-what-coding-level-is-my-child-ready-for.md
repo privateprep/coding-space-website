@@ -78,6 +78,15 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
+      ## E﻿arly Engineers
+
+
+      For kids excited to get started early, we also offer Early Engineers, a hands-on, offscreen STEM program for ages 3-5. Students build early engineering skills like pattern recognition, spatial reasoning, logic, and problem-solving, setting them up for success in coding and beyond.
+  - type: textOnly
+    textAlign: left
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
       ## Private Lessons
 
 
@@ -85,14 +94,5 @@ pageBuilder:
 
 
       [Contact us](https://www.thecodingspace.com/contact-us) for private lessons.
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: >-
-      ## E﻿arly Engineers
-
-
-      For kids excited to get started early, we also offer Early Engineers, a hands-on, offscreen STEM program for ages 3-5. Students build early engineering skills like pattern recognition, spatial reasoning, logic, and problem-solving, setting them up for success in coding and beyond.
 ---
 At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level below.
