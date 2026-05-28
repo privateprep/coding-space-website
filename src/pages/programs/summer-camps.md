@@ -90,22 +90,19 @@ pageBuilder:
       ### Afternoon: Tech Pathways
 
 
-      In the afternoons, campers choose a **Tech Pathway**, allowing them to explore an area that genuinely excites them through extended, hands-on projects. These pathways give students time to go deeper, experiment, and discover new interests—all while continuing to build core tech skills.
+      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects.
 
 
       **Tech Pathways include:**
 
 
-      * **Artificial Intelligence Pathway**\
-        Learn how AI works and create simple intelligent systems through guided projects.
-      * **Game Design Pathway**\
-        Design and build interactive games while learning logic, storytelling, and user experience.
-      * **Robotics Pathway**\
-        Program robots and solve real-world challenges using sensors, code, and creative thinking.
-      * **Digital Art Pathway**\
-        Combine creativity and technology through visual design, animation, and interactive media.
+      * **Game Design:** Master the craft behind great games — level design, mechanics, and user experience. Campers apply these concepts directly to code games of their own design.
 
-      Each pathway emphasizes **creativity, exploration, and problem-solving**, ensuring students stay engaged while learning advanced concepts in an accessible way.
+      * **Robotics:** Bring code off the screen and into the physical world. Campers program robots to solve challenges, seeing firsthand how the logic they write in the morning controls real hardware.
+
+      * **D﻿igital Art:** Create everything you see on screen. Campers design sprites, animate characters, and build backdrops that plug directly into their morning coding projects — because a great game needs great visuals.
+
+      * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects in Scratch and Python, connecting directly to the programming skills they're developing each morning.
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
