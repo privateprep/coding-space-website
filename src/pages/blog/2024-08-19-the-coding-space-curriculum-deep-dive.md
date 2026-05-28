@@ -6,11 +6,11 @@ titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2024-08-19T20:06:54.667Z
 description: >
-  At The Coding Space, our mission is to empower kids and teens to learn coding,
-  explore AI, and think like innovators. In doing so, we aim to develop their
-  problem-solving, critical thinking, learning skills, confidence, attitudes,
-  and mindsets. Below are a few key tools and tactics we use to accomplish our
-  mission. 
+  At The Coding Space, our mission is to empower kids and teens to learn coding
+  and think like innovators in an AI-driven world. In doing so, we aim to
+  develop their problem-solving, critical thinking, learning skills, confidence,
+  attitudes, and mindsets. Below are a few key tools and tactics we use to
+  accomplish our mission. 
 featuredPost: true
 featuredImage:
   image: /img/img_2250.jpeg
