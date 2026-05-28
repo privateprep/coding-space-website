@@ -25,13 +25,13 @@ pageBuilder:
       alt: Students coding at camp
     mediaPosition: left
     mdContent: >-
-      ## A Summer of Learning, Creativity, and Confidence
+      ## Where Kids Learn to Think Like Engineers
 
 
-      Camp Coding Space gives kids the opportunity to build real technology skills while having a summer they’re excited about. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps combine hands-on learning and collaboration in a fun, supportive environment.
+      ### *Hands-on coding. Independent thinking. Real projects kids are proud of.*
 
 
-      Each day is thoughtfully designed to keep students engaged, curious, and motivated, while helping them develop skills that last far beyond the summer.
+      Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have — hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
@@ -48,16 +48,22 @@ pageBuilder:
       ### Morning: Core Coding & Problem-Solving
 
 
-      In the mornings, campers focus on **project-based coding** that builds strong foundations in programming, logic, and computational thinking. As campers complete projects, they learn how to:
+      In the mornings, campers work on real coding projects in Scratch, JavaScript, and Python. Our instructors never lecture; instead they use the Socratic Method, asking targeted questions that push students to think independently and solve problems on their own.
+
+
+      As campers build, they learn to:
 
 
       * Break down complex problems
 
-      * Think critically and creatively
-
       * Build, test, and improve their own programs
 
-      * Collaborate with peers and share ideas
+      * Think critically and defend their decisions
+
+      * Collaborate with peers and give feedback
+
+
+      With a 4:1 camper-to-instructor ratio, every student gets the individual attention they need to grow.
     fgColor: "#eec11a"
   - type: textAndImageBlock
     buttons:
@@ -104,6 +110,26 @@ pageBuilder:
 
       * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects in Scratch and Python, connecting directly to the programming skills they're developing each morning.
     fgColor: "#eec11a"
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#9de2dd"
+      fgColor: "#eec11a"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /about-us/our-teaching-philosophy
+    textColor: "#264548"
+    bgColor: "#9de2dd"
+    image:
+      image: /img/GirlCode-around-a-table.jpg
+      alt: Kids working on on a computer in a group
+    mediaPosition: right
+    mdContent: >-
+      ## Not Your Typical Coding Camp
+
+
+      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
+    fgColor: "#264548"
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
@@ -138,26 +164,6 @@ pageBuilder:
         textAlign: center
         textColor: "#264548"
         mdContent: P﻿ort Washington
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#9de2dd"
-      fgColor: "#eec11a"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /about-us/our-teaching-philosophy
-    textColor: "#264548"
-    bgColor: "#9de2dd"
-    image:
-      image: /img/GirlCode-around-a-table.jpg
-      alt: Kids working on on a computer in a group
-    mediaPosition: right
-    mdContent: >-
-      ## Not Your Typical Coding Camp
-
-
-      At The Coding Space, we specialize in providing a safe and inclusive learning environment for kids to have fun, be challenged, and discover their passions. Our teachers never lecture; instead, they ask targeted questions using the Socratic Method to get students thinking and problem solving on their own. By focusing on the development of computational thinking skills, intellectual confidence, self-expression, and independence, our students learn to code while growing as thinkers, learners, and leaders.
-    fgColor: "#264548"
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
