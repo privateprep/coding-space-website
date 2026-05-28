@@ -3,7 +3,7 @@ templateKey: blog-post
 title: What Coding Level Is My Child Ready For?
 titleColor: "#264548"
 bgColor: "#eec11a"
-date: 2022-09-01T19:38:40.357Z
+date: 2026-05-28T15:38:51.071Z
 description: There's no wrong way to get started
 featuredPost: true
 featuredImage:
