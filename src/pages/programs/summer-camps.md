@@ -73,22 +73,6 @@ pageBuilder:
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
-      image: /img/white-board.jpg
-      alt: Accessibility name
-    mediaPosition: left
-    mdContent: Our experienced instructors make learning approachable and engaging,
-      helping students gain confidence as they build real skills. Using
-      Socratic-based teaching, they guide students by asking questions and help
-      students develop their inner critical voice.
-    fgColor: "#264548"
-  - type: textAndImageBlock
-    buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
       image: /img/campers-using-arduino.jpg
       alt: Robotics pathway
     mediaPosition: right
