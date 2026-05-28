@@ -30,7 +30,7 @@ pageBuilder:
       ## Beginner Code
 
 
-      Beginner Code welcomes all students between ages 8-14. While no experience is required, it’s likely that some students will come into class already having coded in Scratch, or another language. Our self-paced, project-based curriculum is designed specifically for mixed level classrooms; we’ll assess where students are in their coding journey on day one and find just the right spot for them to be challenged and engaged. Beginner students are ready for our Intermediate class when they’ve coded a project similar in complexity to this [Typing Game](https://scratch.mit.edu/projects/369713744/editor/).
+      Beginner Code welcomes all students between ages 8-13. While no experience is required, it’s likely that some students will come into class already having coded in Scratch, or another language. Our self-paced, project-based curriculum is designed specifically for mixed level classrooms; we’ll assess where students are in their coding journey on day one and find just the right spot for them to be challenged and engaged. Beginner students are ready for our Intermediate class when they’ve coded a project similar in complexity to this [Typing Game](https://scratch.mit.edu/projects/369713744/editor/).
 
 
       Browse our Beginner classes [here](https://www.thecodingspace.com/experience-levels/beginner-code/).
@@ -42,7 +42,7 @@ pageBuilder:
       ## Intermediate Code
 
 
-      Also open to ages 8-14, Intermediate Code is designed for students who are coding complex projects in Scratch and soon ready to move on to [WoofJS](https://woofjs.com), our JavaScript learning platform. WoofJS was built by The Coding Space to help students transition from block-based programming to text-based languages, where they’ll learn syntax, functions, and how to read documentation. When students are ready for our Advanced class, they’ll have coded a project of a similar complexity to [Flappy Bird Game](https://woofjs.com/create.html#flappy-bird-example-1). 
+      Also open to ages 8-13, Intermediate Code is designed for students who are coding complex projects in Scratch and soon ready to move on to [WoofJS](https://woofjs.com), our JavaScript learning platform. WoofJS was built by The Coding Space to help students transition from block-based programming to text-based languages, where they’ll learn syntax, functions, and how to read documentation. When students are ready for our Advanced class, they’ll have coded a project of a similar complexity to [Flappy Bird Game](https://woofjs.com/create.html#flappy-bird-example-1). 
 
 
       Browse our Intermediate classes [here](https://www.thecodingspace.com/experience-levels/intermediate-code/).
@@ -54,10 +54,16 @@ pageBuilder:
       ## Advanced Code
 
 
-      In our Advanced class, students ages 8-14 code increasingly complex projects in WoofJS, and when they’re ready, start programming in a web-based environment. They’ll learn HTML & CSS and build their JavaScript skills to make projects that can run in any web browser. Maybe they’ll build a [to-do list](https://coding.space/v1/web/code/my-to-do-list-code.html) or [make a quiz](https://coding.space/v1/web/code/make-a-quiz-code.html)! As students get more familiar with JavaScript, they’ll switch into self-directed learning mode where they can try out other languages including Python to see what engages them most.
+      In our Advanced class, students ages 8-13 code increasingly complex projects in WoofJS, and when they’re ready, start programming in a web-based environment or Python. 
 
 
-      Browse our Advanced classes [here](<https://www.thecodingspace.com/experience-levels/advanced-code>).
+      In Web, they’ll learn HTML & CSS and build their JavaScript skills to make projects that can run in any web browser. Maybe they’ll build a [to-do list](https://coding.space/v1/web/code/my-to-do-list-code.html) or [make a quiz](https://coding.space/v1/web/code/make-a-quiz-code.html)! 
+
+
+      I﻿n Python, they'll gain an entry point to data science and machine learning, even learning to use an AI model to make a game!
+
+
+      Browse our Advanced classes [here](https://www.thecodingspace.com/experience-levels/advanced-code).
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
@@ -66,10 +72,7 @@ pageBuilder:
       ## Teen Code
 
 
-      Teen Code is for ages 14-18. It covers Beginner to Advanced material in a setting that is suited for a more mature age group. We’re putting the finishing touches on our course offerings and would love to hear what works best for your child’s busy schedule.
-
-
-      Join Our Teen Code [waitlist](<https://forms.gle/PwYHpk2JZ7PkMyxa9>).
+      Teen Code is for ages 14-17. It covers Intermediate to Advanced material in a setting that is suited for a more mature age group.
   - type: textOnly
     textAlign: left
     bgColor: "#faf6ee"
@@ -82,5 +85,14 @@ pageBuilder:
 
 
       [Contact us](https://www.thecodingspace.com/contact-us) for private lessons.
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## E﻿arly Engineers
+
+
+      For kids excited to get started early, we also offer Early Engineers, a hands-on, offscreen STEM program for ages 3-5. Students build early engineering skills like pattern recognition, spatial reasoning, logic, and problem-solving, setting them up for success in coding and beyond.
 ---
 At The Coding Space, we are committed to providing our young coders with an education closely tailored to their skill & experience levels to ensure that each and every coding superhero is challenged without getting discouraged. Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment! You let us know where they are; we’ll get them where they want to go. Scan through our offerings at each experience level below.
