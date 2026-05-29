@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: "  Camp Coding Space | Ages 8-13"
+title: "  Camp Coding Space"
 titleColor: "#264548"
 seo:
   title: Coding Camp for Kids | Camp Coding Space
@@ -28,7 +28,10 @@ pageBuilder:
       ## Where Kids Learn to Think Like Engineers
 
 
-      ### *Hands-on coding. Independent thinking. Real projects kids are proud of.* 
+      ## Ages 8-13
+
+
+      ### *Hands-on coding. Independent thinking. Real projects kids are proud of.*
 
 
       Camp Coding Space combines rigorous coding instruction with the kind of summer kids actually want to have: hands-on, collaborative, and genuinely fun. Held Monday through Friday throughout the summer on the Upper East Side, in Park Slope, Brooklyn, and in Port Washington, Long Island, our camps have a 4:1 camper-to-instructor ratio so every student gets the individual attention they need to grow. I﻿n addition to coding, campers enjoy daily outdoor time and group activities. Because the friendships you make while building things together are part of what makes the summer memorable.
