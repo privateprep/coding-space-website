@@ -26,10 +26,10 @@ pageBuilder:
       ## Experience Levels
 
 
-      Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
+      Whether your child is new to coding or already building their own games and websites, our classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
 
 
-      While our classes are tailored to each of the four experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
+      While our classes are tailored to each of the experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
   - type: sideBySide
     bgColor: "#faf6ee"
     leftComponent:
@@ -39,9 +39,10 @@ pageBuilder:
         textColor: "#264548"
         heading: Students will
         mdContent: |-
-          * Receive an introduction to coding
-          * Engage in a variety of STEM activities 
-          * L﻿earn to think like an engineer!
+          * Build and tinker with hands-on engineering challenges
+          * Explore foundational coding concepts through play
+          * Develop pattern recognition and logical thinking
+          * Practice problem-solving without screens
     rightComponent:
       - type: textOnly
         textAlign: center
