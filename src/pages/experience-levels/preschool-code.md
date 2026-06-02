@@ -37,17 +37,5 @@ details:
     Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
 
 
-    **Students will:**
-
-
-    * Build and tinker with hands-on engineering challenges
-
-    * Explore foundational coding concepts through play
-
-    * Develop pattern recognition and logical thinking
-
-    * Practice problem-solving without screens
-
-
     **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site during the session.**
 ---
