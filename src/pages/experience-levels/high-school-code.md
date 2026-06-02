@@ -20,15 +20,17 @@ details:
   experience: Ages 13-17
   skills:
     - Web Development
-    - Problem-Solving & Logic
+    - Python
     - Data Science
     - AI & Machine Learning
   sellingPoints:
     - Open-Ended Projects
     - Pair Programming
-  mdContent: Students will work in several languages depending on their
-    experience. Beginners will learn JavaScript, the language of the web,
-    through creating projects in WoofJS, our JavaScript learning platform.
-    Intermediate coders will take a deeper dive into JavaScript or work in
-    Python.
+  mdContent: >-
+    For teens who are ready to code like developers. Students work in JavaScript
+    and Python, building real websites, games, and applications with the
+    language and projects tailored to their experience level.
+
+
+    Beginners start with JavaScript through WoofJS, our own learning platform. More experienced coders go deeper,working with HTML, CSS, APIs, and databases to build complex projects. The most advanced students tackle Python, data, and real-world problem solving.
 ---
