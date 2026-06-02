@@ -232,7 +232,7 @@ pageBuilder:
           For teens who are ready to code like developers. Students work in JavaScript and Python, building real websites, games, and applications with the language and projects tailored to their experience level.
 
 
-          Beginners start with JavaScript through WoofJS, our own learning platform. More experienced coders go deeper,working with HTML, CSS, APIs, and databases to build complex projects. The most advanced students tackle Python, data, and real-world problem solving.
+          Beginners start with JavaScript through WoofJS, our own learning platform. More experienced coders go deeper, working with HTML, CSS, APIs, and databases to build complex projects. The most advanced students tackle Python, data, and real-world problem solving.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
