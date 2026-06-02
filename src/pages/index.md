@@ -14,8 +14,9 @@ banner:
 hero:
   heading: Where kids learn to think critically
   subheading: >+
-    Through coding and project-based learning, students develop the critical
-    thinking skills to solve real problems and grow past their comfort zones.
+    Through coding, building, and project-based learning, students develop the
+    critical thinking skills to solve real problems and grow past their comfort
+    zones.
 
   buttons:
     fgColor: "#f6c924"
