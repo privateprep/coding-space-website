@@ -190,16 +190,16 @@ pageBuilder:
           ## Advanced Code
 
 
-          #### Ages 8-13, co-ed
+          #### Ages 10-13, co-ed
 
 
-          Students with a solid Scratch foundation take the next step — pushing into advanced Scratch projects before transitioning to WoofJS, The Coding Space's own JavaScript learning platform. WoofJS is built specifically to bridge the gap between block-based and text-based coding, so the transition feels natural.
+          Students who already know the basics go further — building real web applications in JavaScript, tackling complex problems in Python, and learning to work with APIs and data the way professional developers do.
 
 
-          By the end, students are writing real JavaScript and building projects that couldn't exist in Scratch.
+          Projects get harder, problems get more open-ended, and the thinking required goes deeper. Our instructors never give answers — they ask better questions until students find their own way through.
 
 
-          *Prerequisites: advanced understanding of Scratch.*
+          *Prerequisites: prior experience in JavaScript, Python, or a similar text-based language.*
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
