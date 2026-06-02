@@ -19,7 +19,7 @@ details:
   byline: For High Schoolers
   experience: Ages 13-17
   skills:
-    - Web Development
+    - JavaScript
     - Python
     - Data Science
     - AI & Machine Learning
