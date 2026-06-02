@@ -201,10 +201,10 @@ pageBuilder:
           #### Ages 10-13, co-ed
 
 
-          Students who already know the basics go further — building real web applications in JavaScript, tackling complex problems in Python, and learning to work with APIs and data the way professional developers do.
+          Students who already know the basics go further, building real web applications in JavaScript, tackling complex problems in Python, and learning to work with APIs and data the way professional developers do.
 
 
-          Projects get harder, problems get more open-ended, and the thinking required goes deeper. Our instructors never give answers — they ask better questions until students find their own way through.
+          Projects get harder, problems get more open-ended, and the thinking required gets increasingly complex.
 
 
           *Prerequisites: prior experience in JavaScript, Python, or a similar text-based language.*
