@@ -29,7 +29,6 @@ details:
   mdContent: For young and first-time coders, we focus on fostering a welcoming
     and creative learning environment where students will develop digital
     literacy and start formulating crucial computational thinking patterns.
-    Students learn through specially curated activities in Code.org and
-    additional platforms as needed and advance into building animations and
-    games in Scratch, a block-based programming language developed by MIT.
+    Students learn through block-based coding platforms, including Scratch, a
+    programming language developed by MIT.
 ---
