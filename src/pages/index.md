@@ -62,7 +62,7 @@ differentiators:
       ## Critical Thinking Skills
 
 
-      S﻿tudents learn to break down problems, think creatively, and grow past comfort zones.
+      S﻿tudents learn to break down problems, think creatively, and grow past comfort zones
   - image:
       image: /img/white-board.jpg
       alt: Instructor showing code logic on a white board to a student
@@ -85,7 +85,7 @@ differentiators:
       ## Personalized Experiences
 
 
-      We partner with students and parents at every step, from accessible tech support to progress reports.
+      We partner with students and parents at every step, from exciting field trips to progress reports
 featuredProject:
   studentProfile:
     name: Chloe
