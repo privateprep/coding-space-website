@@ -17,7 +17,7 @@ pageBuilder:
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ## September 14, 2025 - January 30, 2026
+      ## September 14, 2026 - January 30, 2027
 
 
       #### Think Critically. Code Confidently. This Fall at The Coding Space.
