@@ -33,21 +33,12 @@ pageBuilder:
 
 
 
-      Looking for a totally unique birthday celebration? At The Coding Space,
-      we’re on a mission to help kids develop creative thinking skills,
-      confidence, and self-expression through learning to code. Whether
-      attendees are new to coding or already proficient in programming languages
-      like JavaScript and Python, our interactive, virtual and in-person coding
-      parties are fun for everyone. 
+      Looking for a totally unique birthday celebration? At The Coding Space, we’re on a mission to help kids develop creative thinking skills, confidence, and self-expression through learning to code. Whether attendees are new to coding or already proficient in programming languages like JavaScript and Python, our interactive, virtual and in-person coding parties are fun for everyone. 
 
 
 
 
-      Our experienced instructors balance coding challenges, using our signature
-      4:1 student-to-teacher ratio  with hands-on activities, games, and
-      opportunities to create and explore. Personalize your party by choosing a
-      fun theme, cool activities, STEM-based subjects, and more. These events
-      are perfect for ages 6-17.
+      Our experienced instructors balance coding challenges, using our signature 4:1 student-to-teacher ratio  with hands-on activities, games, and opportunities to create and explore. Personalize your party by choosing a fun theme, cool activities, STEM-based subjects, and more. These events are perfect for ages 6-12.
     fgColor: "#9de2dd"
   - type: boxWithLogo
     bgColor: "#faf6ee"
@@ -55,15 +46,13 @@ pageBuilder:
     textColor: "#9de2dd"
     heading: Structure
     mdContent: |-
-      Duration: 3 hours
+      Duration: 2 hours
 
       First 15 minutes: Introductions & warm-up activity
 
       Next hour: Project-based coding
 
       Next 30 minutes: Off-screen hands-on activity
-
-      Next hour: STEM elective
 
       Last 15 minutes: Reflection and wrap up
   - type: textOnly
@@ -74,76 +63,76 @@ pageBuilder:
       ### Before the Party
 
 
-      Virtual parties: Guests will receive instructions on how to sign in, the
-      party theme (see below), and what equipment will be needed. At this time,
-      we recommend Macs and PCs for our online program. If Chromebooks will be
-      used, we ask everyone to let us know ahead of time as it may require extra
-      logistical coordination on our end. Tablets, smartphones, and iPads will
-      not work.
+      Virtual parties: Guests will receive instructions on how to sign in, the party theme (see below), and what equipment will be needed. At this time, we recommend Macs and PCs for our online program. If Chromebooks will be used, we ask everyone to let us know ahead of time as it may require extra logistical coordination on our end. Tablets, smartphones, and iPads will not work.
 
 
 
-
-      In-person parties: For in-person celebrations, please contact us for more
-      information.
+      In-person parties: For in-person celebrations, please contact us for more information.
 
 
       ### Warm-Up Activity
 
 
-      On the day of, we kick-off with a warm-up activity like Price is Right or
-      Cool Hidden Talents.
+      On the day of, we kick-off with a STEM-based activity like Build the Tallest Tower.
 
 
       ### Project-Based Coding
 
 
-      Next, we launch into project-based coding time with our instructors there
-      to guide and prompt problem solving.
+      Next, we launch into project-based coding time with our instructors there to guide and prompt problem solving.
 
 
-      ### Hands-On, Off-Screen Activity
+      ### Hands-On Activity
 
 
-      Then kids take a break, reset, and recharge with a screen-free, hands-on
-      activity. Personalize your party by selecting from options like Become a
-      Painting, Themed Yoga, The Coding Space Cooks, Guided Dance, Design Your
-      Own Board Game, or Scavenger Hunt.
-
-
-      ### Elective
-
-
-      Next, we’ll dive into a STEM-based subject that encourages exploration and
-      discovery, with awesome choices kids can pick from like Graphic Design,
-      Font Making, Music Sequencing, 3D Printing, and more.
+      Then kids take a break, reset, and recharge with a hands-on activity. Personalize your party by selecting from options like Robotics, Game Design, or Digital Art.
 
 
       ### Wrap-Up
 
 
-      We wrap up with a fun reflection and a chance to sing Happy Birthday! If
-      you’ve provided a cake, this would be the perfect time to light the
-      candles, sing, and serve.
+      We wrap up with a fun reflection and a chance to sing Happy Birthday! If you’ve provided a cake, this would be the perfect time to light the candles, sing, and serve.
 
 
       #### Optional Party Theme
 
 
-      Prior to the party, the birthday child may select a theme for the event.
-      Pick from favorites like pajama day, backwards day, time travel day,
-      wilderness day, beach day, mustache day, and many others.
+      Prior to the party, the birthday child may select a theme for the event. 
   - type: textOnly
-    textAlign: center
+    textAlign: left
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
       ### Pricing
 
 
-      Parties consist of three hours of activities and coding instruction. Our
-      unique 4:1 student-to-teacher ratio ensures personalized learning
-      experience for every child.
+      $1,120 for up to 8 students, for 2 full hours. If you have more than 8 students, we add an﻿ additional participant at $60/child.
+
+
+      The Party includes:
+
+      * 4:1 student-to-teacher ratio
+
+      * Balloons
+
+      * Music
+
+      * Coding & STEM Activities on provided computers
+
+      * Filtered water & cups
+
+      * Coding Space bag with candy
+
+
+      Does not include:
+
+      * Cake & candles
+
+      * Themed Paper Goods
+
+      * Other Food & Beverages (aside from water and bags of candy)
+
+      * Ice
   - type: textOnly
     textAlign: center
     bgColor: "#264548"
