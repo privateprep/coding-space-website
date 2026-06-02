@@ -45,7 +45,7 @@ pageBuilder:
           * Practice problem-solving without screens
     rightComponent:
       - type: textOnly
-        textAlign: center
+        textAlign: left
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
@@ -229,18 +229,20 @@ pageBuilder:
           **Ages 13-17, co-ed**
 
 
-          In our Teen Code course, students will work in several languages depending on their experience. Beginners will learn JavaScript, the language of the web, through creating projects in WoofJS, our JavaScript learning platform. Intermediate coders will learn to build web-based games and applications in JavaScript, HTML, and CSS. More advanced coders will take a deeper dive into advanced JavaScript or work in Python, Java, or another text-based language of their choosing.
+          For teens who are ready to code like developers. Students work in JavaScript and Python, building real websites, games, and applications with the language and projects tailored to their experience level.
+
+
+          Beginners start with JavaScript through WoofJS, our own learning platform. More experienced coders go deeper,working with HTML, CSS, APIs, and databases to build complex projects. The most advanced students tackle Python, data, and real-world problem solving.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
         fgColor: "#264548"
         textColor: "#faf6ee"
         mdContent: |-
-          
-
-          * Code in JavaScript, Python, and more
-          * Use databases and APIs to build websites, games,  and apps
-          * Learn to think like a software engineer
+          * Build websites, games, and applications in JavaScript and Python 
+          * Work with APIs, databases, and data
+          * Tackle increasingly complex projects at their own level
+          * Think and problem-solve like a software engineer
         heading: "Students will:"
   - type: buttons
     bgColor: "#9de2dd"
