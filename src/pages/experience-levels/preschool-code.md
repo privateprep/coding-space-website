@@ -20,7 +20,7 @@ details:
   gender:
     - Co-ed.
   byline: For play-based learning
-  experience: Ages 3-5
+  experience: Ages 4-5
   skills:
     - Problem-Solving & Logic
     - Creative Design
@@ -28,17 +28,26 @@ details:
     - Introduction to Coding
     - Early STEM
   mdContent: >-
-    Designed for preschool-aged learners, this engaging program introduces
-    foundational computer science and engineering concepts through screen-free,
-    hands-on activities. From building rockets to exploring foundational coding
-    concepts with playful tools, young learners practice pattern recognition,
-    logical thinking, problem-solving, and even early engineering principles.
-    These core skills set the stage for a lifetime of innovation, creativity,
-    and success in STEM.
+    A screen-free introduction to coding and engineering for pre-K learners.
+    Through hands-on building, play, and guided exploration, young engineers
+    develop pattern recognition, logical thinking, and early problem-solving
+    skills — all before touching a keyboard.
 
 
-    I﻿nterested in a different day or time? Email us at admissions@thecodingspace.com.
+    Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
 
 
-    **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site throughout the session.**
+    **Students will:**
+
+
+    * Build and tinker with hands-on engineering challenges
+
+    * Explore foundational coding concepts through play
+
+    * Develop pattern recognition and logical thinking
+
+    * Practice problem-solving without screens
+
+
+    **N﻿ote: This is not a drop-off class. Parents or guardians must remain on-site during the session.**
 ---
