@@ -21,7 +21,7 @@ pageBuilder:
     image:
       image: /img/img_4127-2-.jpeg
       alt: Kids coding together on the computer
-    mediaPosition: right
+    mediaPosition: left
     mdContent: >-
       ## Experience Levels
 
@@ -52,10 +52,13 @@ pageBuilder:
           ## E﻿arly Engineers
 
 
-          #### Ages 3-5
+          #### Ages 4-5
 
 
-          Designed for preschool-aged learners, this engaging program introduces foundational computer science and engineering concepts through screen-free, hands-on activities. From building rockets to exploring foundational coding concepts with playful tools, young learners practice pattern recognition, logical thinking, problem-solving, and even early engineering principles. These core skills set the stage for a lifetime of innovation, creativity, and success in STEM and beyond.
+          A screen-free introduction to coding and engineering for pre-K learners. Through hands-on building, play, and guided exploration, young engineers develop spatial reasoning, pattern recognition, logical thinking, and early problem-solving skills — all before touching a keyboard.
+
+
+          Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#faf6ee"
