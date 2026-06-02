@@ -20,9 +20,7 @@ details:
   experience: Ages 8-13
   skills:
     - Coding Fundamentals
-    - Game Development
-    - Web Development
-    - AI & Machine Learning (intro)
+    - JavaScript
     - Problem-Solving & Logic
   sellingPoints:
     - Introduction to Text-Based Coding
