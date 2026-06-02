@@ -137,7 +137,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#ffffff"
         mdContent: >-
-          ## **Intermediate**
+          ## Intermediate
 
 
           #### Ages 8-13, co-ed
@@ -150,11 +150,9 @@ pageBuilder:
         fgColor: "#9de2dd"
         textColor: "#264548"
         mdContent: |-
-          
-
-          * create projects in Scratch and WoofJS
-          * take a deeper dive into computer science concepts
-          * learn text-based syntax
+          * B﻿uild advanced projects in Scratch & JavaScript
+          * W﻿rite real JavaScript for the first time
+          * Develop computational thinking through increasingly complex projects
         heading: "Students will:"
   - type: buttons
     bgColor: "#264548"
@@ -171,52 +169,27 @@ pageBuilder:
         fgColor: "#f6c924"
         textColor: "#264548"
         heading: "Students will:"
-        mdContent: >-
-          * **Learn Python:** Embark on an exciting journey into coding, from
-          basics to advanced concepts.
-
-          * **Advance in JavaScript:** Transform their understanding of web interactivity and design.
-
-          * **Solve Algorithms:** Develop critical thinking and problem-solving skills in a fun, engaging way.
-
-          * **Work with Data:** Unlock the potential of data manipulation and analysis, setting a foundation for future tech careers.
+        mdContent: |-
+          * L﻿earn Python & JavaScript
+          * W﻿ork with Data & API's
+          * L﻿earn to leverage AI
     rightComponent:
       - type: textOnly
         textAlign: left
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          ## **Advanced** 
+          Students with a solid Scratch foundation take the next step — pushing
+          into advanced Scratch projects before transitioning to WoofJS, The
+          Coding Space's own JavaScript learning platform. WoofJS is built
+          specifically to bridge the gap between block-based and text-based
+          coding, so the transition feels natural.
 
 
-          #### Ages 10-13, co-ed
+          By the end, students are writing real JavaScript and building projects that couldn't exist in Scratch.
 
 
-          In our Advanced course, students embark on an exciting journey through the worlds of JavaScript and Python, two cornerstone languages in modern programming. 
-
-
-          ### **JavaScript Module: Crafting Interactive Web Experiences**
-
-
-          In our Advanced course, students will delve into the intricacies of JavaScript, one of today's most influential programming languages. They'll start by creating mini web applications, such as calculators and quizzes, gaining practical experience in applying their coding skills. This module takes creativity further by exploring the HTML Canvas, where students can unleash their imagination in game development.
-
-
-          As they advance, the course introduces complex aspects of web development. Students will integrate APIs and databases, skills crucial for modern web applications. This hands-on experience is not just about coding; it's about connecting the dots in the vast web ecosystem.
-
-
-          ### Python Module: Building Your Child's CS Muscles
-
-
-          In the Python segment, students will transition to this versatile language, known for  its extensive application in AI and data science  – fields that are shaping our future.
-
-
-          They'll start by building simple yet engaging games like Rock, Scissors, Paper and Guess the Number, which are perfect for understanding Python's basics. But it doesn't end there. The course dives into graphical game development using Pygame, allowing students to create more visually engaging and complex games. They'll also tackle real-world problems using algorithms, manage data and files efficiently, and explore the realms of object-oriented programming. 
-
-
-          **Your Journey to Advanced Skills**
-
-
-          Students will emerge from this course with a profound understanding of how to harness the power of code to bring ideas to life. We require that students come with a background in JavaScript, Python, or a similar text-based language. This ensures they are ready for the transformative journey that our Advanced Programming course offers, setting them on a path to become skilled, creative, and versatile programmers and thinkers.
+          *Prerequisites: advanced understanding of Scratch.*
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#eec11a"
