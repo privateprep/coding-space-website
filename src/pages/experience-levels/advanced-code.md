@@ -21,10 +21,9 @@ details:
   experience: Ages 10-13
   skills:
     - Web Development
+    - Python
     - Data Science
     - AI & Machine Learning
-    - Problem-Solving
-    - Coding Fundamentals
   sellingPoints:
     - Build real-world apps and AI projects
     - Learn data science fundamentals
