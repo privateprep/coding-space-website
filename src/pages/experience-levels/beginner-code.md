@@ -22,7 +22,8 @@ details:
   skills:
     - Coding Fundamentals
     - Game Development
-    - Problem-Solving & Logic
+    - Problem-Solving
+    - Logic
   sellingPoints:
     - Computer Science Fundamentals
     - Creative Coding
