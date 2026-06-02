@@ -21,7 +21,8 @@ details:
   experience: Ages 6-8
   skills:
     - Coding Fundamentals
-    - Problem-Solving & Logic
+    - Problem-Solving
+    - Logic
     - Creative Design
   sellingPoints:
     - Introduction to Coding
