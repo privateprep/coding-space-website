@@ -135,7 +135,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#ffffff"
         mdContent: >-
-          ## Intermediate
+          ## Intermediate Code
 
 
           #### Ages 8-13, co-ed
@@ -187,11 +187,13 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          Students with a solid Scratch foundation take the next step — pushing
-          into advanced Scratch projects before transitioning to WoofJS, The
-          Coding Space's own JavaScript learning platform. WoofJS is built
-          specifically to bridge the gap between block-based and text-based
-          coding, so the transition feels natural.
+          ## Advanced Code
+
+
+          #### Ages 8-13, co-ed
+
+
+          Students with a solid Scratch foundation take the next step — pushing into advanced Scratch projects before transitioning to WoofJS, The Coding Space's own JavaScript learning platform. WoofJS is built specifically to bridge the gap between block-based and text-based coding, so the transition feels natural.
 
 
           By the end, students are writing real JavaScript and building projects that couldn't exist in Scratch.
