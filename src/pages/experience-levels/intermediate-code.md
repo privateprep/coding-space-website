@@ -25,11 +25,16 @@ details:
   sellingPoints:
     - Introduction to Text-Based Coding
     - Making Games
-  mdContent: In our Intermediate course, students will create advanced projects in
-    Scratch, a block-based coding language, and move onto text-based programming
-    in WoofJS, our JavaScript learning platform. WoofJS was developed by The
-    Coding Space to allow students to leverage their existing Scratch knowledge
-    and transition naturally into using JavaScript to make advanced projects.
-    Students should come in with an advanced understanding of Scratch or a
-    text-based language.
+  mdContent: >-
+    Students with a solid Scratch foundation take the next step — pushing into
+    advanced Scratch projects before transitioning to WoofJS, The Coding Space's
+    own JavaScript learning platform. WoofJS is built specifically to bridge the
+    gap between block-based and text-based coding, so the transition feels
+    natural.
+
+
+    By the end, students are writing real JavaScript and building projects that couldn't exist in Scratch.
+
+
+    Prerequisites: advanced understanding of Scratch.
 ---
