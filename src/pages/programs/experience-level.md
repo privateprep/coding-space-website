@@ -169,10 +169,14 @@ pageBuilder:
         fgColor: "#f6c924"
         textColor: "#264548"
         heading: "Students will:"
-        mdContent: |-
-          * L﻿earn Python & JavaScript
-          * W﻿ork with Data & API's
-          * L﻿earn to leverage AI
+        mdContent: >-
+          * Build web applications in JavaScript using APIs and databases
+
+          * Create games and programs in Python 
+
+          *  Solve complex problems using algorithms and object-oriented programming
+
+          *  Use AI tools to extend and enhance their own projects
     rightComponent:
       - type: textOnly
         textAlign: left
