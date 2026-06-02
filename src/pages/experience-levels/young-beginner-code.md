@@ -26,9 +26,12 @@ details:
   sellingPoints:
     - Introduction to Coding
     - Computer Science Fundamentals
-  mdContent: For young and first-time coders, we focus on fostering a welcoming
-    and creative learning environment where students will develop digital
-    literacy and start formulating crucial computational thinking patterns.
-    Students learn through block-based coding platforms, including Scratch, a
-    programming language developed by MIT.
+  mdContent: >-
+    For first-time coders, we start with the fundamentals — building digital
+    literacy and early computational thinking through beginner-friendly coding
+    platforms before advancing into Scratch, where students build their own
+    animations and games.
+
+
+    No prior experience needed.
 ---
