@@ -91,8 +91,10 @@ pageBuilder:
         textColor: "#ffffff"
         heading: Students will
         mdContent: |-
-          * Start forming computational thinking patterns
-          * B﻿uild computer literacy
+          * Develop foundational computational thinking skills 
+          * Build confidence with technology and digital tools
+          * Create animations and games in Scratch
+          * Take their first steps toward text-based coding
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
