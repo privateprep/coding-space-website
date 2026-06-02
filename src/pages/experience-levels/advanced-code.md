@@ -29,17 +29,13 @@ details:
     - Learn data science fundamentals
     - Prepare for future tech fields
   mdContent: >-
-    In our Advanced course, students embark on an exciting journey through
-    JavaScript and Python, two cornerstone languages in modern programming.
-    They’ll bring ideas to life in JavaScript by building interactive web
-    applications like calculators and quizzes, exploring game development with
-    HTML Canvas, and integrating APIs and databases to understand how real-world
-    web systems work. This hands-on experience helps students connect the full
-    picture of modern web development.
+    Students who already know the basics go further, building real web
+    applications in JavaScript, tackling complex problems in Python, and
+    learning to work with APIs and data the way professional developers do.
 
 
-    In the Python portion, students expand their skills through game development, data science projects, and introductory AI applications. They’ll build engaging games, work with data to uncover patterns and insights, and even interact with large language models (LLMs) to create intelligent features. Along the way, they’ll strengthen their understanding of algorithms, data handling, and object-oriented programming.
+    Projects get harder, problems get more open-ended, and the thinking required gets increasingly complex.
 
 
-    Through these experiences, students develop both technical depth and creative confidence, gaining the tools to build complex, real-world projects and laying a strong foundation for future work in software development, AI, and data science.
+    Prerequisites: prior experience in JavaScript, Python, or a similar text-based language.
 ---
