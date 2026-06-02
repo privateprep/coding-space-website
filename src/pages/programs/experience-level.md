@@ -80,7 +80,10 @@ pageBuilder:
           #### Ages 6-8, co-ed
 
 
-          For young and first-time coders, we focus on fostering a welcoming and creative learning environment where students will develop digital literacy and start formulating crucial computational thinking patterns. Students learn through specially curated activities in Code.org and additional platforms as needed and advance into building animations and games in Scratch, a block-based programming language developed by MIT.
+          For first-time coders, we start with the fundamentals — building digital literacy and early computational thinking through beginner-friendly coding platforms before advancing into Scratch, where students build their own animations and games.
+
+
+          No prior experience needed.
     rightComponent:
       - type: boxWithLogo
         bgColor: "#9de2dd"
@@ -117,7 +120,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          ## **Beginner** Code
+          ## Beginner Code
 
 
           #### Ages 8-13, co-ed
