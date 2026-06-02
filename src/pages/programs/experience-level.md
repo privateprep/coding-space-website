@@ -23,7 +23,7 @@ pageBuilder:
       alt: Kids coding together on the computer
     mediaPosition: right
     mdContent: >-
-      ## **Experience Levels**
+      ## Experience Levels
 
 
       Whether your child is new to coding or already building their own games and websites, our coding classes will promote their growth within a safe, supportive environment. By challenging students at their individual level to create projects as unique as they are, we underscore the power of personalized learning. 
@@ -48,7 +48,7 @@ pageBuilder:
         bgColor: "#faf6ee"
         textColor: "#264548"
         mdContent: >-
-          ## **E﻿arly Engineers**
+          ## E﻿arly Engineers
 
 
           #### Ages 3-5
@@ -84,8 +84,8 @@ pageBuilder:
         textColor: "#ffffff"
         heading: Students will
         mdContent: |-
-          * start forming computational thinking patterns
-          * b﻿uild computer literacy
+          * Start forming computational thinking patterns
+          * B﻿uild computer literacy
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#264548"
@@ -102,13 +102,11 @@ pageBuilder:
         textColor: "#264548"
         heading: "Students will:"
         mdContent: >-
-          
+          * Build logical thinking skills through block-based programming
 
-          * build logical thinking skills through block-based programming
+          * Create cool games and animations
 
-          * create cool games and animations
-
-          * refine their computational thinking skills to tackle more complex problems
+          * Refine their computational thinking skills to tackle more complex problems
     rightComponent:
       - type: textOnly
         textAlign: left
@@ -143,7 +141,13 @@ pageBuilder:
           #### Ages 8-13, co-ed
 
 
-          In our Intermediate course, students will create advanced projects in Scratch, a block-based coding language and move onto text-based programming in WoofJS, our JavaScript learning platform. WoofJS was developed by The Coding Space to allow students to leverage their existing Scratch knowledge and transition naturally into using JavaScript to make advanced projects. Students should come in with an advanced understanding of Scratch.
+          Students with a solid Scratch foundation take the next step — pushing into advanced Scratch projects before transitioning to WoofJS, The Coding Space's own JavaScript learning platform. WoofJS is built specifically to bridge the gap between block-based and text-based coding, so the transition feels natural.
+
+
+          By the end, students are writing real JavaScript and building projects that couldn't exist in Scratch.
+
+
+          *Prerequisites: advanced understanding of Scratch.*
     rightComponent:
       - type: boxWithLogo
         bgColor: "#264548"
@@ -170,13 +174,13 @@ pageBuilder:
         textColor: "#264548"
         heading: "Students will:"
         mdContent: >-
-          * Build web applications in JavaScript using APIs and databases
+          * Build web applications in JavaScript 
 
-          * Create games and programs in Python 
+          * Create programs in Python 
 
-          *  Solve complex problems using algorithms and object-oriented programming
+          * Solve complex problems using algorithms and object-oriented programming
 
-          *  Use AI tools to extend and enhance their own projects
+          * Use AI tools to extend and enhance their own projects
     rightComponent:
       - type: textOnly
         textAlign: left
