@@ -21,10 +21,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Spring & Summer Classes
-        content: /programs/our-coding-classes
       - title: Summer Camp
         content: /summer
+      - title: Fall Classes
+        content: /programs/our-coding-classes
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
   description: >
