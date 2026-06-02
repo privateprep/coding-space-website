@@ -27,13 +27,10 @@ hero:
         content: /programs/our-coding-classes
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
-  description: >
-    We offer in-person and online coding classes and camps where kids and teens
-    learn by building - creating games, animations, interactive stories, and
-    apps that are entirely their own. Students develop technical skills
-    alongside creativity, confidence, and critical thinking. More than learning
-    to code, they learn how to solve problems, think independently, and bring
-    their ideas to life.
+  description: We offer coding and AI classes and camps where kids learn by
+    building — creating games, animations, apps, and interactive stories that
+    are entirely their own. More than learning to code, students develop the
+    critical thinking and independence to bring any idea to life.
   buttons:
     fgColor: "#9de2dd"
     textColor: "#264548"
