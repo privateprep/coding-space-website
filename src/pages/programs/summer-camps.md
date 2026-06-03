@@ -123,6 +123,9 @@ pageBuilder:
 
 
       C﻿ampers will tour Google HQ, learn from Google engineers, and share lunch at a Google cafe.
+
+
+      More trips to be announced soon!
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
