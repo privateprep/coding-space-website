@@ -116,7 +116,7 @@ pageBuilder:
       **M﻿ercer Labs (UES Week 2)**
 
 
-      In this groundbreaking exploration, Mercer Labs invites visitors to imagine what the great artists of the past would have created with access to modern technology. 
+      *Campers explore the intersection of art and technology, experiencing how modern tools are transforming creative expression.*
 
 
       **G﻿oogle (UES Week 3 & Park Slope Week 1)**
