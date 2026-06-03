@@ -102,6 +102,27 @@ pageBuilder:
       ##  A Day at Camp Coding Space
 
       ![](/img/heading.webp)
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Field Trips
+
+
+      *During the summer, our NYC campers visit real tech companies and innovation spaces throughout the city. Here's what we have lined up for Summer 2026:*
+
+
+      **M﻿ercer Labs (UES Week 2)**
+
+
+      In this groundbreaking exploration, Mercer Labs invites visitors to imagine what the great artists of the past would have created with access to modern technology. 
+
+
+      **G﻿oogle (UES Week 3 & Park Slope Week 1)**
+
+
+      C﻿ampers will tour Google HQ, learn from Google engineers, and share lunch at a Google cafe.
   - type: textAndImageBlock
     buttons:
       bgColor: "#9de2dd"
