@@ -90,7 +90,7 @@ pageBuilder:
       #### A﻿ges 6-13
 
 
-      #### Evenings & Weekends All Summer Long
+      #### Wednesday Evenings All Summer Long
 
 
       Beginning in June, these in person and online classes offer our signature project-based coding education, small student to teacher ratios, and Socratic-based teaching. Featuring evening and weekend classes, this option is a perfect way for busy kids to continue their coding journey over the summer.
