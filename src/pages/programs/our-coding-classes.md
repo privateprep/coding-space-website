@@ -81,29 +81,27 @@ pageBuilder:
     bgColor: "#faf6ee"
     list:
       - bgColor: "#faf6ee"
-        fgColor: "#cccccc"
-        content: "#"
+        fgColor: "#eec11a"
+        content: /classes/?semesters[]=Fall%20Classes%202026
         textAlign: center
-        textColor: "#faf6ee"
+        textColor: "#2a2a2a"
         mdContent: |-
           ## Fall Session
 
           #### September-January
 
-          Registration opens in June!
+          Fall classes start in September! Enrollment is now open.
       - bgColor: "#faf6ee"
-        fgColor: "#eec11a"
-        content: /classes?semesters[]=Spring%20Classes%202026
+        fgColor: "#cccccc"
+        content: "#"
         textAlign: center
         textColor: "#264548"
-        mdContent: >-
+        mdContent: |-
           ## Spring Session
-
 
           #### February-June
 
-
-          Spring classes are in session! We have rolling admission so your child can join now.
+          Spring 2027 registration opens in December!
       - bgColor: "#faf6ee"
         fgColor: "#eec11a"
         content: https://www.thecodingspace.com/classes?semesters[]=Summer%20Classes%202026
