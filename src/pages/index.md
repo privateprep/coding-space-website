@@ -23,7 +23,7 @@ hero:
     list:
       - title: Summer Camp
         content: /summer
-      - title: Fall Classes
+      - title: Summer & Fall Classes
         content: /programs/our-coding-classes
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
