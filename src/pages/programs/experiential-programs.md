@@ -32,9 +32,46 @@ pageBuilder:
       textColor: "#264548"
       list:
         - title: Learn More
-          content: /programs/girlcode-program
+          content: /programs/vibe-coding-classes/
     textColor: "#264548"
     bgColor: "#faf6ee"
+    image:
+      image: /img/ai-classes.png
+      alt: Vibe Coding Class
+    mediaPosition: right
+    mdContent: >-
+      ## Vibe Code
+
+
+      In our Vibe Coding classes, students use AI tools and prompts to design and build their own web-based apps. All coding experience levels are welcome!
+
+
+      Through a structured process of **plan → create → test → iterate**, students learn how to think like real developers while bringing their ideas to life.
+
+
+      Along the way, students develop:
+
+
+      * Strong AI literacy and fundamentals
+
+      * Effective prompting strategies
+
+      * Core design thinking skills
+
+      * Confidence in building real, working technology
+
+
+      By the end of the program, each student leaves with a porfolio of projects and a fully functional app they built themselves.
+  - type: textAndImageBlock
+    buttons:
+      bgColor: "#ffffff"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /programs/girlcode-program
+    textColor: "#264548"
+    bgColor: "#ffffff"
     image:
       image: /img/GirlCode-around-a-table.jpg
       alt: GirlCode students creating projects
@@ -49,14 +86,14 @@ pageBuilder:
       GirlCode offers the same high-quality curriculum as our co-ed classes, designed for students who prefer learning in a supportive, female-identifying space. These welcoming groups give students the confidence to explore coding, build meaningful friendships, and take on new challenges together. It's a fun, empowering environment where girls can stretch their skills, express themselves, and see themselves as future leaders in tech.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#ffffff"
+      bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
         - title: Learn More
           content: /programs/ai-maker-lab
     textColor: "#264548"
-    bgColor: "#ffffff"
+    bgColor: "#faf6ee"
     image:
       image: /img/untitled-design-23-.png
       alt: Student creating a maker project
@@ -77,14 +114,14 @@ pageBuilder:
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
+      bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
       list:
         - title: Learn More
           content: /programs/teen-programs
     textColor: "#264548"
-    bgColor: "#faf6ee"
+    bgColor: "#ffffff"
     image:
       image: /img/tcs-academy.jpg
       alt: Accessibility name
