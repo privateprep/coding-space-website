@@ -10,7 +10,7 @@ seo:
 banner:
   removalDate: 2026-06-29T18:42:52.582Z
   mdContent: New! Don't miss our special Vibe Code class this summer. [Learn more
-    here](/programs/experiential-programs).
+    here](/programs/vibe-coding-classes/).
 hero:
   heading: Where kids learn to think critically
   subheading: >+
