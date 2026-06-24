@@ -21,12 +21,12 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Summer Camp
+      - title: Camp Coding Space
         content: /programs/summer-camps/
+      - title: TCS Academy
+        content: /programs/the-coding-space-academy/
       - title: Summer & Fall Classes
         content: /programs/our-coding-classes
-      - title: The Coding Space Academy
-        content: /programs/the-coding-space-academy/
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
   description: We offer coding and AI classes and camps where kids learn by
