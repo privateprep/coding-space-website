@@ -31,6 +31,9 @@ pageBuilder:
       ## Ages 8-13
 
 
+      Looking for a teen option? Check out **[TCS Academy](/programs/the-coding-space-academy/)** for ages 13-17.
+
+
       ### *Hands-on coding. Independent thinking. Real projects kids are proud of.*
 
 
