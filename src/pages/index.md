@@ -8,7 +8,7 @@ seo:
     space for students to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2026-06-29T18:42:52.582Z
+  removalDate: 2026-08-31T14:18:31.726Z
   mdContent: Don't miss our new Vibe Code class this summer. [Learn more
     here](/programs/vibe-coding-classes/)
 hero:
