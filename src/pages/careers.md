@@ -47,11 +47,11 @@ pageBuilder:
     fgColor: "#264548"
 openings:
   - details:
-      postingDate: 2026-01-09T16:02:07.261Z
-      removalDate: 2026-06-30T15:02:16.796Z
-      applyLink: https://forms.gle/v6Q948srpNUxvun38
+      postingDate: 2026-07-24T20:27:08.668Z
+      removalDate: 2026-09-30T15:02:16.796Z
+      applyLink: https://forms.gle/ybqD1BMZSXuLuLER9
     info:
-      title: After School Coding Teacher 2025-2026
+      title: After School Coding Teacher 2026-2027
       locations:
         - NYC
         - Brooklyn
@@ -60,8 +60,8 @@ openings:
       description: >
         Do you love working with kids? Do you want to make a change in the
         education system? Whether you are a coding expert or just starting, we
-        provide training and mentorship to help you become an awesome Coding
-        Teacher.
+        provide training and mentorship to help you become an awesome After
+        School Teacher.
 
 
         Compensation: $25/hr-$35/hr starting rate
