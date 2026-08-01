@@ -36,12 +36,12 @@ Here's a classic example. A student writes a loop that hides a sprite, then show
 
 ![](/img/scritch1.png)
 
-
-
 The screen doesn't update every time a block runs. It only updates at specific "yield points" like the end of a loop or a wait block. So when that hide/show loop runs, Scratch is actually processing both blocks before the screen gets a chance to catch up. The sprite technically blinks, but so fast that the screen never shows it. The computer isn't "going too fast" (a phrase that's never fully satisfied a curious 10-year-old); it's just that Scratch has invisible rules about when the screen refreshes, and students can't see them.
 This matters because it teaches a habit that doesn't transfer anywhere else in coding. No other programming language works this way.
 
 So we built **Scritch** (our own version of Scratch) with one core change: the screen updates immediately after any block that causes a visual change. Move a sprite, the screen updates. Change a costume, the screen updates. Hide a sprite, the screen updates. The result is that students can actually see what their code is doing, step by step. When something goes wrong, you see it happen in real time. 
+
+The screen refresh is where it started, but our team has made many updates over the years, and we're constantly improving the Scritch platform to cater it to the needs of our students as experts in the field.
 
 If your child is working in Scratch, they're coding. They're just doing it in the place that gives them the best possible start.
 
