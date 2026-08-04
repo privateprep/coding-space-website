@@ -43,9 +43,9 @@ pageBuilder:
     textColor: "#eec11a"
     list:
       - title: Upper East Side
-        content: https://www.thecodingspace.com/sign_up/classes/4386
+        content: https://www.thecodingspace.com/sign_up/classes/4774
       - title: Park Slope
-        content: https://www.thecodingspace.com/sign_up/classes/4385
+        content: https://www.thecodingspace.com/sign_up/classes/4775
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
