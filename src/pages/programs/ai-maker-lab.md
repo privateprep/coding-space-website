@@ -51,6 +51,8 @@ pageBuilder:
         content: https://www.thecodingspace.com/sign_up/classes/4774
       - title: Park Slope
         content: https://www.thecodingspace.com/sign_up/classes/4775
+      - title: Online
+        content: https://www.thecodingspace.com/locations/online
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
