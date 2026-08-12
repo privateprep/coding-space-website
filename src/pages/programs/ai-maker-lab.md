@@ -74,9 +74,9 @@ pageBuilder:
 
       * **AI art + music generators** → design characters, worlds, and sound
 
-      * **micro:bit Create AI & Arduino** → train models using real sensor data (in-person only)
+      * **micro:bit Create AI, Arduino, & more** → train models using real sensor data (in-person only)
 
-      * **Lovable** →  vibe code websites and apps to bring their ideas to life
+      * **Lovable** → vibe code websites and apps to bring ideas to life
 
 
       All while learning *why* AI behaves the way it does and *how* to use it responsibly.
@@ -100,28 +100,20 @@ pageBuilder:
         textAlign: left
         bgColor: "#ffffff"
         textColor: "#264548"
-        mdContent: >-
+        mdContent: |-
           ## I﻿nside the Student Journey
 
-
-          **Weeks 1-3: How AI Learns**\
-
+          **Unit 1: How AI Learns**\
           Training models, understanding patterns, exploring bias
 
-
-          **Weeks 4-6: Creative AI (Art, Music, & Game Development)**\
-
+          **Unit 2: Creative AI (Art, Music, & Game Development)**\
           Generating assets, building creative games
 
-
-          **Weeks 7-10: AI + Physical Computing**\
-
+          **U﻿nit 3 (in-person only): AI + Physical Computing**\
           micro:bit sensors, data collection, smart device prototypes
 
-
-          **Weeks 11-15: Agents, Ethics & Final Projects**\
-
-          Building AI agents, discussing responsible AI, creating a showcase project
+          **Unit 4: Vibe Coding & Final Projects**\
+          Building websites & apps and creating a showcase project
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
