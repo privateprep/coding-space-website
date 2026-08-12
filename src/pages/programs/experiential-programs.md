@@ -27,43 +27,6 @@ pageBuilder:
       From supportive, female-identifying coding environments to AI Maker Lab, our programs meet student needs inside the classroom and beyond, creating a community of coders and friendships that last.ee
   - type: textAndImageBlock
     buttons:
-      bgColor: "#faf6ee"
-      fgColor: "#9de2dd"
-      textColor: "#264548"
-      list:
-        - title: Learn More
-          content: /programs/vibe-coding-classes/
-    textColor: "#264548"
-    bgColor: "#faf6ee"
-    image:
-      image: /img/ai-classes.png
-      alt: Vibe Coding Class
-    mediaPosition: right
-    mdContent: >-
-      ## Vibe Code
-
-
-      In our Vibe Coding classes, students use AI tools and prompts to design and build their own web-based apps. All coding experience levels are welcome!
-
-
-      Through a structured process of **plan → create → test → iterate**, students learn how to think like real developers while bringing their ideas to life.
-
-
-      Along the way, students develop:
-
-
-      * Strong AI literacy and fundamentals
-
-      * Effective prompting strategies
-
-      * Core design thinking skills
-
-      * Confidence in building real, working technology
-
-
-      By the end of the program, each student leaves with a porfolio of projects and a fully functional app they built themselves.
-  - type: textAndImageBlock
-    buttons:
       bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
@@ -99,16 +62,17 @@ pageBuilder:
       alt: Student creating a maker project
     mediaPosition: right
     mdContent: >-
-      ## AI Maker Lab
+      ## AI Builders
 
 
-      #### Where coding, creativity, and artificial intelligence come together.
+      **AI & Vibe Coding for Grades 5-8**\
+
+      \
+
+      Students are already using AI, but do they understand how it works, how to create with it, and how to use it responsibly?
 
 
-      Middle schoolers are already using AI, but do they understand how it works, how to create with it, and how to use it responsibly?
-
-
-      AI Maker Lab gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects.
+      AI Builders gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects.
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
