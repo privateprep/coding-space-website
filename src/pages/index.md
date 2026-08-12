@@ -21,10 +21,10 @@ hero:
     fgColor: "#f6c924"
     textColor: "#264548"
     list:
-      - title: Camp Coding Space
-        content: /programs/summer-camps/
       - title: Fall Classes
         content: /programs/our-coding-classes
+      - title: Summer Camp
+        content: /programs/summer-camps/
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
   description: We offer coding and AI classes and camps where kids learn by
