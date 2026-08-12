@@ -1,18 +1,18 @@
 ---
 templateKey: programs
-title: AI Maker Lab
-titleColor: "#264548"
+title: AI Builders
+titleColor: "#ffffff"
 seo:
-  title: AI Maker Lab
-  description: AI Maker Lab is a hands-on course where middle schoolers combine
+  title: AI Builders
+  description: AI Builders is a hands-on course where middle schoolers combine
     coding and AI tools to build a portfolio of creative, thoughtful projects.
     Students train simple machine learning models, use AI-generated art or music
     in their games, and experiment with physical tools like micro:bit to see how
     AI learns from real-world data. It's an exciting, age-appropriate way to
     understand how AI works and how to use it responsibly.
 heroImage:
-  image: /img/tcs-header.png
-  alt: Accessibility name
+  image: /img/green-background.png
+  alt: AI Builders
 pageBuilder:
   - type: textOnly
     textAlign: center
