@@ -22,7 +22,7 @@ hero:
     textColor: "#264548"
     list:
       - title: Fall Classes
-        content: /programs/our-coding-classes
+        content: /programs/fall/
       - title: Summer Camp
         content: /programs/summer-camps/
 mainpitch:
