@@ -18,11 +18,10 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: >-
-      **AI & Vibe Coding for Middle Schoolers**
+    mdContent: |-
+      **AI & Vibe Coding for Grades 5-8**
 
-
-      **Ages 10-14, in age-grouped sections · Upper East Side · Park Slope · Online**
+      **Upper East Side · Park Slope · Online**
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
