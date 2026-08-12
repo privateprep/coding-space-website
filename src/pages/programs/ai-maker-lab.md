@@ -16,19 +16,22 @@ heroImage:
 pageBuilder:
   - type: textOnly
     textAlign: center
+    bgColor: "#9de2dd"
+    textColor: "#264548"
+    mdContent: >-
+      **AI & Vibe Coding for Middle Schoolers**
+
+
+      **Ages 10-14, in age-grouped sections · Upper East Side · Park Slope · Online**
+  - type: textOnly
+    textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ![AI Maker Studio](/img/tcs-digital-banners-1200-x-400-px-1-.png)
+      ## Your child already uses AI. Now they'll build with it.
 
 
-      ***AI Maker Lab: Where coding, creativity, and artificial intelligence come together.***
-
-
-      Middle schoolers are already using AI, but do they understand how it works, how to create with it, and how to use it responsibly?
-
-
-      AI Maker Lab gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects. 
+      ***Middle schoolers use AI every day. Almost none of them know how it actually works, where it breaks, or how to make something with it that's genuinely theirs. AI Builders gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects.*** 
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
@@ -72,9 +75,9 @@ pageBuilder:
 
       * **AI art + music generators** → design characters, worlds, and sound
 
-      * **micro:bit Create AI** → train models using real sensor data
+      * **micro:bit Create AI & Arduino** → train models using real sensor data (in-person only)
 
-      * **Lovable** → create simple AI agents with personality
+      * **Lovable** →  vibe code websites and apps to bring their ideas to life
 
 
       All while learning *why* AI behaves the way it does and *how* to use it responsibly.
