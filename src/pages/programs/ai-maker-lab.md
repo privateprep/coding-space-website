@@ -52,7 +52,7 @@ pageBuilder:
       - title: Park Slope
         content: https://www.thecodingspace.com/sign_up/classes/4775
       - title: Online
-        content: https://www.thecodingspace.com/locations/online
+        content: https://www.thecodingspace.com/experience-levels/ai-maker-lab/?class_location_ids%5B%5D=10
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
