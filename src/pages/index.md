@@ -9,8 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2026-08-31T14:18:31.726Z
-  mdContent: T﻿he fall semester starts September 14th! [Register
-    now](/programs/seasonal-programs).
+  mdContent: T﻿he fall semester starts September 14th! [Register now](/programs/fall/).
 hero:
   heading: Where kids learn to think critically
   subheading: >+
