@@ -9,7 +9,8 @@ seo:
     creativity, and real-world technology. Rather than just using AI tools, they
     learn how AI systems are built, trained, and applied by creating their own
     models and interactive experiences.
-categoryIds: []
+categoryIds:
+  - 193
 courseOfferingEndpoint: /feeds/coding_space/classes?class_category_ids[]=193
 display: true
 thumbnail: /img/student-making.png
