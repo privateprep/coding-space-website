@@ -103,6 +103,9 @@ pageBuilder:
       bgColor: "#faf6ee"
       fgColor: "#9de2dd"
       textColor: "#264548"
+      list:
+        - title: Contact Us for More Information
+          content: /contact-us
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
