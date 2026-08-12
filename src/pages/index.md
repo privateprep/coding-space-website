@@ -9,8 +9,7 @@ seo:
     learners, and leaders.
 banner:
   removalDate: 2026-08-31T14:18:31.726Z
-  mdContent: Don't miss our new Vibe Code class this summer. [Learn more
-    here](/programs/vibe-coding-classes/)
+  mdContent: ""
 hero:
   heading: Where kids learn to think critically
   subheading: >+
