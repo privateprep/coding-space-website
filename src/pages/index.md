@@ -23,9 +23,7 @@ hero:
     list:
       - title: Camp Coding Space
         content: /programs/summer-camps/
-      - title: TCS Academy
-        content: /programs/the-coding-space-academy/
-      - title: Summer & Fall Classes
+      - title: Fall Classes
         content: /programs/our-coding-classes
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
