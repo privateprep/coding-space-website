@@ -39,8 +39,10 @@ pageBuilder:
           content: /locations/park-slope
         - title: Port Washington
           content: /locations/long-island
-        - title: New! Scarsdale
+        - title: Scarsdale
           content: /locations/westchester
+        - title: Online
+          content: /locations/online
     textColor: "#264548"
     bgColor: "#faf6ee"
     image:
@@ -48,13 +50,13 @@ pageBuilder:
       alt: Students coding in a classroom
     mediaPosition: right
     mdContent: >-
-      ## In-Person Coding Classes
+      ## Coding Classes
 
 
       **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive & Challenging Learning Environment**
 
 
-      Our weekly after-school coding classes in Manhattan, Brooklyn, and Long Island offer unique coding challenges in Scratch, JavaScript, Python, and more. Don't miss our signature project-based curriculum and small student-to-teacher ratio that promises customized learning and personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
+      Our weekly coding classes offer unique coding challenges in Scratch, JavaScript, Python, and more. Don't miss our signature project-based curriculum and 4:1 student-to-teacher ratio that promises customized learning and personalized attention. Teachers utilize the Socratic method to help students develop the power to solve problems, think critically, express themselves, and discover their innate potential.
     fgColor: "#9de2dd"
   - type: textAndImageBlock
     buttons:
