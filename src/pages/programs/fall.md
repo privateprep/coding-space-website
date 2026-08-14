@@ -50,7 +50,7 @@ pageBuilder:
       alt: Students coding in a classroom
     mediaPosition: right
     mdContent: >-
-      ## Coding Classes
+      ## Coding Classes for Ages 6-17
 
 
       **Build Cutting-Edge Skills and Long-Lasting Friendships in a Supportive & Challenging Learning Environment**
@@ -72,17 +72,12 @@ pageBuilder:
       image: /img/young-girl-learning-on-computer.jpeg
       alt: Student learning on a tablet
     mediaPosition: left
-    mdContent: >-
-      ## Online Coding Classes
+    mdContent: |-
+      ## AI Classes
 
+      **From AI-Curious to AI-Competent**
 
-      **Explore the Unknown, Even From Home**
-
-
-      I﻿n our weekly online group classes, students learn to code while making friends near and far. These live classes are taught over Zoom in a 4:1 student-to-teacher ratio ensuring students receive personalized attention when they need it.
-
-
-      **T﻿ech requirements:** A MacOS or Windows computer is strongly preferred for online classes. Tablets, smartphones and iPads will not work for class. Mac and Windows users must install the latest version of Zoom (version 5.11 or above).
+      Held on select days
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
