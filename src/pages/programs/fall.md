@@ -85,7 +85,7 @@ pageBuilder:
       Grades 5-8 · Upper East Side, Park Slope & Online · No coding experience required
 
 
-      Graduates continue into AI Studios and can go on to compete as a team in MIT's AI competition.
+      Graduates continue into AI Studios and can go on to compete as a team in MIT's AI for a Better World competition.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
