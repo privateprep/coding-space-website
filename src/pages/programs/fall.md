@@ -79,10 +79,10 @@ pageBuilder:
       **From AI-Curious to AI-Competent**
 
 
-      Your child already uses AI. In AI Builders, they'll train their own image, sound, and text models, generate art and music, and vibe code a working website. Projects scale to each student's age and experience, and some go further into data and Python. Along the way, they learn why AI behaves the way it does and responsible use.  
+      Your child already uses AI. In AI Builders, they'll train their own image, sound, and text models, generate art and music, and vibe code a working website. Projects scale to each student's age and experience, and some go further into data and Python. Along the way, they learn why AI behaves the way it does and how to use it responsibly.
 
 
-      Grades 5-8 · Upper East Side, Park Slope & Online · No coding experience required.
+      Grades 5-8 · Upper East Side, Park Slope & Online · No coding experience required
 
 
       Graduates continue into AI Studios and can go on to compete as a team in MIT's AI competition.
