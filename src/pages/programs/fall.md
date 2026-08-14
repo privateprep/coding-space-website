@@ -64,20 +64,28 @@ pageBuilder:
       fgColor: "#eec11a"
       textColor: "#ffffff"
       list:
-        - title: Sign Up
-          content: /locations/online
+        - title: Learn More
+          content: /programs/ai-maker-lab/
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
       image: /img/young-girl-learning-on-computer.jpeg
       alt: Student learning on a tablet
     mediaPosition: left
-    mdContent: |-
-      ## AI Classes
+    mdContent: >-
+      ## AI Builders
+
 
       **From AI-Curious to AI-Competent**
 
-      Held on select days
+
+      Your child already uses AI. In AI Builders, they'll train their own image, sound, and text models, generate art and music, and vibe code a working website. Projects scale to each student's age and experience, and some go further into data and Python. Along the way, they learn why AI behaves the way it does and responsible use.  
+
+
+      Grades 5-8 · Upper East Side, Park Slope & Online · No coding experience required.
+
+
+      Graduates continue into AI Studios and can go on to compete as a team in MIT's AI competition.
     fgColor: "#264548"
   - type: textAndImageBlock
     buttons:
@@ -102,16 +110,4 @@ pageBuilder:
 
       Looking for a way for your child to learn at home with friends? Or get dedicated help from an instructor in a one-on-one setting? Our private lessons put you in the driver’s seat, allowing you to determine the schedule that best suits your needs and build a personalized class experience for your child.
     fgColor: "#9de2dd"
-  - type: textOnly
-    textAlign: center
-    bgColor: "#9de2dd"
-    textColor: "#264548"
-    mdContent: "## Looking for something else?"
-  - type: buttons
-    bgColor: "#9de2dd"
-    fgColor: "#eec11a"
-    textColor: "#ffffff"
-    list:
-      - title: Contact Us
-        content: /contact-us
 ---
