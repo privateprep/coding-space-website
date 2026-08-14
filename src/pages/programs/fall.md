@@ -85,13 +85,13 @@ pageBuilder:
       fgColor: "#eec11a"
       textColor: "#ffffff"
       list:
-        - title: Learn More
+        - title: Contact Us
           content: /contact-us
     textColor: "#264548"
     bgColor: "#ffffff"
     image:
       image: /img/slice-9-2-.png
-      alt: Accessibility name
+      alt: Students coding
     mediaPosition: right
     mdContent: >-
       ## Private Lessons and Small Groups
