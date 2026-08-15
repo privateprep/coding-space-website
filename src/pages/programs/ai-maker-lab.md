@@ -18,16 +18,20 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: |-
-      **AI & Vibe Coding for Grades 5-8**
+    mdContent: >-
+      ## AI & Vibe Coding Classes for Grades 5-8
 
-      **Upper East Side · Park Slope · Online**
+
+      **Weekly after-school AI classes for middle schoolers at Upper East Side, Park Slope, and Online**
+
+
+      **F﻿all 2026 Classes Now Enrolling**
   - type: textOnly
     textAlign: center
     bgColor: "#ffffff"
     textColor: "#264548"
     mdContent: >-
-      ## Your child already uses AI. Now they'll build with it.
+      ### Your child already uses AI. Now they'll build with it.
 
 
       ***If your child has searched Google or asked Alexa a question, they have already used AI. But do they know how it actually works, where it breaks, or how to use it as a creative tool?***
