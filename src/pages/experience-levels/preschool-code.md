@@ -29,10 +29,10 @@ details:
     - Introduction to Coding
     - Early STEM
   mdContent: >-
-    A screen-free introduction to coding and engineering for pre-K learners.
-    Through hands-on building, play, and guided exploration, young engineers
-    develop spatial reasoning, pattern recognition, logical thinking, and early
-    problem-solving skills — all before touching a keyboard.
+    A screen-free introduction to coding and engineering for pre-K 4 & K
+    learners. Through hands-on building, play, and guided exploration, young
+    engineers develop spatial reasoning, pattern recognition, logical thinking,
+    and early problem-solving skills — all before touching a keyboard.
 
 
     Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
