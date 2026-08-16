@@ -43,22 +43,7 @@ pageBuilder:
           * Explore foundational coding concepts through play
           * Develop pattern recognition and logical thinking
           * Practice problem-solving without screens
-    rightComponent:
-      - type: textOnly
-        textAlign: left
-        bgColor: "#faf6ee"
-        textColor: "#264548"
-        mdContent: >-
-          ## E﻿arly Engineers
-
-
-          #### Ages 4-5
-
-
-          A screen-free introduction to coding and engineering for pre-K learners. Through hands-on building, play, and guided exploration, young engineers develop spatial reasoning, pattern recognition, logical thinking, and early problem-solving skills — all before touching a keyboard.
-
-
-          Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
+    rightComponent: []
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#faf6ee"
