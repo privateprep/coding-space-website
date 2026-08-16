@@ -65,7 +65,7 @@ pageBuilder:
       textColor: "#ffffff"
       list:
         - title: Learn More
-          content: /programs/ai-maker-lab/
+          content: /programs/ai-builders
     textColor: "#264548"
     bgColor: "#9de2dd"
     image:
