@@ -30,20 +30,6 @@ pageBuilder:
 
 
       While our classes are tailored to each of the experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
-  - type: sideBySide
-    bgColor: "#faf6ee"
-    leftComponent:
-      - type: boxWithLogo
-        bgColor: "#faf6ee"
-        fgColor: "#9de2dd"
-        textColor: "#264548"
-        heading: Students will
-        mdContent: |-
-          * Build and tinker with hands-on engineering challenges
-          * Explore foundational coding concepts through play
-          * Develop pattern recognition and logical thinking
-          * Practice problem-solving without screens
-    rightComponent: []
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#faf6ee"
