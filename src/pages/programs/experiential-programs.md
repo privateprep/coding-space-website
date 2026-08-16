@@ -27,6 +27,31 @@ pageBuilder:
       From supportive, female-identifying coding environments to AI Maker Lab, our programs meet student needs inside the classroom and beyond, creating a community of coders and friendships that last.ee
   - type: textAndImageBlock
     buttons:
+      bgColor: "#faf6ee"
+      fgColor: "#9de2dd"
+      textColor: "#264548"
+      list:
+        - title: Learn More
+          content: /experience-levels/preschool-code/
+    textColor: "#264548"
+    bgColor: "#faf6ee"
+    image:
+      image: /img/img_2590.jpg
+      alt: Early Engineers at The Coding Space
+    mediaPosition: right
+    mdContent: >-
+      ## E﻿arly Engineers
+
+
+      #### Ages 4-5
+
+
+      A screen-free introduction to coding and engineering for pre-K learners. Through hands-on building, play, and guided exploration, young engineers develop spatial reasoning, pattern recognition, logical thinking, and early problem-solving skills — all before touching a keyboard.
+
+
+      Every activity is designed to spark curiosity and build the foundational thinking that makes learning to code easier later on.
+  - type: textAndImageBlock
+    buttons:
       bgColor: "#ffffff"
       fgColor: "#9de2dd"
       textColor: "#264548"
