@@ -88,8 +88,6 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: |-
-      
-
       ## What Students Will Build
 
       Students create real, working web-based apps, such as:
@@ -98,19 +96,11 @@ pageBuilder:
       * AI-powered tools
       * Creative apps and experiences
 
-      By the end of the program, every student leaves with:\
-      **A fully functional app they built themselves**
-
-      - - -
-
       ## Who This Is For
 
-      * Ages 8+
       * Beginners with no coding experience through advanced coders
       * Kids interested in tech, creativity, or problem-solving
       * Students ready to go beyond passive screen time
-
-      - - -
 
       ## Why Parents Choose Vibe Coding
 
@@ -120,23 +110,14 @@ pageBuilder:
       * Hands-on, project-based learning (no lectures)
       * Builds confidence through real outcomes
 
-      This isn’t just another tech class—it’s a future-ready skillset.
-
-      - - -
-
-      ##  Continue Your Child’s Learning Path
-
-      Vibe Coding is just the beginning. Students can continue into:
-
-      * **AI Maker Lab (Middle School)**
-      * **Advanced Coding, AI & Computer Science Programs**
+      This isn’t just another tech topic—it’s a future-ready skillset.
   - type: buttons
     bgColor: "#9de2dd"
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Register Now
-        content: /sign_up/classes/4593
+      - title: Learn More About Our AI Programs
+        content: /programs/ai-builders
   - type: textOnly
     textAlign: center
     bgColor: "#faf6ee"
