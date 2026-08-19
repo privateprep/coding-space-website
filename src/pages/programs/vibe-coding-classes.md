@@ -48,13 +48,13 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## How the Program Works
+      ## What Vibe Coding Teaches
 
 
-      O﻿ver the course of eight weeks, students will:
+      Through vibe coding challenges, students will:
 
 
-      * **Plan:** Brainstorm and design their app
+      * **Plan:** Brainstorm and design an app
 
       * **Create:** Use AI tools to build features
 
