@@ -52,11 +52,11 @@ pageBuilder:
     textColor: "#eec11a"
     list:
       - title: Upper East Side
-        content: https://www.thecodingspace.com/sign_up/classes/4774
+        content: /experience-levels/ai-maker-lab/?class_location_ids[]=1
       - title: Park Slope
-        content: https://www.thecodingspace.com/sign_up/classes/4775
+        content: /experience-levels/ai-maker-lab/?class_location_ids[]=3
       - title: Online
-        content: https://www.thecodingspace.com/experience-levels/ai-maker-lab/?class_location_ids%5B%5D=10
+        content: /experience-levels/ai-maker-lab/?class_location_ids%5B%5D=10
   - type: textAndImageBlock
     buttons:
       bgColor: "#faf6ee"
