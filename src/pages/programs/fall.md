@@ -1,6 +1,6 @@
 ---
 templateKey: programs
-title: Fall Coding Classes
+title: Fall Classes
 titleColor: "#264548"
 seo:
   title: Fall Coding Classes
