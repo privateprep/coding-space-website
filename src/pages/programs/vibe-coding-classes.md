@@ -16,15 +16,10 @@ pageBuilder:
     bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
-      ## Vibe Coding: Build Apps with AI (Ages 8+)
+      ## Vibe Coding: Now Built Into Every AI Program We Teach
 
 
-      Give your child the skills to create with AI, not just use it. 
-
-
-      In our Vibe Coding classes, students use AI tools and prompts to design and build their own web-based apps, regardless of prior coding experience.
-
-
+      Everything parents loved about Vibe Coding — building real, working apps with AI, no experience required — is now woven into our AI programs. In AI Builders (grades 5-8), students vibe code a real app in the very first session, then learn what's happening under the hood. In our AI Studios (the next level), vibe coding becomes the way students build, shipping web, app, and data projects with AI as a tool they command. 
 
 
       ## 🚀 What Is Vibe Coding?
@@ -46,8 +41,8 @@ pageBuilder:
     fgColor: "#eec11a"
     textColor: "#264548"
     list:
-      - title: Register Now
-        content: /sign_up/classes/4593
+      - title: Get Started with AI Builders
+        content: /programs/ai-builders
   - type: textOnly
     textAlign: left
     bgColor: "#9de2dd"
