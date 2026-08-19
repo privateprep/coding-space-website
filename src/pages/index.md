@@ -22,8 +22,8 @@ hero:
     list:
       - title: Fall Classes
         content: /programs/fall/
-      - title: Summer Camp
-        content: /programs/summer-camps/
+      - title: Holiday Camps
+        content: /experience-levels/school-holiday-mini-camps/?class_location_ids[]=1
 mainpitch:
   title: Building confidence, creativity, and problem-solving through technology
   description: We offer coding and AI classes and camps where kids learn by
