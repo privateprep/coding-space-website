@@ -37,7 +37,7 @@ pageBuilder:
       ***If your child has searched Google or asked Alexa a question, they have already used AI. But do they know how it actually works, where it breaks, or how to use it as a creative tool?***
 
 
-      ***AI Builders gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects.*** 
+      **AI Builders gives students a hands-on, age-appropriate introduction to artificial intelligence through coding, data, and creative projects.** 
 
 
       Throughout the course, students create a portfolio of interactive, meaningful projects that show how AI can recognize patterns, make predictions, and enhance their own creative ideas. Along the way, they also learn about responsible AI use, data ethics, and what it really means to “teach” a model.
