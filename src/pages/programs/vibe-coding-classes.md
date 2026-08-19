@@ -48,7 +48,7 @@ pageBuilder:
     bgColor: "#9de2dd"
     textColor: "#264548"
     mdContent: >-
-      ## What Vibe Coding Teaches
+      ## What Does Vibe Coding Involve?
 
 
       Through vibe coding challenges, students will:
