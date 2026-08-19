@@ -30,13 +30,6 @@ pageBuilder:
 
 
       While our classes are tailored to each of the experience levels below, our student-centered approach creates a fully personalized education experience, allowing students to be challenged at their individual level and pace. No matter where they’ve started, we’re here to help them get where they want to go.
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#faf6ee"
-    textColor: "#264548"
-    list:
-      - title: Sign Up
-        content: /experience-levels/preschool-code
   - type: sideBySide
     bgColor: "#9de2dd"
     leftComponent:
