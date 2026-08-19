@@ -18,7 +18,7 @@ details:
   gender:
     - Co-ed.
   byline: Learn to code on a day off from school
-  experience: Ages 7-12
+  experience: Ages 8-13
   skills:
     - Scratch
     - JavaScript
