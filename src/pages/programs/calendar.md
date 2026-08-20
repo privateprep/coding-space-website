@@ -25,67 +25,40 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Family Vibe Coding Jam
+      ## Vibe Coding Night for Parents
 
 
-      **Turn your ideas into a real app together!**
+      ***Turn an idea into a working prototype — in 90 minutes.***
 
 
-      **Who**\
-
-      Parents and kids (ages 8+), no coding experience needed
+      Ever wondered what it actually feels like to build something with AI? Now you can find out.
 
 
-      **What**\
-
-      A fun, hands-on workshop where you and your child build an app together using AI. Start with an idea, learn simple prompting techniques, and watch your project come to life in real time.
+      Using simple AI tools, you'll go from idea → prompt → working prototype before the night is over. No coding experience needed. Just bring your laptop and something you've been wanting to build.
 
 
-      **When & Where**\
-
-      \
-
-      **Choose among 3 special events!**
+      **What you'll leave with**
 
 
-      Sunday, April 26 > [Register](https://www.thecodingspace.com/sign_up/classes/4571)
+      * A working prototype you built yourself
+
+      * A real understanding of how AI turns ideas into projects
+
+      * A few new ideas of your own
 
 
-      S﻿unday, May 10 (*Mother's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4575)
+      **Price:** $75 per person\
 
+      **Date:** Wednesday, September 30th\
 
-      S﻿unday, June 21 *(Father's Day) >* [Register](https://www.thecodingspace.com/sign_up/classes/4576)\
+      **Time:** 6:00–7:30 PM\
 
-      \
-
-      **Time:** 3:30-5:00 PM\
-
-      **L﻿ocation:** 2﻿01 E. 83rd St, Upper East Side 
-
-
-      **About the Workshop**\
-
-      If your child has big ideas—and you’re a little curious too—this workshop is for you.
-
-
-      Instead of sitting on the sidelines, parents and kids work side by side to create something real. Using simple AI tools, you’ll go from idea → prompt → working app in under 90 minutes.
-
-
-      No coding experience needed, just creativity, collaboration, and a willingness to try something new.
-
-
-      **What You’ll Leave** 
-
-
-      * A working app you built together
-
-      * A simple understanding of how AI can turn ideas into real projects
-
-      * A shared experience that's fun (and a little magical)
-
-
-      **P﻿rice**
-
-
-      $﻿25 per family (*one laptop per family*)
+      **Location:** 201 E. 83rd St, Upper East Side
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Register
+        content: /sign_up/classes/4835
 ---
