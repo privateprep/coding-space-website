@@ -27,10 +27,7 @@ pageBuilder:
       ## Bridging the Gender Gap in Tech
 
 
-      Recent research suggests that nearly 65 percent of today’s kindergartners will land in jobs that don’t yet exist, likely in the technology, science, and math industries. Yet, as of 2015, [only 18 percent](/blog/2022-02-08-how-to-encourage-a-love-of-stem-in-girls/) of graduates with a computer science degree identified as female. Now more than ever, we need to close the gender gap in tech by creating opportunities for inclusivity.
-
-
-      The Coding Space is committed to being a part of the solution by providing mentorship, opportunities for growth, and equitable access. Our welcoming and inclusive GirlCode program utilizes the same curriculum as our co-ed classes while fostering a safe and supportive female-identifying space for our GirlCoders to develop their computational and critical thinking skills, intellectual confidence, and passion for STEM.
+      With AI reshaping the workforce, STEM occupations are projected to grow nearly three times faster than other jobs over the next decade, according to the Bureau of Labor Statistics. Yet women still earn just 23% of computer science bachelor's degrees and hold only about a quarter of computing jobs in the U.S. Now more than ever, we need to close the gender gap in tech by creating opportunities for inclusivity.
     fgColor: "#9de2dd"
   - type: sideBySide
     bgColor: "#faf6ee"
