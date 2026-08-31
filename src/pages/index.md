@@ -8,7 +8,7 @@ seo:
     space for students to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2026-08-31T14:18:31.726Z
+  removalDate: 2026-09-14T20:26:27.832Z
   mdContent: T﻿he fall semester starts September 14th! [Register now](/programs/fall/).
 hero:
   heading: Where kids learn to think critically
