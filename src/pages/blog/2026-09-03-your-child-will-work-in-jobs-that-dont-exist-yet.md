@@ -7,7 +7,7 @@ date: 2026-09-03T20:02:59.432Z
 description: >
   Every generation of parents has to make peace with some version of this: the
   world their kids will work in looks nothing like the one they grew up in. That
-  gap used to close slowly. Over the past 15 years, it's been closing fast.
+  gap used to close slowly. Over the past 20 years, it's been closing fast.
 featuredPost: false
 featuredImage:
   image: /img/tcs-future-of-work-pic-1.webp
