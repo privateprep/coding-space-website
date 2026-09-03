@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Your Child Will Work in Jobs That Don't Exist Yet
+title: Your Kids Will Work in Jobs That Don't Exist Yet
 titleColor: "#264548"
 bgColor: "#faf6ee"
 date: 2026-09-03T20:02:59.432Z
