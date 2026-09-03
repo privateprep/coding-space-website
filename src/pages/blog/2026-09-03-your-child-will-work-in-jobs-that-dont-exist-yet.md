@@ -11,7 +11,7 @@ description: >
 featuredPost: false
 featuredImage:
   image: /img/tcs-future-of-work-pic-1.webp
-  alt: Accessibility name
+  alt: A 3-year-old playing with his Macintosh 128K, 1989
 ---
 When the internet went mainstream in the late 1990s, most people thought it would change retail. It did, but it also created entire categories of jobs nobody was training for: web developers, SEO specialists, UX designers, digital marketers. By 2004, when Facebook launched out of a Harvard dorm room, "social media manager" wasn't a job title anywhere. Five years later, companies had whole departments for it.
 
