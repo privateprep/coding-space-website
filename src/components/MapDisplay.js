@@ -29,7 +29,8 @@ const MapDisplay = ({ addressCoords }) => {
     return (
       <Map center={addressCoords} zoom={14} scrollWheelZoom={false}>
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
           crossOrigin
         />
         <Marker position={addressCoords} icon={mapIcon} />
