@@ -105,6 +105,13 @@ module.exports = {
         purgeOnly: ["/all.scss"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    {
+      resolve: "gatsby-plugin-netlify", // make sure to keep it last in the array
+      options: {
+        headers: {
+          "/*": ["Referrer-Policy: strict-origin-when-cross-origin"],
+        },
+      },
+    },
   ],
 };
