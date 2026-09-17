@@ -8,8 +8,9 @@ seo:
     space for students to have fun, be challenged, and grow as thinkers,
     learners, and leaders.
 banner:
-  removalDate: 2026-09-14T20:26:27.832Z
-  mdContent: T﻿he fall semester starts September 14th! [Register now](/programs/fall/).
+  removalDate: 2026-09-22T20:44:43.120Z
+  mdContent: J﻿oin us for camp on Monday, September 21st! [Register
+    now](https://www.thecodingspace.com/sign_up/classes/4821).
 hero:
   heading: Where kids learn to think critically
   subheading: >+
