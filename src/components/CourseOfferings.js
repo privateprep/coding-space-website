@@ -5,6 +5,7 @@ import moment from "moment-timezone";
 
 import { GET } from "../utils/service";
 import { groupBy, sortSemester } from "../utils/helpers";
+import { signupLinkFor } from "../utils/courseOfferingLinks";
 
 import { useFilters } from "../hooks";
 import FilterForm from "../components/FilterForm";
@@ -21,6 +22,7 @@ const CourseOffering = ({
   lastSessionAt,
   locationName,
   price,
+  publicCheckoutUrls,
   remainingCapacity,
   semester,
   sessionCount,
@@ -82,34 +84,44 @@ const CourseOffering = ({
         )}
       </ul>
       <div className="actions">
-        {enrollmentTypes.map(({ buttonLabel, value }) => {
-          if (value === "all") {
-            return (
-              <Link
-                key={value}
-                to={`/sign_up/classes/${classTypeId}`}
-                className="link-button sign-up"
-              >
-                SIGN UP
-              </Link>
-            );
-          } else if (value === "trial_class") {
-            return (
-              <Link
-                key={value}
-                to={`/sign_up/classes/${classTypeId}?trial_class=true`}
-                className="link-button sign-up"
-              >
-                {isCamp ? "TRY A DAY" : "TRY A CLASS"}
-              </Link>
-            );
-          } else {
+        {enrollmentTypes.map(({ value }) => {
+          if (!["all", "trial_class"].includes(value)) {
             return (
               <p key={value} style={{ color: "red" }}>
                 Unknown enrollmentType: {value}
               </p>
             );
           }
+
+          const signupLink = signupLinkFor({
+            classTypeId,
+            enrollmentType: value,
+            publicCheckoutUrls,
+          });
+          const label =
+            value === "all" ? "SIGN UP" : isCamp ? "TRY A DAY" : "TRY A CLASS";
+
+          if (signupLink.isPublicCheckout) {
+            return (
+              <a
+                key={value}
+                href={signupLink.url}
+                className="link-button sign-up"
+              >
+                {label}
+              </a>
+            );
+          }
+
+          return (
+            <Link
+              key={value}
+              to={signupLink.url}
+              className="link-button sign-up"
+            >
+              {label}
+            </Link>
+          );
         })}
       </div>
     </li>
