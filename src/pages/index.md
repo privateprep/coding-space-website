@@ -10,7 +10,7 @@ seo:
 banner:
   removalDate: 2026-10-13T14:32:25.483Z
   mdContent: J﻿oin us for camp on Monday, October 12th! [Register
-    now](https://www.thecodingspace.com/sign_up/classes/4821).
+    now](https://www.thecodingspace.com/sign_up/classes/4822).
 hero:
   heading: Where kids learn to think critically
   subheading: >+
