@@ -1,6 +1,6 @@
 ---
 templateKey: location-page
-title: Coding & AI Classes for Kids on the Upper East Side | The Coding Space
+title: Kids Coding & AI Classes, Upper East Side NYC | The Coding Space
 seo:
   title: Coding & AI Classes for Kids on the Upper East Side | The Coding Space
   description: After-school coding and AI classes for kids and teens on
