@@ -3,10 +3,9 @@ heading: Now Kids Can Explore the Unknown, Even From Home
 templateKey: index-page
 seo:
   title: "Coding & AI Classes for Kids & Teens: Online and in NYC"
-  description: >
-    We offer coding and AI classes for kids and teens in a caring, inclusive
-    space for students to have fun, be challenged, and grow as thinkers,
-    learners, and leaders.
+  description: Small-group coding and AI classes for kids and teens, in person in
+    Manhattan, Brooklyn Long Island, and Westchester or live online from
+    anywhere. Book a trial class.
 banner:
   removalDate: 2026-10-13T14:32:25.483Z
   mdContent: J﻿oin us for camp on Monday, October 12th! [Register
