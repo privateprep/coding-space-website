@@ -2,9 +2,10 @@
 templateKey: location-page
 title: Park Slope
 seo:
-  title: Park Slope
-  description: >
-    Come learn javascript and Scratch with us at our Park Slope location!
+  title: Kids Coding & AI Classes in Park Slope, Brooklyn | The Coding Space
+  description: After-school coding and AI classes for kids and teens in Park
+    Slope, Brooklyn. Small groups, beginner to advanced. See classes and book a
+    trial.
 classLocationId: 3
 banner:
   removalDate: 2021-12-17T17:58:17.821Z
