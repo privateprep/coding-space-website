@@ -18,12 +18,10 @@ pageBuilder:
     textAlign: center
     bgColor: "#9de2dd"
     textColor: "#264548"
-    mdContent: >-
+    mdContent: |-
       ## AI & Vibe Coding Classes for Grades 5-8
 
-
-      **Weekly after-school AI classes for middle schoolers at Upper East Side, Park Slope, and Online**
-
+      **Weekly AI classes for middle schoolers in New York and Online**
 
       **F﻿all 2026 Classes Now Enrolling**
   - type: textOnly
