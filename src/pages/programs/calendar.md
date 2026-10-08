@@ -27,8 +27,8 @@ pageBuilder:
     mdContent: "![](/img/ues-a-frame_-fall-classes-oct-open-house-outdoor-posters-p\
       ortrait-2_3-1200-x-400-px-.png)"
   - type: textOnly
-    textAlign: left
-    bgColor: "#eec11a"
+    textAlign: center
+    bgColor: "#faf6ee"
     textColor: "#264548"
     mdContent: >-
       ## S﻿TEMoween: Code or Treat Hunt
@@ -66,4 +66,31 @@ pageBuilder:
     list:
       - title: RSVP For STEMoween
         content: https://forms.gle/Ac9LSpt1Cb5veJ8v7
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![students coding at camp](/img/girlcode-three-around-computer.jpg)"
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: >-
+      ## Indigenous Peoples' Day Holiday Camp
+
+
+      ### Monday, October 12 · Upper East Side
+
+
+      No school? No problem. Our holiday camp fills the day off with project-based coding, tech challenges, and hands-on activities, so kids go home with something they built and are proud of. Spots are limited, so sign up early.
+
+
+      **201 E 83rd Street, Upper East Side  · Ages 7-12**
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#264548"
+    textColor: "#faf6ee"
+    list:
+      - title: Register Now
+        content: /experience-levels/school-holiday-mini-camps/
 ---
