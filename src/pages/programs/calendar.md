@@ -21,6 +21,12 @@ pageBuilder:
 
       In addition to our [seasonal programs](/programs/seasonal-programs), The Coding Space offers a wide variety of fun and educational camps, workshops, and special events. See what’s coming up and how your child can get involved.
   - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![](/img/ues-a-frame_-fall-classes-oct-open-house-outdoor-posters-p\
+      ortrait-2_3-1200-x-400-px-.png)"
+  - type: textOnly
     textAlign: left
     bgColor: "#eec11a"
     textColor: "#264548"
@@ -60,10 +66,4 @@ pageBuilder:
     list:
       - title: RSVP For STEMoween
         content: https://forms.gle/Ac9LSpt1Cb5veJ8v7
-  - type: textOnly
-    textAlign: center
-    bgColor: "#faf6ee"
-    textColor: "#264548"
-    mdContent: "![](/img/ues-a-frame_-fall-classes-oct-open-house-outdoor-posters-p\
-      ortrait-2_3-1200-x-400-px-.png)"
 ---
