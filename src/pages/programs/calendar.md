@@ -25,40 +25,45 @@ pageBuilder:
     bgColor: "#eec11a"
     textColor: "#264548"
     mdContent: >-
-      ## Vibe Coding Night for Parents
+      ## S﻿TEMoween: Code or Treat Hunt
 
 
-      ***Turn an idea into a working prototype — in 90 minutes.***
+      ### Hunt ghosts, code robots, and crack the code to the candy chest
 
 
-      Ever wondered what it actually feels like to build something with AI? Now you can find out.
+      **Sunday, October 25 · 2:30–4:30 PM**
 
 
-      Using simple AI tools, you'll go from idea → prompt → working prototype before the night is over. No coding experience needed. Just bring your laptop and something you've been wanting to build.
+      **201 E 83rd Street, Upper East Side · Free · Ages 6+**
 
 
-      **What you'll leave with**
+      Oh no! Someone stole the candy from our cauldron and locked it in a chest. Complete four tech challenges, each revealing one digit of the code to unlock the candy. 
 
 
-      * A working prototype you built yourself
+      1. **Haunted Sound Lab:** Turn pumpkins into a spooky soundboard with Makey Makey.
 
-      * A real understanding of how AI turns ideas into projects
+      2. **Ghost Hunters:** Track down the real ghost with a micro:bit detector.
 
-      * A few new ideas of your own
+      3. **Trick or Treat Maze:** Steer a robot through a monster-filled neighborhood.
+
+      4. **Haunted Express:** Code a train to stop at the right haunted house.
 
 
-      **Price:** $75 per person\
+      Collect all four digits, crack the code, and claim your candy. Finish with time to spare? Take on a bonus challenge for a Master Hacker badge.
 
-      **Date:** Wednesday, September 30th\
 
-      **Time:** 6:00–7:30 PM\
-
-      **Location:** 201 E. 83rd St, Upper East Side
+      The hunt takes about an hour, so arrive by 3:30 PM to have time to unlock the candy. Costumes and friends encouraged! Just make sure to **RSVP by Wednesday, October 21** to reserve your spot.
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
     textColor: "#faf6ee"
     list:
-      - title: Register
-        content: /sign_up/classes/4835
+      - title: RSVP For STEMoween
+        content: https://forms.gle/Ac9LSpt1Cb5veJ8v7
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
+    mdContent: "![](/img/ues-a-frame_-fall-classes-oct-open-house-outdoor-posters-p\
+      ortrait-2_3-1200-x-400-px-.png)"
 ---
