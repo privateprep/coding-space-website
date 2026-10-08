@@ -48,7 +48,7 @@ pageBuilder:
 openings:
   - details:
       postingDate: 2026-07-24T20:27:08.668Z
-      removalDate: 2026-09-30T15:02:16.796Z
+      removalDate: 2026-10-29T15:22:47.308Z
       applyLink: https://forms.gle/ybqD1BMZSXuLuLER9
     info:
       title: After School Coding Teacher 2026-2027
