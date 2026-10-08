@@ -8,8 +8,8 @@ seo:
     anywhere. Book a trial class.
 banner:
   removalDate: 2026-10-13T14:32:25.483Z
-  mdContent: J﻿oin us for camp on Monday, October 12th! [Register
-    now](https://www.thecodingspace.com/sign_up/classes/4822).
+  mdContent: "Oct 12: Holiday Camp | Oct 25: FREE STEMoween Code or Treat Hunt.
+    [See Events](/programs/calendar/)"
 hero:
   heading: Where kids learn to think critically
   subheading: >+
