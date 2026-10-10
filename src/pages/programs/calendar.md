@@ -39,7 +39,7 @@ pageBuilder:
       No school? No problem. Our holiday camp fills the day off with project-based coding, tech challenges, and hands-on activities, so kids go home with something they built and are proud of. Spots are limited, so sign up early.
 
 
-      **201 E 83rd Street, Upper East Side  · Ages 7-12**
+      **201 E 83rd Street, Upper East Side  · Ages 8-13**
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
