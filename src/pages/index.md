@@ -7,8 +7,9 @@ seo:
     Manhattan, Brooklyn Long Island, and Westchester or live online from
     anywhere. Book a trial class.
 banner:
-  removalDate: 2026-10-13T14:32:25.483Z
-  mdContent: Join us for STEMoween on Oct 25! [Learn More](/programs/calendar/)
+  removalDate: 2026-10-27T17:06:29.067Z
+  mdContent: J﻿oin us for a special Code or Treat event on Sunday, Oct 25! [Learn
+    More](/programs/calendar/)
 hero:
   heading: Where kids learn to think critically
   subheading: >+
