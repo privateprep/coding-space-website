@@ -71,4 +71,9 @@ pageBuilder:
 
 
       *Please note that this is not a drop off event. One adult must be present for each family unit. Thank you!*
+
+
+      **A﻿bout The Coding Space**\
+
+      The Coding Space has taught kids ages 6–17 to code on the UES for over a decade. Fall classes are now in session!
 ---
