@@ -58,7 +58,10 @@ pageBuilder:
       Collect all four digits, crack the code, and claim your candy. Finish with time to spare? Take on a bonus challenge for a Master Hacker badge.
 
 
-      The hunt takes about an hour, so arrive by 3:30 PM to have time to unlock the candy. Costumes and friends encouraged! Just make sure to **RSVP by Wednesday, October 21** to reserve your spot.
+      The hunt takes about an hour, so arrive by 3:30 PM to have time to unlock the candy. Costumes and friends encouraged! **Spots are limited, so RSVP to save yours.**
+
+
+      *Please note that this is not a drop off event. One adult must be present for each family unit. Thank you!*
   - type: buttons
     bgColor: "#faf6ee"
     fgColor: "#264548"
