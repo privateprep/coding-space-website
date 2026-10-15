@@ -56,7 +56,6 @@ openings:
         - NYC
         - Brooklyn
         - Westchester
-        - Long Island
       description: >
         Do you love working with kids? Do you want to make a change in the
         education system? Whether you are a coding expert or just starting, we
