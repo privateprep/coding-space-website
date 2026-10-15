@@ -30,10 +30,19 @@ pageBuilder:
     textAlign: center
     bgColor: "#faf6ee"
     textColor: "#264548"
+    mdContent: "## S﻿TEMoween: Code or Treat Hunt"
+  - type: buttons
+    bgColor: "#faf6ee"
+    fgColor: "#eec11a"
+    textColor: "#264548"
+    list:
+      - title: RSVP For STEMoween
+        content: https://forms.gle/Ac9LSpt1Cb5veJ8v7
+  - type: textOnly
+    textAlign: center
+    bgColor: "#faf6ee"
+    textColor: "#264548"
     mdContent: >-
-      ## S﻿TEMoween: Code or Treat Hunt
-
-
       ### Hunt ghosts, code robots, and crack the code to the candy chest
 
 
@@ -62,11 +71,4 @@ pageBuilder:
 
 
       *Please note that this is not a drop off event. One adult must be present for each family unit. Thank you!*
-  - type: buttons
-    bgColor: "#faf6ee"
-    fgColor: "#264548"
-    textColor: "#faf6ee"
-    list:
-      - title: RSVP For STEMoween
-        content: https://forms.gle/Ac9LSpt1Cb5veJ8v7
 ---
