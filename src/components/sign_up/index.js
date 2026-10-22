@@ -58,7 +58,7 @@ const confirmationPageSubmitText = values => {
 
 const SignUp = ({ classTypeId, location: { search } }) => {
   const [adsTracking, setAdsTracking] = useState({});
-  const [paymentIntent, setPaymentIntent] = useState(null);
+  const [paymentId, setPaymentId] = useState(null);
   const [stripePublicKey, setStripePublicKey] = useState(null);
   const [overview, setOverview] = useState();
   const [submitError, setSubmitError] = useState();
@@ -124,16 +124,16 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     }
   }, [overview, classTypeId, isTrialClass, enrollmentType]);
 
-  const onSuccessRedirect = () => {
+  const onSuccessRedirect = adsTrackingData => {
     navigate(`/thank_you`, {
       replace: true,
-      state: { adsTracking: adsTracking },
+      state: { adsTracking: adsTrackingData },
     });
   };
 
-  const handleCheckoutSuccess = (adsTrackingData) => {
-    setAdsTracking(adsTrackingData);
-    onSuccessRedirect();
+  const handleCheckoutSuccess = () => {
+    // Keep the original signup's promo/rewards attribution through payment retries.
+    onSuccessRedirect(adsTracking);
   };
 
   const handleConfirmationSubmit = async (values, bag) => {
@@ -144,10 +144,15 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       setAdsTracking(res.adsTracking);
 
       if (res.nextStep === "collect_payment") {
-        // Only get the Stripe public key, don't create payment intent yet
+        if (!Number.isSafeInteger(res.paymentId) || res.paymentId <= 0) {
+          throw new Error(
+            "The signup payment is missing. Please contact The Coding Space for a payment link."
+          );
+        }
+        setPaymentId(res.paymentId);
         setStripePublicKey(res.stripePublicKey);
       } else if (res.nextStep === "send_confirmation") {
-        onSuccessRedirect();
+        onSuccessRedirect(res.adsTracking);
       } else {
         throw new Error("Next step unknown!");
       }
@@ -155,23 +160,23 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     } catch (error) {
       if (error.status === 422) {
         bag.setErrors(error.errors);
-        setSubmitError(error);
-        bag.setSubmitting(false);
-        return Promise.reject("handledFormError");
-      } else {
-        throw error;
       }
+      setSubmitError(error);
+      bag.setSubmitting(false);
+      return Promise.reject("handledFormError");
     }
   };
 
   useEffect(() => {
     const getStripeKey = async () => {
       try {
-        const response = await fetch(`${process.env.DASHBOARD_BASE_URL}/services/stripe/public_key`);
+        const response = await fetch(
+          `${process.env.DASHBOARD_BASE_URL}/services/stripe/public_key`
+        );
         const data = await response.json();
         setStripePublicKey(data.public_key);
       } catch (error) {
-        console.error('Failed to get Stripe public key:', error);
+        console.error("Failed to get Stripe public key:", error);
       }
     };
 
@@ -268,6 +273,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
       />
       <CheckoutPage
         title="Checkout"
+        paymentId={paymentId}
         stripePublicKey={stripePublicKey}
         onSuccessRedirect={handleCheckoutSuccess}
         hideWizardActions

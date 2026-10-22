@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component, useRef, useState } from "react";
 import {
   CardElement,
   Elements,
@@ -7,7 +7,7 @@ import {
 } from "@stripe/react-stripe-js";
 import ErrorEmailRedirection from "../ErrorEmailRedirection";
 import ThreeDotLoader from "../shared/three-dot-loader";
-import { signupForClass } from "./api";
+import { completeClassSignupPayment } from "./api";
 
 import { loadStripe } from "@stripe/stripe-js";
 
@@ -33,7 +33,8 @@ const CardError = ({ cardError }) => {
   );
 };
 
-const CheckoutForm = props => {
+export const CheckoutForm = props => {
+  const submitting = useRef(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [cardError, setCardError] = useState();
   const [isCreditCard, setIsCreditCard] = useState(false);
@@ -62,29 +63,31 @@ const CheckoutForm = props => {
     };
   };
 
-  const handleCardChange = async (event) => {
+  const handleCardChange = async event => {
     setCardComplete(event.complete);
 
     if (event.complete) {
       try {
         const cardElement = elements.getElement(CardElement);
         const { paymentMethod, error } = await stripe.createPaymentMethod({
-          type: 'card',
+          type: "card",
           card: cardElement,
           billing_details: getBillingDetails(),
         });
 
         if (!error && paymentMethod) {
-          setIsCreditCard(paymentMethod.card?.funding === 'credit');
+          setIsCreditCard(paymentMethod.card?.funding === "credit");
         }
       } catch (error) {
-        console.error('Error detecting card type:', error);
+        console.error("Error detecting card type:", error);
       }
     }
   };
 
   const calculateTotal = () => {
-    const baseAmount = parseFloat(props.parentState.values.price_shown_to_customer);
+    const baseAmount = parseFloat(
+      props.parentState.values.price_shown_to_customer
+    );
     if (isCreditCard && baseAmount > 0) {
       const fee = baseAmount * 0.03;
       return (baseAmount + fee).toFixed(2);
@@ -93,7 +96,9 @@ const CheckoutForm = props => {
   };
 
   const calculateFee = () => {
-    const baseAmount = parseFloat(props.parentState.values.price_shown_to_customer);
+    const baseAmount = parseFloat(
+      props.parentState.values.price_shown_to_customer
+    );
     if (isCreditCard && baseAmount > 0) {
       return (baseAmount * 0.03).toFixed(2);
     }
@@ -102,40 +107,44 @@ const CheckoutForm = props => {
 
   const handleSubmit = async ev => {
     ev.preventDefault();
+    if (submitting.current || !stripe || !elements) return;
+    submitting.current = true;
     setIsSubmitting(true);
     setCardError(null);
+    let paymentSucceeded = false;
 
     try {
-      const formValues = props.parentState.values;
+      if (!Number.isSafeInteger(props.paymentId) || props.paymentId <= 0) {
+        setCardError({
+          message:
+            "The signup payment is missing. Please contact The Coding Space for a payment link.",
+        });
+        return;
+      }
       const cardElement = elements.getElement(CardElement);
 
       // Create payment method to detect card type
-      const { paymentMethod, error: paymentMethodError } = await stripe.createPaymentMethod({
-        type: 'card',
-        card: cardElement,
-        billing_details: getBillingDetails(),
-      });
+      const { paymentMethod, error: paymentMethodError } =
+        await stripe.createPaymentMethod({
+          type: "card",
+          card: cardElement,
+          billing_details: getBillingDetails(),
+        });
 
       if (paymentMethodError) {
         setCardError(paymentMethodError);
-        setIsSubmitting(false);
         console.error(paymentMethodError);
         return;
       }
 
       // Check if it's a credit card
-      const isCreditCard = paymentMethod.card?.funding === 'credit';
+      const isCreditCard = paymentMethod.card?.funding === "credit";
 
-      // Call backend to create payment intent and finalize signup
-      const signupParams = {
-        ...formValues,
+      // Pay the reservation created on Confirm; never create another signup here.
+      const res = await completeClassSignupPayment(props.paymentId, {
         apply_credit_card_fee: isCreditCard,
-        create_payment_intent: true,
         payment_method_id: paymentMethod.id,
-        submitting_form: true,
-      };
-
-      const res = await signupForClass(signupParams);
+      });
 
       if (res.nextStep === "requires_action" && res.paymentIntent) {
         // Handle 3DS authentication
@@ -145,45 +154,64 @@ const CheckoutForm = props => {
 
         if (confirmError) {
           setCardError(confirmError);
-          setIsSubmitting(false);
           return;
         }
 
         // After successful 3DS, verify payment completed and then redirect
-        const { paymentIntent } = await stripe.retrievePaymentIntent(
-          res.paymentIntent.client_secret
-        );
+        const { paymentIntent, error: retrieveError } =
+          await stripe.retrievePaymentIntent(res.paymentIntent.client_secret);
 
-        if (paymentIntent.status === 'succeeded') {
+        if (retrieveError) {
+          setCardError(retrieveError);
+        } else if (paymentIntent?.status === "succeeded") {
+          paymentSucceeded = true;
           props.onSuccessRedirect(res.adsTracking);
         } else {
-          setCardError({ message: "Payment authentication failed. Please try again." });
-          setIsSubmitting(false);
+          setCardError({
+            message: "Payment authentication failed. Please try again.",
+          });
         }
       } else if (res.nextStep === "send_confirmation") {
+        paymentSucceeded = true;
         props.onSuccessRedirect(res.adsTracking);
       } else {
         throw new Error("Next step unknown!");
       }
     } catch (error) {
-      if (error.status === 422) {
-        setCardError({ message: "Please check your information and try again." });
+      if (error.status === 422 || error.status === 409) {
+        setCardError({
+          message:
+            error.message || "Please check your information and try again.",
+        });
       } else {
-        setCardError({ message: "An unexpected error occurred. Please try again." });
+        setCardError({
+          message: "An unexpected error occurred. Please try again.",
+        });
       }
-      setIsSubmitting(false);
       console.error(error);
+    } finally {
+      // Keep Purchase locked after success while navigation finishes.
+      if (!paymentSucceeded) {
+        submitting.current = false;
+        setIsSubmitting(false);
+      }
     }
   };
 
-  const baseAmount = parseFloat(props.parentState.values.price_shown_to_customer);
+  const baseAmount = parseFloat(
+    props.parentState.values.price_shown_to_customer
+  );
   const feeAmount = calculateFee();
   const totalAmount = calculateTotal();
 
   return (
     <div className="card-checkout">
       <div className="payment-reminder">
-        <p>Please note that payments using a credit card will incur a 3% processing fee. To avoid this fee you can use a debit card, which will remain as a no-fee option.</p>
+        <p>
+          Please note that payments using a credit card will incur a 3%
+          processing fee. To avoid this fee you can use a debit card, which will
+          remain as a no-fee option.
+        </p>
       </div>
       <div>
         Card details
@@ -211,12 +239,12 @@ const CheckoutForm = props => {
       </div>
 
       <button
+        type="button"
         onClick={handleSubmit}
-        disabled={isSubmitting || !cardComplete}
+        disabled={isSubmitting || !cardComplete || !stripe || !elements}
         style={{ display: "flex", justifyContent: "center" }}
       >
-        Purchase for ${totalAmount}{" "}
-        {isSubmitting && <ThreeDotLoader />}
+        Purchase for ${totalAmount} {isSubmitting && <ThreeDotLoader />}
       </button>
       <small>
         This charge will be billed by <em>Private Prep LLC</em>.
@@ -243,7 +271,10 @@ class CheckoutPage extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.stripePublicKey && this.props.stripePublicKey !== prevProps.stripePublicKey) {
+    if (
+      this.props.stripePublicKey &&
+      this.props.stripePublicKey !== prevProps.stripePublicKey
+    ) {
       this.setState({ stripePromise: loadStripe(this.props.stripePublicKey) });
     }
   }

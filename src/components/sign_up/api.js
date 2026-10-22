@@ -8,6 +8,19 @@ export const signupForClass = params =>
     }
   );
 
+export const completeClassSignupPayment = (paymentId, params) => {
+  if (!Number.isSafeInteger(paymentId) || paymentId <= 0) {
+    throw new Error(
+      "The signup payment is missing. Please contact The Coding Space for a payment link."
+    );
+  }
+
+  return POST(
+    `${process.env.DASHBOARD_BASE_URL}/services/class_signups/${paymentId}/complete_abandoned_cart`,
+    params
+  );
+};
+
 export const getClassOverview = (classTypeId, isTrailClass = false) =>
   GET(
     `${
