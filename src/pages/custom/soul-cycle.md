@@ -53,6 +53,9 @@ pageBuilder:
       R﻿egister at Soul Cycle Here: [souleast83@soul-cycle.com](souleast83@soul-cycle.com)
 
 
+      F﻿irst time riders join for $25, returning riders join for $35 ($7 OFF)!
+
+
       P﻿lease reach out to info@thecodingspace.com for any assistance.
 
 
