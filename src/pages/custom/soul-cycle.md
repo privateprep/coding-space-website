@@ -43,11 +43,14 @@ pageBuilder:
 
 
 
-      4:30-6:00 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4861)
+      The Coding Space 4:30-6:00 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4861)
 
 
 
-      5:00-6:30 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4862)
+      The Coding Space 5:00-6:30 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4862)
+
+
+      R﻿egister at Soul Cycle Here: [souleast83@soul-cycle.com](souleast83@soul-cycle.com)
 
 
       P﻿lease reach out to info@thecodingspace.com for any assistance.
