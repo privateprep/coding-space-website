@@ -20,7 +20,7 @@ pageBuilder:
 
 
 
-      **Date:** Wednesday, November 18
+      **Date:** Wednesday, November 18, 2026
 
 
 
