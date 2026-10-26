@@ -83,7 +83,7 @@ pageBuilder:
 
       * **micro:bit Create AI, Arduino, & more** → train models using real sensor data (in-person only)
 
-      * **Lovable** → vibe code websites and apps to bring ideas to life
+      * **AI-assisted coding** → vibe code websites and apps to bring ideas to life
 
 
       All while learning *why* AI behaves the way it does and *how* to use it responsibly.
