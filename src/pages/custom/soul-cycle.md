@@ -50,13 +50,13 @@ pageBuilder:
       The Coding Space 5:00-6:30 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4862)
 
 
+      P﻿lease reach out to info@thecodingspace.com for any assistance.
+
+
       R﻿egister at Soul Cycle Here: [souleast83@soul-cycle.com](souleast83@soul-cycle.com)
 
 
       F﻿irst time riders join for $25, returning riders join for $35 ($7 OFF)!
-
-
-      P﻿lease reach out to info@thecodingspace.com for any assistance.
 
 
       *Ages 6-13. No coding experience required. Discount code only to be used for the dates and times above.*
