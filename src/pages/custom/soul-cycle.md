@@ -24,13 +24,13 @@ pageBuilder:
       **Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
 
 
-      **Price:** $75 per child (special event pricing, $21 OFF)
+      **Coding Class Price:** $75 per child (special event pricing, $21 OFF)
 
 
-      **Kids’ class:** The Coding Space, 201 E 83rd St
+      **Kids’ Coding Class:** The Coding Space, 201 E 83rd St
 
 
-      **Parents’ ride:** SoulCycle, 1470 3rd Ave
+      **Parents’ Soul Cycle Ride** SoulCycle, 1470 3rd Ave
 
 
       REGISTER NOW for TCS using code **SOULCYCLE** ($21 OFF) + Register separately for Soul Cycle.\
