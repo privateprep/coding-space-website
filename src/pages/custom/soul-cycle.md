@@ -45,8 +45,8 @@ pageBuilder:
       P﻿lease reach out to info@thecodingspace.com for any assistance.
 
 
-      R﻿egister at Soul Cycle Here: [souleast83@soul-cycle.com](souleast83@soul-cycle.com)
-
-
       *Ages 6-13. No coding experience required. Discount code only to be used for the dates and times above.*
+
+
+      $75 per child covers the 90-minute coding class only. Parents book and pay for their SoulCycle class separately. Email souleast83@soul-cycle.com to book.
 ---
