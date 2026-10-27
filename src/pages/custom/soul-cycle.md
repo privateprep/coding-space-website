@@ -21,7 +21,7 @@ pageBuilder:
       **Date:** Wednesday, November 18, 2026
 
 
-      **Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
+      **Coding Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
 
 
       **Coding Class Price:** $75 per child (special event pricing, $21 OFF)
