@@ -18,33 +18,25 @@ pageBuilder:
       On Wednesday, November 18, 2026, drop your kids off at The Coding Space for a hands-on coding class, then head across the street for a SoulCycle ride. You get a workout and time to yourself, and they get to build something of their own. 
 
 
-
-
       **Date:** Wednesday, November 18, 2026
-
 
 
       **Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
 
 
-
       **Price:** $75 per child (special event pricing, $21 OFF)
-
 
 
       **Kids’ class:** The Coding Space, 201 E 83rd St
 
 
-
       **Parents’ ride:** SoulCycle, 1470 3rd Ave
 
 
-      REGISTER NOW using code **SOULCYCLE** ($21 OFF).
-
+      REGISTER NOW for TCS using code **SOULCYCLE** ($21 OFF) + Register separately for Soul Cycle
 
 
       The Coding Space 4:30-6:00 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4861)
-
 
 
       The Coding Space 5:00-6:30 class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4862)
@@ -54,9 +46,6 @@ pageBuilder:
 
 
       R﻿egister at Soul Cycle Here: [souleast83@soul-cycle.com](souleast83@soul-cycle.com)
-
-
-      F﻿irst time riders join for $25, returning riders join for $35 ($7 OFF)!
 
 
       *Ages 6-13. No coding experience required. Discount code only to be used for the dates and times above.*
