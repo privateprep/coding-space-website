@@ -1,6 +1,6 @@
 ---
 templateKey: custom-page
-title: The Coding Space x Soul Cycle
+title: TCS x Soul Cycle
 titleColor: "#264548"
 description: Soul Cycle x TCS Partnership
 heroImage:
