@@ -5,7 +5,7 @@ const babel = require("@babel/core");
 const React = require("react");
 
 // Exercise the real component event handlers without a browser or live Stripe.
-function loadModule(file, imports) {
+function loadModule(file, imports, globals = {}) {
   const filename = path.join(__dirname, "..", file);
   const { code } = babel.transformFileSync(filename, {
     babelrc: false,
@@ -27,6 +27,9 @@ function loadModule(file, imports) {
       },
       fetch: async () => ({ json: async () => ({ public_key: "pk_test" }) }),
       console: { error: () => {} },
+      setTimeout,
+      clearTimeout,
+      ...globals,
     },
     { filename }
   );
@@ -79,6 +82,19 @@ function find(element, predicate) {
 }
 
 function fixture() {
+  const timers = new Set();
+  const timerGlobals = {
+    setTimeout: callback => {
+      timers.add(callback);
+      return callback;
+    },
+    clearTimeout: callback => timers.delete(callback),
+  };
+  const progress = loadModule(
+    "src/components/sign_up/checkoutProgress.js",
+    {},
+    timerGlobals
+  );
   const requests = [];
   const responses = [];
   const redirects = [];
@@ -106,6 +122,7 @@ function fixture() {
     "./CheckoutPage": "CheckoutPage",
     "../BuilderComponents/BoxWithLogo": "BoxWithLogo",
     "./styles/sign-up.scss": {},
+    "./checkoutProgress": progress,
     "./formFields": Object.fromEntries(
       [
         "overviewFields",
@@ -154,7 +171,8 @@ function fixture() {
     },
   };
   const paymentHooks = hooks();
-  const { CheckoutForm } = loadModule(
+  let stripeLoader = async () => stripe;
+  const { CheckoutForm, default: CheckoutPage } = loadModule(
     "src/components/sign_up/CheckoutPage.js",
     {
       react: paymentHooks.react,
@@ -164,11 +182,13 @@ function fixture() {
         useStripe: () => stripe,
         useElements: () => ({ getElement: () => "card" }),
       },
-      "@stripe/stripe-js": { loadStripe: () => {} },
-      "../ErrorEmailRedirection": "ErrorEmailRedirection",
+      "@stripe/stripe-js": { loadStripe: () => stripeLoader() },
+      "./CheckoutHelp": "CheckoutHelp",
+      "./checkoutProgress": progress,
       "../shared/three-dot-loader": "ThreeDotLoader",
       "./api": api,
-    }
+    },
+    timerGlobals
   );
   const renderPayment = () => {
     const checkout = find(
@@ -187,6 +207,11 @@ function fixture() {
   const error = () =>
     find(renderPayment(), element => element.type.name === "CardError")?.props
       .cardError;
+  const submitDetails = () =>
+    find(
+      renderSignup(),
+      element => element.type === "ConfirmationPage"
+    ).props.onSubmit(formValues, { setSubmitting() {}, setErrors() {} });
   return {
     api,
     requests,
@@ -198,6 +223,26 @@ function fixture() {
     purchase,
     error,
     renderPayment,
+    submitDetails,
+    renderSignup,
+    fireTimers() {
+      [...timers].forEach(callback => {
+        timers.delete(callback);
+        callback();
+      });
+    },
+    timerCount: () => timers.size,
+    setStripeLoader(loader) {
+      stripeLoader = loader;
+    },
+    checkoutPage() {
+      const page = new CheckoutPage();
+      page.props = { stripePublicKey: "pk_test", paymentId: 42 };
+      page.setState = update => {
+        page.state = { ...page.state, ...update };
+      };
+      return page;
+    },
     async initialize() {
       renderSignup();
       signupHooks.runEffects();
@@ -212,10 +257,7 @@ function fixture() {
       }
     ) {
       responses.push(result);
-      await find(
-        renderSignup(),
-        element => element.type === "ConfirmationPage"
-      ).props.onSubmit(formValues, { setSubmitting() {}, setErrors() {} });
+      await submitDetails();
     },
   };
 }
@@ -254,7 +296,10 @@ async function run() {
   await retry.initialize();
   await retry.reserve();
   retry.responses.push(
-    Object.assign(new Error("Your card was declined."), { status: 422 })
+    Object.assign(new Error("Your card was declined."), {
+      status: 422,
+      body: { code: "card_declined" },
+    })
   );
   await retry.purchase();
   assert.equal(retry.error().message, "Your card was declined.");
@@ -349,6 +394,204 @@ async function run() {
   assert.equal(doubleClick.redirects.length, 1);
   await doubleClick.purchase();
   assert.equal(doubleClick.requests.length, 2);
+
+  // A stalled Stripe call warns without creating a payment or accepting another click.
+  const slowCard = fixture();
+  await slowCard.initialize();
+  await slowCard.reserve();
+  let releaseCard;
+  slowCard.stripe.createPaymentMethod = () =>
+    new Promise(resolve => {
+      releaseCard = resolve;
+    });
+  const cardAttempt = slowCard.purchase();
+  slowCard.fireTimers();
+  assert.match(
+    find(slowCard.renderPayment(), el => el.props.role === "status").props
+      .children,
+    /Card verification is taking longer/
+  );
+  await slowCard.purchase();
+  assert.equal(slowCard.requests.length, 1);
+  releaseCard({ error: { message: "Card details are incomplete" } });
+  await cardAttempt;
+  assert.equal(slowCard.timerCount(), 0);
+
+  // Slow charge responses remain locked, but late success is still handled once.
+  const slowCharge = fixture();
+  await slowCharge.initialize();
+  await slowCharge.reserve();
+  let releaseCharge;
+  slowCharge.responses.push(
+    new Promise(resolve => {
+      releaseCharge = resolve;
+    })
+  );
+  const chargeAttempt = slowCharge.purchase();
+  await new Promise(resolve => setImmediate(resolve));
+  slowCharge.fireTimers();
+  assert.match(
+    find(slowCharge.renderPayment(), el => el.props.role === "status").props
+      .children,
+    /Payment is taking longer/
+  );
+  await slowCharge.purchase();
+  assert.equal(slowCharge.requests.length, 2);
+  releaseCharge({ nextStep: "send_confirmation" });
+  await chargeAttempt;
+  assert.equal(slowCharge.redirects.length, 1);
+  assert.equal(slowCharge.timerCount(), 0);
+
+  for (const failure of [
+    new Error("Network failed"),
+    Object.assign(new Error("Stripe unavailable"), {
+      status: 422,
+      body: { code: "payment_status_unknown" },
+    }),
+  ]) {
+    const uncertain = fixture();
+    await uncertain.initialize();
+    await uncertain.reserve();
+    uncertain.responses.push(failure);
+    await uncertain.purchase();
+    assert.match(
+      find(uncertain.renderPayment(), el => el.props.role === "status").props
+        .children,
+      /Do not submit another payment/
+    );
+    assert.equal(
+      find(uncertain.renderPayment(), el => el.type === "button").props
+        .disabled,
+      true
+    );
+    await uncertain.purchase();
+    assert.equal(uncertain.requests.length, 2);
+    assert.equal(uncertain.redirects.length, 0);
+  }
+
+  const slowSignup = fixture();
+  await slowSignup.initialize();
+  let releaseSignup;
+  const reservation = slowSignup.reserve(
+    new Promise(resolve => {
+      releaseSignup = resolve;
+    })
+  );
+  slowSignup.fireTimers();
+  assert.match(
+    slowSignup.renderSignup().props.submitError.message,
+    /Registration is taking longer/
+  );
+  releaseSignup({
+    nextStep: "collect_payment",
+    paymentId: 42,
+    stripePublicKey: "pk_test",
+  });
+  await reservation;
+  await slowSignup.submitDetails();
+  assert.equal(slowSignup.requests.length, 1);
+  assert.equal(slowSignup.renderSignup().props.submitError, undefined);
+
+  const unknownSignup = fixture();
+  await unknownSignup.initialize();
+  await assert.rejects(unknownSignup.reserve(new Error("Network failed")));
+  await assert.rejects(unknownSignup.submitDetails());
+  assert.equal(unknownSignup.requests.length, 1);
+  assert.match(
+    unknownSignup.renderSignup().props.submitError.message,
+    /registration may already exist/
+  );
+
+  const duplicate = fixture();
+  await duplicate.initialize();
+  await assert.rejects(
+    duplicate.reserve(
+      Object.assign(new Error("Already signed up"), {
+        status: 422,
+        body: { code: "signup_already_exists" },
+      })
+    )
+  );
+  assert.match(
+    duplicate.renderSignup().props.submitError.message,
+    /resuming payment/
+  );
+
+  const loader = fixture();
+  const page = loader.checkoutPage();
+  let releaseLoader;
+  loader.setStripeLoader(
+    () =>
+      new Promise(resolve => {
+        releaseLoader = resolve;
+      })
+  );
+  const loading = page.initializeStripe();
+  await new Promise(resolve => setImmediate(resolve));
+  loader.fireTimers();
+  assert.match(page.state.loadError, /payment form could not load/);
+  releaseLoader(loader.stripe);
+  await loading;
+  assert.equal(page.state.loadError, null);
+  assert.strictEqual(page.state.stripePromise, loader.stripe);
+  for (const load of [
+    async () => null,
+    async () => {
+      throw new Error("Blocked script");
+    },
+  ]) {
+    loader.setStripeLoader(load);
+    await page.initializeStripe();
+    assert.match(page.state.loadError, /No payment has been submitted/);
+  }
+  page.props.stripePublicKey = null;
+  await page.initializeStripe();
+  assert.match(page.state.loadError, /payment form could not load/);
+
+  const Wizard = loadModule("src/components/sign_up/Wizard.js", {
+    react: React,
+    yup: {},
+    formik: { Formik: "Formik" },
+    "./CheckoutHelp": "CheckoutHelp",
+    "../shared/three-dot-loader": "ThreeDotLoader",
+    "./StepMenu": "StepMenu",
+  }).default;
+  const wizard = new Wizard({ initialValues: { photo_release: true } });
+  wizard.props = {
+    submitError: { message: "Stale error from an earlier attempt" },
+    children: [
+      React.createElement("page", { onSubmit: async () => {} }),
+      React.createElement("page", {}),
+    ],
+  };
+  wizard.setState = update => {
+    wizard.state = {
+      ...wizard.state,
+      ...(typeof update === "function" ? update(wizard.state) : update),
+    };
+  };
+  let resetValues;
+  const bag = {
+    resetForm: values => {
+      resetValues = values;
+    },
+    setSubmitting() {},
+  };
+  await wizard.handleSubmit({ parent_first: "Test" }, bag);
+  assert.equal(wizard.state.page, 1);
+  assert.equal(resetValues.values.photo_release, true);
+  assert.equal(resetValues.values.parent_first, "Test");
+  await wizard.handleSubmit({}, bag); // Enter on payment page has no wizard handler.
+  assert.equal(wizard.state.manualSubmitting, false);
+  wizard.state.page = 0;
+  wizard.props.children[0] = React.createElement("page", {
+    onSubmit: () => {
+      throw new Error("Unexpected failure");
+    },
+  });
+  await wizard.handleSubmit({}, bag);
+  assert.match(wizard.state.unexpectedError.message, /contact admissions/);
+  assert.equal(wizard.state.manualSubmitting, false);
 
   console.log(
     "Legacy checkout tests passed: reservation handoff, fees, decline retry, 3DS, errors, tracking, missing IDs, double click."

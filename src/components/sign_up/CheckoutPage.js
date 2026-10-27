@@ -1,13 +1,14 @@
-import React, { Component, useRef, useState } from "react";
+import React, { Component, useEffect, useRef, useState } from "react";
 import {
   CardElement,
   Elements,
   useStripe,
   useElements,
 } from "@stripe/react-stripe-js";
-import ErrorEmailRedirection from "../ErrorEmailRedirection";
 import ThreeDotLoader from "../shared/three-dot-loader";
 import { completeClassSignupPayment } from "./api";
+import CheckoutHelp from "./CheckoutHelp";
+import { waitForCheckout, UNKNOWN_PAYMENT_MESSAGE } from "./checkoutProgress";
 
 import { loadStripe } from "@stripe/stripe-js";
 
@@ -24,7 +25,6 @@ const CardError = ({ cardError }) => {
   return (
     <div className="card-error">
       <p className="card-error__message">{error.message}</p>
-      <ErrorEmailRedirection />
       <details>
         <summary>Details</summary>
         <pre>{JSON.stringify(error, null, 2)}</pre>
@@ -35,13 +35,39 @@ const CardError = ({ cardError }) => {
 
 export const CheckoutForm = props => {
   const submitting = useRef(false);
+  const mounted = useRef(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [progress, setProgress] = useState("");
+  const [paymentUncertain, setPaymentUncertain] = useState(false);
   const [cardError, setCardError] = useState();
   const [isCreditCard, setIsCreditCard] = useState(false);
   const [cardComplete, setCardComplete] = useState(false);
+  const [cardReady, setCardReady] = useState(false);
 
   const stripe = useStripe();
   const elements = useElements();
+
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (cardReady) return;
+    const timer = setTimeout(() => {
+      setProgress(
+        "The card form is taking longer than expected to load. No payment has been submitted. Contact admissions for help with this registration."
+      );
+    }, 20000);
+    return () => clearTimeout(timer);
+  }, [cardReady]);
+
+  const wait = (operation, message) =>
+    waitForCheckout(operation, () => {
+      if (mounted.current) setProgress(message);
+    });
 
   const getBillingDetails = () => {
     const {
@@ -65,6 +91,7 @@ export const CheckoutForm = props => {
 
   const handleCardChange = async event => {
     setCardComplete(event.complete);
+    if (event.error) setCardError(event.error);
 
     if (event.complete) {
       try {
@@ -112,6 +139,9 @@ export const CheckoutForm = props => {
     setIsSubmitting(true);
     setCardError(null);
     let paymentSucceeded = false;
+    let chargeSubmitted = false;
+    let retryAllowed = false;
+    setProgress("Checking card details...");
 
     try {
       if (!Number.isSafeInteger(props.paymentId) || props.paymentId <= 0) {
@@ -124,12 +154,17 @@ export const CheckoutForm = props => {
       const cardElement = elements.getElement(CardElement);
 
       // Create payment method to detect card type
-      const { paymentMethod, error: paymentMethodError } =
-        await stripe.createPaymentMethod({
-          type: "card",
-          card: cardElement,
-          billing_details: getBillingDetails(),
-        });
+      const { paymentMethod, error: paymentMethodError } = await wait(
+        () =>
+          stripe.createPaymentMethod({
+            type: "card",
+            card: cardElement,
+            billing_details: getBillingDetails(),
+          }),
+        "Card verification is taking longer than expected. Keep this page open; no payment request has been sent to Dashboard yet."
+      );
+
+      if (!mounted.current) return;
 
       if (paymentMethodError) {
         setCardError(paymentMethodError);
@@ -141,25 +176,47 @@ export const CheckoutForm = props => {
       const isCreditCard = paymentMethod.card?.funding === "credit";
 
       // Pay the reservation created on Confirm; never create another signup here.
-      const res = await completeClassSignupPayment(props.paymentId, {
-        apply_credit_card_fee: isCreditCard,
-        payment_method_id: paymentMethod.id,
-      });
+      chargeSubmitted = true;
+      setProgress(
+        "Processing payment. Please keep this page open and do not submit again."
+      );
+      const res = await wait(
+        () =>
+          completeClassSignupPayment(props.paymentId, {
+            apply_credit_card_fee: isCreditCard,
+            payment_method_id: paymentMethod.id,
+          }),
+        "Payment is taking longer than expected. Its status is not confirmed. Keep this page open and do not submit another payment; contact admissions if it does not finish."
+      );
+
+      if (!mounted.current) return;
 
       if (res.nextStep === "requires_action" && res.paymentIntent) {
         // Handle 3DS authentication
-        const { error: confirmError } = await stripe.confirmCardPayment(
-          res.paymentIntent.client_secret
+        setProgress(
+          "Complete your bank's verification to finish payment. Please keep this page open."
+        );
+        const { error: confirmError } = await wait(
+          () => stripe.confirmCardPayment(res.paymentIntent.client_secret),
+          "We are still waiting for bank verification. Do not submit another payment. Complete the verification window, or contact admissions if it is not visible."
         );
 
+        if (!mounted.current) return;
+
         if (confirmError) {
+          retryAllowed =
+            confirmError.payment_intent?.status === "requires_payment_method";
           setCardError(confirmError);
           return;
         }
 
         // After successful 3DS, verify payment completed and then redirect
-        const { paymentIntent, error: retrieveError } =
-          await stripe.retrievePaymentIntent(res.paymentIntent.client_secret);
+        const { paymentIntent, error: retrieveError } = await wait(
+          () => stripe.retrievePaymentIntent(res.paymentIntent.client_secret),
+          UNKNOWN_PAYMENT_MESSAGE
+        );
+
+        if (!mounted.current) return;
 
         if (retrieveError) {
           setCardError(retrieveError);
@@ -167,8 +224,11 @@ export const CheckoutForm = props => {
           paymentSucceeded = true;
           props.onSuccessRedirect(res.adsTracking);
         } else {
+          retryAllowed = paymentIntent?.status === "requires_payment_method";
           setCardError({
-            message: "Payment authentication failed. Please try again.",
+            message: retryAllowed
+              ? "Payment authentication failed. You can try another card on this page."
+              : UNKNOWN_PAYMENT_MESSAGE,
           });
         }
       } else if (res.nextStep === "send_confirmation") {
@@ -178,6 +238,9 @@ export const CheckoutForm = props => {
         throw new Error("Next step unknown!");
       }
     } catch (error) {
+      if (!mounted.current) return;
+      retryAllowed =
+        error.status === 422 && error.body?.code === "card_declined";
       if (error.status === 422 || error.status === 409) {
         setCardError({
           message:
@@ -185,15 +248,31 @@ export const CheckoutForm = props => {
         });
       } else {
         setCardError({
-          message: "An unexpected error occurred. Please try again.",
+          message: chargeSubmitted
+            ? UNKNOWN_PAYMENT_MESSAGE
+            : "Card verification could not finish. No payment request was sent to Dashboard. Please try again on this page.",
         });
       }
-      console.error(error);
+      console.error("Checkout request failed", {
+        paymentId: props.paymentId,
+        status: error.status,
+        chargeSubmitted,
+      });
     } finally {
       // Keep Purchase locked after success while navigation finishes.
-      if (!paymentSucceeded) {
+      if (
+        mounted.current &&
+        !paymentSucceeded &&
+        chargeSubmitted &&
+        !retryAllowed
+      ) {
+        setPaymentUncertain(true);
+        setProgress(UNKNOWN_PAYMENT_MESSAGE);
+        setIsSubmitting(false);
+      } else if (mounted.current && !paymentSucceeded) {
         submitting.current = false;
         setIsSubmitting(false);
+        setProgress("");
       }
     }
   };
@@ -215,9 +294,23 @@ export const CheckoutForm = props => {
       </div>
       <div>
         Card details
-        <CardElement onChange={handleCardChange} />
+        <CardElement
+          onChange={handleCardChange}
+          onReady={() => {
+            setCardReady(true);
+            setProgress("");
+          }}
+        />
       </div>
-      {!!cardError && <CardError cardError={cardError} />}
+      {!!cardError && cardError.message !== progress && (
+        <CardError cardError={cardError} />
+      )}
+      {!!progress && (
+        <p role="status" aria-live="polite">
+          {progress}
+        </p>
+      )}
+      {(cardError || progress) && <CheckoutHelp paymentId={props.paymentId} />}
 
       <div className="payment-summary">
         <div className="payment-breakdown">
@@ -241,7 +334,13 @@ export const CheckoutForm = props => {
       <button
         type="button"
         onClick={handleSubmit}
-        disabled={isSubmitting || !cardComplete || !stripe || !elements}
+        disabled={
+          isSubmitting ||
+          paymentUncertain ||
+          !cardComplete ||
+          !stripe ||
+          !elements
+        }
         style={{ display: "flex", justifyContent: "center" }}
       >
         Purchase for ${totalAmount} {isSubmitting && <ThreeDotLoader />}
@@ -261,31 +360,64 @@ class CheckoutPage extends Component {
     super();
     this.state = {
       stripePromise: null,
+      loadError: null,
     };
+    this.loadVersion = 0;
   }
 
   componentDidMount() {
-    if (this.props.stripePublicKey) {
-      this.setState({ stripePromise: loadStripe(this.props.stripePublicKey) });
-    }
+    this.initializeStripe();
   }
 
   componentDidUpdate(prevProps) {
-    if (
-      this.props.stripePublicKey &&
-      this.props.stripePublicKey !== prevProps.stripePublicKey
-    ) {
-      this.setState({ stripePromise: loadStripe(this.props.stripePublicKey) });
+    if (this.props.stripePublicKey !== prevProps.stripePublicKey) {
+      this.initializeStripe();
     }
   }
 
-  render() {
+  componentWillUnmount() {
+    this.loadVersion += 1;
+    clearTimeout(this.loadTimer);
+  }
+
+  initializeStripe() {
+    const version = ++this.loadVersion;
+    clearTimeout(this.loadTimer);
+    this.setState({ stripePromise: null, loadError: null });
+    const message =
+      "The payment form could not load. No payment has been submitted from this page. Contact admissions for help with this registration.";
     if (!this.props.stripePublicKey) {
+      this.setState({ loadError: message });
+      return;
+    }
+    this.loadTimer = setTimeout(
+      () => this.setState({ loadError: message }),
+      20000
+    );
+    return Promise.resolve()
+      .then(() => loadStripe(this.props.stripePublicKey))
+      .then(stripe => {
+        if (version !== this.loadVersion) return;
+        clearTimeout(this.loadTimer);
+        this.setState({
+          stripePromise: stripe,
+          loadError: stripe ? null : message,
+        });
+      })
+      .catch(() => {
+        if (version !== this.loadVersion) return;
+        clearTimeout(this.loadTimer);
+        this.setState({ loadError: message });
+      });
+  }
+
+  render() {
+    if (this.state.loadError) {
       return (
         <div className="checkout-page">
           <h2 className="title">Card Payment</h2>
-          <div>Loading payment form...</div>
-          <ThreeDotLoader />
+          <p role="alert">{this.state.loadError}</p>
+          <CheckoutHelp paymentId={this.props.paymentId} />
         </div>
       );
     }
