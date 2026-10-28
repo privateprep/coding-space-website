@@ -24,30 +24,30 @@ pageBuilder:
       **Coding Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
 
 
-      **Coding Class Price:** $75 per child (special event pricing, $21 OFF)
+      **S﻿oulCycle Class times (choose one)**: 4:30 PM & 5:00 PM
+
+
+      **C﻿ost: $110**
+
+
+      This one time purchase covers both seats: 1 The Coding Space class for the child, and 1 SoulCycle class for the adult, both taking place on November 18 simultaneously.  As a package, these are discounted rates for each program!
 
 
       **Kids’ Coding Class:** The Coding Space, 201 E 83rd St
 
 
-      **Parents’ Soul Cycle Ride** SoulCycle, 1470 3rd Ave
-
-
-      REGISTER NOW for TCS using code **SOULCYCLE** ($21 OFF) + Register separately for Soul Cycle.\
+      **Parents’ Soul Cycle Ride** SoulCycle, 1470 3rd Ave\
 
       \
 
-      T﻿he Coding Space 4:30-6:00 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4901) 
+      T﻿he Coding Space 4:30-6:00 Class : + Soul Cycle 4:30 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4903) 
 
 
-      T﻿he Coding Space 5:00-6:30 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4902) 
+      T﻿he Coding Space 5:00-6:30 Class + Soul Cycle 5:00 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4904) 
 
 
       P﻿lease reach out to info@thecodingspace.com for any assistance.
 
 
-      *Ages 6-13. No coding experience required. Discount code only to be used for the dates and times above.*
-
-
-      $75 per child covers the 90-minute coding class only. Parents book and pay for their SoulCycle class separately. Email souleast83@soul-cycle.com to book.
+      *Ages 6-13. No coding experience required.*
 ---
