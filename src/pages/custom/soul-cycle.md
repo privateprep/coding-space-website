@@ -24,30 +24,30 @@ pageBuilder:
       **Coding Class times (choose one):** 4:30–6:00 PM or 5:00–6:30 PM
 
 
-      **S﻿oulCycle Class times (choose one)**: 4:30 PM & 5:00 PM
+      **S﻿oulCycle Class times (choose one)**: 4:30 PM or 5:00 PM
 
 
-      **C﻿ost: $110**
+      **Total C﻿ost: $110** 
 
 
-      One purchase covers both seats: 1 Coding Space class for your child and 1 SoulCycle class for you, both on November 18. Special package pricing for this event only!
+      One purchase covers both seats: 1 The Coding Space class for your child (age 6-13) and 1 SoulCycle class for you, both on November 18. Special package pricing for this event only!
 
 
       **Kids’ Coding Class:** The Coding Space, 201 E 83rd St
 
 
-      **Parents’ Soul Cycle Ride** SoulCycle, 1470 3rd Ave\
+      **Parents’ Soul Cycle Ride:** SoulCycle, 1470 3rd Ave\
 
       \
 
-      T﻿he Coding Space 4:30-6:00 Class : + Soul Cycle 4:30 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4903) 
+      T﻿he Coding Space 4:30-6:00 Class + Soul Cycle 4:30 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4903) 
 
 
       T﻿he Coding Space 5:00-6:30 Class + Soul Cycle 5:00 Class: [REGISTER HERE](https://www.thecodingspace.com/sign_up/classes/4904) 
 
 
-      P﻿lease reach out to info@thecodingspace.com for any assistance.
+      P﻿lease reach out to info@thecodingspace.com for any questions or assistance.
 
 
-      *Ages 6-13. No coding experience required.*
+      *Ages 6-13. No coding experience required. Love the class? You can continue with The Coding Space at our regular pricing, found here:* <https://www.thecodingspace.com/locations/upper-east-side>
 ---
