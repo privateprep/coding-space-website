@@ -30,7 +30,7 @@ pageBuilder:
       **C﻿ost: $110**
 
 
-      This one time purchase covers both seats: 1 The Coding Space class for the child, and 1 SoulCycle class for the adult, both taking place on November 18 simultaneously.  As a package, these are discounted rates for each program!
+      One purchase covers both seats: 1 Coding Space class for your child and 1 SoulCycle class for you, both on November 18. Special package pricing for this event only!
 
 
       **Kids’ Coding Class:** The Coding Space, 201 E 83rd St
