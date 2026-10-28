@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { navigate } from "gatsby";
 import { DateTime } from "luxon";
 
@@ -8,6 +8,7 @@ import OverviewPage from "./OverviewPage";
 import ConfirmationPage from "./ConfirmationPage";
 import CheckoutPage from "./CheckoutPage";
 import { getClassOverview, signupForClass } from "./api";
+import { waitForCheckout, EXISTING_SIGNUP_MESSAGE } from "./checkoutProgress";
 import BoxWithLogo from "../BuilderComponents/BoxWithLogo";
 
 import {
@@ -57,6 +58,7 @@ const confirmationPageSubmitText = values => {
 };
 
 const SignUp = ({ classTypeId, location: { search } }) => {
+  const reservationAttempt = useRef(null);
   const [adsTracking, setAdsTracking] = useState({});
   const [paymentId, setPaymentId] = useState(null);
   const [stripePublicKey, setStripePublicKey] = useState(null);
@@ -140,7 +142,18 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     setSubmitError(undefined);
 
     try {
-      const res = await signupForClass(values);
+      // Keep a successful or uncertain reservation attempt instead of creating it again.
+      if (!reservationAttempt.current)
+        reservationAttempt.current = signupForClass(values);
+      const res = await waitForCheckout(
+        () => reservationAttempt.current,
+        () =>
+          setSubmitError({
+            message:
+              "Registration is taking longer than expected. Please keep this page open and do not start another signup. Contact admissions if it does not finish.",
+          })
+      );
+      setSubmitError(undefined);
       setAdsTracking(res.adsTracking);
 
       if (res.nextStep === "collect_payment") {
@@ -160,30 +173,22 @@ const SignUp = ({ classTypeId, location: { search } }) => {
     } catch (error) {
       if (error.status === 422) {
         bag.setErrors(error.errors);
+        if (error.body?.code !== "signup_already_exists")
+          reservationAttempt.current = null;
       }
-      setSubmitError(error);
+      setSubmitError({
+        message:
+          error.body?.code === "signup_already_exists"
+            ? EXISTING_SIGNUP_MESSAGE
+            : error.status === 422
+            ? error.message
+            : "We could not finish opening checkout. Your registration may already exist. Do not start another signup; contact admissions for help resuming it.",
+        paymentId,
+      });
       bag.setSubmitting(false);
       return Promise.reject("handledFormError");
     }
   };
-
-  useEffect(() => {
-    const getStripeKey = async () => {
-      try {
-        const response = await fetch(
-          `${process.env.DASHBOARD_BASE_URL}/services/stripe/public_key`
-        );
-        const data = await response.json();
-        setStripePublicKey(data.public_key);
-      } catch (error) {
-        console.error("Failed to get Stripe public key:", error);
-      }
-    };
-
-    if (!stripePublicKey) {
-      getStripeKey();
-    }
-  }, [stripePublicKey]);
 
   if (!!fetchError) {
     return (
@@ -218,6 +223,7 @@ const SignUp = ({ classTypeId, location: { search } }) => {
         "Checkout",
       ]}
       submitError={submitError}
+      lockDetails={reservationAttempt.current !== null}
     >
       <OverviewPage
         title={"Overview"}
