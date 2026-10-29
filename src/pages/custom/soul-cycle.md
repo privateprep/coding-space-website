@@ -49,5 +49,5 @@ pageBuilder:
       P﻿lease reach out to info@thecodingspace.com for any questions or assistance.
 
 
-      *Ages 6-13. No coding experience required. Love the class? You can continue with The Coding Space at our regular pricing, found here:* <https://www.thecodingspace.com/locations/upper-east-side>
+      *Ages 6-13. No coding experience required. Love the class? You can continue with The Coding Space at our regular pricing, browse here:* <https://www.thecodingspace.com/locations/upper-east-side>
 ---
