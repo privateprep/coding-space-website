@@ -86,7 +86,7 @@ pageBuilder:
       In the afternoons, campers team up to take on hands-on tech challenges designed to build collaboration and teamwork. Each challenge puts campers in real roles (builder, coder, designer, tester), and teams practice the skills every great tech team relies on: sharing ideas, listening, dividing the work, and solving problems together. Challenges connect directly to morning coding work, so campers put their new skills to use, learn from each other, and build something bigger than they could alone.
 
 
-      **Tech Pathways include:**
+      **Tech Challenges include:**
 
 
       * **Robotics:** Teams take on a mission, such as navigating a disaster zone, delivering supplies, or clearing a course, and build and program one robot together. Builders, coders, and navigators rotate roles so everyone gets hands-on with both the hardware and the logic that controls it.
