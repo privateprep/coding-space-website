@@ -80,22 +80,24 @@ pageBuilder:
       alt: Robotics pathway
     mediaPosition: right
     mdContent: >-
-      ### Afternoon: Tech Pathways
+      ### Afternoon: Team Tech Challenges
 
 
-      In the afternoons, campers choose a Tech Pathway to go deeper in a domain that interests them. Each pathway is designed to connect directly to morning coding work, giving campers the skills, tools, and assets to level up their projects. Campers can choose the same pathway all week or try different pathways each day. 
+      In the afternoons, campers team up to take on hands-on tech challenges designed to build collaboration and teamwork. Each challenge puts campers in real roles (builder, coder, designer, tester), and teams practice the skills every great tech team relies on: sharing ideas, listening, dividing the work, and solving problems together. Challenges connect directly to morning coding work, so campers put their new skills to use, learn from each other, and build something bigger than they could alone.
 
 
       **Tech Pathways include:**
 
 
-      * **Game Design:** Master the craft behind great games — level design, mechanics, and user experience. Campers apply these concepts directly to games of their own design.
+      * **Robotics:** Teams take on a mission, such as navigating a disaster zone, delivering supplies, or clearing a course, and build and program one robot together. Builders, coders, and navigators rotate roles so everyone gets hands-on with both the hardware and the logic that controls it.
 
-      * **Robotics:** Bring code off the screen and into the physical world. Campers program robots to solve challenges, seeing firsthand how the logic they write in the morning controls real hardware.
+      * **Engineering:** Teams take on design challenges, like building a marble rollercoaster, a bridge that holds the most weight, or a chain-reaction machine. They test, fail, and redesign together. 
 
-      * **D﻿igital Art:** Create everything you see on screen. Campers design sprites, animate characters, and build backdrops that plug directly into their morning coding projects — because a great game needs great visuals.
+      * **Cryptography & Cybersecurity:** Teams invent their own ciphers, writing code to encrypt secret messages, and racing to crack each other’s codes. 
 
-      * **A﻿I:** Go under the hood on how intelligent systems actually work. Campers build AI projects, connecting directly to the programming skills they're developing each morning.
+      * **Game Design:** Teams form a game studio and build a playable mini-game from scratch. Designers plan the rules, artists create the characters, coders bring it to life, and playtesters make sure it’s fun. The afternoon ends with teams playing each other’s games.
+
+      * **App Development:** Teams find a real problem and design and build an app to solve it. Campers share the jobs of designer, developer, and tester, taking their app from sketch to working prototype in one afternoon.
     fgColor: "#eec11a"
   - type: textOnly
     textAlign: center
